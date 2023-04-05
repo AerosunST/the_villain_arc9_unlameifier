@@ -1,5 +1,5 @@
 ATT.PrintName = [[Escape From Tarkov]]
-ATT.CompactName = [[GAS Converter]]
+ATT.CompactName = [[EFT Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png")
 ATT.Description = [[Enables Smorgasbord weapons to be able to use EFT optics.]]
 ATT.SortOrder = 0

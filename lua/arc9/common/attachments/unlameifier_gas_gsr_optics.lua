@@ -1,7 +1,7 @@
 ATT.PrintName = [[Gunsmith Reloaded]]
 ATT.CompactName = [[GSR Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png")
-ATT.Description = [[Enables GAS weapons to be able to use GSR Optics.]]
+ATT.Description = [[Enables GAS weapons to be able to use GSR optics.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true

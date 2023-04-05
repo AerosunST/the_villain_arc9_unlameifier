@@ -1,7 +1,7 @@
 ATT.PrintName = [[Gunsmith Arms Source]]
 ATT.CompactName = [[GAS Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png")
-ATT.Description = [[Enables CoD Pack weapons to be able to use GAS Optics.
+ATT.Description = [[Enables CoD Pack weapons to be able to use GAS optics.
 
 NOTE: Models are a bit large on CoD weapons. It still works, it just looks a little weird.]]
 ATT.SortOrder = 0

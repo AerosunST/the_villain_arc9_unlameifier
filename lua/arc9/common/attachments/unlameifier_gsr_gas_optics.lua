@@ -1,7 +1,7 @@
-ATT.PrintName = [[CoD Pack]]
-ATT.CompactName = [[CoD Converter]]
+ATT.PrintName = [[Gunsmith Arms Source]]
+ATT.CompactName = [[GAS Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png")
-ATT.Description = [[Enables GSR weapons to be able to use CoD Pack Optics (Applies to both Black Ops and Modern Warfare).]]
+ATT.Description = [[Enables GSR weapons to be able to use GAS Optics.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
@@ -17,6 +17,6 @@ ATT.Attachments = {
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1.5),
-        Category = {"cod_optic", "cod_rail_riser"},
+        Category = {"fas_optic", "fas_optic_medium", "fas_optic_small"},
     }
 }

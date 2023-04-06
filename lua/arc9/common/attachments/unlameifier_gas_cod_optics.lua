@@ -1,6 +1,6 @@
 ATT.PrintName = [[CoD Pack]]
 ATT.CompactName = [[CoD Converter]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_cod.png")
 ATT.Description = [[Enables GAS weapons to be able to use CoD Pack optics.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"

@@ -6,7 +6,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
 
-ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope", "mount_css", "optic_css_holo"}
+ATT.Category = {"optic_css", "optic_css_m", "optic_css_scope", "mount_css", "optic_css_holo", "mountr_css", "mountl_css"}
 ATT.Folder = "UNLAMEIFIER"
 ATT.IconOffset = Vector(0, 0, -1)
 

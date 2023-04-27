@@ -3,7 +3,8 @@ ATT.CompactName = [[GSR Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gsr.png")
 ATT.Description = [[Enables EFT weapons to be able to use GSR tacticals and foregrips.
 
-NOTE: Lasers look weird.]]
+NOTE: Lasers look weird.
+SECOND NOTE: UBWs do NOT work on rifles. It will spam errors and break animations. You knew what you were getting into when you installed this addon.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true

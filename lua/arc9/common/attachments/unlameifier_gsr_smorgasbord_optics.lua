@@ -6,7 +6,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
 
-ATT.Category = {"csgo_optic", "csgo_sights"}
+ATT.Category = {"csgo_optic", "csgo_sights", "csgo_optics_pistols"}
 ATT.Folder = "UNLAMEIFIER"
 ATT.IconOffset = Vector(0, 0, -1)
 

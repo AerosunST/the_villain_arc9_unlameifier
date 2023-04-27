@@ -7,6 +7,7 @@ NOTE: These are separate from tacticals due to angle issues. If you have a bette
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
+ATT.InvAtt = "unlameifier_eft_smorgasbord_tacticals_rifles"
 
 ATT.Category = {"eft_ash12_hg", "eft_foregrip_small", "eft_foregrip_medium", "eft_foregrip_large"}
 ATT.Folder = "Unlameifier"

@@ -7,6 +7,7 @@ NOTE: These are separate from underbarrels due to angle issues. If you have a be
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
+ATT.InvAtt = "unlameifier_eft_smorgasbord_tacticals_rifles"
 
 ATT.Category = {"eft_tactical_pistol", "eft_um3", "eft_g17_tac", "eft_um3", "eft_tactical", "eft_rsh12_tacticalslot"}
 ATT.Folder = "Unlameifier"

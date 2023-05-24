@@ -12,7 +12,7 @@ ATT.IconOffset = Vector(0, 0, -1)
 
 ATT.Attachments = {
     {
-        PrintName = "GSR Rail",
+        PrintName = "Smorgasbord Tactical",
         Bone = "j_gun",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 180),

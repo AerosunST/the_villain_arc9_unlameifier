@@ -9,7 +9,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
 ATT.InvAtt = "unlameifier_eft_gsr_tacticals_rifles"
 
-ATT.Category = {"eft_tactical_pistol", "eft_um3", "eft_g17_tac", "eft_um3", "eft_tactical", "eft_rsh12_tacticalslot"}
+ATT.Category = {"eft_tactical_pistol", "eft_um3", "eft_g17_tac", "eft_um3", "eft_tactical", "eft_rsh12_tacticalslot", "eft_usp_tac"}
 ATT.Folder = "Unlameifier"
 ATT.IconOffset = Vector(0, 0, -1)
 

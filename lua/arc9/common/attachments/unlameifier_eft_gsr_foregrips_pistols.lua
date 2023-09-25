@@ -1,7 +1,7 @@
-ATT.PrintName = [[Gunsmith Reloaded (TACTICALS)]]
+ATT.PrintName = [[Gunsmith Reloaded (UNDERBARREL)]]
 ATT.CompactName = [[GSR Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gsr.png")
-ATT.Description = [[Enables EFT weapons to be able to use GSR tacticals.]]
+ATT.Description = [[Enables EFT weapons to be able to use GSR Underbarrels (Grips & UBWs).]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
@@ -13,11 +13,11 @@ ATT.IconOffset = Vector(0, 0, -1)
 
 ATT.Attachments = {
     {
-        PrintName = "GSR Tactical",
+        PrintName = "GSR Underbarrel",
         Bone = "j_gun",
         Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, -180),
-        Icon_Offset = Vector(0, 0, -1),
-        Category = {"csgo_tac"},
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+        Category = {"grip", },
     }
 }

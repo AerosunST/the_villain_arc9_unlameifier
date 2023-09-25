@@ -1,7 +1,7 @@
 ATT.PrintName = [[Gunsmith Reloaded (TACTICALS)]]
 ATT.CompactName = [[GSR Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gsr.png")
-ATT.Description = [[Enables EFT weapons to be able to use GSR tacticals.]]
+ATT.Description = [[Enables EFT weapons to be able to use GSR Tacticals.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true

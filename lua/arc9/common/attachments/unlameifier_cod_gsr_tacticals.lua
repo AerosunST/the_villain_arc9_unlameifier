@@ -1,7 +1,7 @@
-ATT.PrintName = [[Gunsmith Reloaded]]
+ATT.PrintName = [[Gunsmith Reloaded (TACTICALS)]]
 ATT.CompactName = [[GSR Converter]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gsr.png")
-ATT.Description = [[Enables CoD Pack weapons to be able to use GSR equipment.]]
+ATT.Description = [[Enables CoD Pack weapons to be able to use GSR Tacticals.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
@@ -15,8 +15,8 @@ ATT.Attachments = {
         PrintName = "GSR Rail",
         Bone = "j_gun",
         Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 180),
-        Icon_Offset = Vector(0, 0, 3),
-        Category = {"grip", "csgo_tac"},
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, -3),
+        Category = {"csgo_tac"},
     }
 }

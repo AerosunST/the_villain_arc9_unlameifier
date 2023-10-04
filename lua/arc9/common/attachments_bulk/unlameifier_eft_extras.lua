@@ -207,8 +207,8 @@ ATT = {}
 
 ATT.PrintName = "Glock 17 Full Auto Sear"
 ATT.CompactName = "Full Auto"
-ATT.CustomPros = {[[Enables Fully Automatic Fire]],}
-ATT.CustomCons = {[[Locked To Fully Automatic Fire]],}
+ATT.CustomPros = {["Enables Fully Automatic Fire"] = "",}
+ATT.CustomCons = {["Locked To Fully Automatic Fire"] = "",}
 ATT.Icon = Material("entities/arc9/unlameifier/eft_glock_fullauto.png", "mips smooth")
 ATT.Description = [[Functionally similar to the infamous "Glock Switch", this is a more discrete take on its more obvious sibling. To reduce suspicion from law enforcement, the sear is installed into the backplate. This makes it appear as though the firearm has not been illegally modified until it is fired. This does, however, introduce some reliability problems. Your mileage may vary.
 

@@ -199,3 +199,42 @@ ATT.Attachments = {
 ATT.FoldSights = false
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_iron_force_up_rear")
+
+///////////////////////////////////////      Glock 17 Full Auto Sear
+
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Full Auto Sear"
+ATT.CompactName = "Full Auto"
+ATT.CustomPros = {[[Enables Fully Automatic Fire]],}
+ATT.CustomCons = {[[Locked To Fully Automatic Fire]],}
+ATT.Icon = Material("entities/arc9/unlameifier/eft_glock_fullauto.png", "mips smooth")
+ATT.Description = [[Functionally similar to the infamous "Glock Switch", this is a more discrete take on its more obvious sibling. To reduce suspicion from law enforcement, the sear is installed into the backplate. This makes it appear as though the firearm has not been illegally modified until it is fired. This does, however, introduce some reliability problems. Your mileage may vary.
+
+Unlike the Glock Switch, you cannot change the firemode due to its integral-installation design.]]
+ATT.AutoStats = true
+
+ATT.Category = {"eft_custom_glock"}
+
+ATT.Firemodes = {
+    {
+        Mode = -1,
+        -- add other attachment modifiers
+    }
+}
+
+ATT.RPMMult = 1.3
+ATT.VisualRecoilMult = 2
+ATT.MalfunctionMeanShotsToFail = 75
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_glock"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_glock_17_full_auto_balanced")

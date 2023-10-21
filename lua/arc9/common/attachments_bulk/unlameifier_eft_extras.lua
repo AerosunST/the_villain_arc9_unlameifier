@@ -307,7 +307,9 @@ ATT.CompactName = "Videogame Logic"
 ATT.CustomPros = {["Better spread"] = "",}
 ATT.CustomCons = {["Disable when using slugs"] = "",}
 ATT.Icon = Material("entities/arc9/unlameifier/eft_shotgun_videogame.png", "mips smooth")
-ATT.Description = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
+ATT.Description = [[!!! DOES NOT WORK FOR SOME REASON !!! darsu help.
+
+Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
 ATT.AutoStats = true
 
 ATT.Spread = 115 * ARC9.MOAToAcc
@@ -353,7 +355,7 @@ ATT.Attachments = {
     },
 }
 
-ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_ks23")
+ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_saiga12k")
 
 ///////////////////////////////////////      Videogame Shotguns (TOZ-106)
 

@@ -402,13 +402,13 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 80
-ATT.ActivePos = Vector(-4, -7, -2.2)
+ATT.ActivePos = Vector(-4.15, -7, -2.2)
 ATT.ActiveAng = Angle(0, 0, 0)
 ATT.ReloadPos = Vector(-3, -3, -1)
 ATT.ReloadAng = Angle(0, 0, -13)
 ATT.SprintAng = Angle(-2, 30, -7)
 ATT.SprintPos = Vector(-1, -4, -10)
-ATT.CrouchPos = Vector(-4, -5, -2)
+ATT.CrouchPos = Vector(-4.15, -5, -2)
 ATT.CrouchAng = Angle(0, 0, 0)
 
 ATT.Attachments = {

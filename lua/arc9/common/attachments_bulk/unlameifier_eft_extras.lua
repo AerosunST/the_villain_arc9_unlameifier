@@ -385,3 +385,40 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_toz106")
+
+///////////////////////////////////////      DOOM Hold Pose
+
+
+ATT = {}
+
+ATT.PrintName = "Alternative viewmodel position (DOOM)"
+ATT.CompactName = "DOOM Hold"
+ATT.Icon = Material("entities/arc9/unlameifier/eft_doom.png", "mips smooth")
+ATT.Description = [[You know what? Fuck all this tactical Bravo-Delta-Sierra-Mike larper shit. I'm playing DOOM.
+
+Makes you hold your gun at the center of the screen, like DOOM.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.ViewModelFOVBase = 80
+ATT.ActivePos = Vector(-4, -7, -2.2)
+ATT.ActiveAng = Angle(0, 0, 0)
+ATT.ReloadPos = Vector(-3, -3, -1)
+ATT.ReloadAng = Angle(0, 0, -13)
+ATT.SprintAng = Angle(-2, 30, -7)
+ATT.SprintPos = Vector(-1, -4, -10)
+ATT.CrouchPos = Vector(-4, -5, -2)
+ATT.CrouchAng = Angle(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_doom_hold")

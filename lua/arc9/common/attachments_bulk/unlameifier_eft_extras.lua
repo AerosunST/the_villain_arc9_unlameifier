@@ -224,7 +224,8 @@ ATT.Firemodes = {
     }
 }
 
-ATT.RPMMult = 1.3
+ATT.RPM = 600
+ATT.RecoilUp = 75
 ATT.VisualRecoilMult = 2
 ATT.MalfunctionMeanShotsToFail = 75
 

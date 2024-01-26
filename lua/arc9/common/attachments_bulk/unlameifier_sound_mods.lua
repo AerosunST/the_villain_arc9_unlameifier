@@ -1263,3 +1263,36 @@ ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/neosun/gunshot1s.mp3", "a
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/neosun/gunshot1s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot2s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot3s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot4s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot5s.mp3",}
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_neosun_gunshot")
+
+// Misc
+
+ATT = {}
+
+ATT.PrintName = "Sussy Noises"
+ATT.CompactName = "SUS"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[Don't ask why your rate of fire is limited to 250RPM... It's important, trust me.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.RPM = 250 // Since you're reading this, you've probably dug around in the sound files too. I'll just tell you, then. ~1228 rounds should be enough ;)
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unlameifier/soundmods/misc/clap2.ogg", "arc9/unlameifier/soundmods/misc/clap3.ogg", "arc9/unlameifier/soundmods/misc/clap4.ogg", "arc9/unlameifier/soundmods/misc/clap5.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unlameifier/soundmods/misc/clap2.ogg", "arc9/unlameifier/soundmods/misc/clap3.ogg", "arc9/unlameifier/soundmods/misc/clap4.ogg", "arc9/unlameifier/soundmods/misc/clap5.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unlameifier/soundmods/misc/clap2.ogg", "arc9/unlameifier/soundmods/misc/clap3.ogg", "arc9/unlameifier/soundmods/misc/clap4.ogg", "arc9/unlameifier/soundmods/misc/clap5.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unlameifier/soundmods/misc/clap2.ogg", "arc9/unlameifier/soundmods/misc/clap3.ogg", "arc9/unlameifier/soundmods/misc/clap4.ogg", "arc9/unlameifier/soundmods/misc/clap5.ogg",}
+ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/misc/careless_whisper.mp3"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_sussy")

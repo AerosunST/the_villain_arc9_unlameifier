@@ -1296,3 +1296,249 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "a
 ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/misc/careless_whisper.mp3"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_sussy")
+
+ATT = {}
+
+ATT.PrintName = "MAGIC MISSILE!"
+ATT.CompactName = "M. Missile"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [["Now is time for the final battle"
+-Court Wizard Chase Caspian]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlameifier/soundmods/misc/mm2.ogg", "arc9/unlameifier/soundmods/misc/mm3.ogg", "arc9/unlameifier/soundmods/misc/mm4.ogg", "arc9/unlameifier/soundmods/misc/mm5.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlameifier/soundmods/misc/mm2.ogg", "arc9/unlameifier/soundmods/misc/mm3.ogg", "arc9/unlameifier/soundmods/misc/mm4.ogg", "arc9/unlameifier/soundmods/misc/mm5.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlameifier/soundmods/misc/mm2.ogg", "arc9/unlameifier/soundmods/misc/mm3.ogg", "arc9/unlameifier/soundmods/misc/mm4.ogg", "arc9/unlameifier/soundmods/misc/mm5.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlameifier/soundmods/misc/mm2.ogg", "arc9/unlameifier/soundmods/misc/mm3.ogg", "arc9/unlameifier/soundmods/misc/mm4.ogg", "arc9/unlameifier/soundmods/misc/mm5.ogg",}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/misc/mmdry.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_magicmissile")
+
+ATT = {}
+
+ATT.PrintName = "Mr. Skeltal"
+ATT.CompactName = "Doot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[thank u mr. skeltal
+
+bullets not required for dooting.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_mrskeltal")
+
+ATT = {}
+
+ATT.PrintName = "A Message from Low Tier God"
+ATT.CompactName = "KYS"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [["Your life is NOTHING. You serve ZERO purpose".
+-LowTierGod
+
+note: Unlameifier and its creator, Neosun, does not promote, condone, or encourage suicide. If you are experiencing thoughts of self-harm or suicide, please dial 988 to get in touch with the Suicide and Crisis Lifeline (United States, refer to your country's equivalent if you are outside of the US). They are available 24 hours a day. No call is insignificant when suicide is on the mind. You matter, and you are loved.
+
+If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_ltg")
+
+// ROBLOX
+
+ATT = {}
+
+ATT.PrintName = "Paintball Gun"
+ATT.CompactName = "Paintball"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/ROBLOX"
+ATT.Description = [[Makes your gun sound like the Paintball Gun from ROBLOX.
+
+This is a certified Hood Classic.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_paintball")
+
+ATT = {}
+
+ATT.PrintName = "Slingshot"
+ATT.CompactName = "Slingshot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/ROBLOX"
+ATT.Description = [[Makes your gun sound like the Slingshot from ROBLOX.
+
+This is a certified Hood Classic.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_slingshot")
+
+ATT = {}
+
+ATT.PrintName = "Superball"
+ATT.CompactName = "Superball"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/ROBLOX"
+ATT.Description = [[Makes your gun sound like the Superball from ROBLOX.
+
+This is a certified Hood Classic.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_superball")
+
+ATT = {}
+
+ATT.PrintName = "XLS Mark II Pulse Laser Pistol"
+ATT.CompactName = "Laser Pistol"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/ROBLOX"
+ATT.Description = [[Makes your gun sound like the XLS Mark II Pulse Laser Pistol from ROBLOX.
+
+The OG "pew" sound.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_laserpistol")
+
+ATT = {}
+
+ATT.PrintName = "Red Stratobloxxer"
+ATT.CompactName = "Guitar"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/ROBLOX"
+ATT.Description = [[Makes your gun sound like the Red Stratobloxxer from ROBLOX.
+
+you might be able to play a song with it!]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_guitar")

@@ -1,9 +1,9 @@
 local ATT = {}
 
-// DOOM
+// ////////// DOOM //////////
 
 ATT.PrintName = "DOOM Pistol"
-ATT.CompactName = "DOOM Pistol"
+ATT.CompactName = "Pistol"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Pistol from DOOM (1993).]]
@@ -31,7 +31,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_pistol")
 ATT = {}
 
 ATT.PrintName = "DOOM Shotgun"
-ATT.CompactName = "DOOM Shotgun"
+ATT.CompactName = "Shotgun"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Shotgun from DOOM (1993).
@@ -61,7 +61,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_shotgun")
 ATT = {}
 
 ATT.PrintName = "DOOM BFG"
-ATT.CompactName = "DOOM BFG"
+ATT.CompactName = "BFG"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the BFG from DOOM (1993).]]
@@ -89,7 +89,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_BFG")
 ATT = {}
 
 ATT.PrintName = "DOOM Plasma Rifle"
-ATT.CompactName = "DOOM Plasma"
+ATT.CompactName = "Plasma"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Plasma Rifle from DOOM (1993).]]
@@ -117,7 +117,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_plasma")
 ATT = {}
 
 ATT.PrintName = "DOOM Rocket Launcher"
-ATT.CompactName = "DOOM Rocket"
+ATT.CompactName = "Rocket"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Rocket Launcher from DOOM (1993).]]
@@ -142,12 +142,12 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/doom/DSRLAUNC.ogg"}
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_rocket")
 
-// HL2
+// ////////// HL2 //////////
 
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 Pistol"
-ATT.CompactName = "HL2 Pistol"
+ATT.CompactName = "Pistol"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the Pistol from Half-Life 2.
@@ -177,7 +177,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_pistol")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 .357"
-ATT.CompactName = "HL2 .357"
+ATT.CompactName = ".357"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the .357 from Half-Life 2.
@@ -207,7 +207,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_357")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 AR2"
-ATT.CompactName = "HL2 AR2"
+ATT.CompactName = "AR2"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the AR2 from Half-Life 2.]]
@@ -235,7 +235,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_ar2")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 Alyx Gun"
-ATT.CompactName = "HL2 Alyx"
+ATT.CompactName = "Alyx"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the Alyx Gun from Half-Life 2.
@@ -265,7 +265,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_alyx")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 Crossbow"
-ATT.CompactName = "HL2 XBow"
+ATT.CompactName = "Crossbow"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the Crossbow from Half-Life 2.
@@ -295,7 +295,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_xbow")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 AR2 Altfire"
-ATT.CompactName = "HL2 AR2-2"
+ATT.CompactName = "AR2-2"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the AR2 Altfire from Half-Life 2.
@@ -325,7 +325,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_ar22")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 RPG"
-ATT.CompactName = "HL2 RPG"
+ATT.CompactName = "RPG"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the RPG from Half-Life 2.
@@ -355,7 +355,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_rpg")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 Shotgun"
-ATT.CompactName = "HL2 Shotgun"
+ATT.CompactName = "Shotgun"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the Shotgun from Half-Life 2.]]
@@ -383,7 +383,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_shotgun")
 ATT = {}
 
 ATT.PrintName = "Half-Life 2 SMG"
-ATT.CompactName = "HL2 SMG"
+ATT.CompactName = "SMG"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the SMG from Half-Life 2.]]
@@ -410,8 +410,8 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_smg")
 
 ATT = {}
 
-ATT.PrintName = "Half-Life 2 Airboat"
-ATT.CompactName = "HL2 Boat"
+ATT.PrintName = "Half-Life 2 Airboat Gun"
+ATT.CompactName = "Airboat Gun"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the last shot of the Airboat Gun from Half-Life 2.
@@ -438,7 +438,408 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/airboat_gun_las
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_airboat2")
 
-// CSS
+// ////////// HL1 //////////
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Pistol"
+ATT.CompactName = "Pistol"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Pistol from Half-Life 1.
+
+"Eat lead you outer space octopus"!]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/pl_gun3.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun3.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_pistol")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 .357"
+ATT.CompactName = ".357"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the .357 from Half-Life 1.
+
+naming your gun after the caliber it fires is stupid- refer to HL2 .357 for full rant.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/357_shot1.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/357_shot1.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_357")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Desert Eagle"
+ATT.CompactName = "Deagle"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Desert Eagle from Half-Life 1.
+
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/de_shot1.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/de_shot1.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_deagle")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Displacer"
+ATT.CompactName = "Displacer"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Displacer from Half-Life 1.
+
+legally distinct BFG-9000
+
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_displacer")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Tau Cannon Primary"
+ATT.CompactName = "Tau Primary"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Tau Cannon from Half-Life 1.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/unlameifier/soundmods/hl1/electro5.ogg", "arc9/unlameifier/soundmods/hl1/electro6.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/unlameifier/soundmods/hl1/electro5.ogg", "arc9/unlameifier/soundmods/hl1/electro6.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/unlameifier/soundmods/hl1/electro5.ogg", "arc9/unlameifier/soundmods/hl1/electro6.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/unlameifier/soundmods/hl1/electro5.ogg", "arc9/unlameifier/soundmods/hl1/electro6.ogg",}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_tau")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Tau Cannon Secondary"
+ATT.CompactName = "Tau Secondary"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Tau Cannon Secondary Fire from Half-Life 1.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_tau2")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Grenade Launcher"
+ATT.CompactName = "Grenade Launcher"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the SMG's Grenade Launcher from Half-Life 1.
+
+NOTE: reload sound is mixed in, too lazy to remove attachment and wait 30 trillion years for .ogg files to delete. if that breaks immersion, woe is you.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/glauncher.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/glauncher2.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/glauncher.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/glauncher2.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_glauncher")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 SMG"
+ATT.CompactName = "SMG"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the SMG from Half-Life 1.
+
+NOTE: This is the MP5K in the original version of Half-Life, not to be confused with the M16 in the HD version. M16 is a separate attachment.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/hks1.ogg", "arc9/unlameifier/soundmods/hl1/hks2.ogg", "arc9/unlameifier/soundmods/hl1/hks3.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/hks1.ogg", "arc9/unlameifier/soundmods/hl1/hks2.ogg", "arc9/unlameifier/soundmods/hl1/hks3.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_smg")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 M16"
+ATT.CompactName = "M16"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the M16 from Half-Life 1.
+
+NOTE: This is from the HD version of Half-Life 1. It replaces the MP5K out for an M16, which also changes its sound (hence why you are seeing this here).]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/hks1b.ogg", "arc9/unlameifier/soundmods/hl1/hks2b.ogg", "arc9/unlameifier/soundmods/hl1/hks3b.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/hks1b.ogg", "arc9/unlameifier/soundmods/hl1/hks2b.ogg", "arc9/unlameifier/soundmods/hl1/hks3b.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_m16")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 SAW"
+ATT.CompactName = "SAW"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the SAW from Half-Life 1.
+
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/saw_fire1.ogg", "arc9/unlameifier/soundmods/hl1/saw_fire2.ogg", "arc9/unlameifier/soundmods/hl1/saw_fire3.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/saw_fire1.ogg", "arc9/unlameifier/soundmods/hl1/saw_fire2.ogg", "arc9/unlameifier/soundmods/hl1/saw_fire3.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_saw")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Shotgun"
+ATT.CompactName = "Shotgun"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Shotgun from Half-Life 1.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/sbarrel1.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/sbarrel1.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_shotgun")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Sniper"
+ATT.CompactName = "Sniper"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Sniper from Half-Life 1.
+
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/sniper_fire.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/sniper_fire.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_sniper")
+
+ATT = {}
+
+ATT.PrintName = "Half-Life 1 Crossbow"
+ATT.CompactName = "Crossbow"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/HL1"
+ATT.Description = [[Makes your gun sound like the Crossbow from Half-Life 1.
+
+you know what there's weirder shit in Unlameifier you can make your gun sound like. At this point, fuck it. Do whatever.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_xbow")
+
+// ////////// CSS //////////
 
 ATT = {}
 
@@ -1264,7 +1665,7 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/neosun/gunshot1s.mp
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_neosun_gunshot")
 
-// Misc
+// ////////// Misc //////////
 
 ATT = {}
 
@@ -1391,7 +1792,7 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "ar
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_ltg")
 
-// ROBLOX
+// ////////// ROBLOX //////////
 
 ATT = {}
 

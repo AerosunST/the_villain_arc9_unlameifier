@@ -8,6 +8,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Pistol from DOOM (1993).]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -25,6 +26,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/doom/DSPISTOL.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/doom/DSPISTOL.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/doom/DSPISTOL.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/doom/DSPISTOL.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/doom/DSPISTOL.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_pistol")
 
@@ -38,6 +40,7 @@ ATT.Description = [[Makes your gun sound like the Shotgun from DOOM (1993).
 
 NOTE: Super Shotgun sound. Original shotgun sound mixed the pump into the gunshot itself, which makes it technically unusable here.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -55,6 +58,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/doom/DSDSHTGN.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/doom/DSDSHTGN.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/doom/DSDSHTGN.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/doom/DSDSHTGN.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/doom/DSDSHTGN.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_shotgun")
 
@@ -66,6 +70,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the BFG from DOOM (1993).]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -83,6 +88,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/doom/DSBFG.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/doom/DSBFG.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/doom/DSBFG.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/doom/DSBFG.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/doom/DSBFG.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_BFG")
 
@@ -94,6 +100,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Plasma Rifle from DOOM (1993).]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -111,6 +118,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/doom/DSPLASMA.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/doom/DSPLASMA.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/doom/DSPLASMA.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/doom/DSPLASMA.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/doom/DSPLASMA.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_plasma")
 
@@ -122,6 +130,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/DOOM"
 ATT.Description = [[Makes your gun sound like the Rocket Launcher from DOOM (1993).]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -139,6 +148,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/doom/DSRLAUNC.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/doom/DSRLAUNC.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/doom/DSRLAUNC.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/doom/DSRLAUNC.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/doom/DSRLAUNC.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_doom_rocket")
 
@@ -154,6 +164,7 @@ ATT.Description = [[Makes your gun sound like the Pistol from Half-Life 2.
 
 "Rise and shine, Mr. Freeman... Rise... and shine...".]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -171,6 +182,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/pistol_fire2.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/pistol_fire3.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/pistol_fire2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/pistol_fire3.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/pistol_fire2.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_pistol")
 
@@ -184,6 +196,7 @@ ATT.Description = [[Makes your gun sound like the .357 from Half-Life 2.
 
 naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -201,6 +214,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/357_fire2.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/357_fire3.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/357_fire2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/357_fire3.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/357_fire2.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_357")
 
@@ -212,6 +226,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the AR2 from Half-Life 2.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -229,6 +244,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/ar2_fire.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/ar2_fire.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/ar2_fire.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/ar2_fire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/ar2_fire.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_ar2")
 
@@ -242,6 +258,7 @@ ATT.Description = [[Makes your gun sound like the Alyx Gun from Half-Life 2.
 
 "Take the Gravity Gun, Gordon".]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -259,6 +276,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/alyx_gun_fire3.ogg", "arc9/un
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/alyx_gun_fire3.ogg", "arc9/unlameifier/soundmods/hl2/alyx_gun_fire4.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/alyx_gun_fire5.ogg", "arc9/unlameifier/soundmods/hl2/alyx_gun_fire6.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/alyx_gun_fire5.ogg", "arc9/unlameifier/soundmods/hl2/alyx_gun_fire6.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/alyx_gun_fire3.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_alyx")
 
@@ -272,6 +290,7 @@ ATT.Description = [[Makes your gun sound like the Crossbow from Half-Life 2.
 
 really weird decision to put this on a gun but you do you my dude.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -289,6 +308,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/crossbow_fire1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/crossbow_fire1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/crossbow_fire1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/crossbow_fire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/crossbow_fire1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_xbow")
 
@@ -302,6 +322,7 @@ ATT.Description = [[Makes your gun sound like the AR2 Altfire from Half-Life 2.
 
 The hardest grenade launcher sound to ever exist.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -319,6 +340,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/irifle_fire2.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/irifle_fire2.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/irifle_fire2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/irifle_fire2.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/irifle_fire2.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_ar22")
 
@@ -332,6 +354,7 @@ ATT.Description = [[Makes your gun sound like the RPG from Half-Life 2.
 
 Did you know that the RPG in HL2 is an AT4? Not only that, they also hold it backwards.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -349,6 +372,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/rocket_fire.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/rocket_fire.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/rocket_fire.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/rocket_fire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/rocket_fire.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_rpg")
 
@@ -360,6 +384,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the Shotgun from Half-Life 2.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -377,6 +402,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/shotgun_fire7.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/shotgun_fire6.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/shotgun_fire7.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/shotgun_fire6.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/shotgun_fire7.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_shotgun")
 
@@ -388,6 +414,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/HL2"
 ATT.Description = [[Makes your gun sound like the SMG from Half-Life 2.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -405,6 +432,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/smg1_fire1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/smg1_fire1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/smg1_fire1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/smg1_fire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/smg1_fire1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_smg")
 
@@ -418,6 +446,7 @@ ATT.Description = [[Makes your gun sound like the last shot of the Airboat Gun f
 
 If you know, you know... If not, you're about to find out.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -435,6 +464,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot1.ogg", "
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot1.ogg", "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot2.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot1.ogg", "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot1.ogg", "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot2.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl2/airboat_gun_lastshot1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl2_airboat2")
 
@@ -450,6 +480,7 @@ ATT.Description = [[Makes your gun sound like the Pistol from Half-Life 1.
 
 "Eat lead you outer space octopus"!]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -468,6 +499,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun3.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/pl_gun3.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_pistol")
 
@@ -481,6 +513,7 @@ ATT.Description = [[Makes your gun sound like the .357 from Half-Life 1.
 
 naming your gun after the caliber it fires is stupid- refer to HL2 .357 for full rant.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -499,6 +532,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/357_shot1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/357_shot1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_357")
 
@@ -512,6 +546,7 @@ ATT.Description = [[Makes your gun sound like the Desert Eagle from Half-Life 1.
 
 As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -530,6 +565,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/de_shot1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/de_shot1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_deagle")
 
@@ -545,6 +581,7 @@ legally distinct BFG-9000
 
 As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -563,6 +600,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/displacer_fire.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_displacer")
 
@@ -574,6 +612,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/HL1"
 ATT.Description = [[Makes your gun sound like the Tau Cannon from Half-Life 1.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -592,6 +631,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/un
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/unlameifier/soundmods/hl1/electro5.ogg", "arc9/unlameifier/soundmods/hl1/electro6.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/electro4.ogg", "arc9/unlameifier/soundmods/hl1/electro5.ogg", "arc9/unlameifier/soundmods/hl1/electro6.ogg",}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/electro4.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_tau")
 
@@ -603,6 +643,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/HL1"
 ATT.Description = [[Makes your gun sound like the Tau Cannon Secondary Fire from Half-Life 1.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -621,6 +662,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/gauss2.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/gauss2.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_tau2")
 
@@ -634,6 +676,7 @@ ATT.Description = [[Makes your gun sound like the SMG's Grenade Launcher from Ha
 
 NOTE: reload sound is mixed in, too lazy to remove attachment and wait 30 trillion years for .ogg files to delete. if that breaks immersion, woe is you.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -652,6 +695,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/glauncher2.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/glauncher.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/glauncher2.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/glauncher.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_glauncher")
 
@@ -665,6 +709,7 @@ ATT.Description = [[Makes your gun sound like the SMG from Half-Life 1.
 
 NOTE: This is the MP5K in the original version of Half-Life, not to be confused with the M16 in the HD version. M16 is a separate attachment.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -683,6 +728,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/hks1.ogg", "arc9/unlame
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/hks1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_smg")
 
@@ -696,6 +742,7 @@ ATT.Description = [[Makes your gun sound like the M16 from Half-Life 1.
 
 NOTE: This is from the HD version of Half-Life 1. It replaces the MP5K out for an M16, which also changes its sound (hence why you are seeing this here).]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -714,6 +761,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/hks1b.ogg", "arc9/unlam
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/hks1b.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_m16")
 
@@ -727,6 +775,7 @@ ATT.Description = [[Makes your gun sound like the SAW from Half-Life 1.
 
 As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -745,6 +794,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/saw_fire1.ogg", "arc9/u
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/saw_fire1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_saw")
 
@@ -756,6 +806,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/HL1"
 ATT.Description = [[Makes your gun sound like the Shotgun from Half-Life 1.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -774,6 +825,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/sbarrel1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/sbarrel1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_shotgun")
 
@@ -787,6 +839,7 @@ ATT.Description = [[Makes your gun sound like the Sniper from Half-Life 1.
 
 As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -805,6 +858,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/sniper_fire.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/pl_gun2.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/sniper_fire.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_sniper")
 
@@ -818,6 +872,7 @@ ATT.Description = [[Makes your gun sound like the Crossbow from Half-Life 1.
 
 you know what there's weirder shit in Unlameifier you can make your gun sound like. At this point, fuck it. Do whatever.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -836,6 +891,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/hl1/dryfire1.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/hl1/xbow_fire1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_hl1_xbow")
 
@@ -853,6 +909,7 @@ Fun fact: Apparently this is a Glock 19, according to imfdb.org. The inaccuracie
 
 (!) Uses USP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -870,6 +927,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/glock18-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/glock18-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/glock18-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_glock18")
 
@@ -881,8 +940,9 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mip
 ATT.Folder = "Unlameifier/Sound Mods/CSS"
 ATT.Description = [[Makes your gun sound like the USP Tactical/K&M .45 Tactical from Counter-Strike: Source
 
-Fun fact: Like any other Counter-Strike:Source weapon, the USP in CSS ejects from the left instead of the right. Otherwise, it's one of the more accurately modeled weapon in the game.]]
+Fun fact: Like any other Counter-Strike: Source weapon, the USP in CSS ejects from the left instead of the right. Otherwise, it's one of the more accurately modeled weapon in the game.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -900,6 +960,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/usp_unsil-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/usp_unsil-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/usp_unsil-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_usp")
 
@@ -915,6 +977,7 @@ Fun fact: Technically, this is a P229 according to imfdb.org, due to it being ch
 
 (!) Uses USP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -932,6 +995,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/p228-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/p228-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/p228-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_p228")
 
@@ -947,6 +1012,7 @@ Fun fact: According to imfdb.org, The Desert Eagle Mark XIX chambered in .50 AE 
 
 (!) Uses TMP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -964,6 +1030,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/deagle-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/deagle-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/deagle-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_deagle")
 
@@ -979,6 +1047,7 @@ Fun fact: Only HALF of the slide is animated. That's not how that works on a rea
 
 (!) Uses USP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -996,6 +1065,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/fiveseven-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/fiveseven-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/fiveseven-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_fiveseven")
 
@@ -1011,6 +1082,7 @@ Fun fact: The real name of this gun is Beretta 92G Elite II. You can see where i
 
 (!) Uses USP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1028,6 +1100,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/elite-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/elite-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/usp1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/elite-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_elite")
 
@@ -1043,6 +1117,7 @@ Fun fact: Counter-Strike: Global Offensive and CS2 still use the name "XM1014", 
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1060,6 +1135,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/xm1014-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/xm1014-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/xm1014-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_xm1014")
 
@@ -1075,6 +1152,7 @@ Fun fact: This is the only suppressed gun in the game that cannot remove its sup
 
 (!) Does not have unsuppressed sounds.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1092,6 +1170,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/tmp-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_tmp")
 
@@ -1107,6 +1187,7 @@ Fun fact: This is one of the few guns in Counter-Strike: Source that uses the ac
 
 (!) Uses TMP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1124,6 +1205,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/mac10-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/mac10-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/mac10-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_mac10")
 
@@ -1139,6 +1222,7 @@ Fun fact: This is one of the few guns in Counter-Strike: Source that isn't mirro
 
 (!) Uses TMP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1156,6 +1240,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/mp5-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/mp5-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/mp5-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_mp5")
 
@@ -1171,6 +1257,7 @@ Fun fact: Curiously, like the MAC-10, this uses its real name too, sans the manu
 
 (!) Uses TMP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1188,6 +1275,9 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/ump45-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/ump45-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/ump45-1.ogg"
+
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_ump45")
 
@@ -1203,6 +1293,7 @@ Fun fact: Once upon a time, this gun was chambered in .338 Lapua Magnum in Count
 
 (!) Uses TMP sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1220,6 +1311,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/p90-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/p90-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/tmp-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/p90-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_p90")
 
@@ -1235,6 +1328,7 @@ Fun fact: This is more of a real-life fact, but Galils come standard issue with 
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1252,6 +1346,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/galil-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/galil-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/galil-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_galil")
 
@@ -1267,6 +1363,7 @@ Fun fact: Clarions are medieval war trumpets.
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1284,6 +1381,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/famas-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/famas-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/famas-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_famas")
 
@@ -1299,6 +1398,7 @@ Fun fact: This is the most obvious example of guns in Counter-Strike: Source bei
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1316,6 +1416,9 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/ak47-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/ak47-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/ak47-1.ogg"
+
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_ak47")
 
@@ -1329,6 +1432,7 @@ ATT.Description = [[Makes your gun sound like the M4A1 from Counter-Strike: Sour
 
 Fun fact: The reload animation for this gun portrays the operator using the Forward Assist to chamber a round instead of the charging handle.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1346,6 +1450,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/m4a1_unsil-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/m4a1_unsil-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/m4a1_unsil-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_m4a1")
 
@@ -1361,6 +1467,7 @@ Fun fact: Despite firing in full-auto, the fire selector on this gun is set to s
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1378,6 +1485,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/sg552-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/sg552-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/sg552-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_sg552")
 
@@ -1393,6 +1502,7 @@ Fun fact: When reloading, you can see the charging handle is not connected to th
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1410,6 +1520,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/aug-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/aug-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/aug-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_aug")
 
@@ -1425,6 +1537,7 @@ Fun fact: There is an extra magazine holder in real-life Steyr Scouts, located i
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1442,6 +1555,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/scout_fire-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/scout_fire-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/scout_fire-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_scout")
 
@@ -1457,6 +1572,7 @@ Fact: I don't really know any fun facts about this one, but I suppose that in of
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1474,6 +1590,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/sg550-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/sg550-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/sg550-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_sg550")
 
@@ -1489,6 +1607,7 @@ Fun fact: There is a HILARIOUS backstory to Accuracy International, the AWP's cr
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1506,6 +1625,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/awp1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/awp1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/awp1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_awp")
 
@@ -1521,6 +1642,7 @@ Fun fact: The fire selector is set to safe, plus the charging handle doesn't mov
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1538,6 +1660,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/g3sg1-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/g3sg1-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/g3sg1-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_g3sg1")
 
@@ -1553,6 +1677,7 @@ Fun fact: The M249 in CSS does not have a stock.
 
 (!) Uses M4A1 sounds for suppressors.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1570,6 +1695,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/css/m249-1.ogg"}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/css/m249-1.ogg"}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/css/m4a1-1.ogg"}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/css/dryfire.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/css/m249-1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_css_m249")
 
@@ -1585,6 +1712,7 @@ ATT.Description = [[Professional Voice Actor Neosun has been contracted to provi
 
 This one is "pew".]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1602,6 +1730,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/neosun/pew1.mp3", "arc9/unlameifi
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/neosun/pew1.mp3", "arc9/unlameifier/soundmods/neosun/pew2.mp3", "arc9/unlameifier/soundmods/neosun/pew3.mp3", "arc9/unlameifier/soundmods/neosun/pew4.mp3", "arc9/unlameifier/soundmods/neosun/pew5.mp3",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/neosun/pew1s.mp3", "arc9/unlameifier/soundmods/neosun/pew2s.mp3", "arc9/unlameifier/soundmods/neosun/pew3s.mp3", "arc9/unlameifier/soundmods/neosun/pew4s.mp3", "arc9/unlameifier/soundmods/neosun/pew5s.mp3",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/neosun/pew1s.mp3", "arc9/unlameifier/soundmods/neosun/pew2s.mp3", "arc9/unlameifier/soundmods/neosun/pew3s.mp3", "arc9/unlameifier/soundmods/neosun/pew4s.mp3", "arc9/unlameifier/soundmods/neosun/pew5s.mp3",}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/neosun/dry1.mp3", "arc9/unlameifier/soundmods/neosun/dry2.mp3", "arc9/unlameifier/soundmods/neosun/dry3.mp3", "arc9/unlameifier/soundmods/neosun/dry4.mp3", "arc9/unlameifier/soundmods/neosun/dry5.mp3",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/neosun/pew1.mp3"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_neosun_pew")
 
@@ -1615,6 +1745,7 @@ ATT.Description = [[Professional Voice Actor Neosun has been contracted to provi
 
 This one is "bang".]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1632,6 +1763,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/neosun/bang1.mp3", "arc9/unlameif
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/neosun/bang1.mp3", "arc9/unlameifier/soundmods/neosun/bang2.mp3", "arc9/unlameifier/soundmods/neosun/bang3.mp3", "arc9/unlameifier/soundmods/neosun/bang4.mp3", "arc9/unlameifier/soundmods/neosun/bang5.mp3",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/neosun/bang1s.mp3", "arc9/unlameifier/soundmods/neosun/bang2s.mp3", "arc9/unlameifier/soundmods/neosun/bang3s.mp3", "arc9/unlameifier/soundmods/neosun/bang4s.mp3", "arc9/unlameifier/soundmods/neosun/bang5s.mp3",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/neosun/bang1s.mp3", "arc9/unlameifier/soundmods/neosun/bang2s.mp3", "arc9/unlameifier/soundmods/neosun/bang3s.mp3", "arc9/unlameifier/soundmods/neosun/bang4s.mp3", "arc9/unlameifier/soundmods/neosun/bang5s.mp3",}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/neosun/dry1.mp3", "arc9/unlameifier/soundmods/neosun/dry2.mp3", "arc9/unlameifier/soundmods/neosun/dry3.mp3", "arc9/unlameifier/soundmods/neosun/dry4.mp3", "arc9/unlameifier/soundmods/neosun/dry5.mp3",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/neosun/bang1.mp3"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_neosun_bang")
 
@@ -1645,6 +1778,7 @@ ATT.Description = [[Professional Voice Actor Neosun has been contracted to provi
 
 This one is "gunshot".]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1662,6 +1796,8 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/neosun/gunshot1.mp3", "arc9/unlam
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/neosun/gunshot1.mp3", "arc9/unlameifier/soundmods/neosun/gunshot2.mp3", "arc9/unlameifier/soundmods/neosun/gunshot3.mp3", "arc9/unlameifier/soundmods/neosun/gunshot4.mp3", "arc9/unlameifier/soundmods/neosun/gunshot5.mp3",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/neosun/gunshot1s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot2s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot3s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot4s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot5s.mp3",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/neosun/gunshot1s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot2s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot3s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot4s.mp3", "arc9/unlameifier/soundmods/neosun/gunshot5s.mp3",}
+ATT.DryFireSound = { "arc9/unlameifier/soundmods/neosun/dry1.mp3", "arc9/unlameifier/soundmods/neosun/dry2.mp3", "arc9/unlameifier/soundmods/neosun/dry3.mp3", "arc9/unlameifier/soundmods/neosun/dry4.mp3", "arc9/unlameifier/soundmods/neosun/dry5.mp3",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/neosun/gunshot1.mp3"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_neosun_gunshot")
 
@@ -1669,12 +1805,15 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_neosun_gunshot")
 
 ATT = {}
 
-ATT.PrintName = "Sussy Noises"
-ATT.CompactName = "SUS"
+ATT.PrintName = "Deranged Madness"
+ATT.CompactName = "Insanity"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
 ATT.Folder = "Unlameifier/Sound Mods/Misc"
-ATT.Description = [[Don't ask why your rate of fire is limited to 250RPM... It's important, trust me.]]
-ATT.SortOrder = 0
+ATT.Description = [[An attachment only the most unhinged and depraved would ever equip. Heed this warning now, for there is no turning back.
+
+Don't ask why your rate of fire is limited to 250RPM... It's important, trust me.]]
+ATT.SortOrder = 9999
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1695,6 +1834,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unla
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unlameifier/soundmods/misc/clap2.ogg", "arc9/unlameifier/soundmods/misc/clap3.ogg", "arc9/unlameifier/soundmods/misc/clap4.ogg", "arc9/unlameifier/soundmods/misc/clap5.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/clap1.ogg", "arc9/unlameifier/soundmods/misc/clap2.ogg", "arc9/unlameifier/soundmods/misc/clap3.ogg", "arc9/unlameifier/soundmods/misc/clap4.ogg", "arc9/unlameifier/soundmods/misc/clap5.ogg",}
 ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/misc/careless_whisper.mp3"
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/susinstall.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_sussy")
 
@@ -1707,6 +1847,7 @@ ATT.Folder = "Unlameifier/Sound Mods/Misc"
 ATT.Description = [["Now is time for the final battle"
 -Court Wizard Chase Caspian]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1725,6 +1866,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlame
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlameifier/soundmods/misc/mm2.ogg", "arc9/unlameifier/soundmods/misc/mm3.ogg", "arc9/unlameifier/soundmods/misc/mm4.ogg", "arc9/unlameifier/soundmods/misc/mm5.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/mm1.ogg", "arc9/unlameifier/soundmods/misc/mm2.ogg", "arc9/unlameifier/soundmods/misc/mm3.ogg", "arc9/unlameifier/soundmods/misc/mm4.ogg", "arc9/unlameifier/soundmods/misc/mm5.ogg",}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/misc/mmdry.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/mminstall.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_magicmissile")
 
@@ -1738,6 +1880,7 @@ ATT.Description = [[thank u mr. skeltal
 
 bullets not required for dooting.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1756,6 +1899,7 @@ ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
 ATT.DryFireSound = { "arc9/unlameifier/soundmods/misc/mrskeltal.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/mrskeltal.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_mrskeltal")
 
@@ -1772,6 +1916,7 @@ note: Unlameifier and its creator, Neosun, does not promote, condone, or encoura
 
 If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1789,6 +1934,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/ltg1.ogg", "arc9/unlameifier/soundmods/misc/ltg2.ogg", "arc9/unlameifier/soundmods/misc/ltg3.ogg", "arc9/unlameifier/soundmods/misc/ltg4.ogg", "arc9/unlameifier/soundmods/misc/ltg5.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/ltg1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_ltg")
 
@@ -1804,6 +1950,7 @@ ATT.Description = [[Makes your gun sound like the Paintball Gun from ROBLOX.
 
 This is a certified Hood Classic.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1821,6 +1968,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/paintball.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/paintball.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_paintball")
 
@@ -1834,6 +1982,7 @@ ATT.Description = [[Makes your gun sound like the Slingshot from ROBLOX.
 
 This is a certified Hood Classic.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1851,6 +2000,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/slingshot.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/slingshot.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_slingshot")
 
@@ -1864,6 +2014,7 @@ ATT.Description = [[Makes your gun sound like the Superball from ROBLOX.
 
 This is a certified Hood Classic.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1881,6 +2032,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/superball.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/superball.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_superball")
 
@@ -1894,6 +2046,7 @@ ATT.Description = [[Makes your gun sound like the XLS Mark II Pulse Laser Pistol
 
 The OG "pew" sound.]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1911,6 +2064,7 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/pew.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/pew.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_laserpistol")
 
@@ -1924,6 +2078,7 @@ ATT.Description = [[Makes your gun sound like the Red Stratobloxxer from ROBLOX.
 
 you might be able to play a song with it!]]
 ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -1941,5 +2096,6 @@ ATT.ShootSound = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlame
 ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
 ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
 ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg", "arc9/unlameifier/soundmods/roblox/guitar2.ogg", "arc9/unlameifier/soundmods/roblox/guitar3.ogg", "arc9/unlameifier/soundmods/roblox/guitar4.ogg", "arc9/unlameifier/soundmods/roblox/guitar5.ogg", "arc9/unlameifier/soundmods/roblox/guitar6.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/guitar1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_guitar")

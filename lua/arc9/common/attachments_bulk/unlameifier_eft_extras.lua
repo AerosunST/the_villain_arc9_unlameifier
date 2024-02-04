@@ -627,6 +627,64 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_firemode_mburst")
 
+ATT = {}
+
+ATT.PrintName = "Multi-Burst 2"
+ATT.CompactName = "M-Burst 2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Bursts divisible by 30, except for 30 and 1. Have fun.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+-- ATT.firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
+ATT.Firemodes = {
+	{ Mode = 15, PoseParam = 2 },
+	{ Mode = 10, PoseParam = 2 },
+	{ Mode = 6, PoseParam = 2 },
+	{ Mode = 3, PoseParam = 2 },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_mburst2")
+
+ATT = {}
+
+ATT.PrintName = "Multi-Burst 3"
+ATT.CompactName = "M-Burst 3"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Bursts divisible by 30, except for 30, 15, 6, and 1. Have fun.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+-- ATT.firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
+ATT.Firemodes = {
+	{ Mode = 10, PoseParam = 2 },
+	{ Mode = 3, PoseParam = 2 },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_mburst3")
+
 ///////////////////////////////////////      RPMs
 
 ATT = {}
@@ -807,6 +865,7 @@ ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
 ATT.Folder = "Unlameifier/RPM"
+ATT.AttNotForNPCs = true
 
 ATT.RPM = 6000
 

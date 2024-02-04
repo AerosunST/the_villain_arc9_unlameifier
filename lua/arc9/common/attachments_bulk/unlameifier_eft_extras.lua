@@ -1082,3 +1082,29 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_tracer_teal")
+
+ATT = {}
+
+ATT.PrintName = "Tom Aero 0 Teal"
+ATT.CompactName = "TA Teal"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Gives your gun teal tracers, except a little greener]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+ATT.TracerColor = Color(0, 255, 132)
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_tateal")

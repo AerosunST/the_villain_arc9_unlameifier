@@ -100,3 +100,75 @@ ATT.ShootSound = { "weapons/darsu_eft/glock/glock18_outdoor_close_1.ogg", "weapo
 ATT.ShootSoundIndoor = { "weapons/darsu_eft/glock/glock18_indoor_close_1.ogg", "weapons/darsu_eft/glock/glock18_indoor_close_2.ogg"}
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_556_9mm_conversion")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = "12 Gauge Conversion"
+ATT.CompactName = "12/70"
+ATT.Icon = Material("entities/eft_attachments/ammo/12x70/def.png", "mips smooth")
+ATT.Folder = "Unlameifier"
+ATT.Description = [[Super magical converion kit that makes your 5.56x45mm compatible weapons able to use 12 Gauge. Forgive me Father, for I have sinned.
+
+Limits mag capacity for plausible realism. My math is a rough estimate so take this with a grain of salt if you're a Gmod Realism LARPer.]]
+ATT.SortOrder = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Ammo = "buckshot"
+ATT.ClipSizeMult = 0.25
+
+ATT.Category = {"eft_ammo_556"}
+ATT.Attachments = {
+    {
+        PrintName = "12/70",
+        Bone = "j_gun",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.5, 0, -1),
+        Category = {"eft_ammo_12x70"},
+    },
+	}
+	
+ATT.ShootSound = { "weapons/darsu_eft/ak/fire_new/saiga_outdoor_close1.ogg", "weapons/darsu_eft/ak/fire_new/saiga_outdoor_close2.ogg" }
+ATT.ShootSoundSilenced = "weapons/darsu_eft/ak/fire_new/saiga_fire_silenced_close.ogg"
+
+ATT.ShootSoundIndoor = "weapons/darsu_eft/ak/fire_new/saiga_indoor_close1.ogg"
+ATT.ShootSoundSilencedIndoor = "weapons/darsu_eft/ak/fire_new/saiga_fire_silenced_indoor_close.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_556_12g_conversion")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = "12 Gauge Conversion (Unrestricted)"
+ATT.CompactName = "12/70 (Unrestricted)"
+ATT.Icon = Material("entities/eft_attachments/ammo/12x70/def.png", "mips smooth")
+ATT.Folder = "Unlameifier"
+ATT.Description = [[Super DUPER magical converion kit that makes your 5.56x45mm compatible weapons able to use 12 Gauge without magazine restrictions. This is Unlameifier, we're here to have fun.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Ammo = "buckshot"
+
+ATT.Category = {"eft_ammo_556"}
+ATT.Attachments = {
+    {
+        PrintName = "12/70",
+        Bone = "j_gun",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.5, 0, -1),
+        Category = {"eft_ammo_12x70"},
+    },
+	}
+	
+ATT.ShootSound = { "weapons/darsu_eft/ak/fire_new/saiga_outdoor_close1.ogg", "weapons/darsu_eft/ak/fire_new/saiga_outdoor_close2.ogg" }
+ATT.ShootSoundSilenced = "weapons/darsu_eft/ak/fire_new/saiga_fire_silenced_close.ogg"
+
+ATT.ShootSoundIndoor = "weapons/darsu_eft/ak/fire_new/saiga_indoor_close1.ogg"
+ATT.ShootSoundSilencedIndoor = "weapons/darsu_eft/ak/fire_new/saiga_fire_silenced_indoor_close.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_556_12g_conversion_unrestricted")

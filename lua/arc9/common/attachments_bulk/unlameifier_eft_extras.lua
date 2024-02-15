@@ -250,12 +250,14 @@ ATT.CompactName = "Videogame Logic"
 ATT.CustomPros = {["Better spread"] = "",}
 ATT.CustomCons = {["Disable when using slugs"] = "",}
 ATT.Icon = Material("entities/arc9/unlameifier/eft_shotgun_videogame.png", "mips smooth")
-ATT.Description = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
+ATT.Description = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.
+
+Maybe don't equip this on non-shotguns (unless you hate yourself)]]
 ATT.AutoStats = true
 
 ATT.Spread = 115 * ARC9.MOAToAcc
 
-ATT.Category = {"eft_custom_slot_m870"}
+ATT.Category = {"eft_custom_slot"}
 ATT.SortOrder = -98
 
 ATT.Attachments = {
@@ -263,129 +265,11 @@ ATT.Attachments = {
         PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot", "eft_custom_slot_m870"},
+        Category = {"eft_custom_slot",}
     },
 }
 
-ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_m870")
-
-///////////////////////////////////////      Videogame Shotguns (M3 Super 90)
-
-
-ATT = {}
-
-ATT.PrintName = "Videogame Logic"
-ATT.CompactName = "Videogame Logic"
-ATT.CustomPros = {["Better spread"] = "",}
-ATT.CustomCons = {["Disable when using slugs"] = "",}
-ATT.Icon = Material("entities/arc9/unlameifier/eft_shotgun_videogame.png", "mips smooth")
-ATT.Description = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
-ATT.AutoStats = true
-
-ATT.Spread = 115 * ARC9.MOAToAcc
-
-ATT.Category = {"eft_custom_slot_m3s90"}
-ATT.SortOrder = -98
-
-ATT.Attachments = {
-    {
-        PrintName = "Custom slot",
-        Pos = Vector(0, 0, 1),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot", "eft_custom_slot_m3s90"},
-    },
-}
-
-ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_m3s90")
-
-///////////////////////////////////////      Videogame Shotguns (KS-23M)
-
-
-ATT = {}
-
-ATT.PrintName = "Videogame Logic"
-ATT.CompactName = "Videogame Logic"
-ATT.CustomPros = {["Better spread"] = "",}
-ATT.CustomCons = {["Disable when using slugs"] = "",}
-ATT.Icon = Material("entities/arc9/unlameifier/eft_shotgun_videogame.png", "mips smooth")
-ATT.Description = [[!!! DOES NOT WORK FOR SOME REASON !!! darsu help.
-
-Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
-ATT.AutoStats = true
-
-ATT.Spread = 115 * ARC9.MOAToAcc
-
-ATT.Category = {"eft_custom_slot_ks23"}
-ATT.SortOrder = -98
-
-ATT.Attachments = {
-    {
-        PrintName = "Custom slot",
-        Pos = Vector(0, 0, 1),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot", "eft_custom_slot_ks23"},
-    },
-}
-
-ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_ks23")
-
-///////////////////////////////////////      Videogame Shotguns (Saiga-12K)
-
-
-ATT = {}
-
-ATT.PrintName = "Videogame Logic"
-ATT.CompactName = "Videogame Logic"
-ATT.CustomPros = {["Better spread"] = "",}
-ATT.CustomCons = {["Disable when using slugs"] = "",}
-ATT.Icon = Material("entities/arc9/unlameifier/eft_shotgun_videogame.png", "mips smooth")
-ATT.Description = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
-ATT.AutoStats = true
-
-ATT.Spread = 115 * ARC9.MOAToAcc
-
-ATT.Category = {"eft_custom_slot_saiga12k"}
-ATT.SortOrder = -98
-
-ATT.Attachments = {
-    {
-        PrintName = "Custom slot",
-        Pos = Vector(0, 0, 1),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot", "eft_custom_slot_saiga12k"},
-    },
-}
-
-ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_saiga12k")
-
-///////////////////////////////////////      Videogame Shotguns (TOZ-106)
-
-
-ATT = {}
-
-ATT.PrintName = "Videogame Logic"
-ATT.CompactName = "Videogame Logic"
-ATT.CustomPros = {["Better spread"] = "",}
-ATT.CustomCons = {["Disable when using slugs"] = "",}
-ATT.Icon = Material("entities/arc9/unlameifier/eft_shotgun_videogame.png", "mips smooth")
-ATT.Description = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.]]
-ATT.AutoStats = true
-
-ATT.Spread = 115 * ARC9.MOAToAcc
-
-ATT.Category = {"eft_custom_toz106"}
-ATT.SortOrder = -98
-
-ATT.Attachments = {
-    {
-        PrintName = "Custom slot",
-        Pos = Vector(0, 0, 1),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot", "eft_custom_toz106"},
-    },
-}
-
-ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns_toz106")
+ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns")
 
 ///////////////////////////////////////      DOOM Hold Pose
 

@@ -258,6 +258,7 @@ ATT.AutoStats = true
 ATT.Spread = 115 * ARC9.MOAToAcc
 
 ATT.Category = {"eft_custom_slot"}
+ATT.Folder = "Unlameifier/Utilities"
 ATT.SortOrder = -98
 
 ATT.Attachments = {
@@ -284,7 +285,7 @@ ATT.Description = [[You know what? Fuck all this tactical Bravo-Delta-Sierra-Mik
 Makes you hold your gun at the center of the screen, like DOOM.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.AttNotForNPCs = true 
+ATT.AttNotForNPCs = true
 
 ATT.ViewModelFOVBase = 80
 ATT.ActivePos = Vector(-4.20, -7, -2.2)
@@ -306,6 +307,7 @@ ATT.Attachments = {
 }
 
 ATT.Category = {"eft_custom_slot"}
+ATT.Folder = "Unlameifier/Toys"
 ARC9.LoadAttachment(ATT, "unlameifier_eft_doom_hold")
 
 ///////////////////////////////////////      Extra Firemodes
@@ -1051,3 +1053,79 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_tracer_tateal")
+
+///////////////////////////////////////      Misc Toys
+
+ATT = {}
+
+ATT.PrintName = "Dissolve Effect"
+ATT.CompactName = "Dissolve"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes anything you kill dissolve, like the AR2 energy ball. Just for funsies :)]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.DamageTypeOverride = DMG_DISSOLVE + DMG_BULLET
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_dissolve")
+
+ATT = {}
+
+ATT.PrintName = "Remove Tool Effect"
+ATT.CompactName = "Remove Tool"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes anything you kill not spawn a ragdoll, like the Remove Tool. Just for funsies :)
+
+might be abusable, beware.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.DamageTypeOverride = DMG_REMOVENORAGDOLL + DMG_BULLET
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_remove_tool")
+
+ATT = {}
+
+ATT.PrintName = "Shock Effect"
+ATT.CompactName = "Shock"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes anything you hit spark, as though the gun were electric. Just for funsies :)]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.DamageTypeOverride = DMG_SHOCK + DMG_BULLET
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_shock")

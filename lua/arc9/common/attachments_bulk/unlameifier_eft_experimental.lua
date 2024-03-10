@@ -4,8 +4,10 @@ local ATT = {}
 
 ATT.PrintName = [[Camo Support]]
 ATT.CompactName = [[Camo]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_charms_up.png")
-ATT.Description = [[Applies camo to attachments that support them. If you're seeing this attachment, I have gravely fucked up.]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces the camo slot. Requires the weapon to have both an alpha channel set up on the .VTF, and the camo code itself in its respective .VMTs. In most cases, you will likely need to do all of these things yourself on a Legacy Addon version of whatever you're looking to use this on.
+
+A sideproject is being worked on for EFT to provide camo to as many weapons as possible. It is not included in Unlameifier due to concerns regarding mod load order conflicts. This attachment will remain here for developer purposes.]]
 ATT.SortOrder = 10
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
@@ -490,3 +492,128 @@ ATT.Attachments = {
 	}
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_556_12755_conversion_unrestricted")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[EFT Custom Slot Enabler]]
+ATT.CompactName = [[EFT Custom]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Converts a select few attachment slots to EFT Custom Slot, in where you can then use the Unlameifier toys on other ARC9 weapons. This feature is experimental and meant for testing stability on other weapons outside of EFT. Do not report bugs with this attachment. Thank you.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+
+ATT.Category = {"cod2019_perks","cod2019_perks_soh","cod2019_perks_ss", "go_perk", "bo1_perkacola"}
+ATT.Folder = "Unlameifier"
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_custom_slot_enabler")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[Lazy Perk Test (MW19)]]
+ATT.CompactName = [[MW19 Perks]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lazy test to see how well perks work with EFT guns. MW19 flavor.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier/Experiments"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.Attachments = {
+    {
+        PrintName = "Perk",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"cod2019_perks","cod2019_perks_soh","cod2019_perks_ss"},
+    },
+	{
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 4),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+	
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_mw19_perks")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[Lazy Perk Test (CoD)]]
+ATT.CompactName = [[CoD Perks]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lazy test to see how well perks work with EFT guns. CoD flavor.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier/Experiments"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.Attachments = {
+    {
+        PrintName = "Perk",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"bo1_perkacola", "mwc_perk", "mwc_proficiency"},
+    },
+	{
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 4),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+	
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_cod_perks")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[Lazy Perk Test (GSR)]]
+ATT.CompactName = [[GSR Perks]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lazy test to see how well perks work with EFT guns. GSR flavor.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier/Experiments"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.Attachments = {
+    {
+        PrintName = "Perk",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"go_perk"},
+    },
+	{
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 4),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+	
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_gsr_perks")

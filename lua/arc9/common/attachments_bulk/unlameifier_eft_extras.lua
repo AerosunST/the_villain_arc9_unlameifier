@@ -272,6 +272,32 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_videogame_shotguns")
 
+ATT = {}
+
+ATT.PrintName = "Force-Disable Damage Lookup Tables"
+ATT.CompactName = "Disable DLUTs"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Force-disables damage lookup tables on weapons that use them for whatever reason. You NEED this in order to be able to modify damage on EFT weapons (except for shotguns, for some reason).
+
+Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
+
+ATT.Category = {"eft_custom_slot"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Unlameifier/Utilities"
+
+ATT.DamageLookupTable = false
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot",}
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_disable_dluts")
+
 ///////////////////////////////////////      DOOM Hold Pose
 
 
@@ -314,10 +340,12 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_doom_hold")
 
 ATT = {}
 
-ATT.PrintName = "Full Auto"
-ATT.CompactName = "Full Auto"
+ATT.PrintName = "Full-Auto"
+ATT.CompactName = "Full-Auto"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Full auto. That's it. There's really nothing else to this. Is this a cheat? idk, probably. Were you going to ask for it anyway? Yes.]]
+ATT.Description = [[Full-auto. That's it. There's really nothing else to this. Is this a cheat? idk, probably. Were you going to ask for it anyway? Yes.
+
+Just remember: No full-auto in the buildings.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -339,6 +367,33 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_firemode_full_auto")
+
+ATT = {}
+
+ATT.PrintName = "Full-Auto ONLY"
+ATT.CompactName = "Full-Auto ONLY"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Full-auto without the option for semi-auto. You like to live dangerously, I see.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+-- ATT.firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
+ATT.Firemodes = {
+    { Mode = -1, PoseParam = 2},
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_full_auto_only")
 
 ATT = {}
 
@@ -394,6 +449,33 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_firemode_3rb")
+
+ATT = {}
+
+ATT.PrintName = "3 Round Burst ONLY"
+ATT.CompactName = "3-Burst ONLY"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[3 Round Burst without the option for semi-auto. You like to live dangerously, but not too dangerously.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+-- ATT.firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
+ATT.Firemodes = {
+    { Mode = 3, PoseParam = 2 },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_3rb_only")
 
 ATT = {}
 
@@ -571,6 +653,332 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_firemode_mburst3")
 
+ATT = {}
+
+ATT.PrintName = "Slamfire"
+ATT.CompactName = "Slamfire"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Enables slamfire on manually-cycling weapons. Useless on automatics.
+
+Needs another firemode to work. Doesn't matter what order you place this in.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+ATT.SlamFire = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_slamfire")
+
+ATT = {}
+
+ATT.PrintName = "Runaway Burst"
+ATT.CompactName = "Runaway Burst"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so your bursts don't stop until they've completely finished their defined burst. You can use this with other firemodes, or use it by itself for a "Sputter" or Magdump mode.
+
+Equip this first in your firemode stack or custom bursts won't work.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+ATT.RunawayBurst = true
+
+-- ATT.firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
+ATT.Firemodes = {
+    { Mode = 9999, PoseParam = 2},
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_runaway_burst")
+
+ATT = {}
+
+ATT.PrintName = "Auto Burst"
+ATT.CompactName = "Auto Burst"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so your bursts keep firing in a full-auto like pattern. On its own, it doesn't do much... So make sure to equip another firemode and a delay in the Burst Modifiers folder.
+
+Equip this first in your firemode stack or it won't work.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes"
+
+ATT.AutoBurst = true
+ATT.RunawayBurst = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_autoburst")
+
+ATT = {}
+
+ATT.PrintName = "1 Second Delay"
+ATT.CompactName = "1s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 1 second delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 1
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_1s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.9s Delay"
+ATT.CompactName = "0.9s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.9s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.9
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_09s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.8s Delay"
+ATT.CompactName = "0.8s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.8s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.8
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_08s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.7s Delay"
+ATT.CompactName = "0.7s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.7s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.7
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_07s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.6s Delay"
+ATT.CompactName = "0.6s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.6s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.6
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_06s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.5s Delay"
+ATT.CompactName = "0.5s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.5s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.5
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_05s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.4s Delay"
+ATT.CompactName = "0.4s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.4s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.4
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_04s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.3s Delay"
+ATT.CompactName = "0.3s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.3s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.3
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_03s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.2s Delay"
+ATT.CompactName = "0.2s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.2s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_02s_delay")
+
+ATT = {}
+
+ATT.PrintName = "0.15s Delay"
+ATT.CompactName = "0.15s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds a 0.15s delay between bursts. Can be used for autobursts or to stop you from spamming the trigger. Why not 0.1? That's just full-auto, you silly goose.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Firemodes/Burst Modifiers"
+
+ATT.PostBurstDelay = 0.15
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_firemode_015s_delay")
+
 ///////////////////////////////////////      RPMs
 
 ATT = {}
@@ -596,6 +1004,30 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_rpm_300")
+
+ATT = {}
+
+ATT.PrintName = "500 RPM"
+ATT.CompactName = "500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[500 RPM. Slower than an AKM, faster than 300 RPM.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM"
+
+ATT.RPM = 500
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_500")
 
 ATT = {}
 
@@ -748,6 +1180,7 @@ ATT.CompactName = "6000"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
 ATT.Description = [[6000 RPM. Because you were going to ask anyways. Pretty performance intensive, not gonna lie. Server owners be wary of this.]]
 ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
 ATT.Folder = "Unlameifier/RPM"
@@ -765,6 +1198,106 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_rpm_6000")
+
+ATT = {}
+
+ATT.PrintName = "99999 RPM"
+ATT.CompactName = "99999"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[99999 RPM. Odds are ARC9 won't even let you shoot this fast, but regardless it's still going to hit the maximum firerate limit. Here be dragons...]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM"
+ATT.AttNotForNPCs = true
+
+ATT.RPM = 99999
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_99999")
+
+ATT = {}
+
+ATT.PrintName = "0"
+ATT.CompactName = "0"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[0. Cycle as fast as the base will let you... Which is surprisingly not very fast.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM/Cycle Time"
+ATT.AttNotForNPCs = true
+
+ATT.CycleTime = 0
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_0_cycle")
+
+ATT = {}
+
+ATT.PrintName = "0.5x"
+ATT.CompactName = "0.5x"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[0.5x. Cycle twice as fast.]]
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM/Cycle Time"
+
+ATT.CycleTimeMult = 0.5
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_05_cycle")
+
+ATT = {}
+
+ATT.PrintName = "0.25x"
+ATT.CompactName = "0.25x"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[0.25x. Cycle four times as fast.]]
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM/Cycle Time"
+
+ATT.CycleTimeMult = 0.25
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_025_cycle")
 
 ///////////////////////////////////////      Tracers
 
@@ -1065,6 +1598,7 @@ ATT.Description = [[Makes anything you kill dissolve, like the AR2 energy ball. 
 
 ATT.Category = {"eft_custom_slot", }
 ATT.Folder = "Unlameifier/Toys"
+ATT.AttNotForNPCs = true
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.DamageTypeOverride = DMG_DISSOLVE + DMG_BULLET
@@ -1091,6 +1625,7 @@ might be abusable, beware.]]
 
 ATT.Category = {"eft_custom_slot", }
 ATT.Folder = "Unlameifier/Toys"
+ATT.AttNotForNPCs = true
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.DamageTypeOverride = DMG_REMOVENORAGDOLL + DMG_BULLET
@@ -1115,6 +1650,7 @@ ATT.Description = [[Makes anything you hit spark, as though the gun were electri
 
 ATT.Category = {"eft_custom_slot", }
 ATT.Folder = "Unlameifier/Toys"
+ATT.AttNotForNPCs = true
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.DamageTypeOverride = DMG_SHOCK + DMG_BULLET
@@ -1129,3 +1665,30 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_shock")
+
+ATT = {}
+
+ATT.PrintName = "Lightning Effect"
+ATT.CompactName = "Lightning"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Unlike spark, this one is MUCH more violent. Combines shock + dissolve for a spectacular kill effect. Just for funsies :)
+
+Visually, this has the same effect as when you kill something with the Super Gravity Gun. Pretty neat!]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.DamageTypeOverride = DMG_SHOCK + DMG_BULLET + DMG_DISSOLVE
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_lightning")

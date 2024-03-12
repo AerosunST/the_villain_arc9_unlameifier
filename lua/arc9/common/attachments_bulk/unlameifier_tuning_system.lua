@@ -18,7 +18,7 @@ ATT.SortOrder = -1
 ATT.AttNotForNPCs = true
 
 
-ATT.Category = {"eft_custom_slot", }
+ATT.Category = "*"
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Folder = "Unlameifier/Experiments"
 
@@ -38,6 +38,304 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_system")
+
+///////////////////////////////////////     CUSTOM THINGS
+
+ATT = {}
+
+ATT.PrintName = "EFT Incendiary Ammo"
+ATT.CompactName = "Incendiary Ammo"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Force EFT Incendiary Ammunition]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Ammo Effect"
+
+ATT.DamageTypeOverride = DMG_BURN + DMG_BULLET
+ATT.ExplosionEffect = "eft_explosion_round"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+local badblood = { -- it's actually the good type
+    [-1] = true,
+    [3] = true,
+}
+
+ATT.Hook_BulletImpact = function(wep,data)
+    local ent = data.tr.Entity
+    
+    local test1 = !(ent:IsNPC() or ent:IsPlayer() or ent:IsNextBot()) and true or false
+    local test2 = (!ent:GetBloodColor() or badblood[ent:GetBloodColor()]) and true or false
+
+    if IsValid(ent) and !test1 then
+        if vFireInstalled then
+            CreateVFire(ent, data.tr.HitPos, data.tr.HitNormal, data.dmg:GetDamage() * 0.02)
+        else
+            ent:Ignite(1, 0)
+        end
+    end
+
+    if IsValid(ent) and (test1 or test2) then
+        data.dmg:SetDamage(data.dmg:GetDamage() * 1)
+        local eff = EffectData()
+        eff:SetOrigin(data.tr.HitPos)
+        util.Effect("cball_bounce", eff)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_incendiary_ammo")
+
+ATT = {}
+
+ATT.PrintName = "Infinite Ammo"
+ATT.CompactName = "Infinite Ammo"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Ammo is not depleted from reserves. Depending on how you use it, it can either be a cheat, or part of an interesting mechanic.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Ammo Effect"
+
+ATT.InfiniteAmmo = true
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_infinite_ammo")
+
+ATT = {}
+
+ATT.PrintName = "Bottomless Clip"
+ATT.CompactName = "Bottomless Clip"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Ammo is depleted directly from reserves. Depending on how you use it, it can either be a cheat, or part of an interesting mechanic.
+
+Yes, I am aware that it's a MAGAZINE, not a clip. This is what it's referred to internally. I didn't write the function, Arctic did. He knows it's magazines, too.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Ammo Effect"
+
+ATT.BottomlessClip = true
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_bottomless_clip")
+
+///////////////////////////////////////     PROJECTILE COUNT (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Projectile"
+ATT.PrintName = "+1 Projectile"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds one projectile to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+2 Projectiles"
+ATT.PrintName = "+1 Projectiles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds two projectiles to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus2")
+
+ATT = {}
+
+ATT.CompactName = "+3 Projectiles"
+ATT.PrintName = "+3 Projectiles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds three projectiles to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus3")
+
+ATT = {}
+
+ATT.CompactName = "+4 Projectiles"
+ATT.PrintName = "+4 Projectiles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds four projectiles to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus4")
+
+ATT = {}
+
+ATT.CompactName = "+5 Projectiles"
+ATT.PrintName = "+5 Projectiles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds five projectiles to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+6 Projectiles"
+ATT.PrintName = "+6 Projectiles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds six projectiles to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus6")
+
+ATT = {}
+
+ATT.CompactName = "+7 Projectiles"
+ATT.PrintName = "+7 Projectiles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds seven projectiles to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Projectile/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.NumAdd = 7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus7")
+
+
+
 
 ///////////////////////////////////////     DAMAGE TUNING (Multiply)
 

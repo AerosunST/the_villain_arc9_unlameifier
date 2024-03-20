@@ -2099,3 +2099,37 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg"
 ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/guitar1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_guitar")
+
+// ////////// Whitesnow/KindredFlame //////////
+
+ATT = {}
+
+ATT.PrintName = "KindredFlame's M16A4"
+ATT.CompactName = "M16A4"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/KindredFlame"
+ATT.Description = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
+
+The legend never dies...]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/ws/famas-1.wav",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/ws/famas-1.wav",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/ws/m4a1-1.wav",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/ws/m4a1-1.wav",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/ws/famas-1.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_ws_m16a4")

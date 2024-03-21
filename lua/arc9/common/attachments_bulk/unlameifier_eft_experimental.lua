@@ -505,7 +505,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
 
-ATT.Category = {"cod2019_perks","cod2019_perks_soh","cod2019_perks_ss", "go_perk", "bo1_perkacola"}
+ATT.Category = {"cod2019_perks","cod2019_perks_soh","cod2019_perks_ss", "go_perk", "bo1_perkacola","doi_perk_holster", "doi_perk_mag","doi_perk_stock","doi_perk_sling"}
 ATT.Folder = "Unlameifier"
 ATT.IconOffset = Vector(0, 0, -1)
 

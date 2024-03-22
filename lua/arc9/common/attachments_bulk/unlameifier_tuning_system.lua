@@ -43,6 +43,54 @@ ARC9.LoadAttachment(ATT, "unlameifier_tuning_system")
 
 ATT = {}
 
+ATT.PrintName = "Force Suppressor Off"
+ATT.CompactName = "Suppressor OFF"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disable suppressors. Useful if you want to have a loud gunshot while using a suppressor.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.Silencer = false
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_suppressor_off")
+
+ATT = {}
+
+ATT.PrintName = "Force Suppressor On"
+ATT.CompactName = "Suppressor On"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enables suppressors. Useful if you want to have a quiet gunshot without using a suppressor.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.Silencer = true
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_suppressor_on")
+
+ATT = {}
+
 ATT.PrintName = "EFT Incendiary Ammo"
 ATT.CompactName = "Incendiary Ammo"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
@@ -7467,7 +7515,7 @@ ATT.AttNotForNPCs = true
 
 ATT.Category = {"ul_tuning", }
 ATT.MenuCategory = "ARC9 - Unlameifier"
-ATT.Folder = "Heat/Utility"
+ATT.Folder = "Heat/Utility/System"
 
 ATT.Attachments = {
 	{
@@ -7494,7 +7542,7 @@ ATT.AttNotForNPCs = true
 
 ATT.Category = {"ul_tuning", }
 ATT.MenuCategory = "ARC9 - Unlameifier"
-ATT.Folder = "Heat/Utility"
+ATT.Folder = "Heat/Utility/System"
 
 ATT.Attachments = {
 	{
@@ -7508,6 +7556,118 @@ ATT.Attachments = {
 ATT.Overheat = true
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_enable")
+
+///////////////////////////////////////     HEAT LOCKOUT TUNING (Utilities)
+
+ATT = {}
+
+ATT.CompactName = "Enable Heat Lockout"
+ATT.PrintName = "Enable Lockout"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enable heat lockout (unable to fire until heat has fully dissipated).]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Utility/Lockout"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatLockout = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_lockout_enable")
+
+ATT = {}
+
+ATT.CompactName = "Disable Heat Lockout"
+ATT.PrintName = "Disable Lockout"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disable heat lockout (able to fire even if heat hasn't fully dissipated).]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Utility/Lockout"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatLockout = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_lockout_disable")
+
+///////////////////////////////////////     HEAT FIX TUNING (Utilities)
+
+ATT = {}
+
+ATT.CompactName = "Enable Heat Fix"
+ATT.PrintName = "Enable Fix"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enable heat fix (all heat is removed once max capacity is reached).]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Utility/Fix"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatFix = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_fix_enable")
+
+ATT = {}
+
+ATT.CompactName = "Disable Heat Fix"
+ATT.PrintName = "Disable Fix"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disable heat fix (all heat is not removed after max capacity is reached).]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Utility/Fix"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatFix = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_fix_disable")
 
 ///////////////////////////////////////     HEAT PER SHOT TUNING (Add)
 
@@ -8106,3 +8266,2237 @@ ATT.Attachments = {
 ATT.HeatPerShotAdd = -1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus1000")
+
+///////////////////////////////////////     HEAT CAPACITY TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Heat Capacity"
+ATT.PrintName = "Heat Capacity x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Heat Capacity"
+ATT.PrintName = "Heat Capacity x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Heat Capacity"
+ATT.PrintName = "Heat Capacity x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Heat Capacity"
+ATT.PrintName = "Heat Capacity x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Heat Capacity"
+ATT.PrintName = "Heat Capacity x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Heat Capacity"
+ATT.PrintName = "Heat Capacity x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Heat Capacity"
+ATT.PrintName = "Heat Capacity x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x10")
+
+///////////////////////////////////////     HEAT CAPACITY TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Heat Capacity"
+ATT.PrintName = "Heat Capacity x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Heat Capacity"
+ATT.PrintName = "Heat Capacity x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Heat Capacity"
+ATT.PrintName = "Heat Capacity x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Heat Capacity"
+ATT.PrintName = "Heat Capacity x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Heat Capacity"
+ATT.PrintName = "Heat Capacity x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x010")
+
+///////////////////////////////////////     HEAT CAPACITY TUNING (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Heat Capacity"
+ATT.PrintName = "Heat Capacity +1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Heat Capacity"
+ATT.PrintName = "Heat Capacity +5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+10 Heat Capacity"
+ATT.PrintName = "Heat Capacity +10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus10")
+
+ATT = {}
+
+ATT.CompactName = "+25 Heat Capacity"
+ATT.PrintName = "Heat Capacity +25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus25")
+
+ATT = {}
+
+ATT.CompactName = "+50 Heat Capacity"
+ATT.PrintName = "Heat Capacity +50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus50")
+
+ATT = {}
+
+ATT.CompactName = "+75 Heat Capacity"
+ATT.PrintName = "Heat Capacity +75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+100 Heat Capacity"
+ATT.PrintName = "Heat Capacity +100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus100")
+
+ATT = {}
+
+ATT.CompactName = "+500 Heat Capacity"
+ATT.PrintName = "Heat Capacity +500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus500")
+
+ATT = {}
+
+ATT.CompactName = "+1000 Heat Capacity"
+ATT.PrintName = "Heat Capacity +1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat capacity by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus1000")
+
+///////////////////////////////////////     HEAT CAPACITY TUNING (Subtract)
+
+ATT = {}
+
+ATT.CompactName = "-1 Heat Capacity"
+ATT.PrintName = "Heat Capacity -1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Heat Capacity"
+ATT.PrintName = "Heat Capacity -5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-10 Heat Capacity"
+ATT.PrintName = "Heat Capacity -10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus10")
+
+ATT = {}
+
+ATT.CompactName = "-25 Heat Capacity"
+ATT.PrintName = "Heat Capacity -25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus25")
+
+ATT = {}
+
+ATT.CompactName = "-50 Heat Capacity"
+ATT.PrintName = "Heat Capacity -50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus50")
+
+ATT = {}
+
+ATT.CompactName = "-75 Heat Capacity"
+ATT.PrintName = "Heat Capacity -75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-100 Heat Capacity"
+ATT.PrintName = "Heat Capacity -100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus100")
+
+ATT = {}
+
+ATT.CompactName = "-500 Heat Capacity"
+ATT.PrintName = "Heat Capacity -500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus500")
+
+ATT = {}
+
+ATT.CompactName = "-1000 Heat Capacity"
+ATT.PrintName = "Heat Capacity -1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat capacity by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacityAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus1000")
+
+///////////////////////////////////////     HEAT CAPACITY TUNING (Fixed)
+
+ATT = {}
+
+ATT.CompactName = "1 Heat Capacity"
+ATT.PrintName = "Heat Capacity 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force1")
+
+ATT = {}
+
+ATT.CompactName = "5 Heat Capacity"
+ATT.PrintName = "Heat Capacity 5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force5")
+
+ATT = {}
+
+ATT.CompactName = "10 Heat Capacity"
+ATT.PrintName = "Heat Capacity 10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force10")
+
+ATT = {}
+
+ATT.CompactName = "17 Heat Capacity"
+ATT.PrintName = "Heat Capacity 17"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 17]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force17")
+
+ATT = {}
+
+ATT.CompactName = "25 Heat Capacity"
+ATT.PrintName = "Heat Capacity 25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force25")
+
+ATT = {}
+
+ATT.CompactName = "30 Heat Capacity"
+ATT.PrintName = "Heat Capacity 30"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 30]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force30")
+
+ATT = {}
+
+ATT.CompactName = "50 Heat Capacity"
+ATT.PrintName = "Heat Capacity 50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force50")
+
+ATT = {}
+
+ATT.CompactName = "75 Heat Capacity"
+ATT.PrintName = "Heat Capacity 75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force75")
+
+ATT = {}
+
+ATT.CompactName = "100 Heat Capacity"
+ATT.PrintName = "Heat Capacity 100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force100")
+
+ATT = {}
+
+ATT.CompactName = "500 Heat Capacity"
+ATT.PrintName = "Heat Capacity 500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force500")
+
+ATT = {}
+
+ATT.CompactName = "1000 Heat Capacity"
+ATT.PrintName = "Heat Capacity 1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat capacity to 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatCapacity = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force1000")
+
+///////////////////////////////////////     HEAT DISSIPATION TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x10")
+
+///////////////////////////////////////     HEAT DISSIPATION TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x010")
+
+///////////////////////////////////////     HEAT DISSIPATION TUNING (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+10 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus10")
+
+ATT = {}
+
+ATT.CompactName = "+25 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus25")
+
+ATT = {}
+
+ATT.CompactName = "+50 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus50")
+
+ATT = {}
+
+ATT.CompactName = "+75 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+100 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus100")
+
+ATT = {}
+
+ATT.CompactName = "+500 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus500")
+
+ATT = {}
+
+ATT.CompactName = "+1000 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation +1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases heat dissipation by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus1000")
+
+///////////////////////////////////////     HEAT DISSIPATION TUNING (Subtract)
+
+ATT = {}
+
+ATT.CompactName = "-1 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-10 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus10")
+
+ATT = {}
+
+ATT.CompactName = "-25 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus25")
+
+ATT = {}
+
+ATT.CompactName = "-50 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus50")
+
+ATT = {}
+
+ATT.CompactName = "-75 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-100 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus100")
+
+ATT = {}
+
+ATT.CompactName = "-500 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus500")
+
+ATT = {}
+
+ATT.CompactName = "-1000 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation -1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases heat dissipation by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipationAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus1000")
+
+///////////////////////////////////////     HEAT DISSIPATION TUNING (Fixed)
+
+ATT = {}
+
+ATT.CompactName = "1 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force1")
+
+ATT = {}
+
+ATT.CompactName = "5 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force5")
+
+ATT = {}
+
+ATT.CompactName = "10 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force10")
+
+ATT = {}
+
+ATT.CompactName = "17 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 17"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 17]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force17")
+
+ATT = {}
+
+ATT.CompactName = "25 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force25")
+
+ATT = {}
+
+ATT.CompactName = "30 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 30"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 30]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force30")
+
+ATT = {}
+
+ATT.CompactName = "50 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force50")
+
+ATT = {}
+
+ATT.CompactName = "75 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force75")
+
+ATT = {}
+
+ATT.CompactName = "100 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force100")
+
+ATT = {}
+
+ATT.CompactName = "500 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force500")
+
+ATT = {}
+
+ATT.CompactName = "1000 Heat Dissipation"
+ATT.PrintName = "Heat Dissipation 1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat dissipation to 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Dissipation/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDissipation = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force1000")

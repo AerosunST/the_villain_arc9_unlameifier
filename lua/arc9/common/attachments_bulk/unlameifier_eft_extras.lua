@@ -1692,3 +1692,338 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_lightning")
+
+ATT = {}
+
+ATT.PrintName = "Blood"
+ATT.CompactName = "Blood"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Make a massacre of imaginary people.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Blood"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_blood")
+
+ATT = {}
+
+ATT.PrintName = "Cross"
+ATT.CompactName = "Cross"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[X marks the spot!]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Cross"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_cross")
+
+ATT = {}
+
+ATT.PrintName = "Eye"
+ATT.CompactName = "Eye"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[THE EYES! THEY'RE EVERYWHERE! THEY SEE EVERYTHING!
+
+I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Eye"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_eye")
+
+ATT = {}
+
+ATT.PrintName = "Scorch Mark"
+ATT.CompactName = "Scorch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Leave the enemy with a sick burn.
+
+Note: Does not actually burn the target.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "FadingScorch"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_fadingscorch")
+
+ATT = {}
+
+ATT.PrintName = "Flesh Impact"
+ATT.CompactName = "Flesh"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[THEY'RE IN THE WALLS! THEY'RE IN THE WALLS!!!!
+
+or, you just want to have a blood splotch whenever you hit something. idk, you do you edgelord.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Impact.Flesh"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_flesh")
+
+ATT = {}
+
+ATT.PrintName = "Nought"
+ATT.CompactName = "Nought"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Really just an O.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Nought"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_nought")
+
+ATT = {}
+
+ATT.PrintName = "Noughts n' Crosses"
+ATT.CompactName = "Tic-Tac-Toe"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Hey, look! You can play Tic-Tac-Toe with this!
+
+VERY chaotic in full auto.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Noughtncrosses"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_noughtsncrosses")
+
+ATT = {}
+
+ATT.PrintName = "Blue Paint"
+ATT.CompactName = "Blue Paint"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Yes, it really does paint your enemies blue. It's funny!]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "PaintSplatBlue"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_paintsplatblue")
+
+ATT = {}
+
+ATT.PrintName = "Green Paint"
+ATT.CompactName = "Green Paint"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Yes, it really does paint your enemies green. It's funny!]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "PaintSplatGreen"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_paintsplatgreen")
+
+ATT = {}
+
+ATT.PrintName = "Pink Paint"
+ATT.CompactName = "Pink Paint"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[hey wait a minute...]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "PaintSplatPink"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_paintsplatpink")
+
+ATT = {}
+
+ATT.PrintName = "Big Scorch"
+ATT.CompactName = "Big Scorch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[For BIG bullets]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Scorch"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_bigscorch")
+
+ATT = {}
+
+ATT.PrintName = "Smile"
+ATT.CompactName = "Smile"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[THE WALLS! THEY MOCK ME WITH THEIR SMILE!
+
+I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY ]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "Smile"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_smile")
+
+ATT = {}
+
+ATT.PrintName = "Yellow Blood"
+ATT.CompactName = "Yellow Blood"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Someone got mustard all over the place...]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys/Impact Decal"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ImpactDecal = "YellowBlood"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_yellowblood")

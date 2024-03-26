@@ -1818,6 +1818,10 @@ ATT.AttNotForNPCs = true
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
 ATT.RPM = 250 // Since you're reading this, you've probably dug around in the sound files too. I'll just tell you, then. ~1228 rounds should be enough ;)
+ATT.ImpactDecal = "PaintSplatPink"
+ATT.TracerNum = 1
+ATT.TracerSize = 10
+ATT.TracerColor = Color(255, 255, 255)
 
 ATT.Category = {"eft_custom_slot"}
 ATT.Attachments = {

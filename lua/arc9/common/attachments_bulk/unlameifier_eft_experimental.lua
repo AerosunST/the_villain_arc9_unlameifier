@@ -88,6 +88,11 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Ammo = "pistol"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/9x19.mdl"
+ATT.ShellScale = 1
+ATT.CaseEffectQCA = 2
+ATT.ShellPhysBox = Vector(0.5, 0.5, 2)
+
 ATT.Category = {"eft_ammo_556"}
 ATT.Attachments = {
     {
@@ -617,3 +622,101 @@ ATT.Attachments = {
 	
 }
 ARC9.LoadAttachment(ATT, "unlameifier_eft_gsr_perks")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = "Customizable Laser (TEST)"
+ATT.CompactName = "Custom Laser"
+ATT.Description = [[Have you ever wanted to make your own SUPER COOL LASER? Now you can!!
+
+I'm having problems using subslots as a means of determining the laser color and visibility. If you have any ideas as to how to achieve this, please let me know on Discord @neosunpersonal.
+
+For now, just have fun with a multi-color light.]]
+
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+
+ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_ncstar_tbl.mdl"
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "White Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 255, 255),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = "Red Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 0, 0),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = "Green Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+	},
+    {
+        PrintName = "Blue Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 0, 255),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+	},
+    {
+        PrintName = "Cyan Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 255, 255),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+	},
+    {
+        PrintName = "Yellow Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 255, 0),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+	},
+    {
+        PrintName = "Pink Laser",
+        Laser = true,
+        LaserStrength = 1.3,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 0, 255),
+        LaserAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+	},
+	
+    {
+        PrintName = "None",
+    }
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_custom_laser_lazy")

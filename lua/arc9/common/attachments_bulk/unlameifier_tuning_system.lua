@@ -7,7 +7,7 @@ ATT = {}
 ATT.PrintName = "Enable Tuning"
 ATT.CompactName = "Tuning"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Allows you to fine-tune the statistics of your weapon in incremental values to make it behave the way you desire. Equip this as close to LAST as possible, as this can accumulate quite a lot of subslots. For the sake of visual sanity, these subslots will NOT appear in the 3D interface.
+ATT.Description = [[Allows you to fine-tune the statistics of your weapon in incremental values to make it behave the way you desire. You can equip this in any order, as the tuning slots will be at the very end of your custom slot stack. <color=255,255,0>For the sake of visual sanity, these subslots will NOT appear in the 3D interface.</color>
 
 <color=255,0,0>WARNING.</color> THIS CAN BE USED TO MAKE SUPER-ULTRA POWERFUL CHEAT WEAPONS. There are no restrictions as to what this can do, so if you are a server owner be certain to disable this attachment if you do not want players to have this function. While there are functions to make attachments only available to server administrators, Unlameifier was not made with Multiplayer in mind and therefore will not have this restriction.
 
@@ -88,6 +88,102 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_suppressor_on")
+
+ATT = {}
+
+ATT.PrintName = "Force Muzzleflash Light On"
+ATT.CompactName = "Muzzle Light On"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enables muzzleflash light. Basically cosmetic.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.NoFlash = false
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_muzzleflash_light_on")
+
+ATT = {}
+
+ATT.PrintName = "Force Muzzleflash Light Off"
+ATT.CompactName = "Muzzle Light Off"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disables muzzleflash light. Basically cosmetic.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.NoFlash = true
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_muzzleflash_light_off")
+
+ATT = {}
+
+ATT.PrintName = "Force Muzzleflash On"
+ATT.CompactName = "Muzzleflash On"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enables muzzleflash. Might not do anything in some cases.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.NoMuzzleEffect = false
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_muzzleflash_on")
+
+ATT = {}
+
+ATT.PrintName = "Force Muzzleflash Off"
+ATT.CompactName = "Muzzleflash Off"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disables muzzleflash.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.NoMuzzleEffect = true
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_muzzleflash_off")
 
 ATT = {}
 
@@ -4910,6 +5006,716 @@ ATT.ReloadTimeMult = 0
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_reloadtime_x0")
 
+///////////////////////////////////////     DEPLOY TIME TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Deploy Time"
+ATT.PrintName = "Deploy Time x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Deploy Time"
+ATT.PrintName = "Deploy Time x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Deploy Time"
+ATT.PrintName = "Deploy Time x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Deploy Time"
+ATT.PrintName = "Deploy Time x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Deploy Time"
+ATT.PrintName = "Deploy Time x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Deploy Time"
+ATT.PrintName = "Deploy Time x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Deploy Time"
+ATT.PrintName = "Deploy Time x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases deploy time by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x10")
+
+///////////////////////////////////////     DEPLOY TIME TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Deploy Time"
+ATT.PrintName = "Deploy Time x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases deploy time by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Deploy Time"
+ATT.PrintName = "Deploy Time x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases deploy time by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Deploy Time"
+ATT.PrintName = "Deploy Time x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases deploy time by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Deploy Time"
+ATT.PrintName = "Deploy Time x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases deploy time by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Deploy Time"
+ATT.PrintName = "Deploy Time x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases deploy time by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x010")
+
+ATT = {}
+
+ATT.CompactName = "x0 Deploy Time"
+ATT.PrintName = "Deploy Time x0"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases deploy time by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Deploy Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.DeployTimeMult = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_deploytime_x0")
+
+///////////////////////////////////////     ADS TIME TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 ADS Time"
+ATT.PrintName = "ADS Time x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 ADS Time"
+ATT.PrintName = "ADS Time x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 ADS Time"
+ATT.PrintName = "ADS Time x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 ADS Time"
+ATT.PrintName = "ADS Time x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 ADS Time"
+ATT.PrintName = "ADS Time x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 ADS Time"
+ATT.PrintName = "ADS Time x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 ADS Time"
+ATT.PrintName = "ADS Time x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ADS time by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x10")
+
+///////////////////////////////////////     ADS TIME TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 ADS Time"
+ATT.PrintName = "ADS Time x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ADS time by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 ADS Time"
+ATT.PrintName = "ADS Time x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ADS time by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 ADS Time"
+ATT.PrintName = "ADS Time x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ADS time by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 ADS Time"
+ATT.PrintName = "ADS Time x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ADS time by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 ADS Time"
+ATT.PrintName = "ADS Time x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ADS time by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x010")
+
+ATT = {}
+
+ATT.CompactName = "x0 ADS Time"
+ATT.PrintName = "ADS Time x0"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ADS time by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "ADS Time/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AimDownSightsTimeMult = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_adstime_x0")
+
 ///////////////////////////////////////     MAG CAPACITY TUNING (Multiply)
 
 ATT = {}
@@ -7500,6 +8306,1179 @@ ATT.Attachments = {
 ATT.RangeMinMult = 0.10
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x010")
+
+///////////////////////////////////////     MALFUNCTION TUNING (Utilities)
+
+ATT = {}
+
+ATT.CompactName = "Disable Malfunction System"
+ATT.PrintName = "Disable Malfunction"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disable the Malfunction system entirely.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Malfunction = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_malfunction_disable")
+
+ATT = {}
+
+ATT.CompactName = "Enable Malfunction System"
+ATT.PrintName = "Enable Malfunction"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enable the Malfunction system.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Malfunction = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_malfunction_enable")
+
+///////////////////////////////////////     (MALFUNCTION) MEAN SHOTS TO FAIL TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x10")
+
+///////////////////////////////////////     (MALFUNCTION) MEAN SHOTS TO FAIL TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x010")
+
+///////////////////////////////////////     (MALFUNCTION) MEAN SHOTS TO FAIL TUNING (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+10 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus10")
+
+ATT = {}
+
+ATT.CompactName = "+25 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus25")
+
+ATT = {}
+
+ATT.CompactName = "+50 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus50")
+
+ATT = {}
+
+ATT.CompactName = "+75 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+100 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus100")
+
+ATT = {}
+
+ATT.CompactName = "+500 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus500")
+
+ATT = {}
+
+ATT.CompactName = "+1000 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail +1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases mean shots to fail by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus1000")
+
+///////////////////////////////////////     (MALFUNCTION) MEAN SHOTS TO FAIL TUNING (Subtract)
+
+ATT = {}
+
+ATT.CompactName = "-1 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-10 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus10")
+
+ATT = {}
+
+ATT.CompactName = "-25 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus25")
+
+ATT = {}
+
+ATT.CompactName = "-50 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus50")
+
+ATT = {}
+
+ATT.CompactName = "-75 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-100 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus100")
+
+ATT = {}
+
+ATT.CompactName = "-500 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus500")
+
+ATT = {}
+
+ATT.CompactName = "-1000 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail -1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases mean shots to fail by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFailAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus1000")
+
+///////////////////////////////////////     (MALFUNCTION) MEAN SHOTS TO FAIL TUNING (Fixed)
+
+ATT = {}
+
+ATT.CompactName = "1 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force1")
+
+ATT = {}
+
+ATT.CompactName = "5 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force5")
+
+ATT = {}
+
+ATT.CompactName = "10 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force10")
+
+ATT = {}
+
+ATT.CompactName = "17 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 17"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 17]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force17")
+
+ATT = {}
+
+ATT.CompactName = "25 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force25")
+
+ATT = {}
+
+ATT.CompactName = "30 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 30"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 30]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force30")
+
+ATT = {}
+
+ATT.CompactName = "50 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force50")
+
+ATT = {}
+
+ATT.CompactName = "75 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force75")
+
+ATT = {}
+
+ATT.CompactName = "100 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force100")
+
+ATT = {}
+
+ATT.CompactName = "500 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force500")
+
+ATT = {}
+
+ATT.CompactName = "1000 Mean Shots to Fail"
+ATT.PrintName = "Mean Shots to Fail 1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mean shots to fail to 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Malfunction/Mean Shots to Fail/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.MalfunctionMeanShotsToFail = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force1000")
 
 ///////////////////////////////////////     OVERHEAT TUNING (Utilities)
 
@@ -10500,3 +12479,1041 @@ ATT.Attachments = {
 ATT.HeatDissipation = 1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force1000")
+
+///////////////////////////////////////     HEAT DELAY TUNING (Fixed)
+
+ATT = {}
+
+ATT.CompactName = "0s Heat Delay"
+ATT.PrintName = "Heat Delay 0s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 0s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force0")
+
+ATT = {}
+
+ATT.CompactName = "0.5s Heat Delay"
+ATT.PrintName = "Heat Delay 0.5s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 0.5s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force05")
+
+ATT = {}
+
+ATT.CompactName = "1s Heat Delay"
+ATT.PrintName = "Heat Delay 1s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 1s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force1")
+
+ATT = {}
+
+ATT.CompactName = "3s Heat Delay"
+ATT.PrintName = "Heat Delay 3s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 3s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force3")
+
+ATT = {}
+
+ATT.CompactName = "5s Heat Delay"
+ATT.PrintName = "Heat Delay 5s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 5s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force5")
+
+ATT = {}
+
+ATT.CompactName = "10s Heat Delay"
+ATT.PrintName = "Heat Delay 10s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 10s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force10")
+
+ATT = {}
+
+ATT.CompactName = "30s Heat Delay"
+ATT.PrintName = "Heat Delay 30s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 30s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force30")
+
+ATT = {}
+
+ATT.CompactName = "60s Heat Delay"
+ATT.PrintName = "Heat Delay 60s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets heat recovery delay to 60s. Damn... That's pretty harsh, dude...
+
+(more delay-related features are coming, just got tired of working on heat related stuff)]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Heat/Heat Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HeatDelayTime = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force60")
+
+///////////////////////////////////////     (EFT) ERGONOMICS TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Ergonomics"
+ATT.PrintName = "Ergonomics x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Ergonomics"
+ATT.PrintName = "Ergonomics x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Ergonomics"
+ATT.PrintName = "Ergonomics x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Ergonomics"
+ATT.PrintName = "Ergonomics x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Ergonomics"
+ATT.PrintName = "Ergonomics x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Ergonomics"
+ATT.PrintName = "Ergonomics x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Ergonomics"
+ATT.PrintName = "Ergonomics x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x10")
+
+///////////////////////////////////////     (EFT) ERGONOMICS TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Ergonomics"
+ATT.PrintName = "Ergonomics x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Ergonomics"
+ATT.PrintName = "Ergonomics x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Ergonomics"
+ATT.PrintName = "Ergonomics x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Ergonomics"
+ATT.PrintName = "Ergonomics x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Ergonomics"
+ATT.PrintName = "Ergonomics x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x010")
+
+///////////////////////////////////////     (EFT) ERGONOMICS TUNING (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Ergonomics"
+ATT.PrintName = "Ergonomics +1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Ergonomics"
+ATT.PrintName = "Ergonomics +5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+10 Ergonomics"
+ATT.PrintName = "Ergonomics +10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus10")
+
+ATT = {}
+
+ATT.CompactName = "+25 Ergonomics"
+ATT.PrintName = "Ergonomics +25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus25")
+
+ATT = {}
+
+ATT.CompactName = "+50 Ergonomics"
+ATT.PrintName = "Ergonomics +50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus50")
+
+ATT = {}
+
+ATT.CompactName = "+75 Ergonomics"
+ATT.PrintName = "Ergonomics +75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+100 Ergonomics"
+ATT.PrintName = "Ergonomics +100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus100")
+
+ATT = {}
+
+ATT.CompactName = "+500 Ergonomics"
+ATT.PrintName = "Ergonomics +500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus500")
+
+ATT = {}
+
+ATT.CompactName = "+1000 Ergonomics"
+ATT.PrintName = "Ergonomics +1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases ergonomics by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus1000")
+
+///////////////////////////////////////     (EFT) ERGONOMICS TUNING (Subtract)
+
+ATT = {}
+
+ATT.CompactName = "-1 Ergonomics"
+ATT.PrintName = "Ergonomics -1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Ergonomics"
+ATT.PrintName = "Ergonomics -5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-10 Ergonomics"
+ATT.PrintName = "Ergonomics -10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus10")
+
+ATT = {}
+
+ATT.CompactName = "-25 Ergonomics"
+ATT.PrintName = "Ergonomics -25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus25")
+
+ATT = {}
+
+ATT.CompactName = "-50 Ergonomics"
+ATT.PrintName = "Ergonomics -50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus50")
+
+ATT = {}
+
+ATT.CompactName = "-75 Ergonomics"
+ATT.PrintName = "Ergonomics -75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-100 Ergonomics"
+ATT.PrintName = "Ergonomics -100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus100")
+
+ATT = {}
+
+ATT.CompactName = "-500 Ergonomics"
+ATT.PrintName = "Ergonomics -500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus500")
+
+ATT = {}
+
+ATT.CompactName = "-1000 Ergonomics"
+ATT.PrintName = "Ergonomics -1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases ergonomics by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ergonomics/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.EFTErgoAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus1000")

@@ -1227,6 +1227,35 @@ ARC9.LoadAttachment(ATT, "unlameifier_rpm_99999")
 
 ATT = {}
 
+ATT.PrintName = "Accelerator"
+ATT.CompactName = "Accelerator"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Slowly adds firerate as you're shooting. Can reach some very stupid numbers. Shooting pitch scales, too, for funsies.
+
+In its current, experimental, implementation... this scales based off Heat. So if your weapon doesn't support heat, make sure to enable it via the Tuning System.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM"
+
+ATT.RPMAddHot = 2000
+ATT.RPMModifierCap = 2000
+ATT.ShootPitchAddHot = 100
+ATT.ShootPitchModifierCap = 2000
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_accelerator")
+
+ATT = {}
+
 ATT.PrintName = "0"
 ATT.CompactName = "0"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
@@ -1306,7 +1335,7 @@ ATT = {}
 ATT.PrintName = "Red Tracers"
 ATT.CompactName = "Red"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun red tracers.]]
+ATT.Description = [[Gives your gun <color=222,31,31>red tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1332,7 +1361,7 @@ ATT = {}
 ATT.PrintName = "Green Tracers"
 ATT.CompactName = "Green"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun green tracers.]]
+ATT.Description = [[Gives your gun <color=31,222,73>green tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1358,7 +1387,7 @@ ATT = {}
 ATT.PrintName = "Blue Tracers"
 ATT.CompactName = "Blue"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun blue tracers.]]
+ATT.Description = [[Gives your gun <color=31,57,222>blue tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1384,7 +1413,7 @@ ATT = {}
 ATT.PrintName = "Yellow Tracers"
 ATT.CompactName = "Yellow"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun yellow tracers.]]
+ATT.Description = [[Gives your gun <color=222,217,31>yellow tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1410,7 +1439,7 @@ ATT = {}
 ATT.PrintName = "Orange Tracers"
 ATT.CompactName = "Orange"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun orange tracers.]]
+ATT.Description = [[Gives your gun <color=222,136,31>orange tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1436,7 +1465,7 @@ ATT = {}
 ATT.PrintName = "Purple Tracers"
 ATT.CompactName = "Purple"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun purple tracers.]]
+ATT.Description = [[Gives your gun <color=124,31,222>purple tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1462,7 +1491,7 @@ ATT = {}
 ATT.PrintName = "Pink Tracers"
 ATT.CompactName = "Pink"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun pink tracers.]]
+ATT.Description = [[Gives your gun <color=222,31,213>pink tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1514,7 +1543,7 @@ ATT = {}
 ATT.PrintName = "Cyan Tracers"
 ATT.CompactName = "Cyan"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun cyan tracers.]]
+ATT.Description = [[Gives your gun <color=31,180,222>cyan tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1540,7 +1569,7 @@ ATT = {}
 ATT.PrintName = "Teal Tracers"
 ATT.CompactName = "Teal"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun teal tracers.]]
+ATT.Description = [[Gives your gun <color=31,222,188>teal tracers</color>.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }
@@ -1566,7 +1595,9 @@ ATT = {}
 ATT.PrintName = "Tom Aero 0 Teal"
 ATT.CompactName = "TA Teal"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Gives your gun teal tracers, except a little greener]]
+ATT.Description = [[Gives your gun <color=0,255,132>teal tracers</color>, except a little greener
+
+<color=0,255,132>"Do you ever feel as though you are living in a Hell of your own design?"</color>]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot", }

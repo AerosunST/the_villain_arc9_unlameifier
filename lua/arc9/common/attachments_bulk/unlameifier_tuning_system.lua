@@ -187,6 +187,54 @@ ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_muzzleflash_off")
 
 ATT = {}
 
+ATT.PrintName = "HL2 Ammotype Cycle"
+ATT.CompactName = "HL2 Ammo Cycle"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [["That thing's a gimmick, sonny".
+
+Lets you use togglestats to dynamically change your ammotype (HL2 version). Useful for gun setups that use "Vulture Aid" or "Scavenger" perks from CoD Pack. Not recommended for use with other togglestats items.]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Function"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = "Pistol",
+        Ammo = "pistol",
+    },
+    {
+        PrintName = "SMG1",
+        Ammo = "smg1",
+    },
+    {
+        PrintName = "AR2",
+        Ammo = "ar2",
+    },
+    {
+        PrintName = "Buckshot",
+        Ammo = "buckshot",
+    },
+    {
+        PrintName = "357",
+        Ammo = "357",
+    },
+}
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_hl2_ammotype_cycle")
+
+ATT = {}
+
 ATT.PrintName = "EFT Incendiary Ammo"
 ATT.CompactName = "Incendiary Ammo"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")

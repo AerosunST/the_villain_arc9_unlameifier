@@ -1282,6 +1282,54 @@ ARC9.LoadAttachment(ATT, "unlameifier_rpm_0_cycle")
 
 ATT = {}
 
+ATT.PrintName = "0.90x"
+ATT.CompactName = "0.90x"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[0.90x. Cycle 10% faster.]]
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM/Cycle Time"
+
+ATT.CycleTimeMult = 0.90
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_090_cycle")
+
+ATT = {}
+
+ATT.PrintName = "0.75x"
+ATT.CompactName = "0.75x"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[0.75x. Cycle 25% faster.]]
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/RPM/Cycle Time"
+
+ATT.CycleTimeMult = 0.75
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_rpm_075_cycle")
+
+ATT = {}
+
 ATT.PrintName = "0.5x"
 ATT.CompactName = "0.5x"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")

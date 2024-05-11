@@ -2106,3 +2106,243 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_impact_yellowblood")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Slides"
+ATT.CompactName = "G17 Slides"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Slides on the Glock 18C.]]
+
+ATT.Category = {"eft_g18c_rec", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Slide",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_rec"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_g18c_conversion_slides")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Barrels"
+ATT.CompactName = "G17 Barrels"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Barrels on the Glock 18C.]]
+
+ATT.Category = {"eft_g18c_barrel", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Barrel",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_barrel"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_g18c_conversion_barrels")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Front Sights"
+ATT.CompactName = "G17 Front Sights"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Front Sights on the USP.]]
+
+ATT.Category = {"eft_usp_fs", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Front Sight",
+        Pos = Vector(4.5, 0, 0.37),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_fs"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_usp_front_sights")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Rear Sights (STANDARD SLIDE)"
+ATT.CompactName = "G17 Rear Sights (STD)"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Rear Sights on the USP's standard form-factor slides. (not universal because of positioning issues)]]
+
+ATT.Category = {"eft_usp_rs", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Rear Sight",
+        Pos = Vector(-2, 0, 0.37),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_rs"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_usp_rear_sights")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Rear Sights (ELITE & EXPERT SLIDES)"
+ATT.CompactName = "G17 Rear Sights (E&E Version)"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Rear Sights on the USP's Elite & Expert form-factor slides. (not universal because of positioning issues)]]
+
+ATT.Category = {"eft_usp_rs", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Rear Sight",
+        Pos = Vector(-2, 0, 0.37),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_rs"},
+    },
+}
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -0.35),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        IsIronSight = true
+    }
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_usp_rear_sights_elite_expert")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Front Sights"
+ATT.CompactName = "G17 Front Sights"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Front Sights on the M9A3.]]
+
+ATT.Category = {"eft_m9a3_fs", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Front Sight",
+        Pos = Vector(0.35, 0, 0.04),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_fs"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_m9a3_front_sights")
+
+ATT = {}
+
+ATT.PrintName = "Glock 17 Rear Sights"
+ATT.CompactName = "G17 Rear Sights"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Lets you use Glock 17 Rear Sights on the M9A3.]]
+
+ATT.Category = {"eft_m9a3_rs", }
+ATT.Folder = "Unlameifier"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Glock 17 Rear Sight",
+        Pos = Vector(0.2, 0, 0.08),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_g17_rs"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_g17_m9a3_rear_sights")
+
+ATT = {}
+
+ATT.PrintName = "One Handed"
+ATT.CompactName = "One Hand"
+ATT.Folder = "Unlameifier/Toys"
+ATT.Description = [[Holds the weapon with one hand.
+
+Shamelessly stolen from Rooneyviz's EFT ATT Pack and made more widely available. Removed stat modifiers for the sake of tacticoolness. This is purely cosmetic now. May not work on non-EFT guns.]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_fortisshift.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+ATT.ModelOffset = Vector (-15,-13,-30)
+ATT.ModelAngleOffset = Angle(180, 180, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.SortOrder = 0
+ATT.Category = {"eft_custom_slot", }
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_one_handed")
+
+ATT = {}
+
+ATT.PrintName = "Gangsta Hold"
+ATT.CompactName = "Gangsta Hold"
+ATT.Folder = "Unlameifier/Toys"
+ATT.Description = [[Holds the weapon sideways with one hand.
+
+For the record, your soundcloud tracks are ass. Stop trying, please. You are not getting out of the hood with any of those.]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_fortisshift.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+ATT.ModelOffset = Vector (-15,-13,-30)
+ATT.ModelAngleOffset = Angle(180, 180, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.ViewModelFOVBase = 70
+ATT.ActivePos = Vector(-0.3, -8, -7)
+ATT.ActiveAng = Angle(0, 0, -90)
+ATT.SprintAng = Angle(-2, 30, -7)
+ATT.SprintPos = Vector(-1, -4, -10)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
+
+ATT.SortOrder = 0
+ATT.Category = {"eft_custom_slot", }
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_gangsta_hold")

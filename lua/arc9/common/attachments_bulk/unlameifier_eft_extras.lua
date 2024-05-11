@@ -2289,8 +2289,8 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png",
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_fortisshift.mdl"
 ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
-ATT.ModelOffset = Vector (-15,-13,-30)
-ATT.ModelAngleOffset = Angle(180, 180, 0)
+ATT.ModelOffset = Vector (-30,0,-8)
+ATT.ModelAngleOffset = Angle(90, 180, 90)
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
@@ -2320,8 +2320,8 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png",
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_fortisshift.mdl"
 ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
-ATT.ModelOffset = Vector (-15,-13,-30)
-ATT.ModelAngleOffset = Angle(180, 180, 0)
+ATT.ModelOffset = Vector (-30,0,-8)
+ATT.ModelAngleOffset = Angle(90, 180, 90)
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 

@@ -433,6 +433,36 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_556_57_conversion_no_modifier")
 
 ATT = {}
 
+ATT.PrintName = "5.56x45mm Conversion"
+ATT.CompactName = "5.56x45mm"
+ATT.Icon = Material("entities/eft_attachments/ammo/556/fmj.png", "mips smooth")
+ATT.Folder = "Unlameifier"
+ATT.Description = [[Super magical converion kit that makes your .300 BLK compatible weapons able to use 5.56x45mm.
+
+okay but in all seriousness that would require either a new model entirely or repacking anims into this mod- neither of which I am keen on doing. Sorry.]]
+ATT.SortOrder = 0
+ATT.Ammo = "smg1"
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = "eft_ammo_300blk"
+ATT.Attachments = {
+    {
+        PrintName = "5.56x45mm",
+        Bone = "j_gun",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.5, 0, -1),
+        Category = {"eft_ammo_556"},
+    },
+	}
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_300blk_556_conversion")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
 ATT.PrintName = "12.7x55mm Conversion"
 ATT.CompactName = "12.7x55mm"
 ATT.Icon = Material("entities/eft_ash12_attachments/12.png", "mips smooth")
@@ -720,3 +750,32 @@ ATT.ToggleStats = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_custom_laser_lazy")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[AR Barrel Compatibility]]
+ATT.CompactName = [[AR Barrels]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Enables use of AR-15 barrels on the MCX.
+
+Technically this shouldn't work but let's pretend, okay? Sadly doesn't work the other way around due the MCX's barrels being bodygroups.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier"
+
+ATT.Category = {"eft_mcx_barrel"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.Attachments = {
+    {
+        PrintName = "AR Barrel",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_m4a1_barrel"},
+    },
+	
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_mcx_ar_barrels")

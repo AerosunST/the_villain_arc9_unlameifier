@@ -293,7 +293,7 @@ ATT.CompactName = "Plug"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
 ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Half-Life 2 mounted to Garry's Mod
 
-"You going let Gordon throw the switch"?]]
+"You going to let Gordon throw the switch"?]]
 ATT.MenuCategory = "ARC9 - Charms"
 ATT.Folder = "Unlameifier/HL2"
 ATT.AttNotForNPCs = true

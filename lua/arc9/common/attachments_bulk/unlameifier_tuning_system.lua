@@ -13565,3 +13565,709 @@ ATT.Attachments = {
 ATT.EFTErgoAdd = -1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus1000")
+
+///////////////////////////////////////     AMMO OVERRIDE TUNING (HL2)
+
+ATT = {}
+
+ATT.CompactName = "AR2"
+ATT.PrintName = "AR2 Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your AR2 ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "ar2"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_ar2_hl2")
+
+ATT = {}
+
+ATT.CompactName = "AR2AltFire"
+ATT.PrintName = "AR2AltFire Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your AR2AltFire (Combine Balls) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "ar2altfire"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_ar2altfire_hl2")
+
+ATT = {}
+
+ATT.CompactName = "Pistol"
+ATT.PrintName = "Pistol Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Pistol ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "pistol"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_pistol_hl2")
+
+ATT = {}
+
+ATT.CompactName = "SMG1"
+ATT.PrintName = "SMG1 Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your SMG1 ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "smg1"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_smg1_hl2")
+
+ATT = {}
+
+ATT.CompactName = "357"
+ATT.PrintName = "357 Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your 357 ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "357"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_357_hl2")
+
+ATT = {}
+
+ATT.CompactName = "XBowBolt"
+ATT.PrintName = "XBowBolt Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your XBowBolt (Crossbow) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "xbowbolt"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_xbowbolt_hl2")
+
+ATT = {}
+
+ATT.CompactName = "Buckshot"
+ATT.PrintName = "Buckshot Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Buckshot (Shotgun) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "buckshot"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_buckshot_hl2")
+
+ATT = {}
+
+ATT.CompactName = "RPG_Round"
+ATT.PrintName = "RPG_Round Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your RPG_Round ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "rpg_round"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_rpg_round_hl2")
+
+ATT = {}
+
+ATT.CompactName = "SMG1_Grenade"
+ATT.PrintName = "SMG1_Grenade Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your SMG1_Grenade (Not to be confused with Grenade) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "smg1_grenade"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_smg1_grenade_hl2")
+
+ATT = {}
+
+ATT.CompactName = "Grenade"
+ATT.PrintName = "Grenade Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Grenade (Not to be confused with SMG1_Grenade) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "grenade"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_grenade_hl2")
+
+ATT = {}
+
+ATT.CompactName = "SLAM"
+ATT.PrintName = "SLAM Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your SLAM ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "slam"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_slam_hl2")
+
+ATT = {}
+
+ATT.CompactName = "AlyxGun"
+ATT.PrintName = "AlyxGun Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your AlyxGun (Why would you even want this?) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "alyxgun"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_alyxgun_hl2")
+
+ATT = {}
+
+ATT.CompactName = "SniperRound"
+ATT.PrintName = "SniperRound Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your SniperRound (Similar to AlyxGun, it's almost never used) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "sniperround"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_sniperround_hl2")
+
+ATT = {}
+
+ATT.CompactName = "SniperPenetratedRound"
+ATT.PrintName = "SniperPenetratedRound Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your SniperPenetratedRound (Useful if you use ArcCW's Ammo Replacements) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL2"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "sniperpenetratedround"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_sniperpenetratedround_hl2")
+
+///////////////////////////////////////     AMMO OVERRIDE TUNING (HL:S)
+
+ATT = {}
+
+ATT.CompactName = "9mmRound"
+ATT.PrintName = "9mmRound Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your 9mmRound (Pistol/SMG) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "9mmround"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_9mmround_hls")
+
+ATT = {}
+
+ATT.CompactName = "357Round"
+ATT.PrintName = "357Round Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your 357Round ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "357round"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_9mmround_hls")
+
+ATT = {}
+
+ATT.CompactName = "BuckshotHL1"
+ATT.PrintName = "BuckshotHL1 Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your BuckshotHL1 (Shotgun) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "buckshothl1"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_buckshot_hls")
+
+ATT = {}
+
+ATT.CompactName = "XBowBoltHL1"
+ATT.PrintName = "XBowBoltHL1 Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your XBowBoltHL1 (Crossbow) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "357round"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_xbowbolthl1_hls")
+
+ATT = {}
+
+ATT.CompactName = "MP5_Grenade"
+ATT.PrintName = "MP5_Grenade Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your MP5_Grenade ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "MP5_Grenade"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_mp5_grenade_hls")
+
+ATT = {}
+
+ATT.CompactName = "RPG_Rocket"
+ATT.PrintName = "RPG_Rocket Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your RPG_Rocket ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "rpg_rocket"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_rpg_rocket_hls")
+
+ATT = {}
+
+ATT.CompactName = "Uranium"
+ATT.PrintName = "Uranium Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Uranium (Gauss Gun/Gluon Gun) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "uranium"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_uranium_hls")
+
+ATT = {}
+
+ATT.CompactName = "GrenadeHL1"
+ATT.PrintName = "GrenadeHL1 Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your GrenadeHL1 ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "grenadehl1"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_grenadehl1_hls")
+
+ATT = {}
+
+ATT.CompactName = "Hornet"
+ATT.PrintName = "Hornet Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Hornet (this is not a good idea, but you do you) ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "hornet"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_hornet_hls")
+
+ATT = {}
+
+ATT.CompactName = "Snark"
+ATT.PrintName = "Snark Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Snark ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "snark"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_snark_hls")
+
+ATT = {}
+
+ATT.CompactName = "TripMine"
+ATT.PrintName = "TripMine Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your TripMine ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "tripmine"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_tripmine_hls")
+
+ATT = {}
+
+ATT.CompactName = "Satchel"
+ATT.PrintName = "Satchel Ammo Override"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use ammo from your Satchel ammo pool.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Override/HL:S"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Ammo = "satchel"
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_satchel_hls")

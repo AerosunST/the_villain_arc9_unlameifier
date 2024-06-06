@@ -336,6 +336,52 @@ ATT.Category = {"eft_custom_slot"}
 ATT.Folder = "Unlameifier/Toys"
 ARC9.LoadAttachment(ATT, "unlameifier_eft_doom_hold")
 
+ATT = {}
+
+ATT.PrintName = "EFT Custom Melee Slot"
+ATT.CompactName = "Melee Slot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use the EFT Custom Melee slot.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Folder = "Unlameifier/Utilities"
+ARC9.LoadAttachment(ATT, "unlameifier_eft_custom_melee_override")
+
+ATT = {}
+
+ATT.PrintName = "EFT Custom Slot"
+ATT.CompactName = "Custom Slot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to use the EFT Custom slot. Useful for going back to the normal custom slot if you forced the melee slot on.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Folder = "Unlameifier/Utilities"
+ARC9.LoadAttachment(ATT, "unlameifier_eft_custom_override")
+
 ///////////////////////////////////////      Extra Firemodes
 
 ATT = {}

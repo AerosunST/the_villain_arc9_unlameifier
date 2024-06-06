@@ -2137,3 +2137,153 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/ws/m4a1-1.wav",}
 ATT.InstallSound = "arc9/unlameifier/soundmods/ws/famas-1.wav"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_ws_m16a4")
+
+// ////////// MELEE SOUNDS MISC (IMPACT)//////////
+
+ATT = {}
+
+ATT.PrintName = "Bonk"
+ATT.CompactName = "Bonk"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Impact/Misc"
+ATT.Description = [[Makes the funny bonk sound when you connect a hit with your melee weapon.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitWallSound = { "arc9/unlameifier/soundmods/melee/impact/misc/bonk.mp3",}
+ATT.MeleeHitSound = { "arc9/unlameifier/soundmods/melee/impact/misc/bonk.mp3",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/melee/impact/misc/bonk.mp3"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_melee_bonk_impact")
+
+ATT = {}
+
+ATT.PrintName = "Johnny Test Whipcrack"
+ATT.CompactName = "Whipcrack"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Impact/Misc"
+ATT.Description = [[Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitWallSound = { "arc9/unlameifier/soundmods/melee/impact/misc/whipcrack.mp3",}
+ATT.MeleeHitSound = { "arc9/unlameifier/soundmods/melee/impact/misc/whipcrack.mp3",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/melee/impact/misc/whipcrack.mp3"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_melee_whipcrack_impact")
+
+// ////////// MELEE SOUNDS JJBA (SWING)//////////
+
+ATT = {}
+
+ATT.PrintName = "Ora (Jotaro)"
+ATT.CompactName = "Ora"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Swing/JJBA"
+ATT.Description = [[STAR PLATINUM!!
+ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
+
+(kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeSwingSound = { "arc9/unlameifier/soundmods/melee/swing/jjba/ora1.mp3", "arc9/unlameifier/soundmods/melee/swing/jjba/ora2.mp3", "arc9/unlameifier/soundmods/melee/swing/jjba/ora3.mp3"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/melee/swing/jjba/ora_install.mp3"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_melee_jojo_jotaro_swing")
+
+ATT = {}
+
+ATT.PrintName = "Muda (DIO)"
+ATT.CompactName = "Muda"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Swing/JJBA"
+ATT.Description = [[THE WORLD!!
+MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
+
+(kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeSwingSound = { "arc9/unlameifier/soundmods/melee/swing/jjba/muda1.mp3", "arc9/unlameifier/soundmods/melee/swing/jjba/muda2.mp3", "arc9/unlameifier/soundmods/melee/swing/jjba/muda3.mp3"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/melee/swing/jjba/muda_install.mp3"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_melee_jojo_dio_swing")
+
+// ////////// MELEE SOUNDS JJBA (IMPACT)//////////
+
+ATT = {}
+
+ATT.PrintName = "Stand Punch"
+ATT.CompactName = "Stand Punch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Impact/JJBA"
+ATT.Description = [[Makes your melee impacts sound like it came straight out of JoJo's Bizarre Adventure]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitWallSound = { "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact.mp3", "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact2.mp3", "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact3.mp3", "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact4.mp3"}
+ATT.MeleeHitSound = { "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact.mp3", "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact2.mp3", "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact3.mp3", "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact4.mp3"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/melee/impact/jjba/jojo_impact.mp3"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_melee_jojo_impact")

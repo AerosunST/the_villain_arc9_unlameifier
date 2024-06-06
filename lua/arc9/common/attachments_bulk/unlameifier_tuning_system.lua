@@ -7699,6 +7699,361 @@ ATT.PenetrationAdd = -1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus1000")
 
+///////////////////////////////////////     SPREAD TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Spread"
+ATT.PrintName = "Spread x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Spread"
+ATT.PrintName = "Spread x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Spread"
+ATT.PrintName = "Spread x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Spread"
+ATT.PrintName = "Spread x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Spread"
+ATT.PrintName = "Spread x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Spread"
+ATT.PrintName = "Spread x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Spread"
+ATT.PrintName = "Spread x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases spread by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x10")
+
+///////////////////////////////////////     SPREAD TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Spread"
+ATT.PrintName = "Spread x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases spread by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Spread"
+ATT.PrintName = "Spread x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases spread by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Spread"
+ATT.PrintName = "Spread x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases spread by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Spread"
+ATT.PrintName = "Spread x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases spread by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Spread"
+ATT.PrintName = "Spread x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases spread by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x010")
+
+ATT = {}
+
+ATT.CompactName = "x0 Spread"
+ATT.PrintName = "Spread x0"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases spread by 100% (Removes Spread)]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Spread/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.SpreadMult = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x0")
+
 ///////////////////////////////////////     MAX RANGE TUNING (Multiply)
 
 ATT = {}

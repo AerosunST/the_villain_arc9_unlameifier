@@ -755,6 +755,53 @@ ARC9.LoadAttachment(ATT, "unlameifier_custom_laser_lazy")
 
 ATT = {}
 
+ATT.PrintName = "Magic Laser"
+ATT.CompactName = "Magic Laser"
+ATT.Description = [[Green = Less Spread
+Red = More Spread
+Off = figure it out
+Stack = effect multiplied (idk why you'd do that beyond it being funny though)]]
+
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+
+ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_ncstar_tbl.mdl"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = "Green Laser",
+        Laser = true,
+        LaserStrength = 5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 1,
+		SpreadMult = 0.25,
+		SpreadMultMove = 0.50,
+	},
+    {
+        PrintName = "Red Laser",
+        Laser = true,
+        LaserStrength = 5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 0, 0),
+        LaserAttachment = 1,
+		SpreadMult = 50
+    },
+    {
+        PrintName = "None",
+    }
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magic_laser")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
 ATT.PrintName = [[AR Barrel Compatibility]]
 ATT.CompactName = [[AR Barrels]]
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
@@ -779,3 +826,34 @@ ATT.Attachments = {
 	
 }
 ARC9.LoadAttachment(ATT, "unlameifier_eft_mcx_ar_barrels")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[Muzzle Device for Barrel]]
+ATT.CompactName = [[Muzzle Device Converter]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Fuck gas tubes, who needs 'em?
+
+Proof of concept. Will be deleted, so be wary of this if you are making presets.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier"
+
+ATT.Category = {"eft_m4a1_barrel"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.HasGas = true
+ATT.HasBarrel = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = "eft_ar15_muzzle",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar_muzzle_device_barrel")

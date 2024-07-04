@@ -1975,6 +1975,94 @@ ATT.InstallSound = "arc9/unlameifier/soundmods/mlg/mlg_airhorn.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_mlg")
 
+ATT = {}
+
+ATT.PrintName = "Fireworks"
+ATT.CompactName = "Fireworks"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[Freedom without the freedom. Works best is semi-auto.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/firework1.ogg", "arc9/unlameifier/soundmods/misc/firework2.ogg", "arc9/unlameifier/soundmods/misc/firework3.ogg", "arc9/unlameifier/soundmods/misc/firework4.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/firework1.ogg", "arc9/unlameifier/soundmods/misc/firework2.ogg", "arc9/unlameifier/soundmods/misc/firework3.ogg", "arc9/unlameifier/soundmods/misc/firework4.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/firework1.ogg", "arc9/unlameifier/soundmods/misc/firework2.ogg", "arc9/unlameifier/soundmods/misc/firework3.ogg", "arc9/unlameifier/soundmods/misc/firework4.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/firework1.ogg", "arc9/unlameifier/soundmods/misc/firework2.ogg", "arc9/unlameifier/soundmods/misc/firework3.ogg", "arc9/unlameifier/soundmods/misc/firework4.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/firework1.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_fireworks")
+
+ATT = {}
+
+ATT.PrintName = "Eagle"
+ATT.CompactName = "Eagle"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[Wield the power of freedom. Works best in semi-auto.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/music/eagle.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/music/eagle.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/music/eagle.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/music/eagle.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_eagle")
+
+ATT = {}
+
+ATT.PrintName = "Eagle (Full Auto Version)"
+ATT.CompactName = "Eagle Alt"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[Wield the power of freedom. Unlike the original version, this only adds an eagle screech after you've let go of the trigger.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSoundTail = "arc9/unlameifier/soundmods/music/eagle.ogg"
+ATT.ShootSoundLooping = "null" -- Necessary for ShootSoundTail to work. Doesn't cause issues in-game.
+ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_eagle_alt")
+
 // ////////// Call of Duty: Modern Warfare 2 (2009) //////////
 
 ATT = {}
@@ -2199,7 +2287,6 @@ ATT.Attachments = {
 }
 
 ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/music/usa1.ogg"
-ATT.ShootSoundTail = "arc9/unlameifier/soundmods/music/eagle.ogg"
 ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_music_usa1")
@@ -2231,10 +2318,67 @@ ATT.Attachments = {
 }
 
 ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/music/usa2.ogg"
-ATT.ShootSoundTail = "arc9/unlameifier/soundmods/music/eagle.ogg"
 ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_music_usa2")
+
+ATT = {}
+
+ATT.PrintName = "Ode to Joy"
+ATT.CompactName = "Ode to Joy"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Music"
+ATT.Description = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+
+GOD BLESS AMERICA.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/music/usa3.ogg"
+ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_music_usa3")
+
+ATT = {}
+
+ATT.PrintName = "1812 Overture"
+ATT.CompactName = "1812 Overture"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Music"
+ATT.Description = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+
+GOD BLESS AMERICA.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/music/usa4.ogg"
+ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_music_usa4")
 
 // ////////// Whitesnow/KindredFlame //////////
 

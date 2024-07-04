@@ -238,7 +238,7 @@ ATT = {}
 ATT.PrintName = "EFT Incendiary Ammo"
 ATT.CompactName = "Incendiary Ammo"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[Force EFT Incendiary Ammunition]]
+ATT.Description = [[Force EFT Incendiary Ammunition. <color=255,0,0>Requires EFT for now.</color>]]
 
 ATT.Category = {"ul_tuning"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -334,6 +334,35 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_bottomless_clip")
+
+ATT = {}
+
+ATT.PrintName = "High Explosive Ammo"
+ATT.CompactName = "HE Ammo"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your bullets explosive. <color=255,0,0>Requires EFT for now.</color>]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Ammo Effect"
+
+ATT.ExplosionRadiusOverride = 100
+ATT.ExplosionDamageOverride = 200
+ATT.ExplosionEffect = "eft_explosion_round"
+
+ATT.Override_DamageType = DMG_BLAST + DMG_AIRBOAT
+ATT.DamageType = DMG_BLAST + DMG_AIRBOAT
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_explosive_ammo")
 
 ///////////////////////////////////////     PROJECTILE COUNT (Add)
 

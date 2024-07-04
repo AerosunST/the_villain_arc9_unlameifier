@@ -25,25 +25,25 @@ L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
 L["unlameifier_eft_charm_up.compactname"] = "Charms (U)"
 L["unlameifier_eft_charm_up.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on top-mounted rails for best results.
 
-Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetcis = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
 L["unlameifier_eft_charm_down.printname"] = "Charms Adapter (Down)"
 L["unlameifier_eft_charm_down.compactname"] = "Charms (D)"
 L["unlameifier_eft_charm_down.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on bottom rails for best results.
 
-Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetcis = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
 L["unlameifier_eft_charm_left.printname"] = "Charms Adapter (Left)"
 L["unlameifier_eft_charm_left.compactname"] = "Charms (L)"
 L["unlameifier_eft_charm_left.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on left-side rails for best results.
 
-Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetcis = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
 L["unlameifier_eft_charm_right.printname"] = "Charms Adapter (Right)"
 L["unlameifier_eft_charm_right.compactname"] = "Charms (R)"
 L["unlameifier_eft_charm_right.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on right-side rails for best results.
 
-Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetcis = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
 //////////////////////////////// unlameifier_eft_extras
 -- MP7-Specific

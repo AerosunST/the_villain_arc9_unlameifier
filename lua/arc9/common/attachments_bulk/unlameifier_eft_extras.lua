@@ -1712,6 +1712,257 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_tracer_tateal")
 
+ATT = {}
+
+ATT.PrintName = "USA Tracers"
+ATT.CompactName = "USA Tracers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Gives your gun <color=255,25,25>red</color>, white, and <color=25,25,255>blue</color> tracers.
+
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+
+local colors = {
+    Color(255, 25, 25),
+    Color(255, 255, 255),
+    Color(25, 25, 255)
+}
+
+ATT.TracerColorHook = function(swep, col)
+    return table.Random(colors)
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_usa")
+
+ATT = {}
+
+ATT.PrintName = "Player Color Tracers"
+ATT.CompactName = "Player Color Tracers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Gives your gun tracers based off your player color. Set it via the Playermodel Menu.
+
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+
+ATT.TracerColorHook = function(swep, col)
+    if IsValid(swep:GetOwner()) and swep:GetOwner():IsPlayer() then
+        local c = swep:GetOwner():GetPlayerColor():ToColor()
+        local l = math.max(0.001, (0.33 * c.r + 0.5 * c.g * 0.16 * c.b) / 80)
+        if l < 1 then
+            c.r = (c.r + 1) / l
+            c.g = (c.g + 1) / l
+            c.b = (c.b + 1) / l
+        end
+        return c
+    end
+    return color_white
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_player_color")
+
+ATT = {}
+
+ATT.PrintName = "Weapon Color Tracers"
+ATT.CompactName = "Weapon Color Tracers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Gives your gun tracers based off your weapon color. Set it via the Playermodel Menu.
+
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+
+ATT.TracerColorHook = function(swep, col)
+    if IsValid(swep:GetOwner()) and swep:GetOwner():IsPlayer() then
+        local c = swep:GetOwner():GetWeaponColor():ToColor()
+        local l = math.max(0.001, (0.33 * c.r + 0.5 * c.g * 0.16 * c.b) / 80)
+        if l < 1 then
+            c.r = (c.r + 1) / l
+            c.g = (c.g + 1) / l
+            c.b = (c.b + 1) / l
+        end
+        return c
+    end
+    return color_white
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_weapon_color")
+
+ATT = {}
+
+ATT.PrintName = "Rainbow Tracers"
+ATT.CompactName = "Rainbow Tracers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Gives your gun rainbow tracers.
+
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+
+local colors = {
+    Color(255, 25, 25),
+    Color(255, 200, 25),
+    Color(255, 255, 25),
+    Color(25, 255, 25),
+    Color(25, 255, 255),
+    Color(25, 25, 255),
+    Color(255, 25, 255)
+}
+
+ATT.TracerColorHook = function(swep, col)
+    local n = swep:GetNthShot() % #colors
+    n = n + 1
+
+    return colors[n]
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_rainbow")
+
+ATT = {}
+
+ATT.PrintName = "Trans Tracers"
+ATT.CompactName = "Trans Tracers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Gives your gun <color=91,206,250>blue</color>, <color=245,169,184>pink</color>, and white tracers. Because you are loved and valid.
+
+Unlameifier original. Based off code from Standard Weapons, ARC9's prototype weapon pack.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+
+local colors = {
+    Color(91, 206, 250),
+    Color(245, 169, 184),
+    Color(255, 255, 255),
+    Color(245, 169, 184),
+}
+
+ATT.TracerColorHook = function(swep, col)
+    local n = swep:GetNthShot() % #colors
+    n = n + 1
+
+    return colors[n]
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_trans")
+
+ATT = {}
+
+ATT.PrintName = "Ranging Tracers"
+ATT.CompactName = "Ranging Tracers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[To quote the original attachment's description:
+
+"Tracer rounds. Burns from green to red based on the effectiveness of the weapon at that range."
+
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers"
+
+ATT.TracerNum = 1
+ATT.TracerSize = 8
+
+ATT.FancyBullets = true
+ATT.HookP_ModifyBullet = function(swep, bullet)
+    local rangemin = swep:GetProcessedValue("RangeMin")
+    local rangemax = swep:GetProcessedValue("RangeMax")
+
+    if bullet.Travelled <= rangemin then
+        bullet.Color = Color(25, 255, 25)
+    elseif bullet.Travelled >= rangemax then
+        bullet.Color = Color(255, 25, 25)
+    else
+        local d = (bullet.Travelled - rangemin) / (rangemax - rangemin)
+        local r = Lerp(d, 25, 255)
+        local g = Lerp(d, 255, 25)
+
+        bullet.Color = Color(r, g, 25)
+    end
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_ranging")
+
 ///////////////////////////////////////      Misc Toys
 
 ATT = {}

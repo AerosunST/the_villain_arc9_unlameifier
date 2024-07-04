@@ -842,18 +842,115 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Free = true
 ATT.Folder = "Unlameifier"
 
-ATT.Category = {"eft_m4a1_barrel"}
+ATT.Category = {"eft_m4a1_barrel", "eft_mcx_barrel", "eft_hk416_barrel"}
 ATT.IconOffset = Vector(0, 0, -1)
 
 ATT.HasGas = true
 ATT.HasBarrel = true
+ATT.HasHG = true
 
 ATT.Attachments = {
     {
         PrintName = "Muzzle",
-        Category = "eft_ar15_muzzle",
+        Category = {"eft_ar15_muzzle", "eft_mcx_muzzle"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
     },
 }
 ARC9.LoadAttachment(ATT, "unlameifier_eft_ar_muzzle_device_barrel")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[Muzzle Device for Barrel]]
+ATT.CompactName = [[Muzzle Device Converter]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Fuck gas tubes, who needs 'em?
+
+Proof of concept. Will be deleted, so be wary of this if you are making presets.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier"
+
+ATT.Category = {"eft_sr25_barrel", "eft_rsass_barrel", "eft_scarh_barrel", "eft_scarl_barrel"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.HasGas = true
+ATT.HasBarrel = true
+ATT.HasHG = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = {"eft_ar15_muzzle", "eft_mcx_muzzle"},
+        Pos = Vector(0, 0, 0.2),
+        Ang = Angle(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_muzzle_device_barrel")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[AR Muzzle Device for Barrel]]
+ATT.CompactName = [[AR Muzzle Device Converter]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Look at me in the eyes. Tell me you weren't going to ask me to do this given the other muzzle-for-barrel converter. I know how you people are. Don't worry, I think it's hilarious too.
+
+Proof of concept. Will be deleted, so be wary of this if you are making presets.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier"
+
+ATT.Category = {"eft_axmc_barrel308", "eft_axmc_barrel338"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.HasGas = true
+ATT.HasBarrel = true
+ATT.HasHG = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = {"eft_ar15_muzzle", "eft_mcx_muzzle"},
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_axmc_ar_muzzle_device_barrel")
+
+// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
+
+ATT = {}
+
+ATT.PrintName = [[Muzzle Device for Barrel]]
+ATT.CompactName = [[Muzzle Device Converter]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Don't lie. We've all found it to be extremely funny to make the tiniest sniper rifle possible. Handguard not required.
+
+Proof of concept. Will be deleted, so be wary of this if you are making presets.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+ATT.Folder = "Unlameifier"
+
+ATT.Category = {"eft_axmc_barrel308", "eft_axmc_barrel338"}
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.HasGas = true
+ATT.HasBarrel = true
+ATT.HasHG = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = {"eft_muzzle_338"},
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 90, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "unlameifier_eft_axmc_muzzle_device_barrel")

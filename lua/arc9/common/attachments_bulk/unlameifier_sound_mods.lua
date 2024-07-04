@@ -1942,6 +1942,73 @@ ATT.InstallSound = "arc9/unlameifier/soundmods/misc/ltg1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_ltg")
 
+ATT = {}
+
+ATT.PrintName = "MLG Montage Parody"
+ATT.CompactName = "MLG"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[basically the gen z equivalent of skibidi toilet.
+
+inject 2013 brain rot directly into your veins.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+ATT.ShootPitchVariation = 0
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/mlg/mlg_airhorn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_bangarang.ogg", "arc9/unlameifier/soundmods/mlg/mlg_camera.ogg", "arc9/unlameifier/soundmods/mlg/mlg_damn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fast.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fuck.ogg", "arc9/unlameifier/soundmods/mlg/mlg_john_cena.ogg", "arc9/unlameifier/soundmods/mlg/mlg_noscope.ogg", "arc9/unlameifier/soundmods/mlg/mlg_nssm.ogg", "arc9/unlameifier/soundmods/mlg/mlg_omg.ogg", "arc9/unlameifier/soundmods/mlg/mlg_sanic.ogg", "arc9/unlameifier/soundmods/mlg/mlg_swamp.ogg", "arc9/unlameifier/soundmods/mlg/mlg_triple.ogg", "arc9/unlameifier/soundmods/mlg/mlg_weed.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wombo.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wow.ogg", "arc9/unlameifier/soundmods/mlg/mlg_xfiles.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/mlg/mlg_airhorn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_bangarang.ogg", "arc9/unlameifier/soundmods/mlg/mlg_camera.ogg", "arc9/unlameifier/soundmods/mlg/mlg_damn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fast.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fuck.ogg", "arc9/unlameifier/soundmods/mlg/mlg_john_cena.ogg", "arc9/unlameifier/soundmods/mlg/mlg_noscope.ogg", "arc9/unlameifier/soundmods/mlg/mlg_nssm.ogg", "arc9/unlameifier/soundmods/mlg/mlg_omg.ogg", "arc9/unlameifier/soundmods/mlg/mlg_sanic.ogg", "arc9/unlameifier/soundmods/mlg/mlg_swamp.ogg", "arc9/unlameifier/soundmods/mlg/mlg_triple.ogg", "arc9/unlameifier/soundmods/mlg/mlg_weed.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wombo.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wow.ogg", "arc9/unlameifier/soundmods/mlg/mlg_xfiles.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/mlg/mlg_airhorn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_bangarang.ogg", "arc9/unlameifier/soundmods/mlg/mlg_camera.ogg", "arc9/unlameifier/soundmods/mlg/mlg_damn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fast.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fuck.ogg", "arc9/unlameifier/soundmods/mlg/mlg_john_cena.ogg", "arc9/unlameifier/soundmods/mlg/mlg_noscope.ogg", "arc9/unlameifier/soundmods/mlg/mlg_nssm.ogg", "arc9/unlameifier/soundmods/mlg/mlg_omg.ogg", "arc9/unlameifier/soundmods/mlg/mlg_sanic.ogg", "arc9/unlameifier/soundmods/mlg/mlg_swamp.ogg", "arc9/unlameifier/soundmods/mlg/mlg_triple.ogg", "arc9/unlameifier/soundmods/mlg/mlg_weed.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wombo.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wow.ogg", "arc9/unlameifier/soundmods/mlg/mlg_xfiles.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/mlg/mlg_airhorn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_bangarang.ogg", "arc9/unlameifier/soundmods/mlg/mlg_camera.ogg", "arc9/unlameifier/soundmods/mlg/mlg_damn.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fast.ogg", "arc9/unlameifier/soundmods/mlg/mlg_fuck.ogg", "arc9/unlameifier/soundmods/mlg/mlg_john_cena.ogg", "arc9/unlameifier/soundmods/mlg/mlg_noscope.ogg", "arc9/unlameifier/soundmods/mlg/mlg_nssm.ogg", "arc9/unlameifier/soundmods/mlg/mlg_omg.ogg", "arc9/unlameifier/soundmods/mlg/mlg_sanic.ogg", "arc9/unlameifier/soundmods/mlg/mlg_swamp.ogg", "arc9/unlameifier/soundmods/mlg/mlg_triple.ogg", "arc9/unlameifier/soundmods/mlg/mlg_weed.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wombo.ogg", "arc9/unlameifier/soundmods/mlg/mlg_wow.ogg", "arc9/unlameifier/soundmods/mlg/mlg_xfiles.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/mlg/mlg_airhorn.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_mlg")
+
+// ////////// Call of Duty: Modern Warfare 2 (2009) //////////
+
+ATT = {}
+
+ATT.PrintName = "Intervention"
+ATT.CompactName = "Intervention"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/MW2"
+ATT.Description = [[Makes your gun sound like the Intervention from Call of Duty: Modern Warfare 2 (2009)
+
+Thank you Palindrone for letting me lift sounds out of CoD Pack. You should check it out, it's cool!]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/codpack/mw2/intervention.ogg"}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/codpack/mw2/intervention.ogg"}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/codpack/mw2/intervention.ogg"}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/codpack/mw2/intervention.ogg"}
+ATT.InstallSound = "arc9/unlameifier/soundmods/codpack/mw2/intervention.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_codmw2_intervention")
+
 // ////////// ROBLOX //////////
 
 ATT = {}
@@ -2083,6 +2150,7 @@ ATT.Description = [[Makes your gun sound like the Red Stratobloxxer from ROBLOX.
 you might be able to play a song with it!]]
 ATT.SortOrder = 0
 ATT.AttNotForNPCs = true
+ATT.ShootPitchVariation = 0
 
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
@@ -2103,6 +2171,70 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/roblox/guitar1.ogg"
 ATT.InstallSound = "arc9/unlameifier/soundmods/roblox/guitar1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_roblox_guitar")
+
+// ////////// Music //////////
+
+ATT = {}
+
+ATT.PrintName = "Star Spangled Banner"
+ATT.CompactName = "USA Anthem"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Music"
+ATT.Description = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+
+GOD BLESS AMERICA.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/music/usa1.ogg"
+ATT.ShootSoundTail = "arc9/unlameifier/soundmods/music/eagle.ogg"
+ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_music_usa1")
+
+ATT = {}
+
+ATT.PrintName = "Star Spangled Banner but angrier"
+ATT.CompactName = "Angry USA Anthem"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Music"
+ATT.Description = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+
+GOD BLESS AMERICA.
+
+this version is taken from the BroForce Soundtrack.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSoundLooping = "arc9/unlameifier/soundmods/music/usa2.ogg"
+ATT.ShootSoundTail = "arc9/unlameifier/soundmods/music/eagle.ogg"
+ATT.InstallSound = "arc9/unlameifier/soundmods/music/eagle.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_music_usa2")
 
 // ////////// Whitesnow/KindredFlame //////////
 

@@ -337,3 +337,90 @@ L["unlameifier_attname_g17_rearsight"] = "Glock 17 Rear Sight"
 
 L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"
+
+//////////////////////////////// unlameifier_sound_mods
+-- DOOM 1993
+L["unlameifier_folder_sounds_doom"] = "Sound Mods/DOOM"
+
+L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
+L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
+L["unlameifier_sound_doom_pistol.description"] = "Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
+
+L["unlameifier_sound_doom_shotgun.printname"] = "Shotgun"
+L["unlameifier_sound_doom_shotgun.compactname"] = "Shotgun"
+L["unlameifier_sound_doom_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
+
+L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
+L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
+L["unlameifier_sound_doom_BFG.description"] = "Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
+
+L["unlameifier_sound_doom_plasma.printname"] = "Plasma Rifle"
+L["unlameifier_sound_doom_plasma.compactname"] = "Plasma R."
+L["unlameifier_sound_doom_plasma.description"] = "Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
+
+L["unlameifier_sound_doom_rocket.printname"] = "Rocket Launcher"
+L["unlameifier_sound_doom_rocket.compactname"] = "Rocket"
+L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
+
+-- Half-Life 2
+L["unlameifier_folder_sounds_hl2"] = "Sound Mods/Half-Life 2"
+
+L["unlameifier_sound_hl2_pistol.printname"] = "Pistol"
+L["unlameifier_sound_hl2_pistol.compactname"] = "Pistol"
+L["unlameifier_sound_hl2_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 2.
+
+"Rise and shine, Mr. Freeman... Rise... and shine..."]]
+
+L["unlameifier_sound_hl2_357.printname"] = ".357 Magnum"
+L["unlameifier_sound_hl2_357.compactname"] = ".357"
+L["unlameifier_sound_hl2_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 2.
+
+Naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
+
+L["unlameifier_sound_hl2_ar2.printname"] = "AR2"
+L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
+L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the AR2 from Half-Life 2.
+
+The OSIPR, "Overwatch Standard Issue Pulse Rifle", is also known for disentigrating anyone who touches its balls. Also, contrary to popular belief, there is no "AR3".]]
+
+L["unlameifier_sound_hl2_alyx.printname"] = "Alyx's Gun"
+L["unlameifier_sound_hl2_alyx.compactname"] = "Alyx's"
+L["unlameifier_sound_hl2_alyx.description"] = [[Changes the firing sound of the weapon to Alyx's Gun from Half-Life 2.
+
+"Well, Russ, it's official. There is NOTHING left of your gun in this gun. This is just... this is MY gun."]]
+
+L["unlameifier_sound_hl2_xbow.printname"] = "Crossbow"
+L["unlameifier_sound_hl2_xbow.compactname"] = "Crossbow"
+L["unlameifier_sound_hl2_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 2.
+
+"Citizen Tech crossbow is constructed with tubular steel sections comprising the main body, obvious weld marks and mismatched hardware communicate the nature of this junkyard prototype. This crossbow utilizes a electric drive cocking mechanism."]]
+
+L["unlameifier_sound_hl2_ar22.printname"] = "AR2 Energy Ball"
+L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
+L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the AR2's Energy Ball from Half-Life 2 being shot.
+
+Don't point at allies unless you really hate them.]]
+
+L["unlameifier_sound_hl2_rpg.printname"] = "RPG"
+L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
+L["unlameifier_sound_hl2_rpg.description"] = [[Changes the firing sound of the weapon to the RPG from Half-Life 2.
+
+Did you know that the RPG in HL2 is an AT4? Not only that, they also hold it backwards.]]
+
+L["unlameifier_sound_hl2_shotgun.printname"] = "Shotgun"
+L["unlameifier_sound_hl2_shotgun.compactname"] = "Shotgun"
+L["unlameifier_sound_hl2_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from Half-Life 2.
+
+Known for defying the laws of physics by firing a second shot through its magazine tube. Not recommended to attempt in real life.]]
+
+L["unlameifier_sound_hl2_smg.printname"] = "SMG"
+L["unlameifier_sound_hl2_smg.compactname"] = "SMG"
+L["unlameifier_sound_hl2_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 2.
+
+Where exactly is the grenade being shot from, I wonder...?]]
+
+L["unlameifier_sound_hl2_airboat2.printname"] = "Mudskipper Gauss Cannon"
+L["unlameifier_sound_hl2_airboat2.compactname"] = "Mudskipper"
+L["unlameifier_sound_hl2_airboat2.description"] = [[Changes the firing sound of the weapon to the Mudskipper's Gauss Cannon from Half-Life 2.
+
+Does not actually rapidly spam dynamite.]]

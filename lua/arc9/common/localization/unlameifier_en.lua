@@ -13,6 +13,8 @@ For example, Spanish is "_es-es" and Russian is "_ru".
 
 If a localization has multiple lines, you have two choices:
 One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
+Note: If you wish to use quotation marks, you'll need to write it as < \" >
+
 Two: Use square brackets at the start and end. Example further down.
 
 [[ Text in Line 1
@@ -119,8 +121,8 @@ L["unlameifier_tracer_green.description"] = "Gives your gun <color=31,222,73>gre
 
 L["unlameifier_tracer_blue.printname"] = "Blue Tracers"
 L["unlameifier_tracer_blue.compactname"] = "Blue"
--- L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
-L["unlameifier_tracer_blue.description"] = "Gives your gun <color=125,125,255>blue tracers</color>." -- Original colour might be tricky to see.
+L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
+-- L["unlameifier_tracer_blue.description"] = "Gives your gun <color=125,125,255>blue tracers</color>." -- Original colour might be tricky to see.
 
 L["unlameifier_tracer_yellow.printname"] = "Yellow Tracers"
 L["unlameifier_tracer_yellow.compactname"] = "Yellow"
@@ -132,8 +134,8 @@ L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>o
 
 L["unlameifier_tracer_purple.printname"] = "Purple Tracers"
 L["unlameifier_tracer_purple.compactname"] = "Purple"
--- L["unlameifier_tracer_purple.description"] = "Gives your gun <color=124,31,222>purple tracers</color>."
-L["unlameifier_tracer_purple.description"] = "Gives your gun <color=150,0,255>purple tracers</color>." -- Original colour might be tricky to see.
+L["unlameifier_tracer_purple.description"] = "Gives your gun <color=124,31,222>purple tracers</color>."
+-- L["unlameifier_tracer_purple.description"] = "Gives your gun <color=150,0,255>purple tracers</color>." -- Original colour might be tricky to see.
 
 L["unlameifier_tracer_pink.printname"] = "Pink Tracers"
 L["unlameifier_tracer_pink.compactname"] = "Pink"
@@ -159,7 +161,7 @@ L["unlameifier_tracer_tateal.description"] = [[Gives your gun <color=0,255,132>t
 
 L["unlameifier_tracer_usa.printname"] = "United States of America Tracers"
 L["unlameifier_tracer_usa.compactname"] = "U.S."
-L["unlameifier_tracer_usa.description"] = [[Gives your gun <color=255,150,150>red</color>, white, and <color=150,150,255>blue</color> tracers.
+L["unlameifier_tracer_usa.description"] = [[Gives your gun <color=255,25,25>red</color>, white, and <color=25,25,255>blue</color> tracers.
 
 Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
@@ -509,55 +511,55 @@ L["unlameifier_sound_css_glock18.printname"] = "9x19mm Sidearm"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
 L["unlameifier_sound_css_glock18.description"] = [[Changes the firing sound of the weapon to the 9x19mm Sidearm from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the K&M .45 Tactical.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
-Fun fact: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
+<color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
 
 L["unlameifier_sound_css_usp.printname"] = "K&M .45 Tactical"
 L["unlameifier_sound_css_usp.compactname"] = "USP"
 L["unlameifier_sound_css_usp.description"] = [[Changes the firing sound of the weapon to the K&M .45 Tactical from Counter-Strike: Source.
 
-Fun fact: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
+<color=150,150,255>Fun Fact</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
 
 L["unlameifier_sound_css_p228.printname"] = "228 Compact"
 L["unlameifier_sound_css_p228.compactname"] = "228"
 L["unlameifier_sound_css_p228.description"] = [[Changes the firing sound of the weapon to the 228 Compact from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the K&M .45 Tactical.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
-Fun fact: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
+<color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
 
 L["unlameifier_sound_css_deagle.printname"] = "Night Hawk .50C"
 L["unlameifier_sound_css_deagle.compactname"] = "Deagle"
 L["unlameifier_sound_css_deagle.description"] = [[Changes the firing sound of the weapon to the Night Hawk .50C from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Schmidt Machine Pistol.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
-Fun fact: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
+<color=150,150,255>Fun Fact</color>: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
 L["unlameifier_sound_css_fiveseven.description"] = [[Changes the firing sound of the weapon to the ES Five-Seven from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the K&M .45 Tactical.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
-Fun fact: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
+<color=150,150,255>Fun Fact</color>: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
 
 L["unlameifier_sound_css_elite.printname"] = ".40 Dual Elites"
 L["unlameifier_sound_css_elite.compactname"] = "Elite"
 L["unlameifier_sound_css_elite.description"] = [[Changes the firing sound of the weapon to the .40 Dual Elites from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the K&M .45 Tactical.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
-Fun fact: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
+<color=150,150,255>Fun Fact</color>: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
 
 L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 Auto Shotgun"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
 L["unlameifier_sound_css_xm1014.description"] = [[Changes the firing sound of the weapon to the Leone YG1265 Auto Shotgun from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
+<color=150,150,255>Fun Fact</color>: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
 
 L["unlameifier_sound_css_tmp.printname"] = "Schmidt Machine Pistol"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
@@ -565,125 +567,125 @@ L["unlameifier_sound_css_tmp.description"] = [[Changes the firing sound of the w
 
 <color=255,100,100>NOTE</color>: Does not have separate unsuppressed sounds.
 
-Fun fact: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
+<color=150,150,255>Fun Fact</color>: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
 
 L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
 L["unlameifier_sound_css_mac10.description"] = [[Changes the firing sound of the weapon to the Ingram MAC-10 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Schmidt Machine Pistol.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
-Fun fact: This is one of very few firearms in Source that use its real-life name.]]
+<color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name.]]
 
 L["unlameifier_sound_css_mp5.printname"] = "K&M Sub-Machine Gun"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
 L["unlameifier_sound_css_mp5.description"] = [[Changes the firing sound of the weapon to the K&M Sub-Machine Gun from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Schmidt Machine Pistol.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
-Fun fact: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
+<color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
 
 L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
 L["unlameifier_sound_css_ump45.description"] = [[Changes the firing sound of the weapon to the K&M UMP45 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Schmidt Machine Pistol.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
-Fun fact: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
+<color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
 
 L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
 L["unlameifier_sound_css_p90.description"] = [[Changes the firing sound of the weapon to the ES C90 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Schmidt Machine Pistol.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
-Fun fact: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
+<color=150,150,255>Fun Fact</color>: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
 
 L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
 L["unlameifier_sound_css_galil.description"] = [[Changes the firing sound of the weapon to the IDF Defender from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
+<color=150,150,255>Fun Fact</color>: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
 
 L["unlameifier_sound_css_famas.printname"] = "Clarion 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
 L["unlameifier_sound_css_famas.description"] = [[Changes the firing sound of the weapon to the Clarion 5.56 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: "Clarions" are medieval war trumpets.]]
+<color=150,150,255>Fun Fact</color>: "Clarions" are medieval war trumpets.]]
 
 L["unlameifier_sound_css_ak47.printname"] = "CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
 L["unlameifier_sound_css_ak47.description"] = [[Changes the firing sound of the weapon to the CV-47 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
+<color=150,150,255>Fun Fact</color>: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
 
 L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1 Carbine"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
 L["unlameifier_sound_css_m4a1.description"] = [[Changes the firing sound of the weapon to the Maverick M4A1 Carbine from Counter-Strike: Source.
 
-Fun fact: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
+<color=150,150,255>Fun Fact</color>: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
 
 L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
 L["unlameifier_sound_css_sg552.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: Despite firing in full-auto, the firing selector is set to semi-auto.]]
+<color=150,150,255>Fun Fact</color>: Despite firing in full-auto, the firing selector is set to semi-auto.]]
 
 L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
 L["unlameifier_sound_css_aug.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
+<color=150,150,255>Fun Fact</color>: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
 
 L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
 L["unlameifier_sound_css_scout.description"] = [[Changes the firing sound of the weapon to the Schmidt Scout from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
+<color=150,150,255>Fun Fact</color>: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
 
 L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Commando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
 L["unlameifier_sound_css_sg550.description"] = [[Changes the firing sound of the weapon to the Krieg 550 Commando from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
+<color=150,150,255>Fun Fact</color>: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
 
 L["unlameifier_sound_css_awp.printname"] = "Magnum Sniper Rifle"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
 L["unlameifier_sound_css_awp.description"] = [[Changes the firing sound of the weapon to the Magnum Sniper Rifle from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
+<color=150,150,255>Fun Fact</color>: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
 
 L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
 L["unlameifier_sound_css_g3sg1.description"] = [[Changes the firing sound of the weapon to the D3/AU-1 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
+<color=150,150,255>Fun Fact</color>: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
 
 L["unlameifier_sound_css_m249.printname"] = "M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
 L["unlameifier_sound_css_m249.description"] = [[Changes the firing sound of the weapon to the M249 from Counter-Strike: Source.
 
-When <color=175,175,255>Suppressed</color>: Uses sounds from the Maverick M4A1 Carbine.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
-Fun fact: In Source, the M249 does not have a stock.]]
+<color=150,150,255>Fun Fact</color>: In Source, the M249 does not have a stock.]]
 
 -- Neosun Mouth
 L["unlameifier_folder_sounds_neosun"] = "Sound Mods/Neosun"

@@ -495,27 +495,27 @@ Det finns faktiskt konstigare grejer i Unlameifier att ändra vapnets skottljud 
 -- Counter-Strike: Source
 L["unlameifier_folder_sounds_css"] = "Ljudmodd/CSS"
 
-L["unlameifier_sound_css_glock18.printname"] = "9x19mm Sidearm"
+L["unlameifier_sound_css_glock18.printname"] = "9X19 mm sidovapen"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
-L["unlameifier_sound_css_glock18.description"] = [[Ändrar vapnets skottljud till 9x19mm Sidearm från Counter-Strike: Source.
+L["unlameifier_sound_css_glock18.description"] = [[Ändrar vapnets skottljud till 9X19 mm sidovapnen från Counter-Strike: Source.
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från USP.
 
-<color=150,150,255>Rolig Fakta</color>: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
+<color=150,150,255>Rolig Fakta</color>: Enligt imfdb.org så är Glock 18 från Source egentligen en Glock 19. Om du känner till eldvapen så är felaktigheterna självklara.]]
 
-L["unlameifier_sound_css_usp.printname"] = "K&M .45 Tactical"
+L["unlameifier_sound_css_usp.printname"] = "K&M .45 Taktisk"
 L["unlameifier_sound_css_usp.compactname"] = "USP"
-L["unlameifier_sound_css_usp.description"] = [[Ändrar vapnets skottljud till K&M .45 Tactical från Counter-Strike: Source.
+L["unlameifier_sound_css_usp.description"] = [[Ändrar vapnets skottljud till K&M .45 Taktisk från Counter-Strike: Source.
 
-<color=150,150,255>Rolig Fakta</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
+<color=150,150,255>Rolig Fakta</color>: Likt andra CSS-vapen så matar K&M ut patroner på vänster sida. Förutom det så är det den mest detaljerade vapenmodellen i spelet.]]
 
-L["unlameifier_sound_css_p228.printname"] = "228 Compact"
+L["unlameifier_sound_css_p228.printname"] = "228 Kompakt"
 L["unlameifier_sound_css_p228.compactname"] = "228"
-L["unlameifier_sound_css_p228.description"] = [[Ändrar vapnets skottljud till 228 Compact från Counter-Strike: Source.
+L["unlameifier_sound_css_p228.description"] = [[Ändrar vapnets skottljud till 228 Kompakt från Counter-Strike: Source.
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från USP.
 
-<color=150,150,255>Rolig Fakta</color>: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
+<color=150,150,255>Rolig Fakta</color>: Enligt imfdb.org så är P228 från Source egentligen en P229 då den matas med .357 SIG.]]
 
 L["unlameifier_sound_css_deagle.printname"] = "Night Hawk .50C"
 L["unlameifier_sound_css_deagle.compactname"] = "Deagle"
@@ -523,7 +523,7 @@ L["unlameifier_sound_css_deagle.description"] = [[Ändrar vapnets skottljud till
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från TMP.
 
-<color=150,150,255>Rolig Fakta</color>: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
+<color=150,150,255>Rolig Fakta</color>: Enligt imfdb.org så har Desert Eagl Mark XIX, matad med .50 AE, ingen räfflad pipa, som den visas att ha i Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
@@ -531,7 +531,7 @@ L["unlameifier_sound_css_fiveseven.description"] = [[Ändrar vapnets skottljud t
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från USP.
 
-<color=150,150,255>Rolig Fakta</color>: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
+<color=150,150,255>Rolig Fakta</color>: Endast halva av munstycket på ES är animerat. Osäker om det är hur ett verkligt eldvapen fungerar...]]
 
 L["unlameifier_sound_css_elite.printname"] = ".40 Dual Elites"
 L["unlameifier_sound_css_elite.compactname"] = "Elite"
@@ -539,23 +539,23 @@ L["unlameifier_sound_css_elite.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från USP.
 
-<color=150,150,255>Rolig Fakta</color>: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
+<color=150,150,255>Rolig Fakta</color>: Verkliga namnet på .40 Dual Elites är "Beretta 92G Elite II". Trots dess namn så matas den med 9 x 19 mm, inte .40 S&W.]]
 
-L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 Auto Shotgun"
+L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 autohagelgevär"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
-L["unlameifier_sound_css_xm1014.description"] = [[Ändrar vapnets skottljud till Leone YG1265 Auto Shotgun från Counter-Strike: Source.
+L["unlameifier_sound_css_xm1014.description"] = [[Ändrar vapnets skottljud till Leone YG1265 autohagelgevär från Counter-Strike: Source.
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
+<color=150,150,255>Rolig Fakta</color>: Både Global Offensive och CS2 fortsätter att använda namnet "XM1014", trots att det är ett icke-verkligt namn.]]
 
-L["unlameifier_sound_css_tmp.printname"] = "Schmidt Machine Pistol"
+L["unlameifier_sound_css_tmp.printname"] = "Schmidt kulsprutepistol"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
-L["unlameifier_sound_css_tmp.description"] = [[Ändrar vapnets skottljud till Schmidt Machine Pistol från Counter-Strike: Source.
+L["unlameifier_sound_css_tmp.description"] = [[Ändrar vapnets skottljud till Schmidt kulsprutepistol från Counter-Strike: Source.
 
 <color=255,100,100>NOTE</color>: Does not have separate unsuppressed sounds.
 
-<color=150,150,255>Rolig Fakta</color>: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
+<color=150,150,255>Rolig Fakta</color>: Detta är det enda ljuddämpade vapnet i Source som inte kan ta av sin ljuddämpare.]]
 
 L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
@@ -563,15 +563,15 @@ L["unlameifier_sound_css_mac10.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från TMP.
 
-<color=150,150,255>Rolig Fakta</color>: This is one of very few firearms in Source that use its real-life name.]]
+<color=150,150,255>Rolig Fakta</color>: Detta är ett väldigt få vapen i Source som använder dess verkliga namn.]]
 
-L["unlameifier_sound_css_mp5.printname"] = "K&M Sub-Machine Gun"
+L["unlameifier_sound_css_mp5.printname"] = "K&M kulsprutepistol"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
-L["unlameifier_sound_css_mp5.description"] = [[Ändrar vapnets skottljud till K&M Sub-Machine Gun från Counter-Strike: Source.
+L["unlameifier_sound_css_mp5.description"] = [[Ändrar vapnets skottljud till K&M kulsprutepistol från Counter-Strike: Source.
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från TMP.
 
-<color=150,150,255>Rolig Fakta</color>: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
+<color=150,150,255>Rolig Fakta</color>: Detta är ett väldigt få eldvapen i Source som inte är spegelvänt, då dess operativa åtgärder är redan på vänster sida.]]
 
 L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
@@ -579,7 +579,7 @@ L["unlameifier_sound_css_ump45.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från TMP.
 
-<color=150,150,255>Rolig Fakta</color>: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
+<color=150,150,255>Rolig Fakta</color>: Detta är ett av väldigt få eldvapen i Source som använder dess verkliga namn, förutom tillverkaren. Dessutom, enligt vapnets modell, så är den alltid säkrad.]]
 
 L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
@@ -587,7 +587,7 @@ L["unlameifier_sound_css_p90.description"] = [[Ändrar vapnets skottljud till ES
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från TMP.
 
-<color=150,150,255>Rolig Fakta</color>: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
+<color=150,150,255>Rolig Fakta</color>: Tack vare ett fel så matades C90 en gång i tiden med .338 Lapua Magnum. Detta har fixats.]]
 
 L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
@@ -595,7 +595,7 @@ L["unlameifier_sound_css_galil.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
+<color=150,150,255>Rolig Fakta</color>: Verkliga Galil-geväret kommer med inbyggd kapsylöppnare. Tror du inte på det? Sök upp det!]]
 
 L["unlameifier_sound_css_famas.printname"] = "Clarion 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
@@ -603,7 +603,7 @@ L["unlameifier_sound_css_famas.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: "Clarions" are medieval war trumpets.]]
+<color=150,150,255>Rolig Fakta</color>: "Clarion", på svenska "Jägarhorn", är krigstrumpeter från medeltiden.]]
 
 L["unlameifier_sound_css_ak47.printname"] = "CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
@@ -611,13 +611,13 @@ L["unlameifier_sound_css_ak47.description"] = [[Ändrar vapnets skottljud till C
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
+<color=150,150,255>Rolig Fakta</color>: Detta är det största exemplaret av ett spegelvänt vapen i Source. Minh "Gooseman" Le var en vänsterhänt skytt och ville att alla vapen skulle hanteras vänsterhänt.]]
 
-L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1 Carbine"
+L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1-automatkarbin"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
-L["unlameifier_sound_css_m4a1.description"] = [[Ändrar vapnets skottljud till Maverick M4A1 Carbine från Counter-Strike: Source.
+L["unlameifier_sound_css_m4a1.description"] = [[Ändrar vapnets skottljud till Maverick M4A1-automatkarbin från Counter-Strike: Source.
 
-<color=150,150,255>Rolig Fakta</color>: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
+<color=150,150,255>Rolig Fakta</color>: Under omladdnings animationen så ses spelaren hantera "forward assist"-knappen istället för laddhandtaget.]]
 
 L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
@@ -625,7 +625,7 @@ L["unlameifier_sound_css_sg552.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: Despite firing in full-auto, the firing selector is set to semi-auto.]]
+<color=150,150,255>Rolig Fakta</color>: Trots att den skjuts i helautomat så är omställaren satt på halvautomat.]]
 
 L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
@@ -633,7 +633,7 @@ L["unlameifier_sound_css_aug.description"] = [[Ändrar vapnets skottljud till Kr
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
+<color=150,150,255>Rolig Fakta</color>: När man laddar om så kan man lätt se att laddhandtaget inte är fysiskt påsatt på vapnet.]]
 
 L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
@@ -641,7 +641,7 @@ L["unlameifier_sound_css_scout.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
+<color=150,150,255>Rolig Fakta</color>: Verkliga Steyr Scout har en inbyggd magasinhållare i dess kolv.]]
 
 L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Commando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
@@ -649,15 +649,15 @@ L["unlameifier_sound_css_sg550.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
+<color=150,150,255>Rolig Fakta</color>: Ändelsen "Commando" är ologisk då Krieg 550 visas vara hellånga SIG 550.]]
 
-L["unlameifier_sound_css_awp.printname"] = "Magnum Sniper Rifle"
+L["unlameifier_sound_css_awp.printname"] = "Magnum krypskyttegevär"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
-L["unlameifier_sound_css_awp.description"] = [[Ändrar vapnets skottljud till Magnum Sniper Rifle från Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Ändrar vapnets skottljud till Magnum krypskyttegevär från Counter-Strike: Source.
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
+<color=150,150,255>Rolig Fakta</color>: I verkligen byggdes av två killar i ett garage och gick med Briska MOD-prövningen exklusivt för att se hur det skulle gå mot riktiga militära gevär. "Tyvärr" så vann dem och behövde kvickt börja tillverka tusentals gevär till den britiska militären.]]
 
 L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
@@ -665,7 +665,7 @@ L["unlameifier_sound_css_g3sg1.description"] = [[Ändrar vapnets skottljud till 
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
+<color=150,150,255>Rolig Fakta</color>: Omställaren är satt på säker. Dessutom så rör sig laddhandtaget inte under omladdning.]]
 
 L["unlameifier_sound_css_m249.printname"] = "M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
@@ -673,37 +673,37 @@ L["unlameifier_sound_css_m249.description"] = [[Ändrar vapnets skottljud till M
 
 Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 
-<color=150,150,255>Rolig Fakta</color>: In Source, the M249 does not have a stock.]]
+<color=150,150,255>Rolig Fakta</color>: I Source så har M249 ingen kolv.]]
 
 -- Neosun Mouth
 L["unlameifier_folder_sounds_neosun"] = "Ljudmodd/Neosun"
 
 L["unlameifier_sound_neosun_pew.printname"] = "Pew"
 L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
-L["unlameifier_sound_neosun_pew.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_pew.description"] = [[Professionella röstskådespelaren Neosun har gått med att erbjuda dem mest realistiska skottljuden någonsin.
 
-This one is "pew".]]
+Denna är "pew".]]
 
 L["unlameifier_sound_neosun_bang.printname"] = "Bang"
 L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
-L["unlameifier_sound_neosun_bang.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_bang.description"] = [[Professionella röstskådespelaren Neosun har gått med att erbjuda dem mest realistiska skottljuden någonsin.
 
-This one is "bang".]]
+Denna är "bang".]]
 
-L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
-L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
-L["unlameifier_sound_neosun_gunshot.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_gunshot.printname"] = "Skottljud"
+L["unlameifier_sound_neosun_gunshot.compactname"] = "Skottljud"
+L["unlameifier_sound_neosun_gunshot.description"] = [[Professionella röstskådespelaren Neosun har gått med att erbjuda dem mest realistiska skottljuden någonsin.
 
-This one is "gunshot".]]
+Denna är "skottljud".]]
 
 -- Misc.
-L["unlameifier_folder_sounds_misc"] = "Ljudmodd/Misc."
+L["unlameifier_folder_sounds_misc"] = "Ljudmodd/Annat"
 
-L["unlameifier_sound_misc_sussy.printname"] = "Deranged Madness"
-L["unlameifier_sound_misc_sussy.compactname"] = "Insanity"
-L["unlameifier_sound_misc_sussy.description"] = [[An attachment only the most unhinged and depraved would ever equip. Heed this warning now, for there is no turning back.
+L["unlameifier_sound_misc_sussy.printname"] = "Rubbat Galenskap"
+L["unlameifier_sound_misc_sussy.compactname"] = "Galenskap"
+L["unlameifier_sound_misc_sussy.description"] = [[Ett tillbehör som endast dem mest rubbade och fördärvade utrustar. Du är nu varnad, det finns ingen återvändå.
 
-Don't ask why your rate of fire is limited to 250 RPM... it's important, trust me.]]
+Fråga inte varför eldhastigheten är begränsad till 250... det är viktigt, lita på mig.]]
 
 L["unlameifier_sound_misc_magicmissile.printname"] = "MAGIC MISSILE!"
 L["unlameifier_sound_misc_magicmissile.compactname"] = "MISSILE!"
@@ -713,44 +713,44 @@ L["unlameifier_sound_misc_magicmissile.description"] = [["Now is time for the fi
 
 L["unlameifier_sound_misc_mrskeltal.printname"] = "Mr. Skeltal!"
 L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
-L["unlameifier_sound_misc_mrskeltal.description"] = [[thank u mr. skeltal
+L["unlameifier_sound_misc_mrskeltal.description"] = [[tack herr skeltal
 
-bullets not required for dooting]]
+skott krävs ej för dootande]]
 
-L["unlameifier_sound_misc_ltg.printname"] = "A Message from Low Tier God"
+L["unlameifier_sound_misc_ltg.printname"] = "Meddelande från Low Tier God"
 L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
 L["unlameifier_sound_misc_ltg.description"] = [["Your life is NOTHING. You serve ZERO purpose".
 -LowTierGod
 
-note: Unlameifier and its creator, Neosun, does not promote, condone, or encourage suicide. If you are experiencing thoughts of self-harm or suicide, please dial 988 to get in touch with the Suicide and Crisis Lifeline (United States, refer to your country's equivalent if you are outside of the US). They are available 24 hours a day. No call is insignificant when suicide is on the mind. You matter, and you are loved.
+Notera: Unlameifier och dess skapare, Neosun, främjar inte, gottgör eller uppmuntrar självmord. Om du har haft tankar om självskada eller självmord, vänligen ring 90101 för att ta kontakt med självmordslinjen Mind. Dem är tillgängliga 24/7. Inget samtal är obetydligt när det gäller självmord. Du betyder mycket, och du är älskad.
 
-If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
+Mind har också tillgång till en chatt ifall man inte vill prata i telefon. Oavsett vilka svårigheter du har så finns det alltid hjälp ♥]]
 
-L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage Parody"
+L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage-Parodi"
 L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
-L["unlameifier_sound_misc_mlg.description"] = [[basically the gen z equivalent of skibidi toilet.
+L["unlameifier_sound_misc_mlg.description"] = [[gen z-motsvarigheten till "skibidi toilet"
 
-inject 2013 brain rot directly into your veins]]
+lägg in lite 2013 hjärnröra till dina ådror]]
 
-L["unlameifier_sound_misc_fireworks.printname"] = "Fireworks"
-L["unlameifier_sound_misc_fireworks.compactname"] = "Fireworks"
-L["unlameifier_sound_misc_fireworks.description"] = [[Freedom without the Freedom.
+L["unlameifier_sound_misc_fireworks.printname"] = "Fyrverkerier"
+L["unlameifier_sound_misc_fireworks.compactname"] = "Fyrverkerier"
+L["unlameifier_sound_misc_fireworks.description"] = [[Frihet utan Friheten.
 
-Works best in semi-auto.]]
+Fungerar bäst i halvautomat.]]
 
-L["unlameifier_sound_misc_eagle.printname"] = "Eagle"
-L["unlameifier_sound_misc_eagle.compactname"] = "Eagle"
-L["unlameifier_sound_misc_eagle.description"] = [[Wield the power of the Freedom of the United States of America.
+L["unlameifier_sound_misc_eagle.printname"] = "Örn"
+L["unlameifier_sound_misc_eagle.compactname"] = "Örn"
+L["unlameifier_sound_misc_eagle.description"] = [[Bär på frihetens kraft av förenta staterna.
 
-Works best in semi-auto.
+Fungerar bäst i halvautomat.
 
 <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
-L["unlameifier_sound_misc_eagle_alt.printname"] = "Eagle (Alternative Version)"
-L["unlameifier_sound_misc_eagle_alt.compactname"] = "Eagle (Alt.)"
-L["unlameifier_sound_misc_eagle_alt.description"] = [[Wield the power of the Freedom of the United States of America.
+L["unlameifier_sound_misc_eagle_alt.printname"] = "Örn (Alternativ Version)"
+L["unlameifier_sound_misc_eagle_alt.compactname"] = "Örn (Alt.)"
+L["unlameifier_sound_misc_eagle_alt.description"] = [[Bär på frihetens kraft av förenta staterna.
 
-Unlike the original, this one adds an eagle screech when you stop firing.
+Till skillnad från originalet så lägger denna endast till ett skryl från en örn när du slutar skjuta.
 
 <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
@@ -759,91 +759,92 @@ L["unlameifier_folder_sounds_mw2"] = "Ljudmodd/MW2"
 
 L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
 L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
-L["unlameifier_sound_codmw2_intervention.description"] = [[Ändrar vapnets skottljud till Intervention from Call of Duty: Modern Warfare 2 (2009).
+L["unlameifier_sound_codmw2_intervention.description"] = [[Ändrar vapnets skottljud till Intervention från Call of Duty: Modern Warfare 2 (2009).
 
 Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
 
 -- Roblox
 L["unlameifier_folder_sounds_roblox"] = "Ljudmodd/Roblox"
 
-L["unlameifier_sound_roblox_paintball.printname"] = "Paintball Gun"
+L["unlameifier_sound_roblox_paintball.printname"] = "Paintball-Vapnet"
 L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
-L["unlameifier_sound_roblox_paintball.description"] = [[Ändrar vapnets skottljud till Paintball Gun from Roblox.
+L["unlameifier_sound_roblox_paintball.description"] = [[Ändrar vapnets skottljud till Paintball-Vapnet från Roblox.
 
 Certified Hood Classic.]]
 
 L["unlameifier_sound_roblox_slingshot.printname"] = "Slingshot"
 L["unlameifier_sound_roblox_slingshot.compactname"] = "Slingshot"
-L["unlameifier_sound_roblox_slingshot.description"] = [[Ändrar vapnets skottljud till Slingshot from Roblox.
+L["unlameifier_sound_roblox_slingshot.description"] = [[Ändrar vapnets skottljud till Slingshot från Roblox.
 
 Certified Hood Classic.]]
 
 L["unlameifier_sound_roblox_superball.printname"] = "Superball"
 L["unlameifier_sound_roblox_superball.compactname"] = "Superball"
-L["unlameifier_sound_roblox_superball.description"] = [[Ändrar vapnets skottljud till Superball from Roblox.
+L["unlameifier_sound_roblox_superball.description"] = [[Ändrar vapnets skottljud till Superball från Roblox.
 
 Certified Hood Classic.]]
 
-L["unlameifier_sound_roblox_laserpistol.printname"] = "XLS Mark II Pulse Laser Pistol"
+L["unlameifier_sound_roblox_laserpistol.printname"] = "XLS Mark II Puls-Laserpistol"
 L["unlameifier_sound_roblox_laserpistol.compactname"] = "Laser Pistol"
-L["unlameifier_sound_roblox_laserpistol.description"] = [[Ändrar vapnets skottljud till XLS Mark II Pulse Laser Pistol from Roblox.
+L["unlameifier_sound_roblox_laserpistol.description"] = [[Ändrar vapnets skottljud till XLS Mark II Puls-Laserpistolen från Roblox.
 
-The OG "pew" sound.]]
+Originala "pew"-ljudet.]]
 
 L["unlameifier_sound_roblox_guitar.printname"] = "Red Stratobloxxer"
-L["unlameifier_sound_roblox_guitar.compactname"] = "Guitar"
-L["unlameifier_sound_roblox_guitar.description"] = [[Ändrar vapnets skottljud till Red Stratobloxxer from Roblox.
+L["unlameifier_sound_roblox_guitar.compactname"] = "Gitarr"
+L["unlameifier_sound_roblox_guitar.description"] = [[Ändrar vapnets skottljud till Red Stratobloxxer från Roblox.
 
-You might be able to play a song with it!]]
+Du kanske kan spela en låt med den!]]
 
 -- Music
 L["unlameifier_folder_sounds_music"] = "Ljudmodd/Music"
 
-L["unlameifier_sound_music_usa1.printname"] = "Star Spangled Banner"
-L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
-L["unlameifier_sound_music_usa1.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa1.printname"] = "\"The Star-Spangled Banner\""
+L["unlameifier_sound_music_usa1.compactname"] = "USA Nationalsång"
+L["unlameifier_sound_music_usa1.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
-L["unlameifier_sound_music_usa2.printname"] = "Star Spangled Banner but Angry"
-L["unlameifier_sound_music_usa2.compactname"] = "USA Anthem Angy"
-L["unlameifier_sound_music_usa2.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa2.printname"] = "\"The Star-Spangled Banner\" men Arg"
+L["unlameifier_sound_music_usa2.compactname"] = "USA Nationalsång Arg"
+L["unlameifier_sound_music_usa2.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
 
-Taken from the BroForce Soundtrack.]] -- "AMERICA" but in colour
+Tagen från BroForce-ljudspåret.]] -- "AMERICA" but in colour
 
-L["unlameifier_sound_music_usa3.printname"] = "Ode to Joy"
-L["unlameifier_sound_music_usa3.compactname"] = "Ode to Joy"
-L["unlameifier_sound_music_usa3.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa3.printname"] = "\"Ode to Joy\""
+L["unlameifier_sound_music_usa3.compactname"] = "\"Ode to Joy\""
+L["unlameifier_sound_music_usa3.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
-L["unlameifier_sound_music_usa4.printname"] = "1812 Overture"
-L["unlameifier_sound_music_usa4.compactname"] = "1812 Overture"
-L["unlameifier_sound_music_usa4.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa4.printname"] = "1812 Ouvertyr"
+L["unlameifier_sound_music_usa4.compactname"] = "1812 Ouvertyr"
+L["unlameifier_sound_music_usa4.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 -- KindredFlame
 L["unlameifier_folder_sounds_ws"] = "Ljudmodd/KindredFlame"
 
-L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame's M16A4"
+L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame M16A4"
 L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
-L["unlameifier_sound_ws_m16a4.description"] = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
+L["unlameifier_sound_ws_m16a4.description"] = [[Ljud tagna från KindredFlame/Whitesnows legendariska M16A4 från CW2.0.
 
-The legend never dies...]]
+Legenden dör aldrig...]]
 
 -- Melee Sounds Misc (Impact)
-L["unlameifier_folder_sounds_melee_bonk"] = "Ljudmodd/Impact/Misc."
+L["unlameifier_folder_sounds_melee_bonk"] = "Ljudmodd/Träffar/Annat"
 
 L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
-L["unlameifier_sound_melee_bonk_impact.description"] = "Changes the melee hit sound with a bonk."
+L["unlameifier_sound_melee_bonk_impact.description"] = "Ändrar träffljuder på närstridsvapen med ett bonk."
 
 L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Johnny Test Whipcrack"
 L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
-L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*."
+L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now you can sound just like your favorite cartoon, Johnny Test."
+L["unlameifier_sound_melee_whipcrack_impact.description"] = "Nu *piskslag* kan *piskslag* du *piskslag* låta *piskslag* precis *piskslag* som *piskslag* din *piskslag* favorit *piskslag* tecknade *piskslag* figur, *piskslag* Johnny *piskslag* Test *piskslag* *piskslag* *piskslag*."
 
 -- Melee Sounds JJBA (Swing)
 L["unlameifier_folder_sounds_melee_jojo"] = "Ljudmodd/Swing/JJBA"
@@ -853,18 +854,18 @@ L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
 L["unlameifier_sound_melee_jojo_jotaro_swing.description"] = [[STAR PLATINUM!!
 ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
 
-(kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+(låter illa då närstridsvapen inte har slingande ljud- skyll på arctic)]]
 
 L["unlameifier_sound_melee_jojo_dio_swing.printname"] = "Muda (DIO)"
 L["unlameifier_sound_melee_jojo_dio_swing.compactname"] = "Muda"
 L["unlameifier_sound_melee_jojo_dio_swing.description"] = [[THE WORLD!!
 MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
 
-(kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+(låter illa då närstridsvapen inte har slingande ljud- skyll på arctic)]]
 
 -- Melee Sounds JJBA (Impact)
 L["unlameifier_folder_sounds_melee_jojo"] = "Ljudmodd/Impact/JJBA"
 
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
-L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
+L["unlameifier_sound_melee_jojo_impact.description"] = "Ändrar träffljudet med närstridsvapen med Stand Punch-ljudeffekten från JoJo's Bizarre Adventure."

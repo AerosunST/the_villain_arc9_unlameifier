@@ -811,13 +811,13 @@ You might be able to play a song with it!]]
 -- Music
 L["unlameifier_folder_sounds_music"] = "Sound Mods/Music"
 
-L["unlameifier_sound_music_usa1.printname"] = "Star Spangled Banner"
+L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
 L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
 L["unlameifier_sound_music_usa1.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
-L["unlameifier_sound_music_usa2.printname"] = "Star Spangled Banner but Angry"
+L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner but Angry"
 L["unlameifier_sound_music_usa2.compactname"] = "USA Anthem Angy"
 L["unlameifier_sound_music_usa2.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
 

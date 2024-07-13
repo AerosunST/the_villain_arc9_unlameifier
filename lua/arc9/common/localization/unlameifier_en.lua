@@ -464,8 +464,8 @@ L["unlameifier_sound_hl1_tau2.printname"] = "Tau Cannon (Secondary Fire)"
 L["unlameifier_sound_hl1_tau2.compactname"] = "Tau (S)"
 L["unlameifier_sound_hl1_tau2.description"] = "Changes the firing sound of the weapon to the Tau Cannon's Secondary Fire from Half-Life 1."
 
-L["unlameifier_sound_hl1_glauncher.printname"] = "SMG Grenade Launcher"
-L["unlameifier_sound_hl1_glauncher.compactname"] = "SMG GL"
+L["unlameifier_sound_hl1_glauncher.printname"] = "Grenade Launcher"
+L["unlameifier_sound_hl1_glauncher.compactname"] = "GL"
 L["unlameifier_sound_hl1_glauncher.description"] = [[Changes the firing sound of the weapon to the SMG's Grenade Launcher from Half-Life 1.
 
 <color=175,175,255>NOTE</color>: reload sound is mixed in, too lazy to remove attachment and wait 30 trillion years for .ogg files to delete. if that breaks immersion, woe is you.]]
@@ -476,9 +476,9 @@ L["unlameifier_sound_hl1_smg.description"] = [[Changes the firing sound of the w
 
 <color=175,175,255>NOTE</color>: This is the MP5 in the original version of Half-Life, not to be confused with the M16 in the HD version. M16 is a separate attachment.]]
 
-L["unlameifier_sound_hl1_m16.printname"] = "SMG (HD)"
-L["unlameifier_sound_hl1_m16.compactname"] = "SMG (HD)"
-L["unlameifier_sound_hl1_m16.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 1 HD Pack.
+L["unlameifier_sound_hl1_m16.printname"] = "M16 (Hi-Def SMG)"
+L["unlameifier_sound_hl1_m16.compactname"] = "M16 (SMG)"
+L["unlameifier_sound_hl1_m16.description"] = [[Changes the firing sound of the weapon to the M16, the SMG from Half-Life 1 HD Pack.
 
 <color=175,175,255>NOTE</color>: This is from the HD version of Half-Life 1. It replaces the MP5 out for an M16, which also changes its sound (hence why you are seeing this here).]]
 
@@ -494,7 +494,7 @@ L["unlameifier_sound_hl1_shotgun.description"] = "Changes the firing sound of th
 
 L["unlameifier_sound_hl1_sniper.printname"] = "Sniper Rifle"
 L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
-L["unlameifier_sound_hl1_sniper.description"] = [[Changes the firing sound of the weapon to the M249 machine gun from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_sniper.description"] = [[Changes the firing sound of the weapon to the Sniper Rifle from Half-Life 1: Opposing Force.
 
 As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 

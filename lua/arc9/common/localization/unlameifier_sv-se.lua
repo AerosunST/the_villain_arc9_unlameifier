@@ -912,9 +912,9 @@ L["unlameifier_sound_dods_mg42.printname"] = "MG42"
 L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
 L["unlameifier_sound_dods_mg42.description"] = "Ändrar vapnets skottljud till MG42 från Day of Defeat: Source."
 
-L["unlameifier_sound_dods_mortar.printname"] = "Mortar"
-L["unlameifier_sound_dods_mortar.compactname"] = "Mortar"
-L["unlameifier_sound_dods_mortar.description"] = "Ändrar vapnets skottljud till Mortar från Day of Defeat: Source."
+L["unlameifier_sound_dods_mortar.printname"] = "Murbruk"
+L["unlameifier_sound_dods_mortar.compactname"] = "Murbruk"
+L["unlameifier_sound_dods_mortar.description"] = "Ändrar vapnets skottljud till Murbruken från Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mp40.printname"] = "MP40"
 L["unlameifier_sound_dods_mp40.compactname"] = "MP40"
@@ -939,3 +939,144 @@ L["unlameifier_sound_dods_spring.description"] = "Ändrar vapnets skottljud till
 L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Ändrar vapnets skottljud till Thompson från Day of Defeat: Source."
+
+-- Day of Defeat
+L["unlameifier_folder_sounds_dod"] = "Sound Mods/DoD"
+
+L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.description"] = [[Ändrar vapnets skottljud till .30-kalibern från Day of Defeat.
+
+"Ultimat eldtäckning är denna klassens förmåga. En enda snubbe på bra plats kan stoppa en fientlig attack i dess spår. Med dess massiva rekyl så är vapnet bäst använt med skjutstödet."]]
+
+L["unlameifier_sound_dod_bar.printname"] = "BAR"
+L["unlameifier_sound_dod_bar.compactname"] = "BAR"
+L["unlameifier_sound_dod_bar.description"] = [[Ändrar vapnets skottljud till BAR från Day of Defeat.
+
+"Denna klass är gjord för att lägga fram täckande eld till allierade anfallande infanteri. Med BAR-gevärets massiva patron så kan denna klass stupa 3 eller 4 fientliga solder åt gången med ett magasin."]]
+
+L["unlameifier_sound_dod_bren.printname"] = "Bren"
+L["unlameifier_sound_dod_bren.compactname"] = "Bren"
+L["unlameifier_sound_dod_bren.description"] = [[Ändrar vapnets skottljud till Bren från Day of Defeat.
+
+"Känd för dess utmärkta pålitlighet och kraft, kulsprutan Bren har varit stöttepelaren i Samväldets styrkor under andra världskriget. Använt som både lätt och tung kulspruta, Bren är extremt adapterbar till situationen, och kan användas i både defensiva och offensiva roller."]]
+
+L["unlameifier_sound_dod_carbine.printname"] = "M1-automatkarbin"
+L["unlameifier_sound_dod_carbine.compactname"] = "M1-automatkarbin"
+L["unlameifier_sound_dod_carbine.description"] = [[Ändrar vapnets skottljud till M1-automatkarbinen från Day of Defeat.
+
+"Med M1-automatkarbinens lättare rekyl så kan denna klass träffa måltavlor snabbare och med högre träffsäkerhet. Klassen är ideal för kortare räckvidd strider inne i städer."]]
+
+L["unlameifier_sound_dod_colt.printname"] = "Colt 1911 Pistol"
+L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911 Pistol"
+L["unlameifier_sound_dod_colt.description"] = "Ändrar vapnets skottljud till Colt 1911-pistolen från Day of Defeat."
+
+L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
+L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
+L["unlameifier_sound_dod_enfield.description"] = [[Ändrar vapnets skottljud till Enfield från Day of Defeat.
+
+"Med världens slätaste hantering har detta gevär haft krigets högsta träffsäkerhet. Jämfört med andra cylinderrepetergevär från dess tid så ger dess 10-patronersmagasin en distinkt fördel i ammunitionskapaciteten."]]
+
+L["unlameifier_sound_dod_enfieldsniper.printname"] = "Enfield med Kikarsikte"
+L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield K."
+L["unlameifier_sound_dod_enfieldsniper.description"] = [[Ändrar vapnets skottljud till Enfield med Kikarsikte från Day of Defeat.
+
+"Enfield var krigets finaste krypskyttegevär. Utrustat med ett riktmedel med 4x räckvidd, No4(T) visade sig vara ett sådant fint vapen, att även efter kriget fortsatte den tjäna i många år som den britiska arméens krypskyttegevär."]]
+
+L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
+L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
+L["unlameifier_sound_dod_fg42.description"] = [[Ändrar vapnets skottljud till Fg42 från Day of Defeat.
+
+"Fg42 representerar ett massivt kliv i framsteg av infanteri eldvapen. Med den hela 8 mm-patronen så var detta specialistvapen reserverat till tysklands elitstyrka Fallschirmjäger. Denna Fg42:a kan användas med skjutstödet för kontinuerlig täckningseld. Fg42:n var ett väldigt kort och kompakt vapen. Denna kompaktheten gav två effekter, hemsk rekyl i automateld och krigets högsta mynningseld. Fientliga soldater gick direkt ner i grusen när dem hörde vapnets titaniska eld. Fg42:n är bäst när man skjuter i 2- eller 3-skottsalvon."]]
+
+L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.description"] = [[Ändrar vapnets skottljud till M1 Garand från Day of Defeat.
+
+"Känd som 'geväret som vann kriget', Garanden erbjuder klassen med halvautomatisk, ' enkel skott dödande' möjlighet. Efter man lärt sig Garandens rekyl så kan vapnet och klassen vända krigsvågen."]]
+
+L["unlameifier_sound_dod_greasegun.printname"] = "Fettpistol"
+L["unlameifier_sound_dod_greasegun.compactname"] = "Fettpistol"
+L["unlameifier_sound_dod_greasegun.description"] = [[Ändrar vapnets skottljud till Fettpistolen ("Greasegun") från Day of Defeat.
+
+"Med Fettpistolens lätta rekyl och lägre eldhastighet, denna klass kan träffa måltavlor träffsäkert med kontinuerlig eld. Klassen är ideal för kortare räckvidd strider inne i städer."]]
+
+L["unlameifier_sound_dod_k43.printname"] = "K43"
+L["unlameifier_sound_dod_k43.compactname"] = "K43"
+L["unlameifier_sound_dod_k43.description"] = [[Ändrar vapnets skottljud till K43 från Day of Defeat.
+
+"Tysklands svar till nordamerikanska M1 Garand och sovjetiska SVT-40-gevären, K43 erbjuder klassen med halvautomatisk, ' enkel skott dödande' möjlighet. Efter man lärt sig Garandens rekyl så kan vapnet och klassen vända krigsvågen."]]
+
+L["unlameifier_sound_dod_kar.printname"] = "K98"
+L["unlameifier_sound_dod_kar.compactname"] = "K98"
+L["unlameifier_sound_dod_kar.description"] = [[Ändrar vapnets skottljud till K98 från Day of Defeat.
+
+Ryggraden för Wehrmacht, Kar98:n är karaktäriseras med dess otroliga träffsäkerhet. Denna klass styr slagfältet i strider på längre distanser. Den tillagda bajonetten erbjuder skydd på nära håll under hus-till-hus rensning."]]
+
+L["unlameifier_sound_dod_luger.printname"] = "Luger '08 Pistol"
+L["unlameifier_sound_dod_luger.compactname"] = "Luger '08 Pistol"
+L["unlameifier_sound_dod_luger.description"] = "Ändrar vapnets skottljud till Luger '08 pistolen från Day of Defeat."
+
+L["unlameifier_sound_dod_mg34.printname"] = "MG34"
+L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
+L["unlameifier_sound_dod_mg34.description"] = [[Ändrar vapnets skottljud till MG34 från Day of Defeat.
+
+"MG34:n är den bästa kulsprutan som fältats under andra världskriget. MG34:n med trumma kan erbjuda en stadig ström av täckande eld utan fara att pipan överhettas."]]
+
+L["unlameifier_sound_dod_mg42.printname"] = "MG42"
+L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
+L["unlameifier_sound_dod_mg42.description"] = [[Ändrar vapnets skottljud till MG42 från Day of Defeat.
+
+"MG42:n är den bästa kulsprutan som fältats av vilken armé som helst i historien av krigföring. MG42:n, med dess 1200 skott i minuten eldhastighet, lägger fram en vägg av bly som inte kan brytas. Använd extrem försiktighet bara, då dess höga eldhastighet kan leda till att pipan överhettas."]]
+
+L["unlameifier_sound_dod_mortar.printname"] = "Murbruk"
+L["unlameifier_sound_dod_mortar.compactname"] = "Murbruk"
+L["unlameifier_sound_dod_mortar.description"] = [[Ändrar vapnets skottljud till Murbruken från Day of Defeat.
+
+"Infanteriet personliga artilleri, murbruken ger soldaterna på fältet en extremt rörlig, dödlig, tung skada möjlighet. Vapnet är bäst använt mot gömda eller bunkrade fientliga positioner som normal infanteri har svårt att rensa. Krypskyttar och kulspruteskyttar fruktar detta vapen tack vare dess skrikande, inkommande vissel."]]
+
+L["unlameifier_sound_dod_mp40.printname"] = "MP40"
+L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
+L["unlameifier_sound_dod_mp40.description"] = [[Ändrar vapnets skottljud till MP40 från Day of Defeat.
+
+"Med denna Mp40 med låg rekyl så kan en soldat manövrera in och ut från bakgårdar och genom sönderbombade byggnader och fortsätta träffa sitt mål."]]
+
+L["unlameifier_sound_dod_mp44.printname"] = "STG44"
+L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
+L["unlameifier_sound_dod_mp44.description"] = [[Ändrar vapnets skottljud till STG44 från Day of Defeat.
+
+"Historiens först sanna automatkarbin, vapnet kan utföra olika roller med effektivitet. Stg44:ns medelstora patron ger stoppkraft medans rekylen hålls till det minimala. Stg44 används bäst när den skjuts i 2- eller 3-skottsalvon."]]
+
+L["unlameifier_sound_dod_piat.printname"] = "PIAT"
+L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
+L["unlameifier_sound_dod_piat.description"] = [[Ändrar vapnets skottljud till PIAT från Day of Defeat.
+
+"Tillverkat senare under kriget, raketvapen var det perfekta instrumentet för att förstöra stridsvagnar och fordon. Dem kunde användas i vissa situationer för att spränga hål i väggar, vilket erbjud antingen en förbättrad flykt- eller anfallsrutt."]]
+
+L["unlameifier_sound_dod_rocket.printname"] = "Raket"
+L["unlameifier_sound_dod_rocket.compactname"] = "Raket"
+L["unlameifier_sound_dod_rocket.description"] = [[Ändrar vapnets skottljud till Bazookan och Panzerschreck från Day of Defeat.
+
+"Tillverkat senare under kriget, raketvapen var det perfekta instrumentet för att förstöra stridsvagnar och fordon. Dem kunde användas i vissa situationer för att spränga hål i väggar, vilket erbjud antingen en förbättrad flykt- eller anfallsrutt."]]
+
+L["unlameifier_sound_dod_spring.printname"] = "Springfield"
+L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
+L["unlameifier_sound_dod_spring.description"] = [[Ändrar vapnets skottljud till Springfield från Day of Defeat.
+
+"Denna klass gömmer sig i skuggorna. Med dess Springfield '03 så är denna klass den ensamma varjen i gruppen, går ut helt själv för att regna osedd terror på motståndets trupper."]]
+
+L["unlameifier_sound_dod_sten.printname"] = "Sten"
+L["unlameifier_sound_dod_sten.compactname"] = "Sten"
+L["unlameifier_sound_dod_sten.description"] = [[Ändrar vapnets skottljud till Sten från Day of Defeat.
+
+"Den ärevördiga kulsputepistolen Sten tillverkades för att ersätta kostnaden att tillverka nordamerikanska Tommy Gun som användas av den britiska arméen tidigare i kriget. Gjort nästan exklusivt av plåtstämpling, den är en lätt och pålitlig kulsprutepistol. Ett utmärkt närstridsvapen, det var valet av flera kommandon under kriget."]]
+
+L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
+L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
+L["unlameifier_sound_dod_thompson.description"] = [[Ändrar vapnets skottljud till Thompson från Day of Defeat.
+
+"Thompsons lätta rekyl betyder att denna klass kan träffa måltavlor snabbt och träffsäkert.. Klassen är ideal för kortare räckvidd strider inne i städer."]]
+
+L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
+L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
+L["unlameifier_sound_dod_webley.description"] = "Ändrar vapnets skottljud till Webley Revolvern från Day of Defeat."

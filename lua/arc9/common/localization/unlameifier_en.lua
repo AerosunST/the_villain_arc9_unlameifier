@@ -348,23 +348,23 @@ L["unlameifier_folder_sounds_doom"] = "Sound Mods/DOOM"
 
 L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
 L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
-L["unlameifier_sound_doom_pistol.description"] = "Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
+L["unlameifier_sound_doom_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
 
 L["unlameifier_sound_doom_shotgun.printname"] = "Shotgun"
 L["unlameifier_sound_doom_shotgun.compactname"] = "Shotgun"
-L["unlameifier_sound_doom_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
+L["unlameifier_sound_doom_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
 
 L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
 L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
-L["unlameifier_sound_doom_BFG.description"] = "Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
+L["unlameifier_sound_doom_BFG.description"] = [[Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
 
 L["unlameifier_sound_doom_plasma.printname"] = "Plasma Rifle"
 L["unlameifier_sound_doom_plasma.compactname"] = "Plasma R."
-L["unlameifier_sound_doom_plasma.description"] = "Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
+L["unlameifier_sound_doom_plasma.description"] = [[Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
 
 L["unlameifier_sound_doom_rocket.printname"] = "Rocket Launcher"
 L["unlameifier_sound_doom_rocket.compactname"] = "Rocket"
-L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
+L["unlameifier_sound_doom_rocket.description"] = [[Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
 
 -- Half-Life 2
 L["unlameifier_folder_sounds_hl2"] = "Sound Mods/HL2"
@@ -458,11 +458,11 @@ As of this time of writing, I have not played Opposing Force/Blue Shift so if I 
 
 L["unlameifier_sound_hl1_tau.printname"] = "Tau Cannon"
 L["unlameifier_sound_hl1_tau.compactname"] = "Tau"
-L["unlameifier_sound_hl1_tau.description"] = "Changes the firing sound of the weapon to the Tau Cannon from Half-Life 1."
+L["unlameifier_sound_hl1_tau.description"] = [[Changes the firing sound of the weapon to the Tau Cannon from Half-Life 1."
 
 L["unlameifier_sound_hl1_tau2.printname"] = "Tau Cannon (Secondary Fire)"
 L["unlameifier_sound_hl1_tau2.compactname"] = "Tau (S)"
-L["unlameifier_sound_hl1_tau2.description"] = "Changes the firing sound of the weapon to the Tau Cannon's Secondary Fire from Half-Life 1."
+L["unlameifier_sound_hl1_tau2.description"] = [[Changes the firing sound of the weapon to the Tau Cannon's Secondary Fire from Half-Life 1."
 
 L["unlameifier_sound_hl1_glauncher.printname"] = "Grenade Launcher"
 L["unlameifier_sound_hl1_glauncher.compactname"] = "GL"
@@ -490,7 +490,7 @@ As of this time of writing, I have not played Opposing Force/Blue Shift so if I 
 
 L["unlameifier_sound_hl1_shotgun.printname"] = "Shotgun"
 L["unlameifier_sound_hl1_shotgun.compactname"] = "Shotgun"
-L["unlameifier_sound_hl1_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
+L["unlameifier_sound_hl1_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
 
 L["unlameifier_sound_hl1_sniper.printname"] = "Sniper Rifle"
 L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
@@ -951,3 +951,144 @@ L["unlameifier_sound_dods_spring.description"] = "Changes the firing sound of th
 L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Changes the firing sound of the weapon to the Thompson from Day of Defeat: Source."
+
+-- Day of Defeat
+L["unlameifier_folder_sounds_dod"] = "Sound Mods/DoD"
+
+L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.description"] = [[Changes the firing sound of the weapon to the .30 Cal from Day of Defeat.
+
+"Ultimate covering fire is the ability of this class.  A single man in good position can stop an enemy attack in its tracks. With it's massive recoil, this weapon is best used with bipod deployed."]]
+
+L["unlameifier_sound_dod_bar.printname"] = "BAR"
+L["unlameifier_sound_dod_bar.compactname"] = "BAR"
+L["unlameifier_sound_dod_bar.description"] = [[Changes the firing sound of the weapon to the BAR from Day of Defeat.
+
+"This class is meant to lay down cover fire for his fellow assaulting infantry. With the BAR's large round, this class can knock down 3 or 4 enemy soldiers at a time with one clip."]]
+
+L["unlameifier_sound_dod_bren.printname"] = "Bren"
+L["unlameifier_sound_dod_bren.compactname"] = "Bren"
+L["unlameifier_sound_dod_bren.description"] = [[Changes the firing sound of the weapon to the Bren from Day of Defeat.
+
+"Known for it's outstanding reliability and power, the Bren machine gun was the mainstay for the Commonwealth forces in WWII.  Used both as a light and heavy machine gun, the Bren gun is extremely adaptable to the situation and can be used in both defensive and offensive roles."]]
+
+L["unlameifier_sound_dod_carbine.printname"] = "M1 Carbine"
+L["unlameifier_sound_dod_carbine.compactname"] = "M1 Carbine"
+L["unlameifier_sound_dod_carbine.description"] = [[Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat.
+
+"With the lighter recoil of the M1 Carbine, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+
+L["unlameifier_sound_dod_colt.printname"] = "Colt 1911 Pistol"
+L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911 Pistol"
+L["unlameifier_sound_dod_colt.description"] = "Changes the firing sound of the weapon to the Colt 1911 Pistol from Day of Defeat."
+
+L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
+L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
+L["unlameifier_sound_dod_enfield.description"] = [[Changes the firing sound of the weapon to the Enfield from Day of Defeat.
+
+"With the smoothest action in the world, this rifle was one of the most accurate of the war.  When compared to other bolt action rifles of the time, it's 10 round magazine gave it a distinct advantage in ammunition capacity."]]
+
+L["unlameifier_sound_dod_enfieldsniper.printname"] = "Scoped Enfield"
+L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield S."
+L["unlameifier_sound_dod_enfieldsniper.description"] = [[Changes the firing sound of the weapon to the Scoped Enfield from Day of Defeat.
+
+"The Enfield was one of the finest sniper rifles of the war.  Fitted with a 4x power sniper scope, the No4(T) proved to be such a fine weapon that after the war it continued serving for many years as the British Army's sniper rifle."]]
+
+L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
+L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
+L["unlameifier_sound_dod_fg42.description"] = [[Changes the firing sound of the weapon to the Fg42 from Day of Defeat.
+
+"The Fg42 represented a huge stride in the advance of infantry small arms.  Using the full 8mm cartridge, this specialized weapon was reserved for Germany's elite Fallschirmjäger. This Fg42 can be used with the bipod for sustained cover fire.  The Fg42 was a very short compact weapon.  This compactness produced two effects, horrid recoil in automatic fire and the loudest muzzle blast of any weapon of the war.  Enemy soldiers immediately hit the dirt when they heard the titanic blast of this weapon.  The Fg42 is best used firing in short 2 to 3 shot bursts."]]
+
+L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.description"] = [[Changes the firing sound of the weapon to the M1 Garand from Day of Defeat.
+
+"Known as the 'rifle that won the war',  the Garand provides this class with semi-automatic one shot kill capability.  After learning to control the Garand's recoil, this weapon and class can turn the tide of a battle."]]
+
+L["unlameifier_sound_dod_greasegun.printname"] = "Greasegun"
+L["unlameifier_sound_dod_greasegun.compactname"] = "Greasegun"
+L["unlameifier_sound_dod_greasegun.description"] = [[Changes the firing sound of the weapon to the Greasegun from Day of Defeat.
+
+"With the lighter recoil and slower rate of fire of the Greasegun, this class can hit targets accurately with sustained fire.  This class is ideal for short range inner city fighting."]]
+
+L["unlameifier_sound_dod_k43.printname"] = "K43"
+L["unlameifier_sound_dod_k43.compactname"] = "K43"
+L["unlameifier_sound_dod_k43.description"] = [[Changes the firing sound of the weapon to the K43 from Day of Defeat.
+
+"Germany's reply to the US M1 Garand and Soviet SVT40 rifles, the K43 provides semi-automatic one shot kill capability.  After learning to control the K43's recoil, this weapon can turn the tide of a battle."]]
+
+L["unlameifier_sound_dod_kar.printname"] = "K98"
+L["unlameifier_sound_dod_kar.compactname"] = "K98"
+L["unlameifier_sound_dod_kar.description"] = [[Changes the firing sound of the weapon to the K98 from Day of Defeat.
+
+"The backbone of the Wehrmacht, the Kar 98 is characterized by it's pinpoint accuracy. This class rules the battlefield during long range encounters.  The added bayonet provides close in protection during house to house fighting."]]
+
+L["unlameifier_sound_dod_luger.printname"] = "Luger '08 Pistol"
+L["unlameifier_sound_dod_luger.compactname"] = "Luger '08 Pistol"
+L["unlameifier_sound_dod_luger.description"] = "Changes the firing sound of the weapon to the Luger '08 Pistol from Day of Defeat."
+
+L["unlameifier_sound_dod_mg34.printname"] = "MG34"
+L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
+L["unlameifier_sound_dod_mg34.description"] = [[Changes the firing sound of the weapon to the MG34 from Day of Defeat.
+
+"The MG34 was one of the best machine guns fielded during WWII.  The MG34 with drum can provide a steady stream of covering fire without the danger of barrel overheat."]]
+
+L["unlameifier_sound_dod_mg42.printname"] = "MG42"
+L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
+L["unlameifier_sound_dod_mg42.description"] = [[Changes the firing sound of the weapon to the MG42 from Day of Defeat.
+
+"The MG42 is one of the best machine guns ever fielded by any army in the history of warfare.  The MG42, with its 1200 rounds per minute rate of fire, lays down a wall of lead that is impenetrable.  Use extreme caution though, as the high rate of fire can lead to the barrel overheating."]]
+
+L["unlameifier_sound_dod_mortar.printname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.compactname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.description"] = [[Changes the firing sound of the weapon to the Mortar from Day of Defeat.
+
+"The infantryman's personal artillery, the mortar, gives soldiers in the field an extremely mobile, lethal, heavy-strike capability. This weapon is best utilized against hidden or bunkered enemy positions that normal infantry have trouble taking out. Snipers and machine gunners fear this weapon noted for its shrieking incoming whistle."]]
+
+L["unlameifier_sound_dod_mp40.printname"] = "MP40"
+L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
+L["unlameifier_sound_dod_mp40.description"] = [[Changes the firing sound of the weapon to the MP40 from Day of Defeat.
+
+"With his low recoil Mp40, a soldier can manuever in and out of back alleys and through bombed out buildings while still hitting his target."]]
+
+L["unlameifier_sound_dod_mp44.printname"] = "STG44"
+L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
+L["unlameifier_sound_dod_mp44.description"] = [[Changes the firing sound of the weapon to the STG44 from Day of Defeat.
+
+"The first true assault rifle in history, this weapon can perform varying roles with effectiveness.  The Stg44's medium sized round provides knock down power while keeping recoil to a minimum.  The Stg44 is best used firing in short 2 to 3 shot bursts."]]
+
+L["unlameifier_sound_dod_piat.printname"] = "PIAT"
+L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
+L["unlameifier_sound_dod_piat.description"] = [[Changes the firing sound of the weapon to the PIAT from Day of Defeat.
+
+"Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+
+L["unlameifier_sound_dod_rocket.printname"] = "Rocket"
+L["unlameifier_sound_dod_rocket.compactname"] = "Rocket"
+L["unlameifier_sound_dod_rocket.description"] = [[Changes the firing sound of the weapon to the Bazooka and Panzerschreck from Day of Defeat.
+
+"Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+
+L["unlameifier_sound_dod_spring.printname"] = "Springfield"
+L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
+L["unlameifier_sound_dod_spring.description"] = [[Changes the firing sound of the weapon to the Springfield from Day of Defeat.
+
+"This class hides in the shadows.  With his Springfield '03, this class is the lone wolf of the squad, venturing out on his own to rain unseen terror on opposing squads."]]
+
+L["unlameifier_sound_dod_sten.printname"] = "Sten"
+L["unlameifier_sound_dod_sten.compactname"] = "Sten"
+L["unlameifier_sound_dod_sten.description"] = [[Changes the firing sound of the weapon to the Sten from Day of Defeat.
+
+"The venerable Sten Gun was developed to replace the costly to manufacture American Tommy Gun used by the British Army earier in the war.  Made almost entirely of sheet metal stampings, it is a lightweight, reliable submachine gun.  An excellent close in weapon, it was the choice for many commandos throughout the war."]]
+
+L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
+L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
+L["unlameifier_sound_dod_thompson.description"] = [[Changes the firing sound of the weapon to the Thompson from Day of Defeat.
+
+"With the lighter recoil of the Thompson, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+
+L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
+L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
+L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."

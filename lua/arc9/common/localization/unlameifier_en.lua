@@ -1092,3 +1092,75 @@ L["unlameifier_sound_dod_thompson.description"] = [[Changes the firing sound of 
 L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
 L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
 L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."
+
+-- Team Fortress 2
+
+--[[
+Localizations for TF2 items are done in a way to provide accurate information related to the items the sounds come from.
+For example, its level, weapon type, stats and description, if available. All this should be done with in-game localizations*.
+Additionally, an 'Available as' text is also added, which includes all the different rarities the weapon can come in.
+The following color codes depict the different rarities, for reference:
+
+Unique (Yellow): 255,215,0
+Vintage (Blue): 71,98,145
+Genuine (Dark Green): 77,116,85
+Strange (Orange): 207,106,50
+Unusual (Purple): 134,80,172
+Haunted (Teal): 56,243,171
+Collector's (Red): 170,0,0
+Community / Self-Made (Green): 112,176,74
+
+Additionally, if ever applicable, here are weapon grade skins as well, in rarity order from common to most rare:
+Civilian: 176,195,217
+Freelance: 94,152,217
+Mercenary: 75,105,255
+Commando: 136,71,255
+Assassin: 211,44,230
+Elite: 235,75,75
+--]]
+
+L["unlameifier_folder_sounds_tf2"] = "Sound Mods/TF2"
+L["unlameifier_tf2_scout"] = "/Scout"
+L["unlameifier_tf2_soldier"] = "/Soldier"
+L["unlameifier_tf2_pyro"] = "/Pyro"
+L["unlameifier_tf2_demo"] = "/Demo"
+L["unlameifier_tf2_heavy"] = "/Heavy"
+L["unlameifier_tf2_engineer"] = "/Engineer"
+L["unlameifier_tf2_medic"] = "/Medic"
+L["unlameifier_tf2_sniper"] = "/Sniper"
+L["unlameifier_tf2_spy"] = "/Spy"
+
+L["unlameifier_tf2_melee"] = "/Melee"
+
+local rare = { -- If you wanna include these in the description, be my guest, be my guest.
+	br = "|",
+	unique = "<color=255,215,0> Unique </color>",
+	vintage = "<color=71,98,145> Vintage </color>",
+	genuine = "<color=77,116,85> Genuine </color>",
+	strange = "<color=207,106,50> Strange </color>",
+	unusual = "<color=134,80,172> Unusual </color>",
+	haunted = "<color=56,243,171> Haunted </color>",
+	collectors = "<color=170,0,0> Collector's </color>",
+	community = "<color=112,176,74> Community </color>",
+	selfmade = "<color=112,176,74> Self-Made </color>",
+}
+
+-- Soldier
+L["unlameifier_sound_tf2_airstrike.printname"] = "The Air Strike"
+L["unlameifier_sound_tf2_airstrike.compactname"] = "Air Strike"
+L["unlameifier_sound_tf2_airstrike.description"] = [[Replaces the firing sounds with the "The Air Strike" from Team Fortress 2.
+<color=153,204,255>~10% chance to play a crit sound</color>]] -- unique strange
+
+-- Pyro
+L["unlameifier_sound_tf2_3rd_degree.printname"] = "Third Degree"
+L["unlameifier_sound_tf2_3rd_degree.compactname"] = "Third Degree"
+L["unlameifier_sound_tf2_3rd_degree.description"] = [[Replaces the melee swing and hit sounds with ones from the "Third Degree" from Team Fortress 2.
+<color=153,204,255>~10% chance to play a crit sound</color>
+
+"Being a boon to tree-fellers, backwoodsmen and atom-splitters the world over, this miraculous matter-hewing device burns each individual molecule as it cleaves it."]] -- unique strange collectors
+
+-- Demo
+L["unlameifier_sound_tf2_air_burster.printname"] = "The Quickiebomb Launcher"
+L["unlameifier_sound_tf2_air_burster.compactname"] = "Quickiebomb"
+L["unlameifier_sound_tf2_air_burster.description"] = [[Replaces the firing sounds with the "The Quickiebomb Launcher" from Team Fortress 2.
+<color=153,204,255>~10% chance to play a crit sound</color>]] -- unique strange

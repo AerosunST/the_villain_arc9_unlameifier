@@ -870,7 +870,7 @@ L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Ändrar träffljudet med närstridsvapen med Stand Punch-ljudeffekten från JoJo's Bizarre Adventure."
 
 -- Day of Defeat: Source
-L["unlameifier_folder_sounds_dods"] = "Sound Mods/DoD:S"
+L["unlameifier_folder_sounds_dods"] = "Ljudmodd/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = ".30-kaliber"
 L["unlameifier_sound_dods_30cal.compactname"] = ".30-kaliber"
@@ -941,7 +941,7 @@ L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Ändrar vapnets skottljud till Thompson från Day of Defeat: Source."
 
 -- Day of Defeat
-L["unlameifier_folder_sounds_dod"] = "Sound Mods/DoD"
+L["unlameifier_folder_sounds_dod"] = "Ljudmodd/DoD"
 
 L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
 L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"

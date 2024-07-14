@@ -880,3 +880,74 @@ L["unlameifier_folder_sounds_melee_jojo"] = "Sound Mods/Impact/JJBA"
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
+
+-- Day of Defeat: Source
+L["unlameifier_folder_sounds_dods"] = "Sound Mods/DoD:S"
+
+L["unlameifier_sound_dods_30cal.printname"] = ".30 Cal"
+L["unlameifier_sound_dods_30cal.compactname"] = ".30 Cal"
+L["unlameifier_sound_dods_30cal.description"] = "Changes the firing sound of the weapon to the .30 Cal from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_bar.printname"] = "BAR"
+L["unlameifier_sound_dods_bar.compactname"] = "BAR"
+L["unlameifier_sound_dods_bar.description"] = "Changes the firing sound of the weapon to the BAR from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_c96.printname"] = "C96"
+L["unlameifier_sound_dods_c96.compactname"] = "C96"
+L["unlameifier_sound_dods_c96.description"] = "Changes the firing sound of the weapon to the C96 from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_colt.printname"] = "Colt"
+L["unlameifier_sound_dods_colt.compactname"] = "Colt"
+L["unlameifier_sound_dods_colt.description"] = "Changes the firing sound of the weapon to the Colt from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_garand.printname"] = "Garand"
+L["unlameifier_sound_dods_garand.compactname"] = "Garand"
+L["unlameifier_sound_dods_garand.description"] = "Changes the firing sound of the weapon to the Garand from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_grenade.printname"] = "Rifle Grenade"
+L["unlameifier_sound_dods_grenade.compactname"] = "Rifle Grenade"
+L["unlameifier_sound_dods_grenade.description"] = "Changes the firing sound of the weapon to the Garand's and K98k's Rifle Grenade from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_k98.printname"] = "K98k"
+L["unlameifier_sound_dods_k98.compactname"] = "K98k"
+L["unlameifier_sound_dods_k98.description"] = "Changes the firing sound of the weapon to the K98k from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_k98scoped.printname"] = "K98 Sniper Rifle"
+L["unlameifier_sound_dods_k98scoped.compactname"] = "K98 S."
+L["unlameifier_sound_dods_k98scoped.description"] = "Changes the firing sound of the weapon to the K98 Sniper Rifle from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_m1carbine.printname"] = "M1 Carbine"
+L["unlameifier_sound_dods_m1carbine.compactname"] = "M1 Carbine"
+L["unlameifier_sound_dods_m1carbine.description"] = "Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mg42.printname"] = "MG42"
+L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
+L["unlameifier_sound_dods_mg42.description"] = "Changes the firing sound of the weapon to the MG42 from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mortar.printname"] = "Mortar"
+L["unlameifier_sound_dods_mortar.compactname"] = "Mortar"
+L["unlameifier_sound_dods_mortar.description"] = "Changes the firing sound of the weapon to the Mortar from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mp40.printname"] = "MP40"
+L["unlameifier_sound_dods_mp40.compactname"] = "MP40"
+L["unlameifier_sound_dods_mp40.description"] = "Changes the firing sound of the weapon to the MP40 from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mp44.printname"] = "MP44"
+L["unlameifier_sound_dods_mp44.compactname"] = "MP44"
+L["unlameifier_sound_dods_mp44.description"] = "Changes the firing sound of the weapon to the MP44 from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_p38.printname"] = "P38"
+L["unlameifier_sound_dods_p38.compactname"] = "P38"
+L["unlameifier_sound_dods_p38.description"] = "Changes the firing sound of the weapon to the P38 from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_rocket.printname"] = "Bazooka"
+L["unlameifier_sound_dods_rocket.compactname"] = "Bazooka"
+L["unlameifier_sound_dods_rocket.description"] = "Changes the firing sound of the weapon to the Bazooka and Panzershreck from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_spring.printname"] = "Springfield"
+L["unlameifier_sound_dods_spring.compactname"] = "Springfield"
+L["unlameifier_sound_dods_spring.description"] = "Changes the firing sound of the weapon to the Springfield from Day of Defeat: Source."
+
+L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
+L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
+L["unlameifier_sound_dods_thompson.description"] = "Changes the firing sound of the weapon to the Thompson from Day of Defeat: Source."

@@ -843,7 +843,6 @@ L["unlameifier_sound_melee_bonk_impact.description"] = "Ändrar träffljuder på
 
 L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Johnny Test Whipcrack"
 L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
-L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now you can sound just like your favorite cartoon, Johnny Test."
 L["unlameifier_sound_melee_whipcrack_impact.description"] = "Nu *piskslag* kan *piskslag* du *piskslag* låta *piskslag* precis *piskslag* som *piskslag* din *piskslag* favorit *piskslag* tecknade *piskslag* figur, *piskslag* Johnny *piskslag* Test *piskslag* *piskslag* *piskslag*."
 
 -- Melee Sounds JJBA (Swing)
@@ -869,3 +868,74 @@ L["unlameifier_folder_sounds_melee_jojo"] = "Ljudmodd/Impact/JJBA"
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Ändrar träffljudet med närstridsvapen med Stand Punch-ljudeffekten från JoJo's Bizarre Adventure."
+
+-- Day of Defeat: Source
+L["unlameifier_folder_sounds_dods"] = "Sound Mods/DoD:S"
+
+L["unlameifier_sound_dods_30cal.printname"] = ".30-kaliber"
+L["unlameifier_sound_dods_30cal.compactname"] = ".30-kaliber"
+L["unlameifier_sound_dods_30cal.description"] = "Ändrar vapnets skottljud till .30-kalibern från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_bar.printname"] = "BAR"
+L["unlameifier_sound_dods_bar.compactname"] = "BAR"
+L["unlameifier_sound_dods_bar.description"] = "Ändrar vapnets skottljud till BAR från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_c96.printname"] = "C96"
+L["unlameifier_sound_dods_c96.compactname"] = "C96"
+L["unlameifier_sound_dods_c96.description"] = "Ändrar vapnets skottljud till C96 från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_colt.printname"] = "Colt"
+L["unlameifier_sound_dods_colt.compactname"] = "Colt"
+L["unlameifier_sound_dods_colt.description"] = "Ändrar vapnets skottljud till Colten från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_garand.printname"] = "Garand"
+L["unlameifier_sound_dods_garand.compactname"] = "Garand"
+L["unlameifier_sound_dods_garand.description"] = "Ändrar vapnets skottljud till Garand-geväret från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_grenade.printname"] = "Gevärsgranat"
+L["unlameifier_sound_dods_grenade.compactname"] = "Gevärsgranat"
+L["unlameifier_sound_dods_grenade.description"] = "Ändrar vapnets skottljud till Garandens och K98k:s Gevärsgranat från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_k98.printname"] = "K98k"
+L["unlameifier_sound_dods_k98.compactname"] = "K98k"
+L["unlameifier_sound_dods_k98.description"] = "Ändrar vapnets skottljud till K98k från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_k98scoped.printname"] = "K98 Sniper Rifle"
+L["unlameifier_sound_dods_k98scoped.compactname"] = "K98 S."
+L["unlameifier_sound_dods_k98scoped.description"] = "Ändrar vapnets skottljud till K98-krypskyttegeväret från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_m1carbine.printname"] = "M1-automatkarbin"
+L["unlameifier_sound_dods_m1carbine.compactname"] = "M1-automatkarbin"
+L["unlameifier_sound_dods_m1carbine.description"] = "Ändrar vapnets skottljud till M1-automatkarbinen från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mg42.printname"] = "MG42"
+L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
+L["unlameifier_sound_dods_mg42.description"] = "Ändrar vapnets skottljud till MG42 från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mortar.printname"] = "Mortar"
+L["unlameifier_sound_dods_mortar.compactname"] = "Mortar"
+L["unlameifier_sound_dods_mortar.description"] = "Ändrar vapnets skottljud till Mortar från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mp40.printname"] = "MP40"
+L["unlameifier_sound_dods_mp40.compactname"] = "MP40"
+L["unlameifier_sound_dods_mp40.description"] = "Ändrar vapnets skottljud till MP40 från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_mp44.printname"] = "MP44"
+L["unlameifier_sound_dods_mp44.compactname"] = "MP44"
+L["unlameifier_sound_dods_mp44.description"] = "Ändrar vapnets skottljud till MP44 från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_p38.printname"] = "P38"
+L["unlameifier_sound_dods_p38.compactname"] = "P38"
+L["unlameifier_sound_dods_p38.description"] = "Ändrar vapnets skottljud till P38 från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_rocket.printname"] = "Bazooka"
+L["unlameifier_sound_dods_rocket.compactname"] = "Bazooka"
+L["unlameifier_sound_dods_rocket.description"] = "Ändrar vapnets skottljud till Bazooka och Panzershreck från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_spring.printname"] = "Springfield"
+L["unlameifier_sound_dods_spring.compactname"] = "Springfield"
+L["unlameifier_sound_dods_spring.description"] = "Ändrar vapnets skottljud till Springfield från Day of Defeat: Source."
+
+L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
+L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
+L["unlameifier_sound_dods_thompson.description"] = "Ändrar vapnets skottljud till Thompson från Day of Defeat: Source."

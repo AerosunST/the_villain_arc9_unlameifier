@@ -290,7 +290,7 @@ L["eft_unlameifier_g17_usp_rear_sights.description"] = "Tillåter installation a
 
 L["eft_unlameifier_g17_usp_rear_sights_elite_expert.printname"] = "Glock 17 Baksikten (Elite & Expert Munstycken)"
 L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "G17 Baksikte (E&E)"
-L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Tillåter installation av baksikten från Glock 17 på USP:ns Elite- och Expert-munstycken (ej universalt tack vare positionsproblem).""
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Tillåter installation av baksikten från Glock 17 på USP:ns Elite- och Expert-munstycken (ej universalt tack vare positionsproblem)."
 
 L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Tillåter installation av framkorn från Glock 17 på M9A3."
 

@@ -348,23 +348,23 @@ L["unlameifier_folder_sounds_doom"] = "Sound Mods/DOOM"
 
 L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
 L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
-L["unlameifier_sound_doom_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
+L["unlameifier_sound_doom_pistol.description"] = "Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
 
 L["unlameifier_sound_doom_shotgun.printname"] = "Shotgun"
 L["unlameifier_sound_doom_shotgun.compactname"] = "Shotgun"
-L["unlameifier_sound_doom_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
+L["unlameifier_sound_doom_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
 
 L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
 L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
-L["unlameifier_sound_doom_BFG.description"] = [[Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
+L["unlameifier_sound_doom_BFG.description"] = "Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
 
 L["unlameifier_sound_doom_plasma.printname"] = "Plasma Rifle"
 L["unlameifier_sound_doom_plasma.compactname"] = "Plasma R."
-L["unlameifier_sound_doom_plasma.description"] = [[Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
+L["unlameifier_sound_doom_plasma.description"] = "Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
 
 L["unlameifier_sound_doom_rocket.printname"] = "Rocket Launcher"
 L["unlameifier_sound_doom_rocket.compactname"] = "Rocket"
-L["unlameifier_sound_doom_rocket.description"] = [[Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
+L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
 
 -- Half-Life 2
 L["unlameifier_folder_sounds_hl2"] = "Sound Mods/HL2"

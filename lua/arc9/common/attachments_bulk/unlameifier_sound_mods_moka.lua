@@ -1470,21 +1470,8 @@ ATT.Attachments = {
         PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot"},
+        Category = {"eft_custom_slot_melee"},
     },
-}
-
-ATT.MeleeSwingSound = { 
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing_crit.wav",
 }
 
 ATT.MeleeHitWallSound = { 
@@ -1594,3 +1581,46 @@ ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "airstrike_fire_01.wav",
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_airstrike")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Shovel Swing"
+ATT.CompactName = "Shovel"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Swing/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeSwingSound = { 
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing.wav",
+gsp .. "shovel_swing_crit.wav",
+}
+
+ATT.InstallSound = gsp .. "shovel_swing.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_shovel_swing")
+
+-------------------

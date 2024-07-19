@@ -522,7 +522,7 @@ L["unlameifier_sound_css_usp.description"] = [[Changes the firing sound of the w
 <color=150,150,255>Fun Fact</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
 
 L["unlameifier_sound_css_p228.printname"] = "228 Compact"
-L["unlameifier_sound_css_p228.compactname"] = "228"
+L["unlameifier_sound_css_p228.compactname"] = "P228"
 L["unlameifier_sound_css_p228.description"] = [[Changes the firing sound of the weapon to the 228 Compact from Counter-Strike: Source.
 
 When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.

@@ -490,7 +490,7 @@ As of this time of writing, I have not played Opposing Force/Blue Shift so if I 
 
 L["unlameifier_sound_hl1_shotgun.printname"] = "Shotgun"
 L["unlameifier_sound_hl1_shotgun.compactname"] = "Shotgun"
-L["unlameifier_sound_hl1_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
+L["unlameifier_sound_hl1_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
 
 L["unlameifier_sound_hl1_sniper.printname"] = "Sniper Rifle"
 L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
@@ -1094,7 +1094,6 @@ L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
 L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."
 
 -- Team Fortress 2
-
 L["unlameifier_folder_sounds_tf2"] = "Sound Mods/TF2"
 L["unlameifier_tf2_scout"] = "/Scout"
 L["unlameifier_tf2_soldier"] = "/Soldier"
@@ -1106,25 +1105,140 @@ L["unlameifier_tf2_medic"] = "/Medic"
 L["unlameifier_tf2_sniper"] = "/Sniper"
 L["unlameifier_tf2_spy"] = "/Spy"
 
-L["unlameifier_tf2_melee"] = "/Melee"
+local tf2desc = {
+	shoot = "Replaces the firing sounds with ones from the \"%s\" from Team Fortress 2.",
+	hit = "Replaces the melee hit sounds with ones from the \"%s\" from Team Fortress 2.",
+	swing = "Replaces the melee swing sounds with ones from the \"%s\" from Team Fortress 2.",
+	crit = "\n<color=153,204,255>~10% chance to play a crit sound</color>",
+	crit30 = "\n<color=153,204,255>~30% chance to play a crit sound</color>",
+}
+
+-- Team Fortress 2 Firing Sounds
+L["unlameifier_sound_tf2_air_burster.printname"] = "Quickiebomb Launcher"
+L["unlameifier_sound_tf2_air_burster.compactname"] = "Quickiebomb"
+L["unlameifier_sound_tf2_air_burster.description"] = string.format(tf2desc.shoot, "Quickiebomb Launcher") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_airstrike.printname"] = "Air Strike"
+L["unlameifier_sound_tf2_airstrike.compactname"] = "Air Strike"
+L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "Air Strike") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_ambassador.printname"] = "Ambassador"
+L["unlameifier_sound_tf2_ambassador.compactname"] = "Ambassador"
+L["unlameifier_sound_tf2_ambassador.description"] = string.format(tf2desc.shoot, "Ambassador") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_bison.printname"] = "Righteous Bison"
+L["unlameifier_sound_tf2_bison.compactname"] = "Bison"
+L["unlameifier_sound_tf2_bison.description"] = string.format(tf2desc.shoot, "Righteous Bison") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_bow.printname"] = "Bows"
+L["unlameifier_sound_tf2_bow.compactname"] = "Bow"
+L["unlameifier_sound_tf2_bow.description"] = "Replaces the firing sounds with ones from various Bows from Team Fortress 2." .. tf2desc.crit
+
+L["unlameifier_sound_tf2_capper.printname"] = "C.A.P.P.E.R"
+L["unlameifier_sound_tf2_capper.compactname"] = "C.A.P.P.E.R"
+L["unlameifier_sound_tf2_capper.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.R") .. tf2desc.crit .. [[
+
+Turn your enemies in to ash!]]
+
+L["unlameifier_sound_tf2_cow_mangler.printname"] = "Cow Mangler 5000"
+L["unlameifier_sound_tf2_cow_mangler.compactname"] = "C.M. 5000"
+L["unlameifier_sound_tf2_cow_mangler.description"] = string.format(tf2desc.shoot, "Cow Mangler 5000")
+
+L["unlameifier_sound_tf2_crusaders_crossbow.printname"] = "Crusader's Crossbow"
+L["unlameifier_sound_tf2_crusaders_crossbow.compactname"] = "Crusader's"
+L["unlameifier_sound_tf2_crusaders_crossbow.description"] = string.format(tf2desc.shoot, "Crusader's Crossbow") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_csgo_awp.printname"] = "AWPer Hand"
+L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPer Hand"
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_diamond_back.printname"] = "Diamondback"
+L["unlameifier_sound_tf2_diamond_back.compactname"] = "Diamondback"
+L["unlameifier_sound_tf2_diamond_back.description"] = string.format(tf2desc.shoot, "Diamondback") .. tf2desc.crit30
+
+L["unlameifier_sound_tf2_doom_flare_gun.printname"] = "Scorch Shot"
+L["unlameifier_sound_tf2_doom_flare_gun.compactname"] = "Scorch Shot"
+L["unlameifier_sound_tf2_doom_flare_gun.description"] = string.format(tf2desc.shoot, "Scorch Shot") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_doom_rocket_launcher.printname"] = "Beggar's Bazooka"
+L["unlameifier_sound_tf2_doom_rocket_launcher.compactname"] = "Beggar's"
+L["unlameifier_sound_tf2_doom_rocket_launcher.description"] = string.format(tf2desc.shoot, "Beggar's Bazooka") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pretty Boy's Pocket Pistol"
+L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Pretty Boy's"
+L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_doom_scout_shotgun.printname"] = "Baby Face's Blaster"
+L["unlameifier_sound_tf2_doom_scout_shotgun.compactname"] = "Baby Face"
+L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2desc.shoot, "Baby Face's Blaster") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_doom_sniper_rifle.printname"] = "Hitman's Heatmaker"
+L["unlameifier_sound_tf2_doom_sniper_rifle.compactname"] = "Hitman's"
+L["unlameifier_sound_tf2_doom_sniper_rifle.description"] = string.format(tf2desc.shoot, "Hitman's Heatmaker") .. tf2desc.crit .. [[
+
+
+Heads will roll.]]
+
+L["unlameifier_sound_tf2_doom_sniper_smg.printname"] = "Cleaner's Carbine"
+L["unlameifier_sound_tf2_doom_sniper_smg.compactname"] = "Cleaner's"
+L["unlameifier_sound_tf2_doom_sniper_smg.description"] = string.format(tf2desc.shoot, "Cleaner's Carbine") .. tf2desc.crit
+
+L["unlameifier_sound_tf2_dragon_gun_motor.printname"] = "Huo-Long Heater"
+L["unlameifier_sound_tf2_dragon_gun_motor.compactname"] = "Huo-Long"
+L["unlameifier_sound_tf2_dragon_gun_motor.description"] = string.format(tf2desc.shoot, "Huo-Long Heater") .. tf2desc.crit
+
+-- Team Fortress 2 Melee Sounds
+L["unlameifier_folder_sounds_tf2_swing"] = "Sound Mods/Swing/TF2"
+L["unlameifier_folder_sounds_tf2_impact"] = "Sound Mods/Impact/TF2"
 
 L["unlameifier_sound_tf2_3rd_degree.printname"] = "Third Degree"
 L["unlameifier_sound_tf2_3rd_degree.compactname"] = "Third Degree"
-L["unlameifier_sound_tf2_3rd_degree.description"] = [[Replaces the melee hit sounds with ones from the "Third Degree" from Team Fortress 2.
+L["unlameifier_sound_tf2_3rd_degree.description"] = string.format(tf2desc.hit, "Third Degree") .. [[
 
 "Being a boon to tree-fellers, backwoodsmen and atom-splitters the world over, this miraculous matter-hewing device burns each individual molecule as it cleaves it."]]
 
-L["unlameifier_sound_tf2_air_burster.printname"] = "The Quickiebomb Launcher"
-L["unlameifier_sound_tf2_air_burster.compactname"] = "Quickiebomb"
-L["unlameifier_sound_tf2_air_burster.description"] = [[Replaces the firing sounds with the "The Quickiebomb Launcher" from Team Fortress 2.
-<color=153,204,255>~10% chance to play a crit sound</color>]]
+L["unlameifier_sound_tf2_axe_hit.printname"] = "Fire Axe"
+L["unlameifier_sound_tf2_axe_hit.compactname"] = "Fire Axe"
+L["unlameifier_sound_tf2_axe_hit.description"] = string.format(tf2desc.hit, "Fire Axe")
 
-L["unlameifier_sound_tf2_airstrike.printname"] = "The Air Strike"
-L["unlameifier_sound_tf2_airstrike.compactname"] = "Air Strike"
-L["unlameifier_sound_tf2_airstrike.description"] = [[Replaces the firing sounds with the "The Air Strike" from Team Fortress 2.
-<color=153,204,255>~10% chance to play a crit sound</color>]]
+L["unlameifier_sound_tf2_ball_buster_hit.printname"] = "Wrap Assassin"
+L["unlameifier_sound_tf2_ball_buster_hit.compactname"] = "Wrap A."
+L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin")
+
+L["unlameifier_sound_tf2_bat_hit.printname"] = "Bat"
+L["unlameifier_sound_tf2_bat_hit.compactname"] = "Bat"
+L["unlameifier_sound_tf2_bat_hit.description"] = string.format(tf2desc.hit, "Bat")
+
+L["unlameifier_sound_tf2_batsaber_hit.printname"] = "Batsaber"
+L["unlameifier_sound_tf2_batsaber_hit.compactname"] = "Batsaber"
+L["unlameifier_sound_tf2_batsaber_hit.description"] = string.format(tf2desc.hit, "Batsaber") .. [[
+
+"Energy Overwhelming!
+Disintegrate your enemies"]]
+
+L["unlameifier_sound_tf2_batsaber_swing.printname"] = "Batsaber"
+L["unlameifier_sound_tf2_batsaber_swing.compactname"] = "Batsaber"
+L["unlameifier_sound_tf2_batsaber_swing.description"] = string.format(tf2desc.swing, "Batsaber") .. tf2desc.crit30 .. [[
+
+"Energy Overwhelming!
+Disintegrate your enemies"]]
+
+L["unlameifier_sound_tf2_blade_hit.printname"] = "Knife"
+L["unlameifier_sound_tf2_blade_hit.compactname"] = "Knife"
+L["unlameifier_sound_tf2_blade_hit.description"] = string.format(tf2desc.hit, "Knife")
+
+L["unlameifier_sound_tf2_blade_slice_hit.printname"] = "Sword / Axe"
+L["unlameifier_sound_tf2_blade_slice_hit.compactname"] = "Sword / Axe"
+L["unlameifier_sound_tf2_blade_slice_hit.description"] = "Replaces the melee hit sounds with ones from various Swords and Axes from Team Fortress 2."
+
+L["unlameifier_sound_tf2_bottle_broken_hit.printname"] = "Bottle (Broken)"
+L["unlameifier_sound_tf2_bottle_broken_hit.compactname"] = "Bottle (B)"
+L["unlameifier_sound_tf2_bottle_broken_hit.description"] = string.format(tf2desc.hit, "Bottle (Broken)")
+
+L["unlameifier_sound_tf2_bottle_intact_hit.printname"] = "Bottle"
+L["unlameifier_sound_tf2_bottle_intact_hit.compactname"] = "Bottle"
+L["unlameifier_sound_tf2_bottle_intact_hit.description"] = string.format(tf2desc.hit, "Bottle")
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Shovel"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Shovel"
-L["unlameifier_sound_tf2_shovel_swing.description"] = [[Replaces the melee swing with ones from various "Shovel"-style weapons from Team Fortress 2.
-<color=153,204,255>~10% chance to play a crit sound</color>]]
+L["unlameifier_sound_tf2_shovel_swing.description"] = "Replaces the melee swing sounds with ones from various Shovels from Team Fortress 2." .. tf2desc.crit

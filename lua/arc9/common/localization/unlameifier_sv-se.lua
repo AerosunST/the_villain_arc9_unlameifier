@@ -1230,3 +1230,201 @@ L["unlameifier_sound_tf2_bottle_intact_hit.description"] = string.format(tf2desc
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Spade"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Spade"
 L["unlameifier_sound_tf2_shovel_swing.description"] = "Ersätter svingljuden med närstridsvapen med dem från olika Spadar från Team Fortress 2." .. tf2desc.crit
+
+-- Fallout 4 & 76
+L["unlameifier_folder_sounds_fo4"] = "Ljudmodd/Fallout 4"
+L["unlameifier_folder_sounds_fo76"] = "Ljudmodd/Fallout 76"
+
+local fo76nosupp = "\n\n<color=255,150,150>Notera</color>: Har ej ljuddämpade ljud."
+
+L["unlameifier_sound_fo76_pistol_black_powder.printname"] = "Svartkrutspistol"
+L["unlameifier_sound_fo76_pistol_black_powder.compactname"] = "Svartkrutspistol"
+L["unlameifier_sound_fo76_pistol_black_powder.description"] = "Ersätter skottljuden med dem från \"Svartkrutspistol\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.printname"] = "\"The Dragon\""
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.compactname"] = "Dragon"
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.description"] = "Ersätter skottljuden med dem från \"The Dragon\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_black_powder.printname"] = "Svartkrutsgevär"
+L["unlameifier_sound_fo76_rifle_black_powder.compactname"] = "Svartkrutsgevär"
+L["unlameifier_sound_fo76_rifle_black_powder.description"] = "Ersätter skottljuden med dem från \"Black Powder Rifle\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_bow_cross.printname"] = "Armborst"
+L["unlameifier_sound_fo76_bow_cross.compactname"] = "Armborst"
+L["unlameifier_sound_fo76_bow_cross.description"] = "Ersätter skottljuden med dem från \"Armborsten\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_bow_standard.printname"] = "Båge"
+L["unlameifier_sound_fo76_bow_standard.compactname"] = "Båge"
+L["unlameifier_sound_fo76_bow_standard.description"] = "Ersätter skottljuden med dem från \"Bågen\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_broadsider.printname"] = "\"Broadsider\""
+L["unlameifier_sound_fo76_broadsider.compactname"] = "Broadsider"
+L["unlameifier_sound_fo76_broadsider.description"] = "Ersätter skottljuden med dem från \"Broadsidern\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_fatman.printname"] = "\"Fat Man\""
+L["unlameifier_sound_fo76_fatman.compactname"] = "Fat Man"
+L["unlameifier_sound_fo76_fatman.description"] = "Ersätter skottljuden med dem från \"Fat Man\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_gatling.printname"] = "Gatlingkulspruta"
+L["unlameifier_sound_fo76_gatling.compactname"] = "Gatling"
+L["unlameifier_sound_fo76_gatling.description"] = "Ersätter skottljuden med dem från \"Gatlingkulsprutan\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_revolverpipe.printname"] = "Rörrevolver"
+L["unlameifier_sound_fo76_revolverpipe.compactname"] = "Rörrevolver"
+L["unlameifier_sound_fo76_revolverpipe.description"] = "Ersätter skottljuden med dem från \"Rörrevolvern\" från Fallout 4 och 76."
+
+L["unlameifier_sound_fo76_riflepipe.printname"] = "Rörgevär"
+L["unlameifier_sound_fo76_riflepipe.compactname"] = "Rörgevär"
+L["unlameifier_sound_fo76_riflepipe.description"] = "Ersätter skottljuden med dem från \"Rörgeväret\" från Fallout 4 och 76."
+
+L["unlameifier_sound_fo76_junkjet.printname"] = "\"Junk Jet\""
+L["unlameifier_sound_fo76_junkjet.compactname"] = "Junk Jet"
+L["unlameifier_sound_fo76_junkjet.description"] = "Ersätter skottljuden med dem från \"Junk Jet\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_grenadeautomatic.printname"] = "Automat Granatkastare"
+L["unlameifier_sound_fo76_grenadeautomatic.compactname"] = "Auto GK"
+L["unlameifier_sound_fo76_grenadeautomatic.description"] = "Ersätter skottljuden med dem från \"Automat Granatkastaren\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_grenadebreak.printname"] = "M79 Granatkastare"
+L["unlameifier_sound_fo76_grenadebreak.compactname"] = "M79"
+L["unlameifier_sound_fo76_grenadebreak.description"] = "Ersätter skottljuden med dem från \"M79 Granatkastaren\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_missile.printname"] = "Missilgevär"
+L["unlameifier_sound_fo76_missile.compactname"] = "Missil"
+L["unlameifier_sound_fo76_missile.description"] = "Ersätter skottljuden med dem från \"Missilgeväret\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_10mm.printname"] = "10 mm Pistol"
+L["unlameifier_sound_fo76_pistol_10mm.compactname"] = "10 mm"
+L["unlameifier_sound_fo76_pistol_10mm.description"] = "Ersätter skottljuden med dem från \"10 mm Pistolen\" från Fallout 76."
+
+L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Alien-Pistol"
+L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"
+L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Ersätter skottljuden med dem från \"Alien-Pistolen\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "\"Rör-Syringer\""
+L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "\"Rör-Syr.\""
+L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Ersätter skottljuden med dem från possible unused \"Rör-Syringern\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_laser.printname"] = "Laserpistol"
+L["unlameifier_sound_fo76_pistol_laser.compactname"] = "Laser"
+L["unlameifier_sound_fo76_pistol_laser.description"] = "Ersätter skottljuden med dem från \"Laserpistolen\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_10mm_covert.printname"] = "10 mm Pistol \"Levereraren\""
+L["unlameifier_sound_fo76_pistol_10mm_covert.compactname"] = "Levereraren"
+L["unlameifier_sound_fo76_pistol_10mm_covert.description"] = "Ersätter skottljuden med dem från \"Levereraren\" från Fallout 4."
+
+L["unlameifier_sound_fo76_pistol_flaregun.printname"] = "Signalpistol"
+L["unlameifier_sound_fo76_pistol_flaregun.compactname"] = "Signal"
+L["unlameifier_sound_fo76_pistol_flaregun.description"] = "Ersätter skottljuden med dem från \"Signalpistolen\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_fortyfour.printname"] = ".44 Pistol"
+L["unlameifier_sound_fo76_pistol_fortyfour.compactname"] = ".44 Pistol"
+L["unlameifier_sound_fo76_pistol_fortyfour.description"] = "Ersätter skottljuden med dem från \".44 Pistolen\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_gammagun.printname"] = "Gamma-Vapen"
+L["unlameifier_sound_fo76_pistol_gammagun.compactname"] = "Gamma"
+L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Ersätter skottljuden med dem från \"Gamma-Vapnet\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_pistol_revolver.printname"] = "\"Single-Action\"-Revolver"
+L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "SA-Revolver"
+L["unlameifier_sound_fo76_pistol_revolver.description"] = "Ersätter skottljuden med dem från \"Single Action-Revolvern\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Kommunistgevär\""
+L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Kommunist\""
+L["unlameifier_sound_fo76_rifle_chinese.description"] = "Ersätter skottljuden med dem från oanvändna \"Kommunistgeväret\" från Fallout 76."
+
+L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Stridsgevär"
+L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Strids"
+L["unlameifier_sound_fo76_rifle_combatrifle.description"] = "Ersätter skottljuden med dem från \"Stridsgeväret\" från Fallout 4 och 76."
+
+L["unlameifier_sound_fo76_rifle_hank.printname"] = "Okänd \"Hank\""
+L["unlameifier_sound_fo76_rifle_hank.compactname"] = "Okänd \"Hank\""
+L["unlameifier_sound_fo76_rifle_hank.description"] = "Ersätter skottljuden med dem från ett oidentifierat vapen från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_huntinga.printname"] = "Jaktgevär"
+L["unlameifier_sound_fo76_rifle_huntinga.compactname"] = "Jaktgevär"
+L["unlameifier_sound_fo76_rifle_huntinga.description"] = "Ersätter skottljuden med dem från \"Jaktgeväret\" från Fallout 4 och 76."
+
+L["unlameifier_sound_fo76_rifle_huntingb.printname"] = "Jaktgevär II"
+L["unlameifier_sound_fo76_rifle_huntingb.compactname"] = "Jaktgevär II"
+L["unlameifier_sound_fo76_rifle_huntingb.description"] = "Ersätter skottljuden med dem från alternativa \"Jaktgeväret\" från Fallout 4 och 76."
+
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.printname"] = "Jaktgevär (Kaliber 50 Låda)"
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.compactname"] = "Jaktgevär .50"
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.description"] = "Ersätter skottljuden med dem från \"Jaktgeväret\" från Fallout 4 och 76 utrustat med modden \".50 Receiver\"."
+
+L["unlameifier_sound_fo76_rifle_laser.printname"] = "Lasergevär"
+L["unlameifier_sound_fo76_rifle_laser.compactname"] = "Lasergevär"
+L["unlameifier_sound_fo76_rifle_laser.description"] = "Ersätter skottljuden med dem från \"Lasergeväret\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_musket.printname"] = "Laser-Musköt I"
+L["unlameifier_sound_fo76_rifle_musket.compactname"] = "Musköt I"
+L["unlameifier_sound_fo76_rifle_musket.description"] = "Ersätter skottljuden med dem från \"Laser-Musköten\" med 1 laddning från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_musket2.printname"] = "Laser-Musköt II"
+L["unlameifier_sound_fo76_rifle_musket2.compactname"] = "Musköt II"
+L["unlameifier_sound_fo76_rifle_musket2.description"] = "Ersätter skottljuden med dem från \"Laser-Musköten\" med 2 laddningar från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_musket3.printname"] = "Laser-Musköt III"
+L["unlameifier_sound_fo76_rifle_musket3.compactname"] = "Musköt III"
+L["unlameifier_sound_fo76_rifle_musket3.description"] = "Ersätter skottljuden med dem från \"Laser-Musköten\" med 3 laddningar från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_musket4.printname"] = "Laser-Musköt IV"
+L["unlameifier_sound_fo76_rifle_musket4.compactname"] = "Musköt IV"
+L["unlameifier_sound_fo76_rifle_musket4.description"] = "Ersätter skottljuden med dem från \"Laser-Musköten\" med 4 laddningar från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_machinegunlight.printname"] = "Lätt Kulspruta"
+L["unlameifier_sound_fo76_rifle_machinegunlight.compactname"] = "LK"
+L["unlameifier_sound_fo76_rifle_machinegunlight.description"] = "Ersätter skottljuden med dem från \"Lätta Kulsprutan\" från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_railway.printname"] = "Järnvägsgevär"
+L["unlameifier_sound_fo76_rifle_railway.compactname"] = "Järnväg"
+L["unlameifier_sound_fo76_rifle_railway.description"] = "Ersätter skottljuden med dem från \"Järnvägsgeväret\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_redding.printname"] = "Okänd \"Redding\""
+L["unlameifier_sound_fo76_rifle_redding.compactname"] = "Okänd \"Redding\""
+L["unlameifier_sound_fo76_rifle_redding.description"] = "Ersätter skottljuden med dem från ett oidentifierat vapen från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_snipera.printname"] = "Okänd \"SniperA\""
+L["unlameifier_sound_fo76_rifle_snipera.compactname"] = "Okänd \"SniperA\""
+L["unlameifier_sound_fo76_rifle_snipera.description"] = "Ersätter skottljuden med dem från ett oidentifierat vapen från Fallout 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_gauss.printname"] = "Gauss-Gevär"
+L["unlameifier_sound_fo76_rifle_gauss.compactname"] = "Gauss"
+L["unlameifier_sound_fo76_rifle_gauss.description"] = "Ersätter skottljuden med dem från \"Gauss-Geväret\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_assault.printname"] = "Automatkarbin"
+L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Automat"
+L["unlameifier_sound_fo76_rifle_assault.description"] = "Ersätter skottljuden med dem från \"Automatkarbinen\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Plasmavapen"
+L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
+L["unlameifier_sound_fo76_rifle_plasma.description"] = "Ersätter skottljuden med dem från \"Plasmavapnet\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.printname"] = "Plasmavapen (Splitter)"
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.compactname"] = "Plasma (Split.)"
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Ersätter skottljuden med dem från \"Plasma Gun\" utrustad med en \"Splitter\"-modd från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_plasma_sniper.printname"] = "Plasmavapen (Krypskytt)"
+L["unlameifier_sound_fo76_rifle_plasma_sniper.compactname"] = "Plasma (KS)"
+L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Ersätter skottljuden med dem från \"Plasma Gun\" utrustad med en \"Sniper\"-modd från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_10mm.printname"] = "10 mm Kulsprutepistol"
+L["unlameifier_sound_fo76_rifle_10mm.compactname"] = "10 mm KPist."
+L["unlameifier_sound_fo76_rifle_10mm.description"] = "Ersätter skottljuden med dem från \"10 mm Kulsprutepistolen\" från Fallout 76."
+
+L["unlameifier_sound_fo76_shotgun_doublebarrel.printname"] = "Dubbelpipig Hagelgevär"
+L["unlameifier_sound_fo76_shotgun_doublebarrel.compactname"] = "DP HG"
+L["unlameifier_sound_fo76_shotgun_doublebarrel.description"] = "Ersätter skottljuden med dem från \"Dubbelpipiga Hagelgeväret\" från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_shotgun_pump.printname"] = "Pumprepeter Hagelgevär"
+L["unlameifier_sound_fo76_shotgun_pump.compactname"] = "PR HG"
+L["unlameifier_sound_fo76_shotgun_pump.description"] = "Ersätter skottljuden med dem från \"Pumprepeter Hagelgeväret\" från Fallout 76."
+
+L["unlameifier_sound_fo76_shotgun_combat.printname"] = "Stridshagelgevär"
+L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Stridshagel"
+L["unlameifier_sound_fo76_shotgun_combat.description"] = "Ersätter skottljuden med dem från \"Stridshagelgeväret\" från Fallout 4 och 76."
+
+L["unlameifier_sound_fo76_shotgun_combat.printname"] = "\"Syringer\""
+L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Syringer"
+L["unlameifier_sound_fo76_shotgun_combat.description"] = "Ersätter skottljuden med dem från \"Syringern\" från Fallout 4 och 76." .. fo76nosupp

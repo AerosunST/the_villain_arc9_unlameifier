@@ -964,6 +964,606 @@ ATT.Num = 8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_force8")
 
+///////////////////////////////////////     AMMO PER SHOT TUNING (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Ammo Per Shot"
+ATT.PrintName = "+1 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds one ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+2 Ammo Per Shot"
+ATT.PrintName = "+2 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds two ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus2")
+
+ATT = {}
+
+ATT.CompactName = "+3 Ammo Per Shot"
+ATT.PrintName = "+3 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds three ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus3")
+
+ATT = {}
+
+ATT.CompactName = "+4 Ammo Per Shot"
+ATT.PrintName = "+4 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds four ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus4")
+
+ATT = {}
+
+ATT.CompactName = "+5 Ammo Per Shot"
+ATT.PrintName = "+5 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds five ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+6 Ammo Per Shot"
+ATT.PrintName = "+6 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds six ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus6")
+
+ATT = {}
+
+ATT.CompactName = "+7 Ammo Per Shot"
+ATT.PrintName = "+7 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds seven ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = 7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_plus7")
+
+///////////////////////////////////////     AMMO PER SHOT TUNING (Subtract)
+
+ATT = {}
+
+ATT.CompactName = "-1 Ammo Per Shot"
+ATT.PrintName = "-1 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts one ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-2 Ammo Per Shot"
+ATT.PrintName = "-2 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts two ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus2")
+
+ATT = {}
+
+ATT.CompactName = "-3 Ammo Per Shot"
+ATT.PrintName = "-3 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts three ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus3")
+
+ATT = {}
+
+ATT.CompactName = "-4 Ammo Per Shot"
+ATT.PrintName = "-4 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts four ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus4")
+
+ATT = {}
+
+ATT.CompactName = "-5 Ammo Per Shot"
+ATT.PrintName = "-5 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts five ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-6 Ammo Per Shot"
+ATT.PrintName = "-6 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts six ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus6")
+
+ATT = {}
+
+ATT.CompactName = "-7 Ammo Per Shot"
+ATT.PrintName = "-7 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Subtracts seven ammo per shot to your shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShotAdd = -7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_minus7")
+
+///////////////////////////////////////     AMMO PER SHOT TUNING (Fixed Value)
+
+ATT = {}
+
+ATT.CompactName = "1 Ammo Per Shot"
+ATT.PrintName = "1 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 1 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force1")
+
+ATT = {}
+
+ATT.CompactName = "2 Ammo Per Shot"
+ATT.PrintName = "2 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 2 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force2")
+
+ATT = {}
+
+ATT.CompactName = "3 Ammo Per Shot"
+ATT.PrintName = "3 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 3 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force3")
+
+ATT = {}
+
+ATT.CompactName = "4 Ammo Per Shot"
+ATT.PrintName = "4 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 4 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force4")
+
+ATT = {}
+
+ATT.CompactName = "5 Ammo Per Shot"
+ATT.PrintName = "5 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 5 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force5")
+
+ATT = {}
+
+ATT.CompactName = "6 Ammo Per Shot"
+ATT.PrintName = "6 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 6 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force6")
+
+ATT = {}
+
+ATT.CompactName = "7 Ammo Per Shot"
+ATT.PrintName = "7 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 7 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force7")
+
+ATT = {}
+
+ATT.CompactName = "8 Ammo Per Shot"
+ATT.PrintName = "8 Ammo Per Shot"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forces your weapon to fire 8 ammo per shot.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ammo Per Shot/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.AmmoPerShot = 8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_per_shot_force8")
+
 local ATT = {}
 
 ///////////////////////////////////////     MAX DAMAGE TUNING (Multiply)
@@ -6696,6 +7296,33 @@ ARC9.LoadAttachment(ATT, "unlameifier_tuning_mag_capacity_force10")
 
 ATT = {}
 
+ATT.CompactName = "15 Mag Capacity"
+ATT.PrintName = "Mag Capacity 15"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mag capacity to 15]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Mag Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ClipSize = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mag_capacity_force15")
+
+ATT = {}
+
 ATT.CompactName = "17 Mag Capacity"
 ATT.PrintName = "Mag Capacity 17"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
@@ -6720,6 +7347,33 @@ ATT.Attachments = {
 ATT.ClipSize = 17
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_mag_capacity_force17")
+
+ATT = {}
+
+ATT.CompactName = "20 Mag Capacity"
+ATT.PrintName = "Mag Capacity 20"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets mag capacity to 20]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Mag Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ClipSize = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mag_capacity_force20")
 
 ATT = {}
 
@@ -6909,6 +7563,1204 @@ ATT.Attachments = {
 ATT.ClipSize = 1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_mag_capacity_force1000")
+
+///////////////////////////////////////     CHAMBER CAPACITY TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x10")
+
+///////////////////////////////////////     CHAMBER CAPACITY TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_x010")
+
+///////////////////////////////////////     CHAMBER CAPACITY TUNING (Add)
+
+ATT = {}
+
+ATT.CompactName = "+1 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+10 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus10")
+
+ATT = {}
+
+ATT.CompactName = "+25 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus25")
+
+ATT = {}
+
+ATT.CompactName = "+50 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus50")
+
+ATT = {}
+
+ATT.CompactName = "+75 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+100 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus100")
+
+ATT = {}
+
+ATT.CompactName = "+500 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus500")
+
+ATT = {}
+
+ATT.CompactName = "+1000 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity +1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases chamber capacity by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_plus1000")
+
+///////////////////////////////////////     CHAMBER CAPACITY TUNING (Subtract)
+
+ATT = {}
+
+ATT.CompactName = "-1 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-10 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus10")
+
+ATT = {}
+
+ATT.CompactName = "-25 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus25")
+
+ATT = {}
+
+ATT.CompactName = "-50 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus50")
+
+ATT = {}
+
+ATT.CompactName = "-75 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-100 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus100")
+
+ATT = {}
+
+ATT.CompactName = "-500 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus500")
+
+ATT = {}
+
+ATT.CompactName = "-1000 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity -1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases chamber capacity by 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSizeAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_minus1000")
+
+///////////////////////////////////////     CHAMBER CAPACITY TUNING (Fixed)
+
+ATT = {}
+
+ATT.CompactName = "0 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 0"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 0, effectively disabling chambering.]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force0")
+
+ATT = {}
+
+ATT.CompactName = "1 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 1]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force1")
+
+ATT = {}
+
+ATT.CompactName = "5 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 5]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force5")
+
+ATT = {}
+
+ATT.CompactName = "10 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 10]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force10")
+
+ATT = {}
+
+ATT.CompactName = "15 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 15"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 15]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force15")
+
+ATT = {}
+
+ATT.CompactName = "17 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 17"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 17]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force17")
+
+ATT = {}
+
+ATT.CompactName = "20 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 20"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 20]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force20")
+
+ATT = {}
+
+ATT.CompactName = "25 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 25]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force25")
+
+ATT = {}
+
+ATT.CompactName = "30 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 30"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 30]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force30")
+
+ATT = {}
+
+ATT.CompactName = "50 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 50]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force50")
+
+ATT = {}
+
+ATT.CompactName = "75 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 75]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force75")
+
+ATT = {}
+
+ATT.CompactName = "100 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 100"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 100]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force100")
+
+ATT = {}
+
+ATT.CompactName = "500 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 500"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 500]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force500")
+
+ATT = {}
+
+ATT.CompactName = "1000 Chamber Capacity"
+ATT.PrintName = "Chamber Capacity 1000"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets chamber capacity to 1000]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Chamber Capacity/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ChamberSize = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force1000")
 
 ///////////////////////////////////////     PENETRATION TUNING (Multiply)
 
@@ -8082,6 +9934,361 @@ ATT.Attachments = {
 ATT.SpreadMult = 0
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x0")
+
+///////////////////////////////////////     IMPACT FORCE TUNING (Multiply)
+
+ATT = {}
+
+ATT.CompactName = "x1.10 Impact Force"
+ATT.PrintName = "Impact Force x1.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 1.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex110")
+
+ATT = {}
+
+ATT.CompactName = "x1.25 Impact Force"
+ATT.PrintName = "Impact Force x1.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex125")
+
+ATT = {}
+
+ATT.CompactName = "x1.50 Impact Force"
+ATT.PrintName = "Impact Force x1.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 1.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex150")
+
+ATT = {}
+
+ATT.CompactName = "x1.75 Impact Force"
+ATT.PrintName = "Impact Force x1.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex175")
+
+ATT = {}
+
+ATT.CompactName = "x2 Impact Force"
+ATT.PrintName = "Impact Force x2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 100%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex2")
+
+ATT = {}
+
+ATT.CompactName = "x5 Impact Force"
+ATT.PrintName = "Impact Force x5"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 400%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex5")
+
+ATT = {}
+
+ATT.CompactName = "x10 Impact Force"
+ATT.PrintName = "Impact Force x10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Increases impact force by 900%]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Multiply"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex10")
+
+///////////////////////////////////////     IMPACT FORCE TUNING (Divide)
+
+ATT = {}
+
+ATT.CompactName = "x0.90 Impact Force"
+ATT.PrintName = "Impact Force x0.90"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases impact force by 10%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 0.90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex090")
+
+ATT = {}
+
+ATT.CompactName = "x0.75 Impact Force"
+ATT.PrintName = "Impact Force x0.75"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases impact force by 25%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex075")
+
+ATT = {}
+
+ATT.CompactName = "x0.50 Impact Force"
+ATT.PrintName = "Impact Force x0.50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases impact force by 50%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 0.50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex050")
+
+ATT = {}
+
+ATT.CompactName = "x0.25 Impact Force"
+ATT.PrintName = "Impact Force x0.25"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases impact force by 75%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex025")
+
+ATT = {}
+
+ATT.CompactName = "x0.10 Impact Force"
+ATT.PrintName = "Impact Force x0.10"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases impact force by 90%]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 0.10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex010")
+
+ATT = {}
+
+ATT.CompactName = "x0 Impact Force"
+ATT.PrintName = "Impact Force x0"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Decreases impact force by 100% (Removes Impact Force)]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Impact Force/Divide"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.ImpactForceMult = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex0")
 
 ///////////////////////////////////////     MAX RANGE TUNING (Multiply)
 
@@ -13131,6 +15338,618 @@ ATT.Attachments = {
 ATT.HeatDelayTime = 60
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force60")
+
+///////////////////////////////////////     TRIGGER DELAY TUNING (Utilities)
+
+ATT = {}
+
+ATT.CompactName = "Disable Trig Delay"
+ATT.PrintName = "Disable Trigger Delay"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly disable Trigger Delay entirely.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelay = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelay_disable")
+
+ATT = {}
+
+ATT.CompactName = "Enable Trig Delay"
+ATT.PrintName = "Enable Trigger Delay"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Forcibly enable Trigger Delay. Required for other Trigger Delay related attachments to work (assuming your weapon doesn't already have trigger delay).]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelay = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelay_enable")
+
+ATT = {}
+
+ATT.CompactName = "Enable Trig Delay Cancel"
+ATT.PrintName = "Enable Trigger Delay Cancel"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Allows the trigger pull to be cancelled before the trigger delay has finished.
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayCancellable = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelaycancellable_enable")
+
+ATT = {}
+
+ATT.CompactName = "Disable Trig Delay Cancel"
+ATT.PrintName = "Disable Trigger Delay Cancel"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Disallows the trigger pull to be cancelled before the trigger delay has finished.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayCancellable = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelaycancellable_disable")
+
+ATT = {}
+
+ATT.CompactName = "Enable Trig Release2Fire"
+ATT.PrintName = "Enable Trigger Delay Release to Fire"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so the trigger is required to be released to fire (after the defined delay has finished).
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayReleaseToFire = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelayrelease2fire_enable")
+
+ATT = {}
+
+ATT.CompactName = "Disable Trig Release2Fire"
+ATT.PrintName = "Disable Trigger Delay Release to Fire"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so the trigger will fire at the end of its trigger delay.
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayReleaseToFire = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelayrelease2fire_disable")
+
+ATT = {}
+
+ATT.CompactName = "Disable TriggerAnim"
+ATT.PrintName = "Disable Trigger Starts Firing Animation"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so the trigger won't start the weapon's firing animation.
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerStartFireAnim = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerstartfireanim_disable")
+
+ATT = {}
+
+ATT.CompactName = "Enable TriggerAnim"
+ATT.PrintName = "Enable Trigger Starts Firing Animation"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so the trigger will start the weapon's firing animation.
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerStartFireAnim = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerstartfireanim_enable")
+
+ATT = {}
+
+ATT.CompactName = "Enable TriggerRepeat"
+ATT.PrintName = "Enable Trigger Delay Repeat"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so the trigger will delay with each cycle of the weapon. Essentially, this only has an effect on full-auto or burst firemodes.
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayRepeat = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelayrepeat_enable")
+
+ATT = {}
+
+ATT.CompactName = "Disable TriggerRepeat"
+ATT.PrintName = "Disable Trigger Delay Repeat"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so the trigger will not delay any shots beyond the initial trigger pull. Essentially, this is only useful in full-auto or burst firemodes.
+
+<color=255,0,0>Needs Enable Trigger Delay to work.</color>]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Utility/System"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayRepeat = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_triggerdelayrepeat_disable")
+
+///////////////////////////////////////     TRIGGER DELAY TUNING (Fixed)
+
+ATT = {}
+
+ATT.CompactName = "0s Trigger Delay"
+ATT.PrintName = "Trigger Delay 0s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 0s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force0")
+
+ATT = {}
+
+ATT.CompactName = "0.1s Trigger Delay"
+ATT.PrintName = "Trigger Delay 0.1s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 0.1s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force01")
+
+ATT = {}
+
+ATT.CompactName = "0.2s Trigger Delay"
+ATT.PrintName = "Trigger Delay 0.2s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 0.2s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force02")
+
+ATT = {}
+
+ATT.CompactName = "0.3s Trigger Delay"
+ATT.PrintName = "Trigger Delay 0.3s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 0.3s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force03")
+
+ATT = {}
+
+ATT.CompactName = "0.4s Trigger Delay"
+ATT.PrintName = "Trigger Delay 0.4s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 0.4s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force04")
+
+ATT = {}
+
+ATT.CompactName = "0.5s Trigger Delay"
+ATT.PrintName = "Trigger Delay 0.5s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 0.5s]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force05")
+
+ATT = {}
+
+ATT.CompactName = "1s Trigger Delay"
+ATT.PrintName = "Trigger Delay 1s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 1s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force1")
+
+ATT = {}
+
+ATT.CompactName = "3s Trigger Delay"
+ATT.PrintName = "Trigger Delay 3s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 3s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force3")
+
+ATT = {}
+
+ATT.CompactName = "5s Trigger Delay"
+ATT.PrintName = "Trigger Delay 5s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 5s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force5")
+
+ATT = {}
+
+ATT.CompactName = "10s Trigger Delay"
+ATT.PrintName = "Trigger Delay 10s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 10s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force10")
+
+ATT = {}
+
+ATT.CompactName = "30s Trigger Delay"
+ATT.PrintName = "Trigger Delay 30s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 30s]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force30")
+
+ATT = {}
+
+ATT.CompactName = "60s Trigger Delay"
+ATT.PrintName = "Trigger Delay 60s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Sets trigger delay delay to 60s. Damn... That's pretty harsh, dude...]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Trigger Delay/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.TriggerDelayTime = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force60")
 
 ///////////////////////////////////////     (EFT) ERGONOMICS TUNING (Multiply)
 

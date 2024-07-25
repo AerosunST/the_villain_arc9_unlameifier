@@ -1963,6 +1963,128 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_tracer_ranging")
 
+///////////////////////////////////////      Tracer Utilities
+
+ATT = {}
+
+ATT.PrintName = "2x Tracer Size"
+ATT.CompactName = "2x Tracer Size"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your tracers 2x as big.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers/Modifiers"
+
+ATT.TracerSizeMult = 2
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_size_2x")
+
+ATT = {}
+
+ATT.PrintName = "5x Tracer Size"
+ATT.CompactName = "5x Tracer Size"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your tracers 5x as big.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers/Modifiers"
+
+ATT.TracerSizeMult = 5
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_size_5x")
+
+ATT = {}
+
+ATT.PrintName = "10x Tracer Size"
+ATT.CompactName = "10x Tracer Size"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your tracers 10x as big.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers/Modifiers"
+
+ATT.TracerSizeMult = 10
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_size_10x")
+
+ATT = {}
+
+ATT.PrintName = "50x Tracer Size"
+ATT.CompactName = "50x Tracer Size"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your tracers 50x as big.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers/Modifiers"
+
+ATT.TracerSizeMult = 50
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_size_50x")
+
+ATT = {}
+
+ATT.PrintName = "100x Tracer Size"
+ATT.CompactName = "100x Tracer Size"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your tracers 100x as big. Are you trying to shoot the sun at them?]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Tracers/Modifiers"
+
+ATT.TracerSizeMult = 100
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tracer_size_100x")
+
 ///////////////////////////////////////      Misc Toys
 
 ATT = {}

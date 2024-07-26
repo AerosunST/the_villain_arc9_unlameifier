@@ -1,0 +1,39 @@
+41CE5 Black Powder Pistol
+3E874 The Dragon
+41003342 Black Powder Rifle
+3E5F5 Crossbow
+56AAC Bow
+2000C Broadsider
+478C6 Fat Man
+478C9 Gatling Gun
+1E7AE Pipe Revolver
+0095E Pipe Gun
+27023 Junk Jet
+3E6E9 Auto Grenade Launcher
+3E6D1 M79 Grenade Launcher
+3E5DC Missile Launcher
+427CB Plan: 10mm Pistol
+33593 Alien Blaster
+610009BD Kill a Yao Guai with a Pipe Syringer
+478CB Laser Pistol
+13212 Flare Gun
+61016E8E Gilded Paint (.44 Pistol)
+2507D Gamma Gun
+3E6C5 Single Action Revolver
+13515 Combat Rifle
+1B901 Hunting Rifle
+1B901 + 39ECA .50 Receiver
+478CF Laser Rifle
+331F0 Laser Musket
+390050BE Light Machine Gun
+33A30 Railway Rifle
+256DF Gauss Rifle
+12DE9 Assault Rifle
+46624 Plan: Plasma Gun
+46624 + 39C84 Splitter
+46624 + 3A145 Plasma Gun Sniper Barrel
+3E685 10mm Submachine Gun
+283AE Double-Barreled Shotgun
+3E713 Pump Action Shotgun
+16B1E Combat Shotgun
+25C80 Syringer

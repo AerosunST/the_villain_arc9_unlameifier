@@ -1,9 +1,12 @@
-L = {} -- English by Moka & Neosun
+L = {}
 
 //////////////////////////////////////////////////////////////////////
 //////////////////////////////// Notes
 
 --[[
+THIS IS A TEMPLATE FILE WITH NO STRINGS COMMENTED OUT
+MIGHT BE SLIGHTLY UPDATED - LOOK AT ENGLISH FILE
+
 Includes localizations for every accessory and outright weird attachment part of Unlameifier.
 If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
 If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
@@ -447,7 +450,7 @@ L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the 
 
 Don't point at allies unless you really hate them.]]
 
-L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Rocket Propelled Grenade)"
+L["unlameifier_sound_hl2_rpg.printname"] = "RPG"
 L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
 L["unlameifier_sound_hl2_rpg.description"] = [[Changes the firing sound of the weapon to the RPG from Half-Life 2.
 
@@ -1327,9 +1330,9 @@ L["unlameifier_sound_fo76_revolverpipe.printname"] = "Pipe Revolver"
 L["unlameifier_sound_fo76_revolverpipe.compactname"] = "Pipe Rev."
 L["unlameifier_sound_fo76_revolverpipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Revolver\" from Fallout 4 and 76."
 
-L["unlameifier_sound_fo76_riflepipe.printname"] = "Pipe Gun"
-L["unlameifier_sound_fo76_riflepipe.compactname"] = "Pipe Gun"
-L["unlameifier_sound_fo76_riflepipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Gun\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_riflepipe.printname"] = "Pipe Rifle"
+L["unlameifier_sound_fo76_riflepipe.compactname"] = "Pipe Rifle"
+L["unlameifier_sound_fo76_riflepipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Rifle\" from Fallout 4 and 76."
 
 L["unlameifier_sound_fo76_junkjet.printname"] = "Junk Jet"
 L["unlameifier_sound_fo76_junkjet.compactname"] = "Junk Jet"
@@ -1355,8 +1358,8 @@ L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Alien Blaster"
 L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"
 L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Changes the firing sound of the weapon to the \"Alien Blaster\" from Fallout 4 and 76." .. fo76nosupp
 
-L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "Pipe Syringer"
-L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "Pipe Syr."
+L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "\"Pipe Syringer\""
+L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "\"Pipe Syr.\""
 L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Changes the firing sound of the weapon to the possible unused \"Pipe Syringer\" from Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_laser.printname"] = "Laser Pistol"
@@ -1407,7 +1410,7 @@ L["unlameifier_sound_fo76_rifle_huntinga_50cal.printname"] = "Hunting Rifle (.50
 L["unlameifier_sound_fo76_rifle_huntinga_50cal.compactname"] = "Hunting .50"
 L["unlameifier_sound_fo76_rifle_huntinga_50cal.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76 equipped with the \".50 Receiver\" mod."
 
-L["unlameifier_sound_fo76_rifle_laser.printname"] = "Laser Rifle" -- 478CF
+L["unlameifier_sound_fo76_rifle_laser.printname"] = "Laser Rifle"
 L["unlameifier_sound_fo76_rifle_laser.compactname"] = "Laser R."
 L["unlameifier_sound_fo76_rifle_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Rifle\" from Fallout 4 and 76." .. fo76nosupp
 

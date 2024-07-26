@@ -1,4 +1,4 @@
-L = {}
+L = {} -- Swedish by Moka
 
 //////////////////////////////////////////////////////////////////////
 //////////////////////////////// Notes
@@ -187,6 +187,49 @@ L["unlameifier_tracer_ranging.description"] = [[För att kvotera originala tillb
 
 Bärgat från "Standard Weapons", prototyp vapenpaket till ARC9.]]
 
+-- Tracer Size
+L["unlameifier_tracer_size_010x.printname"] = "Spårljusstorlek - 0.1x"
+L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
+L["unlameifier_tracer_size_010x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.1</color>."
+
+L["unlameifier_tracer_size_x05.printname"] = "Spårljusstorlek - 0.5x"
+L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
+L["unlameifier_tracer_size_x05.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.5</color>."
+
+L["unlameifier_tracer_size_x075.printname"] = "Spårljusstorlek - 0.75x"
+L["unlameifier_tracer_size_x075.compactname"] = "0.75x"
+L["unlameifier_tracer_size_x075.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.75</color>."
+
+L["unlameifier_tracer_size_x090.printname"] = "Spårljusstorlek - 0.9x"
+L["unlameifier_tracer_size_x090.compactname"] = "0.9x"
+L["unlameifier_tracer_size_x090.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.9</color>."
+
+L["unlameifier_tracer_size_2x.printname"] = "Spårljusstorlek - 2x"
+L["unlameifier_tracer_size_2x.compactname"] = "2x"
+L["unlameifier_tracer_size_2x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>2</color>."
+
+L["unlameifier_tracer_size_5x.printname"] = "Spårljusstorlek - 5x"
+L["unlameifier_tracer_size_5x.compactname"] = "5x"
+L["unlameifier_tracer_size_5x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>5</color>."
+
+L["unlameifier_tracer_size_10x.printname"] = "Spårljusstorlek - 10x"
+L["unlameifier_tracer_size_10x.compactname"] = "10x"
+L["unlameifier_tracer_size_10x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>10</color>."
+
+L["unlameifier_tracer_size_50x.printname"] = "Spårljusstorlek - 50x"
+L["unlameifier_tracer_size_50x.compactname"] = "50x"
+L["unlameifier_tracer_size_50x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>50</color>."
+
+L["unlameifier_tracer_size_100x.printname"] = "Spårljusstorlek - 100x"
+L["unlameifier_tracer_size_100x.compactname"] = "100x"
+L["unlameifier_tracer_size_100x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>100</color>."
+
+L["unlameifier_tracer_size_supernova.printname"] = "Spårljusstorlek - Supernova"
+L["unlameifier_tracer_size_supernova.compactname"] = "Supernova"
+L["unlameifier_tracer_size_supernova.description"] = [[Multiplicerar storleken på spårljusen med <color=175,175,255>-200</color>.
+
+Resultatet av ett galet matematiskt räknefel.]]
+
 -- Effects
 L["eft_unlameifier_toys_dissolve.printname"] = "Upplösande Effekt"
 L["eft_unlameifier_toys_dissolve.compactname"] = "Upplösande"
@@ -317,6 +360,7 @@ L["unlameifier_folder_toys"] = "Leksaker"
 L["unlameifier_folder_tracers"] = "Spårljus"
 
 L["unlameifier_folder_toys_impactdecals"] = "Leksaker/Träffdekaler"
+L["unlameifier_folder_tracers_modifiers"] = "Spårljus/Modifierare"
 
 L["unlameifier_attname_frontsight"] = "Främre Korn"
 L["unlameifier_attname_rearsight"] = "Bakre Sikte"
@@ -393,7 +437,7 @@ L["unlameifier_sound_hl2_ar22.description"] = [[Ändrar vapnets skottljud till A
 
 Rikta inte mot allierade, om du inte hatar dem.]]
 
-L["unlameifier_sound_hl2_rpg.printname"] = "RPG"
+L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Raketdriven granat)"
 L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
 L["unlameifier_sound_hl2_rpg.description"] = [[Ändrar vapnets skottljud till RPG från Half-Life 2.
 
@@ -1273,9 +1317,9 @@ L["unlameifier_sound_fo76_revolverpipe.printname"] = "Rörrevolver"
 L["unlameifier_sound_fo76_revolverpipe.compactname"] = "Rörrevolver"
 L["unlameifier_sound_fo76_revolverpipe.description"] = "Ersätter skottljuden med dem från \"Rörrevolvern\" från Fallout 4 och 76."
 
-L["unlameifier_sound_fo76_riflepipe.printname"] = "Rörgevär"
-L["unlameifier_sound_fo76_riflepipe.compactname"] = "Rörgevär"
-L["unlameifier_sound_fo76_riflepipe.description"] = "Ersätter skottljuden med dem från \"Rörgeväret\" från Fallout 4 och 76."
+L["unlameifier_sound_fo76_riflepipe.printname"] = "Rörvapen"
+L["unlameifier_sound_fo76_riflepipe.compactname"] = "Rörvapen"
+L["unlameifier_sound_fo76_riflepipe.description"] = "Ersätter skottljuden med dem från \"Rörvapnet\" från Fallout 4 och 76."
 
 L["unlameifier_sound_fo76_junkjet.printname"] = "\"Junk Jet\""
 L["unlameifier_sound_fo76_junkjet.compactname"] = "Junk Jet"
@@ -1301,9 +1345,9 @@ L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Alien-Pistol"
 L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"
 L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Ersätter skottljuden med dem från \"Alien-Pistolen\" från Fallout 4 och 76." .. fo76nosupp
 
-L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "\"Rör-Syringer\""
-L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "\"Rör-Syr.\""
-L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Ersätter skottljuden med dem från possible unused \"Rör-Syringern\" från Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "Rörsprutare"
+L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "Rörsprut."
+L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Ersätter skottljuden med dem från den möjligtvis oanvändna \"Rörsprutaren\" från Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_laser.printname"] = "Laserpistol"
 L["unlameifier_sound_fo76_pistol_laser.compactname"] = "Laser"
@@ -1425,6 +1469,6 @@ L["unlameifier_sound_fo76_shotgun_combat.printname"] = "Stridshagelgevär"
 L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Stridshagel"
 L["unlameifier_sound_fo76_shotgun_combat.description"] = "Ersätter skottljuden med dem från \"Stridshagelgeväret\" från Fallout 4 och 76."
 
-L["unlameifier_sound_fo76_shotgun_combat.printname"] = "\"Syringer\""
-L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Syringer"
-L["unlameifier_sound_fo76_shotgun_combat.description"] = "Ersätter skottljuden med dem från \"Syringern\" från Fallout 4 och 76." .. fo76nosupp
+L["unlameifier_sound_fo76_syringer.printname"] = "Sprutaren"
+L["unlameifier_sound_fo76_syringer.compactname"] = "Sprutaren"
+L["unlameifier_sound_fo76_syringer.description"] = "Ersätter skottljuden med dem från \"Sprutaren\" från Fallout 4 och 76." .. fo76nosupp

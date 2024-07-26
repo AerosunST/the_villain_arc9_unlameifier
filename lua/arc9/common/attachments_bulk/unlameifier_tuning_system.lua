@@ -364,6 +364,35 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_explosive_ammo")
 
+ATT = {}
+
+ATT.PrintName = "Tactical Nuke Ammo"
+ATT.CompactName = "Nuke Ammo"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes your bullets explosive, but you got a 25 killstreak. <color=255,0,0>Requires EFT for now.</color>]]
+
+ATT.Category = {"ul_tuning"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Misc/Ammo Effect"
+
+ATT.ExplosionRadiusOverride = 10000
+ATT.ExplosionDamageOverride = 20000
+ATT.ExplosionEffect = "eft_explosion_round"
+
+ATT.Override_DamageType = DMG_BLAST + DMG_AIRBOAT
+ATT.DamageType = DMG_BLAST + DMG_AIRBOAT
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_nuke_ammo")
+
 ///////////////////////////////////////     PROJECTILE COUNT (Add)
 
 ATT = {}

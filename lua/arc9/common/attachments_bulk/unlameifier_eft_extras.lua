@@ -2102,7 +2102,7 @@ ATT.TracerSizeMult = -200
 
 ATT.Attachments = {
     {
-        PrintName = "/Custom slot",
+        PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2126,7 +2126,7 @@ ATT.TracerSizeMult = 0.90
 
 ATT.Attachments = {
     {
-        PrintName = "/Custom slot",
+        PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2150,7 +2150,7 @@ ATT.TracerSizeMult = 0.75
 
 ATT.Attachments = {
     {
-        PrintName = "/Custom slot",
+        PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2174,7 +2174,7 @@ ATT.TracerSizeMult = 0.5
 
 ATT.Attachments = {
     {
-        PrintName = "/Custom slot",
+        PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2198,7 +2198,7 @@ ATT.TracerSizeMult = 0.25
 
 ATT.Attachments = {
     {
-        PrintName = "/Custom slot",
+        PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2222,7 +2222,7 @@ ATT.TracerSizeMult = 0.10
 
 ATT.Attachments = {
     {
-        PrintName = "/Custom slot",
+        PrintName = "Custom slot",
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},

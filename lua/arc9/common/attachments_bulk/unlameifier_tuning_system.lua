@@ -17503,3 +17503,1845 @@ ATT.Attachments = {
 ATT.Ammo = "satchel"
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_satchel_hls")
+
+///////////////////////////////////////     RICOCHET TUNING (Utilities)
+
+ATT = {}
+
+ATT.CompactName = "Disable Ricochet Seeking"
+ATT.PrintName = "Disable Ricochet Target Seeking"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so ricocheting bullets do not redirect themselves to a living target.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Utility"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeeking = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_disable")
+
+ATT = {}
+
+ATT.CompactName = "Enable Ricochet Seeking"
+ATT.PrintName = "Enable Ricochet Target Seeking"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so ricocheting bullets redirect themselves to a living target.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Utility"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeeking = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_enable")
+
+///////////////////////////////////////     RICOCHET TUNING (Fixed Angles)
+
+ATT = {}
+
+ATT.CompactName = "0 Degrees Ricochet"
+ATT.PrintName = "0 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 0 degree angle is required for a shot to ricochet.
+
+Essentially, this makes it so an angle is not required for a shot to ricochet.]]
+ATT.SortOrder = -3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_0")
+
+ATT = {}
+
+ATT.CompactName = "1 Degree Ricochet"
+ATT.PrintName = "1 Degree Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 1 degree angle is required for a shot to ricochet.
+
+This is just in case 0 degrees doesn't work. Garry's Mod does not let you look down at a perfect 0 or 90 degree vertical angle by default.]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_1")
+
+ATT = {}
+
+ATT.CompactName = "5 Degrees Ricochet"
+ATT.PrintName = "5 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 5 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_5")
+
+ATT = {}
+
+ATT.CompactName = "15 Degrees Ricochet"
+ATT.PrintName = "15 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 15 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_15")
+
+ATT = {}
+
+ATT.CompactName = "30 Degrees Ricochet"
+ATT.PrintName = "30 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 30 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_30")
+
+ATT = {}
+
+ATT.CompactName = "45 Degrees Ricochet"
+ATT.PrintName = "45 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 45 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 45
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_45")
+
+ATT = {}
+
+ATT.CompactName = "60 Degrees Ricochet"
+ATT.PrintName = "60 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 60 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_60")
+
+ATT = {}
+
+ATT.CompactName = "75 Degrees Ricochet"
+ATT.PrintName = "75 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 75 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_75")
+
+ATT = {}
+
+ATT.CompactName = "89 Degrees Ricochet"
+ATT.PrintName = "89 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then an 89 degree angle is required for a shot to ricochet.
+
+Like 1 Degree, this is to possibly circumvent an issue with Garry's Mod in where it arbitrarily restricts your camera from vertically reaching 0 or 90 degrees by default.]]
+ATT.SortOrder = 6
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 89
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_89")
+
+ATT = {}
+
+ATT.CompactName = "90 Degrees Ricochet"
+ATT.PrintName = "90 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 90 degree angle is required for a shot to ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMax = 90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_90")
+
+///////////////////////////////////////     RICOCHET TUNING (Add Angles)
+
+ATT = {}
+
+ATT.CompactName = "+1 Degree Ricochet"
+ATT.PrintName = "+1 Degree Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 1 degree to the angle required to make a shot ricochet.]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Degrees Ricochet"
+ATT.PrintName = "+5 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 5 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+15 Degrees Ricochet"
+ATT.PrintName = "+15 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 15 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus15")
+
+ATT = {}
+
+ATT.CompactName = "+30 Degrees Ricochet"
+ATT.PrintName = "+30 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 30 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus30")
+
+ATT = {}
+
+ATT.CompactName = "+45 Degrees Ricochet"
+ATT.PrintName = "+45 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 45 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 45
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus45")
+
+ATT = {}
+
+ATT.CompactName = "+60 Degrees Ricochet"
+ATT.PrintName = "+60 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 60 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus60")
+
+ATT = {}
+
+ATT.CompactName = "+75 Degrees Ricochet"
+ATT.PrintName = "+75 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 75 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+90 Degrees Ricochet"
+ATT.PrintName = "+90 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 90 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = 90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_plus90")
+
+///////////////////////////////////////     RICOCHET TUNING (Subtract Angles)
+
+ATT = {}
+
+ATT.CompactName = "-1 Degree Ricochet"
+ATT.PrintName = "-1 Degree Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 1 degree to the angle required to make a shot ricochet.]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Degrees Ricochet"
+ATT.PrintName = "-5 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 5 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-15 Degrees Ricochet"
+ATT.PrintName = "-15 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 15 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus15")
+
+ATT = {}
+
+ATT.CompactName = "-30 Degrees Ricochet"
+ATT.PrintName = "-30 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 30 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus30")
+
+ATT = {}
+
+ATT.CompactName = "-45 Degrees Ricochet"
+ATT.PrintName = "-45 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 45 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -45
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus45")
+
+ATT = {}
+
+ATT.CompactName = "-60 Degrees Ricochet"
+ATT.PrintName = "-60 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 60 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus60")
+
+ATT = {}
+
+ATT.CompactName = "-75 Degrees Ricochet"
+ATT.PrintName = "-75 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 75 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-90 Degrees Ricochet"
+ATT.PrintName = "-90 Degrees Max Angle for Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 90 degrees to the angle required to make a shot ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetAngleMaxAdd = -90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_max_angle_minus90")
+
+///////////////////////////////////////     RICOCHET TUNING (Fixed Seeking Angles)
+
+ATT = {}
+
+ATT.CompactName = "0 Degrees Seeking Ricochet"
+ATT.PrintName = "0 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 0 degree angle is required for a shot to seek a living target upon ricochet.
+
+Essentially, this makes it so an angle is not required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = -3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_0")
+
+ATT = {}
+
+ATT.CompactName = "1 Degree Ricochet"
+ATT.PrintName = "1 Degree Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 1 degree angle is required for a shot to seek a living target upon ricochet.
+
+This is just in case 0 degrees doesn't work. Garry's Mod does not let you look down at a perfect 0 or 90 degree vertical angle by default.]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_1")
+
+ATT = {}
+
+ATT.CompactName = "5 Degrees Seeking Ricochet"
+ATT.PrintName = "5 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 5 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_5")
+
+ATT = {}
+
+ATT.CompactName = "15 Degrees Seeking Ricochet"
+ATT.PrintName = "15 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 15 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_15")
+
+ATT = {}
+
+ATT.CompactName = "30 Degrees Seeking Ricochet"
+ATT.PrintName = "30 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 30 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_30")
+
+ATT = {}
+
+ATT.CompactName = "45 Degrees Seeking Ricochet"
+ATT.PrintName = "45 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 45 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 45
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_45")
+
+ATT = {}
+
+ATT.CompactName = "60 Degrees Seeking Ricochet"
+ATT.PrintName = "60 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 60 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_60")
+
+ATT = {}
+
+ATT.CompactName = "75 Degrees Seeking Ricochet"
+ATT.PrintName = "75 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 75 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_75")
+
+ATT = {}
+
+ATT.CompactName = "89 Degrees Seeking Ricochet"
+ATT.PrintName = "89 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then an 89 degree angle is required for a shot to seek a living target upon ricochet.
+
+Like 1 Degree, this is to possibly circumvent an issue with Garry's Mod in where it arbitrarily restricts your camera from vertically reaching 0 or 90 degrees by default.]]
+ATT.SortOrder = 6
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 89
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_89")
+
+ATT = {}
+
+ATT.CompactName = "90 Degrees Seeking Ricochet"
+ATT.PrintName = "90 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so then a 90 degree angle is required for a shot to seek a living target upon ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngle = 90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_seeking_angle_90")
+
+///////////////////////////////////////     RICOCHET TUNING (Add Seeking Angles)
+
+ATT = {}
+
+ATT.CompactName = "+1 Degree Seeking Ricochet"
+ATT.PrintName = "+1 Degree Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 1 degree to the angle required to make a shot seek a living target after ricochet.]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus1")
+
+ATT = {}
+
+ATT.CompactName = "+5 Degrees Seeking Ricochet"
+ATT.PrintName = "+5 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 5 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus5")
+
+ATT = {}
+
+ATT.CompactName = "+15 Degrees Seeking Ricochet"
+ATT.PrintName = "+15 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 15 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus15")
+
+ATT = {}
+
+ATT.CompactName = "+30 Degrees Seeking Ricochet"
+ATT.PrintName = "+30 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 30 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus30")
+
+ATT = {}
+
+ATT.CompactName = "+45 Degrees Seeking Ricochet"
+ATT.PrintName = "+45 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 45 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 45
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus45")
+
+ATT = {}
+
+ATT.CompactName = "+60 Degrees Seeking Ricochet"
+ATT.PrintName = "+60 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 60 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus60")
+
+ATT = {}
+
+ATT.CompactName = "+75 Degrees Seeking Ricochet"
+ATT.PrintName = "+75 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 75 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus75")
+
+ATT = {}
+
+ATT.CompactName = "+90 Degrees Seeking Ricochet"
+ATT.PrintName = "+90 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Adds 90 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Add"
+
+ATT.Attachments = {
+	{
+        PrintName = "+Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = 90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_plus90")
+
+///////////////////////////////////////     RICOCHET TUNING (Subtract Seeking Angles)
+
+ATT = {}
+
+ATT.CompactName = "-1 Degree Seeking Ricochet"
+ATT.PrintName = "-1 Degree Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 1 degree to the angle required to make a shot seek a living target after ricochet.]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus1")
+
+ATT = {}
+
+ATT.CompactName = "-5 Degrees Seeking Ricochet"
+ATT.PrintName = "-5 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 5 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus5")
+
+ATT = {}
+
+ATT.CompactName = "-15 Degrees Seeking Ricochet"
+ATT.PrintName = "-15 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 15 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus15")
+
+ATT = {}
+
+ATT.CompactName = "-30 Degrees Seeking Ricochet"
+ATT.PrintName = "-30 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 30 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus30")
+
+ATT = {}
+
+ATT.CompactName = "-45 Degrees Seeking Ricochet"
+ATT.PrintName = "-45 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 45 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -45
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus45")
+
+ATT = {}
+
+ATT.CompactName = "-60 Degrees Seeking Ricochet"
+ATT.PrintName = "-60 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 60 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus60")
+
+ATT = {}
+
+ATT.CompactName = "-75 Degrees Seeking Ricochet"
+ATT.PrintName = "-75 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 75 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus75")
+
+ATT = {}
+
+ATT.CompactName = "-90 Degrees Seeking Ricochet"
+ATT.PrintName = "-90 Degrees Angle for Seeking Ricochet"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Removes 90 degrees to the angle required to make a shot seek a living target after ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Seeking Angle/Subtract"
+
+ATT.Attachments = {
+	{
+        PrintName = "-Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetSeekingAngleAdd = -90
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_angle_minus90")
+
+///////////////////////////////////////     RICOCHET CHANCE TUNING (Fixed Value)
+
+ATT = {}
+
+ATT.CompactName = "0% Ricochet Chance"
+ATT.PrintName = "0% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 0% chance your shot will ricochet.
+
+Essentially, this disables ricochet.]]
+ATT.SortOrder = -3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_0p")
+
+ATT = {}
+
+ATT.CompactName = "10% Ricochet Chance"
+ATT.PrintName = "10% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 10% chance your shot will ricochet.]]
+ATT.SortOrder = -2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_10p")
+
+ATT = {}
+
+ATT.CompactName = "20% Ricochet Chance"
+ATT.PrintName = "20% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 20% chance your shot will ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_20p")
+
+ATT = {}
+
+ATT.CompactName = "25% Ricochet Chance"
+ATT.PrintName = "25% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 25% chance your shot will ricochet.]]
+ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_25p")
+
+ATT = {}
+
+ATT.CompactName = "30% Ricochet Chance"
+ATT.PrintName = "30% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 30% chance your shot will ricochet.]]
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_30p")
+
+ATT = {}
+
+ATT.CompactName = "40% Ricochet Chance"
+ATT.PrintName = "40% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 40% chance your shot will ricochet.]]
+ATT.SortOrder = 2
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_40p")
+
+ATT = {}
+
+ATT.CompactName = "50% Ricochet Chance"
+ATT.PrintName = "50% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 50% chance your shot will ricochet.]]
+ATT.SortOrder = 3
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_50p")
+
+ATT = {}
+
+ATT.CompactName = "60% Ricochet Chance"
+ATT.PrintName = "60% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 60% chance your shot will ricochet.]]
+ATT.SortOrder = 4
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_60p")
+
+ATT = {}
+
+ATT.CompactName = "70% Ricochet Chance"
+ATT.PrintName = "70% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 70% chance your shot will ricochet.]]
+ATT.SortOrder = 5
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_70p")
+
+ATT = {}
+
+ATT.CompactName = "75% Ricochet Chance"
+ATT.PrintName = "75% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 75% chance your shot will ricochet.]]
+ATT.SortOrder = 6
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_75p")
+
+ATT = {}
+
+ATT.CompactName = "80% Ricochet Chance"
+ATT.PrintName = "80% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 80% chance your shot will ricochet.]]
+ATT.SortOrder = 7
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_80p")
+
+ATT = {}
+
+ATT.CompactName = "90% Ricochet Chance"
+ATT.PrintName = "90% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 90% chance your shot will ricochet.]]
+ATT.SortOrder = 8
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_90p")
+
+ATT = {}
+
+ATT.CompactName = "100% Ricochet Chance"
+ATT.PrintName = "100% Ricochet Chance"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Makes it so there is a 100% chance your shot will ricochet.
+
+Essentially, guarantees your shot will ricochet. Will add more ricochet things later. It's currently 8 AM at this time of writing and I want to go to bed.
+-Neosun]]
+ATT.SortOrder = 9
+ATT.AttNotForNPCs = true
+
+
+ATT.Category = {"ul_tuning", }
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Folder = "Ricochet/Chance/Fixed"
+
+ATT.Attachments = {
+	{
+        PrintName = "Tuning",
+        Category = "ul_tuning",
+        Pos = Vector(0, 300, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.RicochetChance = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_chance_100p")

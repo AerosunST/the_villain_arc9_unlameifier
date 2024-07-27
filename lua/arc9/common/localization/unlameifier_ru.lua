@@ -71,19 +71,11 @@ Text in Line 2 ]]
 
 -- For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
 
--- L["unlameifier_eft_iron_force_down_rear.printname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_down_front.printname")
--- L["unlameifier_eft_iron_force_down_rear.compactname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_down_front.compactname")
--- L["unlameifier_eft_iron_force_down_rear.description"] = ARC9:GetPhrase("unlameifier_eft_iron_force_down_front.description")
-
 -- L["unlameifier_eft_iron_force_up_front.printname"] = "Force Iron Sights Up"
 -- L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
 -- L["unlameifier_eft_iron_force_up_front.description"] = [[Forces iron sights up.
 
 -- For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
-
--- L["unlameifier_eft_iron_force_down_rear.printname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_up_front.printname")
--- L["unlameifier_eft_iron_force_down_rear.compactname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_up_front.compactname")
--- L["unlameifier_eft_iron_force_down_rear.description"] = ARC9:GetPhrase("unlameifier_eft_iron_force_up_front.description")
 
 -- Shotgun-Specific?
 -- L["unlameifier_eft_videogame_shotguns.printname"] = "Video Game Logic"
@@ -346,8 +338,6 @@ Text in Line 2 ]]
 -- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "G17 R. Sights (E&E)"
 -- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Allows installation of Glock 17 rear sights onto the USP's Elite and Expert form-factor slides (not universal due to positioning issues)."
 
--- L["eft_unlameifier_g17_m9a3_front_sights.printname"] = ARC9:GetPhrase("eft_unlameifier_g17_usp_front_sights.printname")
--- L["eft_unlameifier_g17_m9a3_front_sights.compactname"] = ARC9:GetPhrase("eft_unlameifier_g17_usp_front_sights.compactname")
 -- L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Allows installation of Glock 17 front sights onto the M9A3."
 
 -- L["eft_unlameifier_g17_m9a3_rear_sights.printname"] = "Glock 17 Rear Sights"

@@ -26,83 +26,75 @@ Text in Line 2 ]]
 --]]
 
 //////////////////////////////// unlameifier_eft_charms
--- L["unlameifier_eft_charm_up.printname"] = "Adaptador de Charme(Acima)"
--- L["unlameifier_eft_charm_up.compactname"] = "Charme (A)"
--- L["unlameifier_eft_charm_up.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho de cima para os melhores resultados.
+L["unlameifier_eft_charm_up.printname"] = "Adaptador de Charme(Acima)"
+L["unlameifier_eft_charm_up.compactname"] = "Charme (A)"
+L["unlameifier_eft_charm_up.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho de cima para os melhores resultados.
 
--- Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
+Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_down.printname"] = "Adaptador de Charme(Baixo)"
--- L["unlameifier_eft_charm_down.compactname"] = "Charme (B)"
--- L["unlameifier_eft_charm_down.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho de baixo para os melhores resultados.
+L["unlameifier_eft_charm_down.printname"] = "Adaptador de Charme(Baixo)"
+L["unlameifier_eft_charm_down.compactname"] = "Charme (B)"
+L["unlameifier_eft_charm_down.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho de baixo para os melhores resultados.
 
--- Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
+Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_left.printname"] = "Adaptador de Charme(Esquerda)"
--- L["unlameifier_eft_charm_left.compactname"] = "Charme (E)"
--- L["unlameifier_eft_charm_left.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho da esquerda para os melhores resultados.
+L["unlameifier_eft_charm_left.printname"] = "Adaptador de Charme(Esquerda)"
+L["unlameifier_eft_charm_left.compactname"] = "Charme (E)"
+L["unlameifier_eft_charm_left.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho da esquerda para os melhores resultados.
 
--- Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
+Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_right.printname"] = "Adaptador de Charme(Direita)"
--- L["unlameifier_eft_charm_right.compactname"] = "Charme (D"
--- L["unlameifier_eft_charm_right.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho da direita para os melhores resultados.
+L["unlameifier_eft_charm_right.printname"] = "Adaptador de Charme(Direita)"
+L["unlameifier_eft_charm_right.compactname"] = "Charme (D"
+L["unlameifier_eft_charm_right.description"] = [[Teste experimental para ver se pode fazer um trilho de charme universal. Use no trilho da direita para os melhores resultados.
 
--- Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
+Melhor com telas de statistica. Os stickers não funciona. Não tem jeito de forçar ForceNoCosmetics = true.]]
 
 //////////////////////////////// unlameifier_eft_extras
 -- MP7-Specific
--- L["eft_frontsight_mp7_fold.printname"] = "Mira de H&K MP7 guardada de frente"
--- L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
--- L["eft_frontsight_mp7_fold.description"] = [[A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
+L["eft_frontsight_mp7_fold.printname"] = "Mira de H&K MP7 guardada de frente"
+L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
+L["eft_frontsight_mp7_fold.description"] = [[A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
 
--- WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
+WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
 
--- L["eft_rearsight_mp7_folded.printname"] = "Mira de H&K MP7 guardada de trás"
--- L["eft_rearsight_mp7_folded.compactname"] = "MP7 RS"
--- L["eft_rearsight_mp7_folded.description"] = [[A removable folding flip-up rear sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
+L["eft_rearsight_mp7_folded.printname"] = "Mira de H&K MP7 guardada de trás"
+L["eft_rearsight_mp7_folded.compactname"] = "MP7 RS"
+L["eft_rearsight_mp7_folded.description"] = [[A removable folding flip-up rear sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
 
--- WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
+WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
 
 -- Generic Irons
--- L["unlameifier_eft_iron_force_down_front.printname"] = "Forçar Mira Guardada"
--- L["unlameifier_eft_iron_force_down_front.compactname"] = "Irons Down"
--- L["unlameifier_eft_iron_force_down_front.description"] = [[Força a mira ser guardada.
+L["unlameifier_eft_iron_force_down_front.printname"] = "Forçar Mira Guardada"
+L["unlameifier_eft_iron_force_down_front.compactname"] = "Irons Down"
+L["unlameifier_eft_iron_force_down_front.description"] = [[Força a mira ser guardada.
 
--- Só precisa de uma ligada. Misturando elas não funciona.]]
+Só precisa de uma ligada. Misturando elas não funciona.]]
 
--- L["unlameifier_eft_iron_force_down_rear.printname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_down_front.printname")
--- L["unlameifier_eft_iron_force_down_rear.compactname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_down_front.compactname")
--- L["unlameifier_eft_iron_force_down_rear.description"] = ARC9:GetPhrase("unlameifier_eft_iron_force_down_front.description")
+L["unlameifier_eft_iron_force_up_front.printname"] = "Forçar Mira Aberta"
+L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
+L["unlameifier_eft_iron_force_up_front.description"] = [[Força a mira ser baixada.
 
--- L["unlameifier_eft_iron_force_up_front.printname"] = "Forçar Mira Aberta"
--- L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
--- L["unlameifier_eft_iron_force_up_front.description"] = [[Força a mira ser baixada.
-
--- Só precisa de uma ligada. Misturando elas não funciona.]]
-
--- L["unlameifier_eft_iron_force_down_rear.printname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_up_front.printname")
--- L["unlameifier_eft_iron_force_down_rear.compactname"] = ARC9:GetPhrase("unlameifier_eft_iron_force_up_front.compactname")
--- L["unlameifier_eft_iron_force_down_rear.description"] = ARC9:GetPhrase("unlameifier_eft_iron_force_up_front.description")
+Só precisa de uma ligada. Misturando elas não funciona.]]
 
 -- Shotgun-Specific?
--- L["unlameifier_eft_videogame_shotguns.printname"] = "Lógica de Jogo"
--- L["unlameifier_eft_videogame_shotguns.compactname"] = "Lógica de Jogo"
--- L["unlameifier_eft_videogame_shotguns.description"] = [[Aumenta o espalho das espingardas EFT para agir como uma espingarda comum de videogame.
+L["unlameifier_eft_videogame_shotguns.printname"] = "Lógica de Jogo"
+L["unlameifier_eft_videogame_shotguns.compactname"] = "Lógica de Jogo"
+L["unlameifier_eft_videogame_shotguns.description"] = [[Aumenta o espalho das espingardas EFT para agir como uma espingarda comum de videogame.
 
--- Não equipe isto on armas que não seja espingardas, a não seja que voce se odeie.]]
+Não equipe isto on armas que não seja espingardas, a não seja que voce se odeie.]]
 
--- L["unlameifier_tuning_disable_dluts.printname"] = "Force-Disable Damage Lookup Tables"
--- L["unlameifier_tuning_disable_dluts.compactname"] = "Disable DLUT"
--- L["unlameifier_tuning_disable_dluts.description"] = [[Desativa as tabelas de dano em armas que usam-o. Voce precisa disto para modificar o dano das armas EFT. As espingardas EFT não precisam disto..
+L["unlameifier_tuning_disable_dluts.printname"] = "Force-Disable Damage Lookup Tables"
+L["unlameifier_tuning_disable_dluts.compactname"] = "Disable DLUT"
+L["unlameifier_tuning_disable_dluts.description"] = [[Desativa as tabelas de dano em armas que usam-o. Voce precisa disto para modificar o dano das armas EFT. As espingardas EFT não precisam disto..
 
--- Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
+Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
 
--- L["unlameifier_eft_doom_hold.printname"] = "Posição de viewmodel(DOOM)"
--- L["unlameifier_eft_doom_hold.compactname"] = "DOOM Viewmodel"
--- L["unlameifier_eft_doom_hold.description"] = [[Quer saber? Se fode esse Bravo-Delta-Sierra-Mike merda tactical. Eu vou jogar DOOM.
+L["unlameifier_eft_doom_hold.printname"] = "Posição de viewmodel (DOOM)"
+L["unlameifier_eft_doom_hold.compactname"] = "DOOM Viewmodel"
+L["unlameifier_eft_doom_hold.description"] = [[Quer saber? Se fode esse Bravo-Delta-Sierra-Mike merda tactical. Eu vou jogar DOOM.
 
--- Makes you hold your gun at the center of the screen, like DOOM.]]
+Makes you hold your gun at the center of the screen, like DOOM.]]
 
 -- EFT Custom Slots
 -- L["unlameifier_eft_custom_melee_override.printname"] = "EFT Custom Melee Slot"
@@ -114,25 +106,25 @@ Text in Line 2 ]]
 -- L["unlameifier_eft_custom_override.description"] = "Forces your weapon to use the EFT Custom slot. Useful for going back to the normal custom slot if you forced the melee slot on."
 
 -- Tracer Colours
--- L["unlameifier_tracer_red.printname"] = "Tracers Vermelho"
--- L["unlameifier_tracer_red.compactname"] = "Vermelho"
--- L["unlameifier_tracer_red.description"] = "Gives your gun <color=222,31,31>red tracers</color>."
+L["unlameifier_tracer_red.printname"] = "Tracers Vermelho"
+L["unlameifier_tracer_red.compactname"] = "Vermelho"
+L["unlameifier_tracer_red.description"] = "Gives your gun <color=222,31,31>red tracers</color>."
 
--- L["unlameifier_tracer_green.printname"] = "Tracers Verde"
--- L["unlameifier_tracer_green.compactname"] = "Verde"
--- L["unlameifier_tracer_green.description"] = "Gives your gun <color=31,222,73>green tracers</color>."
+L["unlameifier_tracer_green.printname"] = "Tracers Verde"
+L["unlameifier_tracer_green.compactname"] = "Verde"
+L["unlameifier_tracer_green.description"] = "Gives your gun <color=31,222,73>green tracers</color>."
 
--- L["unlameifier_tracer_blue.printname"] = "Tracers Azul"
--- L["unlameifier_tracer_blue.compactname"] = "Azul"
--- L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
+L["unlameifier_tracer_blue.printname"] = "Tracers Azul"
+L["unlameifier_tracer_blue.compactname"] = "Azul"
+L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
 
--- L["unlameifier_tracer_yellow.printname"] = "Tracers Amarelo"
--- L["unlameifier_tracer_yellow.compactname"] = "Amarelo"
--- L["unlameifier_tracer_yellow.description"] = "Gives your gun <color=222,217,31>yellow tracers</color>."
+L["unlameifier_tracer_yellow.printname"] = "Tracers Amarelo"
+L["unlameifier_tracer_yellow.compactname"] = "Amarelo"
+L["unlameifier_tracer_yellow.description"] = "Gives your gun <color=222,217,31>yellow tracers</color>."
 
--- L["unlameifier_tracer_orange.printname"] = "Tracers Laranja"
--- L["unlameifier_tracer_orange.compactname"] = "Laranja"
--- L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>orange tracers</color>."
+L["unlameifier_tracer_orange.printname"] = "Tracers Laranja"
+L["unlameifier_tracer_orange.compactname"] = "Laranja"
+L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>orange tracers</color>."
 
 -- L["unlameifier_tracer_purple.printname"] = "Purple Tracers"
 -- L["unlameifier_tracer_purple.compactname"] = "Purple"
@@ -346,8 +338,6 @@ Text in Line 2 ]]
 -- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "G17 R. Sights (E&E)"
 -- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Allows installation of Glock 17 rear sights onto the USP's Elite and Expert form-factor slides (not universal due to positioning issues)."
 
--- L["eft_unlameifier_g17_m9a3_front_sights.printname"] = ARC9:GetPhrase("eft_unlameifier_g17_usp_front_sights.printname")
--- L["eft_unlameifier_g17_m9a3_front_sights.compactname"] = ARC9:GetPhrase("eft_unlameifier_g17_usp_front_sights.compactname")
 -- L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Allows installation of Glock 17 front sights onto the M9A3."
 
 -- L["eft_unlameifier_g17_m9a3_rear_sights.printname"] = "Glock 17 Rear Sights"

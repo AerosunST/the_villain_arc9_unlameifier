@@ -1,0 +1,26 @@
+BG, Bulgarian						N/A
+CS, Czech							N/A
+DA, Danish							N/A
+DE, German						N/A
+EL, Greek							N/A
+EN, English							Moka, Neosun
+ES-ES, Spanish					N/A
+FI, Finnish							N/A
+FR, French							N/A
+HU, Hungarian					N/A
+IT, Italian								N/A
+JA, Japanese						N/A
+KO, Korean						N/A
+NL, Dutch							N/A
+NO, Norwegian					N/A
+PL, Polish							N/A
+PT-BR, Brazilian Port.		tritium (EEASAS)
+PT-PT, Portgueuse			N/A
+RU, Russian						ZaihnY
+SV-SE, Swedish					Moka
+TH, Thai								N/A
+TR, Turkish							N/A
+UK, Ukrainian					N/A
+VI, Vietnamese					N/A
+ZH-CN, T. Chinese				KILLA
+ZH-TW, S. Chinese			N/A

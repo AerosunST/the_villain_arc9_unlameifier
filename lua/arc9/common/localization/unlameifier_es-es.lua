@@ -1,321 +1,296 @@
-L = {} -- Spanish by ??
-
-//////////////////////////////////////////////////////////////////////
-//////////////////////////////// Notes
-
---[[
-THIS IS A TEMPLATE FILE WITH ALL STRINGS COMMENTED OUT (EXCLUDING SOURCE GAME NAMES)
-MIGHT BE SLIGHTLY UPDATED - LOOK AT ENGLISH FILE
-
-Includes localizations for every accessory and outright weird attachment part of Unlameifier.
-If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
-If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
-
-If you wish to translate to another language, you can copy+paste this file and replace "_en"  with the codename for your own language.
-For example, Spanish is "_es-es" and Russian is "_ru".
-
-If a localization has multiple lines, you have two choices:
-One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
-Note: If you wish to use quotation marks, you'll need to write it as < \" >
-
-Two: Use square brackets at the start and end. Example further down.
-
-[[ Text in Line 1
-Text in Line 2 ]]
-
---]]
+L = {} -- Spanish by DyaMetR
 
 //////////////////////////////// unlameifier_eft_charms
--- L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
--- L["unlameifier_eft_charm_up.compactname"] = "Charms (U)"
--- L["unlameifier_eft_charm_up.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on top-mounted rails for best results.
+L["unlameifier_eft_charm_up.printname"] = "Adaptador de amuletos (arriba)"
+L["unlameifier_eft_charm_up.compactname"] = "Amuletos (A)"
+L["unlameifier_eft_charm_up.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles montados encima para mejores resultados.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_down.printname"] = "Charms Adapter (Down)"
--- L["unlameifier_eft_charm_down.compactname"] = "Charms (D)"
--- L["unlameifier_eft_charm_down.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on bottom rails for best results.
+L["unlameifier_eft_charm_down.printname"] = "Adaptador de amuletos (abajo)"
+L["unlameifier_eft_charm_down.compactname"] = "Amuletos (B)"
+L["unlameifier_eft_charm_down.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles montados debajo para mejores resultados.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_left.printname"] = "Charms Adapter (Left)"
--- L["unlameifier_eft_charm_left.compactname"] = "Charms (L)"
--- L["unlameifier_eft_charm_left.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on left-side rails for best results.
+L["unlameifier_eft_charm_left.printname"] = "Adaptador de amuletos (izquierda)"
+L["unlameifier_eft_charm_left.compactname"] = "Amuletos (I)"
+L["unlameifier_eft_charm_left.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles del lado izquierdo para mejores resultados.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_right.printname"] = "Charms Adapter (Right)"
--- L["unlameifier_eft_charm_right.compactname"] = "Charms (R)"
--- L["unlameifier_eft_charm_right.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on right-side rails for best results.
+L["unlameifier_eft_charm_right.printname"] = "Adaptador de amuletos (derecha)"
+L["unlameifier_eft_charm_right.compactname"] = "Amuletos (D)"
+L["unlameifier_eft_charm_right.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles del lado derecho para mejores resultados.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
 //////////////////////////////// unlameifier_eft_extras
 -- MP7-Specific
--- L["eft_frontsight_mp7_fold.printname"] = "Folded H&K MP7 Front Flip-Up Sight"
--- L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
--- L["eft_frontsight_mp7_fold.description"] = [[A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
+L["eft_frontsight_mp7_fold.printname"] = "Mira frontal abatible plegada de la H&K MP7"
+L["eft_frontsight_mp7_fold.compactname"] = "MF MP7"
+L["eft_frontsight_mp7_fold.description"] = [[Una mira frontal abatible extraíble para subfusiles MP7, instalada en la montura. Fabricada por Heckler & Koch. Plegada para el uso de miras de perfil bajo alternativas.
 
--- WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
+AVISO: Esto plegará otras miras de hierro. Úsalo solo con armas que tengan miras de perfil bajo.]]
 
--- L["eft_rearsight_mp7_folded.printname"] = "Folded H&K MP7 Rear Flip-Up Sight"
--- L["eft_rearsight_mp7_folded.compactname"] = "MP7 RS"
--- L["eft_rearsight_mp7_folded.description"] = [[A removable folding flip-up rear sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
+L["eft_rearsight_mp7_folded.printname"] = "Mira trasera abatible plegada de la H&K MP7"
+L["eft_rearsight_mp7_folded.compactname"] = "MT MP7"
+L["eft_rearsight_mp7_folded.description"] = [[Una mira trasera abatible extraíble para subfusiles MP7, instalada en la montura. Fabricada por Heckler & Koch. Plegada para el uso de miras de perfil bajo alternativas.
 
--- WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
+AVISO: Esto plegará otras miras de hierro. Úsalo solo con armas que tengan miras de perfil bajo.]]
 
 -- Generic Irons
--- L["unlameifier_eft_iron_force_down_front.printname"] = "Force Iron Sights Down"
--- L["unlameifier_eft_iron_force_down_front.compactname"] = "Irons Down"
--- L["unlameifier_eft_iron_force_down_front.description"] = [[Forces iron sights down.
+L["unlameifier_eft_iron_force_down_front.printname"] = "Mantener las miras de hierro bajadas"
+L["unlameifier_eft_iron_force_down_front.compactname"] = "Miras bajadas"
+L["unlameifier_eft_iron_force_down_front.description"] = [[Fuerza a las miras de hierro a mantenerse bajas.
 
--- For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
+Para que conste, en realidad solo necesitas tener una de estas activas. No, mezclarlas no funcionará.]]
 
--- L["unlameifier_eft_iron_force_up_front.printname"] = "Force Iron Sights Up"
--- L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
--- L["unlameifier_eft_iron_force_up_front.description"] = [[Forces iron sights up.
+L["unlameifier_eft_iron_force_up_front.printname"] = "Mantener las miras de hierro subidas"
+L["unlameifier_eft_iron_force_up_front.compactname"] = "Miras subidas"
+L["unlameifier_eft_iron_force_up_front.description"] = [[Fuerza a las miras de hierro a mantenerse altas.
 
--- For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
+Para que conste, en realidad solo necesitas tener una de estas activas. No, mezclarlas no funcionará.]]
 
 -- Shotgun-Specific?
--- L["unlameifier_eft_videogame_shotguns.printname"] = "Video Game Logic"
--- L["unlameifier_eft_videogame_shotguns.compactname"] = "Game Logic"
--- L["unlameifier_eft_videogame_shotguns.description"] = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.
+L["unlameifier_eft_videogame_shotguns.printname"] = "Lógica de video juego"
+L["unlameifier_eft_videogame_shotguns.compactname"] = "Lógica de juego"
+L["unlameifier_eft_videogame_shotguns.description"] = [[Le da a las escopetas de EFT más dispersión para que se comporten más como una escopeta tradicional de video juego. Sorprendentemente muy práctico.
 
--- Maybe don't equip this on non-shotguns (unless you hate yourself).]]
+Tal vez quieras no equiparlo en armas que no sean escopetas (a no ser que te odies).]]
 
--- L["unlameifier_tuning_disable_dluts.printname"] = "Force-Disable Damage Lookup Tables"
--- L["unlameifier_tuning_disable_dluts.compactname"] = "Disable DLUT"
--- L["unlameifier_tuning_disable_dluts.description"] = [[Force-disables damage lookup tables on weapons that use them for whatever reason. You NEED this in order to be able to modify damage on EFT weapons (except for shotguns, for some reason).
+L["unlameifier_tuning_disable_dluts.printname"] = "Desactivar forzosamente las tablas de búsqueda de daños"
+L["unlameifier_tuning_disable_dluts.compactname"] = "Desactivar TBD"
+L["unlameifier_tuning_disable_dluts.description"] = [[Desactiva forzosamente las tablas de búsqueda de daños en armas que las use por cualquier motivo. NECESITAS esto para poder modificar el daño en armas EFT (exceptuando escopetas, por algún motivo).
 
--- Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
+Aun así, si notas que tu daño no está siendo cambiado a pesar de haber equipado el modificador de daño, esto más que seguro arreglará ese problema. Úsalo con cuidado porque puede fastidiar las curvas de daño.]]
 
--- L["unlameifier_eft_doom_hold.printname"] = "Alternative viewmodel position (DOOM)"
--- L["unlameifier_eft_doom_hold.compactname"] = "DOOM Hold"
--- L["unlameifier_eft_doom_hold.description"] = [[You know what? Fuck all this tactical Bravo-Delta-Sierra-Mike larper shit. I'm playing DOOM.
+L["unlameifier_eft_doom_hold.printname"] = "Posición de modelo de vista alternativo (DOOM)"
+L["unlameifier_eft_doom_hold.compactname"] = "A lo DOOM"
+L["unlameifier_eft_doom_hold.description"] = [[¿Sabes qué? Que le den por culo a toda esta mierda de jugadores de rol en vivo tácticos Bravo-Delta-Sierra-Mike. Estoy jugando a DOOM.
 
--- Makes you hold your gun at the center of the screen, like DOOM.]]
+Hace que sostengas tu arma en el centro de la pantalla, como en DOOM.]]
 
 -- EFT Custom Slots
--- L["unlameifier_eft_custom_melee_override.printname"] = "EFT Custom Melee Slot"
--- L["unlameifier_eft_custom_melee_override.compactname"] = "Melee Slot"
--- L["unlameifier_eft_custom_melee_override.description"] = "Forces your weapon to use the EFT Custom Melee slot."
+L["unlameifier_eft_custom_melee_override.printname"] = "Ranura personalizada cuerpo a cuerpo de EFT"
+L["unlameifier_eft_custom_melee_override.compactname"] = "Ranura cuerpo a cuerpo"
+L["unlameifier_eft_custom_melee_override.description"] = "Fuerza a tu arma a usar la ranura personalizada de cuerpo a cuerpo de EFT."
 
--- L["unlameifier_eft_custom_override.printname"] = "EFT Custom Slot"
--- L["unlameifier_eft_custom_override.compactname"] = "Custom Slot"
--- L["unlameifier_eft_custom_override.description"] = "Forces your weapon to use the EFT Custom slot. Useful for going back to the normal custom slot if you forced the melee slot on."
+L["unlameifier_eft_custom_override.printname"] = "Ranura personalizada de EFT"
+L["unlameifier_eft_custom_override.compactname"] = "Ranura personalizada"
+L["unlameifier_eft_custom_override.description"] = "Fuerza a tu arma a usar la ranura personalizada de EFT. Útil para volver a la ranura personalizada normal si has forzado la ranura personalizada de cuerpo a cuerpo."
 
 -- Tracer Colours
--- L["unlameifier_tracer_red.printname"] = "Red Tracers"
--- L["unlameifier_tracer_red.compactname"] = "Red"
--- L["unlameifier_tracer_red.description"] = "Gives your gun <color=222,31,31>red tracers</color>."
+L["unlameifier_tracer_red.printname"] = "Trazadores rojos"
+L["unlameifier_tracer_red.compactname"] = "Rojo"
+L["unlameifier_tracer_red.description"] = "Le da <color=222,31,31>trazadores rojos</color> a tu arma."
 
--- L["unlameifier_tracer_green.printname"] = "Green Tracers"
--- L["unlameifier_tracer_green.compactname"] = "Green"
--- L["unlameifier_tracer_green.description"] = "Gives your gun <color=31,222,73>green tracers</color>."
+L["unlameifier_tracer_green.printname"] = "Trazadores verdes"
+L["unlameifier_tracer_green.compactname"] = "Verde"
+L["unlameifier_tracer_green.description"] = "Le da <color=31,222,73>trazadores verdes</color> a tu arma."
 
--- L["unlameifier_tracer_blue.printname"] = "Blue Tracers"
--- L["unlameifier_tracer_blue.compactname"] = "Blue"
--- L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
+L["unlameifier_tracer_blue.printname"] = "Trazadores azules"
+L["unlameifier_tracer_blue.compactname"] = "Azul"
+L["unlameifier_tracer_blue.description"] = "Le da <color=31,57,222>trazadores azules</color> a tu arma."
 
--- L["unlameifier_tracer_yellow.printname"] = "Yellow Tracers"
--- L["unlameifier_tracer_yellow.compactname"] = "Yellow"
--- L["unlameifier_tracer_yellow.description"] = "Gives your gun <color=222,217,31>yellow tracers</color>."
+L["unlameifier_tracer_yellow.printname"] = "Trazadores amarillos"
+L["unlameifier_tracer_yellow.compactname"] = "Amarillo"
+L["unlameifier_tracer_yellow.description"] = "Le da <color=222,217,31>trazadores amarillos</color> a tu arma."
 
--- L["unlameifier_tracer_orange.printname"] = "Orange Tracers"
--- L["unlameifier_tracer_orange.compactname"] = "Orange"
--- L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>orange tracers</color>."
+L["unlameifier_tracer_orange.printname"] = "Trazadores naranjas"
+L["unlameifier_tracer_orange.compactname"] = "Naranja"
+L["unlameifier_tracer_orange.description"] = "Le da <color=222,136,31>trazadores naranjas</color> a tu arma."
 
--- L["unlameifier_tracer_purple.printname"] = "Purple Tracers"
--- L["unlameifier_tracer_purple.compactname"] = "Purple"
--- L["unlameifier_tracer_purple.description"] = "Gives your gun <color=124,31,222>purple tracers</color>."
+L["unlameifier_tracer_purple.printname"] = "Trazadores morados"
+L["unlameifier_tracer_purple.compactname"] = "Morado"
+L["unlameifier_tracer_purple.description"] = "Le da <color=124,31,222>trazadores morados</color> a tu arma."
 
--- L["unlameifier_tracer_pink.printname"] = "Pink Tracers"
--- L["unlameifier_tracer_pink.compactname"] = "Pink"
--- L["unlameifier_tracer_pink.description"] = "Gives your gun <color=222,31,213>pink tracers</color>."
+L["unlameifier_tracer_pink.printname"] = "Trazadores rosas"
+L["unlameifier_tracer_pink.compactname"] = "Rosa"
+L["unlameifier_tracer_pink.description"] = "Le da <color=222,31,213>trazadores rosas</color> a tu arma."
 
--- L["unlameifier_tracer_white.printname"] = "White Tracers"
--- L["unlameifier_tracer_white.compactname"] = "White"
--- L["unlameifier_tracer_white.description"] = "Gives your gun white tracers."
+L["unlameifier_tracer_white.printname"] = "Trazadores blancos"
+L["unlameifier_tracer_white.compactname"] = "Blanco"
+L["unlameifier_tracer_white.description"] = "Le da trazadores blancos a tu arma."
 
--- L["unlameifier_tracer_cyan.printname"] = "Cyan Tracers"
--- L["unlameifier_tracer_cyan.compactname"] = "Cyan"
--- L["unlameifier_tracer_cyan.description"] = "Gives your gun <color=31,180,222>cyan tracers</color>."
+L["unlameifier_tracer_cyan.printname"] = "Trazadores cian"
+L["unlameifier_tracer_cyan.compactname"] = "Cian"
+L["unlameifier_tracer_cyan.description"] = "Le da <color=31,180,222>trazadores cian</color> a tu arma."
 
--- L["unlameifier_tracer_teal.printname"] = "Teal Tracers"
--- L["unlameifier_tracer_teal.compactname"] = "Teal"
--- L["unlameifier_tracer_teal.description"] = "Gives your gun <color=31,222,188>teal tracers</color>."
+L["unlameifier_tracer_teal.printname"] = "Trazadores verde azulado"
+L["unlameifier_tracer_teal.compactname"] = "Verde azulado"
+L["unlameifier_tracer_teal.description"] = "Le da <color=31,222,188>trazadores verde azulado</color> a tu arma."
 
--- L["unlameifier_tracer_tateal.printname"] = "Tom Aero 0 Teal"
--- L["unlameifier_tracer_tateal.compactname"] = "TA Teal"
--- L["unlameifier_tracer_tateal.description"] = [[Gives your gun <color=0,255,132>teal tracers</color>, except a little greener
+L["unlameifier_tracer_tateal.printname"] = "Verde azulado Tom Aero 0"
+L["unlameifier_tracer_tateal.compactname"] = "Verde azulado TA"
+L["unlameifier_tracer_tateal.description"] = [[Le da <color=0,255,132>trazadores verde azulado</color> a tu arma, excepto que es un poquito más verde
 
--- <color=0,255,132>"Do you ever feel as though you are living in a Hell of your own design?"</color>]]
+<color=0,255,132>"¿Alguna vez sientes que vives en un infierno de diseño propio?"</color>]]
 
--- L["unlameifier_tracer_usa.printname"] = "United States of America Tracers"
--- L["unlameifier_tracer_usa.compactname"] = "U.S."
--- L["unlameifier_tracer_usa.description"] = [[Gives your gun <color=255,25,25>red</color>, white, and <color=25,25,255>blue</color> tracers.
+L["unlameifier_tracer_usa.printname"] = "Trazadores de los Estados Unidos de America"
+L["unlameifier_tracer_usa.compactname"] = "EE. UU."
+L["unlameifier_tracer_usa.description"] = [[Le da trazadores <color=255,25,25>rojo</color>, blanco, y <color=25,25,255>azul</color> a tu arma.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Rescatado de Standard Weapons, el paquete de armas prototipo de ARC9.]]
 
--- L["unlameifier_tracer_player_color.printname"] = "Player Color Tracers"
--- L["unlameifier_tracer_player_color.compactname"] = "Player"
--- L["unlameifier_tracer_player_color.description"] = [[Gives your gun tracers based off your player color. Set it via the Playermodel Menu.
+L["unlameifier_tracer_player_color.printname"] = "Trazadores del color del jugador"
+L["unlameifier_tracer_player_color.compactname"] = "Jugador"
+L["unlameifier_tracer_player_color.description"] = [[Le da a tu arma trazadores basados en tu color de jugador. Cámbialo desde el menú de Apariencia.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Rescatado de Standard Weapons, el paquete de armas prototipo de ARC9.]]
 
--- L["unlameifier_tracer_weapon_color.printname"] = "Weapon Color Tracers"
--- L["unlameifier_tracer_weapon_color.compactname"] = "Weapon"
--- L["unlameifier_tracer_weapon_color.description"] = [[Gives your gun tracers based off your weapon color. Set it via the Playermodel Menu.
+L["unlameifier_tracer_weapon_color.printname"] = "Trazadores del color del arma"
+L["unlameifier_tracer_weapon_color.compactname"] = "Arma"
+L["unlameifier_tracer_weapon_color.description"] = [[Le da a tu arma trazadores basados en tu color de arma. Cámbialo desde el menú de Apariencia.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Rescatado de Standard Weapons, el paquete de armas prototipo de ARC9.]]
 
--- L["unlameifier_tracer_rainbow.printname"] = "Rainbow Tracers"
--- L["unlameifier_tracer_rainbow.compactname"] = "Rainbow"
--- L["unlameifier_tracer_rainbow.description"] = [[Gives your gun rainbow tracers.
+L["unlameifier_tracer_rainbow.printname"] = "Trazadores arcoíris"
+L["unlameifier_tracer_rainbow.compactname"] = "Arcoíris"
+L["unlameifier_tracer_rainbow.description"] = [[Le da trazadores color arcoíris a tu arma.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Rescatado de Standard Weapons, el paquete de armas prototipo de ARC9.]]
 
--- L["unlameifier_tracer_trans.printname"] = "Trans Tracers"
--- L["unlameifier_tracer_trans.compactname"] = "Trans"
--- L["unlameifier_tracer_trans.description"] = [[Gives your gun <color=91,206,250>blue</color>, <color=245,169,184>pink</color>, and white tracers. Because you are loved and valid.
+L["unlameifier_tracer_trans.printname"] = "Trazadores trans"
+L["unlameifier_tracer_trans.compactname"] = "Trans"
+L["unlameifier_tracer_trans.description"] = [[Le da trazadores <color=91,206,250>azul</color>, <color=245,169,184>rosa</color>, y blanco a tu arma. Porque se te quiere y se te valida.
 
--- Unlameifier original. Based off code from Standard Weapons, ARC9's prototype weapon pack.]]
+Original de Unlamifier. Basado en el código de Standard Weapons, el paquete de armas prototipo de ARC9.]]
 
--- L["unlameifier_tracer_ranging.printname"] = "Effective Range Tracers"
--- L["unlameifier_tracer_ranging.compactname"] = "Range"
--- L["unlameifier_tracer_ranging.description"] = [[To quote the original attachment's description:
+L["unlameifier_tracer_ranging.printname"] = "Trazadores de alcance efectivo"
+L["unlameifier_tracer_ranging.compactname"] = "Alcance"
+L["unlameifier_tracer_ranging.description"] = [[Para citar a la descripción original del accesorio:
 
--- "Tracer rounds. Burns from green to red based on the effectiveness of the weapon at that range."
+"Balas trazadoras. Arde desde verde hasta rojo basado en la efectividad del arma a ese alcance."
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Rescatado de Standard Weapons, el paquete de armas prototipo de ARC9.]]
 
 -- Tracer Size
--- L["unlameifier_tracer_size_010x.printname"] = "Tracer Size - 0.1x"
--- L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
--- L["unlameifier_tracer_size_010x.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.1</color>."
+L["unlameifier_tracer_size_010x.printname"] = "Tamaño del trazador - 0.1x"
+L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
+L["unlameifier_tracer_size_010x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.1</color>."
 
--- L["unlameifier_tracer_size_x05.printname"] = "Tracer Size - 0.5x"
--- L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
--- L["unlameifier_tracer_size_x05.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.5</color>."
+L["unlameifier_tracer_size_x05.printname"] = "Tamaño del trazador - 0.5x"
+L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
+L["unlameifier_tracer_size_x05.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.5</color>."
 
--- L["unlameifier_tracer_size_x075.printname"] = "Tracer Size - 0.75x"
--- L["unlameifier_tracer_size_x075.compactname"] = "0.75x"
--- L["unlameifier_tracer_size_x075.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.75</color>."
+L["unlameifier_tracer_size_x075.printname"] = "Tamaño del trazador - 0.75x"
+L["unlameifier_tracer_size_x075.compactname"] = "0.75x"
+L["unlameifier_tracer_size_x075.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.75</color>."
 
--- L["unlameifier_tracer_size_x090.printname"] = "Tracer Size - 0.9x"
--- L["unlameifier_tracer_size_x090.compactname"] = "0.9x"
--- L["unlameifier_tracer_size_x090.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.9</color>."
+L["unlameifier_tracer_size_x090.printname"] = "Tamaño del trazador - 0.9x"
+L["unlameifier_tracer_size_x090.compactname"] = "0.9x"
+L["unlameifier_tracer_size_x090.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.9</color>."
 
--- L["unlameifier_tracer_size_2x.printname"] = "Tracer Size - 2x"
--- L["unlameifier_tracer_size_2x.compactname"] = "2x"
--- L["unlameifier_tracer_size_2x.description"] = "Multiplies the size of the tracers by <color=175,175,255>2</color>."
+L["unlameifier_tracer_size_2x.printname"] = "Tamaño del trazador - 2x"
+L["unlameifier_tracer_size_2x.compactname"] = "2x"
+L["unlameifier_tracer_size_2x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>2</color>."
 
--- L["unlameifier_tracer_size_5x.printname"] = "Tracer Size - 5x"
--- L["unlameifier_tracer_size_5x.compactname"] = "5x"
--- L["unlameifier_tracer_size_5x.description"] = "Multiplies the size of the tracers by <color=175,175,255>5</color>."
+L["unlameifier_tracer_size_5x.printname"] = "Tamaño del trazador - 5x"
+L["unlameifier_tracer_size_5x.compactname"] = "5x"
+L["unlameifier_tracer_size_5x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>5</color>."
 
--- L["unlameifier_tracer_size_10x.printname"] = "Tracer Size - 10x"
--- L["unlameifier_tracer_size_10x.compactname"] = "10x"
--- L["unlameifier_tracer_size_10x.description"] = "Multiplies the size of the tracers by <color=175,175,255>10</color>."
+L["unlameifier_tracer_size_10x.printname"] = "Tamaño del trazador - 10x"
+L["unlameifier_tracer_size_10x.compactname"] = "10x"
+L["unlameifier_tracer_size_10x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>10</color>."
 
--- L["unlameifier_tracer_size_50x.printname"] = "Tracer Size - 50x"
--- L["unlameifier_tracer_size_50x.compactname"] = "50x"
--- L["unlameifier_tracer_size_50x.description"] = "Multiplies the size of the tracers by <color=175,175,255>50</color>."
+L["unlameifier_tracer_size_50x.printname"] = "Tamaño del trazador - 50x"
+L["unlameifier_tracer_size_50x.compactname"] = "50x"
+L["unlameifier_tracer_size_50x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>50</color>."
 
--- L["unlameifier_tracer_size_100x.printname"] = "Tracer Size - 100x"
--- L["unlameifier_tracer_size_100x.compactname"] = "100x"
--- L["unlameifier_tracer_size_100x.description"] = "Multiplies the size of the tracers by <color=175,175,255>100</color>."
+L["unlameifier_tracer_size_100x.printname"] = "Tamaño del trazador - 100x"
+L["unlameifier_tracer_size_100x.compactname"] = "100x"
+L["unlameifier_tracer_size_100x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>100</color>."
 
--- L["unlameifier_tracer_size_supernova.printname"] = "Tracer Size - Supernova"
--- L["unlameifier_tracer_size_supernova.compactname"] = "Supernova"
--- L["unlameifier_tracer_size_supernova.description"] = [[Multiplies the size of the tracers by <color=175,175,255>-200</color>.
+L["unlameifier_tracer_size_supernova.printname"] = "Tamaño del trazador - Supernova"
+L["unlameifier_tracer_size_supernova.compactname"] = "Supernova"
+L["unlameifier_tracer_size_supernova.description"] = [[Multiplica el tamaño de los trazadores por <color=175,175,255>-200</color>.
 
--- The result of a hilarious math calculation error.]]
+El resultado de un hilarante error de cálculo matemático.]]
 
 -- Effects
--- L["eft_unlameifier_toys_dissolve.printname"] = "Dissolve Effect"
--- L["eft_unlameifier_toys_dissolve.compactname"] = "Dissolve"
--- L["eft_unlameifier_toys_dissolve.description"] = "Makes anything you kill dissolve, like the AR2 energy ball. Just for funsies :)"
+L["eft_unlameifier_toys_dissolve.printname"] = "Efecto de disolución"
+L["eft_unlameifier_toys_dissolve.compactname"] = "Disolución"
+L["eft_unlameifier_toys_dissolve.description"] = "Hace que todo lo que mates se disuelva, como la bola de energía del AR2. Por las risas :)"
 
--- L["eft_unlameifier_toys_remove_tool.printname"] = "Remove Tool Effect"
--- L["eft_unlameifier_toys_remove_tool.compactname"] = "Remove Tool"
--- L["eft_unlameifier_toys_remove_tool.description"] = [[Makes anything you kill not spawn a ragdoll, like the Remove Tool. Just for funsies :)
+L["eft_unlameifier_toys_remove_tool.printname"] = "Efecto de la herramienta de eliminar"
+L["eft_unlameifier_toys_remove_tool.compactname"] = "Eliminador"
+L["eft_unlameifier_toys_remove_tool.description"] = [[Hace que todo lo que mates no haga aparecer un muñeco, como la herramienta de eliminar. Por las risas :)
 
--- might be abusable, beware.]]
+puede ser abusable, ve con cuidado.]]
 
--- L["eft_unlameifier_toys_shock.printname"] = "Shock Effect"
--- L["eft_unlameifier_toys_shock.compactname"] = "Shock"
--- L["eft_unlameifier_toys_shock.description"] = "Makes anything you hit spark, as though the gun were electric. Just for funsies :)"
+L["eft_unlameifier_toys_shock.printname"] = "Efecto eléctrico"
+L["eft_unlameifier_toys_shock.compactname"] = "Eléctrico"
+L["eft_unlameifier_toys_shock.description"] = "Hace que todo lo que impactes haga chispas, como si el arma fuera eléctrica. Por las risas :)"
 
--- L["eft_unlameifier_toys_lightning.printname"] = "Lightning Effect"
--- L["eft_unlameifier_toys_lightning.compactname"] = "Lightning"
--- L["eft_unlameifier_toys_lightning.description"] = [[Unlike spark, this one is MUCH more violent. Combines shock + dissolve for a spectacular kill effect. Just for funsies :)
+L["eft_unlameifier_toys_lightning.printname"] = "Efecto de relámpago"
+L["eft_unlameifier_toys_lightning.compactname"] = "Relámpago"
+L["eft_unlameifier_toys_lightning.description"] = [[Al contrario de la chispa, este es MUCHO más violento. Combina eléctrico + disolución para un efecto de muerte espectacular. Por las risas :)
 
--- Visually, this has the same effect as when you kill something with the Super Gravity Gun. Pretty neat!]]
+Visualmente, esto tiene el mismo efecto como cuando matas algo con la súper pistola de gravedad. ¡Bastante chulo!]]
 
 -- Impact Decals
--- L["eft_unlameifier_toys_impact_blood.printname"] = "Blood Decal"
--- L["eft_unlameifier_toys_impact_blood.compactname"] = "Blood"
--- L["eft_unlameifier_toys_impact_blood.description"] = "Make a massacre of imaginary people."
+L["eft_unlameifier_toys_impact_blood.printname"] = "Calcomanía de sangre"
+L["eft_unlameifier_toys_impact_blood.compactname"] = "Sangre"
+L["eft_unlameifier_toys_impact_blood.description"] = "Haz una masacre de gente imaginaria."
 
--- L["eft_unlameifier_toys_impact_cross.printname"] = "Cross Decal"
--- L["eft_unlameifier_toys_impact_cross.compactname"] = "Cross"
--- L["eft_unlameifier_toys_impact_cross.description"] = "X marks the spot!"
+L["eft_unlameifier_toys_impact_cross.printname"] = "Calcomanía de cruz"
+L["eft_unlameifier_toys_impact_cross.compactname"] = "Cruz"
+L["eft_unlameifier_toys_impact_cross.description"] = "¡La X marca el lugar!"
 
--- L["eft_unlameifier_toys_impact_eye.printname"] = "Eye Decal"
--- L["eft_unlameifier_toys_impact_eye.compactname"] = "Eye"
--- L["eft_unlameifier_toys_impact_eye.description"] = [[THE EYES! THEY'RE EVERYWHERE! THEY SEE EVERYTHING!
+L["eft_unlameifier_toys_impact_eye.printname"] = "Calcomanía de ojo"
+L["eft_unlameifier_toys_impact_eye.compactname"] = "Ojo"
+L["eft_unlameifier_toys_impact_eye.description"] = [[¡LOS OJOS! ¡ESTÁN POR TODAS PARTES!¡LO VEN TODO!
 
--- I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY]]
+NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO]]
 
--- L["eft_unlameifier_toys_impact_fadingscorch.printname"] = "Scorch Mark Decal"
--- L["eft_unlameifier_toys_impact_fadingscorch.compactname"] = "Scorch"
--- L["eft_unlameifier_toys_impact_fadingscorch.description"] = [[Leave the enemy with a sick burn.
+L["eft_unlameifier_toys_impact_fadingscorch.printname"] = "Calcomanía de marca de quemadura"
+L["eft_unlameifier_toys_impact_fadingscorch.compactname"] = "Quemadura"
+L["eft_unlameifier_toys_impact_fadingscorch.description"] = [[Deja al enemigo con una quemadura de la hostia.
 
--- Note: Does not actually burn the target.]]
+Nota: En realidad no quema al objetivo.]]
 
--- L["eft_unlameifier_toys_impact_flesh.printname"] = "Flesh Impact Decal"
--- L["eft_unlameifier_toys_impact_flesh.compactname"] = "Flesh"
--- L["eft_unlameifier_toys_impact_flesh.description"] = [[He's in the walls... HE'S IN THE GOD DAMN WALLS!
+L["eft_unlameifier_toys_impact_flesh.printname"] = "Calcomanía de impacto en carne"
+L["eft_unlameifier_toys_impact_flesh.compactname"] = "Carne"
+L["eft_unlameifier_toys_impact_flesh.description"] = [[Está en las paredes... ¡ESTÁ EN LAS MALDITAS PAREDES!
 
--- ...or, you just want to have a blood splotch whenever you hit something. Idk, you do you, edgelord.]]
+... o, simplemente quieres dejar una mancha de sangre cuando aciertes a algo. Nose, tu verás, flipado.]]
 
--- L["eft_unlameifier_toys_impact_nought.printname"] = "Nought Decal"
--- L["eft_unlameifier_toys_impact_nought.compactname"] = "Nought"
--- L["eft_unlameifier_toys_impact_nought.description"] = "Really just an O."
+L["eft_unlameifier_toys_impact_nought.printname"] = "Calcomanía de círculo"
+L["eft_unlameifier_toys_impact_nought.compactname"] = "Círculo"
+L["eft_unlameifier_toys_impact_nought.description"] = "Solamente una O."
 
--- L["eft_unlameifier_toys_impact_noughtsncrosses.printname"] = "Noughts n' Crosses Decal"
--- L["eft_unlameifier_toys_impact_noughtsncrosses.compactname"] = "Tic-Tac-Toe"
--- L["eft_unlameifier_toys_impact_noughtsncrosses.description"] = [[Hey, look! You can play Tic-Tac-Toe with this!
+L["eft_unlameifier_toys_impact_noughtsncrosses.printname"] = "Calcomanías de círculos y cruces"
+L["eft_unlameifier_toys_impact_noughtsncrosses.compactname"] = "Tres en raya"
+L["eft_unlameifier_toys_impact_noughtsncrosses.description"] = [[¡Eh, mira! ¡Puedes jugar al tres en raya con esto!
 
--- VERY chaotic in full auto.]]
+MUY caótico en fuego automático sostenido.]]
 
--- L["eft_unlameifier_toys_impact_paintsplatblue.printname"] = "Blue Paint Decal"
--- L["eft_unlameifier_toys_impact_paintsplatblue.compactname"] = "Blue Paint"
--- L["eft_unlameifier_toys_impact_paintsplatblue.description"] = "Yes, it really does paint your enemies blue. It's funny :)"
+L["eft_unlameifier_toys_impact_paintsplatblue.printname"] = "Calcomanía de pintura azul"
+L["eft_unlameifier_toys_impact_paintsplatblue.compactname"] = "Pintura azul"
+L["eft_unlameifier_toys_impact_paintsplatblue.description"] = "Si, de verdad que pinta a tus enemigos de azul. Es divertido :)"
 
--- L["eft_unlameifier_toys_impact_paintsplatgreen.printname"] = "Green Paint Decal"
--- L["eft_unlameifier_toys_impact_paintsplatgreen.compactname"] = "Green Paint"
--- L["eft_unlameifier_toys_impact_paintsplatgreen.description"] = "Yes, it really does paint your enemies green. It's funny :)"
+L["eft_unlameifier_toys_impact_paintsplatgreen.printname"] = "Calcomanía de pintura verde"
+L["eft_unlameifier_toys_impact_paintsplatgreen.compactname"] = "Pintura verde"
+L["eft_unlameifier_toys_impact_paintsplatgreen.description"] = "Si, de verdad que pinta a tus enemigos de verde. Es divertido :)"
 
--- L["eft_unlameifier_toys_impact_paintsplatpink.printname"] = "Pink Paint Decal"
--- L["eft_unlameifier_toys_impact_paintsplatpink.compactname"] = "Pink Paint"
--- L["eft_unlameifier_toys_impact_paintsplatpink.description"] = "Hey, wait a minute..."
+L["eft_unlameifier_toys_impact_paintsplatpink.printname"] = "Calcomanía de pintura rosa"
+L["eft_unlameifier_toys_impact_paintsplatpink.compactname"] = "Pintura rosa"
+L["eft_unlameifier_toys_impact_paintsplatpink.description"] = "Eh, espera un momento..."
 
--- L["eft_unlameifier_toys_impact_bigscorch.printname"] = "Big Scorch Decal"
--- L["eft_unlameifier_toys_impact_bigscorch.compactname"] = "Big Scorch"
--- L["eft_unlameifier_toys_impact_bigscorch.description"] = "For those BIG bullets."
+L["eft_unlameifier_toys_impact_bigscorch.printname"] = "Calcomanía de quemadura grande"
+L["eft_unlameifier_toys_impact_bigscorch.compactname"] = "Quemadura grande"
+L["eft_unlameifier_toys_impact_bigscorch.description"] = "Para esas GRANDES balas."
 
--- L["eft_unlameifier_toys_impact_smile.printname"] = "Smiley Decal"
--- L["eft_unlameifier_toys_impact_smile.compactname"] = "Smiley"
--- L["eft_unlameifier_toys_impact_smile.description"] = [[THE WALLS! THEY MOCK ME WITH THEIR SMILE!
+L["eft_unlameifier_toys_impact_smile.printname"] = "Calcomanía de sonrisa"
+L["eft_unlameifier_toys_impact_smile.compactname"] = "Sonrisa"
+L["eft_unlameifier_toys_impact_smile.description"] = [[¡LAS PAREDES! ¡SE BURLAN DE MI CON SU SONRISA!
 
--- I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY ]]
+NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO ]]
 
--- L["eft_unlameifier_toys_impact_yellowblood.printname"] = "Yellow Blood Decal"
--- L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Yellow Blood"
--- L["eft_unlameifier_toys_impact_yellowblood.description"] = "Is that mustard?"
+L["eft_unlameifier_toys_impact_yellowblood.printname"] = "Calcomanía de sangre amarilla"
+L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Sangre amarilla"
+L["eft_unlameifier_toys_impact_yellowblood.description"] = "¿Es eso mostaza?"
 
 -- Glock 17 Parts on other Handguns
 -- L["eft_unlameifier_g17_g18c_conversion_slides.printname"] = "Glock 17 Slides"
@@ -402,67 +377,67 @@ Text in Line 2 ]]
 -- L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
 
 -- Half-Life 2
--- L["unlameifier_folder_sounds_hl2"] = "Sound Mods/HL2"
+L["unlameifier_folder_sounds_hl2"] = "Sonidos/HL2"
 
-L["unlameifier_sound_hl2_pistol.printname"] = "9mm Pistol"
-L["unlameifier_sound_hl2_pistol.compactname"] = "Pistol"
--- L["unlameifier_sound_hl2_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 2.
+L["unlameifier_sound_hl2_pistol.printname"] = "Pistola de 9mm"
+L["unlameifier_sound_hl2_pistol.compactname"] = "Pistola"
+L["unlameifier_sound_hl2_pistol.description"] = [[Cambia el sonido de disparo del arma al de la pistola de Half-Life 2.
 
--- "Rise and shine, Mr. Freeman... Rise... and shine..."]]
+"Manos a la obra, señor Freeman... Manos... a la obra..."]]
 
-L["unlameifier_sound_hl2_357.printname"] = ".357 Magnum"
+L["unlameifier_sound_hl2_357.printname"] = "Magnum del .357"
 L["unlameifier_sound_hl2_357.compactname"] = ".357"
--- L["unlameifier_sound_hl2_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 2.
+L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del arma al de la .357 de Half-Life 2.
 
--- Naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
+Nombrar un arma tras el calibre que dispara es absolutamente estúpdio. Esto es una Colt Python. Contrariamente a la creencia popular, .357, el calibre, no es tan potente como crees que es.]]
 
-L["unlameifier_sound_hl2_ar2.printname"] = "OSI (Pulse-Rifle)"
+L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Rifle de pulsos)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
--- L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the OSI (Pulse-Rifle) from Half-Life 2.
+L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma al del rifle de pulsos de Half-Life 2.
 
--- More widely known as the 'AR2', which actually exists, unless you believe some city folk who say they used the 'AR3'...]]
+Más conocido como el 'AR2', que existe de verdad, a no ser que te creas a cierta gente de ciudad que dice haber usado el 'AR3'...]]
 
-L["unlameifier_sound_hl2_alyx.printname"] = "Alyx's Gun"
-L["unlameifier_sound_hl2_alyx.compactname"] = "Alyx's"
--- L["unlameifier_sound_hl2_alyx.description"] = [[Changes the firing sound of the weapon to Alyx's Gun from Half-Life 2.
+L["unlameifier_sound_hl2_alyx.printname"] = "Pistola de Alyx"
+L["unlameifier_sound_hl2_alyx.compactname"] = "De Alyx"
+L["unlameifier_sound_hl2_alyx.description"] = [[Cambia el sonido de disparo del arma al de la pistola de Alyx de Half-Life 2.
 
--- "Well, Russ, it's official. There is NOTHING left of your gun in this gun. This is just... this is MY gun."]]
+"Bueno, Russ, es oficial. No queda NADA de tu pistola en esta. Esta simplemente es... esta es MI pistola."]]
 
-L["unlameifier_sound_hl2_xbow.printname"] = "Crossbow"
-L["unlameifier_sound_hl2_xbow.compactname"] = "Crossbow"
--- L["unlameifier_sound_hl2_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 2.
+L["unlameifier_sound_hl2_xbow.printname"] = "Ballesta"
+L["unlameifier_sound_hl2_xbow.compactname"] = "Ballesta"
+L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del arma al de la ballesta de Half-Life 2.
 
--- Sadly, it does not allow you to stick ragdolls to surfaces.]]
+Tristemente, no te permite pegar muñecos a las superficies.]]
 
-L["unlameifier_sound_hl2_ar22.printname"] = "OSI (Pulse-Rifle) Energy Ball"
-L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
--- L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the AR2's Energy Ball from Half-Life 2 being shot.
+L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del rifle de pulsos"
+L["unlameifier_sound_hl2_ar22.compactname"] = "BE AR2"
+L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma al de la bola de energía del AR2 de Half-Life 2 siendo disparada.
 
--- Don't point at allies unless you really hate them.]]
+No apuntes a tus aliados a no ser que los odies de verdad.]]
 
-L["unlameifier_sound_hl2_rpg.printname"] = "RPG"
-L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
--- L["unlameifier_sound_hl2_rpg.description"] = [[Changes the firing sound of the weapon to the RPG from Half-Life 2.
+L["unlameifier_sound_hl2_rpg.printname"] = "Granada propulsada por cohete"
+L["unlameifier_sound_hl2_rpg.compactname"] = "Lanzacohetes"
+L["unlameifier_sound_hl2_rpg.description"] = [[Cambia el sonido de disparo del arma al del lanzacohetes de Half-Life 2.
 
--- Did you know that the RPG in HL2 is an AT4? Not only that, they also hold it backwards.]]
+¿Sabías que el lanzacohetes en Half-Life 2 es un AT4? No solamente eso, si no que además lo sostienen del revés.]]
 
-L["unlameifier_sound_hl2_shotgun.printname"] = "Shotgun"
-L["unlameifier_sound_hl2_shotgun.compactname"] = "Shotgun"
--- L["unlameifier_sound_hl2_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from Half-Life 2.
+L["unlameifier_sound_hl2_shotgun.printname"] = "Escopeta"
+L["unlameifier_sound_hl2_shotgun.compactname"] = "Escopeta"
+L["unlameifier_sound_hl2_shotgun.description"] = [[Cambia el sonido de disparo del arma al de la escopeta de Half-Life 2.
 
--- Known for defying the laws of physics by firing a second shot through its magazine tube. Not recommended to attempt in real life.]]
+Conocida por desafiar las leyes de la física disparando un segundo disparo a través del tubo de carga. No se recomienda intentarlo en la vida real.]]
 
-L["unlameifier_sound_hl2_smg.printname"] = "SMG (Submachine Gun)"
-L["unlameifier_sound_hl2_smg.compactname"] = "SMG"
--- L["unlameifier_sound_hl2_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 2.
+L["unlameifier_sound_hl2_smg.printname"] = "SMG (Subfusil)"
+L["unlameifier_sound_hl2_smg.compactname"] = "Subfusil"
+L["unlameifier_sound_hl2_smg.description"] = [[Cambia el sonido de disparo del arma al del subfusil de Half-Life 2.
 
--- Where exactly is the grenade being shot from, I wonder...?]]
+¿Desde dónde exactamente se dispara la granada, me pregunto...?]]
 
--- L["unlameifier_sound_hl2_airboat2.printname"] = "Mudskipper Gauss Cannon"
--- L["unlameifier_sound_hl2_airboat2.compactname"] = "Mudskipper"
--- L["unlameifier_sound_hl2_airboat2.description"] = [[Changes the firing sound of the weapon to the Mudskipper's Gauss Cannon from Half-Life 2.
+L["unlameifier_sound_hl2_airboat2.printname"] = "Cañón Gauss de la lancha motora"
+L["unlameifier_sound_hl2_airboat2.compactname"] = "Lancha"
+L["unlameifier_sound_hl2_airboat2.description"] = [[Cambia el sonido de disparo del arma al del cañón Gauss de la lancha de Half-Life 2.
 
--- Does not actually rapidly spam dynamite.]]
+En realidad no dispara dinamita rápidamente.]]
 
 -- Half-Life 1
 -- L["unlameifier_folder_sounds_hl1"] = "Sound Mods/HL1"

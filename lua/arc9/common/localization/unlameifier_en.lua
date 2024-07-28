@@ -423,9 +423,9 @@ L["unlameifier_sound_hl2_357.description"] = [[Changes the firing sound of the w
 
 Naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
 
-L["unlameifier_sound_hl2_ar2.printname"] = "OSI (Pulse-Rifle)"
+L["unlameifier_sound_hl2_ar2.printname"] = "Overwatch Standard Issue (Pulse-Rifle)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
-L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the OSI (Pulse-Rifle) from Half-Life 2.
+L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the Pulse-Rifle from Half-Life 2.
 
 More widely known as the 'AR2', which actually exists, unless you believe some city folk who say they used the 'AR3'...]]
 
@@ -441,9 +441,9 @@ L["unlameifier_sound_hl2_xbow.description"] = [[Changes the firing sound of the 
 
 Sadly, it does not allow you to stick ragdolls to surfaces.]]
 
-L["unlameifier_sound_hl2_ar22.printname"] = "OSI (Pulse-Rifle) Energy Ball"
+L["unlameifier_sound_hl2_ar22.printname"] = "Overwatch Standard Issue (Pulse-Rifle) Energy Ball"
 L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
-L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the AR2's Energy Ball from Half-Life 2 being shot.
+L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the Pulse-Rifle's Energy Ball from Half-Life 2 being shot.
 
 Don't point at allies unless you really hate them.]]
 
@@ -942,8 +942,8 @@ L["unlameifier_sound_dods_colt.printname"] = "Colt"
 L["unlameifier_sound_dods_colt.compactname"] = "Colt"
 L["unlameifier_sound_dods_colt.description"] = "Changes the firing sound of the weapon to the Colt from Day of Defeat: Source."
 
-L["unlameifier_sound_dods_garand.printname"] = "Garand"
-L["unlameifier_sound_dods_garand.compactname"] = "Garand"
+L["unlameifier_sound_dods_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dods_garand.compactname"] = "M1 Garand"
 L["unlameifier_sound_dods_garand.description"] = "Changes the firing sound of the weapon to the Garand from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_grenade.printname"] = "Rifle Grenade"
@@ -1245,7 +1245,9 @@ L["unlameifier_sound_tf2_axe_hit.description"] = string.format(tf2desc.hit, "Fir
 
 L["unlameifier_sound_tf2_ball_buster_hit.printname"] = "Wrap Assassin"
 L["unlameifier_sound_tf2_ball_buster_hit.compactname"] = "Wrap A."
-L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin")
+L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin") .. [[
+
+These lovely festive ornaments are so beautifully crafted, your enemies are going to want to see them close up. Indulge them by batting those fragile glass bulbs into their eyes at 90 mph.]]
 
 L["unlameifier_sound_tf2_bat_hit.printname"] = "Bat"
 L["unlameifier_sound_tf2_bat_hit.compactname"] = "Bat"

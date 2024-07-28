@@ -416,7 +416,7 @@ L["unlameifier_sound_hl2_357.compactname"] = ".357"
 
 -- Naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
 
-L["unlameifier_sound_hl2_ar2.printname"] = "OSI (Pulse-Rifle)"
+L["unlameifier_sound_hl2_ar2.printname"] = "Overwatch Standard Issue (Pulse-Rifle)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
 -- L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the OSI (Pulse-Rifle) from Half-Life 2.
 
@@ -434,13 +434,13 @@ L["unlameifier_sound_hl2_xbow.compactname"] = "Crossbow"
 
 -- Sadly, it does not allow you to stick ragdolls to surfaces.]]
 
-L["unlameifier_sound_hl2_ar22.printname"] = "OSI (Pulse-Rifle) Energy Ball"
+L["unlameifier_sound_hl2_ar22.printname"] = "Overwatch Standard Issue (Pulse-Rifle) Energy Ball"
 L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
--- L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the AR2's Energy Ball from Half-Life 2 being shot.
+-- L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the Pulse-Rifle's Energy Ball from Half-Life 2 being shot.
 
 -- Don't point at allies unless you really hate them.]]
 
-L["unlameifier_sound_hl2_rpg.printname"] = "RPG"
+L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Rocket Propelled Grenade)"
 L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
 -- L["unlameifier_sound_hl2_rpg.description"] = [[Changes the firing sound of the weapon to the RPG from Half-Life 2.
 
@@ -935,8 +935,8 @@ L["unlameifier_sound_dods_colt.printname"] = "Colt"
 L["unlameifier_sound_dods_colt.compactname"] = "Colt"
 -- L["unlameifier_sound_dods_colt.description"] = "Changes the firing sound of the weapon to the Colt from Day of Defeat: Source."
 
-L["unlameifier_sound_dods_garand.printname"] = "Garand"
-L["unlameifier_sound_dods_garand.compactname"] = "Garand"
+L["unlameifier_sound_dods_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dods_garand.compactname"] = "M1 Garand"
 -- L["unlameifier_sound_dods_garand.description"] = "Changes the firing sound of the weapon to the Garand from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_grenade.printname"] = "Rifle Grenade"
@@ -1230,7 +1230,7 @@ L["unlameifier_sound_tf2_3rd_degree.printname"] = "Third Degree"
 L["unlameifier_sound_tf2_3rd_degree.compactname"] = "Third Degree"
 -- L["unlameifier_sound_tf2_3rd_degree.description"] = string.format(tf2desc.hit, "Third Degree") .. [[
 
--- "Being a boon to tree-fellers, backwoodsmen and atom-splitters the world over, this miraculous matter-hewing device burns each individual molecule as it cleaves it."]]
+-- Being a boon to tree-fellers, backwoodsmen and atom-splitters the world over, this miraculous matter-hewing device burns each individual molecule as it cleaves it.]]
 
 L["unlameifier_sound_tf2_axe_hit.printname"] = "Fire Axe"
 L["unlameifier_sound_tf2_axe_hit.compactname"] = "Fire Axe"
@@ -1238,7 +1238,9 @@ L["unlameifier_sound_tf2_axe_hit.compactname"] = "Fire Axe"
 
 L["unlameifier_sound_tf2_ball_buster_hit.printname"] = "Wrap Assassin"
 L["unlameifier_sound_tf2_ball_buster_hit.compactname"] = "Wrap A."
--- L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin")
+-- L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin") .. [[
+
+-- These lovely festive ornaments are so beautifully crafted, your enemies are going to want to see them close up. Indulge them by batting those fragile glass bulbs into their eyes at 90 mph.]]
 
 L["unlameifier_sound_tf2_bat_hit.printname"] = "Bat"
 L["unlameifier_sound_tf2_bat_hit.compactname"] = "Bat"
@@ -1248,15 +1250,15 @@ L["unlameifier_sound_tf2_batsaber_hit.printname"] = "Batsaber"
 L["unlameifier_sound_tf2_batsaber_hit.compactname"] = "Batsaber"
 -- L["unlameifier_sound_tf2_batsaber_hit.description"] = string.format(tf2desc.hit, "Batsaber") .. [[
 
--- "Energy Overwhelming!
--- Disintegrate your enemies"]]
+-- Energy Overwhelming!
+-- Disintegrate your enemies!]]
 
 L["unlameifier_sound_tf2_batsaber_swing.printname"] = "Batsaber"
 L["unlameifier_sound_tf2_batsaber_swing.compactname"] = "Batsaber"
 -- L["unlameifier_sound_tf2_batsaber_swing.description"] = string.format(tf2desc.swing, "Batsaber") .. tf2desc.crit30 .. [[
 
--- "Energy Overwhelming!
--- Disintegrate your enemies"]]
+-- Energy Overwhelming!
+-- Disintegrate your enemies!]]
 
 L["unlameifier_sound_tf2_blade_hit.printname"] = "Knife"
 L["unlameifier_sound_tf2_blade_hit.compactname"] = "Knife"

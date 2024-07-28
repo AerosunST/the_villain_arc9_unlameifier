@@ -877,7 +877,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "air_burster_shoot.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_air_burster")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sticky_quickie")
 
 -------------------
 
@@ -937,7 +937,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "ambassador_shoot.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_ambassador")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_revolver")
 
 -------------------
 
@@ -967,37 +967,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "bison_main_shot_01.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bison")
-
--------------------
-
-ATT = {}
-
-ATT.PrintName = "Righteous Bison"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
-
-table.Merge(ATT, sharedcode)
-
-gssf = {
-gsp .. "bison_main_shot_01.wav",
-gsp .. "bison_main_shot_02.wav",
-gsp .. "bison_main_shot_01.wav",
-gsp .. "bison_main_shot_02.wav",
-gsp .. "bison_main_shot_01.wav",
-gsp .. "bison_main_shot_02.wav",
-gsp .. "bison_main_shot_01.wav",
-gsp .. "bison_main_shot_02.wav",
-gsp .. "bison_main_shot_01.wav",
-gsp .. "bison_main_shot_crit.wav",
-}
-
-ATT.ShootSound = gssf
-ATT.ShootSoundIndoor = gssf
-ATT.ShootSoundSilenced = gssf
-ATT.ShootSoundSilencedIndoor = gssf
-ATT.InstallSound = gsp .. "bison_main_shot_01.wav",
-
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bison")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_righteousbison")
 
 -------------------
 
@@ -1057,7 +1027,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "capper_shoot.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_capper")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_pistol")
 
 -------------------
 
@@ -1078,7 +1048,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "cow_mangler_main_shot.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_cow_mangler")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_cowmangler")
 
 -------------------
 
@@ -1108,7 +1078,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "crusaders_crossbow_shoot.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_crusaders_crossbow")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_crusaderscrossbow")
 
 -------------------
 
@@ -1167,7 +1137,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "diamond_back_01.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_diamond_back")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dex_revolver")
 
 -------------------
 
@@ -1197,7 +1167,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "doom_flare_gun.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_flare_gun")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_scorchshot")
 
 -------------------
 
@@ -1227,7 +1197,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "doom_rocket_launcher.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_rocket_launcher")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dumpsterdevice")
 
 -------------------
 
@@ -1287,7 +1257,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "doom_scout_shotgun.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_scout_shotgun")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pep_scattergun")
 
 -------------------
 
@@ -1317,7 +1287,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "doom_sniper_rifle.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_sniper_rifle")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pro_sniperrifle")
 
 -------------------
 
@@ -1347,7 +1317,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "doom_sniper_smg.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_sniper_smg")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pro_smg")
 
 -------------------
 
@@ -1384,4 +1354,4 @@ ATT.ShootSoundTail = gsp .. "dragon_gun_motor_stop.wav"
 
 ATT.InstallSound = gsp .. "dragon_gun_motor_start.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dragon_gun_motor")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sd_minigun")

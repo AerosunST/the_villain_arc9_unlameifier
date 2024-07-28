@@ -38,7 +38,7 @@ gsp .. "3rd_degree_hit_04.wav",
 
 ATT.InstallSound = gsp .. "3rd_degree_hit_01.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_3rd_degree")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_thirddegree")
 
 -------------------
 
@@ -71,7 +71,7 @@ gsp .. "axe_hit_flesh3.wav",
 
 ATT.InstallSound = gsp .. "axe_hit_flesh1.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_axe_hit")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_fireaxe_hit")
 
 -------------------
 
@@ -108,7 +108,7 @@ gsp .. "ball_buster_hit_02.wav",
 
 ATT.InstallSound = gsp .. "ball_buster_hit_01.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_ball_buster_hit")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_ballbuster_hit")
 
 -------------------
 
@@ -180,7 +180,7 @@ gsp .. "batsaber_hit_world2.wav",
 
 ATT.InstallSound = gsp .. "batsaber_hit_world1.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_batsaber_hit")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_bat_hit")
 
 -------------------
 
@@ -220,7 +220,7 @@ gsp .. "batsaber_swing_crit3.wav",
 
 ATT.InstallSound = gsp .. "batsaber_swing1.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_batsaber_swing")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_bat_swing")
 
 -------------------
 
@@ -258,7 +258,7 @@ gsp .. "blade_hitworld.wav",
 
 ATT.InstallSound = gsp .. "blade_hit1.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_blade_hit")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_knife_hit")
 
 -------------------
 
@@ -295,7 +295,7 @@ gsp .. "blade_slice_4.wav",
 
 ATT.InstallSound = gsp .. "blade_slice_2.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_blade_slice_hit")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sword_axe_hit")
 
 -------------------
 

@@ -1146,96 +1146,96 @@ local tf2desc = {
 }
 
 -- Team Fortress 2 Firing Sounds
-L["unlameifier_sound_tf2_air_burster.printname"] = "Kvickbombsskjutaren"
-L["unlameifier_sound_tf2_air_burster.compactname"] = "Kvickbomb."
-L["unlameifier_sound_tf2_air_burster.description"] = string.format(tf2desc.shoot, "Kvickbombsskjutaren") .. tf2desc.crit
+L["unlameifier_sound_tf2_sticky_quickie.printname"] = "Kvickbombsskjutaren"
+L["unlameifier_sound_tf2_sticky_quickie.compactname"] = "Kvickbomb."
+L["unlameifier_sound_tf2_sticky_quickie.description"] = string.format(tf2desc.shoot, "Kvickbombsskjutaren") .. tf2desc.crit
 
 L["unlameifier_sound_tf2_airstrike.printname"] = "Luftangreppet"
 L["unlameifier_sound_tf2_airstrike.compactname"] = "Luftangrepp"
 L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "Luftangreppet") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_ambassador.printname"] = "Ambassadören"
-L["unlameifier_sound_tf2_ambassador.compactname"] = "Ambassadör"
-L["unlameifier_sound_tf2_ambassador.description"] = string.format(tf2desc.shoot, "Ambassadören") .. tf2desc.crit
+L["unlameifier_sound_tf2_achievement_revolver.printname"] = "Ambassadören"
+L["unlameifier_sound_tf2_achievement_revolver.compactname"] = "Ambassadör"
+L["unlameifier_sound_tf2_achievement_revolver.description"] = string.format(tf2desc.shoot, "Ambassadören") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_bison.printname"] = "Rättskaffens Bison"
-L["unlameifier_sound_tf2_bison.compactname"] = "Bison"
-L["unlameifier_sound_tf2_bison.description"] = string.format(tf2desc.shoot, "Rättskaffens Bison") .. tf2desc.crit
+L["unlameifier_sound_tf2_righteousbison.printname"] = "Rättskaffens Bison"
+L["unlameifier_sound_tf2_righteousbison.compactname"] = "Bison"
+L["unlameifier_sound_tf2_righteousbison.description"] = string.format(tf2desc.shoot, "Rättskaffens Bison") .. tf2desc.crit
 
 L["unlameifier_sound_tf2_bow.printname"] = "Båge"
 L["unlameifier_sound_tf2_bow.compactname"] = "Båge"
 L["unlameifier_sound_tf2_bow.description"] = "Ersätter skottljuden med dem från olika Bågar från Team Fortress 2." .. tf2desc.crit
 
-L["unlameifier_sound_tf2_capper.printname"] = "C.A.P.P.E.R"
-L["unlameifier_sound_tf2_capper.compactname"] = "C.A.P.P.E.R"
-L["unlameifier_sound_tf2_capper.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.Rn") .. tf2desc.crit .. [[
+L["unlameifier_sound_tf2_invasion_pistol.printname"] = "C.A.P.P.E.R"
+L["unlameifier_sound_tf2_invasion_pistol.compactname"] = "C.A.P.P.E.R"
+L["unlameifier_sound_tf2_invasion_pistol.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.Rn") .. tf2desc.crit .. [[
 
 Gör dina fiender till aska!]]
 
-L["unlameifier_sound_tf2_cow_mangler.printname"] = "Komanglaren 5000"
-L["unlameifier_sound_tf2_cow_mangler.compactname"] = "K. 5000"
-L["unlameifier_sound_tf2_cow_mangler.description"] = string.format(tf2desc.shoot, "Komanglaren 5000")
+L["unlameifier_sound_tf2_cowmangler.printname"] = "Komanglaren 5000"
+L["unlameifier_sound_tf2_cowmangler.compactname"] = "K. 5000"
+L["unlameifier_sound_tf2_cowmangler.description"] = string.format(tf2desc.shoot, "Komanglaren 5000")
 
-L["unlameifier_sound_tf2_crusaders_crossbow.printname"] = "Korsriddarens Armborst"
-L["unlameifier_sound_tf2_crusaders_crossbow.compactname"] = "Korsriddarens"
-L["unlameifier_sound_tf2_crusaders_crossbow.description"] = string.format(tf2desc.shoot, "Korsriddarens Armborst") .. tf2desc.crit
+L["unlameifier_sound_tf2_crusaderscrossbow.printname"] = "Korsriddarens Armborst"
+L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Korsriddarens"
+L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc.shoot, "Korsriddarens Armborst") .. tf2desc.crit
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "AWPekaren"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPekaren"
 L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPekaren") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_diamond_back.printname"] = "Diamondback"
-L["unlameifier_sound_tf2_diamond_back.compactname"] = "Diamondback"
-L["unlameifier_sound_tf2_diamond_back.description"] = string.format(tf2desc.shoot, "Diamondbacken") .. tf2desc.crit30
+L["unlameifier_sound_tf2_dex_revolver.printname"] = "Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.description"] = string.format(tf2desc.shoot, "Diamondbacken") .. tf2desc.crit30
 
-L["unlameifier_sound_tf2_doom_flare_gun.printname"] = "Svedskottet"
-L["unlameifier_sound_tf2_doom_flare_gun.compactname"] = "Svedskottet"
-L["unlameifier_sound_tf2_doom_flare_gun.description"] = string.format(tf2desc.shoot, "Svedskottet") .. tf2desc.crit
+L["unlameifier_sound_tf2_scorchshot.printname"] = "Svedskottet"
+L["unlameifier_sound_tf2_scorchshot.compactname"] = "Svedskottet"
+L["unlameifier_sound_tf2_scorchshot.description"] = string.format(tf2desc.shoot, "Svedskottet") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_doom_rocket_launcher.printname"] = "Den Ruinerades Raketgevär"
-L["unlameifier_sound_tf2_doom_rocket_launcher.compactname"] = "Ruinerades"
-L["unlameifier_sound_tf2_doom_rocket_launcher.description"] = string.format(tf2desc.shoot, "Den Ruinerades Raketgevär") .. tf2desc.crit
+L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Den Ruinerades Raketgevär"
+L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Ruinerades"
+L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "Den Ruinerades Raketgevär") .. tf2desc.crit
 
 L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Snyggingens Pangpistol"
 L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Snyggingens"
 L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Snyggingens Pangpistol") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_doom_scout_shotgun.printname"] = "Barnansiktets Blästrare"
-L["unlameifier_sound_tf2_doom_scout_shotgun.compactname"] = "Barnansiktets"
-L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2desc.shoot, "Barnansiktets Blästrare") .. tf2desc.crit
+L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Barnansiktets Blästrare"
+L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Barnansiktets"
+L["unlameifier_sound_tf2_pep_scattergun.description"] = string.format(tf2desc.shoot, "Barnansiktets Blästrare") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_doom_sniper_rifle.printname"] = "Torpedens Trogna"
-L["unlameifier_sound_tf2_doom_sniper_rifle.compactname"] = "Torpeden"
-L["unlameifier_sound_tf2_doom_sniper_rifle.description"] = string.format(tf2desc.shoot, "Torpedens Trogna") .. tf2desc.crit .. [[
+L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "Torpedens Trogna"
+L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "Torpeden"
+L["unlameifier_sound_tf2_pro_sniperrifle.description"] = string.format(tf2desc.shoot, "Torpedens Trogna") .. tf2desc.crit .. [[
 
 
 Huvuden kommer rulla.]]
 
-L["unlameifier_sound_tf2_doom_sniper_smg.printname"] = "Undanröjarens Umgänge"
-L["unlameifier_sound_tf2_doom_sniper_smg.compactname"] = "Undanröjarens"
-L["unlameifier_sound_tf2_doom_sniper_smg.description"] = string.format(tf2desc.shoot, "Undanröjarens Umgänge") .. tf2desc.crit
+L["unlameifier_sound_tf2_pro_smg.printname"] = "Undanröjarens Umgänge"
+L["unlameifier_sound_tf2_pro_smg.compactname"] = "Undanröjarens"
+L["unlameifier_sound_tf2_pro_smg.description"] = string.format(tf2desc.shoot, "Undanröjarens Umgänge") .. tf2desc.crit
 
-L["unlameifier_sound_tf2_dragon_gun_motor.printname"] = "Elddraksvärmaren"
-L["unlameifier_sound_tf2_dragon_gun_motor.compactname"] = "Elddraks."
-L["unlameifier_sound_tf2_dragon_gun_motor.description"] = string.format(tf2desc.shoot, "Elddraksvärmaren") .. tf2desc.crit
+L["unlameifier_sound_tf2_sd_minigun.printname"] = "Elddraksvärmaren"
+L["unlameifier_sound_tf2_sd_minigun.compactname"] = "Elddraks."
+L["unlameifier_sound_tf2_sd_minigun.description"] = string.format(tf2desc.shoot, "Elddraksvärmaren") .. tf2desc.crit
 
 -- Team Fortress 2 Melee Sounds
 L["unlameifier_folder_sounds_tf2_swing"] = "Ljudmodd/Swing/TF2"
 L["unlameifier_folder_sounds_tf2_impact"] = "Ljudmodd/Träffar/TF2"
 
-L["unlameifier_sound_tf2_3rd_degree.printname"] = "Tredje Graden"
-L["unlameifier_sound_tf2_3rd_degree.compactname"] = "Tredje Graden"
-L["unlameifier_sound_tf2_3rd_degree.description"] = string.format(tf2desc.hit, "Tredje Graden") .. [[
+L["unlameifier_sound_tf2_thirddegree.printname"] = "Tredje Graden"
+L["unlameifier_sound_tf2_thirddegree.compactname"] = "Tredje Graden"
+L["unlameifier_sound_tf2_thirddegree.description"] = string.format(tf2desc.hit, "Tredje Graden") .. [[
 
 Denna mirakulösa, materiehuggande manick bränner varje individuell atom som den klyver, och är en välsignelse för trädfällare, nybyggare och atomklyvare världen över.]]
 
-L["unlameifier_sound_tf2_axe_hit.printname"] = "Brandyxa"
-L["unlameifier_sound_tf2_axe_hit.compactname"] = "Brandyxa"
-L["unlameifier_sound_tf2_axe_hit.description"] = string.format(tf2desc.hit, "Brandyxan")
+L["unlameifier_sound_tf2_fireaxe_hit.printname"] = "Brandyxa"
+L["unlameifier_sound_tf2_fireaxe_hit.compactname"] = "Brandyxa"
+L["unlameifier_sound_tf2_fireaxe_hit.description"] = string.format(tf2desc.hit, "Brandyxan")
 
-L["unlameifier_sound_tf2_ball_buster_hit.printname"] = "Omslagsmördaren"
-L["unlameifier_sound_tf2_ball_buster_hit.compactname"] = "Omslagsm."
-L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Omslagsmördaren") .. [[
+L["unlameifier_sound_tf2_ballbuster_hit.printname"] = "Omslagsmördaren"
+L["unlameifier_sound_tf2_ballbuster_hit.compactname"] = "Omslagsm."
+L["unlameifier_sound_tf2_ballbuster_hit.description"] = string.format(tf2desc.hit, "Omslagsmördaren") .. [[
 
 Dessa underbara julprydnader är så vackert gjorda att dina fiender kommer vilja titta närmare på dem. Gör dem till viljes genom att slå iväg de bräckliga glaskulorna i ögonen på dem i 140 km/h.]]
 
@@ -1243,35 +1243,35 @@ L["unlameifier_sound_tf2_bat_hit.printname"] = "Slagträ"
 L["unlameifier_sound_tf2_bat_hit.compactname"] = "Slagträ"
 L["unlameifier_sound_tf2_bat_hit.description"] = string.format(tf2desc.hit, "Slagträt")
 
-L["unlameifier_sound_tf2_batsaber_hit.printname"] = "Ljus-slagträ"
-L["unlameifier_sound_tf2_batsaber_hit.compactname"] = "Ljus-slagträ"
-L["unlameifier_sound_tf2_batsaber_hit.description"] = string.format(tf2desc.hit, "Ljus-slagträt") .. [[
+L["unlameifier_sound_tf2_invasion_bat_hit.printname"] = "Ljus-slagträ"
+L["unlameifier_sound_tf2_invasion_bat_hit.compactname"] = "Ljus-slagträ"
+L["unlameifier_sound_tf2_invasion_bat_hit.description"] = string.format(tf2desc.hit, "Ljus-slagträt") .. [[
 
 "Energin översvämmar!
 Desintegrera dina fiender"]]
 
-L["unlameifier_sound_tf2_batsaber_swing.printname"] = "Ljus-slagträ"
-L["unlameifier_sound_tf2_batsaber_swing.compactname"] = "Ljus-slagträ"
-L["unlameifier_sound_tf2_batsaber_swing.description"] = string.format(tf2desc.swing, "Ljus-slagträt") .. tf2desc.crit30 .. [[
+L["unlameifier_sound_tf2_invasion_bat_swing.printname"] = "Ljus-slagträ"
+L["unlameifier_sound_tf2_invasion_bat_swing.compactname"] = "Ljus-slagträ"
+L["unlameifier_sound_tf2_invasion_bat_swing.description"] = string.format(tf2desc.swing, "Ljus-slagträt") .. tf2desc.crit30 .. [[
 
 "Energin översvämmar!
 Desintegrera dina fiender"]]
 
-L["unlameifier_sound_tf2_blade_hit.printname"] = "Kniv"
-L["unlameifier_sound_tf2_blade_hit.compactname"] = "Kniv"
-L["unlameifier_sound_tf2_blade_hit.description"] = string.format(tf2desc.hit, "Kniven")
+L["unlameifier_sound_tf2_knife_hit.printname"] = "Kniv"
+L["unlameifier_sound_tf2_knife_hit.compactname"] = "Kniv"
+L["unlameifier_sound_tf2_knife_hit.description"] = string.format(tf2desc.hit, "Kniven")
 
-L["unlameifier_sound_tf2_blade_slice_hit.printname"] = "Svärd / Yxa"
-L["unlameifier_sound_tf2_blade_slice_hit.compactname"] = "Svärd / Yxa"
-L["unlameifier_sound_tf2_blade_slice_hit.description"] = "Ersätter träffljuden med närstridsvapen med dem från olika Svärd och Yxor från Team Fortress 2."
+L["unlameifier_sound_tf2_sword_axe_hit.printname"] = "Svärd / Yxa"
+L["unlameifier_sound_tf2_sword_axe_hit.compactname"] = "Svärd / Yxa"
+L["unlameifier_sound_tf2_sword_axe_hit.description"] = "Ersätter träffljuden med närstridsvapen med dem från olika Svärd och Yxor från Team Fortress 2."
 
 L["unlameifier_sound_tf2_bottle_broken_hit.printname"] = "Flaska (Sönderslagen)"
 L["unlameifier_sound_tf2_bottle_broken_hit.compactname"] = "Flaska (S)"
 L["unlameifier_sound_tf2_bottle_broken_hit.description"] = string.format(tf2desc.hit, "sönderslagna Flaskan")
 
-L["unlameifier_sound_tf2_bottle_intact_hit.printname"] = "Flaska"
-L["unlameifier_sound_tf2_bottle_intact_hit.compactname"] = "Flaska"
-L["unlameifier_sound_tf2_bottle_intact_hit.description"] = string.format(tf2desc.hit, "Flaskan")
+L["unlameifier_sound_tf2_bottle_hit.printname"] = "Flaska"
+L["unlameifier_sound_tf2_bottle_hit.compactname"] = "Flaska"
+L["unlameifier_sound_tf2_bottle_hit.description"] = string.format(tf2desc.hit, "Flaskan")
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Spade"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Spade"

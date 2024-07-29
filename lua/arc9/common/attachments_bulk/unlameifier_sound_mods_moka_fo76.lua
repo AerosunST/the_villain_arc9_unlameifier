@@ -2,7 +2,7 @@ local ATT = {}
 
 sharedcode = {
 	Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth"),
-	Folder = "Unlameifier/Sound Mods/Fallout 76",
+	Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76"),
 	Description = "This is unlocalized!\nReplaces the firing sound of the weapon.",
 	AttNotForNPCs = true,
 

@@ -2,7 +2,7 @@ local ATT = {}
 
 sharedcode = {
 	Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth"),
-	Folder = "Unlameifier/Sound Mods/Fallout 76/Auto",
+	Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto"),
 	Description = "THIS IS A FALLOUT 4 & 76 TEST SOUND\n<color=255,125,125>EXPECT ERRORS</color>",
 	AttNotForNPCs = true,
 

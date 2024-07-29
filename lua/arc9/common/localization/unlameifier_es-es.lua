@@ -712,11 +712,11 @@ L["unlameifier_sound_neosun_bang.description"] = [[Se ha contratado al actor de 
 
 Este hace "bang".]]
 
-L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
-L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
+L["unlameifier_sound_neosun_gunshot.printname"] = "Disparo"
+L["unlameifier_sound_neosun_gunshot.compactname"] = "Disparo"
 L["unlameifier_sound_neosun_gunshot.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
-Este dice "gunshot" (del inglés, disparo de pistola).]]
+Este hace "paun".]]
 
 -- Misc.
 L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sonidos/Otros"
@@ -857,7 +857,7 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Sonidos sacados de la legendaria
 La leyenda nunca muere...]]
 
 -- Melee Sounds Misc (Impact)
-L["unlameifier.folder.sounds.melee.bonk"] = "Unlameifier/Sonidos/Impacto/Otros"
+L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sonidos/Impacto/Otros"
 
 L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
@@ -1105,6 +1105,9 @@ L["unlameifier_sound_dod_webley.description"] = "Cambia el sonido de disparo del
 
 -- Team Fortress 2
 L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sonidos/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sonidos/Oscilación/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sonidos/Impacto/TF2"
+
 -- L["unlameifier_tf2_scout"] = "/Scout"
 -- L["unlameifier_tf2_soldier"] = "/Soldier"
 -- L["unlameifier_tf2_pyro"] = "/Pyro"
@@ -1184,7 +1187,6 @@ L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2des
 L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "El Asesino a Sueldo"
 L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "Asesino"
 L["unlameifier_sound_tf2_pro_sniperrifle.description"] = string.format(tf2desc.shoot, "del Asesino a Sueldo") .. string.format(tf2desc.crit, 10) .. [[
-
 
 Rodarán cabezas.]]
 

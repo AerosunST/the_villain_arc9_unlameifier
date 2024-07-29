@@ -4,7 +4,7 @@ DA, Danish							N/A
 DE, German						N/A
 EL, Greek							N/A
 EN, English							Moka, Neosun
-ES-ES, Spanish					N/A
+ES-ES, Spanish					DyaMetR
 FI, Finnish							N/A
 FR, French							N/A
 HU, Hungarian					N/A

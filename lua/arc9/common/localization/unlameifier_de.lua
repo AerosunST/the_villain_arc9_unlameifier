@@ -358,12 +358,12 @@ Text in Line 2 ]]
 -- For the record, your soundcloud tracks are ass. Stop trying, please. You are not getting out of the hood with any of those.]]
 
 //////////////////////////////// unlameifier_eft_extras custom strings
--- L["unlameifier_folder_utilities"] = "Utilities"
--- L["unlameifier_folder_toys"] = "Toys"
--- L["unlameifier_folder_tracers"] = "Tracers"
+-- L["unlameifier.folder.utilities"] = "Unlameifier/Utilities"
+-- L["unlameifier.folder..toys"] = "Unlameifier/Toys"
+-- L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
 
--- L["unlameifier_folder_toys_impactdecals"] = "Toys/Impact Decals"
--- L["unlameifier_folder_tracers_modifiers"] = "Tracers/Modifiers"
+-- L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
+-- L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Tracers/Modifiers"
 
 -- L["unlameifier_attname_frontsight"] = "Front Sight"
 -- L["unlameifier_attname_rearsight"] = "Rear Sight"
@@ -379,7 +379,7 @@ Text in Line 2 ]]
 
 //////////////////////////////// unlameifier_sound_mods
 -- DOOM 1993
--- L["unlameifier_folder_sounds_doom"] = "Sound Mods/DOOM"
+-- L["unlameifier.folder.sounds.doom"] = "Unlameifier/Sound Mods/DOOM"
 
 -- L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
 -- L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
@@ -402,7 +402,7 @@ Text in Line 2 ]]
 -- L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
 
 -- Half-Life 2
--- L["unlameifier_folder_sounds_hl2"] = "Sound Mods/HL2"
+-- L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Sound Mods/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "9-mm-Pistole"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistole"
@@ -436,7 +436,7 @@ L["unlameifier_sound_hl2_xbow.compactname"] = "Armbrust"
 
 L["unlameifier_sound_hl2_ar22.printname"] = "SFS (Impulsgewehr) Energieball"
 L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
--- L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the AR2's Energy Ball from Half-Life 2 being shot.
+-- L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the Pulse-Rifle's Energy Ball from Half-Life 2 being shot.
 
 -- Don't point at allies unless you really hate them.]]
 
@@ -465,7 +465,7 @@ L["unlameifier_sound_hl2_smg.compactname"] = "SMG"
 -- Does not actually rapidly spam dynamite.]]
 
 -- Half-Life 1
--- L["unlameifier_folder_sounds_hl1"] = "Sound Mods/HL1"
+-- L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Sound Mods/HL1"
 
 -- L["unlameifier_sound_hl1_pistol.printname"] = "Pistol"
 -- L["unlameifier_sound_hl1_pistol.compactname"] = "Pistol"
@@ -540,7 +540,7 @@ L["unlameifier_sound_hl2_smg.compactname"] = "SMG"
 -- To be fair, there's weirder shit in Unlameifier to change your weapon's firing sound to. But you do you.]]
 
 -- Counter-Strike: Source
--- L["unlameifier_folder_sounds_css"] = "Sound Mods/CSS"
+-- L["unlameifier.folder.sounds.css"] = "Unlameifier/Sound Mods/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "9×19-mm-Pistole"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
@@ -723,7 +723,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- <color=150,150,255>Fun Fact</color>: In Source, the M249 does not have a stock.]]
 
 -- Neosun Mouth
--- L["unlameifier_folder_sounds_neosun"] = "Sound Mods/Neosun"
+-- L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sound Mods/Neosun"
 
 -- L["unlameifier_sound_neosun_pew.printname"] = "Pew"
 -- L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
@@ -744,7 +744,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- This one is "gunshot".]]
 
 -- Misc.
--- L["unlameifier_folder_sounds_misc"] = "Sound Mods/Misc."
+-- L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sound Mods/Misc."
 
 -- L["unlameifier_sound_misc_sussy.printname"] = "Deranged Madness"
 -- L["unlameifier_sound_misc_sussy.compactname"] = "Insanity"
@@ -802,7 +802,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
 -- Call of Duty: Modern Warfare 2 (2009)
--- L["unlameifier_folder_sounds_mw2"] = "Sound Mods/MW2"
+-- L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sound Mods/MW2"
 
 -- L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
 -- L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
@@ -811,7 +811,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
 
 -- Roblox
--- L["unlameifier_folder_sounds_roblox"] = "Sound Mods/Roblox"
+-- L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sound Mods/Roblox"
 
 -- L["unlameifier_sound_roblox_paintball.printname"] = "Paintball Gun"
 -- L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
@@ -844,7 +844,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- You might be able to play a song with it!]]
 
 -- Music
--- L["unlameifier_folder_sounds_music"] = "Sound Mods/Music"
+-- L["unlameifier.folder.sounds.music"] = "Unlameifier/Sound Mods/Music"
 
 -- L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
 -- L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
@@ -873,7 +873,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 -- KindredFlame
--- L["unlameifier_folder_sounds_ws"] = "Sound Mods/KindredFlame"
+-- L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sound Mods/KindredFlame"
 
 -- L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame's M16A4"
 -- L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
@@ -882,7 +882,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- The legend never dies...]]
 
 -- Melee Sounds Misc (Impact)
--- L["unlameifier_folder_sounds_melee_bonk"] = "Sound Mods/Impact/Misc."
+-- L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sound Mods/Impact/Misc."
 
 -- L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 -- L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
@@ -893,7 +893,7 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*."
 
 -- Melee Sounds JJBA (Swing)
--- L["unlameifier_folder_sounds_melee_jojo"] = "Sound Mods/Swing/JJBA"
+-- L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Swing/JJBA"
 
 -- L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
 -- L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
@@ -910,14 +910,14 @@ L["unlameifier_sound_css_m249.compactname"] = "M249"
 -- (kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
 
 -- Melee Sounds JJBA (Impact)
--- L["unlameifier_folder_sounds_melee_jojo"] = "Sound Mods/Impact/JJBA"
+-- L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Impact/JJBA"
 
 -- L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 -- L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
 -- L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
 
 -- Day of Defeat: Source
--- L["unlameifier_folder_sounds_dods"] = "Sound Mods/DoD:S"
+-- L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sound Mods/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = ".30 Cal"
 L["unlameifier_sound_dods_30cal.compactname"] = ".30 Cal"
@@ -959,8 +959,8 @@ L["unlameifier_sound_dods_mg42.printname"] = "MG42"
 L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
 -- L["unlameifier_sound_dods_mg42.description"] = "Changes the firing sound of the weapon to the MG42 from Day of Defeat: Source."
 
-L["unlameifier_sound_dods_mortar.printname"] = "Granatwerfer"
-L["unlameifier_sound_dods_mortar.compactname"] = "Granatwerfer"
+L["unlameifier_sound_dods_mortar.printname"] = "Mörser"
+L["unlameifier_sound_dods_mortar.compactname"] = "Mörser"
 -- L["unlameifier_sound_dods_mortar.description"] = "Changes the firing sound of the weapon to the Mortar from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mp40.printname"] = "MP40"
@@ -988,31 +988,31 @@ L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 -- L["unlameifier_sound_dods_thompson.description"] = "Changes the firing sound of the weapon to the Thompson from Day of Defeat: Source."
 
 -- Day of Defeat
--- L["unlameifier_folder_sounds_dod"] = "Sound Mods/DoD"
+-- L["unlameifier.folder.sounds.dod"] = "Unlameifier/Sound Mods/DoD"
 
 L["unlameifier_sound_dod_30cal.printname"] = "Kaliber 30"
 L["unlameifier_sound_dod_30cal.compactname"] = "Kal. 30"
 -- L["unlameifier_sound_dod_30cal.description"] = [[Changes the firing sound of the weapon to the .30 Cal from Day of Defeat.
 
--- "Ultimate covering fire is the ability of this class.  A single man in good position can stop an enemy attack in its tracks. With it's massive recoil, this weapon is best used with bipod deployed."]]
+-- "Diese Klasse zeichnet sich durch ihr Sperrfeuer aus. Ein einzelner Schütze in guter Position kann einen feindlichen Angriff zum Stillstand bringen. Aufgrund des gewaltigen Rückstoßes sollte diese Waffe stets mit Zweibein eingesetzt werden."]]
 
 L["unlameifier_sound_dod_bar.printname"] = "BAR"
 L["unlameifier_sound_dod_bar.compactname"] = "BAR"
 -- L["unlameifier_sound_dod_bar.description"] = [[Changes the firing sound of the weapon to the BAR from Day of Defeat.
 
--- "This class is meant to lay down cover fire for his fellow assaulting infantry. With the BAR's large round, this class can knock down 3 or 4 enemy soldiers at a time with one clip."]]
+-- "Die Aufgabe dieser Klasse ist es, ein Sperrfeuer für die nachrückende Infanterie aufzubauen. Durch die Feuerkraft des BAR kann diese Klasse mit einem Clip 3 bis 4 feindliche Soldaten auf einmal ausschalten."]]
 
 L["unlameifier_sound_dod_bren.printname"] = "Bren"
 L["unlameifier_sound_dod_bren.compactname"] = "Bren"
 -- L["unlameifier_sound_dod_bren.description"] = [[Changes the firing sound of the weapon to the Bren from Day of Defeat.
 
--- "Known for it's outstanding reliability and power, the Bren machine gun was the mainstay for the Commonwealth forces in WWII.  Used both as a light and heavy machine gun, the Bren gun is extremely adaptable to the situation and can be used in both defensive and offensive roles."]]
+-- "Das für seine überragende Zuverlässigkeit und Feuerleistung bekannte Bren-Maschinengewehr war der Rückhalt der Commonwealth-Truppen im 2. Weltkrieg. Das von dieser Klasse verwendete Bren-Maschinengewehr ist äußerst flexibel und kann sowohl als schweres als auch leichtes Maschinengewehr in Angriff und Verteidigung eingesetzt werden."]]
 
 L["unlameifier_sound_dod_carbine.printname"] = "M1-Karabiner"
 L["unlameifier_sound_dod_carbine.compactname"] = "M1-Karabiner"
 -- L["unlameifier_sound_dod_carbine.description"] = [[Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat.
 
--- "With the lighter recoil of the M1 Carbine, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+-- "Durch den geringeren Rückstoß des M1-Karabiners erzielt diese Klasse eine hohe Treffergenauigkeit und Feuergeschwindigkeit. Diese Klasse eignet sich besonders für den Straßenkampf auf kurze Distanz."]]
 
 L["unlameifier_sound_dod_colt.printname"] = "Colt 1911 Pistole"
 L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911 Pistole"
@@ -1022,43 +1022,43 @@ L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
 L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
 -- L["unlameifier_sound_dod_enfield.description"] = [[Changes the firing sound of the weapon to the Enfield from Day of Defeat.
 
--- "With the smoothest action in the world, this rifle was one of the most accurate of the war.  When compared to other bolt action rifles of the time, it's 10 round magazine gave it a distinct advantage in ammunition capacity."]]
+-- "Das für seine Leichtgängigkeit berühmte Gewehr war eine der genauesten Waffen des Kriegs. Anderen Bolzenwaffen seiner Zeit war das Lee Enfield durch sein 10-Schuss-Magazin deutlich überlegen."]]
 
 L["unlameifier_sound_dod_enfieldsniper.printname"] = "Enfield-Scharfschützengewehr"
 L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield-S."
 -- L["unlameifier_sound_dod_enfieldsniper.description"] = [[Changes the firing sound of the weapon to the Scoped Enfield from Day of Defeat.
 
--- "The Enfield was one of the finest sniper rifles of the war.  Fitted with a 4x power sniper scope, the No4(T) proved to be such a fine weapon that after the war it continued serving for many years as the British Army's sniper rifle."]]
+-- "Das Enfield war eines der besten Scharfschützengewehre des gesamten Kriegs. Das mit einem Scharfschützen-Zielfernrohr mit 4facher Vergrößerung ausgestattete No. 4 (T) bewährte sich so gut, dass es auch nach dem Krieg noch viele Jahre von der britischen Armee als Scharfschützengewehr eingesetzt wurde."]]
 
 L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
 L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
 -- L["unlameifier_sound_dod_fg42.description"] = [[Changes the firing sound of the weapon to the Fg42 from Day of Defeat.
 
--- "The Fg42 represented a huge stride in the advance of infantry small arms.  Using the full 8mm cartridge, this specialized weapon was reserved for Germany's elite Fallschirmjäger. This Fg42 can be used with the bipod for sustained cover fire.  The Fg42 was a very short compact weapon.  This compactness produced two effects, horrid recoil in automatic fire and the loudest muzzle blast of any weapon of the war.  Enemy soldiers immediately hit the dirt when they heard the titanic blast of this weapon.  The Fg42 is best used firing in short 2 to 3 shot bursts."]]
+-- "Das Fg 42 stellte einen großen Schritt in der Entwicklung kleinkalibriger Infanteriewaffen dar. Diese Spezialwaffe mit 8-mm-Geschossen war den Spezialverbänden der deutschen Fallschirmjäger vorbehalten. Mit einem Zweibein kann das Fg 42 auch im Dauersperrfeuer eingesetzt werden. Das Fg 42 war eine sehr kurze und kompakte Waffe. Dadurch ergaben sich zwei Besonderheiten: ein fürchterlicher Rückstoß bei Automatikfeuer und der lauteste Mündungsknall aller im Krieg eingesetzten Waffen. Bei diesem fürchterlichen Knall ging jeder feindliche Soldat sofort in Deckung. Am besten eignet sich das Fg 42 für Feuerstöße mit 2 bis 3 Schüssen."]]
 
 L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
 L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
 -- L["unlameifier_sound_dod_garand.description"] = [[Changes the firing sound of the weapon to the M1 Garand from Day of Defeat.
 
--- "Known as the 'rifle that won the war',  the Garand provides this class with semi-automatic one shot kill capability.  After learning to control the Garand's recoil, this weapon and class can turn the tide of a battle."]]
+-- "Das Garand gilt als das 'Gewehr, das den Krieg entschied'. Diese Klasse erhält damit eine äußerst feuerstarke halbautomatische Waffe.  Sobald der Schütze mit dem Rückstoß der Garand umzugehen weiß, hat diese Klasse mit dieser Waffe entscheidenden Einfluss auf den Ausgang des Gefechts."]]
 
 L["unlameifier_sound_dod_greasegun.printname"] = "Greasegun"
 L["unlameifier_sound_dod_greasegun.compactname"] = "Greasegun"
 -- L["unlameifier_sound_dod_greasegun.description"] = [[Changes the firing sound of the weapon to the Greasegun from Day of Defeat.
 
--- "With the lighter recoil and slower rate of fire of the Greasegun, this class can hit targets accurately with sustained fire.  This class is ideal for short range inner city fighting."]]
+-- "Durch den geringeren Rückstoß und die niedrigere Feuerrate der Greasegun erzielt diese Klasse eine hohe Treffgenauigkeit im Dauerfeuer. Diese Klasse eignet sich besonders für den Straßenkampf auf kurze Distanz."]]
 
 L["unlameifier_sound_dod_k43.printname"] = "K43"
 L["unlameifier_sound_dod_k43.compactname"] = "K43"
 -- L["unlameifier_sound_dod_k43.description"] = [[Changes the firing sound of the weapon to the K43 from Day of Defeat.
 
--- "Germany's reply to the US M1 Garand and Soviet SVT40 rifles, the K43 provides semi-automatic one shot kill capability.  After learning to control the K43's recoil, this weapon can turn the tide of a battle."]]
+-- "Mit dem K43, der deutschen Antwort auf das amerikanische M1 Garand und das sowjetische SVT40, verfügt diese Klasse über eine äußerst feuerstarke halbautomatische Waffe. Sobald der Schütze mit dem Rückstoß des K43 umzugehen weiß, kann diese Waffe den Ausgang eines Gefechts entscheidend beeinflussen."]]
 
 L["unlameifier_sound_dod_kar.printname"] = "K98"
 L["unlameifier_sound_dod_kar.compactname"] = "K98"
 -- L["unlameifier_sound_dod_kar.description"] = [[Changes the firing sound of the weapon to the K98 from Day of Defeat.
 
--- "The backbone of the Wehrmacht, the Kar 98 is characterized by it's pinpoint accuracy. This class rules the battlefield during long range encounters.  The added bayonet provides close in protection during house to house fighting."]]
+-- "Das Rückgrat der Wehrmacht, das Kar 98, zeichnet sich durch seine extrem hohe Zielgenauigkeit aus. Diese Klasse bestimmt das Geschehen bei Gefechten über große Entfernungen hinweg. Mit aufgesetztem Bajonett eignet sich das Gewehr auch zum Nah- und Häuserkampf."]]
 
 L["unlameifier_sound_dod_luger.printname"] = "Luger 08 Pistole"
 L["unlameifier_sound_dod_luger.compactname"] = "Luger 08 Pistole"
@@ -1068,68 +1068,71 @@ L["unlameifier_sound_dod_mg34.printname"] = "MG34"
 L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
 -- L["unlameifier_sound_dod_mg34.description"] = [[Changes the firing sound of the weapon to the MG34 from Day of Defeat.
 
--- "The MG34 was one of the best machine guns fielded during WWII.  The MG34 with drum can provide a steady stream of covering fire without the danger of barrel overheat."]]
+-- "Das MG34 war eines der besten während des 2. Weltkriegs eingesetzten Maschinengewehre. Das MG34 mit Trommelmagazin ermöglicht ein konstantes Sperrfeuer ohne Überhitzung des Laufs."]]
 
 L["unlameifier_sound_dod_mg42.printname"] = "MG42"
 L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
 -- L["unlameifier_sound_dod_mg42.description"] = [[Changes the firing sound of the weapon to the MG42 from Day of Defeat.
 
--- "The MG42 is one of the best machine guns ever fielded by any army in the history of warfare.  The MG42, with its 1200 rounds per minute rate of fire, lays down a wall of lead that is impenetrable.  Use extreme caution though, as the high rate of fire can lead to the barrel overheating."]]
+-- "Das MG34 war eines der besten jemals eingesetzten Maschinengewehre. Das MG42 mit einer Feuerrate von 1200 Schuss pro Minute erzeugt ein undurchdringbares Dauerfeuer. Dennoch ist Vorsicht geboten, da sich durch die hohe Feuerrate der Lauf überhitzen kann."]]
 
-L["unlameifier_sound_dod_mortar.printname"] = "Mortar"
-L["unlameifier_sound_dod_mortar.compactname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.printname"] = "Mörser"
+L["unlameifier_sound_dod_mortar.compactname"] = "Mörser"
 -- L["unlameifier_sound_dod_mortar.description"] = [[Changes the firing sound of the weapon to the Mortar from Day of Defeat.
 
--- "The infantryman's personal artillery, the mortar, gives soldiers in the field an extremely mobile, lethal, heavy-strike capability. This weapon is best utilized against hidden or bunkered enemy positions that normal infantry have trouble taking out. Snipers and machine gunners fear this weapon noted for its shrieking incoming whistle."]]
+-- "Mit dem Mörser, der persönlichen Artillerie des Infanteristen, verfügen die Soldaten im Feld über eine extrem mobile, tödliche und schlagkräftige Waffe. Diese Waffe wird vorzugsweise gegen versteckte oder verbunkerte Feindstellungen eingesetzt, die normale Infanterie nur schwer ausheben kann. Scharfschützen und MG-Schützen fürchten diese Waffe, die bei der Annäherung ein schrilles Pfeifen von sich gibt."]]
 
 L["unlameifier_sound_dod_mp40.printname"] = "MP40"
 L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
 -- L["unlameifier_sound_dod_mp40.description"] = [[Changes the firing sound of the weapon to the MP40 from Day of Defeat.
 
--- "With his low recoil Mp40, a soldier can manuever in and out of back alleys and through bombed out buildings while still hitting his target."]]
+-- "Ausgestattet mit der MP 40 mit geringem Rückstoß, kann sich diese Klasse flexibel durch Hinterhöfe und ausgebombte Gebäude bewegen und dabei dennoch ihr Ziel treffen."]]
 
 L["unlameifier_sound_dod_mp44.printname"] = "STG44"
 L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
 -- L["unlameifier_sound_dod_mp44.description"] = [[Changes the firing sound of the weapon to the STG44 from Day of Defeat.
 
--- "The first true assault rifle in history, this weapon can perform varying roles with effectiveness.  The Stg44's medium sized round provides knock down power while keeping recoil to a minimum.  The Stg44 is best used firing in short 2 to 3 shot bursts."]]
+-- "Ausgerüstet mit dem ersten echten Sturmgewehr in der Geschichte, kann diese Klasse verschiedene Aufgaben übernehmen. Das mittlere Kaliber des Stg 44 gewährleistet ausreichende Durchschlagskraft bei minimalem Rückstoß. Am besten eignet sich das Stg 44 für Feuerstöße mit 2 bis 3 Schüssen."]]
 
 L["unlameifier_sound_dod_piat.printname"] = "PIAT"
 L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
 -- L["unlameifier_sound_dod_piat.description"] = [[Changes the firing sound of the weapon to the PIAT from Day of Defeat.
 
--- "Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+-- "Raketenwaffen, im Verlauf des Krieges entwickelt, waren das perfekte Werkzeug zum Zerstören von Panzern und Fahrzeugen. In bestimmten Situationen konnten sie auch verwendet werden, um Löcher in Wände zu sprengen - als improvisierte Flucht- oder Angriffsroute."]]
 
 L["unlameifier_sound_dod_rocket.printname"] = "Raketen"
 L["unlameifier_sound_dod_rocket.compactname"] = "Raketen"
 -- L["unlameifier_sound_dod_rocket.description"] = [[Changes the firing sound of the weapon to the Bazooka and Panzerschreck from Day of Defeat.
 
--- "Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+-- "Raketenwaffen, im Verlauf des Krieges entwickelt, waren das perfekte Werkzeug zum Zerstören von Panzern und Fahrzeugen. In bestimmten Situationen konnten sie auch verwendet werden, um Löcher in Wände zu sprengen - als improvisierte Flucht- oder Angriffsroute."]]
 
 L["unlameifier_sound_dod_spring.printname"] = "Springfield"
 L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
 -- L["unlameifier_sound_dod_spring.description"] = [[Changes the firing sound of the weapon to the Springfield from Day of Defeat.
 
--- "This class hides in the shadows.  With his Springfield '03, this class is the lone wolf of the squad, venturing out on his own to rain unseen terror on opposing squads."]]
+-- "Diese Klasse operiert ausschließlich aus der Deckung heraus. Ausgerüstet mit dem Springfield 03 ist diese Klasse der Einzelgänger der Einheit, der im Alleingang Angst und Schrecken über gegnerische Einheiten bringt."]]
 
 L["unlameifier_sound_dod_sten.printname"] = "Sten"
 L["unlameifier_sound_dod_sten.compactname"] = "Sten"
 -- L["unlameifier_sound_dod_sten.description"] = [[Changes the firing sound of the weapon to the Sten from Day of Defeat.
 
--- "The venerable Sten Gun was developed to replace the costly to manufacture American Tommy Gun used by the British Army earier in the war.  Made almost entirely of sheet metal stampings, it is a lightweight, reliable submachine gun.  An excellent close in weapon, it was the choice for many commandos throughout the war."]]
+-- "Diese Klasse ist mit dem 'altehrwürdigen' Sten-Gewehr ausgerüstet. Das Sten wurde als Ersatz für die in der Herstellung sehr teuere amerikanische Tommy Gun entwickelt, die zu Beginn des Krieges von der britischen Armee eingesetzt wurde. Dieses leichte und zuverlässige Sub-Maschinengewehr besteht nahezu vollständig aus Metallpressteilen. Als exzellente Nahkampfwaffe war sie während des Kriegs erste Wahl für zahlreiche Kommandotruppen."]]
 
 L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
 -- L["unlameifier_sound_dod_thompson.description"] = [[Changes the firing sound of the weapon to the Thompson from Day of Defeat.
 
--- "With the lighter recoil of the Thompson, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+-- "Durch den geringeren Rückstoß des Thompson erzielt diese Klasse eine hohe Treffergenauigkeit und Feuergeschwindigkeit. Diese Klasse eignet sich besonders für den Straßenkampf auf kurze Distanz."]]
 
 L["unlameifier_sound_dod_webley.printname"] = "Webley-Revolver"
 L["unlameifier_sound_dod_webley.compactname"] = "Webley-Revolver"
 -- L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."
 
 -- Team Fortress 2
--- L["unlameifier_folder_sounds_tf2"] = "Sound Mods/TF2"
+-- L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sound Mods/TF2"
+-- L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sound Mods/Swing/TF2"
+-- L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sound Mods/Impact/TF2"
+
 -- L["unlameifier_tf2_scout"] = "/Scout"
 -- L["unlameifier_tf2_soldier"] = "/Soldier"
 -- L["unlameifier_tf2_pyro"] = "/Pyro"
@@ -1144,143 +1147,153 @@ local tf2desc = {
 	shoot = "Replaces the firing sounds with ones from the \"%s\" from Team Fortress 2.",
 	hit = "Replaces the melee hit sounds with ones from the \"%s\" from Team Fortress 2.",
 	swing = "Replaces the melee swing sounds with ones from the \"%s\" from Team Fortress 2.",
-	crit = "\n<color=153,204,255>~10% chance to play a crit sound</color>",
-	crit30 = "\n<color=153,204,255>~30% chance to play a crit sound</color>",
+	crit = "\n<color=153,204,255>~%s%% chance to play a crit sound</color>",
 }
 
 -- Team Fortress 2 Firing Sounds
-L["unlameifier_sound_tf2_air_burster.printname"] = "Der Hastbombenwerfer"
-L["unlameifier_sound_tf2_air_burster.compactname"] = "Hastbombenwerfer"
--- L["unlameifier_sound_tf2_air_burster.description"] = string.format(tf2desc.shoot, "Quickiebomb Launcher") .. tf2desc.crit
+L["unlameifier_sound_tf2_sticky_quickie.printname"] = "Der Hastbombenwerfer"
+L["unlameifier_sound_tf2_sticky_quickie.compactname"] = "Hastbombenwerfer"
+L["unlameifier_sound_tf2_sticky_quickie.description"] = string.format(tf2desc.shoot, "Quickiebomb Launcher") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_airstrike.printname"] = "Der Luftangriff"
 L["unlameifier_sound_tf2_airstrike.compactname"] = "Luftangriff"
--- L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "Air Strike") .. tf2desc.crit
+L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "Air Strike") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_ambassador.printname"] = "Ambassador"
-L["unlameifier_sound_tf2_ambassador.compactname"] = "Ambassador"
--- L["unlameifier_sound_tf2_ambassador.description"] = string.format(tf2desc.shoot, "Ambassador") .. tf2desc.crit
+L["unlameifier_sound_tf2_achievement_revolver.printname"] = "Ambassador"
+L["unlameifier_sound_tf2_achievement_revolver.compactname"] = "Ambassador"
+L["unlameifier_sound_tf2_achievement_revolver.description"] = string.format(tf2desc.shoot, "Ambassador") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_bison.printname"] = "Der rechtschaffene Bison"
-L["unlameifier_sound_tf2_bison.compactname"] = "Bison"
--- L["unlameifier_sound_tf2_bison.description"] = string.format(tf2desc.shoot, "Righteous Bison") .. tf2desc.crit
+L["unlameifier_sound_tf2_righteousbison.printname"] = "Der rechtschaffene Bison"
+L["unlameifier_sound_tf2_righteousbison.compactname"] = "Bison"
+L["unlameifier_sound_tf2_righteousbison.description"] = string.format(tf2desc.shoot, "Righteous Bison") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_bow.printname"] = "Bogen"
 L["unlameifier_sound_tf2_bow.compactname"] = "Bogen"
--- L["unlameifier_sound_tf2_bow.description"] = "Replaces the firing sounds with ones from various Bows from Team Fortress 2." .. tf2desc.crit
+-- L["unlameifier_sound_tf2_bow.description"] = "Replaces the firing sounds with ones from various Bows from Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_capper.printname"] = "Die C.A.P.P.E.R"
-L["unlameifier_sound_tf2_capper.compactname"] = "C.A.P.P.E.R"
--- L["unlameifier_sound_tf2_capper.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.R") .. tf2desc.crit .. [[
+L["unlameifier_sound_tf2_invasion_pistol.printname"] = "Die C.A.P.P.E.R"
+L["unlameifier_sound_tf2_invasion_pistol.compactname"] = "C.A.P.P.E.R"
+L["unlameifier_sound_tf2_invasion_pistol.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.R") .. string.format(tf2desc.crit, 10) .. [[
 
--- Verwandeln Sie Ihre Gegner in Asche!]]
+Verwandeln Sie Ihre Gegner in Asche!]]
 
-L["unlameifier_sound_tf2_cow_mangler.printname"] = "Der Kuhmetzler 5000"
-L["unlameifier_sound_tf2_cow_mangler.compactname"] = "K5000"
--- L["unlameifier_sound_tf2_cow_mangler.description"] = string.format(tf2desc.shoot, "Cow Mangler 5000")
+L["unlameifier_sound_tf2_cowmangler.printname"] = "Der Kuhmetzler 5000"
+L["unlameifier_sound_tf2_cowmangler.compactname"] = "K5000"
+L["unlameifier_sound_tf2_cowmangler.description"] = string.format(tf2desc.shoot, "Cow Mangler 5000")
 
-L["unlameifier_sound_tf2_crusaders_crossbow.printname"] = "Die Armbrust des Kreuzritters"
-L["unlameifier_sound_tf2_crusaders_crossbow.compactname"] = "Kreuzritters"
--- L["unlameifier_sound_tf2_crusaders_crossbow.description"] = string.format(tf2desc.shoot, "Crusader's Crossbow") .. tf2desc.crit
+L["unlameifier_sound_tf2_crusaderscrossbow.printname"] = "Die Armbrust des Kreuzritters"
+L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Kreuzritters"
+L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc.shoot, "Crusader's Crossbow") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "Der AWP-Schütze"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWP-Schütze"
--- L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. tf2desc.crit
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_diamond_back.printname"] = "Der Diamondback"
-L["unlameifier_sound_tf2_diamond_back.compactname"] = "Diamondback"
--- L["unlameifier_sound_tf2_diamond_back.description"] = string.format(tf2desc.shoot, "Diamondback") .. tf2desc.crit30
+L["unlameifier_sound_tf2_dex_revolver.printname"] = "Der Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.description"] = string.format(tf2desc.shoot, "Diamondback") .. string.format(tf2desc.crit, 30)
 
-L["unlameifier_sound_tf2_doom_flare_gun.printname"] = "Der Schmorschuss"
-L["unlameifier_sound_tf2_doom_flare_gun.compactname"] = "Schmorschuss"
--- L["unlameifier_sound_tf2_doom_flare_gun.description"] = string.format(tf2desc.shoot, "Scorch Shot") .. tf2desc.crit
+L["unlameifier_sound_tf2_scorchshot.printname"] = "Der Schmorschuss"
+L["unlameifier_sound_tf2_scorchshot.compactname"] = "Schmorschuss"
+L["unlameifier_sound_tf2_scorchshot.description"] = string.format(tf2desc.shoot, "Scorch Shot") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_rocket_launcher.printname"] = "Die Bettler-Bazooka"
-L["unlameifier_sound_tf2_doom_rocket_launcher.compactname"] = "Bettler"
--- L["unlameifier_sound_tf2_doom_rocket_launcher.description"] = string.format(tf2desc.shoot, "Beggar's Bazooka") .. tf2desc.crit
+L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Die Bettler-Bazooka"
+L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Bettler"
+L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "Beggar's Bazooka") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pretty Boys Taschenpistole"
 L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Pretty Boys"
--- L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. tf2desc.crit
+L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_shotgun.printname"] = "Babyfaces Ballermann"
-L["unlameifier_sound_tf2_doom_scout_shotgun.compactname"] = "Babyfaces"
--- L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2desc.shoot, "Baby Face's Blaster") .. tf2desc.crit
+L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Babyfaces Ballermann"
+L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Babyfaces"
+L["unlameifier_sound_tf2_pep_scattergun.description"] = string.format(tf2desc.shoot, "Baby Face's Blaster") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_sniper_rifle.printname"] = "Das Profi-Präzisionsgewehr"
-L["unlameifier_sound_tf2_doom_sniper_rifle.compactname"] = "Profi-Präz."
--- L["unlameifier_sound_tf2_doom_sniper_rifle.description"] = string.format(tf2desc.shoot, "Hitman's Heatmaker") .. tf2desc.crit .. [[
+L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "Das Profi-Präzisionsgewehr"
+L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "Profi-Präz."
+L["unlameifier_sound_tf2_pro_sniperrifle.description"] = string.format(tf2desc.shoot, "Hitman's Heatmaker") .. string.format(tf2desc.crit, 10) .. [[
 
 
--- Es werden Köpfe rollen.]]
+Es werden Köpfe rollen.]]
 
-L["unlameifier_sound_tf2_doom_sniper_smg.printname"] = "Der Cleaner-Karabiner"
-L["unlameifier_sound_tf2_doom_sniper_smg.compactname"] = "Cleaner"
--- L["unlameifier_sound_tf2_doom_sniper_smg.description"] = string.format(tf2desc.shoot, "Cleaner's Carbine") .. tf2desc.crit
+L["unlameifier_sound_tf2_pro_smg.printname"] = "Der Cleaner-Karabiner"
+L["unlameifier_sound_tf2_pro_smg.compactname"] = "Cleaner"
+L["unlameifier_sound_tf2_pro_smg.description"] = string.format(tf2desc.shoot, "Cleaner's Carbine") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_dragon_gun_motor.printname"] = "Der Feuerdrache"
-L["unlameifier_sound_tf2_dragon_gun_motor.compactname"] = "Feuerdrache"
--- L["unlameifier_sound_tf2_dragon_gun_motor.description"] = string.format(tf2desc.shoot, "Huo-Long Heater") .. tf2desc.crit
+L["unlameifier_sound_tf2_sd_minigun.printname"] = "Der Feuerdrache"
+L["unlameifier_sound_tf2_sd_minigun.compactname"] = "Feuerdrache"
+L["unlameifier_sound_tf2_sd_minigun.description"] = string.format(tf2desc.shoot, "Huo-Long Heater") .. string.format(tf2desc.crit, 10)
+
+L["unlameifier_sound_tf2_dragonsfury.printname"] = "Der Drachenzorn"
+L["unlameifier_sound_tf2_dragonsfury.compactname"] = "Drachen"
+L["unlameifier_sound_tf2_dragonsfury.description"] = string.format(tf2desc.shoot, "Dragon's Fury") .. string.format(tf2desc.crit, 10)
 
 -- Team Fortress 2 Melee Sounds
--- L["unlameifier_folder_sounds_tf2_swing"] = "Sound Mods/Swing/TF2"
--- L["unlameifier_folder_sounds_tf2_impact"] = "Sound Mods/Impact/TF2"
+L["unlameifier_sound_tf2_thirddegree.printname"] = "Der Dritte Grad"
+L["unlameifier_sound_tf2_thirddegree.compactname"] = "Dritte Grad"
+L["unlameifier_sound_tf2_thirddegree.description"] = string.format(tf2desc.hit, "Third Degree") .. [[
 
-L["unlameifier_sound_tf2_3rd_degree.printname"] = "Der Dritte Grad"
-L["unlameifier_sound_tf2_3rd_degree.compactname"] = "Dritte Grad"
--- L["unlameifier_sound_tf2_3rd_degree.description"] = string.format(tf2desc.hit, "Third Degree") .. [[
+Eine Wohltat für all die Holzfäller, Hinterwäldler und Atomspalter weltweit! Dieses wundersame Materie-Spaltgerät brennt sich durch jedes einzelne Molekül fachgerecht durch.]]
 
--- "Eine Wohltat für all die Holzfäller, Hinterwäldler und Atomspalter weltweit! Dieses wundersame Materie-Spaltgerät brennt sich durch jedes einzelne Molekül fachgerecht durch."]]
+L["unlameifier_sound_tf2_fireaxe_hit.printname"] = "Feueraxt"
+L["unlameifier_sound_tf2_fireaxe_hit.compactname"] = "Feueraxt"
+L["unlameifier_sound_tf2_fireaxe_hit.description"] = string.format(tf2desc.hit, "Fire Axe")
 
-L["unlameifier_sound_tf2_axe_hit.printname"] = "Feueraxt"
-L["unlameifier_sound_tf2_axe_hit.compactname"] = "Feueraxt"
--- L["unlameifier_sound_tf2_axe_hit.description"] = string.format(tf2desc.hit, "Fire Axe")
+L["unlameifier_sound_tf2_ballbuster_hit.printname"] = "Der Geschenkpapier-Meuchler"
+L["unlameifier_sound_tf2_ballbuster_hit.compactname"] = "Der GM"
+L["unlameifier_sound_tf2_ballbuster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin") .. [[
 
-L["unlameifier_sound_tf2_ball_buster_hit.printname"] = "Der Geschenkpapier-Meuchler"
-L["unlameifier_sound_tf2_ball_buster_hit.compactname"] = "Der GM"
--- L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "Wrap Assassin")
+Diese entzückende, festliche Dekoration ist so wundervoll gemacht, dass Ihre Gegner sie aus der Nähe sehen wollen. Geben Sie nach und jagen Sie ihnen diese zerbrechlichen Christbaumkugeln mit 140 km/h in die Augen.]]
 
 L["unlameifier_sound_tf2_bat_hit.printname"] = "Schläger"
 L["unlameifier_sound_tf2_bat_hit.compactname"] = "Schläger"
--- L["unlameifier_sound_tf2_bat_hit.description"] = string.format(tf2desc.hit, "Bat")
+L["unlameifier_sound_tf2_bat_hit.description"] = string.format(tf2desc.hit, "Bat")
 
-L["unlameifier_sound_tf2_batsaber_hit.printname"] = "Lichtschläger"
-L["unlameifier_sound_tf2_batsaber_hit.compactname"] = "Lichtschläger"
--- L["unlameifier_sound_tf2_batsaber_hit.description"] = string.format(tf2desc.hit, "Batsaber") .. [[
+L["unlameifier_sound_tf2_invasion_bat_hit.printname"] = "Lichtschläger"
+L["unlameifier_sound_tf2_invasion_bat_hit.compactname"] = "Lichtschläger"
+L["unlameifier_sound_tf2_invasion_bat_hit.description"] = string.format(tf2desc.hit, "Batsaber") .. [[
 
--- "Überwältigende Energie!
--- Lösen Sie Ihre Feinde in Luft auf!"]]
+Überwältigende Energie!
+Lösen Sie Ihre Feinde in Luft auf!]]
 
-L["unlameifier_sound_tf2_batsaber_swing.printname"] = "Lichtschläger"
-L["unlameifier_sound_tf2_batsaber_swing.compactname"] = "Lichtschläger"
--- L["unlameifier_sound_tf2_batsaber_swing.description"] = string.format(tf2desc.swing, "Batsaber") .. tf2desc.crit30 .. [[
+L["unlameifier_sound_tf2_invasion_bat_swing.description"] = string.format(tf2desc.swing, "Batsaber") .. string.format(tf2desc.crit, 30) .. [[
 
--- "Überwältigende Energie!
--- Lösen Sie Ihre Feinde in Luft auf!"]]
+Überwältigende Energie!
+Lösen Sie Ihre Feinde in Luft auf!]]
 
-L["unlameifier_sound_tf2_blade_hit.printname"] = "Messer"
-L["unlameifier_sound_tf2_blade_hit.compactname"] = "Messer"
--- L["unlameifier_sound_tf2_blade_hit.description"] = string.format(tf2desc.hit, "Knife")
+L["unlameifier_sound_tf2_knife_hit.printname"] = "Messer"
+L["unlameifier_sound_tf2_knife_hit.compactname"] = "Messer"
+L["unlameifier_sound_tf2_knife_hit.description"] = string.format(tf2desc.hit, "Knife")
 
-L["unlameifier_sound_tf2_blade_slice_hit.printname"] = "Schwert / Axt"
-L["unlameifier_sound_tf2_blade_slice_hit.compactname"] = "Schwert / Axt"
--- L["unlameifier_sound_tf2_blade_slice_hit.description"] = "Replaces the melee hit sounds with ones from various Swords and Axes from Team Fortress 2."
+L["unlameifier_sound_tf2_sword_axe_hit.printname"] = "Schwert / Axt"
+L["unlameifier_sound_tf2_sword_axe_hit.compactname"] = "Schwert / Axt"
+-- L["unlameifier_sound_tf2_sword_axe_hit.description"] = "Replaces the melee hit sounds with ones from various Swords and Axes from Team Fortress 2."
 
 L["unlameifier_sound_tf2_bottle_broken_hit.printname"] = "Flaschen (Kaputt)"
 L["unlameifier_sound_tf2_bottle_broken_hit.compactname"] = "Flaschen (K)"
--- L["unlameifier_sound_tf2_bottle_broken_hit.description"] = string.format(tf2desc.hit, "Bottle (Broken)")
+L["unlameifier_sound_tf2_bottle_broken_hit.description"] = string.format(tf2desc.hit, "Bottle (Broken)")
 
-L["unlameifier_sound_tf2_bottle_intact_hit.printname"] = "Flaschen"
-L["unlameifier_sound_tf2_bottle_intact_hit.compactname"] = "Flaschen"
--- L["unlameifier_sound_tf2_bottle_intact_hit.description"] = string.format(tf2desc.hit, "Bottle")
+L["unlameifier_sound_tf2_bottle_hit.printname"] = "Flaschen"
+L["unlameifier_sound_tf2_bottle_hit.compactname"] = "Flaschen"
+L["unlameifier_sound_tf2_bottle_hit.description"] = string.format(tf2desc.hit, "Bottle")
+
+L["unlameifier_sound_tf2_disciplinaryaction_hit.printname"] = "Die erzieherische Maßnahme"
+L["unlameifier_sound_tf2_disciplinaryaction_hit.compactname"] = "Erzieherische"
+L["unlameifier_sound_tf2_disciplinaryaction_hit.description"] = string.format(tf2desc.hit, "Disciplinary Action") .. string.format(tf2desc.crit, 20)
+
+L["unlameifier_sound_tf2_disciplinaryaction_swing.description"] = string.format(tf2desc.swing, "Disciplinary Action")
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Schaufel"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Schaufel"
--- L["unlameifier_sound_tf2_shovel_swing.description"] = "Replaces the melee swing sounds with ones from various Shovels from Team Fortress 2." .. tf2desc.crit
+-- L["unlameifier_sound_tf2_shovel_swing.description"] = "Replaces the melee swing sounds with ones from various Shovels from Team Fortress 2." .. string.format(tf2desc.crit, 10)
+
+L["unlameifier_sound_tf2_evictionnotice_hit.printname"] = "Der Räumungsbescheid"
+L["unlameifier_sound_tf2_evictionnotice_hit.compactname"] = "Räumungs."
+L["unlameifier_sound_tf2_evictionnotice_hit.description"] = string.format(tf2desc.swing, "Eviction Notice") .. string.format(tf2desc.crit, 40)
 
 -- Fallout 4 & 76
--- L["unlameifier_folder_sounds_fo4"] = "Sound Mods/Fallout 4"
--- L["unlameifier_folder_sounds_fo76"] = "Sound Mods/Fallout 76"
+-- L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sound Mods/Fallout 4"
+-- L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Sound Mods/Fallout 76"
 
 local fo76nosupp = "\n\n<color=255,150,150>Note</color>: Does not have suppressed sounds."
 
@@ -1438,7 +1451,7 @@ L["unlameifier_sound_fo76_rifle_railway.compactname"] = "Gleisgew."
 
 L["unlameifier_sound_fo76_rifle_gauss.printname"] = "Gaussgewehr"
 L["unlameifier_sound_fo76_rifle_gauss.compactname"] = "Gauss"
--- L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound of the weapon to the \"Gauss Rifle\" from Fallout 4 and 76." .. fo76nosupp
+-- L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound of the weapon to the \"Gauss Rifle\" from Fallout 4 and 76."
 
 L["unlameifier_sound_fo76_rifle_assault.printname"] = "Sturmgewehr"
 L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Sturmgew."

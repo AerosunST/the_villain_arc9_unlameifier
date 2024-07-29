@@ -986,7 +986,7 @@ L["unlameifier_sound_dod_bren.description"] = [[Cambia el sonido de disparo del 
 
 L["unlameifier_sound_dod_carbine.printname"] = "M1 Carbine"
 L["unlameifier_sound_dod_carbine.compactname"] = "M1 Carbine"
-L["unlameifier_sound_dod_carbine.description"] = [[Cambia el sonido de disparo del arma por el de la carabina M1 de Day of Defeat.
+L["unlameifier_sound_dod_carbine.description"] = [[Cambia el sonido de disparo del arma por el de la M1 Carbine de Day of Defeat.
 
 "Con el ligero retroceso de la Carabina M1, esta clase puede acertar a objetivos de manera rápida y precisa. Esta clase es ideal para peleas urbanas a cortas distancias."]]
 

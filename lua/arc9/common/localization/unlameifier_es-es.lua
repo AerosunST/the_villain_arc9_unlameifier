@@ -211,7 +211,7 @@ El resultado de un hilarante error de cálculo matemático.]]
 -- Effects
 L["eft_unlameifier_toys_dissolve.printname"] = "Efecto de disolución"
 L["eft_unlameifier_toys_dissolve.compactname"] = "Disolución"
-L["eft_unlameifier_toys_dissolve.description"] = "Hace que todo lo que mates se disuelva, como la bola de energía del rifle de pulsos. Por las risas :)"
+L["eft_unlameifier_toys_dissolve.description"] = "Hace que todo lo que mates se disuelva, como el impulso cargado del rifle de pulsos. Por las risas :)"
 
 L["eft_unlameifier_toys_remove_tool.printname"] = "Efecto de la herramienta de eliminar"
 L["eft_unlameifier_toys_remove_tool.compactname"] = "Eliminador"
@@ -227,7 +227,7 @@ L["eft_unlameifier_toys_lightning.printname"] = "Efecto de relámpago"
 L["eft_unlameifier_toys_lightning.compactname"] = "Relámpago"
 L["eft_unlameifier_toys_lightning.description"] = [[Al contrario de la chispa, este es MUCHO más violento. Combina eléctrico + disolución para un efecto de muerte espectacular. Por las risas :)
 
-Visualmente, esto tiene el mismo efecto como cuando matas algo con la súper pistola de gravedad. ¡Bastante chulo!]]
+Visualmente, esto tiene el mismo efecto como cuando matas algo con la súper arma gravitatoria. ¡Bastante chulo!]]
 
 -- Impact Decals
 L["eft_unlameifier_toys_impact_blood.printname"] = "Calcomanía de sangre"
@@ -379,19 +379,19 @@ L["unlameifier_sound_doom_rocket.description"] = "Cambia el sonido de disparo de
 -- Half-Life 2
 L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Sonidos/HL2"
 
-L["unlameifier_sound_hl2_pistol.printname"] = "Pistola de 9mm"
+L["unlameifier_sound_hl2_pistol.printname"] = "Pistola 9 mm"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistola"
 L["unlameifier_sound_hl2_pistol.description"] = [[Cambia el sonido de disparo del arma por el de la pistola de Half-Life 2.
 
 "Manos a la obra, señor Freeman... Manos... a la obra..."]]
 
-L["unlameifier_sound_hl2_357.printname"] = "Magnum del .357"
+L["unlameifier_sound_hl2_357.printname"] = "Magnum .357"
 L["unlameifier_sound_hl2_357.compactname"] = ".357"
-L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del arma por el de la .357 de Half-Life 2.
+L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del arma por el del .357 de Half-Life 2.
 
 Nombrar un arma tras el calibre que dispara es absolutamente estúpido. Esto es una Colt Python. Al contrario de la creencia popular, .357, el calibre, no es tan potente como crees que es.]]
 
-L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Rifle de pulsos)"
+L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de la Vigilancia (Rifle de pulsos)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
 L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma por el del rifle de pulsos de Half-Life 2.
 
@@ -409,13 +409,13 @@ L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del 
 
 Desafortunadamente, no te permite enganchar muñecos a las superficies.]]
 
-L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del rifle de pulsos"
+L["unlameifier_sound_hl2_ar22.printname"] = "Impulso cargado del rifle de pulsos"
 L["unlameifier_sound_hl2_ar22.compactname"] = "BE AR2"
-L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma por el de la bola de energía del rifle de pulsos de Half-Life 2 siendo disparada.
+L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma por el del impulso cargado del rifle de pulsos de Half-Life 2 siendo disparada.
 
 No apuntes a tus aliados a no ser que los odies de verdad.]]
 
-L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Granada propulsada por cohete)"
+L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Granada impulsada por cohetes)"
 L["unlameifier_sound_hl2_rpg.compactname"] = "Lanzacohetes"
 L["unlameifier_sound_hl2_rpg.description"] = [[Cambia el sonido de disparo del arma por el del lanzacohetes de Half-Life 2.
 
@@ -427,7 +427,7 @@ L["unlameifier_sound_hl2_shotgun.description"] = [[Cambia el sonido de disparo d
 
 Conocida por desafiar las leyes de la física disparando un segundo disparo a través del tubo de carga. No se recomienda intentarlo en la vida real.]]
 
-L["unlameifier_sound_hl2_smg.printname"] = "SMG (Subfusil)"
+L["unlameifier_sound_hl2_smg.printname"] = "SMG (Metralleta)"
 L["unlameifier_sound_hl2_smg.compactname"] = "Subfusil"
 L["unlameifier_sound_hl2_smg.description"] = [[Cambia el sonido de disparo del arma por el del subfusil de Half-Life 2.
 
@@ -673,9 +673,9 @@ Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: El sufijo de "Commando" no tiene sentido, ya que el Krieg 550 está representado como el SIG 550 de longitud completa.]]
 
-L["unlameifier_sound_css_awp.printname"] = "Fusil Francotirador Magnum"
+L["unlameifier_sound_css_awp.printname"] = "Rifle de Francotirador Magnum"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
-L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Fusil Francotirador Magnum de Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Rifle de Francotirador Magnum de Counter-Strike: Source.
 
 Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
@@ -894,13 +894,13 @@ L["unlameifier_sound_melee_jojo_impact.description"] = "Cambia el sonido de impa
 -- Day of Defeat: Source
 L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sonidos/DoD:S"
 
-L["unlameifier_sound_dods_30cal.printname"] = "Fusil del calibre .30"
+L["unlameifier_sound_dods_30cal.printname"] = "Rifle del calibre .30"
 L["unlameifier_sound_dods_30cal.compactname"] = "Calibre .30"
-L["unlameifier_sound_dods_30cal.description"] = "Cambia el sonido de disparo del arma por el del fusil del calibre .30 de Day of Defeat: Source."
+L["unlameifier_sound_dods_30cal.description"] = "Cambia el sonido de disparo del arma por el del rifle del calibre .30 de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_bar.printname"] = "BAR"
+L["unlameifier_sound_dods_bar.printname"] = "Rifle automático BAR"
 L["unlameifier_sound_dods_bar.compactname"] = "BAR"
-L["unlameifier_sound_dods_bar.description"] = "Cambia el sonido de disparo del arma por el del BAR de Day of Defeat: Source."
+L["unlameifier_sound_dods_bar.description"] = "Cambia el sonido de disparo del arma por el del rifle automático BAR de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_c96.printname"] = "C96"
 L["unlameifier_sound_dods_c96.compactname"] = "C96"
@@ -910,41 +910,41 @@ L["unlameifier_sound_dods_colt.printname"] = "Colt"
 L["unlameifier_sound_dods_colt.compactname"] = "Colt"
 L["unlameifier_sound_dods_colt.description"] = "Cambia el sonido de disparo del arma por el de la Colt de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_garand.printname"] = "Garand M1"
-L["unlameifier_sound_dods_garand.compactname"] = "Garand M1"
-L["unlameifier_sound_dods_garand.description"] = "Cambia el sonido de disparo del arma por el del Garand M1 de Day of Defeat: Source."
+L["unlameifier_sound_dods_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dods_garand.compactname"] = "M1 Garand"
+L["unlameifier_sound_dods_garand.description"] = "Cambia el sonido de disparo del arma por el del M1 Garand de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_grenade.printname"] = "Granada de fusil"
 L["unlameifier_sound_dods_grenade.compactname"] = "Granada de fusil"
 L["unlameifier_sound_dods_grenade.description"] = "Cambia el sonido de disparo del arma por el de la granada de fusil del Garand o el K98k de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_k98.printname"] = "K98k"
+L["unlameifier_sound_dods_k98.printname"] = "Rifle K98k"
 L["unlameifier_sound_dods_k98.compactname"] = "K98k"
-L["unlameifier_sound_dods_k98.description"] = "Cambia el sonido de disparo del arma por el del K98k de Day of Defeat: Source."
+L["unlameifier_sound_dods_k98.description"] = "Cambia el sonido de disparo del arma por el del rifle K98k de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_k98scoped.printname"] = "Fusil francotirador K98"
+L["unlameifier_sound_dods_k98scoped.printname"] = "Fusil de francotirador K98"
 L["unlameifier_sound_dods_k98scoped.compactname"] = "Franco. K98"
-L["unlameifier_sound_dods_k98scoped.description"] = "Cambia el sonido de disparo del arma por el del fusil francotirador K98 de Day of Defeat: Source."
+L["unlameifier_sound_dods_k98scoped.description"] = "Cambia el sonido de disparo del arma por el del fusil de francotirador K98 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_m1carbine.printname"] = "Carabina M1"
 L["unlameifier_sound_dods_m1carbine.compactname"] = "Carabina M1"
 L["unlameifier_sound_dods_m1carbine.description"] = "Cambia el sonido de disparo del arma por el de la carabina M1 de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_mg42.printname"] = "MG42"
+L["unlameifier_sound_dods_mg42.printname"] = "Ametralladora MG42"
 L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
-L["unlameifier_sound_dods_mg42.description"] = "Cambia el sonido de disparo del arma por el de la MG42 de Day of Defeat: Source."
+L["unlameifier_sound_dods_mg42.description"] = "Cambia el sonido de disparo del arma por el de la ametralladora MG42 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mortar.printname"] = "Mortero"
 L["unlameifier_sound_dods_mortar.compactname"] = "Mortero"
 L["unlameifier_sound_dods_mortar.description"] = "Cambia el sonido de disparo del arma por el del mortero de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_mp40.printname"] = "MP40"
+L["unlameifier_sound_dods_mp40.printname"] = "Ametralladora MP40"
 L["unlameifier_sound_dods_mp40.compactname"] = "MP40"
-L["unlameifier_sound_dods_mp40.description"] = "Cambia el sonido de disparo del arma por el del MP40 de Day of Defeat: Source."
+L["unlameifier_sound_dods_mp40.description"] = "Cambia el sonido de disparo del arma por el de la ametralladora MP40 de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_mp44.printname"] = "MP44"
+L["unlameifier_sound_dods_mp44.printname"] = "Fusil Stg44"
 L["unlameifier_sound_dods_mp44.compactname"] = "MP44"
-L["unlameifier_sound_dods_mp44.description"] = "Cambia el sonido de disparo del arma por el del MP44 de Day of Defeat: Source."
+L["unlameifier_sound_dods_mp44.description"] = "Cambia el sonido de disparo del arma por el del fusil Stg44 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_p38.printname"] = "P38"
 L["unlameifier_sound_dods_p38.compactname"] = "P38"
@@ -954,20 +954,21 @@ L["unlameifier_sound_dods_rocket.printname"] = "Bazuca"
 L["unlameifier_sound_dods_rocket.compactname"] = "Bazuca"
 L["unlameifier_sound_dods_rocket.description"] = "Cambia el sonido de disparo del arma por el del Bazuca y Panzershreck de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_spring.printname"] = "Springfield"
+L["unlameifier_sound_dods_spring.printname"] = "Rifle Springfield"
 L["unlameifier_sound_dods_spring.compactname"] = "Springfield"
-L["unlameifier_sound_dods_spring.description"] = "Cambia el sonido de disparo del arma por el del Springfield de Day of Defeat: Source."
+L["unlameifier_sound_dods_spring.description"] = "Cambia el sonido de disparo del arma por el del rifle Springfield de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
+L["unlameifier_sound_dods_thompson.printname"] = "Metralleta Thompson"
 L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Cambia el sonido de disparo del arma por el del Thompson de Day of Defeat: Source."
 
 -- Day of Defeat
+-- Translator note: for some reason, OG Day of Defeat spanish localization didn't translate all weapon names.
 L["unlameifier.folder.sounds.dod"] = "Unlameifier/Sonidos/DoD"
 
-L["unlameifier_sound_dod_30cal.printname"] = "Fusil de calibre .30"
-L["unlameifier_sound_dod_30cal.compactname"] = "Calibre .30"
-L["unlameifier_sound_dod_30cal.description"] = [[Cambia el sonido de disparo del arma por el del fusil de calibre .30 de Day of Defeat.
+L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.description"] = [[Cambia el sonido de disparo del arma por el del Cal .30 de Day of Defeat.
 
 "La habilidad de esta clase es el fuego de cobertura definitivo. Un solo hombre en una buena posición puede parar en seco un ataque enemigo. Con su retroceso masivo, es mejor usar esta arma con el bípode desplegado."]]
 
@@ -983,8 +984,8 @@ L["unlameifier_sound_dod_bren.description"] = [[Cambia el sonido de disparo del 
 
 "Conocida por su potencia y fiabilidad extraordinaria, la ametralladora Bren fue el pilar de las fuerzas de la Mancomunidad durante la Segunda Guerra Mundial. Usada tanto a modo de ametralladora ligera como pesada, la Bren es extremadamente adaptable a cada situación y puede usarse tanto en roles defensivos como ofensivos."]]
 
-L["unlameifier_sound_dod_carbine.printname"] = "Carabina M1"
-L["unlameifier_sound_dod_carbine.compactname"] = "Carabina M1"
+L["unlameifier_sound_dod_carbine.printname"] = "M1 Carbine"
+L["unlameifier_sound_dod_carbine.compactname"] = "M1 Carbine"
 L["unlameifier_sound_dod_carbine.description"] = [[Cambia el sonido de disparo del arma por el de la carabina M1 de Day of Defeat.
 
 "Con el ligero retroceso de la Carabina M1, esta clase puede acertar a objetivos de manera rápida y precisa. Esta clase es ideal para peleas urbanas a cortas distancias."]]
@@ -999,9 +1000,9 @@ L["unlameifier_sound_dod_enfield.description"] = [[Cambia el sonido de disparo d
 
 "Con el accionado más suave del mundo, este fusil fue uno de los más precisos en la guerra. Al compararlo con otros fusiles de cerrojo de la epoca, su cargador de 10 balas le daba una ventaja distintiva en capacidad de munición."]]
 
-L["unlameifier_sound_dod_enfieldsniper.printname"] = "Enfield con mira telescópica"
-L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield con mira"
-L["unlameifier_sound_dod_enfieldsniper.description"] = [[Cambia el sonido de disparo del arma por el del Enfield con mira telescópica de Day of Defeat.
+L["unlameifier_sound_dod_enfieldsniper.printname"] = "Scoped Enfield"
+L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield S."
+L["unlameifier_sound_dod_enfieldsniper.description"] = [[Cambia el sonido de disparo del arma por el del Scoped Enfield de Day of Defeat.
 
 "El Enfield era uno de los mejores fusiles de francotirador de la guerra. Equipado con una mira telescópica de 4 aumentos, el No4(T) demostró ser tan buen arma que continuó en servicio durante muchos años después de la guerra como el fusil francotirador del ejército británico."]]
 
@@ -1011,9 +1012,9 @@ L["unlameifier_sound_dod_fg42.description"] = [[Cambia el sonido de disparo del 
 
 "La Fg42 representó un salto enorme en el avance de armas pequeñas de infantería. Usando el cartucho entero de 8mm, esta arma especializada fue reservada por la Fallschirmjäger de élite de Alemania. Esta Fg42 puede ser usada con un bípode para proporcionar fuego de cobertura sostenida. La Fg42 fue un arma muy corta y compacta. El hecho de ser tan compacta produjo dos efecto, un retroceso horrible durante el fuego automático y el ruido más alto de cualquier arma de la guerra. Los soldados enemigos echaban el cuerpo a tierra inmediatamente al escuchar el titánico sonido de disparo de esta arma. La Fg42 es mejor empleada disparando ráfagas cortas de 2 o 3 disparos."]]
 
-L["unlameifier_sound_dod_garand.printname"] = "Garand M1"
-L["unlameifier_sound_dod_garand.compactname"] = "Garand M1"
-L["unlameifier_sound_dod_garand.description"] = [[Cambia el sonido de disparo del arma por el del Garand M1 de Day of Defeat.
+L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.description"] = [[Cambia el sonido de disparo del arma por el del M1 Garand de Day of Defeat.
 
 "Conocido como el 'fusil que ganó la guerra', el Garand proporciona a esa clase con la capacidad de matar con un solo disparo semiautomático. Tras aprender a controlar el retroceso del Garand, esta arma y clase pueden girar las tornas de una batalla."]]
 
@@ -1051,9 +1052,9 @@ L["unlameifier_sound_dod_mg42.description"] = [[Cambia el sonido de disparo del 
 
 "La MG42 es una de las mejores ametralladoras jamás utilizadas por ningún ejército en la historia de la guerra. La MG42, con su tasa de disparo de 1.200 disparos por minuto, crea una pared de plomo impenetrable. Sin embargo, ejerza extrema precaución, debido a que la tasa de disparo alta puede llevar a sobrecalentar el cañón."]]
 
-L["unlameifier_sound_dod_mortar.printname"] = "Mortero"
-L["unlameifier_sound_dod_mortar.compactname"] = "Mortero"
-L["unlameifier_sound_dod_mortar.description"] = [[Cambia el sonido de disparo del arma por el del mortero de Day of Defeat.
+L["unlameifier_sound_dod_mortar.printname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.compactname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.description"] = [[Cambia el sonido de disparo del arma por el del Mortar de Day of Defeat.
 
 "La artillería personal de infantería, el mortero, proporciona a los soldados en el campo una capacidad extremadamente móvil, letal y de ataque pesado. Esta arma es mejor utilizada contra posiciones ocultas o atrincheradas del enemigo que la infantería normal tiene problemas para eliminar. Los francotiradores y ametralladores temen esta arma conocida por su estridente silbido de caída de proyectil."]]
 

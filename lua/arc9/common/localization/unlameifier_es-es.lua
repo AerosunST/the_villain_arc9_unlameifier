@@ -1266,7 +1266,7 @@ L["unlameifier_sound_tf2_evictionnotice_hit.description"] = string.format(tf2des
 L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sonidos/Fallout 4"
 L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Sonidos/Fallout 76"
 
-local fo76nosupp = "\n\n<color=255,150,150>Nota</color>: No tienen sonidos de disparo con silenciador."
+local fo76nosupp = "\n\n<color=255,150,150>Nota</color>: No tiene sonidos de disparo con silenciador."
 
 L["unlameifier_sound_fo76_pistol_black_powder.printname"] = "Pistola de pólvora negra"
 L["unlameifier_sound_fo76_pistol_black_powder.compactname"] = "Pistola PN"

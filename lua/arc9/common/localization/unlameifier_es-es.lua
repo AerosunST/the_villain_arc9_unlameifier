@@ -1257,196 +1257,196 @@ L["unlameifier_sound_tf2_shovel_swing.description"] = "Reemplaza los sonidos de 
 L["unlameifier_folder_sounds_fo4"] = "Sonidos/Fallout 4"
 L["unlameifier_folder_sounds_fo76"] = "Sonidos/Fallout 76"
 
-local fo76nosupp = "\n\n<color=255,150,150>Nota</color>: No tienen sonidos silenciados."
+local fo76nosupp = "\n\n<color=255,150,150>Nota</color>: No tienen sonidos de disparo con silenciador."
 
 L["unlameifier_sound_fo76_pistol_black_powder.printname"] = "Pistola de pólvora negra"
 L["unlameifier_sound_fo76_pistol_black_powder.compactname"] = "Pistola PN"
--- L["unlameifier_sound_fo76_pistol_black_powder.description"] = "Changes the firing sound of the weapon to the \"Black Powder Pistol\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_black_powder.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola de pólvora negra\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_black_powder_dragon.printname"] = "El dragón"
 L["unlameifier_sound_fo76_rifle_black_powder_dragon.compactname"] = "Dragón"
--- L["unlameifier_sound_fo76_rifle_black_powder_dragon.description"] = "Changes the firing sound of the weapon to \"The Dragon\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.description"] = "Cambia el sonido de disparo del arma por el de \"El dragón\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_black_powder.printname"] = "Rifle de pólvora negra"
 L["unlameifier_sound_fo76_rifle_black_powder.compactname"] = "Rifle PN"
--- L["unlameifier_sound_fo76_rifle_black_powder.description"] = "Changes the firing sound of the weapon to the \"Black Powder Rifle\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_black_powder.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de pólvora negra\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_bow_cross.printname"] = "Ballesta"
 L["unlameifier_sound_fo76_bow_cross.compactname"] = "Ballesta"
--- L["unlameifier_sound_fo76_bow_cross.description"] = "Changes the firing sound of the weapon to the \"Crossbow\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_bow_cross.description"] = "Cambia el sonido de disparo del arma por el la \"Ballesta\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_bow_standard.printname"] = "Arco"
 L["unlameifier_sound_fo76_bow_standard.compactname"] = "Arco"
--- L["unlameifier_sound_fo76_bow_standard.description"] = "Changes the firing sound of the weapon to the \"Bow\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_bow_standard.description"] = "Cambia el sonido de disparo del arma por el del \"Arco\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_broadsider.printname"] = "Cañonero"
 L["unlameifier_sound_fo76_broadsider.compactname"] = "Cañonero"
--- L["unlameifier_sound_fo76_broadsider.description"] = "Changes the firing sound of the weapon to the \"Broadsider\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_broadsider.description"] = "Cambia el sonido de disparo del arma por el del \"Cañonero\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_fatman.printname"] = "Fat Man"
 L["unlameifier_sound_fo76_fatman.compactname"] = "Fat Man"
--- L["unlameifier_sound_fo76_fatman.description"] = "Changes the firing sound of the weapon to the \"Fat Man\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_fatman.description"] = "Cambia el sonido de disparo del arma por el del \"Fat Man\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_gatling.printname"] = "Ametralladora Gatling"
 L["unlameifier_sound_fo76_gatling.compactname"] = "Gatling"
--- L["unlameifier_sound_fo76_gatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Gun\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_gatling.description"] = "Cambia el sonido de disparo del arma por el de la \"Ametralladora Gatling\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_revolverpipe.printname"] = "Revólver de tubo"
 L["unlameifier_sound_fo76_revolverpipe.compactname"] = "Rev. tubo"
--- L["unlameifier_sound_fo76_revolverpipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Revolver\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_revolverpipe.description"] = "Cambia el sonido de disparo del arma por el del \"Revólver de tubo\" de Fallout 4 y 76."
 
 L["unlameifier_sound_fo76_riflepipe.printname"] = "Arma de tubo"
 L["unlameifier_sound_fo76_riflepipe.compactname"] = "Arma tubo"
--- L["unlameifier_sound_fo76_riflepipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_riflepipe.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de tubo\" de Fallout 4 y 76."
 
 L["unlameifier_sound_fo76_junkjet.printname"] = "Junk Jet"
 L["unlameifier_sound_fo76_junkjet.compactname"] = "Junk Jet"
--- L["unlameifier_sound_fo76_junkjet.description"] = "Changes the firing sound of the weapon to the \"Junk Jet\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_junkjet.description"] = "Cambia el sonido de disparo del arma por el del \"Junk Jet\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_grenadeautomatic.printname"] = "Lanzagranadas automático"
 L["unlameifier_sound_fo76_grenadeautomatic.compactname"] = "Lanzag. auto."
--- L["unlameifier_sound_fo76_grenadeautomatic.description"] = "Changes the firing sound of the weapon to the \"Auto Grenade Launcher\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_grenadeautomatic.description"] = "Cambia el sonido de disparo del arma por el del \"Lanzagranadas automático\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_grenadebreak.printname"] = "Lanzagranadas M79"
 L["unlameifier_sound_fo76_grenadebreak.compactname"] = "M79"
--- L["unlameifier_sound_fo76_grenadebreak.description"] = "Changes the firing sound of the weapon to the \"M79 Grenade Launcher\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_grenadebreak.description"] = "Cambia el sonido de disparo del arma por el del \"Lanzagranadas M79\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_missile.printname"] = "Lanzamisiles"
 L["unlameifier_sound_fo76_missile.compactname"] = "Misiles"
--- L["unlameifier_sound_fo76_missile.description"] = "Changes the firing sound of the weapon to the \"Missile Launcher\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_missile.description"] = "Cambia el sonido de disparo del arma por el del \"Lanzamisiles\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_10mm.printname"] = "Pistola de 10 mm"
 L["unlameifier_sound_fo76_pistol_10mm.compactname"] = "10 mm"
--- L["unlameifier_sound_fo76_pistol_10mm.description"] = "Changes the firing sound of the weapon to the \"10mm Pistol\" from Fallout 76."
+L["unlameifier_sound_fo76_pistol_10mm.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola de 10mm\" de Fallout 76."
 
 L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Bláster alienígena"
 L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"
--- L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Changes the firing sound of the weapon to the \"Alien Blaster\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Cambia el sonido de disparo del arma por el del \"Bláster alienígena\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "Inyector de tubo"
 L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "Inyector tubo"
--- L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Changes the firing sound of the weapon to the possible unused \"Pipe Syringer\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Cambia el sonido de disparo del arma por el arma probablemente sin usar \"Inyector de tubo\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_laser.printname"] = "Pistola láser"
 L["unlameifier_sound_fo76_pistol_laser.compactname"] = "Láser"
--- L["unlameifier_sound_fo76_pistol_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Pistol\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_laser.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola láser\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_10mm_covert.printname"] = "Pistola de 10 mm \"Deliverer\""
 L["unlameifier_sound_fo76_pistol_10mm_covert.compactname"] = "Deliverer"
--- L["unlameifier_sound_fo76_pistol_10mm_covert.description"] = "Changes the firing sound of the weapon to the \"Deliverer\" from Fallout 4."
+L["unlameifier_sound_fo76_pistol_10mm_covert.description"] = "Cambia el sonido de disparo del arma por el de la \"Deliverer\" de Fallout 4."
 
 L["unlameifier_sound_fo76_pistol_flaregun.printname"] = "Pistola de bengalas"
 L["unlameifier_sound_fo76_pistol_flaregun.compactname"] = "Pistola beng."
--- L["unlameifier_sound_fo76_pistol_flaregun.description"] = "Changes the firing sound of the weapon to the \"Flare Gun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_flaregun.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola de bengalas\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_fortyfour.printname"] = "Pistola del calibre .44"
 L["unlameifier_sound_fo76_pistol_fortyfour.compactname"] = "Pistola .44"
--- L["unlameifier_sound_fo76_pistol_fortyfour.description"] = "Changes the firing sound of the weapon to the \".44 Pistol\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_fortyfour.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola del calibre .44\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_gammagun.printname"] = "Arma gamma"
 L["unlameifier_sound_fo76_pistol_gammagun.compactname"] = "Arma gamma"
--- L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Cambia el sonido de disparo del arma por el de la \"Arma gamma\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_revolver.printname"] = "Revólver de acción simple"
 L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "Revólver AS"
--- L["unlameifier_sound_fo76_pistol_revolver.description"] = "Changes the firing sound of the weapon to the \"Single Action Revolver\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_revolver.description"] = "Cambia el sonido de disparo del arma por el del \"Revólver de acción simple\" de Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Communist Rifle\""
--- L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Communist\""
--- L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76."
+L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Fusil comunista\""
+L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Comunista\""
+L["unlameifier_sound_fo76_rifle_chinese.description"] = "Cambia el sonido de disparo del arma por el arma sin usar \"Fusil comunista\" de Fallout 76."
 
 L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Rifle de combate"
 L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Combate"
--- L["unlameifier_sound_fo76_rifle_combatrifle.description"] = "Changes the firing sound of the weapon to the \"Combat Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_combatrifle.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de combate\" de Fallout 4 y 76."
 
--- L["unlameifier_sound_fo76_rifle_hank.printname"] = "Unknown \"Hank\""
--- L["unlameifier_sound_fo76_rifle_hank.compactname"] = "Unknown \"Hank\""
--- L["unlameifier_sound_fo76_rifle_hank.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_hank.printname"] = "\"Hank\" desconocido"
+L["unlameifier_sound_fo76_rifle_hank.compactname"] = "\"Hank\" desconocido"
+L["unlameifier_sound_fo76_rifle_hank.description"] = "Cambia el sonido de disparo del arma por el de un arma sin identificar de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_huntinga.printname"] = "Rifle de caza"
 L["unlameifier_sound_fo76_rifle_huntinga.compactname"] = "Caza"
--- L["unlameifier_sound_fo76_rifle_huntinga.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_huntinga.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de caza\" de Fallout 4 y 76."
 
 L["unlameifier_sound_fo76_rifle_huntingb.printname"] = "Rifle de caza II"
 L["unlameifier_sound_fo76_rifle_huntingb.compactname"] = "Caza II"
--- L["unlameifier_sound_fo76_rifle_huntingb.description"] = "Changes the firing sound of the weapon to an alternative \"Hunting Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_huntingb.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de caza\" alternativo de Fallout 4 y 76."
 
-L["unlameifier_sound_fo76_rifle_huntinga_50cal.printname"] = "Rifle de caza (Armazón del calibre .50)"
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.printname"] = "Rifle de caza (Recámara del calibre .50)"
 L["unlameifier_sound_fo76_rifle_huntinga_50cal.compactname"] = "Caza .50"
--- L["unlameifier_sound_fo76_rifle_huntinga_50cal.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76 equipped with the \".50 Receiver\" mod."
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de caza\" de Fallout 4 y 76 equipada con la modificación \"Recámara de .50\"."
 
 L["unlameifier_sound_fo76_rifle_laser.printname"] = "Rifle láser"
 L["unlameifier_sound_fo76_rifle_laser.compactname"] = "R. Láser"
--- L["unlameifier_sound_fo76_rifle_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_laser.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle láser\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_musket.printname"] = "Mosquete láser I"
 L["unlameifier_sound_fo76_rifle_musket.compactname"] = "Mosquete I"
--- L["unlameifier_sound_fo76_rifle_musket.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 1 charge from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket.description"] = "Cambia el sonido de disparo del arma por el del \"Mosquete láser\" con una carga de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_musket2.printname"] = "Mosquete láser II"
 L["unlameifier_sound_fo76_rifle_musket2.compactname"] = "Mosquete II"
--- L["unlameifier_sound_fo76_rifle_musket2.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 2 charges from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket2.description"] = "Cambia el sonido de disparo del arma por el del \"Mosquete láser\" con dos cargas de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_musket3.printname"] = "Mosquete láser III"
 L["unlameifier_sound_fo76_rifle_musket3.compactname"] = "Mosquete III"
--- L["unlameifier_sound_fo76_rifle_musket3.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 3 charges from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket3.description"] = "Cambia el sonido de disparo del arma por el del \"Mosquete láser\" con tres cargas de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_musket4.printname"] = "Mosquete láser IV"
 L["unlameifier_sound_fo76_rifle_musket4.compactname"] = "Mosquete IV"
--- L["unlameifier_sound_fo76_rifle_musket4.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 4 charges from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket4.description"] = "Cambia el sonido de disparo del arma por el del \"Mosquete láser\" con cuatro cargas de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_machinegunlight.printname"] = "Ametralladora ligera"
-L["unlameifier_sound_fo76_rifle_machinegunlight.compactname"] = "Ametr. l."
--- L["unlameifier_sound_fo76_rifle_machinegunlight.description"] = "Changes the firing sound of the weapon to the \"Light Machine Gun\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_machinegunlight.compactname"] = "Ametralladora"
+L["unlameifier_sound_fo76_rifle_machinegunlight.description"] = "Cambia el sonido de disparo del arma por el del \"Ametralladora ligera\" de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_railway.printname"] = "Rifle de clavos"
 L["unlameifier_sound_fo76_rifle_railway.compactname"] = "Clavos"
--- L["unlameifier_sound_fo76_rifle_railway.description"] = "Changes the firing sound of the weapon to the \"Railway Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_railway.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de clavos\" de Fallout 4 y 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_redding.printname"] = "Unknown \"Redding\""
--- L["unlameifier_sound_fo76_rifle_redding.compactname"] = "Unknown \"Redding\""
--- L["unlameifier_sound_fo76_rifle_redding.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_redding.printname"] = "\"Redding\" desconocido"
+L["unlameifier_sound_fo76_rifle_redding.compactname"] = "\"Redding\" desconocido"
+L["unlameifier_sound_fo76_rifle_redding.description"] = "Cambia el sonido de disparo del arma por el de un arma sin identificar de Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_snipera.printname"] = "Unknown \"SniperA\""
--- L["unlameifier_sound_fo76_rifle_snipera.compactname"] = "Unknown \"SniperA\""
--- L["unlameifier_sound_fo76_rifle_snipera.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_snipera.printname"] = "\"SniperA\" desconocido"
+L["unlameifier_sound_fo76_rifle_snipera.compactname"] = "\"SniperA\" desconocido"
+L["unlameifier_sound_fo76_rifle_snipera.description"] = "Cambia el sonido de disparo del arma por el de un arma sin identificar de Fallout 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_gauss.printname"] = "Rifle Gauss"
 L["unlameifier_sound_fo76_rifle_gauss.compactname"] = "Gauss"
--- L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound of the weapon to the \"Gauss Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_gauss.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle Gauss\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_assault.printname"] = "Rifle de asalto"
 L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Asalto"
--- L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_assault.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle de asalto\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Arma de plasma"
 L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
--- L["unlameifier_sound_fo76_rifle_plasma.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_plasma_shotgun.printname"] = "Arma de plasma (Divisor)"
 L["unlameifier_sound_fo76_rifle_plasma_shotgun.compactname"] = "Plasma (Div.)"
--- L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" equipped with a \"Splitter\" barrel mod from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" equipped with a \"Splitter\" barrel mod de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_plasma_sniper.printname"] = "Arma de plasma (Francotirador)"
 L["unlameifier_sound_fo76_rifle_plasma_sniper.compactname"] = "Plasma (Franco.)"
--- L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" equipped with a \"Sniper\" barrel mod from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" equipped with a \"Sniper\" barrel mod de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_10mm.printname"] = "Subfusil de 10 mm"
 L["unlameifier_sound_fo76_rifle_10mm.compactname"] = "SF 10 mm"
--- L["unlameifier_sound_fo76_rifle_10mm.description"] = "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76."
+L["unlameifier_sound_fo76_rifle_10mm.description"] = "Cambia el sonido de disparo del arma por el del \"Subfusil de 10 mm\" de Fallout 76."
 
 L["unlameifier_sound_fo76_shotgun_doublebarrel.printname"] = "Escopeta de doble cañón"
 L["unlameifier_sound_fo76_shotgun_doublebarrel.compactname"] = "Escopeta DC"
--- L["unlameifier_sound_fo76_shotgun_doublebarrel.description"] = "Changes the firing sound of the weapon to the \"Double-Barreled Shotgun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_shotgun_doublebarrel.description"] = "Cambia el sonido de disparo del arma por el de la \"Escopeta de doble cañón\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_shotgun_pump.printname"] = "Escopeta de corredera"
 L["unlameifier_sound_fo76_shotgun_pump.compactname"] = "Escopeta corr."
--- L["unlameifier_sound_fo76_shotgun_pump.description"] = "Changes the firing sound of the weapon to the \"Pump Action Shotgun\" from Fallout 76."
+L["unlameifier_sound_fo76_shotgun_pump.description"] = "Cambia el sonido de disparo del arma por el de la \"Escopeta de corredera\" de Fallout 76."
 
 L["unlameifier_sound_fo76_shotgun_combat.printname"] = "Escopeta de combate"
 L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Escopeta combate"
--- L["unlameifier_sound_fo76_shotgun_combat.description"] = "Changes the firing sound of the weapon to the \"Combat Shotgun\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_shotgun_combat.description"] = "Cambia el sonido de disparo del arma por el de la \"Escopeta de combate\" de Fallout 4 y 76."
 
 L["unlameifier_sound_fo76_syringer.printname"] = "Inyector"
 L["unlameifier_sound_fo76_syringer.compactname"] = "Inyector"
--- L["unlameifier_sound_fo76_syringer.description"] = "Changes the firing sound of the weapon to the \"Syringer\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_syringer.description"] = "Cambia el sonido de disparo del arma por el del \"Inyector\" de Fallout 4 y 76." .. fo76nosupp

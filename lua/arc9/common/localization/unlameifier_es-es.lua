@@ -407,7 +407,7 @@ L["unlameifier_sound_hl2_xbow.printname"] = "Ballesta"
 L["unlameifier_sound_hl2_xbow.compactname"] = "Ballesta"
 L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del arma al de la ballesta de Half-Life 2.
 
-Tristemente, no te permite pegar muñecos a las superficies.]]
+Desafortunadamente, no te permite pegar muñecos a las superficies.]]
 
 L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del rifle de pulsos"
 L["unlameifier_sound_hl2_ar22.compactname"] = "BE AR2"
@@ -437,7 +437,7 @@ L["unlameifier_sound_hl2_airboat2.printname"] = "Cañón Gauss de la lancha moto
 L["unlameifier_sound_hl2_airboat2.compactname"] = "Lancha"
 L["unlameifier_sound_hl2_airboat2.description"] = [[Cambia el sonido de disparo del arma al del cañón Gauss de la lancha de Half-Life 2.
 
-En realidad no dispara dinamita rápidamente.]]
+En realidad no dispara rápidamente dinamita.]]
 
 -- Half-Life 1
 -- L["unlameifier_folder_sounds_hl1"] = "Sound Mods/HL1"

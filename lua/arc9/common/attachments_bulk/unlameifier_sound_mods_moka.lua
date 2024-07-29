@@ -32,7 +32,7 @@ sharedcode = {
 local gsp = "arc9/unlameifier/soundmods/dods/"
 
 ATT.PrintName = ".30 Cal"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -52,7 +52,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_30cal")
 ATT = {}
 
 ATT.PrintName = "BAR"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -72,7 +72,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_bar")
 ATT = {}
 
 ATT.PrintName = "C96"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -92,7 +92,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_c96")
 ATT = {}
 
 ATT.PrintName = "Colt"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -112,7 +112,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_colt")
 ATT = {}
 
 ATT.PrintName = "Garand"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -132,7 +132,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_garand")
 ATT = {}
 
 ATT.PrintName = "Rifle Grenade"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -152,7 +152,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_grenade")
 ATT = {}
 
 ATT.PrintName = "K98k"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -172,7 +172,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_k98")
 ATT = {}
 
 ATT.PrintName = "K98 Sniper Rifle"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -192,7 +192,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_k98scoped")
 ATT = {}
 
 ATT.PrintName = "M1 Carbine"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -212,7 +212,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_m1carbine")
 ATT = {}
 
 ATT.PrintName = "MG42"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -232,7 +232,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_mg42")
 ATT = {}
 
 ATT.PrintName = "Mortar"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -252,7 +252,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_mortar")
 ATT = {}
 
 ATT.PrintName = "MP40"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -272,7 +272,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_mp40")
 ATT = {}
 
 ATT.PrintName = "MP44"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -292,7 +292,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_mp44")
 ATT = {}
 
 ATT.PrintName = "P38"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -312,7 +312,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_p38")
 ATT = {}
 
 ATT.PrintName = "Bazooka"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -332,7 +332,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_rocket")
 ATT = {}
 
 ATT.PrintName = "Springfield"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -352,7 +352,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dods_spring")
 ATT = {}
 
 ATT.PrintName = "Thompson"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dods")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dods")
 
 table.Merge(ATT, sharedcode)
 
@@ -373,7 +373,7 @@ gsp = "arc9/unlameifier/soundmods/dod/"
 ATT = {}
 
 ATT.PrintName = ".30 Cal"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -393,7 +393,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_30cal")
 ATT = {}
 
 ATT.PrintName = "BAR"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -413,7 +413,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_bar")
 ATT = {}
 
 ATT.PrintName = "Bren"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -433,7 +433,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_bren")
 ATT = {}
 
 ATT.PrintName = "M1 Carbine"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -453,7 +453,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_carbine")
 ATT = {}
 
 ATT.PrintName = "Colt"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -473,7 +473,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_colt")
 ATT = {}
 
 ATT.PrintName = "Enfield"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -493,7 +493,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_enfield")
 ATT = {}
 
 ATT.PrintName = "Enfield Scoped"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -513,7 +513,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_enfieldsniper")
 ATT = {}
 
 ATT.PrintName = "Fg42"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -533,7 +533,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_fg42")
 ATT = {}
 
 ATT.PrintName = "M1 Garand"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -553,7 +553,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_garand")
 ATT = {}
 
 ATT.PrintName = "Greasegun"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -573,7 +573,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_greasegun")
 ATT = {}
 
 ATT.PrintName = "K43"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -593,7 +593,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_k43")
 ATT = {}
 
 ATT.PrintName = "K98"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -613,7 +613,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_kar")
 ATT = {}
 
 ATT.PrintName = "Luger"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -633,7 +633,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_luger")
 ATT = {}
 
 ATT.PrintName = "MG34"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -653,7 +653,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_mg34")
 ATT = {}
 
 ATT.PrintName = "MG42"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -673,7 +673,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_mg42")
 ATT = {}
 
 ATT.PrintName = "Mortar"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -693,7 +693,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_mortar")
 ATT = {}
 
 ATT.PrintName = "MP40"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -713,7 +713,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_mp40")
 ATT = {}
 
 ATT.PrintName = "STG44"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -733,7 +733,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_mp44")
 ATT = {}
 
 ATT.PrintName = "PIAT"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -753,7 +753,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_piat")
 ATT = {}
 
 ATT.PrintName = "Rocket"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -773,7 +773,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_rocket")
 ATT = {}
 
 ATT.PrintName = "Springfield"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -793,7 +793,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_spring")
 ATT = {}
 
 ATT.PrintName = "Sten"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -813,7 +813,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_sten")
 ATT = {}
 
 ATT.PrintName = "Thompson"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -833,7 +833,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_dod_thompson")
 ATT = {}
 
 ATT.PrintName = "Webley"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_dod")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.dod")
 
 table.Merge(ATT, sharedcode)
 
@@ -854,7 +854,7 @@ gsp = "arc9/unlameifier/soundmods/tf2/"
 ATT = {}
 
 ATT.PrintName = "Quickiebomb Launcher"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
 
 table.Merge(ATT, sharedcode)
 
@@ -884,7 +884,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sticky_quickie")
 ATT = {}
 
 ATT.PrintName = "Air Strike"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
 
 table.Merge(ATT, sharedcode)
 
@@ -914,7 +914,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_airstrike")
 ATT = {}
 
 ATT.PrintName = "Ambassador"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
 
 table.Merge(ATT, sharedcode)
 
@@ -944,7 +944,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_revolver")
 ATT = {}
 
 ATT.PrintName = "Righteous Bison"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
 
 table.Merge(ATT, sharedcode)
 
@@ -974,7 +974,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_righteousbison")
 ATT = {}
 
 ATT.PrintName = "Bows"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
 
 table.Merge(ATT, sharedcode)
 
@@ -1004,7 +1004,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bow")
 ATT = {}
 
 ATT.PrintName = "C.A.P.P.E.R"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2")
 
 table.Merge(ATT, sharedcode)
 
@@ -1034,7 +1034,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_pistol")
 ATT = {}
 
 ATT.PrintName = "Cow Mangler 5000"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
 
 table.Merge(ATT, sharedcode)
 
@@ -1055,7 +1055,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_cowmangler")
 ATT = {}
 
 ATT.PrintName = "Crusader's Crossbow"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_medic")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_medic")
 
 table.Merge(ATT, sharedcode)
 
@@ -1085,7 +1085,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_crusaderscrossbow")
 ATT = {}
 
 ATT.PrintName = "AWPer Hand"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
 
 table.Merge(ATT, sharedcode)
 
@@ -1115,7 +1115,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_csgo_awp")
 ATT = {}
 
 ATT.PrintName = "Diamondback"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
 
 table.Merge(ATT, sharedcode)
 
@@ -1144,7 +1144,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dex_revolver")
 ATT = {}
 
 ATT.PrintName = "Scorch Shot"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
 
 table.Merge(ATT, sharedcode)
 
@@ -1174,7 +1174,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_scorchshot")
 ATT = {}
 
 ATT.PrintName = "Beggar's Bazooka"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
 
 table.Merge(ATT, sharedcode)
 
@@ -1204,7 +1204,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dumpsterdevice")
 ATT = {}
 
 ATT.PrintName = "Pretty Boy's Pocket Pistol"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
 
 table.Merge(ATT, sharedcode)
 
@@ -1234,7 +1234,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_scout_pistol")
 ATT = {}
 
 ATT.PrintName = "Baby Face's Blaster"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
 
 table.Merge(ATT, sharedcode)
 
@@ -1264,7 +1264,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pep_scattergun")
 ATT = {}
 
 ATT.PrintName = "Hitman's Heatmaker"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
 
 table.Merge(ATT, sharedcode)
 
@@ -1294,7 +1294,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pro_sniperrifle")
 ATT = {}
 
 ATT.PrintName = "Cleaner's Carbine"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
 
 table.Merge(ATT, sharedcode)
 
@@ -1324,7 +1324,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pro_smg")
 ATT = {}
 
 ATT.PrintName = "Huo-Long Heater"
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
 
 table.Merge(ATT, sharedcode)
 
@@ -1355,3 +1355,33 @@ ATT.ShootSoundTail = gsp .. "dragon_gun_motor_stop.wav"
 ATT.InstallSound = gsp .. "dragon_gun_motor_start.wav"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sd_minigun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Dragon's Fury"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot.wav",
+gsp .. "dragons_fury_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "dragons_fury_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dragonsfury")

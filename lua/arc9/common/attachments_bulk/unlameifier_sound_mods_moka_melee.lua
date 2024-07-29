@@ -5,7 +5,7 @@ local gsp = "arc9/unlameifier/soundmods/tf2/"
 
 ATT.PrintName = "Third Degree"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -46,7 +46,7 @@ ATT = {}
 
 ATT.PrintName = "Fire Axe Impact"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -79,7 +79,7 @@ ATT = {}
 
 ATT.PrintName = "Wrap Assassin Impact"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_scout")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -116,7 +116,7 @@ ATT = {}
 
 ATT.PrintName = "Bat Impact"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_scout")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -151,7 +151,7 @@ ATT = {}
 
 ATT.PrintName = "Batsaber Impact"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_scout")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -188,7 +188,7 @@ ATT = {}
 
 ATT.PrintName = "Batsaber Swing"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_swing") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.swing") .. ARC9:GetPhrase("unlameifier_tf2_scout")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -228,7 +228,7 @@ ATT = {}
 
 ATT.PrintName = "Knife Hit"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_spy")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_spy")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -264,46 +264,9 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_knife_hit")
 
 ATT = {}
 
-ATT.PrintName = "Sword & Axe Hit"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_spy")
-ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
-ATT.SortOrder = 1
-ATT.AttNotForNPCs = true
-
-ATT.MenuCategory = "ARC9 - Unlameifier"
-
-ATT.Category = {"eft_custom_slot_melee"}
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
-        Pos = Vector(0, 0, 2),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot_melee"},
-    },
-}
-
-ATT.MeleeHitSound = { 
-gsp .. "blade_slice_2.wav",
-gsp .. "blade_slice_3.wav",
-gsp .. "blade_slice_4.wav",
-}
-
--- ATT.MeleeHitWallSound = { 
--- gsp .. "blade_hitworld.wav",
--- }
-
-ATT.InstallSound = gsp .. "blade_slice_2.wav"
-
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sword_axe_hit")
-
--------------------
-
-ATT = {}
-
 ATT.PrintName = "Bottle Broken Hit"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_impact") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_demo")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
@@ -340,9 +303,246 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bottle_broken_hit")
 
 ATT = {}
 
+ATT.PrintName = "Bottle Hit"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitSound = { 
+gsp .. "bottle_intact_hit_flesh1.wav",
+gsp .. "bottle_intact_hit_flesh2.wav",
+gsp .. "bottle_intact_hit_flesh3.wav",
+}
+
+ATT.MeleeHitWallSound = { 
+gsp .. "bottle_intact_hit_world1.wav",
+gsp .. "bottle_intact_hit_world2.wav",
+}
+
+ATT.InstallSound = gsp .. "bottle_intact_hit_world1.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bottle_hit")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Sword Hit"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitSound = { 
+gsp .. "blade_slice_2.wav",
+gsp .. "blade_slice_3.wav",
+gsp .. "blade_slice_4.wav",
+}
+
+ATT.MeleeHitWallSound = { 
+gsp .. "demo_sword_hit_world1.wav",
+gsp .. "demo_sword_hit_world2.wav",
+}
+
+ATT.InstallSound = gsp .. "blade_slice_2.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sword_hit")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Sword Swing"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.swing") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeSwingSound = { 
+gsp .. "demo_sword_swing1.wav",
+gsp .. "demo_sword_swing2.wav",
+gsp .. "demo_sword_swing3.wav",
+gsp .. "demo_sword_swing1.wav",
+gsp .. "demo_sword_swing2.wav",
+gsp .. "demo_sword_swing3.wav",
+gsp .. "demo_sword_swing1.wav",
+gsp .. "demo_sword_swing2.wav",
+gsp .. "demo_sword_swing3.wav",
+gsp .. "demo_sword_swing_crit.wav",
+}
+
+ATT.InstallSound = gsp .. "demo_sword_swing1.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sword_swing")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Disciplinary Action Hit"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitSound = { 
+gsp .. "discipline_device_impact_01.wav",
+gsp .. "discipline_device_impact_02.wav",
+gsp .. "discipline_device_impact_01.wav",
+gsp .. "discipline_device_impact_02.wav",
+gsp .. "discipline_device_impact_01.wav",
+gsp .. "discipline_device_impact_02.wav",
+gsp .. "discipline_device_impact_01.wav",
+gsp .. "discipline_device_impact_02.wav",
+gsp .. "discipline_device_impact_crit_01.wav",
+gsp .. "discipline_device_impact_crit_02.wav",
+}
+
+ATT.MeleeHitWallSound = { 
+gsp .. "discipline_device_hit_world.wav",
+}
+
+ATT.InstallSound = gsp .. "discipline_device_impact_01.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_disciplinaryaction_hit")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Disciplinary Action Swing"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeSwingSound = { 
+gsp .. "discipline_device_woosh_01.wav",
+gsp .. "discipline_device_woosh_02.wav",
+}
+
+ATT.InstallSound = gsp .. "discipline_device_woosh_01.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_disciplinaryaction_swing")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Eviction Notice Hit"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.impact") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
+ATT.SortOrder = 1
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot_melee"}
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.MeleeHitSound = { 
+gsp .. "eviction_notice_01.wav",
+gsp .. "eviction_notice_02.wav",
+gsp .. "eviction_notice_03.wav",
+gsp .. "eviction_notice_04.wav",
+gsp .. "eviction_notice_01.wav",
+gsp .. "eviction_notice_02.wav",
+gsp .. "eviction_notice_01_crit.wav",
+gsp .. "eviction_notice_02_crit.wav",
+gsp .. "eviction_notice_03_crit.wav",
+gsp .. "eviction_notice_04_crit.wav",
+}
+
+ATT.MeleeHitWallSound = { 
+gsp .. "fist_hit_world1.wav",
+gsp .. "fist_hit_world2.wav",
+}
+
+ATT.InstallSound = gsp .. "eviction_notice_01.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_evictionnotice_hit")
+
+-------------------
+
+ATT = {}
+
 ATT.PrintName = "Shovel Swing"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
-ATT.Folder = "Unlameifier/" .. ARC9:GetPhrase("unlameifier_folder_sounds_tf2_swing")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2.swing")
 ATT.Description = "This is unlocalized!\nReplaces the firing sound of the weapon."
 ATT.SortOrder = 1
 ATT.AttNotForNPCs = true

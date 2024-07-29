@@ -577,7 +577,7 @@ L["unlameifier_sound_css_tmp.description"] = [[Cambia el sonido de disparo del a
 
 <color=255,100,100>NOTA</color>: No tiene sonidos sin silenciar.
 
-<color=150,150,255>Dato curioso</color>: Este es el único arma silenciada en Source al que no se le puede quitar el silenciador.]]
+<color=150,150,255>Dato curioso</color>: Esta es la única arma silenciada en Source al que no se le puede quitar el silenciador.]]
 
 L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
@@ -585,7 +585,7 @@ L["unlameifier_sound_css_mac10.description"] = [[Cambia el sonido de disparo del
 
 Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
-<color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que usa su nombre de la vida real.]]
+<color=150,150,255>Dato curioso</color>: Esta es una de las pocas armas en Source que usa su nombre de la vida real.]]
 
 L["unlameifier_sound_css_mp5.printname"] = "Subfusil K&M"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
@@ -593,7 +593,7 @@ L["unlameifier_sound_css_mp5.description"] = [[Cambia el sonido de disparo del a
 
 Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
-<color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que no está en espejo, ya que sus accionadores ya están en el lado izquierdo.]]
+<color=150,150,255>Dato curioso</color>: Esta es una de las pocas armas en Source que no está en espejo, ya que sus accionadores ya están en el lado izquierdo.]]
 
 L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
@@ -601,7 +601,7 @@ L["unlameifier_sound_css_ump45.description"] = [[Cambia el sonido de disparo del
 
 Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
-<color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que usa su nombre de la vida real, excepto por el fabricante. Además, según el modelo del arma, tiene siempre el seguro puesto.]]
+<color=150,150,255>Dato curioso</color>: Esta es una de las pocas armas en Source que usa su nombre de la vida real, excepto por el fabricante. Además, según el modelo del arma, tiene siempre el seguro puesto.]]
 
 L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
@@ -704,26 +704,26 @@ L["unlameifier_sound_neosun_pew.printname"] = "Piu"
 L["unlameifier_sound_neosun_pew.compactname"] = "Piu"
 L["unlameifier_sound_neosun_pew.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
-Este es "piu".]]
+Este hace "piu".]]
 
 L["unlameifier_sound_neosun_bang.printname"] = "Bang"
 L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
 L["unlameifier_sound_neosun_bang.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
-Este es "bang".]]
+Este hace "bang".]]
 
 L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
 L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
 L["unlameifier_sound_neosun_gunshot.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
-Este es "gunshot" (del inglés, disparo de pistola).]]
+Este dice "gunshot" (del inglés, disparo de pistola).]]
 
 -- Misc.
 L["unlameifier_folder_sounds_misc"] = "Sonidos/Otros"
 
 L["unlameifier_sound_misc_sussy.printname"] = "Locura desquiciada"
 L["unlameifier_sound_misc_sussy.compactname"] = "Locura"
-L["unlameifier_sound_misc_sussy.description"] = [[Un accesorio que solo los más depravados y desquiciados se equiparían. Presta atención ahora a este aviso, ya que no hay vuelta atrás.
+L["unlameifier_sound_misc_sussy.description"] = [[Un accesorio que solo los más depravados y desquiciados se equiparían. Presta atención a este aviso, ya que no habrá vuelta atrás.
 
 No me preguntes por qué la tasa de disparo está limitada a 250 RPM... es importante, confía en mí.]]
 
@@ -969,7 +969,7 @@ L["unlameifier_sound_dod_30cal.printname"] = "Fusil de calibre .30"
 L["unlameifier_sound_dod_30cal.compactname"] = "Calibre .30"
 L["unlameifier_sound_dod_30cal.description"] = [[Cambia el sonido de disparo del arma por el del fusil de calibre .30 de Day of Defeat.
 
-"La habilidad de esta clase es el fuego de cobertura definitivo. Un solo hombre en una buena posición puede parar en seco un ataque enemigo. Con su retroceso masivo, es mejor usar este arma con el bípode desplegado."]]
+"La habilidad de esta clase es el fuego de cobertura definitivo. Un solo hombre en una buena posición puede parar en seco un ataque enemigo. Con su retroceso masivo, es mejor usar esta arma con el bípode desplegado."]]
 
 L["unlameifier_sound_dod_bar.printname"] = "BAR"
 L["unlameifier_sound_dod_bar.compactname"] = "BAR"
@@ -1009,99 +1009,99 @@ L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
 L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
 L["unlameifier_sound_dod_fg42.description"] = [[Cambia el sonido de disparo del arma por el de la Fg42 de Day of Defeat.
 
-"La Fg42 representó un salto enorme en el avance de armas pequeñas de infantería. Usando el cartucho entero de 8mm, este arma especializada fue reservada por la Fallschirmjäger de élite de Alemania. Esta Fg42 puede ser usada con un bípode para proporcionar fuego de cobertura sostenida. La Fg42 fue un arma muy corta y compacta. El hecho de ser tan compacta produjo dos efecto, un retroceso horrible durante el fuego automático y el ruido más alto de cualquier arma de la guerra. Los soldados enemigos echaban el cuerpo a tierra inmediatamente al escuchar el titánico sonido de disparo de este arma. La Fg42 es mejor empleada disparando ráfagas cortas de 2 o 3 disparos."]]
+"La Fg42 representó un salto enorme en el avance de armas pequeñas de infantería. Usando el cartucho entero de 8mm, esta arma especializada fue reservada por la Fallschirmjäger de élite de Alemania. Esta Fg42 puede ser usada con un bípode para proporcionar fuego de cobertura sostenida. La Fg42 fue un arma muy corta y compacta. El hecho de ser tan compacta produjo dos efecto, un retroceso horrible durante el fuego automático y el ruido más alto de cualquier arma de la guerra. Los soldados enemigos echaban el cuerpo a tierra inmediatamente al escuchar el titánico sonido de disparo de esta arma. La Fg42 es mejor empleada disparando ráfagas cortas de 2 o 3 disparos."]]
 
 L["unlameifier_sound_dod_garand.printname"] = "Garand M1"
 L["unlameifier_sound_dod_garand.compactname"] = "Garand M1"
--- L["unlameifier_sound_dod_garand.description"] = [[Changes the firing sound of the weapon to the M1 Garand from Day of Defeat.
+L["unlameifier_sound_dod_garand.description"] = [[Cambia el sonido de disparo del arma por el del Garand M1 de Day of Defeat.
 
--- "Known as the 'rifle that won the war',  the Garand provides this class with semi-automatic one shot kill capability.  After learning to control the Garand's recoil, this weapon and class can turn the tide of a battle."]]
+"Conocido como el 'fusil que ganó la guerra', el Garand proporciona a esa clase con la capacidad de matar con un solo disparo semiautomático. Tras aprender a controlar el retroceso del Garand, esta arma y clase pueden girar las tornas de una batalla."]]
 
 L["unlameifier_sound_dod_greasegun.printname"] = "Greasegun"
 L["unlameifier_sound_dod_greasegun.compactname"] = "Greasegun"
--- L["unlameifier_sound_dod_greasegun.description"] = [[Changes the firing sound of the weapon to the Greasegun from Day of Defeat.
+L["unlameifier_sound_dod_greasegun.description"] = [[Cambia el sonido de disparo del arma por el del Greasegun de Day of Defeat..
 
--- "With the lighter recoil and slower rate of fire of the Greasegun, this class can hit targets accurately with sustained fire.  This class is ideal for short range inner city fighting."]]
+"Con el retroceso ligero y la lenta tasa de disparo del Greasegun, esta clase puede acertar a objetivos de manera precisa con fuego sostenido. Esta clase es ideal para combate urbano a corta distancia."]]
 
 L["unlameifier_sound_dod_k43.printname"] = "K43"
 L["unlameifier_sound_dod_k43.compactname"] = "K43"
--- L["unlameifier_sound_dod_k43.description"] = [[Changes the firing sound of the weapon to the K43 from Day of Defeat.
+L["unlameifier_sound_dod_k43.description"] = [[Cambia el sonido de disparo del arma por el del K43 de Day of Defeat.
 
--- "Germany's reply to the US M1 Garand and Soviet SVT40 rifles, the K43 provides semi-automatic one shot kill capability.  After learning to control the K43's recoil, this weapon can turn the tide of a battle."]]
+"La respuesta de Alemania al Garand M1 americano y los fusiles SVT40 sovieticos, el K43 proporciona la capacidad de matar de un disparo semiautomático. Tras aprender a controlar el retroceso del Garand, esta arma y clase pueden girar las tornas de una batalla."]]
 
 L["unlameifier_sound_dod_kar.printname"] = "K98"
 L["unlameifier_sound_dod_kar.compactname"] = "K98"
--- L["unlameifier_sound_dod_kar.description"] = [[Changes the firing sound of the weapon to the K98 from Day of Defeat.
+L["unlameifier_sound_dod_kar.description"] = [[Cambia el sonido de disparo del arma por el del K98 de Day of Defeat.
 
--- "The backbone of the Wehrmacht, the Kar 98 is characterized by it's pinpoint accuracy. This class rules the battlefield during long range encounters.  The added bayonet provides close in protection during house to house fighting."]]
+"La espina dorsal de la Wehrmacht, el Kar 98 se caracteriza por su precisión milimétrica. Esta clase domina el campo de batalla durante enfrentamientos a larga distancia. La bayoneta añadida proporciona protección a corta distancia durante peleas entre casas."]]
 
-L["unlameifier_sound_dod_luger.printname"] = "Luger '08 Pistol"
-L["unlameifier_sound_dod_luger.compactname"] = "Luger '08 Pistol"
--- L["unlameifier_sound_dod_luger.description"] = "Changes the firing sound of the weapon to the Luger '08 Pistol from Day of Defeat."
+L["unlameifier_sound_dod_luger.printname"] = "Pistola Luger '08"
+L["unlameifier_sound_dod_luger.compactname"] = "Pistola Luger '08"
+L["unlameifier_sound_dod_luger.description"] = "Cambia el sonido de disparo del arma por el de la pistola Luger '08 de Day of Defeat."
 
 L["unlameifier_sound_dod_mg34.printname"] = "MG34"
 L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
--- L["unlameifier_sound_dod_mg34.description"] = [[Changes the firing sound of the weapon to the MG34 from Day of Defeat.
+L["unlameifier_sound_dod_mg34.description"] = [[Cambia el sonido de disparo del arma por el de la MG34 de Day of Defeat.
 
--- "The MG34 was one of the best machine guns fielded during WWII.  The MG34 with drum can provide a steady stream of covering fire without the danger of barrel overheat."]]
+"La MG34 fue una de las mejores ametralladoras utilizadas durante la Segunda Guerra Mundial. La MG34 con tambor puede proveer un flujo constante de fuego de cobertura sin peligro de sobrecalentamiento del cañón."]]
 
 L["unlameifier_sound_dod_mg42.printname"] = "MG42"
 L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
--- L["unlameifier_sound_dod_mg42.description"] = [[Changes the firing sound of the weapon to the MG42 from Day of Defeat.
+L["unlameifier_sound_dod_mg42.description"] = [[Cambia el sonido de disparo del arma por el de la MG42 de Day of Defeat.
 
--- "The MG42 is one of the best machine guns ever fielded by any army in the history of warfare.  The MG42, with its 1200 rounds per minute rate of fire, lays down a wall of lead that is impenetrable.  Use extreme caution though, as the high rate of fire can lead to the barrel overheating."]]
+"La MG42 es una de las mejores ametralladoras jamás utilizadas por ningún ejército en la historia de la guerra. La MG42, con su tasa de disparo de 1.200 disparos por minuto, crea una pared de plomo impenetrable. Sin embargo, ejerza extrema precaución, debido a que la tasa de disparo alta puede llevar a sobrecalentar el cañón."]]
 
-L["unlameifier_sound_dod_mortar.printname"] = "Mortar"
-L["unlameifier_sound_dod_mortar.compactname"] = "Mortar"
--- L["unlameifier_sound_dod_mortar.description"] = [[Changes the firing sound of the weapon to the Mortar from Day of Defeat.
+L["unlameifier_sound_dod_mortar.printname"] = "Mortero"
+L["unlameifier_sound_dod_mortar.compactname"] = "Mortero"
+L["unlameifier_sound_dod_mortar.description"] = [[Cambia el sonido de disparo del arma por el del mortero de Day of Defeat.
 
--- "The infantryman's personal artillery, the mortar, gives soldiers in the field an extremely mobile, lethal, heavy-strike capability. This weapon is best utilized against hidden or bunkered enemy positions that normal infantry have trouble taking out. Snipers and machine gunners fear this weapon noted for its shrieking incoming whistle."]]
+"La artillería personal de infantería, el mortero, proporciona a los soldados en el campo una capacidad extremadamente móvil, letal y de ataque pesado. Esta arma es mejor utilizada contra posiciones ocultas o atrincheradas del enemigo que la infantería normal tiene problemas para eliminar. Los francotiradores y ametralladores temen esta arma conocida por su estridente silbido de caída de proyectil."]]
 
 L["unlameifier_sound_dod_mp40.printname"] = "MP40"
 L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
--- L["unlameifier_sound_dod_mp40.description"] = [[Changes the firing sound of the weapon to the MP40 from Day of Defeat.
+L["unlameifier_sound_dod_mp40.description"] = [[Cambia el sonido de disparo del arma por el del MP40 de Day of Defeat.
 
--- "With his low recoil Mp40, a soldier can manuever in and out of back alleys and through bombed out buildings while still hitting his target."]]
+"Con su Mp40 de bajo retroceso, un soldado puede maniobrar por los callejones traseros y a través de edificios bombardeados mientras acierta a su objetivo."]]
 
 L["unlameifier_sound_dod_mp44.printname"] = "STG44"
 L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
--- L["unlameifier_sound_dod_mp44.description"] = [[Changes the firing sound of the weapon to the STG44 from Day of Defeat.
+L["unlameifier_sound_dod_mp44.description"] = [[Cambia el sonido de disparo del arma por el del STG44 de Day of Defeat.
 
--- "The first true assault rifle in history, this weapon can perform varying roles with effectiveness.  The Stg44's medium sized round provides knock down power while keeping recoil to a minimum.  The Stg44 is best used firing in short 2 to 3 shot bursts."]]
+"El primer fusil de asalto auténtico de la historia, esta arma puede desempeñar varios roles con su eficacia. La bala de tamaño medio del Stg44 proporciona potencia para tumbar a la par que mantiene el retroceso al mínimo. El Stg44 es mejor empleado disparando ráfagas cortas de 2 o 3 disparos."]]
 
 L["unlameifier_sound_dod_piat.printname"] = "PIAT"
 L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
--- L["unlameifier_sound_dod_piat.description"] = [[Changes the firing sound of the weapon to the PIAT from Day of Defeat.
+L["unlameifier_sound_dod_piat.description"] = [[Cambia el sonido de disparo del arma por el del PIAT de Day of Defeat.
 
--- "Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+"Desarrollado más tarde en la guerra, las armas de cohetes eran perfectos instrumentos para detruir tanques y vehículos. También se podían usar en ciertas situaciones para abrir agujeros en las paredes, proporcionando una ruta de ataque o escape improvisada."]]
 
-L["unlameifier_sound_dod_rocket.printname"] = "Rocket"
-L["unlameifier_sound_dod_rocket.compactname"] = "Rocket"
--- L["unlameifier_sound_dod_rocket.description"] = [[Changes the firing sound of the weapon to the Bazooka and Panzerschreck from Day of Defeat.
+L["unlameifier_sound_dod_rocket.printname"] = "Cohete"
+L["unlameifier_sound_dod_rocket.compactname"] = "Cohete"
+L["unlameifier_sound_dod_rocket.description"] = [[Cambia el sonido de disparo del arma por el del Bazuca o el Panzerschreck de Day of Defeat.
 
--- "Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+"Desarrollado más tarde en la guerra, las armas de cohetes eran perfectos instrumentos para detruir tanques y vehículos. También se podían usar en ciertas situaciones para abrir agujeros en las paredes, proporcionando una ruta de ataque o escape improvisada."]]
 
 L["unlameifier_sound_dod_spring.printname"] = "Springfield"
 L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
--- L["unlameifier_sound_dod_spring.description"] = [[Changes the firing sound of the weapon to the Springfield from Day of Defeat.
+L["unlameifier_sound_dod_spring.description"] = [[Cambia el sonido de disparo del arma por el del Springfield de Day of Defeat.
 
--- "This class hides in the shadows.  With his Springfield '03, this class is the lone wolf of the squad, venturing out on his own to rain unseen terror on opposing squads."]]
+"Esta clase se esconde en las sombras. Con su Springfield '03, esta clase es el lobo solitario del pelotón, aventurándose a solas para desatar un horror jamás visto en los pelotones enemigos."]]
 
 L["unlameifier_sound_dod_sten.printname"] = "Sten"
 L["unlameifier_sound_dod_sten.compactname"] = "Sten"
--- L["unlameifier_sound_dod_sten.description"] = [[Changes the firing sound of the weapon to the Sten from Day of Defeat.
+L["unlameifier_sound_dod_sten.description"] = [[Cambia el sonido de disparo del arma por el del Sten de Day of Defeat.
 
--- "The venerable Sten Gun was developed to replace the costly to manufacture American Tommy Gun used by the British Army earier in the war.  Made almost entirely of sheet metal stampings, it is a lightweight, reliable submachine gun.  An excellent close in weapon, it was the choice for many commandos throughout the war."]]
+"El venerable subfusil Sten fue desarrollado para reemplazar el subfusil Thompson americano, que era caro de fabricar, por el ejército británico en las primeras etapas de la guerra. Hecho casi enteramente de estampaciones de chapa metálica, es un subfusil ligero y fiable. Un arma excelente para enfrentamientos cercanos, siendo la elección de los comandos durante la guerra."]]
 
 L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
--- L["unlameifier_sound_dod_thompson.description"] = [[Changes the firing sound of the weapon to the Thompson from Day of Defeat.
+L["unlameifier_sound_dod_thompson.description"] = [[Cambia el sonido de disparo del arma por el del Thompson de Day of Defeat.
 
--- "With the lighter recoil of the Thompson, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+"Con el ligero retroceso del Thompson, esta clase puede acertar a objetivos de manera rápida y precisa. Esta clase es ideal para combate urbano a corta distancia."]]
 
-L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
-L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
--- L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."
+L["unlameifier_sound_dod_webley.printname"] = "Revólver Webley"
+L["unlameifier_sound_dod_webley.compactname"] = "Revólver Webley"
+L["unlameifier_sound_dod_webley.description"] = "Cambia el sonido de disparo del arma por el del revólver Webley de Day of Defeat."
 
 -- Team Fortress 2
 -- L["unlameifier_folder_sounds_tf2"] = "Sound Mods/TF2"

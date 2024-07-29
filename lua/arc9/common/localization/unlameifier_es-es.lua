@@ -368,9 +368,9 @@ L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
 L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
 L["unlameifier_sound_doom_BFG.description"] = "Cambia el sonido de disparo del arma por el de la BFG9000 de DOOM (1993)."
 
-L["unlameifier_sound_doom_plasma.printname"] = "Rifle de plasma"
-L["unlameifier_sound_doom_plasma.compactname"] = "R. plasma"
-L["unlameifier_sound_doom_plasma.description"] = "Cambia el sonido de disparo del arma por el del rifle de plasma de DOOM (1993)."
+L["unlameifier_sound_doom_plasma.printname"] = "Fusil de plasma"
+L["unlameifier_sound_doom_plasma.compactname"] = "Fusil plasma"
+L["unlameifier_sound_doom_plasma.description"] = "Cambia el sonido de disparo del arma por el del fusil de plasma de DOOM (1993)."
 
 L["unlameifier_sound_doom_rocket.printname"] = "Lanzacohetes"
 L["unlameifier_sound_doom_rocket.compactname"] = "Lanzacohetes"
@@ -391,9 +391,9 @@ L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del a
 
 Nombrar un arma tras el calibre que dispara es absolutamente estúpido. Esto es una Colt Python. Al contrario de la creencia popular, .357, el calibre, no es tan potente como crees que es.]]
 
-L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Rifle de pulsos)"
+L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Fusil de pulsos)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
-L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma por el del rifle de pulsos de Half-Life 2.
+L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma por el del fusil de pulsos de Half-Life 2.
 
 Más conocido como el 'AR2', que existe de verdad, a no ser que te creas a cierta gente de ciudad que dice haber usado el 'AR3'...]]
 
@@ -409,7 +409,7 @@ L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del 
 
 Desafortunadamente, no te permite enganchar muñecos a las superficies.]]
 
-L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del rifle de pulsos"
+L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del fusil de pulsos"
 L["unlameifier_sound_hl2_ar22.compactname"] = "BE AR2"
 L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma por el de la bola de energía del AR2 de Half-Life 2 siendo disparada.
 
@@ -502,9 +502,9 @@ L["unlameifier_sound_hl1_shotgun.printname"] = "Escopeta"
 L["unlameifier_sound_hl1_shotgun.compactname"] = "Escopeta"
 L["unlameifier_sound_hl1_shotgun.description"] = "Cambia el sonido de disparo del arma por el de la escopeta de Half-Life 1."
 
-L["unlameifier_sound_hl1_sniper.printname"] = "Rifle francotirador"
+L["unlameifier_sound_hl1_sniper.printname"] = "Fusil francotirador"
 L["unlameifier_sound_hl1_sniper.compactname"] = "Francotirador"
-L["unlameifier_sound_hl1_sniper.description"] = [[Cambia el sonido de disparo del arma por el del rifle francotirador de Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_sniper.description"] = [[Cambia el sonido de disparo del arma por el del fusil francotirador de Half-Life 1: Opposing Force.
 
 Al momento de escribir ésta descripción, no he jugado a Opposing Force ni a Blue Shift así que si me he equivocado en algún detalle, por favor, házmelo saber, gracias.]]
 
@@ -673,13 +673,13 @@ Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: El sufijo de "Commando" no tiene sentido, ya que el Krieg 550 está representado como el SIG 550 de longitud completa.]]
 
-L["unlameifier_sound_css_awp.printname"] = "Rifle Francotirador Magnum"
+L["unlameifier_sound_css_awp.printname"] = "Fusil Francotirador Magnum"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
-L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Rifle Francotirador Magnum de Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Fusil Francotirador Magnum de Counter-Strike: Source.
 
 Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
-<color=150,150,255>Dato curioso</color>: El AWP de la vida real fue montado por dos tios en un garaje y lo metieron en las pruebas británicas MOD con el propósito exclusivo de ver como le iría enfrentándose a rifles militares reales. "Desafortunadamente" ganaron y tuvieron que empezar a producir a toda prisa miles de rifles para el ejército británico.]]
+<color=150,150,255>Dato curioso</color>: El AWP de la vida real fue montado por dos tios en un garaje y lo metieron en las pruebas británicas MOD con el propósito exclusivo de ver como le iría enfrentándose a fusiles militares reales. "Desafortunadamente" ganaron y tuvieron que empezar a producir a toda prisa miles de fusiles para el ejército británico.]]
 
 L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
@@ -750,7 +750,7 @@ Si crees que necesitas hablar con alguien, eres libre de agregarme en Steam (sol
 
 L["unlameifier_sound_misc_mlg.printname"] = "Parodia de montaje MLG"
 L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
-L["unlameifier_sound_misc_mlg.description"] = [[básicamente el equivalente de la generación z de skibidi toilet.
+L["unlameifier_sound_misc_mlg.description"] = [[básicamente el equivalente de skibidi toilet para la generación z.
 
 inyecta podredumbre cerebral de 2013 directamente en vena]]
 
@@ -777,242 +777,242 @@ Al contrario de la versión original, este añade un chillido de águila cuando 
 ¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ]]
 
 -- Call of Duty: Modern Warfare 2 (2009)
--- L["unlameifier_folder_sounds_mw2"] = "Sound Mods/MW2"
+L["unlameifier_folder_sounds_mw2"] = "Sonidos/MW2"
 
--- L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
--- L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
--- L["unlameifier_sound_codmw2_intervention.description"] = [[Changes the firing sound of the weapon to the Intervention from Call of Duty: Modern Warfare 2 (2009).
+L["unlameifier_sound_codmw2_intervention.printname"] = "Intervención"
+L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervención"
+L["unlameifier_sound_codmw2_intervention.description"] = [[Cambia el sonido de disparo del arma por el del Intervención de Call of Duty: Modern Warfare 2 (2009).
 
--- Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
+Gracias, Palindrone, por dejarme pillar sonidos de tus paquetes de CoD. Asegúrate de echarles un vistazo, ¡son geniales!]]
 
 -- Roblox
--- L["unlameifier_folder_sounds_roblox"] = "Sound Mods/Roblox"
+L["unlameifier_folder_sounds_roblox"] = "Sonidos/Roblox"
 
--- L["unlameifier_sound_roblox_paintball.printname"] = "Paintball Gun"
--- L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
--- L["unlameifier_sound_roblox_paintball.description"] = [[Changes the firing sound of the weapon to the Paintball Gun from Roblox.
+L["unlameifier_sound_roblox_paintball.printname"] = "Pistola de paintball"
+L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
+L["unlameifier_sound_roblox_paintball.description"] = [[Cambia el sonido de disparo del arma por el de la pistola de Paintball de Roblox.
 
--- Certified Hood Classic.]]
+Un clásico de toda la vida.]]
 
--- L["unlameifier_sound_roblox_slingshot.printname"] = "Slingshot"
--- L["unlameifier_sound_roblox_slingshot.compactname"] = "Slingshot"
--- L["unlameifier_sound_roblox_slingshot.description"] = [[Changes the firing sound of the weapon to the Slingshot from Roblox.
+L["unlameifier_sound_roblox_slingshot.printname"] = "Tirachinas"
+L["unlameifier_sound_roblox_slingshot.compactname"] = "Tirachinas"
+L["unlameifier_sound_roblox_slingshot.description"] = [[Cambia el sonido de disparo del arma por el del tirachinas de Roblox.
 
--- Certified Hood Classic.]]
+Un clásico de toda la vida.]]
 
--- L["unlameifier_sound_roblox_superball.printname"] = "Superball"
--- L["unlameifier_sound_roblox_superball.compactname"] = "Superball"
--- L["unlameifier_sound_roblox_superball.description"] = [[Changes the firing sound of the weapon to the Superball from Roblox.
+L["unlameifier_sound_roblox_superball.printname"] = "Superbola"
+L["unlameifier_sound_roblox_superball.compactname"] = "Superbola"
+L["unlameifier_sound_roblox_superball.description"] = [[Cambia el sonido de disparo del arma por el de la superbola de Roblox.
 
--- Certified Hood Classic.]]
+Un clásico de toda la vida.]]
 
--- L["unlameifier_sound_roblox_laserpistol.printname"] = "XLS Mark II Pulse Laser Pistol"
--- L["unlameifier_sound_roblox_laserpistol.compactname"] = "Laser Pistol"
--- L["unlameifier_sound_roblox_laserpistol.description"] = [[Changes the firing sound of the weapon to the XLS Mark II Pulse Laser Pistol from Roblox.
+L["unlameifier_sound_roblox_laserpistol.printname"] = "Pistola láser de pulsos XLS Mark II"
+L["unlameifier_sound_roblox_laserpistol.compactname"] = "Pistola láser"
+L["unlameifier_sound_roblox_laserpistol.description"] = [[Cambia el sonido de disparo del arma por el de la pistola láser de pulsos XLS Mark II de Roblox.
 
--- The OG "pew" sound.]]
+El sonido "piu" original.]]
 
--- L["unlameifier_sound_roblox_guitar.printname"] = "Red Stratobloxxer"
--- L["unlameifier_sound_roblox_guitar.compactname"] = "Guitar"
--- L["unlameifier_sound_roblox_guitar.description"] = [[Changes the firing sound of the weapon to the Red Stratobloxxer from Roblox.
+L["unlameifier_sound_roblox_guitar.printname"] = "Stratobloxxer roja"
+L["unlameifier_sound_roblox_guitar.compactname"] = "Guitarra"
+L["unlameifier_sound_roblox_guitar.description"] = [[Cambia el sonido de disparo del arma por el de la Stratobloxxer roja de Roblox.
 
--- You might be able to play a song with it!]]
+¡Hasta es posible que puedas tocar una canción con ella!]]
 
 -- Music
--- L["unlameifier_folder_sounds_music"] = "Sound Mods/Music"
+L["unlameifier_folder_sounds_music"] = "Sonidos/Música"
 
--- L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
--- L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
--- L["unlameifier_sound_music_usa1.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
+L["unlameifier_sound_music_usa1.compactname"] = "Himno EE. UU."
+L["unlameifier_sound_music_usa1.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner but Angry"
--- L["unlameifier_sound_music_usa2.compactname"] = "USA Anthem Angy"
--- L["unlameifier_sound_music_usa2.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner pero enfadado"
+L["unlameifier_sound_music_usa2.compactname"] = "Himno EE. UU. enfadao"
+L["unlameifier_sound_music_usa2.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
+DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
 
--- Taken from the BroForce Soundtrack.]] -- "AMERICA" but in colour
+Sacado de la banda sonora original de BroForce.]] -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa3.printname"] = "Ode to Joy"
--- L["unlameifier_sound_music_usa3.compactname"] = "Ode to Joy"
--- L["unlameifier_sound_music_usa3.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa3.printname"] = "Oda a la alegría"
+L["unlameifier_sound_music_usa3.compactname"] = "Oda a la alegría"
+L["unlameifier_sound_music_usa3.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa4.printname"] = "1812 Overture"
--- L["unlameifier_sound_music_usa4.compactname"] = "1812 Overture"
--- L["unlameifier_sound_music_usa4.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa4.printname"] = "Obertura 1812"
+L["unlameifier_sound_music_usa4.compactname"] = "Obertura 1812"
+L["unlameifier_sound_music_usa4.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 -- KindredFlame
--- L["unlameifier_folder_sounds_ws"] = "Sound Mods/KindredFlame"
+L["unlameifier_folder_sounds_ws"] = "Sonidos/KindredFlame"
 
--- L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame's M16A4"
--- L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
--- L["unlameifier_sound_ws_m16a4.description"] = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
+L["unlameifier_sound_ws_m16a4.printname"] = "M16A4 de KindredFlame"
+L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
+L["unlameifier_sound_ws_m16a4.description"] = [[Sonidos sacados de la legendaria M16A4 para CW2.0 de KindredFlame/WhiteSnow.
 
--- The legend never dies...]]
+La leyenda nunca muere...]]
 
 -- Melee Sounds Misc (Impact)
--- L["unlameifier_folder_sounds_melee_bonk"] = "Sound Mods/Impact/Misc."
+L["unlameifier_folder_sounds_melee_bonk"] = "Sonidos/Impacto/Otros"
 
--- L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
--- L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
--- L["unlameifier_sound_melee_bonk_impact.description"] = "Changes the melee hit sound with a bonk."
+L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
+L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
+L["unlameifier_sound_melee_bonk_impact.description"] = "Cambia el sonido de impacto cuerpo a cuerpo por un 'bonk'."
 
--- L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Johnny Test Whipcrack"
--- L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
--- L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*."
+L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Latigazo de Johnny Test"
+L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Látigo"
+L["unlameifier_sound_melee_whipcrack_impact.description"] = "Ahora *latigazo* puedes *latigazo* sonar *latigazo* igual *latigazo* que *latigazo* tus *latigazo* dibujos *latigazo* favoritos *latigazo*, Johnny *latigazo* Test *latigazo*  *latigazo*  *latigazo*  *latigazo*  *latigazo*."
 
 -- Melee Sounds JJBA (Swing)
--- L["unlameifier_folder_sounds_melee_jojo"] = "Sound Mods/Swing/JJBA"
+L["unlameifier_folder_sounds_melee_jojo"] = "Sonidos/Oscilación/JJBA"
 
--- L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
--- L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
--- L["unlameifier_sound_melee_jojo_jotaro_swing.description"] = [[STAR PLATINUM!!
--- ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
+L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
+L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
+L["unlameifier_sound_melee_jojo_jotaro_swing.description"] = [[STAR PLATINUM!!
+ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
 
--- (kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+(suena un poco mal porque las armas cuerpo a cuerpo no tienen sonidos en bucle - culpa a arctic)]]
 
--- L["unlameifier_sound_melee_jojo_dio_swing.printname"] = "Muda (DIO)"
--- L["unlameifier_sound_melee_jojo_dio_swing.compactname"] = "Muda"
--- L["unlameifier_sound_melee_jojo_dio_swing.description"] = [[THE WORLD!!
--- MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
+L["unlameifier_sound_melee_jojo_dio_swing.printname"] = "Muda (DIO)"
+L["unlameifier_sound_melee_jojo_dio_swing.compactname"] = "Muda"
+L["unlameifier_sound_melee_jojo_dio_swing.description"] = [[THE WORLD!!
+MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
 
--- (kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+(suena un poco mal porque las armas cuerpo a cuerpo no tienen sonidos en bucle - culpa a arctic)]]
 
 -- Melee Sounds JJBA (Impact)
--- L["unlameifier_folder_sounds_melee_jojo"] = "Sound Mods/Impact/JJBA"
+L["unlameifier_folder_sounds_melee_jojo"] = "Sonidos/Impacto/JJBA"
 
--- L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
--- L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
--- L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
+L["unlameifier_sound_melee_jojo_impact.printname"] = "Puñetazo de un Stand"
+L["unlameifier_sound_melee_jojo_impact.compactname"] = "Puñetazo Stand"
+L["unlameifier_sound_melee_jojo_impact.description"] = "Cambia el sonido de impacto del cuerpo a cuerpo con el efecto de sonido de un puñetazo de un Stand de JoJo's Bizarre Adventure."
 
 -- Day of Defeat: Source
--- L["unlameifier_folder_sounds_dods"] = "Sound Mods/DoD:S"
+L["unlameifier_folder_sounds_dods"] = "Sonidos/DoD:S"
 
-L["unlameifier_sound_dods_30cal.printname"] = ".30 Cal"
-L["unlameifier_sound_dods_30cal.compactname"] = ".30 Cal"
--- L["unlameifier_sound_dods_30cal.description"] = "Changes the firing sound of the weapon to the .30 Cal from Day of Defeat: Source."
+L["unlameifier_sound_dods_30cal.printname"] = "Fusil del calibre .30"
+L["unlameifier_sound_dods_30cal.compactname"] = "Calibre .30"
+L["unlameifier_sound_dods_30cal.description"] = "Cambia el sonido de disparo del arma por el del fusil del calibre .30 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_bar.printname"] = "BAR"
 L["unlameifier_sound_dods_bar.compactname"] = "BAR"
--- L["unlameifier_sound_dods_bar.description"] = "Changes the firing sound of the weapon to the BAR from Day of Defeat: Source."
+L["unlameifier_sound_dods_bar.description"] = "Cambia el sonido de disparo del arma por el del BAR de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_c96.printname"] = "C96"
 L["unlameifier_sound_dods_c96.compactname"] = "C96"
--- L["unlameifier_sound_dods_c96.description"] = "Changes the firing sound of the weapon to the C96 from Day of Defeat: Source."
+L["unlameifier_sound_dods_c96.description"] = "Cambia el sonido de disparo del arma por el de la C96 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_colt.printname"] = "Colt"
 L["unlameifier_sound_dods_colt.compactname"] = "Colt"
--- L["unlameifier_sound_dods_colt.description"] = "Changes the firing sound of the weapon to the Colt from Day of Defeat: Source."
+L["unlameifier_sound_dods_colt.description"] = "Cambia el sonido de disparo del arma por el de la Colt de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_garand.printname"] = "Garand"
 L["unlameifier_sound_dods_garand.compactname"] = "Garand"
--- L["unlameifier_sound_dods_garand.description"] = "Changes the firing sound of the weapon to the Garand from Day of Defeat: Source."
+L["unlameifier_sound_dods_garand.description"] = "Cambia el sonido de disparo del arma por el del Garand de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_grenade.printname"] = "Rifle Grenade"
-L["unlameifier_sound_dods_grenade.compactname"] = "Rifle Grenade"
--- L["unlameifier_sound_dods_grenade.description"] = "Changes the firing sound of the weapon to the Garand's and K98k's Rifle Grenade from Day of Defeat: Source."
+L["unlameifier_sound_dods_grenade.printname"] = "Granada de fusil"
+L["unlameifier_sound_dods_grenade.compactname"] = "Granada de fusil"
+L["unlameifier_sound_dods_grenade.description"] = "Cambia el sonido de disparo del arma por el de la granada de fusil del Garand o el K98k de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_k98.printname"] = "K98k"
 L["unlameifier_sound_dods_k98.compactname"] = "K98k"
--- L["unlameifier_sound_dods_k98.description"] = "Changes the firing sound of the weapon to the K98k from Day of Defeat: Source."
+L["unlameifier_sound_dods_k98.description"] = "Cambia el sonido de disparo del arma por el del K98k de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_k98scoped.printname"] = "K98 Sniper Rifle"
-L["unlameifier_sound_dods_k98scoped.compactname"] = "K98 S."
--- L["unlameifier_sound_dods_k98scoped.description"] = "Changes the firing sound of the weapon to the K98 Sniper Rifle from Day of Defeat: Source."
+L["unlameifier_sound_dods_k98scoped.printname"] = "Fusil francotiradorK98"
+L["unlameifier_sound_dods_k98scoped.compactname"] = "Franco. K98"
+L["unlameifier_sound_dods_k98scoped.description"] = "Cambia el sonido de disparo del arma por el del fusil francotirador K89 de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_m1carbine.printname"] = "M1 Carbine"
-L["unlameifier_sound_dods_m1carbine.compactname"] = "M1 Carbine"
--- L["unlameifier_sound_dods_m1carbine.description"] = "Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat: Source."
+L["unlameifier_sound_dods_m1carbine.printname"] = "Carabina M1"
+L["unlameifier_sound_dods_m1carbine.compactname"] = "Carabina M1"
+L["unlameifier_sound_dods_m1carbine.description"] = "Cambia el sonido de disparo del arma por el de la carabina M1 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mg42.printname"] = "MG42"
 L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
--- L["unlameifier_sound_dods_mg42.description"] = "Changes the firing sound of the weapon to the MG42 from Day of Defeat: Source."
+L["unlameifier_sound_dods_mg42.description"] = "Cambia el sonido de disparo del arma por el de la MG42 de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_mortar.printname"] = "Mortar"
-L["unlameifier_sound_dods_mortar.compactname"] = "Mortar"
--- L["unlameifier_sound_dods_mortar.description"] = "Changes the firing sound of the weapon to the Mortar from Day of Defeat: Source."
+L["unlameifier_sound_dods_mortar.printname"] = "Mortero"
+L["unlameifier_sound_dods_mortar.compactname"] = "Mortero"
+L["unlameifier_sound_dods_mortar.description"] = "Cambia el sonido de disparo del arma por el del mortero de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mp40.printname"] = "MP40"
 L["unlameifier_sound_dods_mp40.compactname"] = "MP40"
--- L["unlameifier_sound_dods_mp40.description"] = "Changes the firing sound of the weapon to the MP40 from Day of Defeat: Source."
+L["unlameifier_sound_dods_mp40.description"] = "Cambia el sonido de disparo del arma por el del MP40 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mp44.printname"] = "MP44"
 L["unlameifier_sound_dods_mp44.compactname"] = "MP44"
--- L["unlameifier_sound_dods_mp44.description"] = "Changes the firing sound of the weapon to the MP44 from Day of Defeat: Source."
+L["unlameifier_sound_dods_mp44.description"] = "Cambia el sonido de disparo del arma por el del MP44 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_p38.printname"] = "P38"
 L["unlameifier_sound_dods_p38.compactname"] = "P38"
--- L["unlameifier_sound_dods_p38.description"] = "Changes the firing sound of the weapon to the P38 from Day of Defeat: Source."
+L["unlameifier_sound_dods_p38.description"] = "Cambia el sonido de disparo del arma por el de la P38 de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_rocket.printname"] = "Bazooka"
-L["unlameifier_sound_dods_rocket.compactname"] = "Bazooka"
--- L["unlameifier_sound_dods_rocket.description"] = "Changes the firing sound of the weapon to the Bazooka and Panzershreck from Day of Defeat: Source."
+L["unlameifier_sound_dods_rocket.printname"] = "Bazuca"
+L["unlameifier_sound_dods_rocket.compactname"] = "Bazuca"
+L["unlameifier_sound_dods_rocket.description"] = "Cambia el sonido de disparo del arma por el del Bazuca y Panzershreck de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_spring.printname"] = "Springfield"
 L["unlameifier_sound_dods_spring.compactname"] = "Springfield"
--- L["unlameifier_sound_dods_spring.description"] = "Changes the firing sound of the weapon to the Springfield from Day of Defeat: Source."
+L["unlameifier_sound_dods_spring.description"] = "Cambia el sonido de disparo del arma por el del Springfield de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
--- L["unlameifier_sound_dods_thompson.description"] = "Changes the firing sound of the weapon to the Thompson from Day of Defeat: Source."
+L["unlameifier_sound_dods_thompson.description"] = "Cambia el sonido de disparo del arma por el del Thompson de Day of Defeat: Source."
 
 -- Day of Defeat
--- L["unlameifier_folder_sounds_dod"] = "Sound Mods/DoD"
+L["unlameifier_folder_sounds_dod"] = "Sonidos/DoD"
 
-L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
-L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
--- L["unlameifier_sound_dod_30cal.description"] = [[Changes the firing sound of the weapon to the .30 Cal from Day of Defeat.
+L["unlameifier_sound_dod_30cal.printname"] = "Fusil de calibre .30"
+L["unlameifier_sound_dod_30cal.compactname"] = "Calibre .30"
+L["unlameifier_sound_dod_30cal.description"] = [[Cambia el sonido de disparo del arma por el del fusil de calibre .30 de Day of Defeat.
 
--- "Ultimate covering fire is the ability of this class.  A single man in good position can stop an enemy attack in its tracks. With it's massive recoil, this weapon is best used with bipod deployed."]]
+"La habilidad de esta clase es el fuego de cobertura definitivo. Un solo hombre en una buena posición puede parar en seco un ataque enemigo. Con su retroceso masivo, es mejor usar este arma con el bípode desplegado."]]
 
 L["unlameifier_sound_dod_bar.printname"] = "BAR"
 L["unlameifier_sound_dod_bar.compactname"] = "BAR"
--- L["unlameifier_sound_dod_bar.description"] = [[Changes the firing sound of the weapon to the BAR from Day of Defeat.
+L["unlameifier_sound_dod_bar.description"] = [[Cambia el sonido de disparo del arma por el del BAR de Day of Defeat.
 
--- "This class is meant to lay down cover fire for his fellow assaulting infantry. With the BAR's large round, this class can knock down 3 or 4 enemy soldiers at a time with one clip."]]
+"El propósito de esta clase es dar fuego de cobertura a sus compañeros de infantería de asalto. Con la gran bala del BAR, esta clase puede abatir 3 o 4 soldados enemigos a la vez con un solo cargador."]]
 
 L["unlameifier_sound_dod_bren.printname"] = "Bren"
 L["unlameifier_sound_dod_bren.compactname"] = "Bren"
--- L["unlameifier_sound_dod_bren.description"] = [[Changes the firing sound of the weapon to the Bren from Day of Defeat.
+L["unlameifier_sound_dod_bren.description"] = [[Cambia el sonido de disparo del arma por el de la Bren de Day of Defeat.
 
--- "Known for it's outstanding reliability and power, the Bren machine gun was the mainstay for the Commonwealth forces in WWII.  Used both as a light and heavy machine gun, the Bren gun is extremely adaptable to the situation and can be used in both defensive and offensive roles."]]
+"Conocida por su potencia y fiabilidad extraordinaria, la ametralladora Bren fue el pilar de las fuerzas de la Mancomunidad durante la Segunda Guerra Mundial. Usada tanto a modo de ametralladora ligera como pesada, la Bren es extremadamente adaptable a cada situación y puede usarse tanto en roles defensivos como ofensivos."]]
 
-L["unlameifier_sound_dod_carbine.printname"] = "M1 Carbine"
-L["unlameifier_sound_dod_carbine.compactname"] = "M1 Carbine"
--- L["unlameifier_sound_dod_carbine.description"] = [[Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat.
+L["unlameifier_sound_dod_carbine.printname"] = "Carabina M1"
+L["unlameifier_sound_dod_carbine.compactname"] = "Carabina M1"
+L["unlameifier_sound_dod_carbine.description"] = [[Cambia el sonido de disparo del arma por el de la carabina M1 de Day of Defeat.
 
--- "With the lighter recoil of the M1 Carbine, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+"Con el ligero retroceso de la Carabina M1, esta clase puede acertar a objetivos de manera rápida y precisa. Esta clase es ideal para peleas urbanas a cortas distancias."]]
 
-L["unlameifier_sound_dod_colt.printname"] = "Colt 1911 Pistol"
-L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911 Pistol"
--- L["unlameifier_sound_dod_colt.description"] = "Changes the firing sound of the weapon to the Colt 1911 Pistol from Day of Defeat."
+L["unlameifier_sound_dod_colt.printname"] = "Pistola Colt 1911"
+L["unlameifier_sound_dod_colt.compactname"] = "Pistola Colt 1911"
+L["unlameifier_sound_dod_colt.description"] = "Cambia el sonido de disparo del arma por el de la pistola Colt 1911 de Day of Defeat."
 
 L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
 L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
--- L["unlameifier_sound_dod_enfield.description"] = [[Changes the firing sound of the weapon to the Enfield from Day of Defeat.
+L["unlameifier_sound_dod_enfield.description"] = [[Cambia el sonido de disparo del arma por el del Enfield de Day of Defeat.
 
--- "With the smoothest action in the world, this rifle was one of the most accurate of the war.  When compared to other bolt action rifles of the time, it's 10 round magazine gave it a distinct advantage in ammunition capacity."]]
+"Con el accionado más suave del mundo, este fusil fue uno de los más precisos en la guerra. Al compararlo con otros fusiles de cerrojo de la epoca, su cargador de 10 balas le daba una ventaja distintiva en capacidad de munición."]]
 
-L["unlameifier_sound_dod_enfieldsniper.printname"] = "Scoped Enfield"
-L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield S."
--- L["unlameifier_sound_dod_enfieldsniper.description"] = [[Changes the firing sound of the weapon to the Scoped Enfield from Day of Defeat.
+L["unlameifier_sound_dod_enfieldsniper.printname"] = "Enfield con mira telescópica"
+L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield con mira"
+L["unlameifier_sound_dod_enfieldsniper.description"] = [[Cambia el sonido de disparo del arma por el del Enfield con mira telescópica de Day of Defeat.
 
--- "The Enfield was one of the finest sniper rifles of the war.  Fitted with a 4x power sniper scope, the No4(T) proved to be such a fine weapon that after the war it continued serving for many years as the British Army's sniper rifle."]]
+"El Enfield era uno de los mejores fusiles de francotirador de la guerra. Equipado con una mira telescópica de 4 aumentos, el No4(T) demostró ser tan buen arma que continuó en servicio durante muchos años después de la guerra como el fusil francotirador del ejército británico."]]
 
 L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
 L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
--- L["unlameifier_sound_dod_fg42.description"] = [[Changes the firing sound of the weapon to the Fg42 from Day of Defeat.
+L["unlameifier_sound_dod_fg42.description"] = [[Cambia el sonido de disparo del arma por el de la Fg42 de Day of Defeat.
 
--- "The Fg42 represented a huge stride in the advance of infantry small arms.  Using the full 8mm cartridge, this specialized weapon was reserved for Germany's elite Fallschirmjäger. This Fg42 can be used with the bipod for sustained cover fire.  The Fg42 was a very short compact weapon.  This compactness produced two effects, horrid recoil in automatic fire and the loudest muzzle blast of any weapon of the war.  Enemy soldiers immediately hit the dirt when they heard the titanic blast of this weapon.  The Fg42 is best used firing in short 2 to 3 shot bursts."]]
+"La Fg42 representó un salto enorme en el avance de armas pequeñas de infantería. Usando el cartucho entero de 8mm, este arma especializada fue reservada por la Fallschirmjäger de élite de Alemania. Esta Fg42 puede ser usada con un bípode para proporcionar fuego de cobertura sostenida. La Fg42 fue un arma muy corta y compacta. El hecho de ser tan compacta produjo dos efecto, un retroceso horrible durante el fuego automático y el ruido más alto de cualquier arma de la guerra. Los soldados enemigos echaban el cuerpo a tierra inmediatamente al escuchar el titánico sonido de disparo de este arma. La Fg42 es mejor empleada disparando ráfagas cortas de 2 o 3 disparos."]]
 
-L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
-L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.printname"] = "Garand M1"
+L["unlameifier_sound_dod_garand.compactname"] = "Garand M1"
 -- L["unlameifier_sound_dod_garand.description"] = [[Changes the firing sound of the weapon to the M1 Garand from Day of Defeat.
 
 -- "Known as the 'rifle that won the war',  the Garand provides this class with semi-automatic one shot kill capability.  After learning to control the Garand's recoil, this weapon and class can turn the tide of a battle."]]

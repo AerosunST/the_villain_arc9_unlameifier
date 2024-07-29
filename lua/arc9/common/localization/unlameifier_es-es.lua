@@ -922,9 +922,9 @@ L["unlameifier_sound_dods_k98.printname"] = "K98k"
 L["unlameifier_sound_dods_k98.compactname"] = "K98k"
 L["unlameifier_sound_dods_k98.description"] = "Cambia el sonido de disparo del arma por el del K98k de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_k98scoped.printname"] = "Fusil francotiradorK98"
+L["unlameifier_sound_dods_k98scoped.printname"] = "Fusil francotirador K98"
 L["unlameifier_sound_dods_k98scoped.compactname"] = "Franco. K98"
-L["unlameifier_sound_dods_k98scoped.description"] = "Cambia el sonido de disparo del arma por el del fusil francotirador K89 de Day of Defeat: Source."
+L["unlameifier_sound_dods_k98scoped.description"] = "Cambia el sonido de disparo del arma por el del fusil francotirador K98 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_m1carbine.printname"] = "Carabina M1"
 L["unlameifier_sound_dods_m1carbine.compactname"] = "Carabina M1"
@@ -1152,9 +1152,9 @@ L["unlameifier_sound_tf2_invasion_pistol.description"] = string.format(tf2desc.s
 
 ¡Convierte a tus enemigos en cenizas!]]
 
-L["unlameifier_sound_tf2_cow_mangler.printname"] = "El Exprimevacas 5000"
-L["unlameifier_sound_tf2_cow_mangler.compactname"] = "EV 5000"
-L["unlameifier_sound_tf2_cow_mangler.description"] = string.format(tf2desc.shoot, "del Exprimevacas 5000")
+L["unlameifier_sound_tf2_cowmangler.printname"] = "El Exprimevacas 5000"
+L["unlameifier_sound_tf2_cowmangler.compactname"] = "EV 5000"
+L["unlameifier_sound_tf2_cowmangler.description"] = string.format(tf2desc.shoot, "del Exprimevacas 5000")
 
 L["unlameifier_sound_tf2_crusaderscrossbow.printname"] = "La Ballesta del Cruzado"
 L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Cruzado"
@@ -1176,13 +1176,13 @@ L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Bazuca del Mendigo"
 L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Del Mendigo"
 L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "del Bazuca del Mendigo") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Pistola de Bolsillo del Guaperas"
-L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Del Guaperas"
-L["unlameifier_sound_tf2_pep_scattergun.description"] = string.format(tf2desc.shoot, "de la Pistola de Bolsillo del Guaperas") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pistola de Bolsillo del Guaperas"
+L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Del Guaperas"
+L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "de la Pistola de Bolsillo del Guaperas") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_shotgun.printname"] = "Devastadora del Imberbe"
-L["unlameifier_sound_tf2_doom_scout_shotgun.compactname"] = "Imberbe"
-L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2desc.shoot, "de la Devastadora del Imberbe") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Devastadora del Imberbe"
+L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Imberbe"
+L["unlameifier_sound_tf2_pep_scattergun.description"] = string.format(tf2desc.shoot, "de la Devastadora del Imberbe") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "El Asesino a Sueldo"
 L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "Asesino"
@@ -1328,7 +1328,7 @@ L["unlameifier_sound_fo76_missile.description"] = "Cambia el sonido de disparo d
 
 L["unlameifier_sound_fo76_pistol_10mm.printname"] = "Pistola de 10 mm"
 L["unlameifier_sound_fo76_pistol_10mm.compactname"] = "10 mm"
-L["unlameifier_sound_fo76_pistol_10mm.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola de 10mm\" de Fallout 76."
+L["unlameifier_sound_fo76_pistol_10mm.description"] = "Cambia el sonido de disparo del arma por el de la \"Pistola de 10 mm\" de Fallout 76."
 
 L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Bláster alienígena"
 L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"

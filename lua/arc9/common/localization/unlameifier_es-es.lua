@@ -563,17 +563,17 @@ Al estar <color=100,255,100>silenciadas</color>: Usa los sonidos de la USP.
 
 <color=150,150,255>Dato curioso</color>: El nombre real de las .40 Dual Elites es "Beretta 92G Elite II". A pesar de su nombre, están calibradas para 9x19mm, no .40 S&W.]]
 
-L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 Auto Shotgun"
+L["unlameifier_sound_css_xm1014.printname"] = "Escopeta Automática Leone YG1265"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
-L["unlameifier_sound_css_xm1014.description"] = [[Cambia el sonido de disparo del arma por el de la Leone YG1265 Auto Shotgun de Counter-Strike: Source.
+L["unlameifier_sound_css_xm1014.description"] = [[Cambia el sonido de disparo del arma por el de la Escopeta Automática Leone YG1265 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciada</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciada</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: Tanto Global Offensive como CS2 aún utilizan el nombre "XM1014", a pesar de ser un nombre completamente ficticio.]]
 
-L["unlameifier_sound_css_tmp.printname"] = "Schmidt Machine Pistol"
+L["unlameifier_sound_css_tmp.printname"] = "Pistola Ametralladora Schmidt"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
-L["unlameifier_sound_css_tmp.description"] = [[Cambia el sonido de disparo del arma por el del Schmidt Machine Pistol de Counter-Strike: Source.
+L["unlameifier_sound_css_tmp.description"] = [[Cambia el sonido de disparo del arma por el de la Pistola Ametralladora Schmidt de Counter-Strike: Source.
 
 <color=255,100,100>NOTA</color>: No tiene sonidos sin silenciar.
 
@@ -583,15 +583,15 @@ L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
 L["unlameifier_sound_css_mac10.description"] = [[Cambia el sonido de disparo del arma por el del Ingram MAC-10 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
 <color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que usa su nombre de la vida real.]]
 
-L["unlameifier_sound_css_mp5.printname"] = "K&M Sub-Machine Gun"
+L["unlameifier_sound_css_mp5.printname"] = "Subfusil K&M"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
-L["unlameifier_sound_css_mp5.description"] = [[Cambia el sonido de disparo del arma por el del K&M Sub-Machine Gun de Counter-Strike: Source.
+L["unlameifier_sound_css_mp5.description"] = [[Cambia el sonido de disparo del arma por el del Subfusil K&M de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
 <color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que no está en espejo, ya que sus accionadores ya están en el lado izquierdo.]]
 
@@ -599,7 +599,7 @@ L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
 L["unlameifier_sound_css_ump45.description"] = [[Cambia el sonido de disparo del arma por el del K&M UMP45 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
 <color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que usa su nombre de la vida real, excepto por el fabricante. Además, según el modelo del arma, tiene siempre el seguro puesto.]]
 
@@ -607,7 +607,7 @@ L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
 L["unlameifier_sound_css_p90.description"] = [[Cambia el sonido de disparo del arma por el del ES C90 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la TMP.
 
 <color=150,150,255>Dato curioso</color>: Debido a un error, el C90 llegó a estar calibrado para .338 Lapua Magnum una vez. Fue arreglado más adelante.]]
 
@@ -615,7 +615,7 @@ L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
 L["unlameifier_sound_css_galil.description"] = [[Cambia el sonido de disparo del arma por el del IDF Defender de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: El Galil de la vida real viene con un abridor de botellas integrado. ¿No me crees? ¡Búscalo!]]
 
@@ -623,7 +623,7 @@ L["unlameifier_sound_css_famas.printname"] = "Clarion 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
 L["unlameifier_sound_css_famas.description"] = [[Cambia el sonido de disparo del arma por el del Clarion 5.56 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: Los "clarions" son trompetas de guerra medievales.]]
 
@@ -631,13 +631,13 @@ L["unlameifier_sound_css_ak47.printname"] = "CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
 L["unlameifier_sound_css_ak47.description"] = [[Cambia el sonido de disparo del arma por el del CV-47 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: Este es el ejemplo más obvio de un arma en espejo en Source. Minh "Gooseman" Le es un tirador zurdo, y quería que todas las armas se operasen con la mano izquierda.]]
 
-L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1 Carbine"
+L["unlameifier_sound_css_m4a1.printname"] = "Carabina Maverick M4A1"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
-L["unlameifier_sound_css_m4a1.description"] = [[Cambia el sonido de disparo del arma por el del Maverick M4A1 Carbine de Counter-Strike: Source.
+L["unlameifier_sound_css_m4a1.description"] = [[Cambia el sonido de disparo del arma por el de la Carabina Maverick M4A1 de Counter-Strike: Source.
 
 <color=150,150,255>Dato curioso</color>: Durante la animación de recarga, el jugador se ve operando el botón de asistencia hacia adelante en vez de la palanca de carga.]]
 
@@ -645,7 +645,7 @@ L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
 L["unlameifier_sound_css_sg552.description"] = [[Cambia el sonido de disparo del arma por el del Krieg 552 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: A pesar de disparar en automático, el selector de disparo está puesto en semiautomático.]]
 
@@ -653,7 +653,7 @@ L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
 L["unlameifier_sound_css_aug.description"] = [[Cambia el sonido de disparo del arma por el del Bullpup de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: Al recargar, puedes ver fácilmente que la palanca de carga no está unida fisicamente al arma.]]
 
@@ -661,7 +661,7 @@ L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
 L["unlameifier_sound_css_scout.description"] = [[Cambia el sonido de disparo del arma por el del Schmidt Scout de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: El Steyr Scout de la vida real tiene un porta cargadores integrado en la culata.]]
 
@@ -669,15 +669,15 @@ L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Commando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
 L["unlameifier_sound_css_sg550.description"] = [[Cambia el sonido de disparo del arma por el del Krieg 550 Commando de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: El sufijo de "Commando" no tiene sentido, ya que el Krieg 550 está representado como el SIG 550 de longitud completa.]]
 
-L["unlameifier_sound_css_awp.printname"] = "Magnum Sniper Rifle"
+L["unlameifier_sound_css_awp.printname"] = "Rifle Francotirador Magnum"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
-L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Magnum Sniper Rifle de Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Rifle Francotirador Magnum de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: El AWP de la vida real fue montado por dos tios en un garaje y lo metieron en las pruebas británicas MOD con el propósito exclusivo de ver como le iría enfrentándose a rifles militares reales. "Desafortunadamente" ganaron y tuvieron que empezar a producir a toda prisa miles de rifles para el ejército británico.]]
 
@@ -685,7 +685,7 @@ L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
 L["unlameifier_sound_css_g3sg1.description"] = [[Cambia el sonido de disparo del arma por el del D3/AU-1 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: Tiene siempre puesto el seguro. Además, la palanca de carga no se mueve durante la recarga.]]
 
@@ -693,88 +693,88 @@ L["unlameifier_sound_css_m249.printname"] = "M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
 L["unlameifier_sound_css_m249.description"] = [[Cambia el sonido de disparo del arma por el del M249 de Counter-Strike: Source.
 
-Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 
 <color=150,150,255>Dato curioso</color>: En Source, el M249 no tiene culata.]]
 
 -- Neosun Mouth
--- L["unlameifier_folder_sounds_neosun"] = "Sound Mods/Neosun"
+L["unlameifier_folder_sounds_neosun"] = "Sonidos/Neosun"
 
--- L["unlameifier_sound_neosun_pew.printname"] = "Pew"
--- L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
--- L["unlameifier_sound_neosun_pew.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_pew.printname"] = "Piu"
+L["unlameifier_sound_neosun_pew.compactname"] = "Piu"
+L["unlameifier_sound_neosun_pew.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
--- This one is "pew".]]
+Este es "piu".]]
 
--- L["unlameifier_sound_neosun_bang.printname"] = "Bang"
--- L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
--- L["unlameifier_sound_neosun_bang.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_bang.printname"] = "Bang"
+L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
+L["unlameifier_sound_neosun_bang.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
--- This one is "bang".]]
+Este es "bang".]]
 
--- L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
--- L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
--- L["unlameifier_sound_neosun_gunshot.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
+L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
+L["unlameifier_sound_neosun_gunshot.description"] = [[Se ha contratado al actor de voz profesional Neosun para brindarte los sonidos de disparo de armas de fuego más realistas jamás concebidos.
 
--- This one is "gunshot".]]
+Este es "gunshot" (del inglés, disparo de pistola).]]
 
 -- Misc.
--- L["unlameifier_folder_sounds_misc"] = "Sound Mods/Misc."
+L["unlameifier_folder_sounds_misc"] = "Sonidos/Otros"
 
--- L["unlameifier_sound_misc_sussy.printname"] = "Deranged Madness"
--- L["unlameifier_sound_misc_sussy.compactname"] = "Insanity"
--- L["unlameifier_sound_misc_sussy.description"] = [[An attachment only the most unhinged and depraved would ever equip. Heed this warning now, for there is no turning back.
+L["unlameifier_sound_misc_sussy.printname"] = "Locura desquiciada"
+L["unlameifier_sound_misc_sussy.compactname"] = "Locura"
+L["unlameifier_sound_misc_sussy.description"] = [[Un accesorio que solo los más depravados y desquiciados se equiparían. Presta atención ahora a este aviso, ya que no hay vuelta atrás.
 
--- Don't ask why your rate of fire is limited to 250 RPM... it's important, trust me.]]
+No me preguntes por qué la tasa de disparo está limitada a 250 RPM... es importante, confía en mí.]]
 
--- L["unlameifier_sound_misc_magicmissile.printname"] = "MAGIC MISSILE!"
--- L["unlameifier_sound_misc_magicmissile.compactname"] = "MISSILE!"
--- L["unlameifier_sound_misc_magicmissile.description"] = [["Now is time for the final battle"
+L["unlameifier_sound_misc_magicmissile.printname"] = "¡MISÍL MÁGICO!"
+L["unlameifier_sound_misc_magicmissile.compactname"] = "¡MISÍL!"
+L["unlameifier_sound_misc_magicmissile.description"] = [["Ahora es el momento de la batalla final"
 
--- -Court Wizard Chase Caspian]]
+ -Mago de la corte Chase Caspian]]
 
--- L["unlameifier_sound_misc_mrskeltal.printname"] = "Mr. Skeltal!"
--- L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
--- L["unlameifier_sound_misc_mrskeltal.description"] = [[thank u mr. skeltal
+L["unlameifier_sound_misc_mrskeltal.printname"] = "¡Señor Skeltal!"
+L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
+L["unlameifier_sound_misc_mrskeltal.description"] = [[grax sr. skeltal
 
--- bullets not required for dooting]]
+no hacen falta balas para hacer "doot"]]
 
--- L["unlameifier_sound_misc_ltg.printname"] = "A Message from Low Tier God"
--- L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
--- L["unlameifier_sound_misc_ltg.description"] = [["Your life is NOTHING. You serve ZERO purpose".
--- -LowTierGod
+L["unlameifier_sound_misc_ltg.printname"] = "Un mensaje de Low Tier God"
+L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
+L["unlameifier_sound_misc_ltg.description"] = [["Tu vida no es NADA. No tienes NINGÚN propósito".
+ -LowTierGod
 
--- note: Unlameifier and its creator, Neosun, does not promote, condone, or encourage suicide. If you are experiencing thoughts of self-harm or suicide, please dial 988 to get in touch with the Suicide and Crisis Lifeline (United States, refer to your country's equivalent if you are outside of the US). They are available 24 hours a day. No call is insignificant when suicide is on the mind. You matter, and you are loved.
+nota: Unlameifier y su creador, Neosun, no promueve, aprueba o fomenta el suicidio. Si estás experimentando pensamientos de autolesión o suicidio, por favor, llama al número gratuito del Teléfono de la Esperanza. Están disponibles las 24 horas del día. Ninguna llamada es insignificante cuando se tiene el suicidio en mente. Importas y se te quiere.
 
--- If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
+Si crees que necesitas hablar con alguien, eres libre de agregarme en Steam (solo asegurate de dejarme un comentario mencionando este accesorio para que no crea que eres spam) ♥]]
 
--- L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage Parody"
--- L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
--- L["unlameifier_sound_misc_mlg.description"] = [[basically the gen z equivalent of skibidi toilet.
+L["unlameifier_sound_misc_mlg.printname"] = "Parodia de montaje MLG"
+L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
+L["unlameifier_sound_misc_mlg.description"] = [[básicamente el equivalente de la generación z de skibidi toilet.
 
--- inject 2013 brain rot directly into your veins]]
+inyecta podredumbre cerebral de 2013 directamente en vena]]
 
--- L["unlameifier_sound_misc_fireworks.printname"] = "Fireworks"
--- L["unlameifier_sound_misc_fireworks.compactname"] = "Fireworks"
--- L["unlameifier_sound_misc_fireworks.description"] = [[Freedom without the Freedom.
+L["unlameifier_sound_misc_fireworks.printname"] = "Fuegos artificiales"
+L["unlameifier_sound_misc_fireworks.compactname"] = "Petardos"
+L["unlameifier_sound_misc_fireworks.description"] = [[Libertad sin la libertad.
 
--- Works best in semi-auto.]]
+Funciona mejor en semiautomático.]]
 
--- L["unlameifier_sound_misc_eagle.printname"] = "Eagle"
--- L["unlameifier_sound_misc_eagle.compactname"] = "Eagle"
--- L["unlameifier_sound_misc_eagle.description"] = [[Wield the power of the Freedom of the United States of America.
+L["unlameifier_sound_misc_eagle.printname"] = "Águila"
+L["unlameifier_sound_misc_eagle.compactname"] = "Águila"
+L["unlameifier_sound_misc_eagle.description"] = [[Empuña el poder de la libertad de los Estados Unidos de América.
 
--- Works best in semi-auto.
+Funciona mejor en semiautomático.
 
--- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
+¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ]]
 
--- L["unlameifier_sound_misc_eagle_alt.printname"] = "Eagle (Alternative Version)"
--- L["unlameifier_sound_misc_eagle_alt.compactname"] = "Eagle (Alt.)"
--- L["unlameifier_sound_misc_eagle_alt.description"] = [[Wield the power of the Freedom of the United States of America.
+L["unlameifier_sound_misc_eagle_alt.printname"] = "Águila (versión alternativa)"
+L["unlameifier_sound_misc_eagle_alt.compactname"] = "Águila (Alt.)"
+L["unlameifier_sound_misc_eagle_alt.description"] = [[Empuña el poder de la libertad de los Estados Unidos de América.
 
--- Unlike the original, this one adds an eagle screech when you stop firing.
+Al contrario de la versión original, este añade un chillido de águila cuando dejas de disparar.
 
--- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
+¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ]]
 
 -- Call of Duty: Modern Warfare 2 (2009)
 -- L["unlameifier_folder_sounds_mw2"] = "Sound Mods/MW2"

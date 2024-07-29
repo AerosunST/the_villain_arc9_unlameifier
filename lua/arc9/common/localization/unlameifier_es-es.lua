@@ -211,7 +211,7 @@ El resultado de un hilarante error de cálculo matemático.]]
 -- Effects
 L["eft_unlameifier_toys_dissolve.printname"] = "Efecto de disolución"
 L["eft_unlameifier_toys_dissolve.compactname"] = "Disolución"
-L["eft_unlameifier_toys_dissolve.description"] = "Hace que todo lo que mates se disuelva, como la bola de energía del AR2. Por las risas :)"
+L["eft_unlameifier_toys_dissolve.description"] = "Hace que todo lo que mates se disuelva, como la bola de energía del rifle de pulsos. Por las risas :)"
 
 L["eft_unlameifier_toys_remove_tool.printname"] = "Efecto de la herramienta de eliminar"
 L["eft_unlameifier_toys_remove_tool.compactname"] = "Eliminador"
@@ -333,12 +333,12 @@ L["eft_unlameifier_gangsta_hold.description"] = [[Sostiene el arma de lado con u
 Para que conste, tus pistas de soundcloud son horribles. Deja de intentarlo, por favor. No saldrás del barrio con ninguna de esas.]]
 
 //////////////////////////////// unlameifier_eft_extras custom strings
-L["unlameifier_folder_utilities"] = "Utilitario"
-L["unlameifier_folder_toys"] = "Juguetes"
-L["unlameifier_folder_tracers"] = "Trazadores"
+L["unlameifier.folder.utilities"] = "Unlameifier/Utilitario"
+L["unlameifier.folder..toys"] = "Unlameifier/Juguetes"
+L["unlameifier.folder.tracers"] = "Unlameifier/Trazadores"
 
-L["unlameifier_folder_toys_impactdecals"] = "Juguetes/Calcomanías de impacto"
-L["unlameifier_folder_tracers_modifiers"] = "Trazadores/Modificadores"
+L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Juguetes/Calcomanías de impacto"
+L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Trazadores/Modificadores"
 
 L["unlameifier_attname_frontsight"] = "Mira frontal"
 L["unlameifier_attname_rearsight"] = "Mira trasera"
@@ -354,7 +354,7 @@ L["unlameifier_eft_videogame_shotguns_customcon"] = "Desactivar al usar balas de
 
 //////////////////////////////// unlameifier_sound_mods
 -- DOOM 1993
-L["unlameifier_folder_sounds_doom"] = "Sonidos/DOOM"
+L["unlameifier.folder.sounds.doom"] = "Unlameifier/Sonidos/DOOM"
 
 L["unlameifier_sound_doom_pistol.printname"] = "Pistola"
 L["unlameifier_sound_doom_pistol.compactname"] = "Pistola"
@@ -377,7 +377,7 @@ L["unlameifier_sound_doom_rocket.compactname"] = "Lanzacohetes"
 L["unlameifier_sound_doom_rocket.description"] = "Cambia el sonido de disparo del arma por el del lanzacohetes de DOOM (1993)."
 
 -- Half-Life 2
-L["unlameifier_folder_sounds_hl2"] = "Sonidos/HL2"
+L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Sonidos/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "Pistola de 9mm"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistola"
@@ -391,9 +391,9 @@ L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del a
 
 Nombrar un arma tras el calibre que dispara es absolutamente estúpido. Esto es una Colt Python. Al contrario de la creencia popular, .357, el calibre, no es tan potente como crees que es.]]
 
-L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Fusil de pulsos)"
+L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Rifle de pulsos)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
-L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma por el del fusil de pulsos de Half-Life 2.
+L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma por el del rifle de pulsos de Half-Life 2.
 
 Más conocido como el 'AR2', que existe de verdad, a no ser que te creas a cierta gente de ciudad que dice haber usado el 'AR3'...]]
 
@@ -409,13 +409,13 @@ L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del 
 
 Desafortunadamente, no te permite enganchar muñecos a las superficies.]]
 
-L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del fusil de pulsos"
+L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del rifle de pulsos"
 L["unlameifier_sound_hl2_ar22.compactname"] = "BE AR2"
-L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma por el de la bola de energía del AR2 de Half-Life 2 siendo disparada.
+L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma por el de la bola de energía del rifle de pulsos de Half-Life 2 siendo disparada.
 
 No apuntes a tus aliados a no ser que los odies de verdad.]]
 
-L["unlameifier_sound_hl2_rpg.printname"] = "Granada propulsada por cohete"
+L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Granada propulsada por cohete)"
 L["unlameifier_sound_hl2_rpg.compactname"] = "Lanzacohetes"
 L["unlameifier_sound_hl2_rpg.description"] = [[Cambia el sonido de disparo del arma por el del lanzacohetes de Half-Life 2.
 
@@ -440,7 +440,7 @@ L["unlameifier_sound_hl2_airboat2.description"] = [[Cambia el sonido de disparo 
 En realidad no dispara dinamita rápidamente.]]
 
 -- Half-Life 1
-L["unlameifier_folder_sounds_hl1"] = "Sonidos/HL1"
+L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Sonidos/HL1"
 
 L["unlameifier_sound_hl1_pistol.printname"] = "Pistola"
 L["unlameifier_sound_hl1_pistol.compactname"] = "Pistola"
@@ -515,7 +515,7 @@ L["unlameifier_sound_hl1_xbow.description"] = [[Cambia el sonido de disparo del 
 Si somos sinceros, hay mierda más rara en Unlameifier con lo que cambiar el sonido de disparo de tu arma. Pero tu verás.]]
 
 -- Counter-Strike: Source
-L["unlameifier_folder_sounds_css"] = "Sonidos/CSS"
+L["unlameifier.folder.sounds.css"] = "Unlameifier/Sonidos/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "9x19mm Sidearm"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
@@ -698,7 +698,7 @@ Al estar <color=100,255,100>silenciado</color>: Usa los sonidos de la M4A1.
 <color=150,150,255>Dato curioso</color>: En Source, el M249 no tiene culata.]]
 
 -- Neosun Mouth
-L["unlameifier_folder_sounds_neosun"] = "Sonidos/Neosun"
+L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sonidos/Neosun"
 
 L["unlameifier_sound_neosun_pew.printname"] = "Piu"
 L["unlameifier_sound_neosun_pew.compactname"] = "Piu"
@@ -719,7 +719,7 @@ L["unlameifier_sound_neosun_gunshot.description"] = [[Se ha contratado al actor 
 Este dice "gunshot" (del inglés, disparo de pistola).]]
 
 -- Misc.
-L["unlameifier_folder_sounds_misc"] = "Sonidos/Otros"
+L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sonidos/Otros"
 
 L["unlameifier_sound_misc_sussy.printname"] = "Locura desquiciada"
 L["unlameifier_sound_misc_sussy.compactname"] = "Locura"
@@ -777,7 +777,7 @@ Al contrario de la versión original, este añade un chillido de águila cuando 
 ¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ¡<color=255,150,150>U.S.A</color>! ¡U.S.A! ¡<color=150,150,255>U.S.A</color>! ]]
 
 -- Call of Duty: Modern Warfare 2 (2009)
-L["unlameifier_folder_sounds_mw2"] = "Sonidos/MW2"
+L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sonidos/MW2"
 
 L["unlameifier_sound_codmw2_intervention.printname"] = "Intervención"
 L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervención"
@@ -786,7 +786,7 @@ L["unlameifier_sound_codmw2_intervention.description"] = [[Cambia el sonido de d
 Gracias, Palindrone, por dejarme pillar sonidos de tus paquetes de CoD. Asegúrate de echarles un vistazo, ¡son geniales!]]
 
 -- Roblox
-L["unlameifier_folder_sounds_roblox"] = "Sonidos/Roblox"
+L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sonidos/Roblox"
 
 L["unlameifier_sound_roblox_paintball.printname"] = "Pistola de paintball"
 L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
@@ -819,7 +819,7 @@ L["unlameifier_sound_roblox_guitar.description"] = [[Cambia el sonido de disparo
 ¡Hasta es posible que puedas tocar una canción con ella!]]
 
 -- Music
-L["unlameifier_folder_sounds_music"] = "Sonidos/Música"
+L["unlameifier.folder.sounds.music"] = "Unlameifier/Sonidos/Música"
 
 L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
 L["unlameifier_sound_music_usa1.compactname"] = "Himno EE. UU."
@@ -848,7 +848,7 @@ L["unlameifier_sound_music_usa4.description"] = [[NADA ES MÁS AMERICANO QUE VAC
 DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 -- KindredFlame
-L["unlameifier_folder_sounds_ws"] = "Sonidos/KindredFlame"
+L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sonidos/KindredFlame"
 
 L["unlameifier_sound_ws_m16a4.printname"] = "M16A4 de KindredFlame"
 L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
@@ -857,7 +857,7 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Sonidos sacados de la legendaria
 La leyenda nunca muere...]]
 
 -- Melee Sounds Misc (Impact)
-L["unlameifier_folder_sounds_melee_bonk"] = "Sonidos/Impacto/Otros"
+L["unlameifier.folder.sounds.melee.bonk"] = "Unlameifier/Sonidos/Impacto/Otros"
 
 L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
@@ -868,7 +868,7 @@ L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Látigo"
 L["unlameifier_sound_melee_whipcrack_impact.description"] = "Ahora *latigazo* puedes *latigazo* sonar *latigazo* igual *latigazo* que *latigazo* tus *latigazo* dibujos *latigazo* favoritos *latigazo*, Johnny *latigazo* Test *latigazo*  *latigazo*  *latigazo*  *latigazo*  *latigazo*."
 
 -- Melee Sounds JJBA (Swing)
-L["unlameifier_folder_sounds_melee_jojo"] = "Sonidos/Oscilación/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sonidos/Oscilación/JJBA"
 
 L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
 L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
@@ -885,14 +885,14 @@ MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA
 (suena un poco mal porque las armas cuerpo a cuerpo no tienen sonidos en bucle - culpa a arctic)]]
 
 -- Melee Sounds JJBA (Impact)
-L["unlameifier_folder_sounds_melee_jojo"] = "Sonidos/Impacto/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sonidos/Impacto/JJBA"
 
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Puñetazo de un Stand"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Puñetazo Stand"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Cambia el sonido de impacto del cuerpo a cuerpo con el efecto de sonido de un puñetazo de un Stand de JoJo's Bizarre Adventure."
 
 -- Day of Defeat: Source
-L["unlameifier_folder_sounds_dods"] = "Sonidos/DoD:S"
+L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sonidos/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = "Fusil del calibre .30"
 L["unlameifier_sound_dods_30cal.compactname"] = "Calibre .30"
@@ -910,9 +910,9 @@ L["unlameifier_sound_dods_colt.printname"] = "Colt"
 L["unlameifier_sound_dods_colt.compactname"] = "Colt"
 L["unlameifier_sound_dods_colt.description"] = "Cambia el sonido de disparo del arma por el de la Colt de Day of Defeat: Source."
 
-L["unlameifier_sound_dods_garand.printname"] = "Garand"
-L["unlameifier_sound_dods_garand.compactname"] = "Garand"
-L["unlameifier_sound_dods_garand.description"] = "Cambia el sonido de disparo del arma por el del Garand de Day of Defeat: Source."
+L["unlameifier_sound_dods_garand.printname"] = "Garand M1"
+L["unlameifier_sound_dods_garand.compactname"] = "Garand M1"
+L["unlameifier_sound_dods_garand.description"] = "Cambia el sonido de disparo del arma por el del Garand M1 de Day of Defeat: Source."
 
 L["unlameifier_sound_dods_grenade.printname"] = "Granada de fusil"
 L["unlameifier_sound_dods_grenade.compactname"] = "Granada de fusil"
@@ -963,7 +963,7 @@ L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Cambia el sonido de disparo del arma por el del Thompson de Day of Defeat: Source."
 
 -- Day of Defeat
-L["unlameifier_folder_sounds_dod"] = "Sonidos/DoD"
+L["unlameifier.folder.sounds.dod"] = "Unlameifier/Sonidos/DoD"
 
 L["unlameifier_sound_dod_30cal.printname"] = "Fusil de calibre .30"
 L["unlameifier_sound_dod_30cal.compactname"] = "Calibre .30"
@@ -1104,7 +1104,7 @@ L["unlameifier_sound_dod_webley.compactname"] = "Revólver Webley"
 L["unlameifier_sound_dod_webley.description"] = "Cambia el sonido de disparo del arma por el del revólver Webley de Day of Defeat."
 
 -- Team Fortress 2
-L["unlameifier_folder_sounds_tf2"] = "Sonidos/TF2"
+L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sonidos/TF2"
 -- L["unlameifier_tf2_scout"] = "/Scout"
 -- L["unlameifier_tf2_soldier"] = "/Soldier"
 -- L["unlameifier_tf2_pyro"] = "/Pyro"
@@ -1119,34 +1119,33 @@ local tf2desc = {
 	shoot = "Reemplaza los sonidos de disparos por los %s de Team Fortress 2.",
 	hit = "Reemplaza los sonidos de impacto de cuerpo a cuerpo por los %s de Team Fortress 2.",
 	swing = "Reemplaza los sonidos de oscilación de cuerpo a cuerpo por los %s de Team Fortress 2.",
-	crit = "\n<color=153,204,255>Probabilidad del ~10% de reproducir un sonido de impacto crítico</color>",
-	crit30 = "\n<color=153,204,255>Probabilidad del ~30% de reproducir un sonido de impacto crítico</color>",
+	crit = "\n<color=153,204,255>Probabilidad del ~%s%% de reproducir un sonido de impacto crítico</color>",
 }
 
 -- Team Fortress 2 Firing Sounds
-L["unlameifier_sound_tf2_air_burster.printname"] = "El Lanzabombas Rápido"
-L["unlameifier_sound_tf2_air_burster.compactname"] = "Lanza. rápido"
-L["unlameifier_sound_tf2_air_burster.description"] = string.format(tf2desc.shoot, "del Lanzabombas Rápido") .. tf2desc.crit
+L["unlameifier_sound_tf2_sticky_quickie.printname"] = "El Lanzabombas Rápido"
+L["unlameifier_sound_tf2_sticky_quickie.compactname"] = "Lanza. rápido"
+L["unlameifier_sound_tf2_sticky_quickie.description"] = string.format(tf2desc.shoot, "del Lanzabombas Rápido") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_airstrike.printname"] = "El Ataque Aéreo"
 L["unlameifier_sound_tf2_airstrike.compactname"] = "Ataque Aéreo"
-L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "del Ataque Aéreo") .. tf2desc.crit
+L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "del Ataque Aéreo") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_ambassador.printname"] = "La Embajadora"
-L["unlameifier_sound_tf2_ambassador.compactname"] = "Embajadora"
-L["unlameifier_sound_tf2_ambassador.description"] = string.format(tf2desc.shoot, "de la Embajadora") .. tf2desc.crit
+L["unlameifier_sound_tf2_achievement_revolver.printname"] = "La Embajadora"
+L["unlameifier_sound_tf2_achievement_revolver.compactname"] = "Embajadora"
+L["unlameifier_sound_tf2_achievement_revolver.description"] = string.format(tf2desc.shoot, "de la Embajadora") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_bison.printname"] = "El Bisonte Justiciero"
-L["unlameifier_sound_tf2_bison.compactname"] = "Bisonte"
-L["unlameifier_sound_tf2_bison.description"] = string.format(tf2desc.shoot, "del Bisonte Justiciero") .. tf2desc.crit
+L["unlameifier_sound_tf2_righteousbison.printname"] = "El Bisonte Justiciero"
+L["unlameifier_sound_tf2_righteousbison.compactname"] = "Bisonte"
+L["unlameifier_sound_tf2_righteousbison.description"] = string.format(tf2desc.shoot, "del Bisonte Justiciero") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_bow.printname"] = "Arcos"
 L["unlameifier_sound_tf2_bow.compactname"] = "Arco"
-L["unlameifier_sound_tf2_bow.description"] = "Reemplaza el sonido de disparo del arma por el de los diversos arcos de Team Fortress 2." .. tf2desc.crit
+L["unlameifier_sound_tf2_bow.description"] = "Reemplaza el sonido de disparo del arma por el de los diversos arcos de Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_capper.printname"] = "El E.R.R.A.D.I.C.A.D.O.R."
-L["unlameifier_sound_tf2_capper.compactname"] = "ERRADICADOR"
-L["unlameifier_sound_tf2_capper.description"] = string.format(tf2desc.shoot, "del E.R.R.A.D.I.C.A.D.O.R.") .. tf2desc.crit .. [[
+L["unlameifier_sound_tf2_invasion_pistol.printname"] = "El E.R.R.A.D.I.C.A.D.O.R."
+L["unlameifier_sound_tf2_invasion_pistol.compactname"] = "ERRADICADOR"
+L["unlameifier_sound_tf2_invasion_pistol.description"] = string.format(tf2desc.shoot, "del E.R.R.A.D.I.C.A.D.O.R.") .. string.format(tf2desc.crit, 10) .. [[
 
 ¡Convierte a tus enemigos en cenizas!]]
 
@@ -1154,108 +1153,118 @@ L["unlameifier_sound_tf2_cow_mangler.printname"] = "El Exprimevacas 5000"
 L["unlameifier_sound_tf2_cow_mangler.compactname"] = "EV 5000"
 L["unlameifier_sound_tf2_cow_mangler.description"] = string.format(tf2desc.shoot, "del Exprimevacas 5000")
 
-L["unlameifier_sound_tf2_crusaders_crossbow.printname"] = "La Ballesta del Cruzado"
-L["unlameifier_sound_tf2_crusaders_crossbow.compactname"] = "Cruzado"
-L["unlameifier_sound_tf2_crusaders_crossbow.description"] = string.format(tf2desc.shoot, "de la Ballesta del Cruzado") .. tf2desc.crit
+L["unlameifier_sound_tf2_crusaderscrossbow.printname"] = "La Ballesta del Cruzado"
+L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Cruzado"
+L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc.shoot, "de la Ballesta del Cruzado") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "El AWPa Cabezas"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPa Cabezas"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "del AWPa Cabezas") .. tf2desc.crit
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "del AWPa Cabezas") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_diamond_back.printname"] = "El Diamondback"
-L["unlameifier_sound_tf2_diamond_back.compactname"] = "Diamondback"
-L["unlameifier_sound_tf2_diamond_back.description"] = string.format(tf2desc.shoot, "del Diamondback") .. tf2desc.crit30
+L["unlameifier_sound_tf2_dex_revolver.printname"] = "El Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.description"] = string.format(tf2desc.shoot, "del Diamondback") .. string.format(tf2desc.crit, 30)
 
-L["unlameifier_sound_tf2_doom_flare_gun.printname"] = "El Chamuscador"
-L["unlameifier_sound_tf2_doom_flare_gun.compactname"] = "Chamuscador"
-L["unlameifier_sound_tf2_doom_flare_gun.description"] = string.format(tf2desc.shoot, "del Chamuscador") .. tf2desc.crit
+L["unlameifier_sound_tf2_scorchshot.printname"] = "El Chamuscador"
+L["unlameifier_sound_tf2_scorchshot.compactname"] = "Chamuscador"
+L["unlameifier_sound_tf2_scorchshot.description"] = string.format(tf2desc.shoot, "del Chamuscador") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_rocket_launcher.printname"] = "Bazuca del Mendigo"
-L["unlameifier_sound_tf2_doom_rocket_launcher.compactname"] = "Del Mendigo"
-L["unlameifier_sound_tf2_doom_rocket_launcher.description"] = string.format(tf2desc.shoot, "del Bazuca del Mendigo") .. tf2desc.crit
+L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Bazuca del Mendigo"
+L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Del Mendigo"
+L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "del Bazuca del Mendigo") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pistola de Bolsillo del Guaperas"
-L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Del Guaperas"
-L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "de la Pistola de Bolsillo del Guaperas") .. tf2desc.crit
+L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Pistola de Bolsillo del Guaperas"
+L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Del Guaperas"
+L["unlameifier_sound_tf2_pep_scattergun.description"] = string.format(tf2desc.shoot, "de la Pistola de Bolsillo del Guaperas") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_doom_scout_shotgun.printname"] = "Devastadora del Imberbe"
 L["unlameifier_sound_tf2_doom_scout_shotgun.compactname"] = "Imberbe"
-L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2desc.shoot, "de la Devastadora del Imberbe") .. tf2desc.crit
+L["unlameifier_sound_tf2_doom_scout_shotgun.description"] = string.format(tf2desc.shoot, "de la Devastadora del Imberbe") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_sniper_rifle.printname"] = "El Asesino a Sueldo"
-L["unlameifier_sound_tf2_doom_sniper_rifle.compactname"] = "Asesino"
-L["unlameifier_sound_tf2_doom_sniper_rifle.description"] = string.format(tf2desc.shoot, "del Asesino a Sueldo") .. tf2desc.crit .. [[
+L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "El Asesino a Sueldo"
+L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "Asesino"
+L["unlameifier_sound_tf2_pro_sniperrifle.description"] = string.format(tf2desc.shoot, "del Asesino a Sueldo") .. string.format(tf2desc.crit, 10) .. [[
 
 
 Rodarán cabezas.]]
 
-L["unlameifier_sound_tf2_doom_sniper_smg.printname"] = "La Carabina del Limpiador"
-L["unlameifier_sound_tf2_doom_sniper_smg.compactname"] = "Limpiador"
-L["unlameifier_sound_tf2_doom_sniper_smg.description"] = string.format(tf2desc.shoot, "de la Carabina del Limpiador") .. tf2desc.crit
+L["unlameifier_sound_tf2_pro_smg.printname"] = "La Carabina del Limpiador"
+L["unlameifier_sound_tf2_pro_smg.compactname"] = "Limpiador"
+L["unlameifier_sound_tf2_pro_smg.description"] = string.format(tf2desc.shoot, "de la Carabina del Limpiador") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_dragon_gun_motor.printname"] = "La Achicharradora Huo-Long"
-L["unlameifier_sound_tf2_dragon_gun_motor.compactname"] = "Huo-Long"
-L["unlameifier_sound_tf2_dragon_gun_motor.description"] = string.format(tf2desc.shoot, "de la Achicharradora Huo-Long") .. tf2desc.crit
+L["unlameifier_sound_tf2_dragonsfury.printname"] = "La Achicharradora Huo-Long"
+L["unlameifier_sound_tf2_dragonsfury.compactname"] = "Huo-Long"
+L["unlameifier_sound_tf2_dragonsfury.description"] = string.format(tf2desc.shoot, "de la Achicharradora Huo-Long") .. string.format(tf2desc.crit, 10)
 
 -- Team Fortress 2 Melee Sounds
-L["unlameifier_folder_sounds_tf2_swing"] = "Sonidos/Oscilación/TF2"
-L["unlameifier_folder_sounds_tf2_impact"] = "Sonidos/Impacto/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sonidos/Oscilación/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sonidos/Impacto/TF2"
 
-L["unlameifier_sound_tf2_3rd_degree.printname"] = "El Tercer Grado"
-L["unlameifier_sound_tf2_3rd_degree.compactname"] = "Tercer Grado"
-L["unlameifier_sound_tf2_3rd_degree.description"] = string.format(tf2desc.hit, "del Tercer Grado") .. [[
+L["unlameifier_sound_tf2_thirddegree.printname"] = "El Tercer Grado"
+L["unlameifier_sound_tf2_thirddegree.compactname"] = "Tercer Grado"
+L["unlameifier_sound_tf2_thirddegree.description"] = string.format(tf2desc.hit, "del Tercer Grado") .. [[
 
 "Un dispositivo que no respeta el consenso científico convencional de que las moléculas que componen el cuerpo humano deben estar dispuestas "como están", y no, por ejemplo, esparcidas en un radio de un kilómetro."]]
 
-L["unlameifier_sound_tf2_axe_hit.printname"] = "Hacha de Bombero"
-L["unlameifier_sound_tf2_axe_hit.compactname"] = "Hacha de Bombero"
-L["unlameifier_sound_tf2_axe_hit.description"] = string.format(tf2desc.hit, "del Hacha de Bombero")
+L["unlameifier_sound_tf2_fireaxe_hit.printname"] = "Hacha de Bombero"
+L["unlameifier_sound_tf2_fireaxe_hit.compactname"] = "Hacha de Bombero"
+L["unlameifier_sound_tf2_fireaxe_hit.description"] = string.format(tf2desc.hit, "del Hacha de Bombero")
 
-L["unlameifier_sound_tf2_ball_buster_hit.printname"] = "El Asesino Envuelto"
-L["unlameifier_sound_tf2_ball_buster_hit.compactname"] = "Envuelto"
-L["unlameifier_sound_tf2_ball_buster_hit.description"] = string.format(tf2desc.hit, "del Asesino Envuelto")
+L["unlameifier_sound_tf2_ballbuster_hit.printname"] = "El Asesino Envuelto"
+L["unlameifier_sound_tf2_ballbuster_hit.compactname"] = "Envuelto"
+L["unlameifier_sound_tf2_ballbuster_hit.description"] = string.format(tf2desc.hit, "del Asesino Envuelto")
 
 L["unlameifier_sound_tf2_bat_hit.printname"] = "Bate"
 L["unlameifier_sound_tf2_bat_hit.compactname"] = "Bate"
 L["unlameifier_sound_tf2_bat_hit.description"] = string.format(tf2desc.hit, "del Bate")
 
-L["unlameifier_sound_tf2_batsaber_hit.printname"] = "El Bate Láser"
-L["unlameifier_sound_tf2_batsaber_hit.compactname"] = "Bate Láser"
-L["unlameifier_sound_tf2_batsaber_hit.description"] = string.format(tf2desc.hit, "del Bate Láser") .. [[
+L["unlameifier_sound_tf2_invasion_bat_hit.printname"] = "El Bate Láser"
+L["unlameifier_sound_tf2_invasion_bat_hit.compactname"] = "Bate Láser"
+L["unlameifier_sound_tf2_invasion_bat_hit.description"] = string.format(tf2desc.hit, "del Bate Láser") .. [[
 
-"¡Energía abrumadora!
-¡Desintegra a tus enemigos!"]]
+¡Energía abrumadora!
+¡Desintegra a tus enemigos!]]
 
-L["unlameifier_sound_tf2_batsaber_swing.printname"] = "El Bate Láser"
-L["unlameifier_sound_tf2_batsaber_swing.compactname"] = "Bate Láser"
-L["unlameifier_sound_tf2_batsaber_swing.description"] = string.format(tf2desc.swing, "del Bate Láser") .. tf2desc.crit30 .. [[
+L["unlameifier_sound_tf2_invasion_bat_swing.printname"] = "El Bate Láser"
+L["unlameifier_sound_tf2_invasion_bat_swing.compactname"] = "Bate Láser"
+L["unlameifier_sound_tf2_invasion_bat_swing.description"] = string.format(tf2desc.swing, "del Bate Láser") .. string.format(tf2desc.crit, 30) .. [[
 
-"¡Energía abrumadora!
-¡Desintegra a tus enemigos!"]]
+¡Energía abrumadora!
+¡Desintegra a tus enemigos!]]
 
-L["unlameifier_sound_tf2_blade_hit.printname"] = "Cuchillo"
-L["unlameifier_sound_tf2_blade_hit.compactname"] = "Cuchillo"
-L["unlameifier_sound_tf2_blade_hit.description"] = string.format(tf2desc.hit, "del Cuchillo")
+L["unlameifier_sound_tf2_knife_hit.printname"] = "Cuchillo"
+L["unlameifier_sound_tf2_knife_hit.compactname"] = "Cuchillo"
+L["unlameifier_sound_tf2_knife_hit.description"] = string.format(tf2desc.hit, "del Cuchillo")
 
-L["unlameifier_sound_tf2_blade_slice_hit.printname"] = "Espada / Hacha"
-L["unlameifier_sound_tf2_blade_slice_hit.compactname"] = "Espada / Hacha"
-L["unlameifier_sound_tf2_blade_slice_hit.description"] = "Reemplaza los sonidos de impacto cuerpo a cuerpo por los de las diversas espadas o hachas de Team Fortress 2."
+L["unlameifier_sound_tf2_sword_axe_hit.printname"] = "Espada / Hacha"
+L["unlameifier_sound_tf2_sword_axe_hit.compactname"] = "Espada / Hacha"
+L["unlameifier_sound_tf2_sword_axe_hit.description"] = "Reemplaza los sonidos de impacto cuerpo a cuerpo por los de las diversas espadas o hachas de Team Fortress 2."
 
 L["unlameifier_sound_tf2_bottle_broken_hit.printname"] = "Botella (rota)"
 L["unlameifier_sound_tf2_bottle_broken_hit.compactname"] = "Botella (R)"
 L["unlameifier_sound_tf2_bottle_broken_hit.description"] = string.format(tf2desc.hit, "de la Botella (rota)")
 
-L["unlameifier_sound_tf2_bottle_intact_hit.printname"] = "Botella"
-L["unlameifier_sound_tf2_bottle_intact_hit.compactname"] = "Botella"
-L["unlameifier_sound_tf2_bottle_intact_hit.description"] = string.format(tf2desc.hit, "de la Botella")
+L["unlameifier_sound_tf2_bottle_hit.printname"] = "Botella"
+L["unlameifier_sound_tf2_bottle_hit.compactname"] = "Botella"
+L["unlameifier_sound_tf2_bottle_hit.description"] = string.format(tf2desc.hit, "de la Botella")
+
+L["unlameifier_sound_tf2_disciplinaryaction_hit.printname"] = "La Acción Disciplinaria"
+L["unlameifier_sound_tf2_disciplinaryaction_hit.compactname"] = "Disciplinaria"
+L["unlameifier_sound_tf2_disciplinaryaction_hit.description"] = string.format(tf2desc.hit, "de la Acción Disciplinaria") .. string.format(tf2desc.crit, 20)
+
+L["unlameifier_sound_tf2_disciplinaryaction_swing.description"] = string.format(tf2desc.swing, "de la Acción Disciplinaria")
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Pala"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Pala"
-L["unlameifier_sound_tf2_shovel_swing.description"] = "Reemplaza los sonidos de oscilación de armas cuerpo a cuerpo por los de las diversas palas de Team Fortress 2." .. tf2desc.crit
+L["unlameifier_sound_tf2_shovel_swing.description"] = "Reemplaza los sonidos de oscilación de armas cuerpo a cuerpo por los de las diversas palas de Team Fortress 2." .. string.format(tf2desc.crit, 10)
+
+L["unlameifier_sound_tf2_evictionnotice_hit.printname"] = "La Orden de Desahucio"
+L["unlameifier_sound_tf2_evictionnotice_hit.compactname"] = "Desahucio"
+L["unlameifier_sound_tf2_evictionnotice_hit.description"] = string.format(tf2desc.swing, "de la Orden de Desahucio") .. string.format(tf2desc.crit, 40)
 
 -- Fallout 4 & 76
-L["unlameifier_folder_sounds_fo4"] = "Sonidos/Fallout 4"
-L["unlameifier_folder_sounds_fo76"] = "Sonidos/Fallout 76"
+L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sonidos/Fallout 4"
+L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Sonidos/Fallout 76"
 
 local fo76nosupp = "\n\n<color=255,150,150>Nota</color>: No tienen sonidos de disparo con silenciador."
 
@@ -1413,7 +1422,7 @@ L["unlameifier_sound_fo76_rifle_snipera.description"] = "Cambia el sonido de dis
 
 L["unlameifier_sound_fo76_rifle_gauss.printname"] = "Rifle Gauss"
 L["unlameifier_sound_fo76_rifle_gauss.compactname"] = "Gauss"
-L["unlameifier_sound_fo76_rifle_gauss.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle Gauss\" de Fallout 4 y 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_gauss.description"] = "Cambia el sonido de disparo del arma por el del \"Rifle Gauss\" de Fallout 4 y 76."
 
 L["unlameifier_sound_fo76_rifle_assault.printname"] = "Rifle de asalto"
 L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Asalto"

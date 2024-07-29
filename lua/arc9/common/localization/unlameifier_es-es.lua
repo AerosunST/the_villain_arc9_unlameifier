@@ -44,13 +44,13 @@ L["unlameifier_eft_iron_force_down_front.printname"] = "Mantener las miras de hi
 L["unlameifier_eft_iron_force_down_front.compactname"] = "Miras bajadas"
 L["unlameifier_eft_iron_force_down_front.description"] = [[Fuerza a las miras de hierro a mantenerse bajas.
 
-Para que conste, en realidad solo necesitas tener una de estas activas. No, mezclarlas no funcionará.]]
+Para que conste, realmente solo necesitas tener una de estas activas. No, mezclarlas no funcionará.]]
 
 L["unlameifier_eft_iron_force_up_front.printname"] = "Mantener las miras de hierro subidas"
 L["unlameifier_eft_iron_force_up_front.compactname"] = "Miras subidas"
 L["unlameifier_eft_iron_force_up_front.description"] = [[Fuerza a las miras de hierro a mantenerse altas.
 
-Para que conste, en realidad solo necesitas tener una de estas activas. No, mezclarlas no funcionará.]]
+Para que conste, realmente solo necesitas tener una de estas activas. No, mezclarlas no funcionará.]]
 
 -- Shotgun-Specific?
 L["unlameifier_eft_videogame_shotguns.printname"] = "Lógica de video juego"
@@ -254,7 +254,7 @@ L["eft_unlameifier_toys_impact_flesh.printname"] = "Calcomanía de impacto en ca
 L["eft_unlameifier_toys_impact_flesh.compactname"] = "Carne"
 L["eft_unlameifier_toys_impact_flesh.description"] = [[Está en las paredes... ¡ESTÁ EN LAS MALDITAS PAREDES!
 
-... o, simplemente quieres dejar una mancha de sangre cuando aciertes a algo. Nose, tu verás, flipado.]]
+... o, simplemente quieres dejar una mancha de sangre cuando aciertes a algo. Nose, tu verás, motivado.]]
 
 L["eft_unlameifier_toys_impact_nought.printname"] = "Calcomanía de círculo"
 L["eft_unlameifier_toys_impact_nought.compactname"] = "Círculo"
@@ -293,409 +293,409 @@ L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Sangre amarilla"
 L["eft_unlameifier_toys_impact_yellowblood.description"] = "¿Es eso mostaza?"
 
 -- Glock 17 Parts on other Handguns
--- L["eft_unlameifier_g17_g18c_conversion_slides.printname"] = "Glock 17 Slides"
--- L["eft_unlameifier_g17_g18c_conversion_slides.compactname"] = "G17 Slides"
--- L["eft_unlameifier_g17_g18c_conversion_slides.description"] = "Allows installation of Glock 17 slides onto the Glock 18C."
+L["eft_unlameifier_g17_g18c_conversion_slides.printname"] = "Correderas de Glock 17"
+L["eft_unlameifier_g17_g18c_conversion_slides.compactname"] = "Correderas G17"
+L["eft_unlameifier_g17_g18c_conversion_slides.description"] = "Permite la instalación de correderas de Glock 17 en la Glock 18C."
 
--- L["eft_unlameifier_g17_g18c_conversion_barrels.printname"] = "Glock 17 Barrels"
--- L["eft_unlameifier_g17_g18c_conversion_barrels.compactname"] = "G17 Barrels"
--- L["eft_unlameifier_g17_g18c_conversion_barrels.description"] = "Allows installation of Glock 17 barrels onto the Glock 18C."
+L["eft_unlameifier_g17_g18c_conversion_barrels.printname"] = "Cañones de Glock 17"
+L["eft_unlameifier_g17_g18c_conversion_barrels.compactname"] = "Cañones G17"
+L["eft_unlameifier_g17_g18c_conversion_barrels.description"] = "Permite la instalación de cañones de Glock 17 en la Glock 18C."
 
--- L["eft_unlameifier_g17_usp_front_sights.printname"] = "Glock 17 Front Sights"
--- L["eft_unlameifier_g17_usp_front_sights.compactname"] = "G17 F. Sights"
--- L["eft_unlameifier_g17_usp_front_sights.description"] = "Allows installation of Glock 17 front sights onto the USP."
+L["eft_unlameifier_g17_usp_front_sights.printname"] = "Miras frontales de Glock 17"
+L["eft_unlameifier_g17_usp_front_sights.compactname"] = "Miras f. G17"
+L["eft_unlameifier_g17_usp_front_sights.description"] = "Permite la instalación de miras frontales de Glock 17 en la USP."
 
--- L["eft_unlameifier_g17_usp_rear_sights.printname"] = "Glock 17 Rear Sights (Standard Slides)"
--- L["eft_unlameifier_g17_usp_rear_sights.compactname"] = "G17 R. Sights (Std)"
--- L["eft_unlameifier_g17_usp_rear_sights.description"] = "Allows installation of Glock 17 rear sights onto the USP's standard form-factor slides (not universal due to positioning issues)."
+L["eft_unlameifier_g17_usp_rear_sights.printname"] = "Miras traseras Glock 17 (corredera estándard)"
+L["eft_unlameifier_g17_usp_rear_sights.compactname"] = "Miras t. G17 (Est)"
+L["eft_unlameifier_g17_usp_rear_sights.description"] = "Permite la instalación de miras traseras de Glock 17 en las correderas de factor de forma estándar de la USP (no es universal por problemas de posicionamiento)."
 
--- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.printname"] = "Glock 17 Rear Sights (Elite & Expert Slides)"
--- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "G17 R. Sights (E&E)"
--- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Allows installation of Glock 17 rear sights onto the USP's Elite and Expert form-factor slides (not universal due to positioning issues)."
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.printname"] = "Miras traseras de Glock 17 (correderas de élite y expertas)"
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "Miras t. G17 (é y e)"
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Permite la instalación de miras traseras de Glock 17 en las correderas de factor de forma élite y expertas (no es universal por problemas de posicionamiento)."
 
--- L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Allows installation of Glock 17 front sights onto the M9A3."
+L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Permite la instalación de miras frontales de Glock 17 en la M9A3."
 
--- L["eft_unlameifier_g17_m9a3_rear_sights.printname"] = "Glock 17 Rear Sights"
--- L["eft_unlameifier_g17_m9a3_rear_sights.compactname"] = "G17 R. Sights"
--- L["eft_unlameifier_g17_m9a3_rear_sights.description"] = "Allows installation of Glock 17 rear sights onto the M9A3."
+L["eft_unlameifier_g17_m9a3_rear_sights.printname"] = "Miras traseras de Glock 17"
+L["eft_unlameifier_g17_m9a3_rear_sights.compactname"] = "Mira t. G17"
+L["eft_unlameifier_g17_m9a3_rear_sights.description"] = "Permite la instalación de miras traseras de Glock 17 en la M9A3."
 
 -- Handgun Holding
--- L["eft_unlameifier_one_handed.printname"] = "One Handed"
--- L["eft_unlameifier_one_handed.compactname"] = "One Hand"
--- L["eft_unlameifier_one_handed.description"] = [[Holds the weapon with one hand.
+L["eft_unlameifier_one_handed.printname"] = "Con una sola mano"
+L["eft_unlameifier_one_handed.compactname"] = "Una mano"
+L["eft_unlameifier_one_handed.description"] = [[Sostiene el arma con una mano.
 
--- Shamelessly stolen from Rooneyviz's EFT ATT Pack and made more widely available. Removed stat modifiers for the sake of tacticoolness. This is purely cosmetic now. May not work on non-EFT guns.]]
+Robado sin ninguna vergüenza de EFT ATT Pack y se ha ampliado su disponibilidad. Se han quitado los modificadores de estadística por el bien del "tacticoolness" (tratar de parecer alucinante a la par que táctico). Ahora esto es puramente cosmético. Puede que no funcione en armas no EFT.]]
 
--- L["eft_unlameifier_gangsta_hold.printname"] = "Gangsta Hold"
--- L["eft_unlameifier_gangsta_hold.compactname"] = "Gangsta Hold"
--- L["eft_unlameifier_gangsta_hold.description"] = [[Holds the weapon sideways with one hand.
+L["eft_unlameifier_gangsta_hold.printname"] = "Sostener como un gángster"
+L["eft_unlameifier_gangsta_hold.compactname"] = "A lo gángster"
+L["eft_unlameifier_gangsta_hold.description"] = [[Sostiene el arma con una mano de lado.
 
--- For the record, your soundcloud tracks are ass. Stop trying, please. You are not getting out of the hood with any of those.]]
+Para que conste, tus pistas de soundcloud son horribles. Deja de intentarlo, por favor. No saldrás del barrio con ninguna de esas.]]
 
 //////////////////////////////// unlameifier_eft_extras custom strings
--- L["unlameifier_folder_utilities"] = "Utilities"
--- L["unlameifier_folder_toys"] = "Toys"
--- L["unlameifier_folder_tracers"] = "Tracers"
+L["unlameifier_folder_utilities"] = "Utilitario"
+L["unlameifier_folder_toys"] = "Juguetes"
+L["unlameifier_folder_tracers"] = "Trazadores"
 
--- L["unlameifier_folder_toys_impactdecals"] = "Toys/Impact Decals"
--- L["unlameifier_folder_tracers_modifiers"] = "Tracers/Modifiers"
+L["unlameifier_folder_toys_impactdecals"] = "Juguetes/Calcomanías de impacto"
+L["unlameifier_folder_tracers_modifiers"] = "Trazadores/Modificadores"
 
--- L["unlameifier_attname_frontsight"] = "Front Sight"
--- L["unlameifier_attname_rearsight"] = "Rear Sight"
--- L["unlameifier_attname_customslot"] = "Custom Slot"
+L["unlameifier_attname_frontsight"] = "Mira frontal"
+L["unlameifier_attname_rearsight"] = "Mira trasera"
+L["unlameifier_attname_customslot"] = "Ranura personalizada"
 
--- L["unlameifier_attname_g17_slide"] = "Glock 17 Slide"
--- L["unlameifier_attname_g17_slide"] = "Glock 17 Barrel"
--- L["unlameifier_attname_g17_frontsight"] = "Glock 17 Front Sight"
--- L["unlameifier_attname_g17_rearsight"] = "Glock 17 Rear Sight"
+L["unlameifier_attname_g17_slide"] = "Corredera de Glock 17"
+L["unlameifier_attname_g17_slide"] = "Cañón de Glock 17"
+L["unlameifier_attname_g17_frontsight"] = "Mira delantera de Glock 17"
+L["unlameifier_attname_g17_rearsight"] = "Mira trasera de Glock 17"
 
--- L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
--- L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"
+L["unlameifier_eft_videogame_shotguns_custompro"] = "Mejor dispersión"
+L["unlameifier_eft_videogame_shotguns_customcon"] = "Desactivar al usar balas de escopeta"
 
 //////////////////////////////// unlameifier_sound_mods
 -- DOOM 1993
--- L["unlameifier_folder_sounds_doom"] = "Sound Mods/DOOM"
+L["unlameifier_folder_sounds_doom"] = "Sonidos/DOOM"
 
--- L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
--- L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
--- L["unlameifier_sound_doom_pistol.description"] = "Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
+L["unlameifier_sound_doom_pistol.printname"] = "Pistola"
+L["unlameifier_sound_doom_pistol.compactname"] = "Pistola"
+L["unlameifier_sound_doom_pistol.description"] = "Cambia el sonido de disparo del arma por el de la pistola de DOOM (1993)."
 
--- L["unlameifier_sound_doom_shotgun.printname"] = "Shotgun"
--- L["unlameifier_sound_doom_shotgun.compactname"] = "Shotgun"
--- L["unlameifier_sound_doom_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
+L["unlameifier_sound_doom_shotgun.printname"] = "Escopeta"
+L["unlameifier_sound_doom_shotgun.compactname"] = "Escopeta"
+L["unlameifier_sound_doom_shotgun.description"] = "Cambia el sonido de disparo del arma por el de la escopeta de DOOM (1993)."
 
--- L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
--- L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
--- L["unlameifier_sound_doom_BFG.description"] = "Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
+L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
+L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
+L["unlameifier_sound_doom_BFG.description"] = "Cambia el sonido de disparo del arma por el de la BFG9000 de DOOM (1993)."
 
--- L["unlameifier_sound_doom_plasma.printname"] = "Plasma Rifle"
--- L["unlameifier_sound_doom_plasma.compactname"] = "Plasma R."
--- L["unlameifier_sound_doom_plasma.description"] = "Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
+L["unlameifier_sound_doom_plasma.printname"] = "Rifle de plasma"
+L["unlameifier_sound_doom_plasma.compactname"] = "R. plasma"
+L["unlameifier_sound_doom_plasma.description"] = "Cambia el sonido de disparo del arma por el del rifle de plasma de DOOM (1993)."
 
--- L["unlameifier_sound_doom_rocket.printname"] = "Rocket Launcher"
--- L["unlameifier_sound_doom_rocket.compactname"] = "Rocket"
--- L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
+L["unlameifier_sound_doom_rocket.printname"] = "Lanzacohetes"
+L["unlameifier_sound_doom_rocket.compactname"] = "Lanzacohetes"
+L["unlameifier_sound_doom_rocket.description"] = "Cambia el sonido de disparo del arma por el del lanzacohetes de DOOM (1993)."
 
 -- Half-Life 2
 L["unlameifier_folder_sounds_hl2"] = "Sonidos/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "Pistola de 9mm"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistola"
-L["unlameifier_sound_hl2_pistol.description"] = [[Cambia el sonido de disparo del arma al de la pistola de Half-Life 2.
+L["unlameifier_sound_hl2_pistol.description"] = [[Cambia el sonido de disparo del arma por el de la pistola de Half-Life 2.
 
 "Manos a la obra, señor Freeman... Manos... a la obra..."]]
 
 L["unlameifier_sound_hl2_357.printname"] = "Magnum del .357"
 L["unlameifier_sound_hl2_357.compactname"] = ".357"
-L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del arma al de la .357 de Half-Life 2.
+L["unlameifier_sound_hl2_357.description"] = [[Cambia el sonido de disparo del arma por el de la .357 de Half-Life 2.
 
-Nombrar un arma tras el calibre que dispara es absolutamente estúpdio. Esto es una Colt Python. Contrariamente a la creencia popular, .357, el calibre, no es tan potente como crees que es.]]
+Nombrar un arma tras el calibre que dispara es absolutamente estúpido. Esto es una Colt Python. Al contrario de la creencia popular, .357, el calibre, no es tan potente como crees que es.]]
 
 L["unlameifier_sound_hl2_ar2.printname"] = "Reglamentario de Vigilancia (Rifle de pulsos)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
-L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma al del rifle de pulsos de Half-Life 2.
+L["unlameifier_sound_hl2_ar2.description"] = [[Cambia el sonido de disparo del arma por el del rifle de pulsos de Half-Life 2.
 
 Más conocido como el 'AR2', que existe de verdad, a no ser que te creas a cierta gente de ciudad que dice haber usado el 'AR3'...]]
 
 L["unlameifier_sound_hl2_alyx.printname"] = "Pistola de Alyx"
 L["unlameifier_sound_hl2_alyx.compactname"] = "De Alyx"
-L["unlameifier_sound_hl2_alyx.description"] = [[Cambia el sonido de disparo del arma al de la pistola de Alyx de Half-Life 2.
+L["unlameifier_sound_hl2_alyx.description"] = [[Cambia el sonido de disparo del arma por el de la pistola de Alyx de Half-Life 2.
 
 "Bueno, Russ, es oficial. No queda NADA de tu pistola en esta. Esta simplemente es... esta es MI pistola."]]
 
 L["unlameifier_sound_hl2_xbow.printname"] = "Ballesta"
 L["unlameifier_sound_hl2_xbow.compactname"] = "Ballesta"
-L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del arma al de la ballesta de Half-Life 2.
+L["unlameifier_sound_hl2_xbow.description"] = [[Cambia el sonido de disparo del arma por el de la ballesta de Half-Life 2.
 
-Desafortunadamente, no te permite pegar muñecos a las superficies.]]
+Desafortunadamente, no te permite enganchar muñecos a las superficies.]]
 
 L["unlameifier_sound_hl2_ar22.printname"] = "Bola de energía del rifle de pulsos"
 L["unlameifier_sound_hl2_ar22.compactname"] = "BE AR2"
-L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma al de la bola de energía del AR2 de Half-Life 2 siendo disparada.
+L["unlameifier_sound_hl2_ar22.description"] = [[Cambia el sonido de disparo del arma por el de la bola de energía del AR2 de Half-Life 2 siendo disparada.
 
 No apuntes a tus aliados a no ser que los odies de verdad.]]
 
 L["unlameifier_sound_hl2_rpg.printname"] = "Granada propulsada por cohete"
 L["unlameifier_sound_hl2_rpg.compactname"] = "Lanzacohetes"
-L["unlameifier_sound_hl2_rpg.description"] = [[Cambia el sonido de disparo del arma al del lanzacohetes de Half-Life 2.
+L["unlameifier_sound_hl2_rpg.description"] = [[Cambia el sonido de disparo del arma por el del lanzacohetes de Half-Life 2.
 
 ¿Sabías que el lanzacohetes en Half-Life 2 es un AT4? No solamente eso, si no que además lo sostienen del revés.]]
 
 L["unlameifier_sound_hl2_shotgun.printname"] = "Escopeta"
 L["unlameifier_sound_hl2_shotgun.compactname"] = "Escopeta"
-L["unlameifier_sound_hl2_shotgun.description"] = [[Cambia el sonido de disparo del arma al de la escopeta de Half-Life 2.
+L["unlameifier_sound_hl2_shotgun.description"] = [[Cambia el sonido de disparo del arma por el de la escopeta de Half-Life 2.
 
 Conocida por desafiar las leyes de la física disparando un segundo disparo a través del tubo de carga. No se recomienda intentarlo en la vida real.]]
 
 L["unlameifier_sound_hl2_smg.printname"] = "SMG (Subfusil)"
 L["unlameifier_sound_hl2_smg.compactname"] = "Subfusil"
-L["unlameifier_sound_hl2_smg.description"] = [[Cambia el sonido de disparo del arma al del subfusil de Half-Life 2.
+L["unlameifier_sound_hl2_smg.description"] = [[Cambia el sonido de disparo del arma por el del subfusil de Half-Life 2.
 
 ¿Desde dónde exactamente se dispara la granada, me pregunto...?]]
 
-L["unlameifier_sound_hl2_airboat2.printname"] = "Cañón Gauss de la lancha motora"
-L["unlameifier_sound_hl2_airboat2.compactname"] = "Lancha"
-L["unlameifier_sound_hl2_airboat2.description"] = [[Cambia el sonido de disparo del arma al del cañón Gauss de la lancha de Half-Life 2.
+L["unlameifier_sound_hl2_airboat2.printname"] = "Cañón Gauss del hidrodeslizador"
+L["unlameifier_sound_hl2_airboat2.compactname"] = "Hidrodeslizador"
+L["unlameifier_sound_hl2_airboat2.description"] = [[Cambia el sonido de disparo del arma por el del cañón Gauss del hidrodeslizador de Half-Life 2.
 
-En realidad no dispara rápidamente dinamita.]]
+En realidad no dispara dinamita rápidamente.]]
 
 -- Half-Life 1
--- L["unlameifier_folder_sounds_hl1"] = "Sound Mods/HL1"
+L["unlameifier_folder_sounds_hl1"] = "Sonidos/HL1"
 
--- L["unlameifier_sound_hl1_pistol.printname"] = "Pistol"
--- L["unlameifier_sound_hl1_pistol.compactname"] = "Pistol"
--- L["unlameifier_sound_hl1_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 1.
+L["unlameifier_sound_hl1_pistol.printname"] = "Pistola"
+L["unlameifier_sound_hl1_pistol.compactname"] = "Pistola"
+L["unlameifier_sound_hl1_pistol.description"] = [[Cambia el sonido de disparo del arma por el de la pistola de Half-Life 1.
 
--- "Eat lead you outer space octopus!"]]
+"¡Tragad plomo pulpos espaciales!"]]
 
--- L["unlameifier_sound_hl1_357.printname"] = ".357 Magnum"
--- L["unlameifier_sound_hl1_357.compactname"] = ".357"
--- L["unlameifier_sound_hl1_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 1.
+L["unlameifier_sound_hl1_357.printname"] = "Magnum del .357"
+L["unlameifier_sound_hl1_357.compactname"] = ".357"
+L["unlameifier_sound_hl1_357.description"] = [[Cambia el sonido de disparo del arma por el de la .357 de Half-Life 1.
 
--- See the HL2 .357 description for identical rant.]]
+Mira la descripción de la .357 de Half-Life 2 para un despotrique idéntico.]]
 
--- L["unlameifier_sound_hl1_deagle.printname"] = "Desert Eagle"
--- L["unlameifier_sound_hl1_deagle.compactname"] = "Deagle"
--- L["unlameifier_sound_hl1_deagle.description"] = [[Changes the firing sound of the weapon to the Desert Eagle from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_deagle.printname"] = "Desert Eagle"
+L["unlameifier_sound_hl1_deagle.compactname"] = "Deagle"
+L["unlameifier_sound_hl1_deagle.description"] = [[Cambia el sonido de disparo del arma por el de la Desert Eagle de Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+Al momento de escribir ésta descripción, no he jugado a Opposing Force ni Blue Shift así que si me he equivocado en algún detalle, por favor, házmelo saber, gracias.]]
 
--- L["unlameifier_sound_hl1_displacer.printname"] = "Displacer Cannon"
--- L["unlameifier_sound_hl1_displacer.compactname"] = "Displacer"
--- L["unlameifier_sound_hl1_displacer.description"] = [[Changes the firing sound of the weapon to the Displacer Cannon from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_displacer.printname"] = "Cañón desplazador"
+L["unlameifier_sound_hl1_displacer.compactname"] = "Desplazador"
+L["unlameifier_sound_hl1_displacer.description"] = [[Cambia el sonido de disparo del arma por el del cañón desplazador de Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+Al momento de escribir ésta descripción, no he jugado a Opposing Force ni a Blue Shift así que si me he equivocado en algún detalle, por favor, házmelo saber, gracias.]]
 
--- L["unlameifier_sound_hl1_tau.printname"] = "Tau Cannon"
--- L["unlameifier_sound_hl1_tau.compactname"] = "Tau"
--- L["unlameifier_sound_hl1_tau.description"] = "Changes the firing sound of the weapon to the Tau Cannon from Half-Life 1."
+L["unlameifier_sound_hl1_tau.printname"] = "Cañón tau"
+L["unlameifier_sound_hl1_tau.compactname"] = "Tau"
+L["unlameifier_sound_hl1_tau.description"] = "Cambia el sonido de disparo del arma por el del cañón tau de Half-Life 1."
 
--- L["unlameifier_sound_hl1_tau2.printname"] = "Tau Cannon (Secondary Fire)"
--- L["unlameifier_sound_hl1_tau2.compactname"] = "Tau (S)"
--- L["unlameifier_sound_hl1_tau2.description"] = "Changes the firing sound of the weapon to the Tau Cannon's Secondary Fire from Half-Life 1."
+L["unlameifier_sound_hl1_tau2.printname"] = "Cañón tau (disparo secundario)"
+L["unlameifier_sound_hl1_tau2.compactname"] = "Tau (S)"
+L["unlameifier_sound_hl1_tau2.description"] = "Cambia el sonido de disparo del arma por el del disparo secundario del cañón tau de Half-Life 1."
 
--- L["unlameifier_sound_hl1_glauncher.printname"] = "Grenade Launcher"
--- L["unlameifier_sound_hl1_glauncher.compactname"] = "GL"
--- L["unlameifier_sound_hl1_glauncher.description"] = [[Changes the firing sound of the weapon to the SMG's Grenade Launcher from Half-Life 1.
+L["unlameifier_sound_hl1_glauncher.printname"] = "Lanzagranadas"
+L["unlameifier_sound_hl1_glauncher.compactname"] = "LG"
+L["unlameifier_sound_hl1_glauncher.description"] = [[Cambia el sonido de disparo del arma por el del lanzagranadas del subfusil de Half-Life 1.
 
--- <color=175,175,255>NOTE</color>: reload sound is mixed in, too lazy to remove attachment and wait 30 trillion years for .ogg files to delete. if that breaks immersion, woe is you.]]
+<color=175,175,255>NOTA</color>: el sonido de recarga está mezclado, soy demasiado perezoso como para quitar el accesorio y esperar 30 trillones de años a que los archivos .ogg se borren. Si eso rompe tu inmersión, es problema tuyo.]]
 
--- L["unlameifier_sound_hl1_smg.printname"] = "SMG"
--- L["unlameifier_sound_hl1_smg.compactname"] = "SMG"
--- L["unlameifier_sound_hl1_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 1.
+L["unlameifier_sound_hl1_smg.printname"] = "Subfusil"
+L["unlameifier_sound_hl1_smg.compactname"] = "Subfusil"
+L["unlameifier_sound_hl1_smg.description"] = [[Cambia el sonido de disparo del arma por el del subfusil de Half-Life 1.
 
--- <color=175,175,255>NOTE</color>: This is the MP5 in the original version of Half-Life, not to be confused with the M16 in the HD version. M16 is a separate attachment.]]
+<color=175,175,255>NOTA</color>: Esto es de la MP5 en la versión original de Half-Life, no hay que confundirlo con el M16 de la versión en alta definición. El M16 es un accesorio a parte.]]
 
--- L["unlameifier_sound_hl1_m16.printname"] = "M16 (Hi-Def SMG)"
--- L["unlameifier_sound_hl1_m16.compactname"] = "M16 (SMG)"
--- L["unlameifier_sound_hl1_m16.description"] = [[Changes the firing sound of the weapon to the M16, the SMG from Half-Life 1 HD Pack.
+L["unlameifier_sound_hl1_m16.printname"] = "M16 (subfusil de alta definición)"
+L["unlameifier_sound_hl1_m16.compactname"] = "M16 (SMG)"
+L["unlameifier_sound_hl1_m16.description"] = [[Cambia el sonido de disparo del arma por el del subfusil del paquete de alta definición de Half-Life 1.
 
--- <color=175,175,255>NOTE</color>: This is from the HD version of Half-Life 1. It replaces the MP5 out for an M16, which also changes its sound (hence why you are seeing this here).]]
+<color=175,175,255>NOTA</color>: Esto es de la versión en alta definición de Half-Life 1. Reemplaza el MP5 por un M16, lo que también cambia su sonido (por eso ves esto aquí).]]
 
--- L["unlameifier_sound_hl1_saw.printname"] = "Light Machine Gun"
--- L["unlameifier_sound_hl1_saw.compactname"] = "LMG"
--- L["unlameifier_sound_hl1_saw.description"] = [[Changes the firing sound of the weapon to the LMG from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_saw.printname"] = "Ametralladora ligera"
+L["unlameifier_sound_hl1_saw.compactname"] = "Ametralladora"
+L["unlameifier_sound_hl1_saw.description"] = [[Cambia el sonido de disparo del arma por el de la ametralladora ligera de Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+Al momento de escribir ésta descripción, no he jugado a Opposing Force ni a Blue Shift así que si me he equivocado en algún detalle, por favor, házmelo saber, gracias.]]
 
--- L["unlameifier_sound_hl1_shotgun.printname"] = "Shotgun"
--- L["unlameifier_sound_hl1_shotgun.compactname"] = "Shotgun"
--- L["unlameifier_sound_hl1_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
+L["unlameifier_sound_hl1_shotgun.printname"] = "Escopeta"
+L["unlameifier_sound_hl1_shotgun.compactname"] = "Escopeta"
+L["unlameifier_sound_hl1_shotgun.description"] = "Cambia el sonido de disparo del arma por el de la escopeta de Half-Life 1."
 
--- L["unlameifier_sound_hl1_sniper.printname"] = "Sniper Rifle"
--- L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
--- L["unlameifier_sound_hl1_sniper.description"] = [[Changes the firing sound of the weapon to the Sniper Rifle from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_sniper.printname"] = "Rifle francotirador"
+L["unlameifier_sound_hl1_sniper.compactname"] = "Francotirador"
+L["unlameifier_sound_hl1_sniper.description"] = [[Cambia el sonido de disparo del arma por el del rifle francotirador de Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+Al momento de escribir ésta descripción, no he jugado a Opposing Force ni a Blue Shift así que si me he equivocado en algún detalle, por favor, házmelo saber, gracias.]]
 
--- L["unlameifier_sound_hl1_xbow.printname"] = "Crossbow"
--- L["unlameifier_sound_hl1_xbow.compactname"] = "Crossbow"
--- L["unlameifier_sound_hl1_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 1.
+L["unlameifier_sound_hl1_xbow.printname"] = "Ballesta"
+L["unlameifier_sound_hl1_xbow.compactname"] = "Ballesta"
+L["unlameifier_sound_hl1_xbow.description"] = [[Cambia el sonido de disparo del arma por el de la ballesta de Half-Life 1.
 
--- To be fair, there's weirder shit in Unlameifier to change your weapon's firing sound to. But you do you.]]
+Si somos sinceros, hay mierda más rara en Unlameifier con lo que cambiar el sonido de disparo de tu arma. Pero tu verás.]]
 
 -- Counter-Strike: Source
--- L["unlameifier_folder_sounds_css"] = "Sound Mods/CSS"
+L["unlameifier_folder_sounds_css"] = "Sonidos/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "9x19mm Sidearm"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
--- L["unlameifier_sound_css_glock18.description"] = [[Changes the firing sound of the weapon to the 9x19mm Sidearm from Counter-Strike: Source.
+L["unlameifier_sound_css_glock18.description"] = [[Cambia el sonido de disparo del arma por el de la 9x19mm Sidearm de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Al estar <color=100,255,100>silenciada</color>: Usa los sonidos de la USP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
+<color=150,150,255>Dato curioso</color>: Según imfdb.org, la Glock 18 de Source es en realidad una Glock 19. Si sabes sobre armas de fuego, los errores son muy obvios.]]
 
 L["unlameifier_sound_css_usp.printname"] = "K&M .45 Tactical"
 L["unlameifier_sound_css_usp.compactname"] = "USP"
--- L["unlameifier_sound_css_usp.description"] = [[Changes the firing sound of the weapon to the K&M .45 Tactical from Counter-Strike: Source.
+L["unlameifier_sound_css_usp.description"] = [[Cambia el sonido de disparo del arma por el de la K&M .45 Tactical de Counter-Strike: Source.
 
--- <color=150,150,255>Fun Fact</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
+<color=150,150,255>Dato curioso</color>: Al igual que cualquier otro arma de CSS, la K&M eyecta los casquillos a la izquierda. Aparte de eso, es con diferencia el modelo de arma más preciso que aparece en el juego.]]
 
 L["unlameifier_sound_css_p228.printname"] = "228 Compact"
 L["unlameifier_sound_css_p228.compactname"] = "P228"
--- L["unlameifier_sound_css_p228.description"] = [[Changes the firing sound of the weapon to the 228 Compact from Counter-Strike: Source.
+L["unlameifier_sound_css_p228.description"] = [[Cambia el sonido de disparo del arma por el de la 228 Compact de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Al estar <color=100,255,100>silenciada</color>: Usa los sonidos de la USP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
+<color=150,150,255>Dato curioso</color>: Según imfdb.org, la P228 de Source es en realidad una P229, ya que está calibrada para .357 SIG.]]
 
 L["unlameifier_sound_css_deagle.printname"] = "Night Hawk .50C"
 L["unlameifier_sound_css_deagle.compactname"] = "Deagle"
--- L["unlameifier_sound_css_deagle.description"] = [[Changes the firing sound of the weapon to the Night Hawk .50C from Counter-Strike: Source.
+L["unlameifier_sound_css_deagle.description"] = [[Cambia el sonido de disparo del arma por el de la Night Hawk .50C de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Al estar <color=100,255,100>silenciada</color>: Usa los sonidos de la TMP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
+<color=150,150,255>Dato curioso</color>: Según imfdb.org, la Desert Eagle Mark XIX, calibrada para .50 AE, no tiene un cañón estriado, de la manera en la que aparece en Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
--- L["unlameifier_sound_css_fiveseven.description"] = [[Changes the firing sound of the weapon to the ES Five-Seven from Counter-Strike: Source.
+L["unlameifier_sound_css_fiveseven.description"] = [[Cambia el sonido de disparo del arma por el de la ES Five-Seven de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Al estar <color=100,255,100>silenciada</color>: Usa los sonidos de la USP.
 
--- <color=150,150,255>Fun Fact</color>: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
+<color=150,150,255>Dato curioso</color>: Solamente está animada la mitad de la corredera de la ES. No estoy seguro de que el arma real funcione así...]]
 
 L["unlameifier_sound_css_elite.printname"] = ".40 Dual Elites"
 L["unlameifier_sound_css_elite.compactname"] = "Elite"
--- L["unlameifier_sound_css_elite.description"] = [[Changes the firing sound of the weapon to the .40 Dual Elites from Counter-Strike: Source.
+L["unlameifier_sound_css_elite.description"] = [[Cambia el sonido de disparo del arma por el de las .40 Dual Elites de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Al estar <color=100,255,100>silenciadas</color>: Usa los sonidos de la USP.
 
--- <color=150,150,255>Fun Fact</color>: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
+<color=150,150,255>Dato curioso</color>: El nombre real de las .40 Dual Elites es "Beretta 92G Elite II". A pesar de su nombre, están calibradas para 9x19mm, no .40 S&W.]]
 
 L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 Auto Shotgun"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
--- L["unlameifier_sound_css_xm1014.description"] = [[Changes the firing sound of the weapon to the Leone YG1265 Auto Shotgun from Counter-Strike: Source.
+L["unlameifier_sound_css_xm1014.description"] = [[Cambia el sonido de disparo del arma por el de la Leone YG1265 Auto Shotgun de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciada</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
+<color=150,150,255>Dato curioso</color>: Tanto Global Offensive como CS2 aún utilizan el nombre "XM1014", a pesar de ser un nombre completamente ficticio.]]
 
 L["unlameifier_sound_css_tmp.printname"] = "Schmidt Machine Pistol"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
--- L["unlameifier_sound_css_tmp.description"] = [[Changes the firing sound of the weapon to the Schmidt Machine Pistol from Counter-Strike: Source.
+L["unlameifier_sound_css_tmp.description"] = [[Cambia el sonido de disparo del arma por el del Schmidt Machine Pistol de Counter-Strike: Source.
 
--- <color=255,100,100>NOTE</color>: Does not have separate unsuppressed sounds.
+<color=255,100,100>NOTA</color>: No tiene sonidos sin silenciar.
 
--- <color=150,150,255>Fun Fact</color>: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
+<color=150,150,255>Dato curioso</color>: Este es el único arma silenciada en Source al que no se le puede quitar el silenciador.]]
 
 L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
--- L["unlameifier_sound_css_mac10.description"] = [[Changes the firing sound of the weapon to the Ingram MAC-10 from Counter-Strike: Source.
+L["unlameifier_sound_css_mac10.description"] = [[Cambia el sonido de disparo del arma por el del Ingram MAC-10 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name.]]
+<color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que usa su nombre de la vida real.]]
 
 L["unlameifier_sound_css_mp5.printname"] = "K&M Sub-Machine Gun"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
--- L["unlameifier_sound_css_mp5.description"] = [[Changes the firing sound of the weapon to the K&M Sub-Machine Gun from Counter-Strike: Source.
+L["unlameifier_sound_css_mp5.description"] = [[Cambia el sonido de disparo del arma por el del K&M Sub-Machine Gun de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
+<color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que no está en espejo, ya que sus accionadores ya están en el lado izquierdo.]]
 
 L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
--- L["unlameifier_sound_css_ump45.description"] = [[Changes the firing sound of the weapon to the K&M UMP45 from Counter-Strike: Source.
+L["unlameifier_sound_css_ump45.description"] = [[Cambia el sonido de disparo del arma por el del K&M UMP45 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
+<color=150,150,255>Dato curioso</color>: Este es una de las pocas armas en Source que usa su nombre de la vida real, excepto por el fabricante. Además, según el modelo del arma, tiene siempre el seguro puesto.]]
 
 L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
--- L["unlameifier_sound_css_p90.description"] = [[Changes the firing sound of the weapon to the ES C90 from Counter-Strike: Source.
+L["unlameifier_sound_css_p90.description"] = [[Cambia el sonido de disparo del arma por el del ES C90 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del TMP.
 
--- <color=150,150,255>Fun Fact</color>: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
+<color=150,150,255>Dato curioso</color>: Debido a un error, el C90 llegó a estar calibrado para .338 Lapua Magnum una vez. Fue arreglado más adelante.]]
 
 L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
--- L["unlameifier_sound_css_galil.description"] = [[Changes the firing sound of the weapon to the IDF Defender from Counter-Strike: Source.
+L["unlameifier_sound_css_galil.description"] = [[Cambia el sonido de disparo del arma por el del IDF Defender de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
+<color=150,150,255>Dato curioso</color>: El Galil de la vida real viene con un abridor de botellas integrado. ¿No me crees? ¡Búscalo!]]
 
 L["unlameifier_sound_css_famas.printname"] = "Clarion 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
--- L["unlameifier_sound_css_famas.description"] = [[Changes the firing sound of the weapon to the Clarion 5.56 from Counter-Strike: Source.
+L["unlameifier_sound_css_famas.description"] = [[Cambia el sonido de disparo del arma por el del Clarion 5.56 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: "Clarions" are medieval war trumpets.]]
+<color=150,150,255>Dato curioso</color>: Los "clarions" son trompetas de guerra medievales.]]
 
 L["unlameifier_sound_css_ak47.printname"] = "CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
--- L["unlameifier_sound_css_ak47.description"] = [[Changes the firing sound of the weapon to the CV-47 from Counter-Strike: Source.
+L["unlameifier_sound_css_ak47.description"] = [[Cambia el sonido de disparo del arma por el del CV-47 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
+<color=150,150,255>Dato curioso</color>: Este es el ejemplo más obvio de un arma en espejo en Source. Minh "Gooseman" Le es un tirador zurdo, y quería que todas las armas se operasen con la mano izquierda.]]
 
 L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1 Carbine"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
--- L["unlameifier_sound_css_m4a1.description"] = [[Changes the firing sound of the weapon to the Maverick M4A1 Carbine from Counter-Strike: Source.
+L["unlameifier_sound_css_m4a1.description"] = [[Cambia el sonido de disparo del arma por el del Maverick M4A1 Carbine de Counter-Strike: Source.
 
--- <color=150,150,255>Fun Fact</color>: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
+<color=150,150,255>Dato curioso</color>: Durante la animación de recarga, el jugador se ve operando el botón de asistencia hacia adelante en vez de la palanca de carga.]]
 
 L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
--- L["unlameifier_sound_css_sg552.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
+L["unlameifier_sound_css_sg552.description"] = [[Cambia el sonido de disparo del arma por el del Krieg 552 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Despite firing in full-auto, the firing selector is set to semi-auto.]]
+<color=150,150,255>Dato curioso</color>: A pesar de disparar en automático, el selector de disparo está puesto en semiautomático.]]
 
 L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
--- L["unlameifier_sound_css_aug.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
+L["unlameifier_sound_css_aug.description"] = [[Cambia el sonido de disparo del arma por el del Bullpup de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
+<color=150,150,255>Dato curioso</color>: Al recargar, puedes ver fácilmente que la palanca de carga no está unida fisicamente al arma.]]
 
 L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
--- L["unlameifier_sound_css_scout.description"] = [[Changes the firing sound of the weapon to the Schmidt Scout from Counter-Strike: Source.
+L["unlameifier_sound_css_scout.description"] = [[Cambia el sonido de disparo del arma por el del Schmidt Scout de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
+<color=150,150,255>Dato curioso</color>: El Steyr Scout de la vida real tiene un porta cargadores integrado en la culata.]]
 
 L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Commando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
--- L["unlameifier_sound_css_sg550.description"] = [[Changes the firing sound of the weapon to the Krieg 550 Commando from Counter-Strike: Source.
+L["unlameifier_sound_css_sg550.description"] = [[Cambia el sonido de disparo del arma por el del Krieg 550 Commando de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
+<color=150,150,255>Dato curioso</color>: El sufijo de "Commando" no tiene sentido, ya que el Krieg 550 está representado como el SIG 550 de longitud completa.]]
 
 L["unlameifier_sound_css_awp.printname"] = "Magnum Sniper Rifle"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
--- L["unlameifier_sound_css_awp.description"] = [[Changes the firing sound of the weapon to the Magnum Sniper Rifle from Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Cambia el sonido de disparo del arma por el del Magnum Sniper Rifle de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
+<color=150,150,255>Dato curioso</color>: El AWP de la vida real fue montado por dos tios en un garaje y lo metieron en las pruebas británicas MOD con el propósito exclusivo de ver como le iría enfrentándose a rifles militares reales. "Desafortunadamente" ganaron y tuvieron que empezar a producir a toda prisa miles de rifles para el ejército británico.]]
 
 L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
--- L["unlameifier_sound_css_g3sg1.description"] = [[Changes the firing sound of the weapon to the D3/AU-1 from Counter-Strike: Source.
+L["unlameifier_sound_css_g3sg1.description"] = [[Cambia el sonido de disparo del arma por el del D3/AU-1 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
+<color=150,150,255>Dato curioso</color>: Tiene siempre puesto el seguro. Además, la palanca de carga no se mueve durante la recarga.]]
 
 L["unlameifier_sound_css_m249.printname"] = "M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
--- L["unlameifier_sound_css_m249.description"] = [[Changes the firing sound of the weapon to the M249 from Counter-Strike: Source.
+L["unlameifier_sound_css_m249.description"] = [[Cambia el sonido de disparo del arma por el del M249 de Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Al estar <color=100,255,100>silenciado</color>: Usa los sonidos del M4A1.
 
--- <color=150,150,255>Fun Fact</color>: In Source, the M249 does not have a stock.]]
+<color=150,150,255>Dato curioso</color>: En Source, el M249 no tiene culata.]]
 
 -- Neosun Mouth
 -- L["unlameifier_folder_sounds_neosun"] = "Sound Mods/Neosun"

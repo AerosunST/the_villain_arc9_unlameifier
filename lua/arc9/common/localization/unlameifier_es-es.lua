@@ -254,7 +254,7 @@ L["eft_unlameifier_toys_impact_flesh.printname"] = "Calcomanía de impacto en ca
 L["eft_unlameifier_toys_impact_flesh.compactname"] = "Carne"
 L["eft_unlameifier_toys_impact_flesh.description"] = [[Está en las paredes... ¡ESTÁ EN LAS MALDITAS PAREDES!
 
-... o, simplemente quieres dejar una mancha de sangre cuando aciertes a algo. Nose, tu verás, motivado.]]
+... o, simplemente quieres dejar una mancha de sangre cuando le aciertes a algo. Nose, tu verás, motivado.]]
 
 L["eft_unlameifier_toys_impact_nought.printname"] = "Calcomanía de círculo"
 L["eft_unlameifier_toys_impact_nought.compactname"] = "Círculo"
@@ -328,7 +328,7 @@ Robado sin ninguna vergüenza de EFT ATT Pack y se ha ampliado su disponibilidad
 
 L["eft_unlameifier_gangsta_hold.printname"] = "Sostener como un gángster"
 L["eft_unlameifier_gangsta_hold.compactname"] = "A lo gángster"
-L["eft_unlameifier_gangsta_hold.description"] = [[Sostiene el arma con una mano de lado.
+L["eft_unlameifier_gangsta_hold.description"] = [[Sostiene el arma de lado con una mano.
 
 Para que conste, tus pistas de soundcloud son horribles. Deja de intentarlo, por favor. No saldrás del barrio con ninguna de esas.]]
 

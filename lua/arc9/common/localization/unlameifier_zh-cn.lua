@@ -1488,3 +1488,41 @@ L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "戰鬥霰彈槍"
 L["unlameifier_sound_fo76_syringer.printname"] = "注射器"
 L["unlameifier_sound_fo76_syringer.compactname"] = "注射器"
 -- L["unlameifier_sound_fo76_syringer.description"] = "Changes the firing sound of the weapon to the \"Syringer\" from Fallout 4 and 76." .. fo76nosupp
+
+-- Fallout 4 & 76 Looping Audio
+-- Non-RPM-Specific
+L["unlameifier_sound_fo76_auto_cryolator.printname"] = "冷凍槍"
+L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "冷凍槍"
+-- L["unlameifier_sound_fo76_auto_cryolator.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "冷凍槍 (冰晶槍管)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "冷凍槍 (冰晶槍管)"
+-- L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the \"Crystallizing Barrel\" mod." .. fo76nosupp
+
+L["unlameifier_sound_fo76_auto_flamer.printname"] = "火焰噴射器"
+L["unlameifier_sound_fo76_auto_flamer.compactname"] = "火焰噴射器"
+-- L["unlameifier_sound_fo76_auto_flamer.description"] = "Changes the firing sound of the weapon to the \"Flamer\" from Fallout 4 and 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_auto_gatlingplasma.printname"] = "電漿機槍"
+L["unlameifier_sound_fo76_auto_gatlingplasma.compactname"] = "電漿機槍"
+-- L["unlameifier_sound_fo76_auto_gatlingplasma.description"] = "Changes the firing sound of the weapon to the \"Gatling Plasma\" from Fallout 4 and 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_auto_minigun.printname"] = "旋轉機槍"
+L["unlameifier_sound_fo76_auto_minigun.compactname"] = "旋轉機槍"
+-- L["unlameifier_sound_fo76_auto_minigun.description"] = "Changes the firing sound of the weapon to the \"Minigun\" from Fallout 4 and 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_auto_rifle_lasergatling.printname"] = "雷射機槍"
+L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "雷射機槍"
+-- L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Laser\" from Fallout 4 and 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_rifle_smg.printname"] = "衝鋒槍"
+L["unlameifier_sound_fo76_rifle_smg.compactname"] = "衝鋒槍"
+-- L["unlameifier_sound_fo76_rifle_smg.description"] = "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 4 and 76."
+
+local fo76loop = "Uses looping sounds, shooting at <color=153,204,255>%s RPM</color>.\n"
+
+L["unlameifier.fo76.rpm.420"] = string.format(fo76loop, 420)
+L["unlameifier.fo76.rpm.540"] = string.format(fo76loop, 540)
+L["unlameifier.fo76.rpm.660"] = string.format(fo76loop, 660)
+L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
+L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)

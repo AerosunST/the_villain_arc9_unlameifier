@@ -37,6 +37,8 @@ ATT.PrintName = "Pipe Rifle - 420RPM"
 
 table.Merge(ATT, sharedcode)
 
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
 ATT.ShootSoundSilenced = "null"
@@ -54,10 +56,15 @@ ATT.DistantShootSoundSilencedIndoor = "null"
 
 ATT.ShootSoundLooping = gsp .. "wpn_handmade_riflepipea_fire_auto_0420rpm_player_lpm.wav"
 ATT.ShootSoundLoopingIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_0420rpm_player_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+
 ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0420rpm_player_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0420rpm_player_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_riflepipe_auto420")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_420")
 
 -------------------
 
@@ -66,6 +73,8 @@ ATT = {}
 ATT.PrintName = "Pipe Rifle - 540RPM"
 
 table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
 
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
@@ -84,10 +93,15 @@ ATT.DistantShootSoundSilencedIndoor = "null"
 
 ATT.ShootSoundLooping = gsp .. "wpn_handmade_riflepipea_fire_auto_0540rpm_player_lpm.wav"
 ATT.ShootSoundLoopingIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_0540rpm_player_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+
 ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0540rpm_player_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0540rpm_player_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_riflepipe_auto540")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_540")
 
 -------------------
 
@@ -96,6 +110,8 @@ ATT = {}
 ATT.PrintName = "Pipe Rifle - 660RPM"
 
 table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
 
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
@@ -114,10 +130,15 @@ ATT.DistantShootSoundSilencedIndoor = "null"
 
 ATT.ShootSoundLooping = gsp .. "wpn_handmade_riflepipea_fire_auto_0660rpm_player_lpm.wav"
 ATT.ShootSoundLoopingIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_0660rpm_player_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+
 ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0660rpm_player_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0660rpm_player_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_riflepipe_auto660")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_660")
 
 -------------------
 
@@ -126,6 +147,8 @@ ATT = {}
 ATT.PrintName = "Pipe Rifle - 780RPM"
 
 table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
 
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
@@ -144,10 +167,15 @@ ATT.DistantShootSoundSilencedIndoor = "null"
 
 ATT.ShootSoundLooping = gsp .. "wpn_handmade_riflepipea_fire_auto_0780rpm_player_lpm.wav"
 ATT.ShootSoundLoopingIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_0780rpm_player_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+
 ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0780rpm_player_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0780rpm_player_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_riflepipe_auto780")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_780")
 
 -------------------
 
@@ -156,6 +184,8 @@ ATT = {}
 ATT.PrintName = "Pipe Rifle - 900RPM"
 
 table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
 
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
@@ -174,7 +204,12 @@ ATT.DistantShootSoundSilencedIndoor = "null"
 
 ATT.ShootSoundLooping = gsp .. "wpn_handmade_riflepipea_fire_auto_0900rpm_player_lpm.wav"
 ATT.ShootSoundLoopingIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_0900rpm_player_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_end_player_lpm.wav"
+
 ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0900rpm_player_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0900rpm_player_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+ATT.ShootSoundWindDownIndoorSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_riflepipe_auto900")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_900")

@@ -1328,19 +1328,6 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("
 
 table.Merge(ATT, sharedcode)
 
--- gssf = {
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop.wav",
--- gsp .. "dragon_gun_motor_loop_crit.wav",
--- }
-
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
 ATT.ShootSoundSilenced = "null"
@@ -1350,7 +1337,8 @@ ATT.ShootSoundLooping = gsp .. "dragon_gun_motor_loop.wav"
 ATT.ShootSoundLoopingIndoor = gsp .. "dragon_gun_motor_loop.wav"
 ATT.ShootSoundLoopingSilenced = gsp .. "dragon_gun_motor_loop.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "dragon_gun_motor_loop.wav"
-ATT.ShootSoundTail = gsp .. "dragon_gun_motor_stop.wav"
+ATT.ShootSoundWindDown = gsp .. "dragon_gun_motor_stop.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "dragon_gun_motor_stop.wav"
 
 ATT.InstallSound = gsp .. "dragon_gun_motor_start.wav"
 
@@ -1385,3 +1373,58 @@ ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "dragons_fury_shoot.wav",
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dragonsfury")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Family Business"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot.wav",
+gsp .. "family_business_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "family_business_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_russianriot")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Backburner"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "flame_thrower_bb_loop.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "flame_thrower_bb_loop.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "flame_thrower_bb_loop.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "flame_thrower_bb_loop.wav"
+ATT.ShootSoundWindDown = gsp .. "flame_thrower_bb_end.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "flame_thrower_bb_end.wav"
+
+ATT.InstallSound = gsp .. "flame_thrower_bb_start.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_flamethrower")

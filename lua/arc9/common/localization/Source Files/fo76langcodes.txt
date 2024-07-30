@@ -37,3 +37,11 @@
 3E713 Pump Action Shotgun
 16B1E Combat Shotgun
 25C80 Syringer
+
+1FE60 Cryolator
+1CAC8 Crystallizing Barrel
+30A4F Flamer
+3E6F0 Gatling Plasma
+18A00 Minigun
+01A7A Gatling Laser
+23A32 Submachine Gun

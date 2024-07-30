@@ -21,6 +21,6 @@ SV-SE, Swedish					Moka
 TH, Thai								N/A
 TR, Turkish							N/A
 UK, Ukrainian					N/A
-VI, Vietnamese					N/A
+VI, Vietnamese					annesting
 ZH-CN, T. Chinese				KILLA
 ZH-TW, S. Chinese			N/A

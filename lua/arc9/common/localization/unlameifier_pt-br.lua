@@ -73,7 +73,7 @@ Só precisa de uma ligada. Misturando elas não funciona.]]
 
 L["unlameifier_eft_iron_force_up_front.printname"] = "Forçar Mira Aberta"
 L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
-L["unlameifier_eft_iron_force_up_front.description"] = [[Força a mira ser baixada.
+L["unlameifier_eft_iron_force_up_front.description"] = [[Força a mira ser aberta.
 
 Só precisa de uma ligada. Misturando elas não funciona.]]
 
@@ -84,8 +84,8 @@ L["unlameifier_eft_videogame_shotguns.description"] = [[Aumenta o espalho das es
 
 Não equipe isto on armas que não seja espingardas, a não seja que voce se odeie.]]
 
-L["unlameifier_tuning_disable_dluts.printname"] = "Force-Disable Damage Lookup Tables"
-L["unlameifier_tuning_disable_dluts.compactname"] = "Disable DLUT"
+L["unlameifier_tuning_disable_dluts.printname"] = "Desativar Tabelas de Dano"
+L["unlameifier_tuning_disable_dluts.compactname"] = "Desativar DLUT"
 L["unlameifier_tuning_disable_dluts.description"] = [[Desativa as tabelas de dano em armas que usam-o. Voce precisa disto para modificar o dano das armas EFT. As espingardas EFT não precisam disto..
 
 Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
@@ -94,16 +94,16 @@ L["unlameifier_eft_doom_hold.printname"] = "Posição de viewmodel (DOOM)"
 L["unlameifier_eft_doom_hold.compactname"] = "DOOM Viewmodel"
 L["unlameifier_eft_doom_hold.description"] = [[Quer saber? Se fode esse Bravo-Delta-Sierra-Mike merda tactical. Eu vou jogar DOOM.
 
-Makes you hold your gun at the center of the screen, like DOOM.]]
+Faz voce segurar a arma no centro da tela, como o DOOM original.]]
 
 -- EFT Custom Slots
--- L["unlameifier_eft_custom_melee_override.printname"] = "EFT Custom Melee Slot"
--- L["unlameifier_eft_custom_melee_override.compactname"] = "Melee Slot"
--- L["unlameifier_eft_custom_melee_override.description"] = "Forces your weapon to use the EFT Custom Melee slot."
+L["unlameifier_eft_custom_melee_override.printname"] = "Forçar Arma Corpo A Corpo Customizada EFT"
+L["unlameifier_eft_custom_melee_override.compactname"] = "Slot de Arma Corpo A Corpo"
+L["unlameifier_eft_custom_melee_override.description"] = "Força sua arma a usar a arma corpo a corpo customizada da EFT"
 
--- L["unlameifier_eft_custom_override.printname"] = "EFT Custom Slot"
--- L["unlameifier_eft_custom_override.compactname"] = "Custom Slot"
--- L["unlameifier_eft_custom_override.description"] = "Forces your weapon to use the EFT Custom slot. Useful for going back to the normal custom slot if you forced the melee slot on."
+L["unlameifier_eft_custom_override.printname"] = "Slot Customizado EFT"
+L["unlameifier_eft_custom_override.compactname"] = "Slot Customizado"
+L["unlameifier_eft_custom_override.description"] = "Força sua arma a usar a slot customizada da EFT. Use se você forçou o slot de arma corpo a corpo."
 
 -- Tracer Colours
 L["unlameifier_tracer_red.printname"] = "Unlameifier/Tracers Vermelho"
@@ -134,9 +134,9 @@ L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>o
 -- L["unlameifier_tracer_pink.compactname"] = "Pink"
 -- L["unlameifier_tracer_pink.description"] = "Gives your gun <color=222,31,213>pink tracers</color>."
 
--- L["unlameifier_tracer_white.printname"] = "Unlameifier/Tracers Branco"
--- L["unlameifier_tracer_white.compactname"] = "Branco"
--- L["unlameifier_tracer_white.description"] = "Gives your gun white tracers."
+L["unlameifier_tracer_white.printname"] = "Unlameifier/Tracers Branco"
+L["unlameifier_tracer_white.compactname"] = "Branco"
+L["unlameifier_tracer_white.description"] = "Gives your gun white tracers."
 
 -- L["unlameifier_tracer_cyan.printname"] = "Cyan Tracers"
 -- L["unlameifier_tracer_cyan.compactname"] = "Cyan"

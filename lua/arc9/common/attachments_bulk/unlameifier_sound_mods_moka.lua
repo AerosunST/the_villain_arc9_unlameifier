@@ -1425,6 +1425,362 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "flame_thrower_bb_loop.wav"
 ATT.ShootSoundWindDown = gsp .. "flame_thrower_bb_end.wav"
 ATT.ShootSoundWindDownIndoor = gsp .. "flame_thrower_bb_end.wav"
 
-ATT.InstallSound = gsp .. "flame_thrower_bb_start.wav"
+ATT.InstallSound = gsp .. "flame_thrower_bb_select.wav"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_flamethrower")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Degreaser"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "flame_thrower_dg_loop.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "flame_thrower_dg_loop.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "flame_thrower_dg_loop.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "flame_thrower_dg_loop.wav"
+ATT.ShootSoundWindDown = gsp .. "flame_thrower_dg_end.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "flame_thrower_dg_end.wav"
+
+ATT.InstallSound = gsp .. "flame_thrower_dg_select.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_thedegreaser")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Flame Thrower"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "flame_thrower_loop.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "flame_thrower_loop.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "flame_thrower_loop.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "flame_thrower_loop.wav"
+ATT.ShootSoundWindDown = gsp .. "flame_thrower_end.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "flame_thrower_end.wav"
+
+ATT.InstallSound = gsp .. "flame_thrower_select.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_flamethrower")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Detonator"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "flare_detonator_launch.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "flare_detonator_launch.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_flaregun_detonator")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Flare Gun"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot.wav",
+gsp .. "flaregun_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "flaregun_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_flaregun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Frontier Justice"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_engineer")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot.wav",
+gsp .. "frontier_justice_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "frontier_justice_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sentry_shotgun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Brass Beast"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "gatling_shoot.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "gatling_shoot.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "gatling_shoot.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "gatling_shoot.wav"
+ATT.ShootSoundWindDown = gsp .. "gatling_wind_down.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "gatling_wind_down.wav"
+
+ATT.InstallSound = gsp .. "gatling_wind_up.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_gatlinggun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Grenade Launcher"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot.wav",
+gsp .. "grenade_launcher_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "grenade_launcher_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_grenadelauncher")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "L'Etranger"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot.wav",
+gsp .. "letranger_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "letranger_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_letranger")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Loch-n-Load"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot.wav",
+gsp .. "loch_n_load_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "loch_n_load_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_lochnload")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Loose Cannon"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot.wav",
+gsp .. "loose_cannon_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "loose_cannon_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_cannon")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Manmelter"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire.wav",
+gsp .. "man_melter_fire_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "man_melter_fire.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_manmelter")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Natascha"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "minifun_shoot.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "minifun_shoot.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "minifun_shoot.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "minifun_shoot.wav"
+ATT.ShootSoundWindDown = gsp .. "minifun_wind_down.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "minifun_wind_down.wav"
+
+ATT.InstallSound = gsp .. "minifun_wind_up.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_minigun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Minigun"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "minigun_shoot.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "minigun_shoot.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "minigun_shoot.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "minigun_shoot.wav"
+ATT.ShootSoundWindDown = gsp .. "minigun_wind_down.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "minigun_wind_down.wav"
+
+ATT.InstallSound = gsp .. "minigun_wind_up.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_minigun")

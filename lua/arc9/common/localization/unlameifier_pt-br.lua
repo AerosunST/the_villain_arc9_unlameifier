@@ -195,6 +195,10 @@ L["unlameifier_tracer_white.description"] = "Gives your gun white tracers."
 -- L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
 -- L["unlameifier_tracer_size_010x.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.1</color>."
 
+-- L["unlameifier_tracer_size_x025.printname"] = "Tracer Size - 0.25x"
+-- L["unlameifier_tracer_size_x025.compactname"] = "0.25x"
+-- L["unlameifier_tracer_size_x025.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.25</color>."
+
 -- L["unlameifier_tracer_size_x05.printname"] = "Tracer Size - 0.5x"
 -- L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
 -- L["unlameifier_tracer_size_x05.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.5</color>."

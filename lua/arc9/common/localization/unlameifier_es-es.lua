@@ -170,6 +170,10 @@ L["unlameifier_tracer_size_010x.printname"] = "Tamaño del trazador - 0.1x"
 L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
 L["unlameifier_tracer_size_010x.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.1</color>."
 
+L["unlameifier_tracer_size_x025.printname"] = "Tamaño del trazador - 0.25x"
+L["unlameifier_tracer_size_x025.compactname"] = "0.25x"
+L["unlameifier_tracer_size_x025.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.25</color>."
+
 L["unlameifier_tracer_size_x05.printname"] = "Tamaño del trazador - 0.5x"
 L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
 L["unlameifier_tracer_size_x05.description"] = "Multiplica el tamaño de los trazadores por <color=175,175,255>0.5</color>."

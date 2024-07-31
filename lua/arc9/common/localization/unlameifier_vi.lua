@@ -194,6 +194,10 @@ L["unlameifier_tracer_size_010x.printname"] = "Kích cỡ đường đạn - 0.1
 L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
 L["unlameifier_tracer_size_010x.description"] = "Kích cỡ nhân thêm <color=175,175,255>0.1</color>."
 
+L["unlameifier_tracer_size_x025.printname"] = "Kích cỡ đường đạn - 0.25x"
+L["unlameifier_tracer_size_x025.compactname"] = "0.25x"
+L["unlameifier_tracer_size_x025.description"] = "Kích cỡ nhân thêm <color=175,175,255>0.25</color>."
+
 L["unlameifier_tracer_size_x05.printname"] = "Kích cỡ đường đạn - 0.5x"
 L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
 L["unlameifier_tracer_size_x05.description"] = "Kích cỡ nhân thêm <color=175,175,255>0.5</color>."

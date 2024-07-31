@@ -188,21 +188,25 @@ L["unlameifier_tracer_ranging.description"] = [[För att kvotera originala tillb
 Bärgat från "Standard Weapons", prototyp vapenpaket till ARC9.]]
 
 -- Tracer Size
-L["unlameifier_tracer_size_010x.printname"] = "Spårljusstorlek - 0.1x"
-L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
-L["unlameifier_tracer_size_010x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.1</color>."
+L["unlameifier_tracer_size_010x.printname"] = "Spårljusstorlek - 0,1x"
+L["unlameifier_tracer_size_010x.compactname"] = "0,1x"
+L["unlameifier_tracer_size_010x.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0,1</color>."
 
-L["unlameifier_tracer_size_x05.printname"] = "Spårljusstorlek - 0.5x"
-L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
-L["unlameifier_tracer_size_x05.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.5</color>."
+L["unlameifier_tracer_size_x025.printname"] = "Spårljusstorlek - 0,25x"
+L["unlameifier_tracer_size_x025.compactname"] = "0,25x"
+L["unlameifier_tracer_size_x025.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0,25</color>."
 
-L["unlameifier_tracer_size_x075.printname"] = "Spårljusstorlek - 0.75x"
-L["unlameifier_tracer_size_x075.compactname"] = "0.75x"
-L["unlameifier_tracer_size_x075.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.75</color>."
+L["unlameifier_tracer_size_x05.printname"] = "Spårljusstorlek - 0,5x"
+L["unlameifier_tracer_size_x05.compactname"] = "0,5x"
+L["unlameifier_tracer_size_x05.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0,5</color>."
 
-L["unlameifier_tracer_size_x090.printname"] = "Spårljusstorlek - 0.9x"
-L["unlameifier_tracer_size_x090.compactname"] = "0.9x"
-L["unlameifier_tracer_size_x090.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0.9</color>."
+L["unlameifier_tracer_size_x075.printname"] = "Spårljusstorlek - 0,75x"
+L["unlameifier_tracer_size_x075.compactname"] = "0,75x"
+L["unlameifier_tracer_size_x075.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0,75</color>."
+
+L["unlameifier_tracer_size_x090.printname"] = "Spårljusstorlek - 0,9x"
+L["unlameifier_tracer_size_x090.compactname"] = "0,9x"
+L["unlameifier_tracer_size_x090.description"] = "Multiplicerar storleken på spårljusen med <color=175,175,255>0,9</color>."
 
 L["unlameifier_tracer_size_2x.printname"] = "Spårljusstorlek - 2x"
 L["unlameifier_tracer_size_2x.compactname"] = "2x"

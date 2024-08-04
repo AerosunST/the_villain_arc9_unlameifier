@@ -1784,3 +1784,988 @@ ATT.ShootSoundWindDownIndoor = gsp .. "minigun_wind_down.wav"
 ATT.InstallSound = gsp .. "minigun_wind_up.wav"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_minigun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Phlogistinator"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_pyro")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "phlog_ignite.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "phlog_ignite.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "phlog_ignite.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "phlog_ignite.wav"
+ATT.ShootSoundWindDown = gsp .. "phlog_end.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "phlog_end.wav"
+
+ATT.InstallSound = gsp .. "phlog_install.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_phlogistinator")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Pistol"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot.wav",
+gsp .. "pistol_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "pistol_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pistol")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Pomson 6000"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_engineer")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_01.wav",
+gsp .. "pomson_fire_crit_01.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "pomson_fire_01.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pomson")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Original"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered.wav",
+gsp .. "quake_rpg_fire_remastered_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "quake_rpg_fire_remastered.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_theoriginal")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Rescue Ranger"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_engineer")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire.wav",
+gsp .. "rescue_ranger_fire_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "rescue_ranger_fire.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_shotgun_building_rescue")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Reserve Shooter"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "reserve_shooter_01.wav",
+gsp .. "reserve_shooter_02.wav",
+gsp .. "reserve_shooter_03.wav",
+gsp .. "reserve_shooter_04.wav",
+gsp .. "reserve_shooter_01.wav",
+gsp .. "reserve_shooter_02.wav",
+gsp .. "reserve_shooter_01_crit.wav",
+gsp .. "reserve_shooter_02_crit.wav",
+gsp .. "reserve_shooter_03_crit.wav",
+gsp .. "reserve_shooter_04_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "reserve_shooter_01.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_reserveshooter")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Revolver"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot.wav",
+gsp .. "revolver_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "revolver_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_revolver")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Black Box"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot.wav",
+gsp .. "rocket_blackbox_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "rocket_blackbox_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_theblackbox")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Direct Hit"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot.wav",
+gsp .. "rocket_directhit_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "rocket_directhit_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_rocketlauncher")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Rocket Jumper"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "rocket_jumper_shoot.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "rocket_jumper_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_rocketlauncher_jump")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Liberty Launcher"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot.wav",
+gsp .. "rocket_ll_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "rocket_ll_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_libertylauncher")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Rocket Launcher"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_soldier")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot.wav",
+gsp .. "rocket_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "rocket_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_rocketlauncher")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Soda Popper"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot.wav",
+gsp .. "scatter_gun_double_bonk_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "scatter_gun_double_bonk_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sodapopper")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Force-A-Nature"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot.wav",
+gsp .. "scatter_gun_double_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "scatter_gun_double_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_scattergun_double")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Scattergun"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot.wav",
+gsp .. "scatter_gun_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "scatter_gun_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_scattergun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Shooting Star"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_charged.wav",
+gsp .. "shooting_star_shoot_crit.wav",
+}
+
+ATT.ShootSound = gsp .. "shooting_star_shoot.wav"
+ATT.ShootSoundIndoor = gsp .. "shooting_star_shoot.wav"
+ATT.ShootSoundSilenced = gsp .. "shooting_star_shoot.wav"
+ATT.ShootSoundSilencedIndoor = gsp .. "shooting_star_shoot.wav"
+ATT.InstallSound = gsp .. "shooting_star_shoot.wav"
+
+ATT.ShootSoundSights = gssf
+ATT.ShootSoundIndoorSights = gssf
+ATT.ShootSoundSilencedSights = gssf
+ATT.ShootSoundSilencedIndoorSights = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_sniperrifle")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Shortstop"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot.wav",
+gsp .. "short_stop_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "short_stop_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_theshortstop")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Shotgun"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot.wav",
+gsp .. "shotgun_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "shotgun_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_shotgun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "SMG"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot.wav",
+gsp .. "smg_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "smg_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_smg")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Bazaar Bargain"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "tf_sniper_bazaar_bargain_01.wav",
+gsp .. "tf_sniper_bazaar_bargain_02.wav",
+gsp .. "tf_sniper_bazaar_bargain_03.wav",
+gsp .. "tf_sniper_bazaar_bargain_04.wav",
+gsp .. "tf_sniper_bazaar_bargain_05.wav",
+gsp .. "tf_sniper_bazaar_bargain_01.wav",
+gsp .. "tf_sniper_bazaar_bargain_02.wav",
+gsp .. "tf_sniper_bazaar_bargain_03.wav",
+gsp .. "tf_sniper_bazaar_bargain_04.wav",
+gsp .. "tf_sniper_bazaar_bargain_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "tf_sniper_bazaar_bargain_01.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bazaarbargain")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Machina"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "sniper_railgun_single_01.wav",
+gsp .. "sniper_railgun_single_02.wav",
+gsp .. "sniper_railgun_single_01.wav",
+gsp .. "sniper_railgun_single_02.wav",
+gsp .. "sniper_railgun_single_01.wav",
+gsp .. "sniper_railgun_single_02.wav",
+gsp .. "sniper_railgun_single_01.wav",
+gsp .. "sniper_railgun_single_02.wav",
+gsp .. "sniper_railgun_single_crit.wav",
+gsp .. "sniper_railgun_single_crit_02.wav",
+}
+
+gssf2 = {
+gsp .. "sniper_railgun_charged_shot_01.wav",
+gsp .. "sniper_railgun_charged_shot_02.wav",
+gsp .. "sniper_railgun_charged_shot_01.wav",
+gsp .. "sniper_railgun_charged_shot_02.wav",
+gsp .. "sniper_railgun_charged_shot_01.wav",
+gsp .. "sniper_railgun_charged_shot_02.wav",
+gsp .. "sniper_railgun_charged_shot_01.wav",
+gsp .. "sniper_railgun_charged_shot_02.wav",
+gsp .. "sniper_railgun_charged_shot_crit_01.wav",
+gsp .. "sniper_railgun_charged_shot_crit_02.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "sniper_railgun_single_01.wav"
+
+ATT.ShootSoundSights = gssf2
+ATT.ShootSoundIndoorSights = gssf2
+ATT.ShootSoundSilencedSights = gssf2
+ATT.ShootSoundSilencedIndoorSights = gssf2
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dex_rifle")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Classic"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot.wav",
+gsp .. "sniper_rifle_classic_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "sniper_rifle_classic_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_classicsniperrifle")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Sniper Rifle"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot.wav",
+gsp .. "sniper_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "sniper_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sniperrifle")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Sydney Sleeper"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_sniper")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot.wav",
+gsp .. "sniper_sydneysleeper_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "sniper_sydneysleeper_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sydneysleeper")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Sticky Jumper"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "sticky_jumper_shoot.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "sticky_jumper_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_stickeybomb_jump")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Stickybomb Launcher"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot.wav",
+gsp .. "stickybomblauncher_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "stickybomblauncher_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_stickeybomblauncher")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Syringe Gun"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_medic")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot.wav",
+gsp .. "syringegun_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "syringegun_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_syringegun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Iron Bomber"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_demo")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot.wav",
+gsp .. "tacky_grenadier_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "tacky_grenadier_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_iron_bomber")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Enforcer"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_spy")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "tf_spy_enforcer_revolver_01.wav",
+gsp .. "tf_spy_enforcer_revolver_02.wav",
+gsp .. "tf_spy_enforcer_revolver_03.wav",
+gsp .. "tf_spy_enforcer_revolver_04.wav",
+gsp .. "tf_spy_enforcer_revolver_05.wav",
+gsp .. "tf_spy_enforcer_revolver_06.wav",
+gsp .. "tf_spy_enforcer_revolver_01.wav",
+gsp .. "tf_spy_enforcer_revolver_02.wav",
+gsp .. "tf_spy_enforcer_revolver_03.wav",
+gsp .. "tf_spy_enforcer_revolver_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "tf_spy_enforcer_revolver_01.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_enforcer")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Back Scatter"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty.wav",
+gsp .. "tf2_backshot_shotty_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "tf2_backshot_shotty.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_backscatter")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Tomislav"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_heavy")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "tomislav_shoot.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "tomislav_shoot.wav"
+ATT.ShootSoundLoopingSilenced = gsp .. "tomislav_shoot.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "tomislav_shoot.wav"
+ATT.ShootSoundWindDown = gsp .. "tomislav_wind_down.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "tomislav_wind_down.wav"
+
+ATT.InstallSound = gsp .. "tomislav_wind_up.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tomislav")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Widowmaker"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_engineer")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "widow_maker_shot_01.wav",
+gsp .. "widow_maker_shot_02.wav",
+gsp .. "widow_maker_shot_03.wav",
+gsp .. "widow_maker_shot_01.wav",
+gsp .. "widow_maker_shot_02.wav",
+gsp .. "widow_maker_shot_03.wav",
+gsp .. "widow_maker_shot_01.wav",
+gsp .. "widow_maker_shot_crit_01.wav",
+gsp .. "widow_maker_shot_crit_02.wav",
+gsp .. "widow_maker_shot_crit_03.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "widow_maker_shot_01.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_dex_shotgun")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Winger"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.tf2") .. ARC9:GetPhrase("unlameifier_tf2_scout")
+
+table.Merge(ATT, sharedcode)
+
+gssf = {
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot.wav",
+gsp .. "winger_shoot_crit.wav",
+}
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gsp .. "winger_shoot.wav",
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_winger")

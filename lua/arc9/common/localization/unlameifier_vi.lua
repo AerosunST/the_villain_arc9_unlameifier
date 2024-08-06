@@ -538,357 +538,350 @@ L["unlameifier_sound_hl1_xbow.description"] = [[Đổi Tiếng hiện tại sang
 -- Nói thiệt thì còn nhiều thứ lạ quắc hơn là cái này á. Thím thích gì thì không ai cản đâu nhé :3]]
 
 //////////////// Counter-Strike: Source
--- L["unlameifier.folder.sounds.css"] = "Unlameifier/Sound Mods/CSS"
+L["unlameifier.folder.sounds.css"] = "Unlameifier/Tiếng/CSS"
 
-L["unlameifier_sound_css_glock18.printname"] = "9x19mm Sidearm"
+L["unlameifier_sound_css_glock18.printname"] = "Súng ngắn 9x19"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
--- L["unlameifier_sound_css_glock18.description"] = [[Changes the firing sound of the weapon to the 9x19mm Sidearm from Counter-Strike: Source.
+L["unlameifier_sound_css_glock18.description"] = [[Đổi Tiếng hiện tại sang tiếng Glock từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ khẩu USP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Theo imfdb.org, Glock 18 của Source thực chất là Glock 19. Nếu bạn biết về súng thì bên CSS sai cực kỳ rõ ràng nhe.]]
 
-L["unlameifier_sound_css_usp.printname"] = "K&M .45 Tactical"
+L["unlameifier_sound_css_usp.printname"] = "Súng K&M .45 Tactical"
 L["unlameifier_sound_css_usp.compactname"] = "USP"
--- L["unlameifier_sound_css_usp.description"] = [[Changes the firing sound of the weapon to the K&M .45 Tactical from Counter-Strike: Source.
+L["unlameifier_sound_css_usp.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng K&M .45 Tactical từ Counter-Strike: Source.
 
--- <color=150,150,255>Fun Fact</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Tương tự như mọi vũ khí CSS khác, khẩu K&M nhả đạn sang bên trái (shoutout ngài Minh "Gooseman" Lê :D). Ngoài ra, tính tới hiện tại thì đây là vũ khí được thiết kế chính xác nhất trong CSS.]]
 
-L["unlameifier_sound_css_p228.printname"] = "228 Compact"
+L["unlameifier_sound_css_p228.printname"] = "Súng 228 Compact"
 L["unlameifier_sound_css_p228.compactname"] = "P228"
--- L["unlameifier_sound_css_p228.description"] = [[Changes the firing sound of the weapon to the 228 Compact from Counter-Strike: Source.
+L["unlameifier_sound_css_p228.description"] = [[Đổi Tiếng hiện tại sang tiếng 228 Compact từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ khẩu USP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Theo imfdb.org, P228 của Source thực ra là khẩu P229, vì đạn của nó theo menu mua súng của game là .357 SIG]]
 
-L["unlameifier_sound_css_deagle.printname"] = "Night Hawk .50C"
+L["unlameifier_sound_css_deagle.printname"] = "Súng Night Hawk .50C"
 L["unlameifier_sound_css_deagle.compactname"] = "Deagle"
--- L["unlameifier_sound_css_deagle.description"] = [[Changes the firing sound of the weapon to the Night Hawk .50C from Counter-Strike: Source.
+L["unlameifier_sound_css_deagle.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng Night Hawk .50C từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Khi dùng <color=100,255,100>Suppressed</color>: Dùng tiếng từ khẩu TMP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Theo imfdb.org, khẩu Desert Eagle Mark XIX (dùng đạn .50 AE) không có nòng dạng rãnh như là mẫu trong Source.]]
 
-L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
+L["unlameifier_sound_css_fiveseven.printname"] = "Súng ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
--- L["unlameifier_sound_css_fiveseven.description"] = [[Changes the firing sound of the weapon to the ES Five-Seven from Counter-Strike: Source.
+L["unlameifier_sound_css_fiveseven.description"] = [[Đổi Tiếng hiện tại sang tiếng ES Five-Seven từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ khẩu USP.
 
--- <color=150,150,255>Fun Fact</color>: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
+<color=150,150,255>Có thể thím chưa biết</color>: Chỉ có 1 nửa thanh trượt của khẩu là di chuyển thôi. Cái này là sai so với ngoài đời nhé.]]
 
-L["unlameifier_sound_css_elite.printname"] = ".40 Dual Elites"
+L["unlameifier_sound_css_elite.printname"] = "Súng .40 Dual Elites"
 L["unlameifier_sound_css_elite.compactname"] = "Elite"
--- L["unlameifier_sound_css_elite.description"] = [[Changes the firing sound of the weapon to the .40 Dual Elites from Counter-Strike: Source.
+L["unlameifier_sound_css_elite.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng .40 Dual Elites từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ khẩu USP.
 
--- <color=150,150,255>Fun Fact</color>: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Tên thật của .40 Dual Elites là "Beretta 92G Elite II". Nó dùng đạn 9x19 chứ không phải .40S&W như trong game.]]
 
-L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 Auto Shotgun"
+L["unlameifier_sound_css_xm1014.printname"] = "Súng hoa cải bán tự động XM1014"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
--- L["unlameifier_sound_css_xm1014.description"] = [[Changes the firing sound of the weapon to the Leone YG1265 Auto Shotgun from Counter-Strike: Source.
+L["unlameifier_sound_css_xm1014.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng hoa cải bán tự động XM1014 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Bên CS2 và CSGO vẫn dùng tên "XM1014". Tên đó không phải là tên được đặt cho súng.]]
 
-L["unlameifier_sound_css_tmp.printname"] = "Schmidt Machine Pistol"
+L["unlameifier_sound_css_tmp.printname"] = "Súng ngắn liên thanh Schmidt"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
--- L["unlameifier_sound_css_tmp.description"] = [[Changes the firing sound of the weapon to the Schmidt Machine Pistol from Counter-Strike: Source.
+L["unlameifier_sound_css_tmp.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng ngắn liên thanh Schmidt từ Counter-Strike: Source.
 
--- <color=255,100,100>NOTE</color>: Does not have separate unsuppressed sounds.
+<color=255,100,100>LƯU Ý</color>: Không có tiếng giảm thanh từ vũ khí khác (căn bản là súng này có nòng giảm thanh tích hợp rồi mà :v)
 
--- <color=150,150,255>Fun Fact</color>: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Đây là súng duy nhất trong game không thể tháo được nòng giảm thanh.]]
 
-L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
+L["unlameifier_sound_css_mac10.printname"] = "Súng MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
--- L["unlameifier_sound_css_mac10.description"] = [[Changes the firing sound of the weapon to the Ingram MAC-10 from Counter-Strike: Source.
+L["unlameifier_sound_css_mac10.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng MAC-10 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Khẩu này dùng tên thật nhe, cùng với 1 số ít khẩu khác nữa.]]
 
-L["unlameifier_sound_css_mp5.printname"] = "K&M Sub-Machine Gun"
+L["unlameifier_sound_css_mp5.printname"] = "Súng tiểu liên MP5"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
--- L["unlameifier_sound_css_mp5.description"] = [[Changes the firing sound of the weapon to the K&M Sub-Machine Gun from Counter-Strike: Source.
+L["unlameifier_sound_css_mp5.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng tiểu liên MP5 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Súng này lại không bị ngược giống như mấy khẩu theo style của Gooseman mà nó lại hoạt động đúng theo cách của nó.]]
 
-L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
+L["unlameifier_sound_css_ump45.printname"] = "Súng K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
--- L["unlameifier_sound_css_ump45.description"] = [[Changes the firing sound of the weapon to the K&M UMP45 from Counter-Strike: Source.
+L["unlameifier_sound_css_ump45.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng K&M UMP45 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Đây là một trong số rất ít súng trong Source sử dụng tên thật của nó, trừ nhà sản xuất của nó ra. Hơn nữa, model của súng lại luôn luôn ở chế độ an toàn (bắn thế méo nào được wth)]]
 
-L["unlameifier_sound_css_p90.printname"] = "ES C90"
+L["unlameifier_sound_css_p90.printname"] = "Súng ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
--- L["unlameifier_sound_css_p90.description"] = [[Changes the firing sound of the weapon to the ES C90 from Counter-Strike: Source.
+L["unlameifier_sound_css_p90.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng ES C90 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng TMP.
 
--- <color=150,150,255>Fun Fact</color>: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Vì 1 lỗi nhỏ mà hồi xưa khẩu này dùng đạn .338 Magnum (cùng đạn với khẩu AWP :vv), sau này thì lỗi này đã được sửa rùi.]]
 
-L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
+L["unlameifier_sound_css_galil.printname"] = "Súng IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
--- L["unlameifier_sound_css_galil.description"] = [[Changes the firing sound of the weapon to the IDF Defender from Counter-Strike: Source.
+L["unlameifier_sound_css_galil.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng IDF Defender từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
+<color=150,150,255>Có thể thím chưa biết</color>: Khẩu Galil ngoài đời có nguyên 1 bộ phận để bật nắp bia luôn á! Ngầu vcl! Không tin thì lên Google đi B)]]
 
-L["unlameifier_sound_css_famas.printname"] = "Clarion 5.56"
+L["unlameifier_sound_css_famas.printname"] = "Súng Clarion 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
--- L["unlameifier_sound_css_famas.description"] = [[Changes the firing sound of the weapon to the Clarion 5.56 from Counter-Strike: Source.
+L["unlameifier_sound_css_famas.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng Clarion 5.56 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: "Clarions" are medieval war trumpets.]]
+<color=150,150,255>Có thể thím chưa biết</color>: "Clarions" có nghĩa là kèn chiến tranh trong thời trung cổ bên Pháp.]]
 
-L["unlameifier_sound_css_ak47.printname"] = "CV-47"
+L["unlameifier_sound_css_ak47.printname"] = "Súng CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
--- L["unlameifier_sound_css_ak47.description"] = [[Changes the firing sound of the weapon to the CV-47 from Counter-Strike: Source.
+L["unlameifier_sound_css_ak47.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng CV-47 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Đây là ví dụ rõ ràng nhất về vũ khí bị ngược trong Source. Minh "Gooseman" Lê là một người thuận tay trái và muốn mọi vũ khí đều được sử dụng bằng tay trái.]]
 
-L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1 Carbine"
+L["unlameifier_sound_css_m4a1.printname"] = "Súng carbine Maverick M4A1"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
--- L["unlameifier_sound_css_m4a1.description"] = [[Changes the firing sound of the weapon to the Maverick M4A1 Carbine from Counter-Strike: Source.
+L["unlameifier_sound_css_m4a1.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng carbine Maverick M4A1 từ Counter-Strike: Source.
 
--- <color=150,150,255>Fun Fact</color>: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Khi nạp đạn, người chơi lại dùng bộ phận chỉnh đạn (Forward Assist) thay vì bộ khóa nòng.]]
 
-L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
+L["unlameifier_sound_css_sg552.printname"] = "Súng Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
--- L["unlameifier_sound_css_sg552.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
+L["unlameifier_sound_css_sg552.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng Krieg 552 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Despite firing in full-auto, the firing selector is set to semi-auto.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Mặc dù súng bắn liên tiếp được nhưng nó lại để sang chế độ bắn 1 phát.]]
 
-L["unlameifier_sound_css_aug.printname"] = "Bullpup"
+L["unlameifier_sound_css_aug.printname"] = "Súng Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
--- L["unlameifier_sound_css_aug.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
+L["unlameifier_sound_css_aug.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng Bullpup từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Khi nạp đạn, bạn có thể thấy bộ khóa nòng không có dính liền vào thân súng :O]]
 
-L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
+L["unlameifier_sound_css_scout.printname"] = "Súng Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
--- L["unlameifier_sound_css_scout.description"] = [[Changes the firing sound of the weapon to the Schmidt Scout from Counter-Strike: Source.
+L["unlameifier_sound_css_scout.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng Schmidt Scout từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Súng bắn tỉa Steyr Scout ngoài đời có hộp đựng đạn thêm ở ngay báng súng.]]
 
-L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Commando"
+L["unlameifier_sound_css_sg550.printname"] = "Súng Krieg 550 Commando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
--- L["unlameifier_sound_css_sg550.description"] = [[Changes the firing sound of the weapon to the Krieg 550 Commando from Counter-Strike: Source.
+L["unlameifier_sound_css_sg550.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng Krieg 550 Commando từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
+<color=150,150,255>Có thể thím chưa biết</color>: "Commando" thực ra chỉ dành cho những khẩu dạng nòng ngắn giống SG552 mà thôi. Nên "Commando" ở đây không được hợp lý cho lắm.]]
 
-L["unlameifier_sound_css_awp.printname"] = "Magnum Sniper Rifle"
+L["unlameifier_sound_css_awp.printname"] = "Súng bắn tỉa Magnum"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
--- L["unlameifier_sound_css_awp.description"] = [[Changes the firing sound of the weapon to the Magnum Sniper Rifle from Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng bắn tỉa Magnum từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Khẩu AWP ngoài đời được tạo bởi hai khứa trong một garage và súng được đưa vào thử nghiệm MOD của Anh để xem nó hoạt động như thế nào để cạnh tranh những khẩu súng trường quân sự khác. “Thật không may”, 2 khứa đó lại thắng (vcl ạ) và phải nhanh chóng bắt tay vào chế tạo hàng nghìn khẩu súng bắn tỉa cho quân đội Anh.]]
 
-L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
+L["unlameifier_sound_css_g3sg1.printname"] = "Súng D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
--- L["unlameifier_sound_css_g3sg1.description"] = [[Changes the firing sound of the weapon to the D3/AU-1 from Counter-Strike: Source.
+L["unlameifier_sound_css_g3sg1.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng D3/AU-1 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Súng lại ở chế độ an toàn khi bắn. Khi nạp đạn, bộ khóa nòng không có di chuyển.]]
 
-L["unlameifier_sound_css_m249.printname"] = "M249"
+L["unlameifier_sound_css_m249.printname"] = "Súng M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
--- L["unlameifier_sound_css_m249.description"] = [[Changes the firing sound of the weapon to the M249 from Counter-Strike: Source.
+L["unlameifier_sound_css_m249.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng M249 từ Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A1.
 
--- <color=150,150,255>Fun Fact</color>: In Source, the M249 does not have a stock.]]
+<color=150,150,255>Có thể thím chưa biết</color>: Trong Source, khẩu M249 không có báng (wth không có thì giật chắc bay mất xác luôn)]]
 
 //////////////// Neosun Mouth
--- L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sound Mods/Neosun"
+L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Tiếng/Neosun"
 
--- L["unlameifier_sound_neosun_pew.printname"] = "Pew"
--- L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
--- L["unlameifier_sound_neosun_pew.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_pew.printname"] = "Pew"
+L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
+L["unlameifier_sound_neosun_pew.description"] = [[Diễn viên lồng tiếng Neosun được giao việc phục vụ cho các thím trải nghiệm âm thanh sống cmn động nhất :)). Cái này là tiếng "pew". ]]
 
--- This one is "pew".]]
+L["unlameifier_sound_neosun_bang.printname"] = "Bang"
+L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
+L["unlameifier_sound_neosun_bang.description"] = [[Diễn viên lồng tiếng Neosun được giao việc phục vụ cho các thím trải nghiệm âm thanh sống cmn động nhất :)). Cái này là tiếng "bang".]]
 
--- L["unlameifier_sound_neosun_bang.printname"] = "Bang"
--- L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
--- L["unlameifier_sound_neosun_bang.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
-
--- This one is "bang".]]
-
--- L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
--- L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
--- L["unlameifier_sound_neosun_gunshot.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
-
--- This one is "gunshot".]]
+L["unlameifier_sound_neosun_gunshot.printname"] = "Tiếng súng"
+L["unlameifier_sound_neosun_gunshot.compactname"] = "Tiếng súng"
+L["unlameifier_sound_neosun_gunshot.description"] = [[Diễn viên lồng tiếng Neosun được giao việc phục vụ cho các thím trải nghiệm âm thanh sống cmn động nhất :)). Cái này là tiếng "tiếng súng".]]
 
 //////////////// Misc.
--- L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sound Mods/Misc."
+L["unlameifier.folder.sounds.misc"] = "Unlameifier/Tiếng/Linh tinh"
 
--- L["unlameifier_sound_misc_sussy.printname"] = "Deranged Madness"
--- L["unlameifier_sound_misc_sussy.compactname"] = "Insanity"
--- L["unlameifier_sound_misc_sussy.description"] = [[An attachment only the most unhinged and depraved would ever equip. Heed this warning now, for there is no turning back.
+L["unlameifier_sound_misc_sussy.printname"] = "Siêu chó điên"
+L["unlameifier_sound_misc_sussy.compactname"] = "Khùng"
+L["unlameifier_sound_misc_sussy.description"] = [[1 skill chỉ dành cho những người vừa hít cả đống cỏ và máu chó điên mới dùng này thôi. 1 khi dùng thì không bao giờ quay lại muehehe.
 
--- Don't ask why your rate of fire is limited to 250 RPM... it's important, trust me.]]
+Đừng hỏi tại sao tốc độ bắn của thím lại bị giới hạn ở mức 250 RPM. Tin tui, cái đố quan trọng lắm đó.]]
 
--- L["unlameifier_sound_misc_magicmissile.printname"] = "MAGIC MISSILE!"
--- L["unlameifier_sound_misc_magicmissile.compactname"] = "MISSILE!"
--- L["unlameifier_sound_misc_magicmissile.description"] = [["Now is time for the final battle"
+L["unlameifier_sound_misc_magicmissile.printname"] = "TÊN LỬA THẦN KỲ!!!"
+L["unlameifier_sound_misc_magicmissile.compactname"] = "TÊN LỬA"
+L["unlameifier_sound_misc_magicmissile.description"] = [["Đây chính là thời điểm cho trận chiến cuối cùng."
 
--- -Court Wizard Chase Caspian]]
+- Trích từ Court Wizard Chase Caspian]]
 
--- L["unlameifier_sound_misc_mrskeltal.printname"] = "Mr. Skeltal!"
--- L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
--- L["unlameifier_sound_misc_mrskeltal.description"] = [[thank u mr. skeltal
+L["unlameifier_sound_misc_mrskeltal.printname"] = "Mr. Skeltal!"
+L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
+L["unlameifier_sound_misc_mrskeltal.description"] = [[cảm ơn mr. skeltal
 
--- bullets not required for dooting]]
+tiếng doot không cần đạn]]
 
--- L["unlameifier_sound_misc_ltg.printname"] = "A Message from Low Tier God"
--- L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
--- L["unlameifier_sound_misc_ltg.description"] = [["Your life is NOTHING. You serve ZERO purpose".
--- -LowTierGod
+L["unlameifier_sound_misc_ltg.printname"] = "1 lời nhắn nhủ từ Low Tier God"
+L["unlameifier_sound_misc_ltg.compactname"] = "44"
+L["unlameifier_sound_misc_ltg.description"] = [["Cuộc đời của mày thật vô nghĩa. Mày đéo làm được cc gì cả".
+-Trích từ LowTierGod
 
--- note: Unlameifier and its creator, Neosun, does not promote, condone, or encourage suicide. If you are experiencing thoughts of self-harm or suicide, please dial 988 to get in touch with the Suicide and Crisis Lifeline (United States, refer to your country's equivalent if you are outside of the US). They are available 24 hours a day. No call is insignificant when suicide is on the mind. You matter, and you are loved.
+Lưu ý: Bản mod và người làm mod này, Neosun, không bỏ qua, đề cao hay thúc giục việc 44. Nếu bạn đang có những suy nghĩ về 44 thì hãy liên lạc 988 để nhận được sự trợ giúp từ Cục ngăn ngừa tử tử và khủng hoảng (Số này cũng có ở Việt Nam nhé, phục vụ 24/7). Không có cuộc gọi nào là không có ý nghĩa. Bạn xứng đáng được tôn trọng và yêu thương từ mọi người! 
 
--- If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
+Nếu bạn muốn được lắng nghe thì hãy kb với Neosun trên Steam (cứ ghi tin nhắn có nhắc đến skill này thì Neosun sẽ luôn luôn bên cạnh bạn nhé) ♥]]
 
--- L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage Parody"
--- L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
--- L["unlameifier_sound_misc_mlg.description"] = [[basically the gen z equivalent of skibidi toilet.
+L["unlameifier_sound_misc_mlg.printname"] = "MLG"
+L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
+L["unlameifier_sound_misc_mlg.description"] = [[căn bản là skibidi toilet cho thế hệ Gen Z (Quickscope 360 smoke weed everyday).
 
--- inject 2013 brain rot directly into your veins]]
+tiêm 1 liều chứa những kỷ niệm 2013 vào bên trong máu bạn.]]
 
--- L["unlameifier_sound_misc_fireworks.printname"] = "Fireworks"
--- L["unlameifier_sound_misc_fireworks.compactname"] = "Fireworks"
--- L["unlameifier_sound_misc_fireworks.description"] = [[Freedom without the Freedom.
+L["unlameifier_sound_misc_fireworks.printname"] = "Pháo hoa"
+L["unlameifier_sound_misc_fireworks.compactname"] = "Pháo hoa"
+L["unlameifier_sound_misc_fireworks.description"] = [[Sự tự do mà không có tự do.
 
--- Works best in semi-auto.]]
+Tốt nhất dùng chế độ bắn đơn.]]
 
--- L["unlameifier_sound_misc_eagle.printname"] = "Eagle"
--- L["unlameifier_sound_misc_eagle.compactname"] = "Eagle"
--- L["unlameifier_sound_misc_eagle.description"] = [[Wield the power of the Freedom of the United States of America.
+L["unlameifier_sound_misc_eagle.printname"] = "Đại bàng"
+L["unlameifier_sound_misc_eagle.compactname"] = "Đại bàng"
+L["unlameifier_sound_misc_eagle.description"] = [[Cầm sức mạnh của sự tự do đất Mỹ.
 
--- Works best in semi-auto.
+Tốt nhất dùng chế độ bắn đơn.
 
--- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
+<color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
--- L["unlameifier_sound_misc_eagle_alt.printname"] = "Eagle (Alternative Version)"
--- L["unlameifier_sound_misc_eagle_alt.compactname"] = "Eagle (Alt.)"
--- L["unlameifier_sound_misc_eagle_alt.description"] = [[Wield the power of the Freedom of the United States of America.
+L["unlameifier_sound_misc_eagle_alt.printname"] = "Đại bàng (Bản khác)"
+L["unlameifier_sound_misc_eagle_alt.compactname"] = "Đại bàng (Khác)"
+L["unlameifier_sound_misc_eagle_alt.description"] = [[Cầm sức mạnh của sự tự do đất Mỹ.
+Khác với bản gốc, cái này sẽ thêm tiếng đại bàng réo lên khi thím ngừng bắn.
 
--- Unlike the original, this one adds an eagle screech when you stop firing.
-
--- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
+<color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
 //////////////// Call of Duty: Modern Warfare 2 (2009)
--- L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sound Mods/MW2"
+L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Tiếng/MW2"
 
--- L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
--- L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
--- L["unlameifier_sound_codmw2_intervention.description"] = [[Changes the firing sound of the weapon to the Intervention from Call of Duty: Modern Warfare 2 (2009).
+L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
+L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
+L["unlameifier_sound_codmw2_intervention.description"] = [[Đổi Tiếng hiện tại sang tiếng Intervention từ Call of Duty: Modern Warfare 2 (2009).
 
--- Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
+Cảm ơn Palindrome rất nhiều vì đã cho tui mượn tiếng từ bản mod của anh. Có gì mấy thím ghé sang mod của ảnh dùng thử nhen!]]
 
 //////////////// Roblox
--- L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sound Mods/Roblox"
+L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Tiếng/Roblox"
 
--- L["unlameifier_sound_roblox_paintball.printname"] = "Paintball Gun"
--- L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
--- L["unlameifier_sound_roblox_paintball.description"] = [[Changes the firing sound of the weapon to the Paintball Gun from Roblox.
+L["unlameifier_sound_roblox_paintball.printname"] = "Súng bắn sơn"
+L["unlameifier_sound_roblox_paintball.compactname"] = "Súng sơn"
+L["unlameifier_sound_roblox_paintball.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng bắn sơn từ Roblox.
 
--- Certified Hood Classic.]]
+Certified Hood Classic. (này từ meme chả biết dịch sao :v)]]
 
--- L["unlameifier_sound_roblox_slingshot.printname"] = "Slingshot"
--- L["unlameifier_sound_roblox_slingshot.compactname"] = "Slingshot"
--- L["unlameifier_sound_roblox_slingshot.description"] = [[Changes the firing sound of the weapon to the Slingshot from Roblox.
+L["unlameifier_sound_roblox_slingshot.printname"] = "Súng cao su"
+L["unlameifier_sound_roblox_slingshot.compactname"] = "Súng cao su"
+L["unlameifier_sound_roblox_slingshot.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng cao su từ Roblox.
 
--- Certified Hood Classic.]]
+CCertified Hood Classic. (này từ meme chả biết dịch sao :v)]]
 
--- L["unlameifier_sound_roblox_superball.printname"] = "Superball"
--- L["unlameifier_sound_roblox_superball.compactname"] = "Superball"
--- L["unlameifier_sound_roblox_superball.description"] = [[Changes the firing sound of the weapon to the Superball from Roblox.
+L["unlameifier_sound_roblox_superball.printname"] = "Bóng"
+L["unlameifier_sound_roblox_superball.compactname"] = "Bóng"
+L["unlameifier_sound_roblox_superball.description"] = [[Đổi Tiếng hiện tại sang tiếng Bóng từ Roblox.
 
--- Certified Hood Classic.]]
+CCertified Hood Classic. (này từ meme chả biết dịch sao :v)]]
 
--- L["unlameifier_sound_roblox_laserpistol.printname"] = "XLS Mark II Pulse Laser Pistol"
--- L["unlameifier_sound_roblox_laserpistol.compactname"] = "Laser Pistol"
--- L["unlameifier_sound_roblox_laserpistol.description"] = [[Changes the firing sound of the weapon to the XLS Mark II Pulse Laser Pistol from Roblox.
+L["unlameifier_sound_roblox_laserpistol.printname"] = "Súng laser XLS MkII"
+L["unlameifier_sound_roblox_laserpistol.compactname"] = "Súng laser"
+L["unlameifier_sound_roblox_laserpistol.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng laser XLS MkII từ Roblox.
 
--- The OG "pew" sound.]]
+Tiếng pew siêu cổ điển]]
 
--- L["unlameifier_sound_roblox_guitar.printname"] = "Red Stratobloxxer"
--- L["unlameifier_sound_roblox_guitar.compactname"] = "Guitar"
--- L["unlameifier_sound_roblox_guitar.description"] = [[Changes the firing sound of the weapon to the Red Stratobloxxer from Roblox.
+L["unlameifier_sound_roblox_guitar.printname"] = "Stratobloxxer đỏ"
+L["unlameifier_sound_roblox_guitar.compactname"] = "Guitar"
+L["unlameifier_sound_roblox_guitar.description"] = [[Đổi Tiếng hiện tại sang tiếng Stratobloxxer đỏ từ Roblox.
 
--- You might be able to play a song with it!]]
+Bạn có thể chơi 1 bài bằng này được á]]
 
 //////////////// Music
--- L["unlameifier.folder.sounds.music"] = "Unlameifier/Sound Mods/Music"
+L["unlameifier.folder.sounds.music"] = "Unlameifier/Tiếng/Nhạc"
 
--- L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
--- L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
--- L["unlameifier_sound_music_usa1.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa1.printname"] = "Quốc ca Mỹ"
+L["unlameifier_sound_music_usa1.compactname"] = "Mỹ"
+L["unlameifier_sound_music_usa1.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]] -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner but Angry"
--- L["unlameifier_sound_music_usa2.compactname"] = "USA Anthem Angy"
--- L["unlameifier_sound_music_usa2.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa2.printname"] = "Quốc ca Mỹ nhưng nó cọc"
+L["unlameifier_sound_music_usa2.compactname"] = "Mỹ cọc"
+L["unlameifier_sound_music_usa2.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]
 
--- Taken from the BroForce Soundtrack.]] -- "AMERICA" but in colour
+Lấy từ bản nhạc BroForce.]] -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa3.printname"] = "Ode to Joy"
--- L["unlameifier_sound_music_usa3.compactname"] = "Ode to Joy"
--- L["unlameifier_sound_music_usa3.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa3.printname"] = "Giao hưởng số 9"
+L["unlameifier_sound_music_usa3.compactname"] = "Gioo hưởng 9"
+L["unlameifier_sound_music_usa3.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]]] -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa4.printname"] = "1812 Overture"
--- L["unlameifier_sound_music_usa4.compactname"] = "1812 Overture"
--- L["unlameifier_sound_music_usa4.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa4.printname"] = "Nhạc dạo đầu 1812"
+L["unlameifier_sound_music_usa4.compactname"] = "Nhạc dạo đầu 1812"
+L["unlameifier_sound_music_usa4.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]]] -- "AMERICA" but in colour
 
 //////////////// KindredFlame
--- L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sound Mods/KindredFlame"
+L["unlameifier.folder.sounds.ws"] = "Unlameifier/Tiếng/KindredFlame"
 
--- L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame's M16A4"
--- L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
--- L["unlameifier_sound_ws_m16a4.description"] = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
+L["unlameifier_sound_ws_m16a4.printname"] = "M16A4 của KindredFlame"
+L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
+L["unlameifier_sound_ws_m16a4.description"] = [[Tiếng súng lấy từ bản mod của KindredFlame/Whitesnow cho CW2.0.
 
--- The legend never dies...]]
+Sống dai thành huyền thoại...]]
 
 //////////////// Melee Sounds Misc (Impact)
--- L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sound Mods/Impact/Misc."
+L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Tiếng/Tác động/Linh tinh."
 
--- L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
--- L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
--- L["unlameifier_sound_melee_bonk_impact.description"] = "Changes the melee hit sound with a bonk."
+L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
+L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
+L["unlameifier_sound_melee_bonk_impact.description"] = "Đổi tiếng melee thành tiếng bonk."
 
--- L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Johnny Test Whipcrack"
--- L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
--- L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*."
+L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Roi của Johnny Test"
+L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Roi"
+L["unlameifier_sound_melee_whipcrack_impact.description"] = "Bây *Bạch* giờ *Bạch* bạn  *Bạch* có *Bạch* thể *Bạch* trở *Bạch* thành *Bạch* một *Bạch* nhân *Bạch* vật *Bạch* trong *Bạch* bộ *Bạch* phim *Bạch* hoạt *Bạch* hình *Bạch* Johnny *Bạch* Test *Bạch*.
 
 //////////////// Melee Sounds JJBA (Swing)
 -- L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Swing/JJBA"

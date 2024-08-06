@@ -3344,7 +3344,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_damage_force_10")
 ATT = {}
 
 ATT.CompactName = "25 Max Damage"
-ATT.PrintName = "Max Damage 30"
+ATT.PrintName = "Max Damage 25"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
 ATT.Description = [[Sets your max damage to 25.]]
 ATT.SortOrder = 4

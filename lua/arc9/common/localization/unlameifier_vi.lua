@@ -814,13 +814,13 @@ L["unlameifier_sound_roblox_slingshot.printname"] = "Súng cao su"
 L["unlameifier_sound_roblox_slingshot.compactname"] = "Súng cao su"
 L["unlameifier_sound_roblox_slingshot.description"] = [[Đổi Tiếng hiện tại sang tiếng Súng cao su từ Roblox.
 
-CCertified Hood Classic. (này từ meme chả biết dịch sao :v)]]
+Certified Hood Classic. (này từ meme chả biết dịch sao :v)]]
 
 L["unlameifier_sound_roblox_superball.printname"] = "Bóng"
 L["unlameifier_sound_roblox_superball.compactname"] = "Bóng"
 L["unlameifier_sound_roblox_superball.description"] = [[Đổi Tiếng hiện tại sang tiếng Bóng từ Roblox.
 
-CCertified Hood Classic. (này từ meme chả biết dịch sao :v)]]
+Certified Hood Classic. (này từ meme chả biết dịch sao :v)]]
 
 L["unlameifier_sound_roblox_laserpistol.printname"] = "Súng laser XLS MkII"
 L["unlameifier_sound_roblox_laserpistol.compactname"] = "Súng laser"
@@ -847,7 +847,7 @@ L["unlameifier_sound_music_usa2.printname"] = "Quốc ca Mỹ nhưng nó cọc"
 L["unlameifier_sound_music_usa2.compactname"] = "Mỹ cọc"
 L["unlameifier_sound_music_usa2.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
-CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.
 
 Lấy từ bản nhạc BroForce.]] -- "AMERICA" but in colour
 
@@ -855,13 +855,13 @@ L["unlameifier_sound_music_usa3.printname"] = "Giao hưởng số 9"
 L["unlameifier_sound_music_usa3.compactname"] = "Gioo hưởng 9"
 L["unlameifier_sound_music_usa3.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
-CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]]] -- "AMERICA" but in colour
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]] -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa4.printname"] = "Nhạc dạo đầu 1812"
 L["unlameifier_sound_music_usa4.compactname"] = "Nhạc dạo đầu 1812"
 L["unlameifier_sound_music_usa4.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN LÀ NẢ 1776 ĐẠN CỦA TỰ DO VÀO KHÔNG PHẬN CỦA LŨ CỘNG SẢN
 
-CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]]] -- "AMERICA" but in colour
+CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]] -- "AMERICA" but in colour
 
 //////////////// KindredFlame
 L["unlameifier.folder.sounds.ws"] = "Unlameifier/Tiếng/KindredFlame"
@@ -881,7 +881,7 @@ L["unlameifier_sound_melee_bonk_impact.description"] = "Đổi tiếng melee th�
 
 L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Roi của Johnny Test"
 L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Roi"
-L["unlameifier_sound_melee_whipcrack_impact.description"] = "Bây *Bạch* giờ *Bạch* bạn  *Bạch* có *Bạch* thể *Bạch* trở *Bạch* thành *Bạch* một *Bạch* nhân *Bạch* vật *Bạch* trong *Bạch* bộ *Bạch* phim *Bạch* hoạt *Bạch* hình *Bạch* Johnny *Bạch* Test *Bạch*.
+L["unlameifier_sound_melee_whipcrack_impact.description"] = "Bây *Bạch* giờ *Bạch* bạn  *Bạch* có *Bạch* thể *Bạch* trở *Bạch* thành *Bạch* một *Bạch* nhân *Bạch* vật *Bạch* trong *Bạch* bộ *Bạch* phim *Bạch* hoạt *Bạch* hình *Bạch* Johnny *Bạch* Test *Bạch*."
 
 //////////////// Melee Sounds JJBA (Swing)
 -- L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Swing/JJBA"

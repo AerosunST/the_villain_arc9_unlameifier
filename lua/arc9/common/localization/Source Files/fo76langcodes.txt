@@ -44,4 +44,5 @@
 3E6F0 Gatling Plasma
 18A00 Minigun
 01A7A Gatling Laser
+399C4 Flamer Barrel
 23A32 Submachine Gun

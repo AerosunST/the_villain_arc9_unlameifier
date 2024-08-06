@@ -1438,9 +1438,9 @@ L["unlameifier_sound_tf2_bat_hit.description"] = string.format(tf2desc.hit, "Sla
 
 L["unlameifier_sound_tf2_invasion_bat_hit.printname"] = "Ljus-slagträ"
 L["unlameifier_sound_tf2_invasion_bat_hit.compactname"] = "Ljus-slagträ"
-L["unlameifier_sound_tf2_invasion_bat_hit.description"] = string.format(tf2desc.hit, "Ljus-slagträt") .. "\n\n" .. "Energin översvämmar!\nDesintegrera dina fiender"
+L["unlameifier_sound_tf2_invasion_bat_hit.description"] = string.format(tf2desc.hit, "Ljus-slagträt") .. "\n\n" .. "Energin översvämmar!\nDesintegrera dina fiender!"
 
-L["unlameifier_sound_tf2_invasion_bat_swing.description"] = string.format(tf2desc.swing, "Ljus-slagträt") .. string.format(tf2desc.crit, 30) .. "\n\n" .. "Energin översvämmar!\nDesintegrera dina fiender"
+L["unlameifier_sound_tf2_invasion_bat_swing.description"] = string.format(tf2desc.swing, "Ljus-slagträt") .. string.format(tf2desc.crit, 30) .. "\n\n" .. "Energin översvämmar!\nDesintegrera dina fiender!"
 
 L["unlameifier_sound_tf2_knife_hit.printname"] = "Kniv"
 L["unlameifier_sound_tf2_knife_hit.compactname"] = "Kniv"
@@ -1457,6 +1457,12 @@ L["unlameifier_sound_tf2_bottle_broken_hit.description"] = string.format(tf2desc
 L["unlameifier_sound_tf2_bottle_hit.printname"] = "Flaska"
 L["unlameifier_sound_tf2_bottle_hit.compactname"] = "Flaska"
 L["unlameifier_sound_tf2_bottle_hit.description"] = string.format(tf2desc.hit, "Flaskan")
+
+L["unlameifier_sound_tf2_sword_hit.printname"] = "Sword"
+L["unlameifier_sound_tf2_sword_hit.compactname"] = "Sword"
+L["unlameifier_sound_tf2_sword_hit.description"] = string.format(tf2desc.hit, "various swords")
+
+L["unlameifier_sound_tf2_sword_swing.description"] = string.format(tf2desc.swing, "olika svärd") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_disciplinaryaction_hit.printname"] = "Disciplinåtgärden"
 L["unlameifier_sound_tf2_disciplinaryaction_hit.compactname"] = "Disciplin"
@@ -1490,15 +1496,57 @@ L["unlameifier_sound_tf2_machete_swing.description"] = string.format(tf2desc.swi
 
 L["unlameifier_sound_tf2_fistsofsteel_hit.printname"] = "Stålnävarna"
 L["unlameifier_sound_tf2_fistsofsteel_hit.compactname"] = "Stålnävar"
-L["unlameifier_sound_tf2_fistsofsteel_hit.description"] = string.format(tf2desc.swing, "Stålnävarna") .. string.format(tf2desc.crit, 40)
+L["unlameifier_sound_tf2_fistsofsteel_hit.description"] = string.format(tf2desc.hit, "Stålnävarna") .. string.format(tf2desc.crit, 40)
+
+L["unlameifier_sound_tf2_masculinemittens_hit.printname"] = "Julklappen"
+L["unlameifier_sound_tf2_masculinemittens_hit.compactname"] = "Julklappen"
+L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "Julklappen") .. string.format(tf2desc.crit, 10)
+
+L["unlameifier_sound_tf2_sd_sign_hit.printname"] = "Neonförintaren"
+L["unlameifier_sound_tf2_sd_sign_hit.compactname"] = "Neon"
+L["unlameifier_sound_tf2_sd_sign_hit.description"] = string.format(tf2desc.hit, "Neonförintaren")
+
+L["unlameifier_sound_tf2_achievement_pickaxe_swing.printname"] = "Utjämnaren"
+L["unlameifier_sound_tf2_achievement_pickaxe_swing.compactname"] = "Utjämnaren"
+L["unlameifier_sound_tf2_achievement_pickaxe_swing.description"] = string.format(tf2desc.swing, "Utjämnaren") .. string.format(tf2desc.crit, 10)
+
+L["unlameifier_sound_tf2_saxxy_hit.printname"] = "Saxxyn"
+L["unlameifier_sound_tf2_saxxy_hit.compactname"] = "Saxxy"
+L["unlameifier_sound_tf2_saxxy_hit.description"] = string.format(tf2desc.hit, "Saxxyn")
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Spade"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Spade"
 L["unlameifier_sound_tf2_shovel_swing.description"] = "Ersätter svingljuden med närstridsvapen med dem från olika Spadar från Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
+L["unlameifier_sound_tf2_hothand_hit.printname"] = "Heta Handen"
+L["unlameifier_sound_tf2_hothand_hit.compactname"] = "Heta Hand"
+L["unlameifier_sound_tf2_hothand_hit.description"] = string.format(tf2desc.hit, "Heta Handen") .. "\n\n" .. "En örfil med denna talar om för din motståndare, och alla som tittar på händelseflödet, att din hand precis gav ett lyckligt lottat ansikte en rejäl omgång."
+
+L["unlameifier_sound_tf2_hothand_swing.description"] = string.format(tf2desc.swing, "Heta Handen") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "En örfil med denna talar om för din motståndare, och alla som tittar på händelseflödet, att din hand precis gav ett lyckligt lottat ansikte en rejäl omgång."
+
+L["unlameifier_sound_tf2_sharpdresser_hit.printname"] = "Den Prydliga Klingan"
+L["unlameifier_sound_tf2_sharpdresser_hit.compactname"] = "Klingan"
+L["unlameifier_sound_tf2_sharpdresser_hit.description"] = string.format(tf2desc.hit, "Den Prydliga Klingan") .. "\n\n" .. "Varje legoknekt är tokig efter en prydligt klädd man. Med 1500-talsmordknivar uttryckta från hans skjortärmar."
+
+L["unlameifier_sound_tf2_achievement_bonesaw_hit.printname"] = "Übersågen"
+L["unlameifier_sound_tf2_achievement_bonesaw_hit.compactname"] = "Übersåg"
+L["unlameifier_sound_tf2_achievement_bonesaw_hit.description"] = string.format(tf2desc.hit, "Übersågen")
+
+L["unlameifier_sound_tf2_wrench_hit.printname"] = "Skiftnyckel"
+L["unlameifier_sound_tf2_wrench_hit.compactname"] = "Skiftnyckel"
+L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "Skiftnyckeln")
+
+L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "Skiftnyckeln") .. string.format(tf2desc.crit, 10)
+
 //////////////// Fallout 4 & 76
 L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Ljudmodd/Fallout 4"
 L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Ljudmodd/Fallout 76"
+L["unlameifier.folder.sounds.fo76.auto"] = "Unlameifier/Ljudmodd/Fallout 76/Auto"
+L["unlameifier.folder.sounds.fo76.auto.420"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/420RPM"
+L["unlameifier.folder.sounds.fo76.auto.540"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/540RPM"
+L["unlameifier.folder.sounds.fo76.auto.660"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/660RPM"
+L["unlameifier.folder.sounds.fo76.auto.780"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/780RPM"
+L["unlameifier.folder.sounds.fo76.auto.900"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/900RPM"
 
 local fo76nosupp = "\n\n<color=255,150,150>Notera</color>: Har ej ljuddämpade ljud."
 
@@ -1719,6 +1767,10 @@ L["unlameifier_sound_fo76_auto_minigun.description"] = "Ersätter skottljuden me
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.printname"] = "Gatling-Laser"
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "Gatling-L."
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Ersätter skottljuden med dem från Gatling-Lasern från Fallout 4 och 76." .. fo76nosupp
+
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Plasmavapen (Kastare Pipa)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (K.)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Ersätter skottljuden med dem från Plasmavapnet från Fallout 4 och 76 utrustat med en \"Kastare Pipa\"-modd." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_smg.printname"] = "Kulsprutepistol"
 L["unlameifier_sound_fo76_rifle_smg.compactname"] = "KPist."

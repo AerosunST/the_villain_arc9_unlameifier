@@ -1803,7 +1803,7 @@ L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
 -- 420 RPM
 L["unlameifier_sound_fo76_auto_cryolator_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator (Crystallizing Barrel)"
-L["unlameifier_sound_fo76_auto_cryolator_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.compactname") or "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.description") or "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the Crystallizing Barrel." .. fo76nosupp)
 
 L["unlameifier_sound_fo76_auto_riflepipe_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "Pipe Gun"
@@ -1864,7 +1864,7 @@ L["unlameifier_sound_fo76_auto_shotgun_combat_420.description"] = (ARC9:GetPhras
 
 -- 540 RPM
 L["unlameifier_sound_fo76_auto_cryolator_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator (Crystallizing Barrel)"
-L["unlameifier_sound_fo76_auto_cryolator_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.compactname") or "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.description") or "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the Crystallizing Barrel." .. fo76nosupp)
 
 L["unlameifier_sound_fo76_auto_riflepipe_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "Pipe Gun"
@@ -1925,7 +1925,7 @@ L["unlameifier_sound_fo76_auto_shotgun_combat_540.description"] = (ARC9:GetPhras
 
 -- 660 RPM
 L["unlameifier_sound_fo76_auto_cryolator_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator (Crystallizing Barrel)"
-L["unlameifier_sound_fo76_auto_cryolator_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.compactname") or "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.description") or "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the Crystallizing Barrel." .. fo76nosupp)
 
 L["unlameifier_sound_fo76_auto_riflepipe_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "Pipe Gun"
@@ -1986,7 +1986,7 @@ L["unlameifier_sound_fo76_auto_shotgun_combat_660.description"] = (ARC9:GetPhras
 
 -- 780 RPM
 L["unlameifier_sound_fo76_auto_cryolator_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator (Crystallizing Barrel)"
-L["unlameifier_sound_fo76_auto_cryolator_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.compactname") or "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.description") or "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the Crystallizing Barrel." .. fo76nosupp)
 
 L["unlameifier_sound_fo76_auto_riflepipe_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "Pipe Gun"
@@ -2047,7 +2047,7 @@ L["unlameifier_sound_fo76_auto_shotgun_combat_780.description"] = (ARC9:GetPhras
 
 -- 900 RPM
 L["unlameifier_sound_fo76_auto_cryolator_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator (Crystallizing Barrel)"
-L["unlameifier_sound_fo76_auto_cryolator_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.printname") or "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.compactname") or "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_cryolator_mod.description") or "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the Crystallizing Barrel." .. fo76nosupp)
 
 L["unlameifier_sound_fo76_auto_riflepipe_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "Pipe Gun"

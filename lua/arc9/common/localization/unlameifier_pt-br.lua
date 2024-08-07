@@ -151,34 +151,34 @@ L["unlameifier_tracer_tateal.description"] = [[Deixa sua arma com um  <color=0,2
 <color=0,255,132>"Você já se sentiu como se estivesse vivendo no inferno de suas próprias criações?"</color>]]
 
 L["unlameifier_tracer_usa.printname"] = "Traçante Americano"
- L["unlameifier_tracer_usa.compactname"] = "E.U.A"
- L["unlameifier_tracer_usa.description"] = [[Deixa sua arma com um <color=255,25,25>rastro</color>, bem, <color=25,25,255>mais</color> patriota.
+L["unlameifier_tracer_usa.compactname"] = "E.U.A"
+L["unlameifier_tracer_usa.description"] = [[Deixa sua arma com um <color=255,25,25>rastro</color>, bem, <color=25,25,255>mais</color> patriota.
 
-Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9.]]
 
 L["unlameifier_tracer_player_color.printname"] = "Traçantes do Jogador"
 L["unlameifier_tracer_player_color.compactname"] = "Jogador"
 L["unlameifier_tracer_player_color.description"] = [[Deixa sua arma com um rastro baseado na cor do seu personagem. Configure no menu de Playermodel.
 
-Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 L["unlameifier_tracer_weapon_color.printname"] = "Traçantes da Arma"
 L["unlameifier_tracer_weapon_color.compactname"] = "Arma"
 L["unlameifier_tracer_weapon_color.description"] = [[Deixa sua arma com um rastro baseado na cor da sua arma. Configure no menu de Playermodel.
 
-Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 L["unlameifier_tracer_rainbow.printname"] = "Traçante Arco-Íris"
 L["unlameifier_tracer_rainbow.compactname"] = "desenha um arco iro"
 L["unlameifier_tracer_rainbow.description"] = [[Deixa sua arma gay.
 
-Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 L["unlameifier_tracer_trans.printname"] = "Traçante Trans"
 L["unlameifier_tracer_trans.compactname"] = "Trans"
 L["unlameifier_tracer_trans.description"] = [[Deixa sua arma com um <color=91,206,250>rastro</color>, <color=245,169,184>trans</color>,até porque você é amado(a) e é valido(a).
 
-Unlameifier original. Based off code from Standard Weapons, ARC9's prototype weapon pack.]]
+Original do Unlameifier. Baseado de fragmentos de código do Standard Weapons, mod protótipo de ARC9's prototype weapon pack.]]
 
 L["unlameifier_tracer_ranging.printname"] = "Traçantes de Alcançe Efetivo"
 L["unlameifier_tracer_ranging.compactname"] = "Alcançe"
@@ -186,7 +186,7 @@ L["unlameifier_tracer_ranging.description"] = [[A descrição original diz o seg
 
 "Projéteis Traçantes. Queimam de Verde para Vermelho de acordo com a efetividade da arma na distância desejada."
 
-Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 //////////////// Tracer Size
 L["unlameifier_tracer_size_010x.printname"] = "Tamanho do traçante - 0.1x"
@@ -313,7 +313,7 @@ L["eft_unlameifier_toys_impact_smile.printname"] = "Sorriso"
 L["eft_unlameifier_toys_impact_smile.compactname"] = "Sorrizin"
 L["eft_unlameifier_toys_impact_smile.description"] = [[AS PAREDES! ELAS ME CAÇOAM COM SUAS RISADAS!
 
- EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO]]
+EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO]]
 
 L["eft_unlameifier_toys_impact_yellowblood.printname"] = "Sangue Amarelo"
 L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Sangue Amarelo"
@@ -378,7 +378,7 @@ L["unlameifier_attname_g17_slide"] = "Cano Glock 17"
 L["unlameifier_attname_g17_frontsight"] = "Alça de Mira da Glock 17"
 L["unlameifier_attname_g17_rearsight"] = "Massa de Mira da Glock 17"
 
-L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
+L["unlameifier_eft_videogame_shotguns_custompro"] = "Melhor Agrupamento"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Desativado quando usar Slugs"
 
 //////////////////////////////// unlameifier_sound_mods
@@ -574,13 +574,13 @@ L["unlameifier_sound_css_deagle.description"] = [[Muda o som do tiro para o som 
 
 Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
-<color=150,150,255>Fato Engraçado</color>: De acord com o imfdb.org, A Desert Eagle Mark XIX (9), Alimentada em .50 AE, não tem um cano raiado, diferente do que é mostrado no Source.]]
+color=150,150,255>Fato Engraçado</color>: De acord com o imfdb.org, A Desert Eagle Mark XIX (9), Alimentada em .50 AE, não tem um cano raiado, diferente do que é mostrado no Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
 L["unlameifier_sound_css_fiveseven.description"] = [[Muda o som do tiro para o som da ES Five-Seven do Counter-Strike: Source.
 
-Quandp <color=100,255,100>Silenciada</color>: Usa o som da USP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da USP.
 
 <color=150,150,255>Fato Engraçado</color>: Apenas metade do ferrolho da ES é animado. Não sei se é assim que a arma real funciona...]]
 
@@ -676,7 +676,7 @@ L["unlameifier_sound_css_sg552.description"] = [[Muda o som do tiro para o som d
 
 Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
-<color=150,150,255>Fato Engraçado</color>: Mesmo atirando em totalmente automático, o seletor de disparo está selecionado no semi-automático.]]
+ <color=150,150,255>Fato Engraçado</color>: Mesmo atirando em totalmente automático, o seletor de disparo está selecionado no semi-automático.]]
 
 L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
@@ -760,7 +760,7 @@ L["unlameifier_sound_misc_magicmissile.printname"] = "MÍSSIL MÁGICO!"
 L["unlameifier_sound_misc_magicmissile.compactname"] = "MÍSSIL!"
 L["unlameifier_sound_misc_magicmissile.description"] = [["Agora é a hora da batalha final"
 
--Mago da Corte Chase Caspian]]
+Mago da Corte Chase Caspian]]
 
 L["unlameifier_sound_misc_mrskeltal.printname"] = "Sr. Isqeleto!"
 L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
@@ -1056,7 +1056,7 @@ L["unlameifier_sound_dod_k43.printname"] = "K43"
 L["unlameifier_sound_dod_k43.compactname"] = "K43"
 L["unlameifier_sound_dod_k43.description"] = [[Muda o som do tiro para o som da K43 do Day of Defeat.
 
-"A resposta da Alemanhã sobre os fuzis americana M1 Garand e a soviética SVT40, a K43 entrega tiros semi-automáticas de um tiro uma baixa.  Após aprender a como usar a K43, essa arma pode ser o peso da balança durante a guerra."]]
+"A resposta da Alemanha sobre os fuzis americana M1 Garand e a soviética SVT40, a K43 entrega tiros semi-automáticas de um tiro uma baixa.  Após aprender a como usar a K43, essa arma pode ser o peso da balança durante a guerra."]]
 
 L["unlameifier_sound_dod_kar.printname"] = "K98"
 L["unlameifier_sound_dod_kar.compactname"] = "K98"
@@ -1279,7 +1279,7 @@ L["unlameifier_sound_tf2_cannon.description"] = string.format(tf2desc.shoot, "Pa
 
 L["unlameifier_sound_tf2_manmelter.printname"] = "Derretedora de Homens"
 L["unlameifier_sound_tf2_manmelter.compactname"] = "Derretedora"
-L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "Derretedora de Homens") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Um dispositivo que desrespeita o consenso científico tradicional de que as moléculas que compõem o corpo humano devem estar dispostas \"desse jeito\" e não, por exemplo, espalhadas em um raio de um quilômetro quadrado."
+L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "Derretedora de Homens") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Um dispositivo que desrespeita o consenso científico tradicional de que as moléculas que compõem o corpo humano devem estar dispostas '\' desse jeito '\' e não, por exemplo, espalhadas em um raio de um quilômetro quadrado\"."
 
 L["unlameifier_sound_tf2_achievement_minigun.printname"] = "Natascha"
 L["unlameifier_sound_tf2_achievement_minigun.compactname"] = "Natascha"

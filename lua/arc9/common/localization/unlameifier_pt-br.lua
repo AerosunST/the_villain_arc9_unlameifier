@@ -148,45 +148,45 @@ L["unlameifier_tracer_tateal.printname"] = "Verde-Água Tom Aero 0"
 L["unlameifier_tracer_tateal.compactname"] = "TA VA"
 L["unlameifier_tracer_tateal.description"] = [[Deixa sua arma com um  <color=0,255,132>rastro verde-água</color>, porém mais esverdeado
 
--- <color=0,255,132>"Você já se sentiu como se estivesse vivendo no inferno de suas próprias criações?"</color>]]
+<color=0,255,132>"Você já se sentiu como se estivesse vivendo no inferno de suas próprias criações?"</color>]]
 
 L["unlameifier_tracer_usa.printname"] = "Traçante Americano"
  L["unlameifier_tracer_usa.compactname"] = "E.U.A"
  L["unlameifier_tracer_usa.description"] = [[Deixa sua arma com um <color=255,25,25>rastro</color>, bem, <color=25,25,255>mais</color> patriota.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9.]]
 
 L["unlameifier_tracer_player_color.printname"] = "Traçantes do Jogador"
 L["unlameifier_tracer_player_color.compactname"] = "Jogador"
 L["unlameifier_tracer_player_color.description"] = [[Deixa sua arma com um rastro baseado na cor do seu personagem. Configure no menu de Playermodel.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 L["unlameifier_tracer_weapon_color.printname"] = "Traçantes da Arma"
 L["unlameifier_tracer_weapon_color.compactname"] = "Arma"
 L["unlameifier_tracer_weapon_color.description"] = [[Deixa sua arma com um rastro baseado na cor da sua arma. Configure no menu de Playermodel.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 L["unlameifier_tracer_rainbow.printname"] = "Traçante Arco-Íris"
 L["unlameifier_tracer_rainbow.compactname"] = "desenha um arco iro"
 L["unlameifier_tracer_rainbow.description"] = [[Deixa sua arma gay.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 L["unlameifier_tracer_trans.printname"] = "Traçante Trans"
 L["unlameifier_tracer_trans.compactname"] = "Trans"
 L["unlameifier_tracer_trans.description"] = [[Deixa sua arma com um <color=91,206,250>rastro</color>, <color=245,169,184>trans</color>,até porque você é amado(a) e é valido(a).
 
--- Unlameifier original. Based off code from Standard Weapons, ARC9's prototype weapon pack.]]
+Original do Unlameifier. Baseado de fragmentos de código do Standard Weapons, mod protótipo de ARC9's prototype weapon pack.]]
 
 L["unlameifier_tracer_ranging.printname"] = "Traçantes de Alcançe Efetivo"
 L["unlameifier_tracer_ranging.compactname"] = "Alcançe"
 L["unlameifier_tracer_ranging.description"] = [[A descrição original diz o seguinte:
 
--- "Projéteis Traçantes. Queimam de Verde para Vermelho de acordo com a efetividade da arma na distância desejada."
+"Projéteis Traçantes. Queimam de Verde para Vermelho de acordo com a efetividade da arma na distância desejada."
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
 //////////////// Tracer Size
 L["unlameifier_tracer_size_010x.printname"] = "Tamanho do traçante - 0.1x"
@@ -233,7 +233,7 @@ L["unlameifier_tracer_size_supernova.printname"] = "Tamanho do traçante - Super
 L["unlameifier_tracer_size_supernova.compactname"] = "Supernova"
 L["unlameifier_tracer_size_supernova.description"] = [[ <color=175,175,255>deixa o seu traçante caralhamente grande.</color>.
 
--- O resultado muito engraçado de um erro de cálculo.]]
+O resultado muito engraçado de um erro de cálculo.]]
 
 //////////////// Effects
 L["eft_unlameifier_toys_dissolve.printname"] = "Efeito de Evaporação"
@@ -244,7 +244,7 @@ L["eft_unlameifier_toys_remove_tool.printname"] = "Efeito de Remoção"
 L["eft_unlameifier_toys_remove_tool.compactname"] = "Removimentação"
 L["eft_unlameifier_toys_remove_tool.description"] = [[Tudo que você matar não vai ter um corpo, tipo a função de Remover. só pelo meme :)
 
--- cuidado, pode acabar sendo abusado.]]
+cuidado, pode acabar sendo abusado.]]
 
 L["eft_unlameifier_toys_shock.printname"] = "Efeito de Faíscas"
 L["eft_unlameifier_toys_shock.compactname"] = "Faísca"
@@ -269,19 +269,19 @@ L["eft_unlameifier_toys_impact_eye.printname"] = "Olho Que Tudo Vê."
 L["eft_unlameifier_toys_impact_eye.compactname"] = "Olhos."
 L["eft_unlameifier_toys_impact_eye.description"] = [[OS OLHOS! ELES ESTÃO EM TODOS OS LUGARES! ELES ESTÃO VENDO TUDO!
 
--- EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO]]
+EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO]]
 
 L["eft_unlameifier_toys_impact_fadingscorch.printname"] = "Marca de Queimadura"
 L["eft_unlameifier_toys_impact_fadingscorch.compactname"] = "Queimadura"
 L["eft_unlameifier_toys_impact_fadingscorch.description"] = [[Deixa o seu inimigo com uma queimadura daora.
 
--- Adendo: Não queima o alvo de verdade.]]
+Adendo: Não queima o alvo de verdade.]]
 
 L["eft_unlameifier_toys_impact_flesh.printname"] = "Carne Atingida"
 L["eft_unlameifier_toys_impact_flesh.compactname"] = "Carne"
-]L["eft_unlameifier_toys_impact_flesh.description"] = [[Ele está dentro das paredes... ELE TÁ DENTRO DAS PAREDES!
+L["eft_unlameifier_toys_impact_flesh.description"] = [[Ele está dentro das paredes... ELE TÁ DENTRO DAS PAREDES!
 
--- ...ou, se você só quer ter um banho de sangue quando você atinge algo, sei lá, cada um é cada um.]]
+...ou, se você só quer ter um banho de sangue quando você atinge algo, sei lá, cada um é cada um.]]
 
 L["eft_unlameifier_toys_impact_nought.printname"] = "O"
 L["eft_unlameifier_toys_impact_nought.compactname"] = "O"
@@ -291,7 +291,7 @@ L["eft_unlameifier_toys_impact_noughtsncrosses.printname"] = "Jogo da Velha"
 L["eft_unlameifier_toys_impact_noughtsncrosses.compactname"] = "Jogo Da Velha"
 L["eft_unlameifier_toys_impact_noughtsncrosses.description"] = [[Ei, Olha Só! Dá pra jogar o Jogo Da Velha!
 
--- MUITO caótico em automático.]]
+MUITO caótico em automático.]]
 
 L["eft_unlameifier_toys_impact_paintsplatblue.printname"] = "Tinta Azul"
 L["eft_unlameifier_toys_impact_paintsplatblue.compactname"] = "Tinta Azul"
@@ -313,7 +313,7 @@ L["eft_unlameifier_toys_impact_smile.printname"] = "Sorriso"
 L["eft_unlameifier_toys_impact_smile.compactname"] = "Sorrizin"
 L["eft_unlameifier_toys_impact_smile.description"] = [[AS PAREDES! ELAS ME CAÇOAM COM SUAS RISADAS!
 
---  EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO]]
+EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO EU NÃO TO FICANDO LOUCO]]
 
 L["eft_unlameifier_toys_impact_yellowblood.printname"] = "Sangue Amarelo"
 L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Sangue Amarelo"
@@ -353,13 +353,13 @@ L["eft_unlameifier_one_handed.printname"] = "Empunhadura de uma Mão"
 L["eft_unlameifier_one_handed.compactname"] = "Uma Mão"
 L["eft_unlameifier_one_handed.description"] = [[Segura as pistolas com uma mão.
 
--- Roubei o código do EFT ATT Pack feito por Rooneyviz's só que fiz melhor. Removi os modificadores de status pra ser algo mais visual. Puramente cosmético. Pode não funcionar com armas que não são EFT.]]
+Roubei o código do EFT ATT Pack feito por Rooneyviz's só que fiz melhor. Removi os modificadores de status pra ser algo mais visual. Puramente cosmético. Pode não funcionar com armas que não são EFT.]]
 
 L["eft_unlameifier_gangsta_hold.printname"] = "Empunhadura Gangster"
 L["eft_unlameifier_gangsta_hold.compactname"] = "Arma Gangsta"
 L["eft_unlameifier_gangsta_hold.description"] = [[Segura a arma com uma mão de lado.
 
--- Só pra constar, a suas músicas do soundcloud são uma bosta. Música não é o seu forte. A gente não vai sair da favela com essas músicas.]]
+Só pra constar, a suas músicas do soundcloud são uma bosta. Música não é o seu forte. A gente não vai sair da favela com essas músicas.]]
 
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Utilidades"
@@ -378,7 +378,7 @@ L["unlameifier_attname_g17_slide"] = "Cano Glock 17"
 L["unlameifier_attname_g17_frontsight"] = "Alça de Mira da Glock 17"
 L["unlameifier_attname_g17_rearsight"] = "Massa de Mira da Glock 17"
 
-L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
+L["unlameifier_eft_videogame_shotguns_custompro"] = "Melhor Agrupamento"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Desativado quando usar Slugs"
 
 //////////////////////////////// unlameifier_sound_mods
@@ -412,88 +412,88 @@ L["unlameifier_sound_hl2_pistol.printname"] = "Pistola 9mm"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistola"
 L["unlameifier_sound_hl2_pistol.description"] = [[Muda o som do tiro para o som da Pistola do Half-Life 2.
 
--- "Rise and shine, Mr. Freeman... Rise... and shine..."]]
+"Rise and shine, Mr. Freeman... Rise... and shine..."]]
 
 L["unlameifier_sound_hl2_357.printname"] = "Revólver .357"
 L["unlameifier_sound_hl2_357.compactname"] = ".357"
 L["unlameifier_sound_hl2_357.description"] = [[Muda o som do tiro para o som do Revólver .357 do Half-Life 2.
 
--- Dar o nome de uma arma ao calibre que ela atira é absolutamente estúpido. Isso é um Colt Python. Ao contrário do que se acredita, o calibre .357 não é tão poderoso quanto se imagina.]]
+Dar o nome de uma arma ao calibre que ela atira é absolutamente estúpido. Isso é um Colt Python. Ao contrário do que se acredita, o calibre .357 não é tão poderoso quanto se imagina.]]
 
 L["unlameifier_sound_hl2_ar2.printname"] = "Fuzil Padrão Overwatch (Fuzil de Pulso)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
 L["unlameifier_sound_hl2_ar2.description"] = [[Muda o som do tiro para o som da FPO (Fuzil de Pulso) do Half-Life 2.
 
--- Mais conhecido como o 'AR2', que realmente existe, a não ser que você acredite em certas pessoas da cidade que dizem usar o 'AR3'...]]
+Mais conhecido como o 'AR2', que realmente existe, a não ser que você acredite em certas pessoas da cidade que dizem usar o 'AR3'...]]
 
 L["unlameifier_sound_hl2_alyx.printname"] = "Arma da Alyx's"
 L["unlameifier_sound_hl2_alyx.compactname"] = "Alyx's"
 L["unlameifier_sound_hl2_alyx.description"] = [[Muda o som do tiro para o som da Arma da Alyx's do Half-Life 2.
 
--- "Bom, Russ, é oficial. naõ tem NADA da sua arma nessa arma. Essa é... essa é a MINHA arma."]]
+"Bom, Russ, é oficial. naõ tem NADA da sua arma nessa arma. Essa é... essa é a MINHA arma."]]
 
 L["unlameifier_sound_hl2_xbow.printname"] = "Besta"
 L["unlameifier_sound_hl2_xbow.compactname"] = "Besta"
 L["unlameifier_sound_hl2_xbow.description"] = [[Muda o som do tiro para o som da Besta do Half-Life 2.
 
--- Infelizmente, não deixa você grudar corpos em superfícies. e se pronuncia Bés-ta e não Bê-sta.]]
+Infelizmente, não deixa você grudar corpos em superfícies. e se pronuncia Bés-ta e não Bê-sta.]]
 
 L["unlameifier_sound_hl2_ar22.printname"] = "Fuzil Padrão Overwatch (Fuzil de Pulso) Projétil de Energia"
 L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
 L["unlameifier_sound_hl2_ar22.description"] = [[Muda o som do tiro para o som do Tiro secundário do Fuzil De Pulso, Projéteis de Energia do Half-Life 2 sendo atirados.
 
--- Não aponte para aliados a não ser que você os ODEIE.]]
+Não aponte para aliados a não ser que você os ODEIE.]]
 
 L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Granada Propelida por Foguete)"
 L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
 L["unlameifier_sound_hl2_rpg.description"] = [[Muda o som do tiro para o som da RPG do Half-Life 2.
 
--- Você sabia que o RPG do HL2 é um AT4? Não só isso, mas o modelo ta ao contrário.]]
+Você sabia que o RPG do HL2 é um AT4? Não só isso, mas o modelo ta ao contrário.]]
 
 L["unlameifier_sound_hl2_shotgun.printname"] = "Escopeta"
 L["unlameifier_sound_hl2_shotgun.compactname"] = "Doze"
 L["unlameifier_sound_hl2_shotgun.description"] = [[Muda o som do tiro para o som da Espingarda do Half-Life 2.
 
--- Conhecida por desafiar as leis da física por atirar um segundo tiro pelo carregador. Não tente fazer isso na vida real.]]
+Conhecida por desafiar as leis da física por atirar um segundo tiro pelo carregador. Não tente fazer isso na vida real.]]
 
 L["unlameifier_sound_hl2_smg.printname"] = "Sub-metralhadora (MP7)"
 L["unlameifier_sound_hl2_smg.compactname"] = "SMG"
 L["unlameifier_sound_hl2_smg.description"] = [[Muda o som do tiro para o som da SMG do Half-Life 2.
 
--- Eu me pergunto de onde é que sai a granada do tiro secundário...?]]
+Eu me pergunto de onde é que sai a granada do tiro secundário...?]]
 
 L["unlameifier_sound_hl2_airboat2.printname"] = "Canhão de energia Gauss do Barco"
 L["unlameifier_sound_hl2_airboat2.compactname"] = "Mudskipper"
 L["unlameifier_sound_hl2_airboat2.description"] = [[Muda o som do tiro para o som da Canhão de Gauss do barco do Half-Life 2.
 
--- Não atira dinamite extremamente rápido.]]
+Não atira dinamite extremamente rápido.]]
 
 //////////////// Half-Life 1
 L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Sons Diferenciados/HL1"
 
 L["unlameifier_sound_hl1_pistol.printname"] = "Pistola"
-L["unlameifier_sound_hl1_pistol.compactname"] = "Pistola"]
+L["unlameifier_sound_hl1_pistol.compactname"] = "Pistola"
 L["unlameifier_sound_hl1_pistol.description"] = [[Muda o som do tiro para o som da Pistola do Half-Life 1.
 
--- "Come Chumbo seus polvos espaciais!"]]
+"Come Chumbo seus polvos espaciais!"]]
 
 L["unlameifier_sound_hl1_357.printname"] = "Revólver .357"
 L["unlameifier_sound_hl1_357.compactname"] = ".357"
 L["unlameifier_sound_hl1_357.description"] = [[Muda o som do tiro para o som do Revólver .357 do Half-Life 1.
 
--- Veja a descrição do revólver HL2 pra uma retórica idêntica.]]
+Veja a descrição do revólver HL2 pra uma retórica idêntica.]]
 
 L["unlameifier_sound_hl1_deagle.printname"] = "Desert Eagle"
 L["unlameifier_sound_hl1_deagle.compactname"] = "Deagle"
 L["unlameifier_sound_hl1_deagle.description"] = [[Muda o som do tiro para o som da Desert Eagle do Half-Life 1: Opposing Force.
 
--- No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
+No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
 
 L["unlameifier_sound_hl1_displacer.printname"] = "Canhão Displacer"
 L["unlameifier_sound_hl1_displacer.compactname"] = "Displacer"
 L["unlameifier_sound_hl1_displacer.description"] = [[Muda o som do tiro para o som do Canhão Displacer do Half-Life 1: Opposing Force.
 
--- No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
+No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
 
 L["unlameifier_sound_hl1_tau.printname"] = "Canhão Gauss"
 L["unlameifier_sound_hl1_tau.compactname"] = "Gauss"
@@ -507,25 +507,25 @@ L["unlameifier_sound_hl1_glauncher.printname"] = "Lança-Granadas"
 L["unlameifier_sound_hl1_glauncher.compactname"] = "GL"
  L["unlameifier_sound_hl1_glauncher.description"] = [[Muda o som do tiro para o som do Lançador de granadas da SMG do Half-Life 1.
 
--- <color=175,175,255>AVISO</color>: Não consegui tirar o som de recarregar, muita preguiça de refazer tudo isso e esperar 300 milhões de anos pro arquivo .ogg ser refeito. Se isso quebra sua immersão, engole o choro e faz o L.]]
+<color=175,175,255>AVISO</color>: Não consegui tirar o som de recarregar, muita preguiça de refazer tudo isso e esperar 300 milhões de anos pro arquivo .ogg ser refeito. Se isso quebra sua immersão, engole o choro e faz o L.]]
 
 L["unlameifier_sound_hl1_smg.printname"] = "SMG"
 L["unlameifier_sound_hl1_smg.compactname"] = "SMG"
 L["unlameifier_sound_hl1_smg.description"] = [[Muda o som do tiro para o som da SMG do Half-Life 1.
 
--- <color=175,175,255>AVISO</color>: Essa é a MP5 na versão original do Half-Life, não é pra se confundir com a M16 na versão HD. A M16 é um outro som.]]
+<color=175,175,255>AVISO</color>: Essa é a MP5 na versão original do Half-Life, não é pra se confundir com a M16 na versão HD. A M16 é um outro som.]]
 
 L["unlameifier_sound_hl1_m16.printname"] = "M16 (SMG Alta-Definição)"
 L["unlameifier_sound_hl1_m16.compactname"] = "M16 (SMG)"
 L["unlameifier_sound_hl1_m16.description"] = [[Muda o som do tiro para o som da M16, a SMG do Pacote HD do Half-Life 1.
 
--- <color=175,175,255>AVISO</color>: Isso foi tirado da versão em HD do Half-Life 1, que troca a MP5 por uma M16, que também troca o som do tiro (que é por isso que vc ta lendo isso).]]
+<color=175,175,255>AVISO</color>: Isso foi tirado da versão em HD do Half-Life 1, que troca a MP5 por uma M16, que também troca o som do tiro (que é por isso que vc ta lendo isso).]]
 
 L["unlameifier_sound_hl1_saw.printname"] = "Metralhadora Leve"
 L["unlameifier_sound_hl1_saw.compactname"] = "LMG"
 L["unlameifier_sound_hl1_saw.description"] = [[Muda o som do tiro para o som da Metralhadora Half-Life 1: Opposing Force.
 
--- No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
+No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
 
 L["unlameifier_sound_hl1_shotgun.printname"] = "Escopeta"
 L["unlameifier_sound_hl1_shotgun.compactname"] = "Escopeta"
@@ -535,13 +535,13 @@ L["unlameifier_sound_hl1_sniper.printname"] = "Fuzil de Precisão"
 L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
 L["unlameifier_sound_hl1_sniper.description"] = [[Muda o som do tiro para o som da Sniper from Half-Life 1: Opposing Force.
 
--- No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
+No momento que eu escrevi isso, eu(Neosun) Ainda não joguei Opposing Force/Blue Shift então se eu errei algum detalhe por favor me avisem, obrigado.]]
 
 L["unlameifier_sound_hl1_xbow.printname"] = "Besta"
 L["unlameifier_sound_hl1_xbow.compactname"] = "Besta"
 L["unlameifier_sound_hl1_xbow.description"] = [[Muda o som do tiro para o som da Besta do Half-Life 1.
 
--- Pra ser sincero, tem coisas mais estranhas pra mudar o som da suas armas. Mas cada um é cada um.]]
+Pra ser sincero, tem coisas mais estranhas pra mudar o som da suas armas. Mas cada um é cada um.]]
 
 //////////////// Counter-Strike: Source
 L["unlameifier.folder.sounds.css"] = "Unlameifier/Sons Diferenciados/CSS"
@@ -550,181 +550,181 @@ L["unlameifier_sound_css_glock18.printname"] = "Pistola 9x19mm"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
 L["unlameifier_sound_css_glock18.description"] = [[Muda o som do tiro para o som da Pistola 9x19mm de Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da USP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da USP.
 
--- <color=150,150,255>Fun Fact</color>: De acordo com o imfdb.org, A Glock 18 usada no Source, é na verdade uma Glock 19. Se você sabe alguma coisa de armas, as discrepâncias são BEM óbvias.]]
+<color=150,150,255>Fun Fact</color>: De acordo com o imfdb.org, A Glock 18 usada no Source, é na verdade uma Glock 19. Se você sabe alguma coisa de armas, as discrepâncias são BEM óbvias.]]
 
 L["unlameifier_sound_css_usp.printname"] = "K&M .45 Tactical"
 L["unlameifier_sound_css_usp.compactname"] = "USP"
 L["unlameifier_sound_css_usp.description"] = [[Muda o som do tiro para o som da K&M .45 Tactical do Counter-Strike: Source.
 
--- <color=150,150,255>Fato Engraçado</color>: Igual a todas as armas do CSS, a K&M ejeta as cápsulas do lado esquerdo. Além disso, é a arma do jogo que mais se parece com a arma real.]]
+<color=150,150,255>Fato Engraçado</color>: Igual a todas as armas do CSS, a K&M ejeta as cápsulas do lado esquerdo. Além disso, é a arma do jogo que mais se parece com a arma real.]]
 
 L["unlameifier_sound_css_p228.printname"] = "228 Compact"
 L["unlameifier_sound_css_p228.compactname"] = "P228"
 L["unlameifier_sound_css_p228.description"] = [[Muda o som do tiro para o som da 228 Compact do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da USP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da USP.
 
--- <color=150,150,255>Fato Engraçado</color>: De acordo com o imfdb.org, a P228 usada no Source, é na verdade uma P229, já que seu calibre é o .357 SIG.]]
+<color=150,150,255>Fato Engraçado</color>: De acordo com o imfdb.org, a P228 usada no Source, é na verdade uma P229, já que seu calibre é o .357 SIG.]]
 
 L["unlameifier_sound_css_deagle.printname"] = "Águia Noturna.50C"
 L["unlameifier_sound_css_deagle.compactname"] = "Deagle"
 L["unlameifier_sound_css_deagle.description"] = [[Muda o som do tiro para o som da Águia Noturna .50C do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
--- <color=150,150,255>Fato Engraçado</color>: De acord com o imfdb.org, A Desert Eagle Mark XIX (9), Alimentada em .50 AE, não tem um cano raiado, diferente do que é mostrado no Source.]]
+<color=150,150,255>Fato Engraçado</color>: De acord com o imfdb.org, A Desert Eagle Mark XIX (9), Alimentada em .50 AE, não tem um cano raiado, diferente do que é mostrado no Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
 L["unlameifier_sound_css_fiveseven.description"] = [[Muda o som do tiro para o som da ES Five-Seven do Counter-Strike: Source.
 
--- Quandp <color=100,255,100>Silenciada</color>: Usa o som da USP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da USP.
 
--- <color=150,150,255>Fato Engraçado</color>: Apenas metade do ferrolho da ES é animado. Não sei se é assim que a arma real funciona...]]
+<color=150,150,255>Fato Engraçado</color>: Apenas metade do ferrolho da ES é animado. Não sei se é assim que a arma real funciona...]]
 
 L["unlameifier_sound_css_elite.printname"] = ".40 Dual Elites"
 L["unlameifier_sound_css_elite.compactname"] = "Elite"
 L["unlameifier_sound_css_elite.description"] = [[Muda o som do tiro para o som da .40 Dual Elites do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa osom da USP.
+Quando <color=100,255,100>Silenciada</color>: Usa osom da USP.
 
--- <color=150,150,255>Fato Engraçado</color>: O nome real das .40 Dual Elites é "Beretta 92G Elite II", por incrível que pareça, elas são alimentadas no calibre 9x19mm, e não o calibre .40 S&W.]]
+<color=150,150,255>Fato Engraçado</color>: O nome real das .40 Dual Elites é "Beretta 92G Elite II", por incrível que pareça, elas são alimentadas no calibre 9x19mm, e não o calibre .40 S&W.]]
 
 L["unlameifier_sound_css_xm1014.printname"] = "Leone YG1265 Escopeta Automática"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
 L["unlameifier_sound_css_xm1014.description"] = [[Muda o som do tiro para o som da Leone YG1265 Auto Shotgun da Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Tanto o CSGO quanto o CS2 ainda usam o nome "XM1014", tirando o fato de ser um nome completamente fictício.]]
+<color=150,150,255>Fun Fact</color>: Tanto o CSGO quanto o CS2 ainda usam o nome "XM1014", tirando o fato de ser um nome completamente fictício.]]
 
 L["unlameifier_sound_css_tmp.printname"] = "Pistola-Metralhadora Schmidt"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
 L["unlameifier_sound_css_tmp.description"] = [[Muda o som do tiro para o som da Pistola-Metralhadora Schmidt do Counter-Strike: Source.
 
--- <color=255,100,100>AVISO</color>: Não tem um som sem supressor.
+<color=255,100,100>AVISO</color>: Não tem um som sem supressor.
 
--- <color=150,150,255>Fato Engraçado</color>:Essa é a única arma do Source que não se dá pra remover o seu supressor.]]
+<color=150,150,255>Fato Engraçado</color>:Essa é a única arma do Source que não se dá pra remover o seu supressor.]]
 
 L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
 L["unlameifier_sound_css_mac10.description"] = [[Muda o som do tiro para o som da Ingram MAC-10 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
--- <color=150,150,255>Fato Engraçado</color>: Essa é uma das poucas armas que usa o seu nome real.]]
+<color=150,150,255>Fato Engraçado</color>: Essa é uma das poucas armas que usa o seu nome real.]]
 
 L["unlameifier_sound_css_mp5.printname"] = "Sub-Metralhadora K&M"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
 L["unlameifier_sound_css_mp5.description"] = [[Muda o som do tiro para o som da Sub-Metralhadora K&M do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
--- <color=150,150,255>Fato Engraçado</color>: Essa é uma das poucas armas no Source que o modelo não é espelhado, já que a sua armação é do lado esquerdo.]]
+<color=150,150,255>Fato Engraçado</color>: Essa é uma das poucas armas no Source que o modelo não é espelhado, já que a sua armação é do lado esquerdo.]]
 
 L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
 L["unlameifier_sound_css_ump45.description"] = [[Muda o som do tiro para o som da K&M UMP45 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
--- <color=150,150,255>Fato Engraçado</color>:Essa é uma das poucas armas do Source que usa o seu nome real, exceto por sua fabricadora. Além do mais, de acordo com o modelo da arma, ela está com a trava de segurança sempre ativa.]]
+<color=150,150,255>Fato Engraçado</color>:Essa é uma das poucas armas do Source que usa o seu nome real, exceto por sua fabricadora. Além do mais, de acordo com o modelo da arma, ela está com a trava de segurança sempre ativa.]]
 
 L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
 L["unlameifier_sound_css_p90.description"] = [[Muda o som do tiro para o som da ES C90 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
--- <color=150,150,255>Fato Engraçado</color>: Devido a um erro, o modelo da C90 é alimentado em .338 Lapua Magnum, isso foi arrumado em uma atualização.]]
+<color=150,150,255>Fato Engraçado</color>: Devido a um erro, o modelo da C90 é alimentado em .338 Lapua Magnum, isso foi arrumado em uma atualização.]]
 
 L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
 L["unlameifier_sound_css_galil.description"] = [[Muda o som do tiro para o som da IDF Defender do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: Na vida real, o fuzil tem um abridor de garrafas no seu guarda-mão. Não acredita? Procura ai!]]
+<color=150,150,255>Fato Engraçado</color>: Na vida real, o fuzil tem um abridor de garrafas no seu guarda-mão. Não acredita? Procura ai!]]
 
 L["unlameifier_sound_css_famas.printname"] = "Clarim 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
 L["unlameifier_sound_css_famas.description"] = [[Muda o som do tiro para o som da Clarim 5.56 da Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: "Clarins" são trompetes de guerra medievais.]]
+<color=150,150,255>Fato Engraçado</color>: "Clarins" são trompetes de guerra medievais.]]
 
 L["unlameifier_sound_css_ak47.printname"] = "CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
 L["unlameifier_sound_css_ak47.description"] = [[Muda o som do tiro para o som da CV-47 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: Esse é o exemplo mais óbvio de um modelo espelhado no Source. Minh "Gooseman" Le é um atirador canhoto, e queria que todas as armas pudessem ser operadas com a mão esquerda.]]
+<color=150,150,255>Fato Engraçado</color>: Esse é o exemplo mais óbvio de um modelo espelhado no Source. Minh "Gooseman" Le é um atirador canhoto, e queria que todas as armas pudessem ser operadas com a mão esquerda.]]
 
 L["unlameifier_sound_css_m4a1.printname"] = "Carabina Maverick M4A1"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
 L["unlameifier_sound_css_m4a1.description"] = [[Muda o som do tiro para o som da Carabina Maverick M4A1 do Counter-Strike: Source.
 
--- <color=150,150,255>Fato Engraçado </color>: Durante a animação de recarregamento, o jogador é visto puxando o Forward Assist (um botão que força o ferrolho ir para a frente) ao envés do ferrolho.]]
+<color=150,150,255>Fato Engraçado </color>: Durante a animação de recarregamento, o jogador é visto puxando o Forward Assist (um botão que força o ferrolho ir para a frente) ao envés do ferrolho.]]
 
 L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
 L["unlameifier_sound_css_sg552.description"] = [[Muda o som do tiro para o som da Krieg 552 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: Mesmo atirando em totalmente automático, o seletor de disparo está selecionado no semi-automático.]]
+ <color=150,150,255>Fato Engraçado</color>: Mesmo atirando em totalmente automático, o seletor de disparo está selecionado no semi-automático.]]
 
 L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
 L["unlameifier_sound_css_aug.description"] = [[Muda o som do tiro para o som da Krieg 552 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: Quando recarregando, você pode fácilmente ver que o ferrolho não está físicamente atrelado a arma.]]
+<color=150,150,255>Fato Engraçado</color>: Quando recarregando, você pode fácilmente ver que o ferrolho não está físicamente atrelado a arma.]]
 
 L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
 L["unlameifier_sound_css_scout.description"] = [[Muda o som do tiro para o som da Schmidt Scout do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: A Steyr Scout da vida real tem um apoio de carregador na coronha.]]
+<color=150,150,255>Fato Engraçado</color>: A Steyr Scout da vida real tem um apoio de carregador na coronha.]]
 
 L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Comando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
 L["unlameifier_sound_css_sg550.description"] = [[Muda o som do tiro para o som da Krieg 550 Commando do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciado</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciado</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Curioso</color>: O sufixo "Commando" não faz sentido, já que o Krieg 550 retratada é a SIG 550 tem o seu tamanho original.]]
+<color=150,150,255>Fato Curioso</color>: O sufixo "Commando" não faz sentido, já que o Krieg 550 retratada é a SIG 550 tem o seu tamanho original.]]
 
 L["unlameifier_sound_css_awp.printname"] = "Fuzil de Precisão Magnum"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
 L["unlameifier_sound_css_awp.description"] = [[Muda o som do tiro para o som do Fuzil de Precisão Magnum do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: A AWP da vida real, foi construída por dois caras em uma garagem, e foi aceita no teste do Ministério de Defesa britânico exclusivamente para ver o quão bem ela se sairia com fuzis militares. "Infelizmente", eles ganharam e teriam que rápidamente fazer milhares de fuzis para o exército militar.]]
+<color=150,150,255>Fato Engraçado</color>: A AWP da vida real, foi construída por dois caras em uma garagem, e foi aceita no teste do Ministério de Defesa britânico exclusivamente para ver o quão bem ela se sairia com fuzis militares. "Infelizmente", eles ganharam e teriam que rápidamente fazer milhares de fuzis para o exército militar.]]
 
 L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
 L["unlameifier_sound_css_g3sg1.description"] = [[Muda o som do tiro para o som da D3/AU-1 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciado</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciado</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: O seletor de disparo está na trava de segurança. Além disso, o ferrolho não se mexe durante o recarregamento.]]
+<color=150,150,255>Fato Engraçado</color>: O seletor de disparo está na trava de segurança. Além disso, o ferrolho não se mexe durante o recarregamento.]]
 
 L["unlameifier_sound_css_m249.printname"] = "M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
 L["unlameifier_sound_css_m249.description"] = [[Muda o som do tiro para o som da M249 do Counter-Strike: Source.
 
--- Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
+Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 
--- <color=150,150,255>Fato Engraçado</color>: No Source, a M249 não tem uma coronha.]]
+<color=150,150,255>Fato Engraçado</color>: No Source, a M249 não tem uma coronha.]]
 
 //////////////// Neosun Mouth
 L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sons Diferenciados/Neosun"
@@ -733,19 +733,19 @@ L["unlameifier_sound_neosun_pew.printname"] = "Piu"
 L["unlameifier_sound_neosun_pew.compactname"] = "Piu"
 L["unlameifier_sound_neosun_pew.description"] = [[Dublador Profissional Neosun foi contratado para providenciar os efeitos sonoros mais realistas já feitos.
 
--- Esse é um "piu".]]
+Esse é um "piu".]]
 
 L["unlameifier_sound_neosun_bang.printname"] = "Bam!"
 L["unlameifier_sound_neosun_bang.compactname"] = "Bam!"
 L["unlameifier_sound_neosun_bang.description"] = [[Dublador Profissional Neosun foi contratado para providenciar os efeitos sonoros mais realistas já feitos.
 
--- Esse é um "bam!".]]
+Esse é um "bam!".]]
 
 L["unlameifier_sound_neosun_gunshot.printname"] = "Tiro"
 L["unlameifier_sound_neosun_gunshot.compactname"] = "Tiro"
 L["unlameifier_sound_neosun_gunshot.description"] = [[Dublador Profissional Neosun foi contratado para providenciar os efeitos sonoros mais realistas já feitos.
 
--- Esse é um "Tiro".]]
+Esse é um "Tiro".]]
 
 //////////////// Misc.
 L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sons Diferenciados/Misc."
@@ -754,56 +754,56 @@ L["unlameifier_sound_misc_sussy.printname"] = "Loucura Sem Sentido"
 L["unlameifier_sound_misc_sussy.compactname"] = "Insanidade"
 L["unlameifier_sound_misc_sussy.description"] = [[Uma das coisas mais caóticas e insanas já feitas. Considere isso um aviso, pois isso é um caminho sem volta.
 
--- Não pergunte por que a cadência de tiro está limitada para 250 TPM... é importante, confia no pai.]]
+Não pergunte por que a cadência de tiro está limitada para 250 TPM... é importante, confia no pai.]]
 
 L["unlameifier_sound_misc_magicmissile.printname"] = "MÍSSIL MÁGICO!"
 L["unlameifier_sound_misc_magicmissile.compactname"] = "MÍSSIL!"
 L["unlameifier_sound_misc_magicmissile.description"] = [["Agora é a hora da batalha final"
 
--- -Mago da Corte Chase Caspian]]
+Mago da Corte Chase Caspian]]
 
 L["unlameifier_sound_misc_mrskeltal.printname"] = "Sr. Isqeleto!"
 L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
 L["unlameifier_sound_misc_mrskeltal.description"] = [[obrigado sr. isqeleto
 
--- balas não são necessárias para dootar.]]
+balas não são necessárias para dootar.]]
 
 L["unlameifier_sound_misc_ltg.printname"] = "Uma mensagem deLow Tier God"
 L["unlameifier_sound_misc_ltg.compactname"] = "SMT"
 L["unlameifier_sound_misc_ltg.description"] = [["Sua vida não é NADA. Você tem ZERO razões para estar vivo".
--- -LowTierGod
+-LowTierGod
 
--- aviso: Unlameifier e o seu criador, Neosun, não promove, perdoa, ou encoraja suicídio. Se você está passando por uma situação difícil e pensando em se suicidar, por favor ligue para o 188 o Centro de Valorização a Vida (CVV). Eles estão disponíveis 24 horas, nenhuma ligação é insignificante quando sua vida está em risco. Você importa, e você é amado.
+aviso: Unlameifier e o seu criador, Neosun, não promove, perdoa, ou encoraja suicídio. Se você está passando por uma situação difícil e pensando em se suicidar, por favor ligue para o 188 o Centro de Valorização a Vida (CVV). Eles estão disponíveis 24 horas, nenhuma ligação é insignificante quando sua vida está em risco. Você importa, e você é amado.
 
--- Se você precisa de alguém para falar, sinta-se livre para me adicionar na Steam. (só, por favor avise, para eu não te confundir com uma conta spam.) ♥]]
+Se você precisa de alguém para falar, sinta-se livre para me adicionar na Steam. (só, por favor avise, para eu não te confundir com uma conta spam.) ♥]]
 
 L["unlameifier_sound_misc_mlg.printname"] = "Montagem MLG"
 L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
 L["unlameifier_sound_misc_mlg.description"] = [[basicamente o equivalente do skibidi toilet.
 
--- injetando cringe de 2013 diretamente nas suas veias.]]
+injetando cringe de 2013 diretamente nas suas veias.]]
 
 L["unlameifier_sound_misc_fireworks.printname"] = "Fogos de Artifício"
 L["unlameifier_sound_misc_fireworks.compactname"] = "FDA"
 L["unlameifier_sound_misc_fireworks.description"] = [[Liberdade sem a liberdade.
 
--- Funciona melhor no semi-automático.]]
+Funciona melhor no semi-automático.]]
 
 L["unlameifier_sound_misc_eagle.printname"] = "Águia"
 L["unlameifier_sound_misc_eagle.compactname"] = "Águia"
 L["unlameifier_sound_misc_eagle.description"] = [[Obtenha o poder da liberdade dos Estados Unidos da América.
 
--- Funciona melhor em semi-automático.
+Funciona melhor em semi-automático.
 
--- <color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! <color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! ]]
+<color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! <color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! ]]
 
-["unlameifier_sound_misc_eagle_alt.printname"] = "Águia (Alternativa)"
-["unlameifier_sound_misc_eagle_alt.compactname"] = "Águia (Alt.)"
-["unlameifier_sound_misc_eagle_alt.description"] = [[Obtenha o poder da liberdade dos Estados Unidos da América.
+L["unlameifier_sound_misc_eagle_alt.printname"] = "Águia (Alternativa)"
+L["unlameifier_sound_misc_eagle_alt.compactname"] = "Águia (Alt.)"
+L["unlameifier_sound_misc_eagle_alt.description"] = [[Obtenha o poder da liberdade dos Estados Unidos da América.
 
--- Diferente do original, essa Versão adiciona uma águia quando se para de atirar.
+Diferente do original, essa Versão adiciona uma águia quando se para de atirar.
 
--- <color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! <color=255,150,150>USA</color>! EUA! <color=150,150,255>EUA</color>! ]]
+<color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! <color=255,150,150>USA</color>! EUA! <color=150,150,255>EUA</color>! ]]
 
 //////////////// Call of Duty: Modern Warfare 2 (2009)
 L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sons Diferenciados/MW2"
@@ -812,7 +812,7 @@ L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
 L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
 L["unlameifier_sound_codmw2_intervention.description"] = [[Muda o som do tiro para o som da Intervention do Call of Duty: Modern Warfare 2 (2009).
 
--- Valeu, Palindrone, por me deixar roubar do seu mod de armas do Call of Duty. Vai lá dar uma conferida, ta muito foda!]]
+Valeu, Palindrone, por me deixar roubar do seu mod de armas do Call of Duty. Vai lá dar uma conferida, ta muito foda!]]
 
 //////////////// Roblox
 L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sons Diferenciados/Roblox"
@@ -821,31 +821,31 @@ L["unlameifier_sound_roblox_paintball.printname"] = "Arma de Paintball"
 L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
 L["unlameifier_sound_roblox_paintball.description"] = [[Muda o som do tiro para o som da Arma de Paintball Gun do Roblox.
 
--- Essa é braba.]]
+Essa é braba.]]
 
 L["unlameifier_sound_roblox_slingshot.printname"] = "Estilingue"
 L["unlameifier_sound_roblox_slingshot.compactname"] = "Estilingue"
 L["unlameifier_sound_roblox_slingshot.description"] = [[Muda o som do tiro para o som do Estilingue do Roblox.
 
--- Essa é braba.]]
+Essa é braba.]]
 
 L["unlameifier_sound_roblox_superball.printname"] = "Superball"
 L["unlameifier_sound_roblox_superball.compactname"] = "Superball"
 L["unlameifier_sound_roblox_superball.description"] = [[Muda o som do tiro para o som da Superball do Roblox.
 
--- Essa é braba.]]
+Essa é braba.]]
 
 L["unlameifier_sound_roblox_laserpistol.printname"] = "Pistola a Laser de Pulso XLS Mark II"
 L["unlameifier_sound_roblox_laserpistol.compactname"] = "Pistola Laser"
 L["unlameifier_sound_roblox_laserpistol.description"] = [[Muda o som do tiro para o som da Pistola a Laser de Pulso XLS Mark II do Roblox.
 
--- O "piu" original.]]
+O "piu" original.]]
 
 L["unlameifier_sound_roblox_guitar.printname"] = "Stratobloxxer Vermelho"
 L["unlameifier_sound_roblox_guitar.compactname"] = "Guitarra"
 L["unlameifier_sound_roblox_guitar.description"] = [[Muda o som do tiro para o som da Stratobloxxer Vermelha do Roblox.
 
--- Dá até pra tocar uma música com ela!]]
+Dá até pra tocar uma música com ela!]]
 
 //////////////// Music
 L["unlameifier.folder.sounds.music"] = "Unlameifier/Sons Diferenciados/Música"
@@ -854,27 +854,27 @@ L["unlameifier_sound_music_usa1.printname"] = "O Hino Americano"
 L["unlameifier_sound_music_usa1.compactname"] = "Hino EUA"
 L["unlameifier_sound_music_usa1.description"] = [[NADA MAIS AMERICANO DO QUE TORRAR 1776 BALAS DE LIBERDADE EM UM AEROPORTO COMUNISTA.
 
--- DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa2.printname"] = "O Hino Americano porém mais parrudo"
 L["unlameifier_sound_music_usa2.compactname"] = "Hino EUA brabo"
 L["unlameifier_sound_music_usa2.description"] = [[NADA MAIS AMERICANO DO QUE TORRAR 1776 BALAS DE LIBERDADE EM UM AEROPORTO COMUNISTA.
 
--- DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.
+DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.
 
--- pego da soundtrack de BroForce.]] -- "AMERICA" but in colour
+pego da soundtrack de BroForce.]] -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa3.printname"] = "Tributo a Alegria"
 L["unlameifier_sound_music_usa3.compactname"] = "Tributo a Alegria"
 L["unlameifier_sound_music_usa3.description"] = [[NADA MAIS AMERICANO DO QUE TORRAR 1776 BALAS DE LIBERDADE EM UM AEROPORTO COMUNISTA.
 
--- DEUS ABENÇOE A  <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+DEUS ABENÇOE A  <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa4.printname"] = "Abertura de 1812"
 L["unlameifier_sound_music_usa4.compactname"] = "Abertura de 1812"
 L["unlameifier_sound_music_usa4.description"] = [[NADA MAIS AMERICANO DO QUE TORRAR 1776 BALAS DE LIBERDADE EM UM AEROPORTO COMUNISTA.
 
--- DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
 
 //////////////// KindredFlame
 L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sons Diferenciados/KindredFlame"
@@ -883,7 +883,7 @@ L["unlameifier_sound_ws_m16a4.printname"] = "M16A4 do KindredFlame"
 L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
 L["unlameifier_sound_ws_m16a4.description"] = [[Muda o som do tiro para o som da lendária M16A4 do KindredFlame/WhiteSnow's do mod CW2.0.
 
--- Lendas nunca morrem...]]
+Lendas nunca morrem...]]
 
 //////////////// Melee Sounds Misc (Impact)
 L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sons Diferenciados/Impacto/Misc."
@@ -902,16 +902,16 @@ L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sons Diferenciados/Swin
 L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
 L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
 L["unlameifier_sound_melee_jojo_jotaro_swing.description"] = [[STAR PLATINUM!!
--- ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
+ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
 
--- (meio bosta pq som de corpo-a-corpo não faz loop- culpa o arctic)]]
+(meio bosta pq som de corpo-a-corpo não faz loop- culpa o arctic)]]
 
 L["unlameifier_sound_melee_jojo_dio_swing.printname"] = "Muda (DIO)"
 L["unlameifier_sound_melee_jojo_dio_swing.compactname"] = "Muda"
 L["unlameifier_sound_melee_jojo_dio_swing.description"] = [[Za Warudo!!
--- MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
+MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
 
--- (meio bosta pq som de corpo-a-corpo não faz loop- culpa o arctic)]]
+(meio bosta pq som de corpo-a-corpo não faz loop- culpa o arctic)]]
 
 //////////////// Melee Sounds JJBA (Impact)
 L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sons Diferenciados/Impacto/JJBA"
@@ -998,25 +998,25 @@ L["unlameifier_sound_dod_30cal.printname"] = "Calibre .30"
 L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
 L["unlameifier_sound_dod_30cal.description"] = [[Muda o som do tiro para o som da Calibre .30 do Day of Defeat.
 
--- "A Defesa perfeita é a habilidade dessa classe. Um único soldado em uma boa posição consegue eliminar uma infantaria inimiga inteira. Com o seu coice enorme, essa arma é mais efetiva quando usada com um bipé."]]
+"A Defesa perfeita é a habilidade dessa classe. Um único soldado em uma boa posição consegue eliminar uma infantaria inimiga inteira. Com o seu coice enorme, essa arma é mais efetiva quando usada com um bipé."]]
 
 L["unlameifier_sound_dod_bar.printname"] = "BAR"
 L["unlameifier_sound_dod_bar.compactname"] = "BAR"
 L["unlameifier_sound_dod_bar.description"] = [[Muda o som do tiro para o som da BAR do Day of Defeat.
 
--- "Essa classe foi feita para dar cobertura da infantaria aliada. Com o alto calibre da BAR, essa classe consegue matar 3 ou 4 soldados com apenas um projétil."]]
+"Essa classe foi feita para dar cobertura da infantaria aliada. Com o alto calibre da BAR, essa classe consegue matar 3 ou 4 soldados com apenas um projétil."]]
 
 L["unlameifier_sound_dod_bren.printname"] = "Bren"
 L["unlameifier_sound_dod_bren.compactname"] = "Bren"
 L["unlameifier_sound_dod_bren.description"] = [[Muda o som do tiro para o som da Bren do Day of Defeat.
 
--- "Conhecida por ser confiabilidade e poder, a Metralhadora Bren foi a arma principal das Forças de Comunidade durante a 2GM. Usada tanto como um fuzil de assalto e uma metralhadora pesada, a Bren consegue ser extremamente versátil e pode ser usada em um ataque ofensivo ou defesa de perímetro."]]
+"Conhecida por ser confiabilidade e poder, a Metralhadora Bren foi a arma principal das Forças de Comunidade durante a 2GM. Usada tanto como um fuzil de assalto e uma metralhadora pesada, a Bren consegue ser extremamente versátil e pode ser usada em um ataque ofensivo ou defesa de perímetro."]]
 
 L["unlameifier_sound_dod_carbine.printname"] = "Carabina M1"
 L["unlameifier_sound_dod_carbine.compactname"] = "Carabina M1"
 L["unlameifier_sound_dod_carbine.description"] = [[Muda o som do tiro para o som da Carabina M1 do Day of Defeat.
 
--- "Com o leve coice da Carabina M1, essa classe consegue acertar alvos mais rápidos e certeiros. Essa classe é ideal para combates de curto alcançe e dentro de cidades."]]
+"Com o leve coice da Carabina M1, essa classe consegue acertar alvos mais rápidos e certeiros. Essa classe é ideal para combates de curto alcançe e dentro de cidades."]]
 
 L["unlameifier_sound_dod_colt.printname"] = "Pistola Colt 1911"
 L["unlameifier_sound_dod_colt.compactname"] = "Pistola Colt 1911"
@@ -1026,43 +1026,43 @@ L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
 L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
 L["unlameifier_sound_dod_enfield.description"] = [[Muda o som do tiro para o som da Enfield do Day of Defeat.
 
--- "Com o ferrolho mais liso do mundo, esse fuzil foi um dos mais certeiros durante a guerra. Quando comparados com outros fuzis de ação manual, o seu carregador de 10 munições deu uma grante vantagem em capacidade de municiamento."]]
+"Com o ferrolho mais liso do mundo, esse fuzil foi um dos mais certeiros durante a guerra. Quando comparados com outros fuzis de ação manual, o seu carregador de 10 munições deu uma grante vantagem em capacidade de municiamento."]]
 
 L["unlameifier_sound_dod_enfieldsniper.printname"] = "Enfield com Luneta"
 L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield S."
 L["unlameifier_sound_dod_enfieldsniper.description"] = [[Muda o som do tiro para o som da Enfield com Luneta do Day of Defeat.
 
--- "A Enfield foi um dos melhores fuzis de precisão da guerra. Equipada com uma luneata de magnificação de 4 vezes, com a luneta No4(T), ela provou ser um fuzil de precisão tão ótimo que continuou sendo utilizado muitos anos após a guerra como o Fuzil de Precisão do exército Britânico."]]
+"A Enfield foi um dos melhores fuzis de precisão da guerra. Equipada com uma luneata de magnificação de 4 vezes, com a luneta No4(T), ela provou ser um fuzil de precisão tão ótimo que continuou sendo utilizado muitos anos após a guerra como o Fuzil de Precisão do exército Britânico."]]
 
 L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
 L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
 L["unlameifier_sound_dod_fg42.description"] = [[Muda o som do tiro para o som da Fg42 do Day of Defeat.
 
--- "A Fg42 mostrou ser uma grande vantagem para infantarias de pequeno porte. Usando o calibre de 8mm, essa metralhadora foi reservada para a elite Alemã Fallschirmjäger. Essa Fg42 pode ser usada com um bipé para cobertura contínuo. A FG42 foi uma arma bem compacta.  Esse tamanho causou dois horríveis efeitos, um coice fudido quando atirado em automático e a maior explosão de bocal de qualquer arma da guerra.  Soldados inimigos imediatamente se deitavam quando ouviam o tiro estrondoso dessa arma.  A Fg42 é melhor utilizada em rajadas de 2 a 3 tiros."]]
+"A Fg42 mostrou ser uma grande vantagem para infantarias de pequeno porte. Usando o calibre de 8mm, essa metralhadora foi reservada para a elite Alemã Fallschirmjäger. Essa Fg42 pode ser usada com um bipé para cobertura contínuo. A FG42 foi uma arma bem compacta.  Esse tamanho causou dois horríveis efeitos, um coice fudido quando atirado em automático e a maior explosão de bocal de qualquer arma da guerra.  Soldados inimigos imediatamente se deitavam quando ouviam o tiro estrondoso dessa arma.  A Fg42 é melhor utilizada em rajadas de 2 a 3 tiros."]]
 
 L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
 L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
 L["unlameifier_sound_dod_garand.description"] = [[Muda o som do tiro para o som da M1 Garand do Day of Defeat.
 
--- "Conhecida como o 'fuzil que ganhou a guerra', a Garand provou ser de sua classe com tiros semi-automáticos de um tiro uma baixa.  Depois de aprender a como usar a Garand, essa arma e classe provou ser o peso da balança durante a guerra."]]
+"Conhecida como o 'fuzil que ganhou a guerra', a Garand provou ser de sua classe com tiros semi-automáticos de um tiro uma baixa.  Depois de aprender a como usar a Garand, essa arma e classe provou ser o peso da balança durante a guerra."]]
 
 L["unlameifier_sound_dod_greasegun.printname"] = "Greasegun"
 L["unlameifier_sound_dod_greasegun.compactname"] = "Greasegun"
 L["unlameifier_sound_dod_greasegun.description"] = [[Muda o som do tiro para o som da Greasegun do Day of Defeat.
 
--- "Com o seu Coice mais leve e cadência de tiro mais lento, a Greasegun consegue atingir mais alvos com tiros subsequentes. Essa classe é ideal para combates de curto alcançe em cidades."]]
+"Com o seu Coice mais leve e cadência de tiro mais lento, a Greasegun consegue atingir mais alvos com tiros subsequentes. Essa classe é ideal para combates de curto alcançe em cidades."]]
 
 L["unlameifier_sound_dod_k43.printname"] = "K43"
 L["unlameifier_sound_dod_k43.compactname"] = "K43"
 L["unlameifier_sound_dod_k43.description"] = [[Muda o som do tiro para o som da K43 do Day of Defeat.
 
--- "A resposta da Alemanhã sobre os fuzis americana M1 Garand e a soviética SVT40, a K43 entrega tiros semi-automáticas de um tiro uma baixa.  Após aprender a como usar a K43, essa arma pode ser o peso da balança durante a guerra."]]
+"A resposta da Alemanha sobre os fuzis americana M1 Garand e a soviética SVT40, a K43 entrega tiros semi-automáticas de um tiro uma baixa.  Após aprender a como usar a K43, essa arma pode ser o peso da balança durante a guerra."]]
 
 L["unlameifier_sound_dod_kar.printname"] = "K98"
 L["unlameifier_sound_dod_kar.compactname"] = "K98"
 L["unlameifier_sound_dod_kar.description"] = [[Muda o som do tiro para o som da K98 do Day of Defeat.
 
--- "O pilar principal da Wehrmacht, a Kar 98 é caracterizada por seus tiros certeiros. Essa classe domina o campo de batalha em Batalhas de longo alcançce.  A Faca de Bocal adiciona proteção a curto alcançe durante avanços de casa em casa."]]
+"O pilar principal da Wehrmacht, a Kar 98 é caracterizada por seus tiros certeiros. Essa classe domina o campo de batalha em Batalhas de longo alcançce.  A Faca de Bocal adiciona proteção a curto alcançe durante avanços de casa em casa."]]
 
 L["unlameifier_sound_dod_luger.printname"] = "Pistola Luger '08"
 L["unlameifier_sound_dod_luger.compactname"] = "Pistola Luger '08"
@@ -1072,61 +1072,61 @@ L["unlameifier_sound_dod_mg34.printname"] = "MG34"
 L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
 L["unlameifier_sound_dod_mg34.description"] = [[Muda o som do tiro para o som da MG34 do Day of Defeat.
 
--- "A MG34 foi uma das melhores metralhadoras usadas na 2GM.  A MG34 com um carregador do tipo tambor consegue providenciar uma cadência de tiro contínua sem o perigo do cano sobreaquecer."]]
+"A MG34 foi uma das melhores metralhadoras usadas na 2GM.  A MG34 com um carregador do tipo tambor consegue providenciar uma cadência de tiro contínua sem o perigo do cano sobreaquecer."]]
 
 L["unlameifier_sound_dod_mg42.printname"] = "MG42"
 L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
 L["unlameifier_sound_dod_mg42.description"] = [[Muda o som do tiro para o som da MG42 do Day of Defeat.
 
--- "A MG42 é uma das melhores metralhadoras já usadas na história das guerras.  A MG42, com a sua cadência de 1200 tiros por minuto, cria uma parede impenetrável de chumbo.  Use com cuidado extremo, já que a alta cadência de tiro pode, e vai, sobreaquecer o cano."]]
+"A MG42 é uma das melhores metralhadoras já usadas na história das guerras.  A MG42, com a sua cadência de 1200 tiros por minuto, cria uma parede impenetrável de chumbo.  Use com cuidado extremo, já que a alta cadência de tiro pode, e vai, sobreaquecer o cano."]]
 
 L["unlameifier_sound_dod_mortar.printname"] = "Morteiro"
 L["unlameifier_sound_dod_mortar.compactname"] = "Morteiro"
 L["unlameifier_sound_dod_mortar.description"] = [[Muda o som do tiro para o som do Morteiro do Day of Defeat.
 
--- "A atrilharia pessoal da infantaria, o morteiro, permite os soldados no fronte de terem um móvel, letal, e um ataque extremamente-pesado. Essa arma é melhor utilizada em uma posição de inimigos escondidos ou em bunkers que a infantaria normal teria um grande problema em eliminar. Franco-Atiradores e infantarias pesadas temem essa arma, devido ao seu temido assovio da morte."]]
+"A atrilharia pessoal da infantaria, o morteiro, permite os soldados no fronte de terem um móvel, letal, e um ataque extremamente-pesado. Essa arma é melhor utilizada em uma posição de inimigos escondidos ou em bunkers que a infantaria normal teria um grande problema em eliminar. Franco-Atiradores e infantarias pesadas temem essa arma, devido ao seu temido assovio da morte."]]
 
 L["unlameifier_sound_dod_mp40.printname"] = "MP40"
 L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
 L["unlameifier_sound_dod_mp40.description"] = [[Muda o som do tiro para o som da MP40 do Day of Defeat.
 
--- "Com o seu coice baixo, um soldado consegue manusear a MP40 entrando e saindo de becos e por construções explodidas e ainda acertar seu alvo."]]
+"Com o seu coice baixo, um soldado consegue manusear a MP40 entrando e saindo de becos e por construções explodidas e ainda acertar seu alvo."]]
 
 L["unlameifier_sound_dod_mp44.printname"] = "STG44"
 L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
 L["unlameifier_sound_dod_mp44.description"] = [[Muda o som do tiro para o som da STG44 do Day of Defeat.
 
--- "O primeiro verdadeiro fuzil de assalto da história, essa arma pode ter várias utilidades no campo de batalha ainda sendo efetivo. O Carregador médio da Stg44 providencia um poder de penetração alto mantendo o coice mais baixo possível.  A Stg44 é melhor utilizada atirando em rajadas de 2 ou 3 tiros."]]
+"O primeiro verdadeiro fuzil de assalto da história, essa arma pode ter várias utilidades no campo de batalha ainda sendo efetivo. O Carregador médio da Stg44 providencia um poder de penetração alto mantendo o coice mais baixo possível.  A Stg44 é melhor utilizada atirando em rajadas de 2 ou 3 tiros."]]
 
 L["unlameifier_sound_dod_piat.printname"] = "PIAT"
 L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
 L["unlameifier_sound_dod_piat.description"] = [[Muda o som do tiro para o som da PIAT do Day of Defeat.
 
--- "Desenvolvido mais tarde na guerra, armas lançadoras de míssil eram os instrumentos perfeitos para destruir tanques e veículos.  Eles poderiam também ser utilizado em certas situações para explodir buraacos em paredes, providenciando uma rota de escape improvisada ou uma rota de escape."]]
+"Desenvolvido mais tarde na guerra, armas lançadoras de míssil eram os instrumentos perfeitos para destruir tanques e veículos.  Eles poderiam também ser utilizado em certas situações para explodir buraacos em paredes, providenciando uma rota de escape improvisada ou uma rota de escape."]]
 
 L["unlameifier_sound_dod_rocket.printname"] = "Foguete"
 L["unlameifier_sound_dod_rocket.compactname"] = "Foguete"
 L["unlameifier_sound_dod_rocket.description"] = [[Muda o som do tiro para o som da Bazuca e a Panzerschreck do Day of Defeat.
 
--- "Desenvolvido mais tarde na guerra, armas lançadoras de míssil eram os instrumentos perfeitos para destruir tanques e veículos.  Eles poderiam também ser utilizado em certas situações para explodir buraacos em paredes, providenciando uma rota de escape improvisada ou uma rota de escape."]]
+"Desenvolvido mais tarde na guerra, armas lançadoras de míssil eram os instrumentos perfeitos para destruir tanques e veículos.  Eles poderiam também ser utilizado em certas situações para explodir buraacos em paredes, providenciando uma rota de escape improvisada ou uma rota de escape."]]
 
 L["unlameifier_sound_dod_spring.printname"] = "Springfield"
 L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
 L["unlameifier_sound_dod_spring.description"] = [[Muda o som do tiro para o som da Springfield do Day of Defeat.
 
--- "Essa classe se esconde nas sombras. Com a sua Springfield '03, essa classe é o lobo solitário do esquadrão, aventurando sozinho na chuva sem seer visto, como um terror em esquadrões inimigos."]]
+"Essa classe se esconde nas sombras. Com a sua Springfield '03, essa classe é o lobo solitário do esquadrão, aventurando sozinho na chuva sem seer visto, como um terror em esquadrões inimigos."]]
 
 L["unlameifier_sound_dod_sten.printname"] = "Sten"
 L["unlameifier_sound_dod_sten.compactname"] = "Sten"
 L["unlameifier_sound_dod_sten.description"] = [[Muda o som do tiro para o som da Sten do Day of Defeat.
 
--- "A venerável Sten foi desenvolvida para a substituir a cara-para-construit Tommy Gun usada pelo exército Britânico no começo da guerra.  Feito quase inteiramente de chapa metálica estampada, é uma submetralhadora leve e confiável.  Uma arma excelente excellent para curto alcance, foi a escolha para muitos comandantes durante a guerra."]]
+"A venerável Sten foi desenvolvida para a substituir a cara-para-construit Tommy Gun usada pelo exército Britânico no começo da guerra.  Feito quase inteiramente de chapa metálica estampada, é uma submetralhadora leve e confiável.  Uma arma excelente excellent para curto alcance, foi a escolha para muitos comandantes durante a guerra."]]
 
 L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dod_thompson.description"] = [[Muda o som do tiro para o som da Thompson do Day of Defeat.
 
--- "Com o leve coice da Thompson, essa classe consegue acertar alvos com facilidade e tiros certeiros.  Essa classe é ideal para batalhas de curto alcance e batalhas em cidades."]]
+"Com o leve coice da Thompson, essa classe consegue acertar alvos com facilidade e tiros certeiros.  Essa classe é ideal para batalhas de curto alcance e batalhas em cidades."]]
 
 L["unlameifier_sound_dod_webley.printname"] = "Revólver Webley"
 L["unlameifier_sound_dod_webley.compactname"] = "Revólver Webley"
@@ -1279,7 +1279,7 @@ L["unlameifier_sound_tf2_cannon.description"] = string.format(tf2desc.shoot, "Pa
 
 L["unlameifier_sound_tf2_manmelter.printname"] = "Derretedora de Homens"
 L["unlameifier_sound_tf2_manmelter.compactname"] = "Derretedora"
-L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "Derretedora de Homens") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Um dispositivo que desrespeita o consenso científico tradicional de que as moléculas que compõem o corpo humano devem estar dispostas \desse jeito\ e não, por exemplo, espalhadas em um raio de um quilômetro quadrado."
+L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "Derretedora de Homens") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Um dispositivo que desrespeita o consenso científico tradicional de que as moléculas que compõem o corpo humano devem estar dispostas '\' desse jeito '\' e não, por exemplo, espalhadas em um raio de um quilômetro quadrado\"."
 
 L["unlameifier_sound_tf2_achievement_minigun.printname"] = "Natascha"
 L["unlameifier_sound_tf2_achievement_minigun.compactname"] = "Natascha"

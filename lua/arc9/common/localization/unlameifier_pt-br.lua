@@ -186,7 +186,7 @@ L["unlameifier_tracer_ranging.description"] = [[A descrição original diz o seg
 
 "Projéteis Traçantes. Queimam de Verde para Vermelho de acordo com a efetividade da arma na distância desejada."
 
-Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Código restaurado de Standard Weapons, um mod protótipo de ARC9]]
 
 //////////////// Tracer Size
 L["unlameifier_tracer_size_010x.printname"] = "Tamanho do traçante - 0.1x"

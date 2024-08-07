@@ -151,8 +151,8 @@ L["unlameifier_tracer_tateal.description"] = [[Deixa sua arma com um  <color=0,2
 <color=0,255,132>"Você já se sentiu como se estivesse vivendo no inferno de suas próprias criações?"</color>]]
 
 L["unlameifier_tracer_usa.printname"] = "Traçante Americano"
- L["unlameifier_tracer_usa.compactname"] = "E.U.A"
- L["unlameifier_tracer_usa.description"] = [[Deixa sua arma com um <color=255,25,25>rastro</color>, bem, <color=25,25,255>mais</color> patriota.
+L["unlameifier_tracer_usa.compactname"] = "E.U.A"
+L["unlameifier_tracer_usa.description"] = [[Deixa sua arma com um <color=255,25,25>rastro</color>, bem, <color=25,25,255>mais</color> patriota.
 
 Código restaurado de Standard Weapons, um mod protótipo de ARC9.]]
 
@@ -574,7 +574,7 @@ L["unlameifier_sound_css_deagle.description"] = [[Muda o som do tiro para o som 
 
 Quando <color=100,255,100>Silenciada</color>: Usa o som da TMP.
 
-<color=150,150,255>Fato Engraçado</color>: De acord com o imfdb.org, A Desert Eagle Mark XIX (9), Alimentada em .50 AE, não tem um cano raiado, diferente do que é mostrado no Source.]]
+color=150,150,255>Fato Engraçado</color>: De acord com o imfdb.org, A Desert Eagle Mark XIX (9), Alimentada em .50 AE, não tem um cano raiado, diferente do que é mostrado no Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"

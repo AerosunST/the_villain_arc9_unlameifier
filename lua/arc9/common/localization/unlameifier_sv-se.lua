@@ -1783,3 +1783,238 @@ L["unlameifier.fo76.rpm.540"] = string.format(fo76loop, 540)
 L["unlameifier.fo76.rpm.660"] = string.format(fo76loop, 660)
 L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
+
+//////////////////////////////// unlameifier_toys_charms
+
+local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
+
+//////////////// HL2
+L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
+
+L["unlameifier_charms_hl2_skull.printname"] = "Skalle"
+L["unlameifier_charms_hl2_skull.compactname"] = "Skalle"
+L["unlameifier_charms_hl2_skull.description"] = "Sicka kalla kårar."
+
+L["unlameifier_charms_hl2_baby.printname"] = "Bäbis"
+L["unlameifier_charms_hl2_baby.compactname"] = "Bäbis"
+L["unlameifier_charms_hl2_baby.description"] = "Väldigt god topping till pizza."
+
+L["unlameifier_charms_hl2_can.printname"] = "Burk"
+L["unlameifier_charms_hl2_can.compactname"] = "Burk"
+L["unlameifier_charms_hl2_can.description"] = "\"Ta upp burken\"."
+
+L["unlameifier_charms_hl2_hula.printname"] = "Hula-Docka"
+L["unlameifier_charms_hl2_hula.compactname"] = "Docka"
+L["unlameifier_charms_hl2_hula.description"] = "En påminnelse av en bättre tid."
+
+L["unlameifier_charms_hl2_milk.printname"] = "Mjölken"
+L["unlameifier_charms_hl2_milk.compactname"] = "Mjölk"
+L["unlameifier_charms_hl2_milk.description"] = "Din pappa kan äntligen komma hem nu."
+
+L["unlameifier_charms_hl2_melon.printname"] = "Melon"
+L["unlameifier_charms_hl2_melon.compactname"] = "Melon"
+L["unlameifier_charms_hl2_melon.description"] = "melon :)"
+
+L["unlameifier_charms_hl2_science_team.printname"] = "Forskningsteamet"
+L["unlameifier_charms_hl2_science_team.compactname"] = "Forskare"
+L["unlameifier_charms_hl2_science_team.description"] = "Nej! Jag är med forskningsteamet!"
+
+L["unlameifier_charms_hl2_traffic_cone.printname"] = "Trafikkona"
+L["unlameifier_charms_hl2_traffic_cone.compactname"] = "Kona"
+L["unlameifier_charms_hl2_traffic_cone.description"] = "Vi brukade skicka dessa över världens kant och sakta men säkert krypa ner i mörkret för att se om den landade på rätt sida eller ej."
+
+L["unlameifier_charms_hl2_bucket.printname"] = "Hinken"
+L["unlameifier_charms_hl2_bucket.compactname"] = "Hink"
+L["unlameifier_charms_hl2_bucket.description"] = "Känslostöds hink som följer med dig på dina äventyr, oavsett hur dyster situationen kan vara. Godkänd av Stanley."
+
+L["unlameifier_charms_hl2_breen_bust.printname"] = "Breen Staty"
+L["unlameifier_charms_hl2_breen_bust.compactname"] = "Breen"
+L["unlameifier_charms_hl2_breen_bust.description"] = "\"Välkommen. Välkommen till stad 17! Du har valt, eller blivit utvald att, omlokalisera till ett av våra finaste återstående urbana center. Jag trodde så mycket på stad 17 att jag valde att placera min administration här, i det citadell som våra välgörare så omtänksamt tillhandahållit. Jag är stolt över att kalla stad 17 mitt hem. Så, oavsett om du tänker stanna kvar här, eller om du är på genomresa på väg mot okända trakter - Välkommen till stad 17. Det är säkrare här\"."
+
+L["unlameifier_charms_hl2_crt.printname"] = "CRT-Skärm"
+L["unlameifier_charms_hl2_crt.compactname"] = "CRT"
+L["unlameifier_charms_hl2_crt.description"] = "Nu för tiden sätter vi ner skärmen försiktigt för att inte ta sönder den. Men förr i tiden så satte vi ner DESSA jävlar försiktigt för att inte ta sönder bordet."
+
+L["unlameifier_charms_hl2_paintbucket.printname"] = "Färghink"
+L["unlameifier_charms_hl2_paintbucket.compactname"] = "Färg"
+L["unlameifier_charms_hl2_paintbucket.description"] = "...oroa dig inte, vi trodde likadant första gången vi såg när en av dessa träffade väggen."
+
+L["unlameifier_charms_hl2_plug.printname"] = "Plugg"
+L["unlameifier_charms_hl2_plug.compactname"] = "Plugg"
+L["unlameifier_charms_hl2_plug.description"] = "\"Ska du låta Gordon slå om strömbrytaren?\""
+
+L["unlameifier_charms_hl2_vending.printname"] = "Försäljningsautomat"
+L["unlameifier_charms_hl2_vending.compactname"] = "Automat"
+L["unlameifier_charms_hl2_vending.description"] = "\"Drick inte vattnet. De la något i det som får dig att glömma. Jag kommer inte ens ihåg hur jag kom hit.\""
+
+L["unlameifier_charms_hl2_headcrab.printname"] = "Huvudkrabba"
+L["unlameifier_charms_hl2_headcrab.compactname"] = "Huvudkrabba"
+L["unlameifier_charms_hl2_headcrab.description"] = "\"Det är ditt husdjur, den jäkla huvudhopparen!\""
+
+L["unlameifier_charms_hl2_cheaple.printname"] = "Cheaple"
+L["unlameifier_charms_hl2_cheaple.compactname"] = "Cheaple"
+L["unlameifier_charms_hl2_cheaple.description"] = "Min kära Cheaple..."
+
+L["unlameifier_charms_hl2_hev.printname"] = "Skyddsdräkten för farlig miljö mark V"
+L["unlameifier_charms_hl2_hev.compactname"] = "S.F.M."
+L["unlameifier_charms_hl2_hev.description"] = "\"Jag har gjort några få ändringar, men ska bara berätta för dig om det viktigaste. Då ska vi se... Skyddsdräkten för farlig miljö mark V har fått ny utformning med bättre komfort och funktion.\""
+
+L["unlameifier_charms_hl2_rollermine.printname"] = "Rullmina"
+L["unlameifier_charms_hl2_rollermine.compactname"] = "Rullmina"
+L["unlameifier_charms_hl2_rollermine.description"] = "Roliga små pojkar. Roliga att kasta på folk."
+
+L["unlameifier_charms_hl2_suitcase.printname"] = "Resväska"
+L["unlameifier_charms_hl2_suitcase.compactname"] = "Resväska"
+L["unlameifier_charms_hl2_suitcase.description"] = "Vilka mysterier finns inne i denna resväska?"
+
+L["unlameifier_charms_hl2_gravity_gun.printname"] = "Gravitationsvapen"
+L["unlameifier_charms_hl2_gravity_gun.compactname"] = "Gravitations."
+L["unlameifier_charms_hl2_gravity_gun.description"] = "\"Ta gravitationsvapnet.\""
+
+L["unlameifier_charms_hl2_crowbar.printname"] = "Kofot"
+L["unlameifier_charms_hl2_crowbar.compactname"] = "Kofot"
+L["unlameifier_charms_hl2_crowbar.description"] = "\"Rätt man på fel plats kan göra all skillnad i världen.\""
+
+L["unlameifier_charms_hl2_ravenholm.printname"] = "Ravenholm-Skylt"
+L["unlameifier_charms_hl2_ravenholm.compactname"] = "Ravenholm"
+L["unlameifier_charms_hl2_ravenholm.description"] = "Notera att vi gick till Ravenholm."
+
+L["unlameifier_charms_hl2_medkit.printname"] = "Förbandslåda"
+L["unlameifier_charms_hl2_medkit.compactname"] = "Förbands."
+L["unlameifier_charms_hl2_medkit.description"] = "\"Här, ta en förbandslåda!\""
+
+L["unlameifier_charms_hl2_suit_battery.printname"] = "Dräktbatteri"
+L["unlameifier_charms_hl2_suit_battery.compactname"] = "Batteri"
+L["unlameifier_charms_hl2_suit_battery.description"] = "Gör ett häftigt ljud när du plockar upp dem. Tekniskt sätt baklänges, men denna är den COOLARE sidan."
+
+L["unlameifier_charms_hl2_item_crate.printname"] = "Föremålslåda"
+L["unlameifier_charms_hl2_item_crate.compactname"] = "Låda"
+L["unlameifier_charms_hl2_item_crate.description"] = "Kommer alltid ha det du behöver. Nej, serri, detta är hur den är kodad. Den checkar vad du kräver mest. Tror du inte på mig? Pröva att dumpa all din ammo på ett vapen och sedan ta sönder en av dessa lådor!"
+
+//////////////// Developer Stuff
+L["unlameifier.folder.charms.dev"] = "Unlameifier/Dev"
+
+L["unlameifier_charms_dev_info_player_start.printname"] = "info_player_start"
+L["unlameifier_charms_dev_info_player_start.compactname"] = "info_player_start"
+L["unlameifier_charms_dev_info_player_start.description"] = "Spawnpunkt i Hammer Editor."
+
+L["unlameifier_charms_dev_error.printname"] = "ERROR"
+L["unlameifier_charms_dev_error.compactname"] = "ERROR"
+L["unlameifier_charms_dev_error.description"] = "\"FÖR I HELV-! VARFÖR KRÄVS CS:S FÖR DETTA?!\""
+
+L["unlameifier_charms_dev_ground_node.printname"] = "Ground Node"
+L["unlameifier_charms_dev_ground_node.compactname"] = "Ground Node"
+L["unlameifier_charms_dev_ground_node.description"] = "Dessa kanske krävs ifall du vill strida NPC:er..."
+
+//////////////// Counter-Strike: Source
+L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
+local requirescss = "\n\n<color=255,100,100>NOTERA</color>: Krävs att Counter-Strike: Source är monterat för att fungera."
+
+L["unlameifier_charms_css_cash.printname"] = "Kalla Stålar"
+L["unlameifier_charms_css_cash.compactname"] = "Stålar"
+L["unlameifier_charms_css_cash.description"] = "Bra bunte kalla stålar, perfekt för alla rånare."
+
+L["unlameifier_charms_css_snowman.printname"] = "Snöman"
+L["unlameifier_charms_css_snowman.compactname"] = "Snöman"
+L["unlameifier_charms_css_snowman.description"] = "Han är ganska chill när du väl lär känna honom."
+
+L["unlameifier_charms_css_coffee_mug.printname"] = "Kaffemugg"
+L["unlameifier_charms_css_coffee_mug.compactname"] = "Mugg"
+L["unlameifier_charms_css_coffee_mug.description"] = "Sömn? Vad är det för något?"
+
+L["unlameifier_charms_css_fish.printname"] = "Fisk"
+L["unlameifier_charms_css_fish.compactname"] = "Fisk"
+L["unlameifier_charms_css_fish.description"] = "Fisk."
+
+L["unlameifier_charms_css_turtle.printname"] = "Sköldpadda"
+L["unlameifier_charms_css_turtle.compactname"] = "Sköldpadda"
+L["unlameifier_charms_css_turtle.description"] = "\"Jag fillar sköldpaddor.\""
+
+L["unlameifier_charms_css_c4.printname"] = "C4"
+L["unlameifier_charms_css_c4.compactname"] = "C4"
+L["unlameifier_charms_css_c4.description"] = "Detta är verkligen \"bomben\"."
+
+L["unlameifier_charms_css_knife.printname"] = "Kniv"
+L["unlameifier_charms_css_knife.compactname"] = "Kniv"
+L["unlameifier_charms_css_knife.description"] = "\"KNIV! KNIV! JAG FICK EN KNIV!\""
+
+L["unlameifier_charms_css_deagle.printname"] = "Deagle"
+L["unlameifier_charms_css_deagle.compactname"] = "Deagle"
+L["unlameifier_charms_css_deagle.description"] = "Buren av ingen annan än den legendariska Juan Deag."
+
+L["unlameifier_charms_css_pc.printname"] = "PC"
+L["unlameifier_charms_css_pc.compactname"] = "PC"
+L["unlameifier_charms_css_pc.description"] = "Spelar du inte på en av dessa?"
+
+L["unlameifier_charms_css_i_hate_skibidi_toilet.printname"] = "Toalett"
+L["unlameifier_charms_css_i_hate_skibidi_toilet.compactname"] = "Toalett"
+L["unlameifier_charms_css_i_hate_skibidi_toilet.description"] = "Jag kommer ej kommentera."
+
+L["unlameifier_charms_css_keyboard.printname"] = "Tangentbord"
+L["unlameifier_charms_css_keyboard.compactname"] = "Tangentbord"
+L["unlameifier_charms_css_keyboard.description"] = "Varför kalla  det \"tangentbord\" när den klart och tydligt har knappar på sig...?"
+
+L["unlameifier_charms_css_mouse.printname"] = "Mus"
+L["unlameifier_charms_css_mouse.compactname"] = "Mus"
+L["unlameifier_charms_css_mouse.description"] = "Datormöss är nämnda efter riktiga möss, så \"möss\" borde absolut vara den officiella namnet på flertal datormöss. Fight me."
+
+L["unlameifier_charms_css_monitor.printname"] = "Skärm"
+L["unlameifier_charms_css_monitor.compactname"] = "Skärm"
+L["unlameifier_charms_css_monitor.description"] = "Trots att nyckelringen går rakt igenom den så fungerar den fortfarande. Är verkligen byggd väl."
+
+L["unlameifier_charms_css_cinderblocks.printname"] = "Lättbetongblock"
+L["unlameifier_charms_css_cinderblocks.compactname"] = "Betongblock"
+L["unlameifier_charms_css_cinderblocks.description"] = "Teoretiskt så *borde* detta sänka rekylen."
+
+//////////////// Garry's Mod
+L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
+
+L["unlameifier_charms_gmod_tnt.printname"] = "TNT"
+L["unlameifier_charms_gmod_tnt.compactname"] = "TNT"
+L["unlameifier_charms_gmod_tnt.description"] = "Använd \"Kör\" i kontextmenyn med dessa för att utföra ett väldigt roligt skämt med dina polare."
+
+L["unlameifier_charms_gmod_do_not_press.printname"] = "\"TRYCK INTE\""
+L["unlameifier_charms_gmod_do_not_press.compactname"] = "T.I."
+L["unlameifier_charms_gmod_do_not_press.description"] = "Du kommer trycka på den, eller hur?"
+
+L["unlameifier_charms_gmod_light_switch.printname"] = "Lampknapp"
+L["unlameifier_charms_gmod_light_switch.compactname"] = "Lamp"
+L["unlameifier_charms_gmod_light_switch.description"] = "Den är på..."
+
+L["unlameifier_charms_gmod_hoverball.printname"] = "Svävarboll"
+L["unlameifier_charms_gmod_hoverball.compactname"] = "Svävarboll"
+L["unlameifier_charms_gmod_hoverball.description"] = "Den gör att grejer svävar."
+
+L["unlameifier_charms_gmod_camera_tool.printname"] = "Kamera (Verktyg)"
+L["unlameifier_charms_gmod_camera_tool.compactname"] = "Kamera"
+L["unlameifier_charms_gmod_camera_tool.description"] = "Kamera som sedd från Kamera Verktyget."
+
+L["unlameifier_charms_gmod_burger.printname"] = "Burgare"
+L["unlameifier_charms_gmod_burger.compactname"] = "Burgare"
+L["unlameifier_charms_gmod_burger.description"] = "mmm god burgare :)"
+
+L["unlameifier_charms_gmod_hotdog.printname"] = "Varmkorv"
+L["unlameifier_charms_gmod_hotdog.compactname"] = "Varmkorv"
+L["unlameifier_charms_gmod_hotdog.description"] = "mmm god varmkorv :)"
+
+//////////////// Team Fortress 2
+L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
+
+local requirestf2 = "\n\n<color=255,100,100>NOTERA</color>: Kräver att Team Fortress 2 är monterat för att fungera."
+
+L["unlameifier_charms_tf2_spider.printname"] = "Spindel"
+L["unlameifier_charms_tf2_spider.compactname"] = "Spindel"
+L["unlameifier_charms_tf2_spider.description"] = "Hur skjuter jag nät?"
+
+L["unlameifier_charms_tf2_ghost.printname"] = "Spöke"
+L["unlameifier_charms_tf2_ghost.compactname"] = "Spöke"
+L["unlameifier_charms_tf2_ghost.description"] = "Gör ditt vapen väldigt läskigt med detta SPÖKE!!"
+
+L["unlameifier_charms_tf2_bat.printname"] = "Fladdermus"
+L["unlameifier_charms_tf2_bat.compactname"] = "Fladder."
+L["unlameifier_charms_tf2_bat.description"] = "Put your gun in its goth phase."
+L["unlameifier_charms_tf2_bat.description"] = "Få ditt vapen in i dess goth-fas."
+
+L["unlameifier_charms_tf2_jackolantern.printname"] = "Halloweenpumpa"
+L["unlameifier_charms_tf2_jackolantern.compactname"] = "Halloween."
+L["unlameifier_charms_tf2_jackolantern.description"] = "Jack kunde luras så väl att djävulen själv inte bara blev lurad av Jack en gång, men två gånger."

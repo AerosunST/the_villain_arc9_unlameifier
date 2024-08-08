@@ -673,342 +673,343 @@ ATT.Category = "charm"
 ARC9.LoadAttachment(ATT, "unlameifier_charms_dev_ground_node")
 
 //////////////////////////////////////// COUNTER-STRIKE: SOURCE ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+if !IsMounted('cstrike') then
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Cold Hard Cash"
+	ATT.CompactName = "Cash"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Cold Hard Cash"
-ATT.CompactName = "Cash"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	L-O-D-S OF E-M-O-N-E. What's that spell!? Loadsamoney (probably)!]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-L-O-D-S OF E-M-O-N-E. What's that spell!? Loadsamoney (probably)!]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_assault/money.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.5
+	ATT.CharmOffset = Vector(0, -0.2, 2.1)
+	ATT.CharmAngle = Angle(0, 270, 180)
 
-ATT.CharmModel = "models/props/cs_assault/money.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.5
-ATT.CharmOffset = Vector(0, -0.2, 2.1)
-ATT.CharmAngle = Angle(0, 270, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_cash")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_cash")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Snowman"
+	ATT.CompactName = "Snowman"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Snowman"
-ATT.CompactName = "Snowman"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	He's a really chill guy once you get to know him.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-He's a really chill guy once you get to know him.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_office/snowman_face.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.15
+	ATT.CharmOffset = Vector(0, 0.3, 1)
+	ATT.CharmAngle = Angle(270, 0, 180)
 
-ATT.CharmModel = "models/props/cs_office/snowman_face.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.15
-ATT.CharmOffset = Vector(0, 0.3, 1)
-ATT.CharmAngle = Angle(270, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_snowman")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_snowman")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Coffee Mug"
+	ATT.CompactName = "Coffee Mug"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Coffee Mug"
-ATT.CompactName = "Coffee Mug"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	"What's sleep"?]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-"What's sleep"?]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_office/coffee_mug3.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.25
+	ATT.CharmOffset = Vector(0.2, 0, 1.5)
+	ATT.CharmAngle = Angle(0, 0, 230)
 
-ATT.CharmModel = "models/props/cs_office/coffee_mug3.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.25
-ATT.CharmOffset = Vector(0.2, 0, 1.5)
-ATT.CharmAngle = Angle(0, 0, 230)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_coffee_mug")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_coffee_mug")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Fish"
+	ATT.CompactName = "Fish"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Fish"
-ATT.CompactName = "Fish"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	"Don't. Cry. I am just a FISH".]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-"Don't. Cry. I am just a FISH".]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/de_inferno/goldfish.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.20
+	ATT.CharmOffset = Vector(0, 0.05, 0.8)
+	ATT.CharmAngle = Angle(90, 0, 270)
 
-ATT.CharmModel = "models/props/de_inferno/goldfish.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.20
-ATT.CharmOffset = Vector(0, 0.05, 0.8)
-ATT.CharmAngle = Angle(90, 0, 270)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_fish")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_fish")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Turtle"
+	ATT.CompactName = "Turtle"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Turtle"
-ATT.CompactName = "Turtle"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	"I like turtles".]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-"I like turtles".]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/de_tides/vending_turtle.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.15
+	ATT.CharmOffset = Vector(0, 0.2, 0.95)
+	ATT.CharmAngle = Angle(270, 0, 180)
 
-ATT.CharmModel = "models/props/de_tides/vending_turtle.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.15
-ATT.CharmOffset = Vector(0, 0.2, 0.95)
-ATT.CharmAngle = Angle(270, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_turtle")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_turtle")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "C4"
+	ATT.CompactName = "C4"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "C4"
-ATT.CompactName = "C4"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	This charm is THE BOMB.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-This charm is THE BOMB.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/weapons/w_c4_planted.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.13
+	ATT.CharmOffset = Vector(-0.2, -0.3, 1.2)
+	ATT.CharmAngle = Angle(0, 270, 270)
 
-ATT.CharmModel = "models/weapons/w_c4_planted.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.13
-ATT.CharmOffset = Vector(-0.2, -0.3, 1.2)
-ATT.CharmAngle = Angle(0, 270, 270)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_c4")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_c4")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Knife"
+	ATT.CompactName = "Knife"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Knife"
-ATT.CompactName = "Knife"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	"DOOR STUCK! DOOOOOR STUCK"!]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-"DOOR STUCK! DOOOOOR STUCK"!]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/weapons/w_knife_t.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.20
+	ATT.CharmOffset = Vector(0.1, -0.03, 0.13)
+	ATT.CharmAngle = Angle(70, 0, 0)
 
-ATT.CharmModel = "models/weapons/w_knife_t.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.20
-ATT.CharmOffset = Vector(0.1, -0.03, 0.13)
-ATT.CharmAngle = Angle(70, 0, 0)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_knife")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_knife")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Deagle"
+	ATT.CompactName = "Deagle"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Deagle"
-ATT.CompactName = "Deagle"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	Wielded by none other than the legendary Juan Deag himself.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-Wielded by none other than the legendary Juan Deag himself.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/weapons/w_pist_deagle.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.20
+	ATT.CharmOffset = Vector(0, -0.3, 0.35)
+	ATT.CharmAngle = Angle(180, -45, 0)
 
-ATT.CharmModel = "models/weapons/w_pist_deagle.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.20
-ATT.CharmOffset = Vector(0, -0.3, 0.35)
-ATT.CharmAngle = Angle(180, -45, 0)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_deagle")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_deagle")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "PC"
+	ATT.CompactName = "PC"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "PC"
-ATT.CompactName = "PC"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	Hey, maybe you're playing on one of these...]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-Hey, maybe you're playing on one of these...]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_office/computer_caseB.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.07
+	ATT.CharmOffset = Vector(0, 0, 1.75)
+	ATT.CharmAngle = Angle(0, 0, 180)
 
-ATT.CharmModel = "models/props/cs_office/computer_caseB.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.07
-ATT.CharmOffset = Vector(0, 0, 1.75)
-ATT.CharmAngle = Angle(0, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_pc")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_pc")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Toilet"
+	ATT.CompactName = "Toilet"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Toilet"
-ATT.CompactName = "Toilet"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	Known to be cause internet cancer. Delete it as soon as possible if it starts singing.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-Known to be cause internet cancer. Delete it as soon as possible if it starts singing.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/CS_militia/toilet.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.07
+	ATT.CharmOffset = Vector(0, 0.85, 2.5)
+	ATT.CharmAngle = Angle(0, 0, 180)
 
-ATT.CharmModel = "models/props/CS_militia/toilet.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.07
-ATT.CharmOffset = Vector(0, 0.85, 2.5)
-ATT.CharmAngle = Angle(0, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_i_hate_skibidi_toilet")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_i_hate_skibidi_toilet")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Keyboard"
+	ATT.CompactName = "Keyboard"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Keyboard"
-ATT.CompactName = "Keyboard"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	Why do they call it "keyboard" when they are clearly buttons?]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-Why do they call it "keyboard" when they are clearly buttons?]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_office/computer_keyboard.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.10
+	ATT.CharmOffset = Vector(0, 0, 1.3)
+	ATT.CharmAngle = Angle(0, 270, 90)
 
-ATT.CharmModel = "models/props/cs_office/computer_keyboard.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.10
-ATT.CharmOffset = Vector(0, 0, 1.3)
-ATT.CharmAngle = Angle(0, 270, 90)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_keyboard")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_keyboard")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Mouse"
+	ATT.CompactName = "Mouse"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Mouse"
-ATT.CompactName = "Mouse"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	Computer mice were named after actual mice, so "mice" should absolutely be the official plural for computer mice. Fight me.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-Computer mice were named after actual mice, so "mice" should absolutely be the official plural for computer mice. Fight me.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_office/computer_mouse.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.20
+	ATT.CharmOffset = Vector(0, 0, 0.75)
+	ATT.CharmAngle = Angle(0, 270, 180)
 
-ATT.CharmModel = "models/props/cs_office/computer_mouse.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.20
-ATT.CharmOffset = Vector(0, 0, 0.75)
-ATT.CharmAngle = Angle(0, 270, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_mouse")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_mouse")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Monitor"
+	ATT.CompactName = "Monitor"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Monitor"
-ATT.CompactName = "Monitor"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	Despite the keyring punching right through it, it still works. It's just built different.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-Despite the keyring punching right through it, it still works. It's just built different.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/cs_office/computer_monitor.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.07
+	ATT.CharmOffset = Vector(0, -0.2, 1.9)
+	ATT.CharmAngle = Angle(0, 0, 180)
 
-ATT.CharmModel = "models/props/cs_office/computer_monitor.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.07
-ATT.CharmOffset = Vector(0, -0.2, 1.9)
-ATT.CharmAngle = Angle(0, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_monitor")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_monitor")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Cinderblocks"
+	ATT.CompactName = "Cinderblocks"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
 
-ATT.PrintName = "Cinderblocks"
-ATT.CompactName = "Cinderblocks"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Counter-Strike: Source mounted to Garry's Mod
+	In theory, this *should* reduce your recoil...]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/CSS"
+	ATT.AttNotForNPCs = true
 
-In theory, this *should* reduce your recoil...]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/CSS"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props/de_nuke/cinderblock_stack.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.05
+	ATT.CharmOffset = Vector(0, 0, 1.8)
+	ATT.CharmAngle = Angle(0, 0, 180)
 
-ATT.CharmModel = "models/props/de_nuke/cinderblock_stack.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.05
-ATT.CharmOffset = Vector(0, 0, 1.8)
-ATT.CharmAngle = Angle(0, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
-
-ARC9.LoadAttachment(ATT, "unlameifier_charms_css_cinderblocks")
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_css_cinderblocks")
+end
 
 //////////////////////////////////////// GARRY'S MOD ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -1181,99 +1182,100 @@ ATT.Category = "charm"
 ARC9.LoadAttachment(ATT, "unlameifier_charms_gmod_hotdog")
 
 //////////////////////////////////////// TEAM FORTRESS 2 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+if IsMounted('tf') then
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Spider"
+	ATT.CompactName = "Spider"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
 
-ATT.PrintName = "Spider"
-ATT.CompactName = "Spider"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
+	How do I shot web?]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/TF2"
+	ATT.AttNotForNPCs = true
 
-How do I shot web?]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/TF2"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props_halloween/smlprop_spider.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.20
+	ATT.CharmOffset = Vector(0, 0, 1.4)
+	ATT.CharmAngle = Angle(0, 275, 180)
 
-ATT.CharmModel = "models/props_halloween/smlprop_spider.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.20
-ATT.CharmOffset = Vector(0, 0, 1.4)
-ATT.CharmAngle = Angle(0, 275, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_spider")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_spider")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Ghost"
+	ATT.CompactName = "Ghost"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
 
-ATT.PrintName = "Ghost"
-ATT.CompactName = "Ghost"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
+	Spook up your gun with a super scary GHOST!!]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/TF2"
+	ATT.AttNotForNPCs = true
 
-Spook up your gun with a super scary GHOST!!]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/TF2"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props_halloween/smlprop_ghost.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.15
+	ATT.CharmOffset = Vector(0, 0.1, 1.1)
+	ATT.CharmAngle = Angle(0, 0, 180)
 
-ATT.CharmModel = "models/props_halloween/smlprop_ghost.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.15
-ATT.CharmOffset = Vector(0, 0.1, 1.1)
-ATT.CharmAngle = Angle(0, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_ghost")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_ghost")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Bat"
+	ATT.CompactName = "Bat"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
 
-ATT.PrintName = "Bat"
-ATT.CompactName = "Bat"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
+	Put your gun in its goth phase.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/TF2"
+	ATT.AttNotForNPCs = true
 
-Put your gun in its goth phase.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/TF2"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props_halloween/smlprop_bat.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.12
+	ATT.CharmOffset = Vector(0, 0.1, 0.7)
+	ATT.CharmAngle = Angle(0, 90, 180)
 
-ATT.CharmModel = "models/props_halloween/smlprop_bat.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.12
-ATT.CharmOffset = Vector(0, 0.1, 0.7)
-ATT.CharmAngle = Angle(0, 90, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_bat")
 
-ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_bat")
+	ATT = {}
 
-ATT = {}
+	ATT.PrintName = "Jack-o-Lantern"
+	ATT.CompactName = "Jack-o-Lantern"
+	ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+	ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
 
-ATT.PrintName = "Jack-o-Lantern"
-ATT.CompactName = "Jack-o-Lantern"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = [[<color=255,0,0>WARNING:</color> May require a legal copy of Team Fortress 2 mounted to Garry's Mod
+	Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once.]]
+	ATT.MenuCategory = "ARC9 - Charms"
+	ATT.Folder = "Unlameifier/TF2"
+	ATT.AttNotForNPCs = true
 
-Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once.]]
-ATT.MenuCategory = "ARC9 - Charms"
-ATT.Folder = "Unlameifier/TF2"
-ATT.AttNotForNPCs = true
+	ATT.Model = "models/items/arc9/att_charmbase.mdl"
 
-ATT.Model = "models/items/arc9/att_charmbase.mdl"
+	ATT.CharmModel = "models/props_halloween/jackolantern_01.mdl"
+	ATT.CharmBone = "ring3"
+	ATT.CharmScale = 0.04
+	ATT.CharmOffset = Vector(0, 0.05, 2)
+	ATT.CharmAngle = Angle(0, 0, 180)
 
-ATT.CharmModel = "models/props_halloween/jackolantern_01.mdl"
-ATT.CharmBone = "ring3"
-ATT.CharmScale = 0.04
-ATT.CharmOffset = Vector(0, 0.05, 2)
-ATT.CharmAngle = Angle(0, 0, 180)
+	ATT.Category = "charm"
 
-ATT.Category = "charm"
-
-ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_jackolantern")
+	ARC9.LoadAttachment(ATT, "unlameifier_charms_tf2_jackolantern")
+end

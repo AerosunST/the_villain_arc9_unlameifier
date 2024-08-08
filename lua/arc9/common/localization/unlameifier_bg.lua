@@ -1779,3 +1779,238 @@ L["unlameifier.fo76.rpm.540"] = string.format(fo76loop, 540)
 L["unlameifier.fo76.rpm.660"] = string.format(fo76loop, 660)
 L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
+
+//////////////////////////////// unlameifier_toys_charms
+
+local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
+
+//////////////// HL2
+-- L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
+
+-- L["unlameifier_charms_hl2_skull.printname"] = "Skull"
+-- L["unlameifier_charms_hl2_skull.compactname"] = "Skull"
+-- L["unlameifier_charms_hl2_skull.description"] = "B-B-Bad to the bone."
+
+-- L["unlameifier_charms_hl2_baby.printname"] = "Baby"
+-- L["unlameifier_charms_hl2_baby.compactname"] = "Baby"
+-- L["unlameifier_charms_hl2_baby.description"] = "Delicious pizza topping."
+
+-- L["unlameifier_charms_hl2_can.printname"] = "Can"
+-- L["unlameifier_charms_hl2_can.compactname"] = "Can"
+-- L["unlameifier_charms_hl2_can.description"] = "\"Pick up that can\"."
+
+-- L["unlameifier_charms_hl2_hula.printname"] = "Hula Doll"
+-- L["unlameifier_charms_hl2_hula.compactname"] = "Doll"
+-- L["unlameifier_charms_hl2_hula.description"] = "Reminder of a better place."
+
+-- L["unlameifier_charms_hl2_milk.printname"] = "The Milk"
+-- L["unlameifier_charms_hl2_milk.compactname"] = "Milk"
+-- L["unlameifier_charms_hl2_milk.description"] = "Your dad can finally come home now."
+
+-- L["unlameifier_charms_hl2_melon.printname"] = "Melon"
+-- L["unlameifier_charms_hl2_melon.compactname"] = "Melon"
+-- L["unlameifier_charms_hl2_melon.description"] = "melon :)"
+
+-- L["unlameifier_charms_hl2_science_team.printname"] = "The Science Team"
+-- L["unlameifier_charms_hl2_science_team.compactname"] = "Scientists"
+-- L["unlameifier_charms_hl2_science_team.description"] = "No! I'm with the science team!"
+
+-- L["unlameifier_charms_hl2_traffic_cone.printname"] = "Traffic Cone"
+-- L["unlameifier_charms_hl2_traffic_cone.compactname"] = "Cone"
+-- L["unlameifier_charms_hl2_traffic_cone.description"] = "We used to flip these things off the very edge of the world and slowly crawl our way down to the abyss to see if it landed right side up or not."
+
+-- L["unlameifier_charms_hl2_bucket.printname"] = "The Bucket"
+-- L["unlameifier_charms_hl2_bucket.compactname"] = "Bucket"
+-- L["unlameifier_charms_hl2_bucket.description"] = "The emotional support bucket will join you on your journeys, no matter how grim your situation may be. Stanley Approved."
+
+-- L["unlameifier_charms_hl2_breen_bust.printname"] = "Breen Bust"
+-- L["unlameifier_charms_hl2_breen_bust.compactname"] = "Breen"
+-- L["unlameifier_charms_hl2_breen_bust.description"] = "\"Welcome! Welcome to City 17! You have chosen, or been chosen, to relocate to one of our finest remaining urban centers. I thought so much of City 17 that I elected to establish my administration here, in the Citadel so thoughtfully provided by our benefactors. I've been proud to call City 17 my home. And so, whether you are here to stay, or passing through on your way to parts unknown - welcome to City 17. It's safer here\"."
+
+-- L["unlameifier_charms_hl2_crt.printname"] = "CRT Monitor"
+-- L["unlameifier_charms_hl2_crt.compactname"] = "CRT"
+-- L["unlameifier_charms_hl2_crt.description"] = "Nowadays, we put the monitor down gently to not break the monitor. Back then, we put THESE fuckers down gently to not break the table."
+
+-- L["unlameifier_charms_hl2_paintbucket.printname"] = "Bucket 'o Paint"
+-- L["unlameifier_charms_hl2_paintbucket.compactname"] = "Paint"
+-- L["unlameifier_charms_hl2_paintbucket.description"] = "...don't worry, we all thought the same thing the first time we saw one of these hit the wall."
+
+-- L["unlameifier_charms_hl2_plug.printname"] = "Plug"
+-- L["unlameifier_charms_hl2_plug.compactname"] = "Plug"
+-- L["unlameifier_charms_hl2_plug.description"] = "\"You going to let Gordon throw the switch?\""
+
+-- L["unlameifier_charms_hl2_vending.printname"] = "Vending Machine"
+-- L["unlameifier_charms_hl2_vending.compactname"] = "Vending"
+-- L["unlameifier_charms_hl2_vending.description"] = "\"Don't drink the water. They put something in it to make you forget. I don't even remember how I got here.\""
+
+-- L["unlameifier_charms_hl2_headcrab.printname"] = "Headcrab"
+-- L["unlameifier_charms_hl2_headcrab.compactname"] = "Headcrab"
+-- L["unlameifier_charms_hl2_headcrab.description"] = "\"It's your pet, the freakin' head-humper!\""
+
+-- L["unlameifier_charms_hl2_cheaple.printname"] = "Cheaple"
+-- L["unlameifier_charms_hl2_cheaple.compactname"] = "Cheaple"
+-- L["unlameifier_charms_hl2_cheaple.description"] = "Cheaple, my beloved..."
+
+-- L["unlameifier_charms_hl2_hev.printname"] = "Mk. V Hazardous Environment Suit"
+-- L["unlameifier_charms_hl2_hev.compactname"] = "H.E.V."
+-- L["unlameifier_charms_hl2_hev.description"] = "\"I've made a few modifications, but I'll just acquaint you with the essentials. Now, let's see... The Mark V Hazardous Environment Suit has been redesigned for comfort and utility.\""
+
+-- L["unlameifier_charms_hl2_rollermine.printname"] = "Rollermine"
+-- L["unlameifier_charms_hl2_rollermine.compactname"] = "Rollermine"
+-- L["unlameifier_charms_hl2_rollermine.description"] = "Silly little guys. Fun to throw at people."
+
+-- L["unlameifier_charms_hl2_suitcase.printname"] = "Suitcase"
+-- L["unlameifier_charms_hl2_suitcase.compactname"] = "Suitcase"
+-- L["unlameifier_charms_hl2_suitcase.description"] = "What mysteries lie within this suitcase?"
+
+-- L["unlameifier_charms_hl2_gravity_gun.printname"] = "Gravity Gun"
+-- L["unlameifier_charms_hl2_gravity_gun.compactname"] = "Gravity Gun"
+-- L["unlameifier_charms_hl2_gravity_gun.description"] = "\"Take the Gravity Gun.\""
+
+-- L["unlameifier_charms_hl2_crowbar.printname"] = "Crowbar"
+-- L["unlameifier_charms_hl2_crowbar.compactname"] = "Crowbar"
+-- L["unlameifier_charms_hl2_crowbar.description"] = "\"The right man in the wrong place can make all the difference in the world.\""
+
+-- L["unlameifier_charms_hl2_ravenholm.printname"] = "Ravenholm Sign"
+-- L["unlameifier_charms_hl2_ravenholm.compactname"] = "Ravenholm"
+-- L["unlameifier_charms_hl2_ravenholm.description"] = "Spoiler alert: We went to Ravenholm."
+
+-- L["unlameifier_charms_hl2_medkit.printname"] = "Medkit"
+-- L["unlameifier_charms_hl2_medkit.compactname"] = "Medkit"
+-- L["unlameifier_charms_hl2_medkit.description"] = "\"Here, take this medkit!\""
+
+-- L["unlameifier_charms_hl2_suit_battery.printname"] = "Suit Battery"
+-- L["unlameifier_charms_hl2_suit_battery.compactname"] = "Battery"
+-- L["unlameifier_charms_hl2_suit_battery.description"] = "Makes a cool sound whenever you pick them up. Technically backwards, but this is the COOLER side."
+
+-- L["unlameifier_charms_hl2_item_crate.printname"] = "Item Crate"
+-- L["unlameifier_charms_hl2_item_crate.compactname"] = "Crate"
+-- L["unlameifier_charms_hl2_item_crate.description"] = "Will always have exactly what you need. No, seriously. That is how this thing is coded to work. It checks to see what you need the most. Don't believe me? Try dumping all your ammo on one gun just before smashing one of these guys open!"
+
+//////////////// Developer Stuff
+-- L["unlameifier.folder.charms.dev"] = "Unlameifier/Dev"
+
+-- L["unlameifier_charms_dev_info_player_start.printname"] = "info_player_start"
+-- L["unlameifier_charms_dev_info_player_start.compactname"] = "info_player_start"
+-- L["unlameifier_charms_dev_info_player_start.description"] = "Spawn point in the Hammer Editor."
+
+-- L["unlameifier_charms_dev_error.printname"] = "ERROR"
+-- L["unlameifier_charms_dev_error.compactname"] = "ERROR"
+-- L["unlameifier_charms_dev_error.description"] = "\"F**K! WHY IS CS:S REQUIRED FOR THIS?!\""
+
+-- L["unlameifier_charms_dev_ground_node.printname"] = "Ground Node"
+-- L["unlameifier_charms_dev_ground_node.compactname"] = "Ground Node"
+-- L["unlameifier_charms_dev_ground_node.description"] = "You might want some of these if you want to fight NPCs..."
+
+//////////////// Counter-Strike: Source
+-- L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
+
+local requirescss = "\n\n<color=255,100,100>NOTE</color>: Requires Counter-Strike: Source to be mounted in order to work."
+
+-- L["unlameifier_charms_css_cash.printname"] = "Cold Hard Cash"
+-- L["unlameifier_charms_css_cash.compactname"] = "Cash"
+-- L["unlameifier_charms_css_cash.description"] = "Tons of cold hard cash, perfect for any heister."
+
+-- L["unlameifier_charms_css_snowman.printname"] = "Snowman"
+-- L["unlameifier_charms_css_snowman.compactname"] = "Snowman"
+-- L["unlameifier_charms_css_snowman.description"] = "He's a really chill guy once you get to know him."
+
+-- L["unlameifier_charms_css_coffee_mug.printname"] = "Coffee Mug"
+-- L["unlameifier_charms_css_coffee_mug.compactname"] = "Mug"
+-- L["unlameifier_charms_css_coffee_mug.description"] = "Sleep? What's that?"
+
+-- L["unlameifier_charms_css_fish.printname"] = "Fish"
+-- L["unlameifier_charms_css_fish.compactname"] = "Fish"
+-- L["unlameifier_charms_css_fish.description"] = "Fish."
+
+-- L["unlameifier_charms_css_turtle.printname"] = "Turtle"
+-- L["unlameifier_charms_css_turtle.compactname"] = "Turtle"
+-- L["unlameifier_charms_css_turtle.description"] = "\"I like turtles.\""
+
+-- L["unlameifier_charms_css_c4.printname"] = "C4"
+-- L["unlameifier_charms_css_c4.compactname"] = "C4"
+-- L["unlameifier_charms_css_c4.description"] = "This really is \"the bomb\"."
+
+-- L["unlameifier_charms_css_knife.printname"] = "Knife"
+-- L["unlameifier_charms_css_knife.compactname"] = "Knife"
+-- L["unlameifier_charms_css_knife.description"] = "\"DOOR STUCK! DOOR STUCK!\""
+
+-- L["unlameifier_charms_css_deagle.printname"] = "Deagle"
+-- L["unlameifier_charms_css_deagle.compactname"] = "Deagle"
+-- L["unlameifier_charms_css_deagle.description"] = "Wielded by none other than the legendary Juan Deag himself."
+
+-- L["unlameifier_charms_css_pc.printname"] = "PC"
+-- L["unlameifier_charms_css_pc.compactname"] = "PC"
+-- L["unlameifier_charms_css_pc.description"] = "Aren't you playing on one of these?"
+
+-- L["unlameifier_charms_css_i_hate_skibidi_toilet.printname"] = "Toilet"
+-- L["unlameifier_charms_css_i_hate_skibidi_toilet.compactname"] = "Toilet"
+-- L["unlameifier_charms_css_i_hate_skibidi_toilet.description"] = "I refuse to comment."
+
+-- L["unlameifier_charms_css_keyboard.printname"] = "Keyboard"
+-- L["unlameifier_charms_css_keyboard.compactname"] = "Keyboard"
+-- L["unlameifier_charms_css_keyboard.description"] = "Why call it \"keyboard\" when there's clearly buttons...?"
+
+-- L["unlameifier_charms_css_mouse.printname"] = "Mouse"
+-- L["unlameifier_charms_css_mouse.compactname"] = "Mouse"
+-- L["unlameifier_charms_css_mouse.description"] = "Computer mice were named after actual mice, so \"mice\" should absolutely be the official plural for computer mice. Fight me."
+
+-- L["unlameifier_charms_css_monitor.printname"] = "Monitor"
+-- L["unlameifier_charms_css_monitor.compactname"] = "Monitor"
+-- L["unlameifier_charms_css_monitor.description"] = "Despite the keyring punching right through it, it still works. It's just built different."
+
+-- L["unlameifier_charms_css_cinderblocks.printname"] = "Cinderblocks"
+-- L["unlameifier_charms_css_cinderblocks.compactname"] = "Cinderblocks"
+-- L["unlameifier_charms_css_cinderblocks.description"] = "In theory, this *should* reduce your recoil."
+
+//////////////// Garry's Mod
+-- L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
+
+-- L["unlameifier_charms_gmod_tnt.printname"] = "TNT"
+-- L["unlameifier_charms_gmod_tnt.compactname"] = "TNT"
+-- L["unlameifier_charms_gmod_tnt.description"] = "Use \"Drive\" on the context menu with these guys to make a hilarious prank for your friends."
+
+-- L["unlameifier_charms_gmod_do_not_press.printname"] = "\"DO NOT PRESS\""
+-- L["unlameifier_charms_gmod_do_not_press.compactname"] = "DNP"
+-- L["unlameifier_charms_gmod_do_not_press.description"] = "You're gonna press it, aren't you?"
+
+-- L["unlameifier_charms_gmod_light_switch.printname"] = "Light Switch"
+-- L["unlameifier_charms_gmod_light_switch.compactname"] = "Switch"
+-- L["unlameifier_charms_gmod_light_switch.description"] = "It's turned on..."
+
+-- L["unlameifier_charms_gmod_hoverball.printname"] = "Hoverball"
+-- L["unlameifier_charms_gmod_hoverball.compactname"] = "Hoverball"
+-- L["unlameifier_charms_gmod_hoverball.description"] = "It makes things hover."
+
+-- L["unlameifier_charms_gmod_camera_tool.printname"] = "Camera (Tool)"
+-- L["unlameifier_charms_gmod_camera_tool.compactname"] = "Camera"
+-- L["unlameifier_charms_gmod_camera_tool.description"] = "Camera as seen from the Camera Tool."
+
+-- L["unlameifier_charms_gmod_burger.printname"] = "Burger"
+-- L["unlameifier_charms_gmod_burger.compactname"] = "Burger"
+-- L["unlameifier_charms_gmod_burger.description"] = "mmm yummy burger :)"
+
+-- L["unlameifier_charms_gmod_hotdog.printname"] = "Hotdog"
+-- L["unlameifier_charms_gmod_hotdog.compactname"] = "Hotdog"
+-- L["unlameifier_charms_gmod_hotdog.description"] = "mmm yummy hotdog :)"
+
+//////////////// Team Fortress 2
+-- L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
+
+local requirestf2 = "\n\n<color=255,100,100>NOTE</color>: Requires Team Fortress 2 to be mounted in order to work."
+
+-- L["unlameifier_charms_tf2_spider.printname"] = "Spider"
+-- L["unlameifier_charms_tf2_spider.compactname"] = "Spider"
+-- L["unlameifier_charms_tf2_spider.description"] = "How do I shoot web?"
+
+-- L["unlameifier_charms_tf2_ghost.printname"] = "Ghost"
+-- L["unlameifier_charms_tf2_ghost.compactname"] = "Ghost"
+-- L["unlameifier_charms_tf2_ghost.description"] = "Spook up your gun with a super scary GHOST!!"
+
+-- L["unlameifier_charms_tf2_bat.printname"] = "Bat"
+-- L["unlameifier_charms_tf2_bat.compactname"] = "Bat"
+-- L["unlameifier_charms_tf2_bat.description"] = "Put your gun in its goth phase."
+
+-- L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
+-- L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
+-- L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."

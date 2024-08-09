@@ -17232,7 +17232,7 @@ ATT.Attachments = {
 
 ATT.Ammo = "357round"
 
-ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_9mmround_hls")
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_357round_hls")
 
 ATT = {}
 

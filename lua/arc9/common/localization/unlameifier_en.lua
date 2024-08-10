@@ -2533,3 +2533,74 @@ L["unlameifier_charms_tf2_bat.description"] = "Put your gun in its goth phase."
 L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
 L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
 L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."
+
+//////////////////////////////// unlameifier_tuning_system
+//////////////// Utility
+L["unlameifier.folder.misc"] = "Misc."
+L["unlameifier.folder.misc.function"] = "Misc./Function"
+L["unlameifier.folder.misc.effects"] = "Misc./Effects"
+
+local requireseft = "\n\n<color=255,100,100>NOTE</color>: Requires the \"Escape from Tarkov\" weapons in order to properly function."
+
+L["unlameifier_tuning_force_suppressor_off.printname"] = "Silencer - Force Disable"
+L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Silencer"
+L["unlameifier_tuning_force_suppressor_off.description"] = "Forcefully disables suppressors. Useful if you wish for non-suppressed firing sounds despite using a suppressor."
+
+L["unlameifier_tuning_force_suppressor_on.printname"] = "Silencer - Force Enable"
+L["unlameifier_tuning_force_suppressor_on.compactname"] = "+Silencer"
+L["unlameifier_tuning_force_suppressor_on.description"] = "Forcefully enables suppressors. Useful if you wish for suppressed firing sounds without using a suppressor."
+
+L["unlameifier_tuning_force_muzzleflash_light_on.printname"] = "Muzzle Flash Light - Force Enable"
+L["unlameifier_tuning_force_muzzleflash_light_on.compactname"] = "+Muzzle Light"
+L["unlameifier_tuning_force_muzzleflash_light_on.description"] = "Forcefully enables muzzle flash light effect, even when using a suppressor or muzzle device."
+
+L["unlameifier_tuning_force_muzzleflash_light_off.printname"] = "Muzzle Flash Light - Force Disable"
+L["unlameifier_tuning_force_muzzleflash_light_off.compactname"] = "-Muzzle Light"
+L["unlameifier_tuning_force_muzzleflash_light_off.description"] = "Forcefully disables muzzle flash light effect."
+
+L["unlameifier_tuning_force_muzzleflash_on.printname"] = "Muzzle Flash - Force Enable"
+L["unlameifier_tuning_force_muzzleflash_on.compactname"] = "+Muzzle Flash"
+L["unlameifier_tuning_force_muzzleflash_on.description"] = "Forcefully enables muzzle flashes, even when using a suppressor or muzzle device."
+
+L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Muzzle Flash - Force Disable"
+L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Muzzle Flash"
+L["unlameifier_tuning_force_muzzleflash_off.description"] = "Forcefully disables muzzle flashes."
+
+L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Cycling Half-Life 2 Ammo Types"
+L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "HL2 Ammo Cycle"
+L["unlameifier_tuning_hl2_ammotype_cycle.description"] = [["That thing's a gimmick, sonny".
+
+Allows you to cycle between the Half-Life 2 ammo types using togglestats. Useful for weapon setups that utilize "Vulture Aid" or "Scavenger" perks from the CoD packs. Not recommended for use with other attachments that utilize togglestats, such as laser sights.]]
+
+L["unlameifier_tuning_incendiary_ammo.printname"] = "\"Escape from Tarkov\" Incendiary Ammo"
+L["unlameifier_tuning_incendiary_ammo.compactname"] = "Incendiary"
+L["unlameifier_tuning_incendiary_ammo.description"] = "Forcefully enables incendiary ammunition." .. requireseft
+
+L["unlameifier_tuning_infinite_ammo.printname"] = "Infinite Ammo"
+L["unlameifier_tuning_infinite_ammo.compactname"] = "InfAmmo"
+L["unlameifier_tuning_infinite_ammo.description"] = "Enables Infinite Ammo.\nReloading does not utilize ammunition from reserves."
+
+L["unlameifier_tuning_bottomless_clip.printname"] = "Bottomless Clip"
+L["unlameifier_tuning_bottomless_clip.compactname"] = "Bottomless"
+L["unlameifier_tuning_bottomless_clip.description"] = "Enables Bottomless Clip.\nFiring does not consume ammunition.\n\nYes, I am aware it is called \"MAGAZINE\". This is the internal name. Arctic wrote the function, not me. He does know the difference between the two."
+
+L["unlameifier_tuning_explosive_ammo.printname"] = "High-Explosive Ammo"
+L["unlameifier_tuning_explosive_ammo.compactname"] = "HE Ammo"
+L["unlameifier_tuning_explosive_ammo.description"] = "Bullets explode on contact." .. requireseft
+
+L["unlameifier_tuning_nuke_ammo.printname"] = "Tactical Nuke Ammo"
+L["unlameifier_tuning_nuke_ammo.compactname"] = "Nuke Ammo"
+L["unlameifier_tuning_nuke_ammo.description"] = "Bullets explode on contact.\nRequires a <color=175,255,255>25 Killstreak</color>." .. requireseft
+
+//////////////// Stats
+L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
+
+L["unlameifier_tuning_system.printname"] = "Enable Tuning"
+L["unlameifier_tuning_system.compactname"] = "Tuning"
+L["unlameifier_tuning_system.description"] = [[Allows you to fine-tune the statistics of your weapon in incremental values to make it behave the way you desire. You can equip this in any order, as the tuning slots will be at the very end of your custom slot stack. <color=255,255,0>For the sake of visual sanity, these subslots will NOT appear in the 3D interface.</color>
+
+<color=255,0,0>WARNING.</color> THIS CAN BE USED TO MAKE SUPER-ULTRA POWERFUL CHEAT WEAPONS. There are no restrictions as to what this can do, so if you are a server owner be certain to disable this attachment if you do not want players to have this function. While there are functions to make attachments only available to server administrators, Unlameifier was not made with Multiplayer in mind and therefore will not have this restriction.
+
+if you play darkrp, please uninstall Garry's Mod and go outside. Thank you.
+
+oh and, if you're looking to disable this attachment, it is internally named "unlameifier_tuning_system"]]

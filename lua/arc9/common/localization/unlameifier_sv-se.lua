@@ -2211,3 +2211,74 @@ L["unlameifier_charms_tf2_bat.description"] = "Få ditt vapen in i dess goth-fas
 L["unlameifier_charms_tf2_jackolantern.printname"] = "Halloweenpumpa"
 L["unlameifier_charms_tf2_jackolantern.compactname"] = "Halloween."
 L["unlameifier_charms_tf2_jackolantern.description"] = "Jack kunde luras så väl att djävulen själv inte bara blev lurad av Jack en gång, men två gånger."
+
+//////////////////////////////// unlameifier_tuning_system
+//////////////// Utility
+L["unlameifier.folder.misc"] = "Annat"
+L["unlameifier.folder.misc.function"] = "Annat/Funktion"
+L["unlameifier.folder.misc.effects"] = "Annat/Effekter"
+
+local requireseft = "\n\n<color=255,100,100>NOTERA</color>: Kräver \"Escape from Tarkov\"-vapen för att kunna fungera korrekt."
+
+L["unlameifier_tuning_force_suppressor_off.printname"] = "Ljuddämpare - Tvinga AV"
+L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Ljuddämpare"
+L["unlameifier_tuning_force_suppressor_off.description"] = "Tvingar AV ljuddämpare. Användbar ifall du vill ha icke-ljuddämpade skottljud trots att du inte använder en ljuddämpare."
+
+L["unlameifier_tuning_force_suppressor_on.printname"] = "Ljuddämpare - Tvinga PÅ"
+L["unlameifier_tuning_force_suppressor_on.compactname"] = "+Ljuddämpare"
+L["unlameifier_tuning_force_suppressor_on.description"] = "Tvingar PÅ ljuddämpare. Användbar ifall du vill ha ljuddämpade skottljud utan att behöva en ljuddämpare."
+
+L["unlameifier_tuning_force_muzzleflash_light_on.printname"] = "Mynningsljus - Tvinga PÅ"
+L["unlameifier_tuning_force_muzzleflash_light_on.compactname"] = "+Mynningsljus"
+L["unlameifier_tuning_force_muzzleflash_light_on.description"] = "Tvingar PÅ mynningsljuseffekten, även när du använder en ljuddämpare eller mynningsenhet."
+
+L["unlameifier_tuning_force_muzzleflash_light_off.printname"] = "Mynningsljus - Tvinga AV"
+L["unlameifier_tuning_force_muzzleflash_light_off.compactname"] = "-Mynningsljus"
+L["unlameifier_tuning_force_muzzleflash_light_off.description"] = "Tvingar AV mynningsljuseffekten."
+
+L["unlameifier_tuning_force_muzzleflash_on.printname"] = "Mynningseld - Tvinga PÅ"
+L["unlameifier_tuning_force_muzzleflash_on.compactname"] = "+Mynningseld"
+L["unlameifier_tuning_force_muzzleflash_on.description"] = "Tvingar PÅ mynningselden, även när du använder en ljuddämpare eller mynningsenhet."
+
+L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Mynningseld - Tvinga AV"
+L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Mynningseld"
+L["unlameifier_tuning_force_muzzleflash_off.description"] = "Tvingar AV mynningselden."
+
+L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Växlande Half-Life 2 Ammunition"
+L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "HL2 Växelammo"
+L["unlameifier_tuning_hl2_ammotype_cycle.description"] = [["That thing's a gimmick, sonny".
+
+Låter dig växla mellan alla ammunitionstyper från Half-Life 2 via togglestats. Användbar för vapen som använder "Vulture Aid"- eller "Scavenger"-tillbehören från CoD-tilläggen. Ej rekommenderat med andra tillbehör som använder togglestats, exempelvis lasersikten.]]
+
+L["unlameifier_tuning_incendiary_ammo.printname"] = "\"Escape from Tarkov\" Brandammo"
+L["unlameifier_tuning_incendiary_ammo.compactname"] = "Brand"
+L["unlameifier_tuning_incendiary_ammo.description"] = "Tvingar PÅ brandammo." .. requireseft
+
+L["unlameifier_tuning_infinite_ammo.printname"] = "Oändlig Ammo"
+L["unlameifier_tuning_infinite_ammo.compactname"] = "OändligAmmo"
+L["unlameifier_tuning_infinite_ammo.description"] = "Aktiverar Oändlig Ammo.\nOmladdning använder ej ammunition från reserv."
+
+L["unlameifier_tuning_bottomless_clip.printname"] = "Bottenlöst Magasin"
+L["unlameifier_tuning_bottomless_clip.compactname"] = "Bottenlös"
+L["unlameifier_tuning_bottomless_clip.description"] = "Aktiverar Bottenlöst Magasin.\nEld kommer inte kosta ammunition."
+
+L["unlameifier_tuning_explosive_ammo.printname"] = "Splitterammo"
+L["unlameifier_tuning_explosive_ammo.compactname"] = "Splitterammo"
+L["unlameifier_tuning_explosive_ammo.description"] = "Skott exploderar vid kontakt." .. requireseft
+
+L["unlameifier_tuning_nuke_ammo.printname"] = "\"Tactical Nuke\"-Ammo"
+L["unlameifier_tuning_nuke_ammo.compactname"] = "Nuke-Ammo"
+L["unlameifier_tuning_nuke_ammo.description"] = "Skott exploderar vid kontakt.\nKräver en <color=175,255,255>25 Mördarserie</color>." .. requireseft
+
+//////////////// Stats
+L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
+
+L["unlameifier_tuning_system.printname"] = "Aktivera Anpassning"
+L["unlameifier_tuning_system.compactname"] = "Anpassning"
+L["unlameifier_tuning_system.description"] = [[Tillåter dig att finjustera ditt vapens statistik i stegvisa värden för att få den att bete exakt som du vill. Du kan utrusta dem i vilken ordning som helst, då anpassningsplatser kommer vara vid slutet av dem utrustade platserna. <color=255,255,0>För att inte orsaka visuella problem så visas dessa underplatser EJ i 3D-vyn.</color>
+
+<color=255,0,0>VARNING.</color> DETTA KAN ANVÄNDAS FÖR ATT SKAPA SUPER-ULTRA KRAFTFULLA FUSKVAPEN. Det finns inga begränsningar på vad detta kan utföra, så om du är en server ägare, var säker på att du avaktiverar detta tillbehör ifall du inte vill att spelare ska få lov att använda denna funktion. Medans det finns funktioner som gör att tillbehör endast är tillgängliga till administratörer så är Unlameifier ej gjort för flerspelareläget, och kanske inte har denna begränsning.
+
+om du spelar darkrp, vänligen avinstallera Garry's Mod och gå utomhus. Tack.
+
+Ah, och ifall du vill avaktivera detta tillbehör så har det interna namnet "unlameifier_tuning_system"]]

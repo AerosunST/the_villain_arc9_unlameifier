@@ -1784,6 +1784,199 @@ L["unlameifier.fo76.rpm.660"] = string.format(fo76loop, 660)
 L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
+//////////////// Battlefield 2
+L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Ljudmodd/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Ljudmodd/BF2/Fordon"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Ljudmodd/BF2/Stationär"
+
+L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Ljudmodd/Swing/BF2"
+
+local bf2nosupp = "\n\n<color=255,150,150>Notera</color>: Har ej ljuddämpade ljud."
+
+L["unlameifier_sound_bf2_beretta92.printname"] = "92FS"
+L["unlameifier_sound_bf2_beretta92.compactname"] = "92FS"
+L["unlameifier_sound_bf2_beretta92.description"] = "Ersätter skottljuden med dem från 92FS från Battlefield 2."
+
+L["unlameifier_sound_bf2_ak47.printname"] = "AK-47"
+L["unlameifier_sound_bf2_ak47.compactname"] = "AK-47"
+L["unlameifier_sound_bf2_ak47.description"] = "Ersätter skottljuden med dem från AK-47 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_ak74u.printname"] = "AK-74U"
+L["unlameifier_sound_bf2_ak74u.compactname"] = "AK-74U"
+L["unlameifier_sound_bf2_ak74u.description"] = "Ersätter skottljuden med dem från AK-74U från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_bageera.printname"] = "MR-444"
+L["unlameifier_sound_bf2_bageera.compactname"] = "MR-444"
+L["unlameifier_sound_bf2_bageera.description"] = "Ersätter skottljuden med dem från MR-444 från Battlefield 2."
+
+L["unlameifier_sound_bf2_barret95.printname"] = "M95"
+L["unlameifier_sound_bf2_barret95.compactname"] = "M95"
+L["unlameifier_sound_bf2_barret95.description"] = "Ersätter skottljuden med dem från M95 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_bizon.printname"] = "PP-19"
+L["unlameifier_sound_bf2_bizon.compactname"] = "PP-19"
+L["unlameifier_sound_bf2_bizon.description"] = "Ersätter skottljuden med dem från PP-19 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_zipline.printname"] = "Armborst"
+L["unlameifier_sound_bf2_zipline.compactname"] = "Armborst"
+L["unlameifier_sound_bf2_zipline.description"] = "Ersätter skottljuden med dem från Armborsten från Battlefield 2: Special Forces." .. bf2nosupp
+
+L["unlameifier_sound_bf2_dragunov.printname"] = "SVD"
+L["unlameifier_sound_bf2_dragunov.compactname"] = "SVD"
+L["unlameifier_sound_bf2_dragunov.description"] = "Ersätter skottljuden med dem från SVD från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_eryx.printname"] = "Eryx"
+L["unlameifier_sound_bf2_eryx.compactname"] = "Eryx"
+L["unlameifier_sound_bf2_eryx.description"] = "Ersätter skottljuden med dem från Eryx från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_famas.printname"] = "FAMAS"
+L["unlameifier_sound_bf2_famas.compactname"] = "FAMAS"
+L["unlameifier_sound_bf2_famas.description"] = "Ersätter skottljuden med dem från FAMAS från Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type95mg.printname"] = "Modell 95"
+L["unlameifier_sound_bf2_type95mg.compactname"] = "Modell 95"
+L["unlameifier_sound_bf2_type95mg.description"] = "Ersätter skottljuden med dem från Modell 95 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_predator.printname"] = "SRAW"
+L["unlameifier_sound_bf2_predator.compactname"] = "SRAW"
+L["unlameifier_sound_bf2_predator.description"] = "Ersätter skottljuden med dem från SRAW från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fn2000.printname"] = "F2000"
+L["unlameifier_sound_bf2_fn2000.compactname"] = "F2000"
+L["unlameifier_sound_bf2_fn2000.description"] = "Ersätter skottljuden med dem från F2000 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fnp90.printname"] = "P90"
+L["unlameifier_sound_bf2_fnp90.compactname"] = "P90"
+L["unlameifier_sound_bf2_fnp90.description"] = "Ersätter skottljuden med dem från P90 från Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_g3a2.printname"] = "G3"
+L["unlameifier_sound_bf2_g3a2.compactname"] = "G3"
+L["unlameifier_sound_bf2_g3a2.description"] = "Ersätter skottljuden med dem från G3 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_g36k.printname"] = "G36K"
+L["unlameifier_sound_bf2_g36k.compactname"] = "G36K"
+L["unlameifier_sound_bf2_g36k.description"] = "Ersätter skottljuden med dem från G36K från Battlefield 2: Special Forces." .. bf2nosupp
+
+L["unlameifier_sound_bf2_g36c.printname"] = "G36C"
+L["unlameifier_sound_bf2_g36c.compactname"] = "G36C"
+L["unlameifier_sound_bf2_g36c.description"] = "Ersätter skottljuden med dem från G36C från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_ak101.printname"] = "AK-101"
+L["unlameifier_sound_bf2_ak101.compactname"] = "AK-101"
+L["unlameifier_sound_bf2_ak101.description"] = "Ersätter skottljuden med dem från AK-101 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_hk21.printname"] = "HK21"
+L["unlameifier_sound_bf2_hk21.compactname"] = "HK21"
+L["unlameifier_sound_bf2_hk21.description"] = "Ersätter skottljuden med dem från HK21 från Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_hk53a3.printname"] = "HK53A3"
+L["unlameifier_sound_bf2_hk53a3.compactname"] = "HK53A3"
+L["unlameifier_sound_bf2_hk53a3.description"] = "Ersätter skottljuden med dem från HK53A3 från Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_jackhammer.printname"] = "MK3A1"
+L["unlameifier_sound_bf2_jackhammer.compactname"] = "MK3A1"
+L["unlameifier_sound_bf2_jackhammer.description"] = "Ersätter skottljuden med dem från MK3A1 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_knife_swing.printname"] = "Kniv"
+L["unlameifier_sound_bf2_knife_swing.compactname"] = "Kniv"
+L["unlameifier_sound_bf2_knife_swing.description"] = "Ersätter svingljuden med närstridsvapen med dem från Kniven från Battlefield 2."
+
+L["unlameifier_sound_bf2_l96a1.printname"] = "L96A1"
+L["unlameifier_sound_bf2_l96a1.compactname"] = "L96A1"
+L["unlameifier_sound_bf2_l96a1.description"] = "Ersätter skottljuden med dem från L96A1 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_benelli_m4.printname"] = "BENELLI M4"
+L["unlameifier_sound_bf2_benelli_m4.compactname"] = "BENELLI"
+L["unlameifier_sound_bf2_benelli_m4.description"] = "Ersätter skottljuden med dem från BENELLI M4 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m4.printname"] = "M4"
+L["unlameifier_sound_bf2_m4.compactname"] = "M4"
+L["unlameifier_sound_bf2_m4.description"] = "Ersätter skottljuden med dem från M4 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m16a2.printname"] = "M16A2"
+L["unlameifier_sound_bf2_m16a2.compactname"] = "M16A2"
+L["unlameifier_sound_bf2_m16a2.description"] = "Ersätter skottljuden med dem från M16A2 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m24.printname"] = "M24"
+L["unlameifier_sound_bf2_m24.compactname"] = "M24"
+L["unlameifier_sound_bf2_m24.description"] = "Ersätter skottljuden med dem från M24 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m203.printname"] = "M203"
+L["unlameifier_sound_bf2_m203.compactname"] = "M203"
+L["unlameifier_sound_bf2_m203.description"] = "Ersätter skottljuden med dem från M203 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m249.printname"] = "M249 SAW"
+L["unlameifier_sound_bf2_m249.compactname"] = "M249"
+L["unlameifier_sound_bf2_m249.description"] = "Ersätter skottljuden med dem från M249 SAW från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_mg36.printname"] = "MG36"
+L["unlameifier_sound_bf2_mg36.compactname"] = "MG36"
+L["unlameifier_sound_bf2_mg36.description"] = "Ersätter skottljuden med dem från MG36 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_mp5.printname"] = "MP5"
+L["unlameifier_sound_bf2_mp5.compactname"] = "MP5"
+L["unlameifier_sound_bf2_mp5.description"] = "Ersätter skottljuden med dem från MP5 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_mp7.printname"] = "MP7"
+L["unlameifier_sound_bf2_mp7.compactname"] = "MP7"
+L["unlameifier_sound_bf2_mp7.description"] = "Ersätter skottljuden med dem från MP7 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_norinco982.printname"] = "NOR982"
+L["unlameifier_sound_bf2_norinco982.compactname"] = "NOR982"
+L["unlameifier_sound_bf2_norinco982.description"] = "Ersätter skottljuden med dem från NOR982 från Battlefield 2. Notera att ljuden har inbyggda pumprepeter ljud som jag inte orkade ta bort. Stäm mig." .. bf2nosupp
+
+L["unlameifier_sound_bf2_pkm.printname"] = "PKM"
+L["unlameifier_sound_bf2_pkm.compactname"] = "PKM"
+L["unlameifier_sound_bf2_pkm.description"] = "Ersätter skottljuden med dem från PKM från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_protecta.printname"] = "DAO-12"
+L["unlameifier_sound_bf2_protecta.compactname"] = "DAO-12"
+L["unlameifier_sound_bf2_protecta.description"] = "Ersätter skottljuden med dem från DAO-12 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_qsz92.printname"] = "QSZ-92"
+L["unlameifier_sound_bf2_qsz92.compactname"] = "QSZ-92"
+L["unlameifier_sound_bf2_qsz92.description"] = "Ersätter skottljuden med dem från QSZ-92 från Battlefield 2."
+
+L["unlameifier_sound_bf2_remington1187.printname"] = "M11-87"
+L["unlameifier_sound_bf2_remington1187.compactname"] = "M11-87"
+L["unlameifier_sound_bf2_remington1187.description"] = "Ersätter skottljuden med dem från M11-87 från Battlefield 2. Notera att ljuden har inbyggda pumprepeter ljud som jag inte orkade ta bort. Stäm mig." .. bf2nosupp
+
+L["unlameifier_sound_bf2_rpk74.printname"] = "RPK-74"
+L["unlameifier_sound_bf2_rpk74.compactname"] = "RPK-74"
+L["unlameifier_sound_bf2_rpk74.description"] = "Ersätter skottljuden med dem från RPK-74 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_sa80.printname"] = "L85A1"
+L["unlameifier_sound_bf2_sa80.compactname"] = "L85A1"
+L["unlameifier_sound_bf2_sa80.description"] = "Ersätter skottljuden med dem från L85A1 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_sa80a2.printname"] = "L85A2"
+L["unlameifier_sound_bf2_sa80a2.compactname"] = "L85A2"
+L["unlameifier_sound_bf2_sa80a2.description"] = "Ersätter skottljuden med dem från L85A2 från Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_saiga12.printname"] = "S12K"
+L["unlameifier_sound_bf2_saiga12.compactname"] = "S12K"
+L["unlameifier_sound_bf2_saiga12.description"] = "Ersätter skottljuden med dem från S12K från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fnscarh.printname"] = "SCAR-H"
+L["unlameifier_sound_bf2_fnscarh.compactname"] = "SCAR-H"
+L["unlameifier_sound_bf2_fnscarh.description"] = "Ersätter skottljuden med dem från SCAR-H från Battlefield 2: Special Forces." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fnscarl.printname"] = "SCAR-L"
+L["unlameifier_sound_bf2_fnscarl.compactname"] = "SCAR-L"
+L["unlameifier_sound_bf2_fnscarl.description"] = "Ersätter skottljuden med dem från SCAR-L från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type85.printname"] = "Modell 85"
+L["unlameifier_sound_bf2_type85.compactname"] = "Modell 85"
+L["unlameifier_sound_bf2_type85.description"] = "Ersätter skottljuden med dem från Modell 85 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type88.printname"] = "Modell 88"
+L["unlameifier_sound_bf2_type88.compactname"] = "Modell 88"
+L["unlameifier_sound_bf2_type88.description"] = "Ersätter skottljuden med dem från Modell 88 från Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type95.printname"] = "QBZ-97"
+L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
+L["unlameifier_sound_bf2_type95.description"] = "Ersätter skottljuden med dem från QBZ-97 från Battlefield 2." .. bf2nosupp
+
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"

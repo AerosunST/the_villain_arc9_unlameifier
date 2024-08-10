@@ -1780,6 +1780,199 @@ L["unlameifier.fo76.rpm.660"] = string.format(fo76loop, 660)
 L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
+//////////////// Battlefield 2
+-- L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Sound Mods/BF2"
+-- L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Sound Mods/BF2/Vehicle"
+-- L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sound Mods/BF2/Stationary"
+
+-- L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sound Mods/Swing/BF2"
+
+local bf2nosupp = "\n\n<color=255,150,150>Note</color>: Does not have suppressed sounds."
+
+L["unlameifier_sound_bf2_beretta92.printname"] = "92FS"
+L["unlameifier_sound_bf2_beretta92.compactname"] = "92FS"
+-- L["unlameifier_sound_bf2_beretta92.description"] = "Changes the firing sound of the weapon to the 92FS from Battlefield 2."
+
+L["unlameifier_sound_bf2_ak47.printname"] = "AK-47"
+L["unlameifier_sound_bf2_ak47.compactname"] = "AK-47"
+-- L["unlameifier_sound_bf2_ak47.description"] = "Changes the firing sound of the weapon to the AK-47 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_ak74u.printname"] = "AK-74U"
+L["unlameifier_sound_bf2_ak74u.compactname"] = "AK-74U"
+-- L["unlameifier_sound_bf2_ak74u.description"] = "Changes the firing sound of the weapon to the AK-74U from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_bageera.printname"] = "MR-444"
+L["unlameifier_sound_bf2_bageera.compactname"] = "MR-444"
+-- L["unlameifier_sound_bf2_bageera.description"] = "Changes the firing sound of the weapon to the MR-444 from Battlefield 2."
+
+L["unlameifier_sound_bf2_barret95.printname"] = "M95"
+L["unlameifier_sound_bf2_barret95.compactname"] = "M95"
+-- L["unlameifier_sound_bf2_barret95.description"] = "Changes the firing sound of the weapon to the M95 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_bizon.printname"] = "PP-19"
+L["unlameifier_sound_bf2_bizon.compactname"] = "PP-19"
+-- L["unlameifier_sound_bf2_bizon.description"] = "Changes the firing sound of the weapon to the PP-19 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_zipline.printname"] = "석궁"
+L["unlameifier_sound_bf2_zipline.compactname"] = "석궁"
+-- L["unlameifier_sound_bf2_zipline.description"] = "Changes the firing sound of the weapon to the Crossbow from Battlefield 2: Special Forces." .. bf2nosupp
+
+L["unlameifier_sound_bf2_dragunov.printname"] = "SVD"
+L["unlameifier_sound_bf2_dragunov.compactname"] = "SVD"
+-- L["unlameifier_sound_bf2_dragunov.description"] = "Changes the firing sound of the weapon to the SVD from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_eryx.printname"] = "Eryx"
+L["unlameifier_sound_bf2_eryx.compactname"] = "Eryx"
+-- L["unlameifier_sound_bf2_eryx.description"] = "Changes the firing sound of the weapon to the Eryx from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_famas.printname"] = "FAMAS"
+L["unlameifier_sound_bf2_famas.compactname"] = "FAMAS"
+-- L["unlameifier_sound_bf2_famas.description"] = "Changes the firing sound of the weapon to the FAMAS from Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type95mg.printname"] = "Type 95"
+L["unlameifier_sound_bf2_type95mg.compactname"] = "Type 95"
+-- L["unlameifier_sound_bf2_type95mg.description"] = "Changes the firing sound of the weapon to the Type 95 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_predator.printname"] = "SRAW"
+L["unlameifier_sound_bf2_predator.compactname"] = "SRAW"
+-- L["unlameifier_sound_bf2_predator.description"] = "Changes the firing sound of the weapon to the SRAW from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fn2000.printname"] = "F2000"
+L["unlameifier_sound_bf2_fn2000.compactname"] = "F2000"
+-- L["unlameifier_sound_bf2_fn2000.description"] = "Changes the firing sound of the weapon to the F2000 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fnp90.printname"] = "P90"
+L["unlameifier_sound_bf2_fnp90.compactname"] = "P90"
+-- L["unlameifier_sound_bf2_fnp90.description"] = "Changes the firing sound of the weapon to the P90 from Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_g3a2.printname"] = "G3"
+L["unlameifier_sound_bf2_g3a2.compactname"] = "G3"
+-- L["unlameifier_sound_bf2_g3a2.description"] = "Changes the firing sound of the weapon to the G3 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_g36k.printname"] = "G36K"
+L["unlameifier_sound_bf2_g36k.compactname"] = "G36K"
+-- L["unlameifier_sound_bf2_g36k.description"] = "Changes the firing sound of the weapon to the G36K from Battlefield 2: Special Forces." .. bf2nosupp
+
+L["unlameifier_sound_bf2_g36c.printname"] = "G36C"
+L["unlameifier_sound_bf2_g36c.compactname"] = "G36C"
+-- L["unlameifier_sound_bf2_g36c.description"] = "Changes the firing sound of the weapon to the G36C from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_ak101.printname"] = "AK-101"
+L["unlameifier_sound_bf2_ak101.compactname"] = "AK-101"
+-- L["unlameifier_sound_bf2_ak101.description"] = "Changes the firing sound of the weapon to the AK-101 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_hk21.printname"] = "HK21"
+L["unlameifier_sound_bf2_hk21.compactname"] = "HK21"
+-- L["unlameifier_sound_bf2_hk21.description"] = "Changes the firing sound of the weapon to the HK21 from Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_hk53a3.printname"] = "HK53A3"
+L["unlameifier_sound_bf2_hk53a3.compactname"] = "HK53A3"
+-- L["unlameifier_sound_bf2_hk53a3.description"] = "Changes the firing sound of the weapon to the HK53A3 from Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_jackhammer.printname"] = "MK3A1"
+L["unlameifier_sound_bf2_jackhammer.compactname"] = "MK3A1"
+-- L["unlameifier_sound_bf2_jackhammer.description"] = "Changes the firing sound of the weapon to the MK3A1 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_knife_swing.printname"] = "컴뱃나이프"
+L["unlameifier_sound_bf2_knife_swing.compactname"] = "컴뱃나이프"
+-- L["unlameifier_sound_bf2_knife_swing.description"] = "Changes the melee swing sound of the weapon to the Knife from Battlefield 2."
+
+L["unlameifier_sound_bf2_l96a1.printname"] = "L96A1"
+L["unlameifier_sound_bf2_l96a1.compactname"] = "L96A1"
+-- L["unlameifier_sound_bf2_l96a1.description"] = "Changes the firing sound of the weapon to the L96A1 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_benelli_m4.printname"] = "BENELLI M4"
+L["unlameifier_sound_bf2_benelli_m4.compactname"] = "BENELLI"
+-- L["unlameifier_sound_bf2_benelli_m4.description"] = "Changes the firing sound of the weapon to the BENELLI M4 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m4.printname"] = "M4"
+L["unlameifier_sound_bf2_m4.compactname"] = "M4"
+-- L["unlameifier_sound_bf2_m4.description"] = "Changes the firing sound of the weapon to the M4 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m16a2.printname"] = "M16A2"
+L["unlameifier_sound_bf2_m16a2.compactname"] = "M16A2"
+-- L["unlameifier_sound_bf2_m16a2.description"] = "Changes the firing sound of the weapon to the M16A2 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m24.printname"] = "M24"
+L["unlameifier_sound_bf2_m24.compactname"] = "M24"
+-- L["unlameifier_sound_bf2_m24.description"] = "Changes the firing sound of the weapon to the M24 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m203.printname"] = "M203"
+L["unlameifier_sound_bf2_m203.compactname"] = "M203"
+-- L["unlameifier_sound_bf2_m203.description"] = "Changes the firing sound of the weapon to the M203 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_m249.printname"] = "M249 SAW"
+L["unlameifier_sound_bf2_m249.compactname"] = "M249"
+-- L["unlameifier_sound_bf2_m249.description"] = "Changes the firing sound of the weapon to the M249 SAW from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_mg36.printname"] = "MG36"
+L["unlameifier_sound_bf2_mg36.compactname"] = "MG36"
+-- L["unlameifier_sound_bf2_mg36.description"] = "Changes the firing sound of the weapon to the MG36 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_mp5.printname"] = "MP5"
+L["unlameifier_sound_bf2_mp5.compactname"] = "MP5"
+-- L["unlameifier_sound_bf2_mp5.description"] = "Changes the firing sound of the weapon to the MP5 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_mp7.printname"] = "MP7"
+L["unlameifier_sound_bf2_mp7.compactname"] = "MP7"
+-- L["unlameifier_sound_bf2_mp7.description"] = "Changes the firing sound of the weapon to the MP7 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_norinco982.printname"] = "NOR982"
+L["unlameifier_sound_bf2_norinco982.compactname"] = "NOR982"
+-- L["unlameifier_sound_bf2_norinco982.description"] = "Changes the firing sound of the weapon to the NOR982 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+
+L["unlameifier_sound_bf2_pkm.printname"] = "PKM"
+L["unlameifier_sound_bf2_pkm.compactname"] = "PKM"
+-- L["unlameifier_sound_bf2_pkm.description"] = "Changes the firing sound of the weapon to the PKM from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_protecta.printname"] = "DAO-12"
+L["unlameifier_sound_bf2_protecta.compactname"] = "DAO-12"
+-- L["unlameifier_sound_bf2_protecta.description"] = "Changes the firing sound of the weapon to the DAO-12 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_qsz92.printname"] = "QSZ-92"
+L["unlameifier_sound_bf2_qsz92.compactname"] = "QSZ-92"
+-- L["unlameifier_sound_bf2_qsz92.description"] = "Changes the firing sound of the weapon to the QSZ-92 from Battlefield 2."
+
+L["unlameifier_sound_bf2_remington1187.printname"] = "M11-87"
+L["unlameifier_sound_bf2_remington1187.compactname"] = "M11-87"
+-- L["unlameifier_sound_bf2_remington1187.description"] = "Changes the firing sound of the weapon to the M11-87 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+
+L["unlameifier_sound_bf2_rpk74.printname"] = "RPK-74"
+L["unlameifier_sound_bf2_rpk74.compactname"] = "RPK-74"
+-- L["unlameifier_sound_bf2_rpk74.description"] = "Changes the firing sound of the weapon to the RPK-74 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_sa80.printname"] = "L85A1"
+L["unlameifier_sound_bf2_sa80.compactname"] = "L85A1"
+-- L["unlameifier_sound_bf2_sa80.description"] = "Changes the firing sound of the weapon to the L85A1 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_sa80a2.printname"] = "L85A2"
+L["unlameifier_sound_bf2_sa80a2.compactname"] = "L85A2"
+-- L["unlameifier_sound_bf2_sa80a2.description"] = "Changes the firing sound of the weapon to the L85A2 from Battlefield 2: Euro Force." .. bf2nosupp
+
+L["unlameifier_sound_bf2_saiga12.printname"] = "S12K"
+L["unlameifier_sound_bf2_saiga12.compactname"] = "S12K"
+-- L["unlameifier_sound_bf2_saiga12.description"] = "Changes the firing sound of the weapon to the S12K from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fnscarh.printname"] = "SCAR-H"
+L["unlameifier_sound_bf2_fnscarh.compactname"] = "SCAR-H"
+-- L["unlameifier_sound_bf2_fnscarh.description"] = "Changes the firing sound of the weapon to the SCAR-H from Battlefield 2: Special Forces." .. bf2nosupp
+
+L["unlameifier_sound_bf2_fnscarl.printname"] = "SCAR-L"
+L["unlameifier_sound_bf2_fnscarl.compactname"] = "SCAR-L"
+-- L["unlameifier_sound_bf2_fnscarl.description"] = "Changes the firing sound of the weapon to the SCAR-L from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type85.printname"] = "Type 85"
+L["unlameifier_sound_bf2_type85.compactname"] = "Type 85"
+-- L["unlameifier_sound_bf2_type85.description"] = "Changes the firing sound of the weapon to the Type 85 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type88.printname"] = "Type 88"
+L["unlameifier_sound_bf2_type88.compactname"] = "Type 88"
+-- L["unlameifier_sound_bf2_type88.description"] = "Changes the firing sound of the weapon to the Type 88 from Battlefield 2." .. bf2nosupp
+
+L["unlameifier_sound_bf2_type95.printname"] = "QBZ-97"
+L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
+-- L["unlameifier_sound_bf2_type95.description"] = "Changes the firing sound of the weapon to the QBZ-97 from Battlefield 2." .. bf2nosupp
+
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"

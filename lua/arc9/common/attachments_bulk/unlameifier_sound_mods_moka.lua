@@ -2769,3 +2769,876 @@ ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "winger_shoot.wav",
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_winger")
+
+// ////////// Battlefield 2, Handheld //////////
+local gsp = "arc9/unlameifier/soundmods/bf2/"
+
+ATT.PrintName = "92FS"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+local gssf = gsp .. "92fs_fire_1p_outdoor.ogg"
+local gssfs = gsp .. "uspis_92fs_silencer_1p_fire.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssfs
+ATT.ShootSoundSilencedIndoor = gssfs
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_beretta92")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "AK-47"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "AK47_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_ak47")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "AK-74U"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "AK74u_fire_1p_Outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_ak74u")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "MR-444"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "Baghira_fire_1p_outdoor.ogg"
+gssfs = gsp .. "BaghiraS_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssfs
+ATT.ShootSoundSilencedIndoor = gssfs
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_bageera")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M95"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "Barrett_1p_fire.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_barret95")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "PP-19"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "Bizon_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_bizon")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Crossbow"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "crossbow_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_zipline")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "SVD"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "Dragunov_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_dragunov")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Eryx"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "Eryx_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_eryx")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "FAMAS"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "famas_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_famas")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Type 95"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "famas_mg_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_type95mg")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "SRAW"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_predator")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "F2000"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "fn_2000_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_fn2000")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "P90"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "fnp90_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_fnp90")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "G3"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "g3a2_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_g3a2")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "G36K"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "g36_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_g36k")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "G36C"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "g36c_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_g36c")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "AK-101"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "gp30_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_ak101")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "HK21"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "hk21_1st.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_hk21")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "HK53A3"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "hk53a3_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_hk53a3")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "MK3A1"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "jackhammer_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_jackhammer")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Knife"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.melee.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "knife_fire.ogg"
+
+ATT.MeleeSwingSound = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_knife_swing")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "L96A1"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "l96a1_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_l96a1")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Benelli M4"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "m4_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_benelli_m4")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M4"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "m4_fire_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_m4")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M16A2"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "m16_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_m16a2")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M24"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "m24_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_m24")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M203"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "m203_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_m203")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M249 SAW"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "m249_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_m249")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "MG36"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "mg_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_mg36")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "MP5"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "mp5_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_mp5")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "MP7"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "mp37_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_mp7")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "NOR982"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "norinco_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_norinco982")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "PKM"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "pkm_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_pkm")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "DAO-12"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "protecta_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_protecta")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "QSZ-92"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "qsz92_fire_1p_outdoor.ogg"
+gssfs = gsp .. "qsz92s_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssfs
+ATT.ShootSoundSilencedIndoor = gssfs
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_qsz92")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "M11-87"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "remington_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_remington1187")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "RPK-74"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "rpk74_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_rpk74")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "L85A1"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "sa80_1p_fire.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_sa80")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "L85A2"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "sa80a2_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_sa80a2")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "S12K"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "saiga_fire_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_saiga12")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "SCAR-H"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "scar_h_1p_fire.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_fnscarh")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "SCAR-L"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "scar_l_1p_fire.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_fnscarl")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Type 85"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "type85_1p.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_type85")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Type 88"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "type88_fire_1p_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_type88")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "QBZ-97"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
+
+table.Merge(ATT, sharedcode)
+
+gssf = gsp .. "type95_1p_fire_outdoor.ogg"
+
+ATT.ShootSound = gssf
+ATT.ShootSoundIndoor = gssf
+ATT.ShootSoundSilenced = gssf
+ATT.ShootSoundSilencedIndoor = gssf
+ATT.InstallSound = gssf
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_type95")

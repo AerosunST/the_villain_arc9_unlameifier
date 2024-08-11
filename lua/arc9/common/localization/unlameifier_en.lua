@@ -2590,7 +2590,7 @@ L["unlameifier_tuning_explosive_ammo.description"] = "Bullets explode on contact
 
 L["unlameifier_tuning_nuke_ammo.printname"] = "Tactical Nuke Ammo"
 L["unlameifier_tuning_nuke_ammo.compactname"] = "Nuke Ammo"
-L["unlameifier_tuning_nuke_ammo.description"] = "Bullets explode on contact.\nRequires a <color=175,255,255>25 Killstreak</color>." .. requireseft
+L["unlameifier_tuning_nuke_ammo.description"] = "Bullets explode on contact, but you got a 25 Killstreak." .. requireseft
 
 //////////////// Stats
 L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"

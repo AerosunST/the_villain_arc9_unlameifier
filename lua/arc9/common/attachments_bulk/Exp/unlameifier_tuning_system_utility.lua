@@ -28,7 +28,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Force Suppressor Off"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.Silencer = false
 
@@ -40,7 +40,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Force Suppressor On"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.Silencer = true
 
@@ -52,7 +52,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Force Muzzleflash Light On"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoFlash = false
 
@@ -63,7 +63,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Force Muzzleflash Light Off"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoFlash = true
 
@@ -74,7 +74,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Force Muzzleflash On"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoMuzzleEffect = false
 
@@ -85,7 +85,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Force Muzzleflash Off"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoMuzzleEffect = true
 
@@ -96,7 +96,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "HL2 Ammotype Cycle"
-ATT.Folder = "Misc/Function"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc")
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -129,7 +129,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "EFT Incendiary Ammo"
-ATT.Folder = "Misc/Ammo Effect"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.effects")
 
 ATT.DamageTypeOverride = DMG_BURN + DMG_BULLET
 ATT.ExplosionEffect = "eft_explosion_round"
@@ -168,7 +168,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Infinite Ammo"
-ATT.Folder = "Misc/Ammo Effect"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc")
 
 ATT.InfiniteAmmo = true
 
@@ -179,7 +179,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Bottomless Clip"
-ATT.Folder = "Misc/Ammo Effect"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc")
 
 ATT.BottomlessClip = true
 
@@ -194,7 +194,7 @@ ATT.PrintName = "High Explosive Ammo"
 ATT.CompactName = "HE Ammo"
 ATT.Description = [[Makes your bullets explosive. <color=255,0,0>Requires EFT for now.</color>]]
 
-ATT.Folder = "Misc/Ammo Effect"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.effects")
 
 ATT.ExplosionRadiusOverride = 100
 ATT.ExplosionDamageOverride = 200
@@ -211,7 +211,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Tactical Nuke Ammo"
-ATT.Folder = "Misc/Ammo Effect"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.effects")
 
 ATT.ExplosionRadiusOverride = 10000
 ATT.ExplosionDamageOverride = 20000

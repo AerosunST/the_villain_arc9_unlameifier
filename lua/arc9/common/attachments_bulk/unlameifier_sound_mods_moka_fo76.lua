@@ -12,7 +12,7 @@ sharedcode = {
 	Attachments = {
 		{
 			PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
-			Pos = Vector(0, 0, 2),
+			Pos = Vector(50, 50, 50),
 			Ang = Angle(0, 0, 0),
 			Category = {"eft_custom_slot"},
 		},

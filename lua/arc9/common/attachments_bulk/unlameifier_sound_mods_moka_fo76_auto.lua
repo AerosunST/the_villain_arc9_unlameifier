@@ -3,7 +3,7 @@ local ATT = {}
 sharedcode = {
 	Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth"),
 	Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto"),
-	Description = "THIS IS A FALLOUT 4 & 76 TEST SOUND\n<color=255,125,125>EXPECT ERRORS</color>",
+	Description = "This is unlocalized!\nReplaces the firing sound of the weapon.",
 	AttNotForNPCs = true,
 
 	MenuCategory = "ARC9 - Unlameifier",
@@ -12,7 +12,7 @@ sharedcode = {
 	Attachments = {
 		{
 			PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
-			Pos = Vector(0, 0, 2),
+			Pos = Vector(50, 50, 50),
 			Ang = Angle(0, 0, 0),
 			Category = {"eft_custom_slot"},
 		},

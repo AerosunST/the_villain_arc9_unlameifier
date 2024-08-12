@@ -2580,7 +2580,7 @@ L["unlameifier_tuning_infinite_ammo.description"] = "Enables <color=100,255,100>
 
 L["unlameifier_tuning_bottomless_clip.printname"] = "Bottomless Clip"
 L["unlameifier_tuning_bottomless_clip.compactname"] = "Bottomless Clip"
-L["unlameifier_tuning_bottomless_clip.description"] = "Enables <color=100,255,100>Bottomless Clip</color>.\nFiring does not consume ammunition.\n\nFor the record, so these so called \"clips\" are actually magazines. This is the internal name. Arctic wrote the function, despite also knowing full well that \"magazine\" is the correct term. \"Bottomless Clip\" is an expression that has just become slang among developers- whether they actually know the correct term or not."
+L["unlameifier_tuning_bottomless_clip.description"] = "Enables <color=100,255,100>Bottomless Clip</color>.\nFiring does not consume ammunition.\n\nFor the record, these so called \"clips\" are actually magazines. This is the internal name. Arctic wrote the function, despite also knowing full well that \"magazine\" is the correct term. \"Bottomless Clip\" is an expression that has just become slang among developers- whether they actually know the correct term or not."
 
 L["unlameifier_tuning_explosive_ammo.printname"] = "High-Explosive Ammo"
 L["unlameifier_tuning_explosive_ammo.compactname"] = "HE Ammo"

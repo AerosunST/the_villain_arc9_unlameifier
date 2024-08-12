@@ -2736,92 +2736,92 @@ L["unlameifier.folder.ammopershot.fixed"] = "Ammo-Per-Shot/Fixed"
 L["unlameifier.folder.ammopershot.plus"] = "Ammo-Per-Shot/Add"
 L["unlameifier.folder.ammopershot.minus"] = "Ammo-Per-Shot/Subtract"
 
-L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 1) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Ammo"
-L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 AMMO"
+L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Ammo per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 1) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Ammo"
-L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 AMMO"
+L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Ammo per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 1) .. "This alters how much ammo is depleted on every shot."
 
-L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Ammo"
-L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 AMMO"
+L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Ammo Per Shot"
+L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 Ammo PS"
 L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Ammo per Shot", 8) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
 
 ///////// Maximum Damage

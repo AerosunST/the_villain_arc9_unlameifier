@@ -2773,6 +2773,8 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_winger")
 // ////////// Battlefield 2, Handheld //////////
 local gsp = "arc9/unlameifier/soundmods/bf2/"
 
+ATT = {}
+
 ATT.PrintName = "92FS"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
 

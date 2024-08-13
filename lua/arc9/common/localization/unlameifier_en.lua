@@ -2634,7 +2634,7 @@ local statsdesc = {
 	
 	warnvisrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will push the weapon forward instead of backwards. If set too high, minor or severe visual glitches can occur.",
 
-	warnadstoolow = "\n\n<color=175,175,255>NOTE</color>: If the value is set to or close to 0, the weapon will visually not immediately snap to the center of your screen."
+	warnadstoolow = "\n\n<color=175,175,255>NOTE</color>: If the value is set to or close to 0, the weapon will not immediately visually snap to the center of your screen."
 
 }
 
@@ -2645,91 +2645,91 @@ L["unlameifier.folder.projectiles.plus"] = "Projectiles/Add"
 L["unlameifier.folder.projectiles.minus"] = "Projectiles/Subtract"
 
 L["unlameifier_tuning_projectile_plus1.printname"] = "+1 Projectiles"
-L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 PROJ"
+L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 Projectiles"
 L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_plus2.printname"] = "+2 Projectiles"
-L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 PROJ"
+L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 Projectiles"
 L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_plus3.printname"] = "+3 Projectiles"
-L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 PROJ"
+L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 Projectiles"
 L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_plus4.printname"] = "+4 Projectiles"
-L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 PROJ"
+L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 Projectiles"
 L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_plus5.printname"] = "+5 Projectiles"
-L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 PROJ"
+L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 Projectiles"
 L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 L["unlameifier_tuning_projectile_plus6.printname"] = "+6 Projectiles"
-L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 PROJ"
+L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 Projectiles"
 L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Projectiles"
-L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 PROJ"
+L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Projectiles"
 L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Projectiles"
-L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 PROJ"
+L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Projectiles"
 L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_minus2.printname"] = "-2 Projectiles"
-L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 PROJ"
+L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 Projectiles"
 L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_minus3.printname"] = "-3 Projectiles"
-L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 PROJ"
+L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 Projectiles"
 L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_minus4.printname"] = "-4 Projectiles"
-L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 PROJ"
+L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 Projectiles"
 L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_minus5.printname"] = "-5 Projectiles"
-L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 PROJ"
+L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 Projectiles"
 L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_minus6.printname"] = "-6 Projectiles"
-L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 PROJ"
+L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 Projectiles"
 L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Projectiles"
-L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 PROJ"
+L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Projectiles"
 L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
-L["unlameifier_tuning_projectile_force1.compactname"] = "1 PROJ"
+L["unlameifier_tuning_projectile_force1.compactname"] = "1 Projectiles"
 L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_force2.printname"] = "2 Projectiles"
-L["unlameifier_tuning_projectile_force2.compactname"] = "2 PROJ"
+L["unlameifier_tuning_projectile_force2.compactname"] = "2 Projectiles"
 L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_force3.printname"] = "3 Projectiles"
-L["unlameifier_tuning_projectile_force3.compactname"] = "3 PROJ"
+L["unlameifier_tuning_projectile_force3.compactname"] = "3 Projectiles"
 L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_force4.printname"] = "4 Projectiles"
-L["unlameifier_tuning_projectile_force4.compactname"] = "4 PROJ"
+L["unlameifier_tuning_projectile_force4.compactname"] = "4 Projectiles"
 L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
 
 L["unlameifier_tuning_projectile_force5.printname"] = "5 Projectiles"
-L["unlameifier_tuning_projectile_force5.compactname"] = "5 PROJ"
+L["unlameifier_tuning_projectile_force5.compactname"] = "5 Projectiles"
 L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 L["unlameifier_tuning_projectile_force6.printname"] = "6 Projectiles"
-L["unlameifier_tuning_projectile_force6.compactname"] = "6 PROJ"
+L["unlameifier_tuning_projectile_force6.compactname"] = "6 Projectiles"
 L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 L["unlameifier_tuning_projectile_force7.printname"] = "7 Projectiles"
-L["unlameifier_tuning_projectile_force7.compactname"] = "7 PROJ"
+L["unlameifier_tuning_projectile_force7.compactname"] = "7 Projectiles"
 L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 L["unlameifier_tuning_projectile_force8.printname"] = "8 Projectiles"
-L["unlameifier_tuning_projectile_force8.compactname"] = "8 PROJ"
+L["unlameifier_tuning_projectile_force8.compactname"] = "8 Projectiles"
 L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Projectile Count", 8) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
@@ -3424,55 +3424,55 @@ L["unlameifier.folder.reloadtime.multiply"] = "Reload Time/Multiply"
 L["unlameifier.folder.reloadtime.divide"] = "Reload Time/Divide"
 
 L["unlameifier_tuning_reloadtime_x0.printname"] = "0x Reload Time"
-L["unlameifier_tuning_reloadtime_x0.compactname"] = "0x Reload"
+L["unlameifier_tuning_reloadtime_x0.compactname"] = "0x Reload Time"
 L["unlameifier_tuning_reloadtime_x0.description"] = string.format(statsdesc.minusinv, "Reload Time", "100%") .. "This alters how quickly the weapon gets reloaded." .. "\n\n" .. "This is effectively an <color=255,255,100>instant reload</color> effect."
 
 L["unlameifier_tuning_reloadtime_x010.printname"] = "0.1x Reload Time"
-L["unlameifier_tuning_reloadtime_x010.compactname"] = "0.1x Reload"
+L["unlameifier_tuning_reloadtime_x010.compactname"] = "0.1x Reload Time"
 L["unlameifier_tuning_reloadtime_x010.description"] = string.format(statsdesc.minusinv, "Reload Time", "90%") .. "This alters how quickly the weapon gets reloaded." 
 
 L["unlameifier_tuning_reloadtime_x025.printname"] = "0.25x Reload Time"
-L["unlameifier_tuning_reloadtime_x025.compactname"] = "0.25x Reload"
+L["unlameifier_tuning_reloadtime_x025.compactname"] = "0.25x Reload Time"
 L["unlameifier_tuning_reloadtime_x025.description"] = string.format(statsdesc.minusinv, "Reload Time", "75%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x050.printname"] = "0.5x Reload Time"
-L["unlameifier_tuning_reloadtime_x050.compactname"] = "0.5x Reload"
+L["unlameifier_tuning_reloadtime_x050.compactname"] = "0.5x Reload Time"
 L["unlameifier_tuning_reloadtime_x050.description"] = string.format(statsdesc.minusinv, "Reload Time", "50%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x075.printname"] = "0.75x Reload Time"
-L["unlameifier_tuning_reloadtime_x075.compactname"] = "0.75x Reload"
+L["unlameifier_tuning_reloadtime_x075.compactname"] = "0.75x Reload Time"
 L["unlameifier_tuning_reloadtime_x075.description"] = string.format(statsdesc.minusinv, "Reload Time", "25%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x090.printname"] = "0.9x Reload Time"
-L["unlameifier_tuning_reloadtime_x090.compactname"] = "0.9x Reload"
+L["unlameifier_tuning_reloadtime_x090.compactname"] = "0.9x Reload Time"
 L["unlameifier_tuning_reloadtime_x090.description"] = string.format(statsdesc.minusinv, "Reload Time", "10%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x110.printname"] = "1.1x Reload Time"
-L["unlameifier_tuning_reloadtime_x110.compactname"] = "1.1x Reload"
+L["unlameifier_tuning_reloadtime_x110.compactname"] = "1.1x Reload Time"
 L["unlameifier_tuning_reloadtime_x110.description"] = string.format(statsdesc.plusinv, "Reload Time", "10%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x125.printname"] = "1.25x Reload Time"
-L["unlameifier_tuning_reloadtime_x125.compactname"] = "1.25x Reload"
+L["unlameifier_tuning_reloadtime_x125.compactname"] = "1.25x Reload Time"
 L["unlameifier_tuning_reloadtime_x125.description"] = string.format(statsdesc.plusinv, "Reload Time", "25%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x150.printname"] = "1.5x Reload Time"
-L["unlameifier_tuning_reloadtime_x150.compactname"] = "1.5x Reload"
+L["unlameifier_tuning_reloadtime_x150.compactname"] = "1.5x Reload Time"
 L["unlameifier_tuning_reloadtime_x150.description"] = string.format(statsdesc.plusinv, "Reload Time", "50%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x175.printname"] = "1.75x Reload Time"
-L["unlameifier_tuning_reloadtime_x175.compactname"] = "1.75x Reload"
+L["unlameifier_tuning_reloadtime_x175.compactname"] = "1.75x Reload Time"
 L["unlameifier_tuning_reloadtime_x175.description"] = string.format(statsdesc.plusinv, "Reload Time", "75%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x2.printname"] = "2x Reload Time"
-L["unlameifier_tuning_reloadtime_x2.compactname"] = "2x Reload"
+L["unlameifier_tuning_reloadtime_x2.compactname"] = "2x Reload Time"
 L["unlameifier_tuning_reloadtime_x2.description"] = string.format(statsdesc.plusinv, "Reload Time", "100%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x5.printname"] = "5x Reload Time"
-L["unlameifier_tuning_reloadtime_x5.compactname"] = "5x Reload"
+L["unlameifier_tuning_reloadtime_x5.compactname"] = "5x Reload Time"
 L["unlameifier_tuning_reloadtime_x5.description"] = string.format(statsdesc.plusinv, "Reload Time", "400%") .. "This alters how quickly the weapon gets reloaded."
 
 L["unlameifier_tuning_reloadtime_x10.printname"] = "10x Reload Time"
-L["unlameifier_tuning_reloadtime_x10.compactname"] = "10x Reload"
+L["unlameifier_tuning_reloadtime_x10.compactname"] = "10x Reload Time"
 L["unlameifier_tuning_reloadtime_x10.description"] = string.format(statsdesc.plusinv, "Reload Time", "900%") .. "This alters how quickly the weapon gets reloaded."
 
 ///////// Deploy Time
@@ -3483,55 +3483,55 @@ L["unlameifier.folder.deploytime.multiply"] = "Deploy Time/Multiply"
 L["unlameifier.folder.deploytime.divide"] = "Deploy Time/Divide"
 
 L["unlameifier_tuning_deploytime_x0.printname"] = "0x Deploy Time"
-L["unlameifier_tuning_deploytime_x0.compactname"] = "0x Deploy"
+L["unlameifier_tuning_deploytime_x0.compactname"] = "0x Deploy Time"
 L["unlameifier_tuning_deploytime_x0.description"] = string.format(statsdesc.minusinv, "Draw Time", "100%") .. "This alters how quickly the weapon is pulled out and put away." .. "\n\n" .. "This is effectively an <color=255,255,100>instant deploy</color> effect."
 
 L["unlameifier_tuning_deploytime_x010.printname"] = "0.1x Deploy Time"
-L["unlameifier_tuning_deploytime_x010.compactname"] = "0.1x Deploy"
+L["unlameifier_tuning_deploytime_x010.compactname"] = "0.1x Deploy Time"
 L["unlameifier_tuning_deploytime_x010.description"] = string.format(statsdesc.minusinv, "Draw Time", "90%") .. "This alters how quickly the weapon is pulled out and put away." 
 
 L["unlameifier_tuning_deploytime_x025.printname"] = "0.25x Deploy Time"
-L["unlameifier_tuning_deploytime_x025.compactname"] = "0.25x Deploy"
+L["unlameifier_tuning_deploytime_x025.compactname"] = "0.25x Deploy Time"
 L["unlameifier_tuning_deploytime_x025.description"] = string.format(statsdesc.minusinv, "Draw Time", "75%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x050.printname"] = "0.5x Deploy Time"
-L["unlameifier_tuning_deploytime_x050.compactname"] = "0.5x Deploy"
+L["unlameifier_tuning_deploytime_x050.compactname"] = "0.5x Deploy Time"
 L["unlameifier_tuning_deploytime_x050.description"] = string.format(statsdesc.minusinv, "Draw Time", "50%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x075.printname"] = "0.75x Deploy Time"
-L["unlameifier_tuning_deploytime_x075.compactname"] = "0.75x Deploy"
+L["unlameifier_tuning_deploytime_x075.compactname"] = "0.75x Deploy Time"
 L["unlameifier_tuning_deploytime_x075.description"] = string.format(statsdesc.minusinv, "Draw Time", "25%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x090.printname"] = "0.9x Deploy Time"
-L["unlameifier_tuning_deploytime_x090.compactname"] = "0.9x Deploy"
+L["unlameifier_tuning_deploytime_x090.compactname"] = "0.9x Deploy Time"
 L["unlameifier_tuning_deploytime_x090.description"] = string.format(statsdesc.minusinv, "Draw Time", "10%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x110.printname"] = "1.1x Deploy Time"
-L["unlameifier_tuning_deploytime_x110.compactname"] = "1.1x Deploy"
+L["unlameifier_tuning_deploytime_x110.compactname"] = "1.1x Deploy Time"
 L["unlameifier_tuning_deploytime_x110.description"] = string.format(statsdesc.plusinv, "Draw Time", "10%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x125.printname"] = "1.25x Deploy Time"
-L["unlameifier_tuning_deploytime_x125.compactname"] = "1.25x Deploy"
+L["unlameifier_tuning_deploytime_x125.compactname"] = "1.25x Deploy Time"
 L["unlameifier_tuning_deploytime_x125.description"] = string.format(statsdesc.plusinv, "Draw Time", "25%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x150.printname"] = "1.5x Deploy Time"
-L["unlameifier_tuning_deploytime_x150.compactname"] = "1.5x Deploy"
+L["unlameifier_tuning_deploytime_x150.compactname"] = "1.5x Deploy Time"
 L["unlameifier_tuning_deploytime_x150.description"] = string.format(statsdesc.plusinv, "Draw Time", "50%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x175.printname"] = "1.75x Deploy Time"
-L["unlameifier_tuning_deploytime_x175.compactname"] = "1.75x Deploy"
+L["unlameifier_tuning_deploytime_x175.compactname"] = "1.75x Deploy Time"
 L["unlameifier_tuning_deploytime_x175.description"] = string.format(statsdesc.plusinv, "Draw Time", "75%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x2.printname"] = "2x Deploy Time"
-L["unlameifier_tuning_deploytime_x2.compactname"] = "2x Deploy"
+L["unlameifier_tuning_deploytime_x2.compactname"] = "2x Deploy Time"
 L["unlameifier_tuning_deploytime_x2.description"] = string.format(statsdesc.plusinv, "Draw Time", "100%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x5.printname"] = "5x Deploy Time"
-L["unlameifier_tuning_deploytime_x5.compactname"] = "5x Deploy"
+L["unlameifier_tuning_deploytime_x5.compactname"] = "5x Deploy Time"
 L["unlameifier_tuning_deploytime_x5.description"] = string.format(statsdesc.plusinv, "Draw Time", "400%") .. "This alters how quickly the weapon is pulled out and put away."
 
 L["unlameifier_tuning_deploytime_x10.printname"] = "10x Deploy Time"
-L["unlameifier_tuning_deploytime_x10.compactname"] = "10x Deploy"
+L["unlameifier_tuning_deploytime_x10.compactname"] = "10x Deploy Time"
 L["unlameifier_tuning_deploytime_x10.description"] = string.format(statsdesc.plusinv, "Draw Time", "900%") .. "This alters how quickly the weapon is pulled out and put away."
 
 ///////// ADS Time
@@ -3542,413 +3542,413 @@ L["unlameifier.folder.adstime.multiply"] = "ADS Time/Multiply"
 L["unlameifier.folder.adstime.divide"] = "ADS Time/Divide"
 
 L["unlameifier_tuning_adstime_x0.printname"] = "0x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x0.compactname"] = "0x ADS"
+L["unlameifier_tuning_adstime_x0.compactname"] = "0x ADS Time"
 L["unlameifier_tuning_adstime_x0.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "100%") .. "This alters how quickly the weapon enters and exits ADS." .. "\n\n" .. "This is effectively an <color=255,255,100>instant ADS</color> effect." .. statsdesc.warnadstoolow
 
 L["unlameifier_tuning_adstime_x010.printname"] = "0.1x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x010.compactname"] = "0.1x ADS"
+L["unlameifier_tuning_adstime_x010.compactname"] = "0.1x ADS Time"
 L["unlameifier_tuning_adstime_x010.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "90%") .. "This alters how quickly the weapon enters and exits ADS."  .. statsdesc.warnadstoolow
 
 L["unlameifier_tuning_adstime_x025.printname"] = "0.25x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x025.compactname"] = "0.25x ADS"
+L["unlameifier_tuning_adstime_x025.compactname"] = "0.25x ADS Time"
 L["unlameifier_tuning_adstime_x025.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "75%") .. "This alters how quickly the weapon enters and exits ADS." .. statsdesc.warnadstoolow
 
 L["unlameifier_tuning_adstime_x050.printname"] = "0.5x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x050.compactname"] = "0.5x ADS"
+L["unlameifier_tuning_adstime_x050.compactname"] = "0.5x ADS Time"
 L["unlameifier_tuning_adstime_x050.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "50%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x075.printname"] = "0.75x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x075.compactname"] = "0.75x ADS"
+L["unlameifier_tuning_adstime_x075.compactname"] = "0.75x ADS Time"
 L["unlameifier_tuning_adstime_x075.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "25%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x090.printname"] = "0.9x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x090.compactname"] = "0.9x ADS"
+L["unlameifier_tuning_adstime_x090.compactname"] = "0.9x ADS Time"
 L["unlameifier_tuning_adstime_x090.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "10%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x110.printname"] = "1.1x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x110.compactname"] = "1.1x ADS"
+L["unlameifier_tuning_adstime_x110.compactname"] = "1.1x ADS Time"
 L["unlameifier_tuning_adstime_x110.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "10%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x125.printname"] = "1.25x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x125.compactname"] = "1.25x ADS"
+L["unlameifier_tuning_adstime_x125.compactname"] = "1.25x ADS Time"
 L["unlameifier_tuning_adstime_x125.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "25%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x150.printname"] = "1.5x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x150.compactname"] = "1.5x ADS"
+L["unlameifier_tuning_adstime_x150.compactname"] = "1.5x ADS Time"
 L["unlameifier_tuning_adstime_x150.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "50%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x175.printname"] = "1.75x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x175.compactname"] = "1.75x ADS"
+L["unlameifier_tuning_adstime_x175.compactname"] = "1.75x ADS Time"
 L["unlameifier_tuning_adstime_x175.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "75%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x2.printname"] = "2x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x2.compactname"] = "2x ADS"
+L["unlameifier_tuning_adstime_x2.compactname"] = "2x ADS Time"
 L["unlameifier_tuning_adstime_x2.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "100%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x5.printname"] = "5x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x5.compactname"] = "5x ADS"
+L["unlameifier_tuning_adstime_x5.compactname"] = "5x ADS Time"
 L["unlameifier_tuning_adstime_x5.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "400%") .. "This alters how quickly the weapon enters and exits ADS."
 
 L["unlameifier_tuning_adstime_x10.printname"] = "10x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x10.compactname"] = "10x ADS"
+L["unlameifier_tuning_adstime_x10.compactname"] = "10x ADS Time"
 L["unlameifier_tuning_adstime_x10.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "900%") .. "This alters how quickly the weapon enters and exits ADS."
 
 ///////// Magazine Capacity
-L["unlameifier.folder.magsize"] = "Mag. Size"
-L["unlameifier.folder.magsize.fixed"] = "Mag. Size/Fixed"
-L["unlameifier.folder.magsize.plus"] = "Mag. Size/Add"
-L["unlameifier.folder.magsize.minus"] = "Mag. Size/Subtract"
-L["unlameifier.folder.magsize.multiply"] = "Mag. Size/Multiply"
-L["unlameifier.folder.magsize.divide"] = "Mag. Size/Divide"
+L["unlameifier.folder.MagCap"] = "Magazine Capacity"
+L["unlameifier.folder.MagCap.fixed"] = "Magazine Capacity/Fixed"
+L["unlameifier.folder.MagCap.plus"] = "Magazine Capacity/Add"
+L["unlameifier.folder.MagCap.minus"] = "Magazine Capacity/Subtract"
+L["unlameifier.folder.MagCap.multiply"] = "Magazine Capacity/Multiply"
+L["unlameifier.folder.MagCap.divide"] = "Magazine Capacity/Divide"
 
 L["unlameifier_tuning_mag_capacity_x010.printname"] = "0.1x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x010.compactname"] = "0.1x MagSize"
+L["unlameifier_tuning_mag_capacity_x010.compactname"] = "0.1x MagCap"
 L["unlameifier_tuning_mag_capacity_x010.description"] = string.format(statsdesc.minus, "Magazine Capacity", "90%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x025.printname"] = "0.25x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x025.compactname"] = "0.25x MagSize"
+L["unlameifier_tuning_mag_capacity_x025.compactname"] = "0.25x MagCap"
 L["unlameifier_tuning_mag_capacity_x025.description"] = string.format(statsdesc.minus, "Magazine Capacity", "75%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x050.printname"] = "0.5x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x050.compactname"] = "0.5x MagSize"
+L["unlameifier_tuning_mag_capacity_x050.compactname"] = "0.5x MagCap"
 L["unlameifier_tuning_mag_capacity_x050.description"] = string.format(statsdesc.minus, "Magazine Capacity", "50%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x075.printname"] = "0.75x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x075.compactname"] = "0.75x MagSize"
+L["unlameifier_tuning_mag_capacity_x075.compactname"] = "0.75x MagCap"
 L["unlameifier_tuning_mag_capacity_x075.description"] = string.format(statsdesc.minus, "Magazine Capacity", "25%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x090.printname"] = "0.9x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x090.compactname"] = "0.9x MagSize"
+L["unlameifier_tuning_mag_capacity_x090.compactname"] = "0.9x MagCap"
 L["unlameifier_tuning_mag_capacity_x090.description"] = string.format(statsdesc.minus, "Magazine Capacity", "10%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x110.printname"] = "1.1x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x110.compactname"] = "1.1x MagSize"
+L["unlameifier_tuning_mag_capacity_x110.compactname"] = "1.1x MagCap"
 L["unlameifier_tuning_mag_capacity_x110.description"] = string.format(statsdesc.plus, "Magazine Capacity", "10%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x125.printname"] = "1.25x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x125.compactname"] = "1.25x MagSize"
+L["unlameifier_tuning_mag_capacity_x125.compactname"] = "1.25x MagCap"
 L["unlameifier_tuning_mag_capacity_x125.description"] = string.format(statsdesc.plus, "Magazine Capacity", "25%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x150.printname"] = "1.5x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x150.compactname"] = "1.5x MagSize"
+L["unlameifier_tuning_mag_capacity_x150.compactname"] = "1.5x MagCap"
 L["unlameifier_tuning_mag_capacity_x150.description"] = string.format(statsdesc.plus, "Magazine Capacity", "50%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x175.printname"] = "1.75x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x175.compactname"] = "1.75x MagSize"
+L["unlameifier_tuning_mag_capacity_x175.compactname"] = "1.75x MagCap"
 L["unlameifier_tuning_mag_capacity_x175.description"] = string.format(statsdesc.plus, "Magazine Capacity", "75%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x2.printname"] = "2x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x2.compactname"] = "2x MagSize"
+L["unlameifier_tuning_mag_capacity_x2.compactname"] = "2x MagCap"
 L["unlameifier_tuning_mag_capacity_x2.description"] = string.format(statsdesc.plus, "Magazine Capacity", "100%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x5.printname"] = "5x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x5.compactname"] = "5x MagSize"
+L["unlameifier_tuning_mag_capacity_x5.compactname"] = "5x MagCap"
 L["unlameifier_tuning_mag_capacity_x5.description"] = string.format(statsdesc.plus, "Magazine Capacity", "400%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_x10.printname"] = "10x Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_x10.compactname"] = "10x MagSize"
+L["unlameifier_tuning_mag_capacity_x10.compactname"] = "10x MagCap"
 L["unlameifier_tuning_mag_capacity_x10.description"] = string.format(statsdesc.plus, "Magazine Capacity", "900%") .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus1.printname"] = "+1 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus1.compactname"] = "+1 MagSize"
+L["unlameifier_tuning_mag_capacity_plus1.compactname"] = "+1 MagCap"
 L["unlameifier_tuning_mag_capacity_plus1.description"] = string.format(statsdesc.plus, "Magazine Capacity", 1) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus5.printname"] = "+5 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus5.compactname"] = "+5 MagSize"
+L["unlameifier_tuning_mag_capacity_plus5.compactname"] = "+5 MagCap"
 L["unlameifier_tuning_mag_capacity_plus5.description"] = string.format(statsdesc.plus, "Magazine Capacity", 5) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus10.printname"] = "+10 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus10.compactname"] = "+10 MagSize"
+L["unlameifier_tuning_mag_capacity_plus10.compactname"] = "+10 MagCap"
 L["unlameifier_tuning_mag_capacity_plus10.description"] = string.format(statsdesc.plus, "Magazine Capacity", 10) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus25.printname"] = "+25 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus25.compactname"] = "+25 MagSize"
+L["unlameifier_tuning_mag_capacity_plus25.compactname"] = "+25 MagCap"
 L["unlameifier_tuning_mag_capacity_plus25.description"] = string.format(statsdesc.plus, "Magazine Capacity", 25) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus50.printname"] = "+50 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus50.compactname"] = "+50 MagSize"
+L["unlameifier_tuning_mag_capacity_plus50.compactname"] = "+50 MagCap"
 L["unlameifier_tuning_mag_capacity_plus50.description"] = string.format(statsdesc.plus, "Magazine Capacity", 50) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus75.printname"] = "+75 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus75.compactname"] = "+75 MagSize"
+L["unlameifier_tuning_mag_capacity_plus75.compactname"] = "+75 MagCap"
 L["unlameifier_tuning_mag_capacity_plus75.description"] = string.format(statsdesc.plus, "Magazine Capacity", 75) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus100.printname"] = "+100 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus100.compactname"] = "+100 MagSize"
+L["unlameifier_tuning_mag_capacity_plus100.compactname"] = "+100 MagCap"
 L["unlameifier_tuning_mag_capacity_plus100.description"] = string.format(statsdesc.plus, "Magazine Capacity", 100) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus500.printname"] = "+500 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus500.compactname"] = "+500 MagSize"
+L["unlameifier_tuning_mag_capacity_plus500.compactname"] = "+500 MagCap"
 L["unlameifier_tuning_mag_capacity_plus500.description"] = string.format(statsdesc.plus, "Magazine Capacity", 500) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_plus1000.printname"] = "+1000 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_plus1000.compactname"] = "+1000 MagSize"
+L["unlameifier_tuning_mag_capacity_plus1000.compactname"] = "+1000 MagCap"
 L["unlameifier_tuning_mag_capacity_plus1000.description"] = string.format(statsdesc.plus, "Magazine Capacity", 1000) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus1.printname"] = "-1 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus1.compactname"] = "-1 MagSize"
+L["unlameifier_tuning_mag_capacity_minus1.compactname"] = "-1 MagCap"
 L["unlameifier_tuning_mag_capacity_minus1.description"] = string.format(statsdesc.minus, "Magazine Capacity", 1) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus5.printname"] = "-5 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus5.compactname"] = "-5 MagSize"
+L["unlameifier_tuning_mag_capacity_minus5.compactname"] = "-5 MagCap"
 L["unlameifier_tuning_mag_capacity_minus5.description"] = string.format(statsdesc.minus, "Magazine Capacity", 5) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus10.printname"] = "-10 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus10.compactname"] = "-10 MagSize"
+L["unlameifier_tuning_mag_capacity_minus10.compactname"] = "-10 MagCap"
 L["unlameifier_tuning_mag_capacity_minus10.description"] = string.format(statsdesc.minus, "Magazine Capacity", 10) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus25.printname"] = "-25 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus25.compactname"] = "-25 MagSize"
+L["unlameifier_tuning_mag_capacity_minus25.compactname"] = "-25 MagCap"
 L["unlameifier_tuning_mag_capacity_minus25.description"] = string.format(statsdesc.minus, "Magazine Capacity", 25) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus50.printname"] = "-50 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus50.compactname"] = "-50 MagSize"
+L["unlameifier_tuning_mag_capacity_minus50.compactname"] = "-50 MagCap"
 L["unlameifier_tuning_mag_capacity_minus50.description"] = string.format(statsdesc.minus, "Magazine Capacity", 50) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus75.printname"] = "-75 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus75.compactname"] = "-75 MagSize"
+L["unlameifier_tuning_mag_capacity_minus75.compactname"] = "-75 MagCap"
 L["unlameifier_tuning_mag_capacity_minus75.description"] = string.format(statsdesc.minus, "Magazine Capacity", 75) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus100.printname"] = "-100 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus100.compactname"] = "-100 MagSize"
+L["unlameifier_tuning_mag_capacity_minus100.compactname"] = "-100 MagCap"
 L["unlameifier_tuning_mag_capacity_minus100.description"] = string.format(statsdesc.minus, "Magazine Capacity", 100) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus500.printname"] = "-500 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus500.compactname"] = "-500 MagSize"
+L["unlameifier_tuning_mag_capacity_minus500.compactname"] = "-500 MagCap"
 L["unlameifier_tuning_mag_capacity_minus500.description"] = string.format(statsdesc.minus, "Magazine Capacity", 500) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_minus1000.printname"] = "-1000 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_minus1000.compactname"] = "-1000 MagSize"
+L["unlameifier_tuning_mag_capacity_minus1000.compactname"] = "-1000 MagCap"
 L["unlameifier_tuning_mag_capacity_minus1000.description"] = string.format(statsdesc.minus, "Magazine Capacity", 1000) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force1.printname"] = "1 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force1.compactname"] = "1 MagSize"
+L["unlameifier_tuning_mag_capacity_force1.compactname"] = "1 MagCap"
 L["unlameifier_tuning_mag_capacity_force1.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 1) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force5.printname"] = "5 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force5.compactname"] = "5 MagSize"
+L["unlameifier_tuning_mag_capacity_force5.compactname"] = "5 MagCap"
 L["unlameifier_tuning_mag_capacity_force5.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 5) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force10.printname"] = "10 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force10.compactname"] = "10 MagSize"
+L["unlameifier_tuning_mag_capacity_force10.compactname"] = "10 MagCap"
 L["unlameifier_tuning_mag_capacity_force10.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 10) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force15.printname"] = "15 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force15.compactname"] = "15 MagSize"
+L["unlameifier_tuning_mag_capacity_force15.compactname"] = "15 MagCap"
 L["unlameifier_tuning_mag_capacity_force15.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 15) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force17.printname"] = "17 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force17.compactname"] = "17 MagSize"
+L["unlameifier_tuning_mag_capacity_force17.compactname"] = "17 MagCap"
 L["unlameifier_tuning_mag_capacity_force17.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 17) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force20.printname"] = "20 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force20.compactname"] = "20 MagSize"
+L["unlameifier_tuning_mag_capacity_force20.compactname"] = "20 MagCap"
 L["unlameifier_tuning_mag_capacity_force20.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 20) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force25.printname"] = "25 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force25.compactname"] = "25 MagSize"
+L["unlameifier_tuning_mag_capacity_force25.compactname"] = "25 MagCap"
 L["unlameifier_tuning_mag_capacity_force25.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 25) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force30.printname"] = "30 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force30.compactname"] = "30 MagSize"
+L["unlameifier_tuning_mag_capacity_force30.compactname"] = "30 MagCap"
 L["unlameifier_tuning_mag_capacity_force30.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 30) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force50.printname"] = "50 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force50.compactname"] = "50 MagSize"
+L["unlameifier_tuning_mag_capacity_force50.compactname"] = "50 MagCap"
 L["unlameifier_tuning_mag_capacity_force50.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 50) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force75.printname"] = "75 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force75.compactname"] = "75 MagSize"
+L["unlameifier_tuning_mag_capacity_force75.compactname"] = "75 MagCap"
 L["unlameifier_tuning_mag_capacity_force75.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 75) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force100.printname"] = "100 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force100.compactname"] = "100 MagSize"
+L["unlameifier_tuning_mag_capacity_force100.compactname"] = "100 MagCap"
 L["unlameifier_tuning_mag_capacity_force100.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 100) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force500.printname"] = "500 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force500.compactname"] = "500 MagSize"
+L["unlameifier_tuning_mag_capacity_force500.compactname"] = "500 MagCap"
 L["unlameifier_tuning_mag_capacity_force500.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 500) .. "This alters the amount of bullets each magazine can hold."
 
 L["unlameifier_tuning_mag_capacity_force1000.printname"] = "1000 Magazine Capacity"
-L["unlameifier_tuning_mag_capacity_force1000.compactname"] = "1000 MagSize"
+L["unlameifier_tuning_mag_capacity_force1000.compactname"] = "1000 MagCap"
 L["unlameifier_tuning_mag_capacity_force1000.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 1000) .. "This alters the amount of bullets each magazine can hold."
 
 ///////// Chamber Capacity
-L["unlameifier.folder.chambersize"] = "Chamber"
-L["unlameifier.folder.chambersize.fixed"] = "Chamber/Fixed"
-L["unlameifier.folder.chambersize.plus"] = "Chamber/Add"
-L["unlameifier.folder.chambersize.minus"] = "Chamber/Subtract"
-L["unlameifier.folder.chambersize.multiply"] = "Chamber/Multiply"
-L["unlameifier.folder.chambersize.divide"] = "Chamber/Divide"
+L["unlameifier.folder.chambersize"] = "Chamber Capacity"
+L["unlameifier.folder.chambersize.fixed"] = "Chamber Capacity/Fixed"
+L["unlameifier.folder.chambersize.plus"] = "Chamber Capacity/Add"
+L["unlameifier.folder.chambersize.minus"] = "Chamber Capacity/Subtract"
+L["unlameifier.folder.chambersize.multiply"] = "Chamber Capacity/Multiply"
+L["unlameifier.folder.chambersize.divide"] = "Chamber Capacity/Divide"
 
 L["unlameifier_tuning_chamber_capacity_x010.printname"] = "0.1x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "0.1x Chamber"
+L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "0.1x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x010.description"] = string.format(statsdesc.minus, "Chamber Capacity", "90%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x025.printname"] = "0.25x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "0.25x Chamber"
+L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "0.25x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x025.description"] = string.format(statsdesc.minus, "Chamber Capacity", "75%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x050.printname"] = "0.5x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "0.5x Chamber"
+L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "0.5x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x050.description"] = string.format(statsdesc.minus, "Chamber Capacity", "50%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x075.printname"] = "0.75x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "0.75x Chamber"
+L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "0.75x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x075.description"] = string.format(statsdesc.minus, "Chamber Capacity", "25%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x090.printname"] = "0.9x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "0.9x Chamber"
+L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "0.9x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x090.description"] = string.format(statsdesc.minus, "Chamber Capacity", "10%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x110.printname"] = "1.1x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "1.1x Chamber"
+L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "1.1x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x110.description"] = string.format(statsdesc.plus, "Chamber Capacity", "10%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x125.printname"] = "1.25x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "1.25x Chamber"
+L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "1.25x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x125.description"] = string.format(statsdesc.plus, "Chamber Capacity", "25%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x150.printname"] = "1.5x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "1.5x Chamber"
+L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "1.5x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x150.description"] = string.format(statsdesc.plus, "Chamber Capacity", "50%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x175.printname"] = "1.75x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "1.75x Chamber"
+L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "1.75x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x175.description"] = string.format(statsdesc.plus, "Chamber Capacity", "75%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x2.printname"] = "2x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "2x Chamber"
+L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "2x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x2.description"] = string.format(statsdesc.plus, "Chamber Capacity", "100%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x5.printname"] = "5x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "5x Chamber"
+L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "5x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x5.description"] = string.format(statsdesc.plus, "Chamber Capacity", "400%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_x10.printname"] = "10x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "10x Chamber"
+L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "10x Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_x10.description"] = string.format(statsdesc.plus, "Chamber Capacity", "900%") .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus1.printname"] = "+1 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus1.compactname"] = "+1 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus1.compactname"] = "+1 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus1.description"] = string.format(statsdesc.plus, "Chamber Capacity", 1) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus5.printname"] = "+5 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus5.compactname"] = "+5 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus5.compactname"] = "+5 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus5.description"] = string.format(statsdesc.plus, "Chamber Capacity", 5) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus10.printname"] = "+10 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus10.compactname"] = "+10 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus10.compactname"] = "+10 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus10.description"] = string.format(statsdesc.plus, "Chamber Capacity", 10) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus25.printname"] = "+25 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus25.compactname"] = "+25 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus25.compactname"] = "+25 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus25.description"] = string.format(statsdesc.plus, "Chamber Capacity", 25) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus50.printname"] = "+50 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus50.compactname"] = "+50 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus50.compactname"] = "+50 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus50.description"] = string.format(statsdesc.plus, "Chamber Capacity", 50) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus75.printname"] = "+75 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus75.compactname"] = "+75 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus75.compactname"] = "+75 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus75.description"] = string.format(statsdesc.plus, "Chamber Capacity", 75) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus100.printname"] = "+100 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus100.compactname"] = "+100 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus100.compactname"] = "+100 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus100.description"] = string.format(statsdesc.plus, "Chamber Capacity", 100) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus500.printname"] = "+500 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus500.compactname"] = "+500 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus500.compactname"] = "+500 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus500.description"] = string.format(statsdesc.plus, "Chamber Capacity", 500) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_plus1000.printname"] = "+1000 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus1000.compactname"] = "+1000 Chamber"
+L["unlameifier_tuning_chamber_capacity_plus1000.compactname"] = "+1000 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_plus1000.description"] = string.format(statsdesc.plus, "Chamber Capacity", 1000) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus1.printname"] = "-1 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus1.compactname"] = "-1 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus1.compactname"] = "-1 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus1.description"] = string.format(statsdesc.minus, "Chamber Capacity", 1) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus5.printname"] = "-5 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus5.compactname"] = "-5 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus5.compactname"] = "-5 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus5.description"] = string.format(statsdesc.minus, "Chamber Capacity", 5) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus10.printname"] = "-10 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus10.compactname"] = "-10 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus10.compactname"] = "-10 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus10.description"] = string.format(statsdesc.minus, "Chamber Capacity", 10) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus25.printname"] = "-25 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus25.compactname"] = "-25 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus25.compactname"] = "-25 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus25.description"] = string.format(statsdesc.minus, "Chamber Capacity", 25) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus50.printname"] = "-50 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus50.compactname"] = "-50 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus50.compactname"] = "-50 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus50.description"] = string.format(statsdesc.minus, "Chamber Capacity", 50) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus75.printname"] = "-75 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus75.compactname"] = "-75 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus75.compactname"] = "-75 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus75.description"] = string.format(statsdesc.minus, "Chamber Capacity", 75) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus100.printname"] = "-100 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus100.compactname"] = "-100 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus100.compactname"] = "-100 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus100.description"] = string.format(statsdesc.minus, "Chamber Capacity", 100) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus500.printname"] = "-500 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus500.compactname"] = "-500 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus500.compactname"] = "-500 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus500.description"] = string.format(statsdesc.minus, "Chamber Capacity", 500) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_minus1000.printname"] = "-1000 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus1000.compactname"] = "-1000 Chamber"
+L["unlameifier_tuning_chamber_capacity_minus1000.compactname"] = "-1000 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_minus1000.description"] = string.format(statsdesc.minus, "Chamber Capacity", 1000) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force1.printname"] = "1 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "1 Chamber"
+L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "1 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force1.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 1) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force5.printname"] = "5 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "5 Chamber"
+L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "5 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force5.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 5) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force10.printname"] = "10 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "10 Chamber"
+L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "10 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force10.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 10) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force15.printname"] = "15 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "15 Chamber"
+L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "15 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force15.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 15) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force17.printname"] = "17 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "17 Chamber"
+L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "17 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force17.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 17) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force20.printname"] = "20 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "20 Chamber"
+L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "20 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force20.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 20) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force25.printname"] = "25 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "25 Chamber"
+L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "25 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force25.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 25) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force30.printname"] = "30 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "30 Chamber"
+L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "30 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force30.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 30) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force50.printname"] = "50 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "50 Chamber"
+L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "50 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force50.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 50) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force75.printname"] = "75 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "75 Chamber"
+L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "75 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force75.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 75) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force100.printname"] = "100 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "100 Chamber"
+L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "100 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force100.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 100) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force500.printname"] = "500 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "500 Chamber"
+L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "500 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force500.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 500) .. "This alters the amount of bullets can be loaded into the chamber."
 
 L["unlameifier_tuning_chamber_capacity_force1000.printname"] = "1000 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "1000 Chamber"
+L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "1000 Chamber Cap"
 L["unlameifier_tuning_chamber_capacity_force1000.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 1000) .. "This alters the amount of bullets can be loaded into the chamber."

@@ -2547,7 +2547,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "0.1x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.divide")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.divide")
 
 ATT.ClipSizeMult = 0.1
 
@@ -2558,7 +2558,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "0.25x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.divide")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.divide")
 
 ATT.ClipSizeMult = 0.25
 
@@ -2569,7 +2569,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "0.5x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.divide")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.divide")
 
 ATT.ClipSizeMult = 0.5
 
@@ -2580,7 +2580,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "0.75x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.divide")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.divide")
 
 ATT.ClipSizeMult = 0.75
 
@@ -2591,7 +2591,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "0.9x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.divide")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.divide")
 
 ATT.ClipSizeMult = 0.9
 
@@ -2602,7 +2602,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "1.1x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 
 ATT.ClipSizeMult = 1.1
 
@@ -2613,7 +2613,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "1.25x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 
 ATT.ClipSizeMult = 1.25
 
@@ -2624,7 +2624,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "1.5x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 
 ATT.ClipSizeMult = 1.5
 
@@ -2635,7 +2635,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "1.75x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 
 ATT.ClipSizeMult = 1.75
 
@@ -2646,7 +2646,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "2x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 
 ATT.ClipSizeMult = 2
 
@@ -2657,7 +2657,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "5x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 
 ATT.ClipSizeMult = 5
 
@@ -2668,7 +2668,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "10x Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.multiply")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.multiply")
 ATT.SortOrder = 10
 ATT.ClipSizeMult = 10
 
@@ -2680,7 +2680,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+1 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 
 ATT.ClipSizeAdd = 1
 
@@ -2691,7 +2691,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+5 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 5
 ATT.ClipSizeAdd = 5
 
@@ -2702,7 +2702,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+10 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 10
 ATT.ClipSizeAdd = 10
 
@@ -2713,7 +2713,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+25 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 25
 ATT.ClipSizeAdd = 25
 
@@ -2724,7 +2724,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+50 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 50
 ATT.ClipSizeAdd = 50
 
@@ -2735,7 +2735,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+75 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 75
 ATT.ClipSizeAdd = 75
 
@@ -2746,7 +2746,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+100 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 100
 ATT.ClipSizeAdd = 100
 
@@ -2757,7 +2757,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+500 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 500
 ATT.ClipSizeAdd = 500
 
@@ -2768,7 +2768,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "+1000 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.plus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.plus")
 ATT.SortOrder = 1000
 ATT.ClipSizeAdd = 1000
 
@@ -2780,7 +2780,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-1 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 
 ATT.ClipSizeAdd = -1
 
@@ -2791,7 +2791,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-5 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 5
 ATT.ClipSizeAdd = -5
 
@@ -2802,7 +2802,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-10 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 10
 ATT.ClipSizeAdd = -10
 
@@ -2813,7 +2813,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-25 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 25
 ATT.ClipSizeAdd = -25
 
@@ -2824,7 +2824,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-50 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 50
 ATT.ClipSizeAdd = -50
 
@@ -2835,7 +2835,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-75 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 75
 ATT.ClipSizeAdd = -75
 
@@ -2846,7 +2846,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-100 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 100
 ATT.ClipSizeAdd = -100
 
@@ -2857,7 +2857,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-500 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 500
 ATT.ClipSizeAdd = -500
 
@@ -2868,7 +2868,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "-1000 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.minus")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.minus")
 ATT.SortOrder = 1000
 ATT.ClipSizeAdd = -1000
 
@@ -2880,7 +2880,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "1 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 1
 ATT.ClipSizeOverride = 1
 
@@ -2891,7 +2891,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "5 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 5
 ATT.ClipSizeOverride = 5
 
@@ -2902,7 +2902,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "10 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 10
 ATT.ClipSizeOverride = 10
 
@@ -2913,7 +2913,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "15 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 15
 ATT.ClipSizeOverride = 15
 
@@ -2924,7 +2924,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "17 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 17
 ATT.ClipSizeOverride = 17
 
@@ -2935,7 +2935,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "20 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 20
 ATT.ClipSizeOverride = 20
 
@@ -2946,7 +2946,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "25 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 25
 ATT.ClipSizeOverride = 25
 
@@ -2957,7 +2957,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "30 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 30
 ATT.ClipSizeOverride = 30
 
@@ -2968,7 +2968,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "50 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 50
 ATT.ClipSizeOverride = 50
 
@@ -2979,7 +2979,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "75 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 75
 ATT.ClipSizeOverride = 75
 
@@ -2990,7 +2990,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "100 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 100
 ATT.ClipSizeOverride = 100
 
@@ -3001,7 +3001,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "500 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 500
 ATT.ClipSizeOverride = 500
 
@@ -3012,7 +3012,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "1000 Magazine Capacity"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magsize.fixed")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.magcap.fixed")
 ATT.SortOrder = 1000
 ATT.ClipSizeOverride = 1000
 
@@ -3357,6 +3357,17 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
+ATT.PrintName = "0 Chamber Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.chambersize.fixed")
+ATT.SortOrder = 0
+ATT.ChamberSizeOverride = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force0")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
 ATT.PrintName = "1 Chamber Capacity"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.chambersize.fixed")
 ATT.SortOrder = 1
@@ -3495,3 +3506,2730 @@ ATT.SortOrder = 1000
 ATT.ChamberSizeOverride = 1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_chamber_capacity_force1000")
+
+///////////////////////////////////////     "Penetration" (Penetration)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.divide")
+
+ATT.PenetrationMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.divide")
+
+ATT.PenetrationMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.divide")
+
+ATT.PenetrationMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.divide")
+
+ATT.PenetrationMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.divide")
+
+ATT.PenetrationMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+
+ATT.PenetrationMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+
+ATT.PenetrationMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+
+ATT.PenetrationMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+
+ATT.PenetrationMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+
+ATT.PenetrationMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+
+ATT.PenetrationMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.multiply")
+ATT.SortOrder = 10
+ATT.PenetrationMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+
+ATT.PenetrationAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 5
+ATT.PenetrationAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 10
+ATT.PenetrationAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 25
+ATT.PenetrationAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 50
+ATT.PenetrationAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 75
+ATT.PenetrationAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 100
+ATT.PenetrationAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 500
+ATT.PenetrationAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.plus")
+ATT.SortOrder = 1000
+ATT.PenetrationAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+
+ATT.PenetrationAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 5
+ATT.PenetrationAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 10
+ATT.PenetrationAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 25
+ATT.PenetrationAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 50
+ATT.PenetrationAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 75
+ATT.PenetrationAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 100
+ATT.PenetrationAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 500
+ATT.PenetrationAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Penetration"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.penetration.minus")
+ATT.SortOrder = 1000
+ATT.PenetrationAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_penetration_minus1000")
+
+///////////////////////////////////////     "Spread" (Spread)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.divide")
+ATT.SortOrder = -100
+ATT.SpreadMult = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x0")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.divide")
+
+ATT.SpreadMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.divide")
+
+ATT.SpreadMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.divide")
+
+ATT.SpreadMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.divide")
+
+ATT.SpreadMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.divide")
+
+ATT.SpreadMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+
+ATT.SpreadMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+
+ATT.SpreadMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+
+ATT.SpreadMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+
+ATT.SpreadMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+
+ATT.SpreadMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+
+ATT.SpreadMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Spread"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.spread.multiply")
+ATT.SortOrder = 10
+ATT.SpreadMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spread_x10")
+
+///////////////////////////////////////     "Impact Force" (ImpactForce)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.divide")
+
+ATT.ImpactForceMult = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex0")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.divide")
+
+ATT.ImpactForceMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.divide")
+
+ATT.ImpactForceMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.divide")
+
+ATT.ImpactForceMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.divide")
+
+ATT.ImpactForceMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.divide")
+
+ATT.ImpactForceMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+
+ATT.ImpactForceMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+
+ATT.ImpactForceMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+
+ATT.ImpactForceMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+
+ATT.ImpactForceMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+
+ATT.ImpactForceMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+
+ATT.ImpactForceMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Impact Force"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.impactforce.multiply")
+ATT.SortOrder = 10
+ATT.ImpactForceMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_impact_forcex10")
+
+///////////////////////////////////////     "Max Range" (RangeMax)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.divide")
+
+ATT.RangeMaxMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.divide")
+
+ATT.RangeMaxMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.divide")
+
+ATT.RangeMaxMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.divide")
+
+ATT.RangeMaxMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.divide")
+
+ATT.RangeMaxMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+
+ATT.RangeMaxMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+
+ATT.RangeMaxMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+
+ATT.RangeMaxMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+
+ATT.RangeMaxMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+
+ATT.RangeMaxMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+
+ATT.RangeMaxMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Max Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.maxrange.multiply")
+ATT.SortOrder = 10
+ATT.RangeMaxMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_max_range_x10")
+
+///////////////////////////////////////     "Minimum Range" (RangeMin)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.divide")
+
+ATT.RangeMinMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.divide")
+
+ATT.RangeMinMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.divide")
+
+ATT.RangeMinMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.divide")
+
+ATT.RangeMinMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.divide")
+
+ATT.RangeMinMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+
+ATT.RangeMinMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+
+ATT.RangeMinMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+
+ATT.RangeMinMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+
+ATT.RangeMinMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+
+ATT.RangeMinMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+
+ATT.RangeMinMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Minimum Range"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.minrange.multiply")
+ATT.SortOrder = 10
+ATT.RangeMinMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_min_range_x10")
+
+///////////////////////////////////////     "Shots to Fail" (MalfunctionMeanShotsToFail)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.divide")
+
+ATT.MalfunctionMeanShotsToFailMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.divide")
+
+ATT.MalfunctionMeanShotsToFailMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.divide")
+
+ATT.MalfunctionMeanShotsToFailMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.divide")
+
+ATT.MalfunctionMeanShotsToFailMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.divide")
+
+ATT.MalfunctionMeanShotsToFailMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+
+ATT.MalfunctionMeanShotsToFailMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+
+ATT.MalfunctionMeanShotsToFailMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+
+ATT.MalfunctionMeanShotsToFailMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+
+ATT.MalfunctionMeanShotsToFailMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+
+ATT.MalfunctionMeanShotsToFailMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+
+ATT.MalfunctionMeanShotsToFailMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.multiply")
+ATT.SortOrder = 10
+ATT.MalfunctionMeanShotsToFailMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+
+ATT.MalfunctionMeanShotsToFailAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 5
+ATT.MalfunctionMeanShotsToFailAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 10
+ATT.MalfunctionMeanShotsToFailAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 25
+ATT.MalfunctionMeanShotsToFailAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 50
+ATT.MalfunctionMeanShotsToFailAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 75
+ATT.MalfunctionMeanShotsToFailAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 100
+ATT.MalfunctionMeanShotsToFailAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 500
+ATT.MalfunctionMeanShotsToFailAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.plus")
+ATT.SortOrder = 1000
+ATT.MalfunctionMeanShotsToFailAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+
+ATT.MalfunctionMeanShotsToFailAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 5
+ATT.MalfunctionMeanShotsToFailAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 10
+ATT.MalfunctionMeanShotsToFailAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 25
+ATT.MalfunctionMeanShotsToFailAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 50
+ATT.MalfunctionMeanShotsToFailAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 75
+ATT.MalfunctionMeanShotsToFailAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 100
+ATT.MalfunctionMeanShotsToFailAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 500
+ATT.MalfunctionMeanShotsToFailAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.minus")
+ATT.SortOrder = 1000
+ATT.MalfunctionMeanShotsToFailAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_minus1000")
+
+//////////////////// Fixed
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 1
+ATT.MalfunctionMeanShotsToFailOverride = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 5
+ATT.MalfunctionMeanShotsToFailOverride = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 10
+ATT.MalfunctionMeanShotsToFailOverride = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 15
+ATT.MalfunctionMeanShotsToFailOverride = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "17 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 17
+ATT.MalfunctionMeanShotsToFailOverride = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force17")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 20
+ATT.MalfunctionMeanShotsToFailOverride = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 25
+ATT.MalfunctionMeanShotsToFailOverride = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "30 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 30
+ATT.MalfunctionMeanShotsToFailOverride = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 50
+ATT.MalfunctionMeanShotsToFailOverride = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 75
+ATT.MalfunctionMeanShotsToFailOverride = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 100
+ATT.MalfunctionMeanShotsToFailOverride = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 500
+ATT.MalfunctionMeanShotsToFailOverride = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000 Shots to Fail"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.fixed")
+ATT.SortOrder = 1000
+ATT.MalfunctionMeanShotsToFailOverride = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_mean_shots_to_fail_force1000")
+
+///////////////////////////////////////     "Heat per Shot" (HeatPerShot)
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+0.25 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+
+ATT.HeatPerShotAdd = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+0.5 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+
+ATT.HeatPerShotAdd = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+
+ATT.HeatPerShotAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 5
+ATT.HeatPerShotAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 10
+ATT.HeatPerShotAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 25
+ATT.HeatPerShotAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 50
+ATT.HeatPerShotAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 75
+ATT.HeatPerShotAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 100
+ATT.HeatPerShotAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 500
+ATT.HeatPerShotAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.plus")
+ATT.SortOrder = 1000
+ATT.HeatPerShotAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-0.25 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+
+ATT.HeatPerShotAdd = -0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-0.5 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+
+ATT.HeatPerShotAdd = -0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+
+ATT.HeatPerShotAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 5
+ATT.HeatPerShotAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 10
+ATT.HeatPerShotAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 25
+ATT.HeatPerShotAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 50
+ATT.HeatPerShotAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 75
+ATT.HeatPerShotAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 100
+ATT.HeatPerShotAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 500
+ATT.HeatPerShotAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Heat per Shot"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.pershot.minus")
+ATT.SortOrder = 1000
+ATT.HeatPerShotAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_per_shot_minus1000")
+
+///////////////////////////////////////     "Heat Capacity" (HeatCapacity)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.divide")
+
+ATT.HeatCapacityMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.divide")
+
+ATT.HeatCapacityMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.divide")
+
+ATT.HeatCapacityMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.divide")
+
+ATT.HeatCapacityMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.divide")
+
+ATT.HeatCapacityMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+
+ATT.HeatCapacityMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+
+ATT.HeatCapacityMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+
+ATT.HeatCapacityMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+
+ATT.HeatCapacityMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+
+ATT.HeatCapacityMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+
+ATT.HeatCapacityMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.multiply")
+ATT.SortOrder = 10
+ATT.HeatCapacityMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+0.25 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+
+ATT.HeatCapacityAdd = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+0.5 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+
+ATT.HeatCapacityAdd = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+
+ATT.HeatCapacityAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 5
+ATT.HeatCapacityAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 10
+ATT.HeatCapacityAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 25
+ATT.HeatCapacityAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 50
+ATT.HeatCapacityAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 75
+ATT.HeatCapacityAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 100
+ATT.HeatCapacityAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 500
+ATT.HeatCapacityAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.plus")
+ATT.SortOrder = 1000
+ATT.HeatCapacityAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-0.25 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+
+ATT.HeatCapacityAdd = -0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-0.5 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+
+ATT.HeatCapacityAdd = -0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+
+ATT.HeatCapacityAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 5
+ATT.HeatCapacityAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 10
+ATT.HeatCapacityAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 25
+ATT.HeatCapacityAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 50
+ATT.HeatCapacityAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 75
+ATT.HeatCapacityAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 100
+ATT.HeatCapacityAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 500
+ATT.HeatCapacityAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.minus")
+ATT.SortOrder = 1000
+ATT.HeatCapacityAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_minus1000")
+
+//////////////////// Fixed
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 1
+ATT.HeatCapacityOverride = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 5
+ATT.HeatCapacityOverride = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 10
+ATT.HeatCapacityOverride = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 15
+ATT.HeatCapacityOverride = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "17 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 17
+ATT.HeatCapacityOverride = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force17")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 20
+ATT.HeatCapacityOverride = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 25
+ATT.HeatCapacityOverride = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "30 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 30
+ATT.HeatCapacityOverride = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 50
+ATT.HeatCapacityOverride = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 75
+ATT.HeatCapacityOverride = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 100
+ATT.HeatCapacityOverride = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 500
+ATT.HeatCapacityOverride = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000 Heat Capacity"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.capacity.fixed")
+ATT.SortOrder = 1000
+ATT.HeatCapacityOverride = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_capacity_force1000")
+
+///////////////////////////////////////     "Heat Dissipation" (HeatDissipation)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.divide")
+
+ATT.HeatDissipationMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.divide")
+
+ATT.HeatDissipationMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.divide")
+
+ATT.HeatDissipationMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.divide")
+
+ATT.HeatDissipationMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.divide")
+
+ATT.HeatDissipationMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+
+ATT.HeatDissipationMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+
+ATT.HeatDissipationMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+
+ATT.HeatDissipationMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+
+ATT.HeatDissipationMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+
+ATT.HeatDissipationMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+
+ATT.HeatDissipationMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.multiply")
+ATT.SortOrder = 10
+ATT.HeatDissipationMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+0.25 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+
+ATT.HeatDissipationAdd = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+0.5 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+
+ATT.HeatDissipationAdd = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+
+ATT.HeatDissipationAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 5
+ATT.HeatDissipationAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 10
+ATT.HeatDissipationAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 25
+ATT.HeatDissipationAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 50
+ATT.HeatDissipationAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 75
+ATT.HeatDissipationAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 100
+ATT.HeatDissipationAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 500
+ATT.HeatDissipationAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.plus")
+ATT.SortOrder = 1000
+ATT.HeatDissipationAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-0.25 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+
+ATT.HeatDissipationAdd = -0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-0.5 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+
+ATT.HeatDissipationAdd = -0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+
+ATT.HeatDissipationAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 5
+ATT.HeatDissipationAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 10
+ATT.HeatDissipationAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 25
+ATT.HeatDissipationAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 50
+ATT.HeatDissipationAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 75
+ATT.HeatDissipationAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 100
+ATT.HeatDissipationAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 500
+ATT.HeatDissipationAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.minus")
+ATT.SortOrder = 1000
+ATT.HeatDissipationAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_minus1000")
+
+//////////////////// Fixed
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 1
+ATT.HeatDissipationOverride = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 5
+ATT.HeatDissipationOverride = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 10
+ATT.HeatDissipationOverride = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 15
+ATT.HeatDissipationOverride = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "17 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 17
+ATT.HeatDissipationOverride = 17
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force17")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 20
+ATT.HeatDissipationOverride = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 25
+ATT.HeatDissipationOverride = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "30 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 30
+ATT.HeatDissipationOverride = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 50
+ATT.HeatDissipationOverride = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 75
+ATT.HeatDissipationOverride = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 100
+ATT.HeatDissipationOverride = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 500
+ATT.HeatDissipationOverride = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000 Heat Dissipation"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.dissipation.fixed")
+ATT.SortOrder = 1000
+ATT.HeatDissipationOverride = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_dissipation_force1000")
+
+///////////////////////////////////////     "Heat Dissipation Delay" (HeatDelay)
+//////////////////// Fixed
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 1
+ATT.HeatDelayTime = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "3 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 3
+ATT.HeatDelayTime = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force3")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 5
+ATT.HeatDelayTime = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 10
+ATT.HeatDelayTime = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "30 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 30
+ATT.HeatDelayTime = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "60 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 60
+ATT.HeatDelayTime = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force60")

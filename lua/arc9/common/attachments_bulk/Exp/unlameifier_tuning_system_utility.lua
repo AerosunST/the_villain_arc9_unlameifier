@@ -221,3 +221,99 @@ ATT.Override_DamageType = DMG_BLAST + DMG_AIRBOAT
 ATT.DamageType = DMG_BLAST + DMG_AIRBOAT
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_nuke_ammo")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Disable Malfunctions"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.utility.system")
+
+ATT.Malfunction = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_malfunction_disable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Enable Malfunctions"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.utility.system")
+
+ATT.Malfunction = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_malfunction_enable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Disable Overheating"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
+ATT.SortOrder = -1
+ATT.Overheat = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_disable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Enable Overheating"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
+ATT.SortOrder = -1
+ATT.Overheat = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_enable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Disable Overheating Lockout"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
+ATT.SortOrder = 0
+ATT.HeatLockout = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_lockout_disable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Enable Overheating Lockout"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
+ATT.SortOrder = 0
+ATT.HeatLockout = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_lockout_enable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Disable Overheating Full Fix"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
+ATT.SortOrder = 1
+ATT.HeatFix = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_fix_disable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Enable Overheating Full Fix"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
+ATT.SortOrder = 1
+ATT.HeatFix = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_fix_enable")

@@ -363,7 +363,7 @@ Só pra constar, a suas músicas do soundcloud são uma bosta. Música não é o
 
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Utilidades"
-L["unlameifier.folder..toys"] = "Unlameifier/Brinquedos"
+L["unlameifier.folder.toys"] = "Unlameifier/Brinquedos"
 L["unlameifier.folder.tracers"] = "Unlameifier/Traçantes"
 
 L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Brinquedos/Sprays de Impacto"

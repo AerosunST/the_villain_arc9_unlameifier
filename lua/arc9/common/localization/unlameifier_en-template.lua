@@ -362,7 +362,7 @@ For the record, your soundcloud tracks are ass. Stop trying, please. You are not
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Unlameifier/Utilities"
 
-L["unlameifier.folder..toys"] = "Unlameifier/Unlameifier/Toys"
+L["unlameifier.folder.toys"] = "Unlameifier/Unlameifier/Toys"
 L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
 
 L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"

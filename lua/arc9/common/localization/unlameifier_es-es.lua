@@ -361,7 +361,7 @@ Para que conste, tus pistas de soundcloud son horribles. Deja de intentarlo, por
 
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Utilitario"
-L["unlameifier.folder..toys"] = "Unlameifier/Juguetes"
+L["unlameifier.folder.toys"] = "Unlameifier/Juguetes"
 L["unlameifier.folder.tracers"] = "Unlameifier/Trazadores"
 
 L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Juguetes/Calcomanías de impacto"

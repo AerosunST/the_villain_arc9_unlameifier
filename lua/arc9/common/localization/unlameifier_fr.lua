@@ -361,7 +361,7 @@ Text in Line 2 ]]
 
 //////////////////////////////// unlameifier_eft_extras custom strings
 -- L["unlameifier.folder.utilities"] = "Unlameifier/Utilities"
--- L["unlameifier.folder..toys"] = "Unlameifier/Toys"
+-- L["unlameifier.folder.toys"] = "Unlameifier/Toys"
 -- L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
 
 -- L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"

@@ -361,7 +361,7 @@ Bara så du vet så är din soundcloud-musik skit. Snälla, sluta försöka. Du 
 
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Verktyg"
-L["unlameifier.folder..toys"] = "Unlameifier/Leksaker"
+L["unlameifier.folder.toys"] = "Unlameifier/Leksaker"
 L["unlameifier.folder.tracers"] = "Spårljus"
 
 L["unlameifier.folder.toys.impactdecals"] = "Leksaker/Träffdekaler"
@@ -2273,18 +2273,2791 @@ L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
 L["unlameifier_tuning_system.printname"] = "Aktivera Anpassning"
 L["unlameifier_tuning_system.compactname"] = "Anpassning"
--- L["unlameifier_tuning_system.description"] = [[Tillåter dig att finjustera ditt vapens statistik i stegvisa värden för att få den att bete exakt som du vill. Du kan utrusta dem i vilken ordning som helst, då anpassningsplatser kommer vara vid slutet av dem utrustade platserna. <color=255,255,0>För att inte orsaka visuella problem så visas dessa underplatser EJ i 3D-vyn.</color>
-
--- <color=255,0,0>VARNING.</color> DETTA KAN ANVÄNDAS FÖR ATT SKAPA SUPER-ULTRA KRAFTFULLA FUSKVAPEN. Det finns inga begränsningar på vad detta kan utföra, så om du är en server ägare, var säker på att du avaktiverar detta tillbehör ifall du inte vill att spelare ska få lov att använda denna funktion. Medans det finns funktioner som gör att tillbehör endast är tillgängliga till administratörer så är Unlameifier ej gjort för flerspelareläget, och kanske inte har denna begränsning.
-
--- om du spelar darkrp, vänligen avinstallera Garry's Mod och gå utomhus. Tack.
-
--- Ah, och ifall du vill avaktivera detta tillbehör så har det interna namnet "unlameifier_tuning_system"]]
-
-L["unlameifier_tuning_system.description"] = [[Tillåter användaren att finjustera statistiken på vapnet genom att utrusta diverse statistikändrande tillbehör. Kan utrustas i vilken ordning som helst.
+L["unlameifier_tuning_system.description"] = [[Tillåter användaren att <color=255,255,100>finjustera statistiken på vapnet</color> genom att utrusta diverse statistikändrande tillbehör. Kan utrustas i vilken ordning som helst.
 
 <color=255,100,100>WARNING</color>: Detta kan användas för att skapa super-ultra kraftfulla fusk-liknande vapen. Det finns ingen begränsning på vad denna kan skapa, så ifall du är en server ägare, var säker på att detta tillbehör är avstängt, om du inte vill att spelare ska använda den. Medans ARC9 har en funktion som avaktiverar tillbehör till alla förutom administratörer så var Unlameifier ej gjort för Flerspelareläget, och kommer därför inte ha denna funktion.
 
 Om du använder ARC9 eller Unlameifier på DarkRP, vänligen avinstallera Garry's Mod, gå ut och rör gräs. Tack.
 
 <color=255,255,100>Admins/Server Ägare</color>: Om du vill avaktivera detta tillbehör, lägg till "unlameifier_tuning_system" i svartlistan.]]
+
+local statsdesc = {
+	plus = "Ökar \"%s\"-värdet med <color=100,255,100>+%s</color>.\n",
+	minus = "Sänker \"%s\"-värdet med <color=255,100,100>-%s</color>.\n",
+	fixed = "Sätter \"%s\"-värdet till ett vast värde av <color=255,255,100>%d</color>.\n",
+	
+	plusinv = "Ökar \"%s\"-värdet med <color=255,100,100>+%s</color>.\n",
+	minusinv = "Sänker \"%s\"-värdet med <color=100,255,100>-%s</color>.\n",
+	
+	fixedsec = "Sätter \"%s\"-värdet till <color=255,255,100>%s</color> second.\n",
+	fixedsecs = "Sets the \"%s\"-värdet till <color=255,255,100>%s</color> seconds.\n",
+
+	warntoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet är satt för högt så kan det göra att vapnet inte fungerar längre.",
+	warntoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är satt för högt så kan det orsaka starka prestandaproblem.",
+	
+	warnammotoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är högre än den tillgängliga ammunitionen i vapnet så kommer den inte skjuta.",
+	warnammotoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet är lika med standardvärdet så kommer den inte längre kräva ammunition för att skjuta, vilket ger den effekten <color=255,255,100>Bottenlöst Magasin</color>. Om värdet är lägre än standard så kommer den <color=100,255,100>FÅ</color> ammunition i magasinet.",
+	
+	warndmgtoolow = "\n\n<color=175,175,255>NOTERA</color>: Om värdet når det negativa så kommer den göra 0 skada.",
+	warndmgeft = "\n\n<color=175,175,255>NOTERA</color>: Om den används på ett \"Escape from Tarkov\"-vapen så krävs det att <color=255,255,100>Tvinga Avstängd Uppsökta Skadetabeller</color> (hittad i \"Anpassad Plats/Unlameifier/Verktyg\") också är utrustat för att detta ska ha någon effekt.",
+	
+	warnrecoiltoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för högt så kan mindre eller större visuella glitchar inträffa.",
+	warnrecoiltoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet når det negativa så kan den förflytta kameran ner istället för upp. Om den är för hög så kan mindre eller större visuella glitchar inträffa.",
+	
+	warnvisrecoiltoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet når det negativa så kan den förflytta vapnet framåt istället för bakåt. Om den är för hög så kan mindre eller större visuella glitchar inträffa.",
+
+	warnadstoolow = "\n\n<color=175,175,255>NOTERA</color>: Om värdet är satt till eller nära till 0 så kommer vapnet inte omedelbart visuellt gå till skärmens center.",
+	
+	warnmaxrange = "\n\n<color=255,100,100>VARNING</color>: Om värdet går under \"Minimum Räckvidd\"-värdet så kommer det finnas noll avsläpp.",
+	warnminrange = "\n\n<color=255,100,100>VARNING</color>: Om värdet går över \"Maximum Räckvidd\"-värdet så kommer det finnas noll avsläpp.",
+	
+	warnmalf = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Felfunktion\" är avaktiverat.",
+	warnmalftoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för högt så kan den orsaka att vapnet får fel efter varje skott.",
+
+	warnheat = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Överhettning\" är avaktiverat.",
+	warnheattoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för högt så kan det orsaka att vapnet överhettas efter varje skott.", -- for "Hetta Per Skott"
+	warnheattoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för lågt så kan det orsaka att vapnet överhettas efter varje skott.", -- for " Hetta Kapacitet"
+
+	warntrigger = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Avtryckare Fördröjning\" är avaktiverat.", -- for anything "Avtryckare Fördröjning" related
+	warntriggerauto = "\n<color=175,175,255>NOTERA</color>: Har ingen märkvärdig effekt ifall vapnet är satt till halvautomat.", -- for anything "Avtryckare Fördröjning" related
+
+}
+
+///////// Projektiler
+L["unlameifier.folder.projectiles"] = "Projektiler"
+L["unlameifier.folder.projectiles.fixed"] = "Projektiler/Fast"
+L["unlameifier.folder.projectiles.plus"] = "Projektiler/Lägg till"
+L["unlameifier.folder.projectiles.minus"] = "Projektiler/Ta bort"
+
+L["unlameifier_tuning_projectile_plus1.printname"] = "+1 Projektiler"
+L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 Projektiler"
+L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Projektilantal", 1) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_plus2.printname"] = "+2 Projektiler"
+L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 Projektiler"
+L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Projektilantal", 2) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_plus3.printname"] = "+3 Projektiler"
+L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 Projektiler"
+L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Projektilantal", 3) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_plus4.printname"] = "+4 Projektiler"
+L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 Projektiler"
+L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Projektilantal", 4) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_plus5.printname"] = "+5 Projektiler"
+L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 Projektiler"
+L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Projektilantal", 5) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus6.printname"] = "+6 Projektiler"
+L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 Projektiler"
+L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Projektilantal", 6) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Projektiler"
+L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Projektiler"
+L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Projektilantal", 7) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Projektiler"
+L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Projektiler"
+L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Projektilantal", 1) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus2.printname"] = "-2 Projektiler"
+L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 Projektiler"
+L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Projektilantal", 2) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus3.printname"] = "-3 Projektiler"
+L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 Projektiler"
+L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Projektilantal", 3) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus4.printname"] = "-4 Projektiler"
+L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 Projektiler"
+L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Projektilantal", 4) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus5.printname"] = "-5 Projektiler"
+L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 Projektiler"
+L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Projektilantal", 5) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus6.printname"] = "-6 Projektiler"
+L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 Projektiler"
+L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Projektilantal", 6) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Projektiler"
+L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Projektiler"
+L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Projektilantal", 7) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
+L["unlameifier_tuning_projectile_force1.compactname"] = "1 Projektiler"
+L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Projektilantal", 1) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_force2.printname"] = "2 Projektiler"
+L["unlameifier_tuning_projectile_force2.compactname"] = "2 Projektiler"
+L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Projektilantal", 2) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_force3.printname"] = "3 Projektiler"
+L["unlameifier_tuning_projectile_force3.compactname"] = "3 Projektiler"
+L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Projektilantal", 3) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_force4.printname"] = "4 Projektiler"
+L["unlameifier_tuning_projectile_force4.compactname"] = "4 Projektiler"
+L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Projektilantal", 4) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts."
+
+L["unlameifier_tuning_projectile_force5.printname"] = "5 Projektiler"
+L["unlameifier_tuning_projectile_force5.compactname"] = "5 Projektiler"
+L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Projektilantal", 5) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force6.printname"] = "6 Projektiler"
+L["unlameifier_tuning_projectile_force6.compactname"] = "6 Projektiler"
+L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Projektilantal", 6) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force7.printname"] = "7 Projektiler"
+L["unlameifier_tuning_projectile_force7.compactname"] = "7 Projektiler"
+L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Projektilantal", 7) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force8.printname"] = "8 Projektiler"
+L["unlameifier_tuning_projectile_force8.compactname"] = "8 Projektiler"
+L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Projektilantal", 8) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+///////// Ammo Per Shot
+L["unlameifier.folder.ammopershot"] = "Ammo Per Skott"
+L["unlameifier.folder.ammopershot.fixed"] = "Ammo Per Skott/Fast"
+L["unlameifier.folder.ammopershot.plus"] = "Ammo Per Skott/Lägg till"
+L["unlameifier.folder.ammopershot.minus"] = "Ammo Per Skott/Ta bort"
+
+L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 1) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 2) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 3) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 4) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 5) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 6) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Ammo Per Skott", 7) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 1) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 2) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 3) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 4) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 5) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 6) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Ammo Per Skott", 7) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoolow
+
+L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 1) .. "Detta ändrar hur mycket ammo används vid varje skott."
+
+L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 2) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 3) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 4) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 5) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 6) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 7) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Ammo Per Skott"
+L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 Ammo PS"
+L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Ammo Per Skott", 8) .. "Detta ändrar hur mycket ammo används vid varje skott." .. statsdesc.warnammotoohigh
+
+///////// Maximum Damage
+L["unlameifier.folder.maxdamage"] = "Skada/Max"
+L["unlameifier.folder.maxdamage.fixed"] = "Skada/Max/Fast"
+L["unlameifier.folder.maxdamage.plus"] = "Skada/Max/Lägg till"
+L["unlameifier.folder.maxdamage.minus"] = "Skada/Max/Ta bort"
+L["unlameifier.folder.maxdamage.multiply"] = "Skada/Max/Multiplicera"
+L["unlameifier.folder.maxdamage.divide"] = "Skada/Max/Dela"
+
+L["unlameifier_tuning_max_damage_x010.printname"] = "0,1x Maximal Skada"
+L["unlameifier_tuning_max_damage_x010.compactname"] = "0,1x Max SKD"
+L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Närdistans Skada", "90%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x025.printname"] = "0,25x Maximal Skada"
+L["unlameifier_tuning_max_damage_x025.compactname"] = "0,25x Max SKD"
+L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Närdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x050.printname"] = "0,5x Maximal Skada"
+L["unlameifier_tuning_max_damage_x050.compactname"] = "0,5x Max SKD"
+L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Närdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x075.printname"] = "0,75x Maximal Skada"
+L["unlameifier_tuning_max_damage_x075.compactname"] = "0,75x Max SKD"
+L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Närdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x090.printname"] = "0,9x Maximal Skada"
+L["unlameifier_tuning_max_damage_x090.compactname"] = "0,9x Max SKD"
+L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Närdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x110.printname"] = "1,1x Maximal Skada"
+L["unlameifier_tuning_max_damage_x110.compactname"] = "1,1x Max SKD"
+L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Närdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x125.printname"] = "1,25x Maximal Skada"
+L["unlameifier_tuning_max_damage_x125.compactname"] = "1,25x Max SKD"
+L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Närdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x150.printname"] = "1,5x Maximal Skada"
+L["unlameifier_tuning_max_damage_x150.compactname"] = "1,5x Max SKD"
+L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Närdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x175.printname"] = "1,75x Maximal Skada"
+L["unlameifier_tuning_max_damage_x175.compactname"] = "1,75x Max SKD"
+L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Närdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x2.printname"] = "2x Maximal Skada"
+L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Max SKD"
+L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Närdistans Skada", "100%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x5.printname"] = "5x Maximal Skada"
+L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Max SKD"
+L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Närdistans Skada", "400%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_x10.printname"] = "10x Maximal Skada"
+L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Max SKD"
+L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Närdistans Skada", "900%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Max SKD"
+L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Närdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Max SKD"
+L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Närdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Max SKD"
+L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Närdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Max SKD"
+L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Närdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Max SKD"
+L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Närdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Max SKD"
+L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Närdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Max SKD"
+L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Närdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Max SKD"
+L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Närdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Maximal Skada"
+L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Max SKD"
+L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Närdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Max SKD"
+L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Närdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Max SKD"
+L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Närdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Max SKD"
+L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Närdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Max SKD"
+L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Närdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Max SKD"
+L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Närdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Max SKD"
+L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Närdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Max SKD"
+L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Närdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Max SKD"
+L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Närdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Maximal Skada"
+L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Max SKD"
+L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Närdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Max SKD"
+L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 0) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. "\n\n<color=255,100,100>VARNING</color>: Beroende på vart du träffar så kan den fortfarande göra skada." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Max SKD"
+L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Max SKD"
+L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Max SKD"
+L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Max SKD"
+L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Max SKD"
+L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 30) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Max SKD"
+L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Max SKD"
+L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Max SKD"
+L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Maximal Skada"
+L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Max SKD"
+L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 99999) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+
+///////// Minimum Damage
+L["unlameifier.folder.mindamage"] = "Skada/Min"
+L["unlameifier.folder.mindamage.fixed"] = "Skada/Min/Fast"
+L["unlameifier.folder.mindamage.plus"] = "Skada/Min/Lägg till"
+L["unlameifier.folder.mindamage.minus"] = "Skada/Min/Ta bort"
+L["unlameifier.folder.mindamage.multiply"] = "Skada/Min/Multiplicera"
+L["unlameifier.folder.mindamage.divide"] = "Skada/Min/Dela"
+
+L["unlameifier_tuning_min_damage_x010.printname"] = "0,1x Minimum Skada"
+L["unlameifier_tuning_min_damage_x010.compactname"] = "0,1x Min SKD"
+L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Långdistans Skada", "90%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x025.printname"] = "0,25x Minimum Skada"
+L["unlameifier_tuning_min_damage_x025.compactname"] = "0,25x Min SKD"
+L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Långdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x050.printname"] = "0,5x Minimum Skada"
+L["unlameifier_tuning_min_damage_x050.compactname"] = "0,5x Min SKD"
+L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Långdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x075.printname"] = "0,75x Minimum Skada"
+L["unlameifier_tuning_min_damage_x075.compactname"] = "0,75x Min SKD"
+L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Långdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x090.printname"] = "0,9x Minimum Skada"
+L["unlameifier_tuning_min_damage_x090.compactname"] = "0,9x Min SKD"
+L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Långdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x110.printname"] = "1,1x Minimum Skada"
+L["unlameifier_tuning_min_damage_x110.compactname"] = "1,1x Min SKD"
+L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Långdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x125.printname"] = "1,25x Minimum Skada"
+L["unlameifier_tuning_min_damage_x125.compactname"] = "1,25x Min SKD"
+L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Långdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x150.printname"] = "1,5x Minimum Skada"
+L["unlameifier_tuning_min_damage_x150.compactname"] = "1,5x Min SKD"
+L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Långdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x175.printname"] = "1,75x Minimum Skada"
+L["unlameifier_tuning_min_damage_x175.compactname"] = "1,75x Min SKD"
+L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Långdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x2.printname"] = "2x Minimum Skada"
+L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Min SKD"
+L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Långdistans Skada", "100%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x5.printname"] = "5x Minimum Skada"
+L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Min SKD"
+L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Långdistans Skada", "400%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_x10.printname"] = "10x Minimum Skada"
+L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Min SKD"
+L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Långdistans Skada", "900%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Min SKD"
+L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Långdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Min SKD"
+L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Långdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Min SKD"
+L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Långdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Min SKD"
+L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Långdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Min SKD"
+L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Långdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Min SKD"
+L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Långdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Min SKD"
+L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Långdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Min SKD"
+L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Långdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Minimum Skada"
+L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Min SKD"
+L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Långdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Min SKD"
+L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Långdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Min SKD"
+L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Långdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Min SKD"
+L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Långdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Min SKD"
+L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Långdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Min SKD"
+L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Långdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Min SKD"
+L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Långdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Min SKD"
+L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Långdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Min SKD"
+L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Långdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Minimum Skada"
+L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Min SKD"
+L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Långdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Min SKD"
+L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 0) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. "\n\n<color=255,100,100>VARNING</color>: Beroende på vart du träffar så kan den fortfarande göra skada." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Min SKD"
+L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Min SKD"
+L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Min SKD"
+L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Min SKD"
+L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Min SKD"
+L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 30) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Min SKD"
+L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Min SKD"
+L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Min SKD"
+L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Minimum Skada"
+L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Min SKD"
+L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 99999) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+
+///////// Recoil
+L["unlameifier.folder.Rekyl"] = "Rekyl"
+L["unlameifier.folder.recoil.plus"] = "Rekyl/Lägg till"
+L["unlameifier.folder.recoil.minus"] = "Rekyl/Ta bort"
+L["unlameifier.folder.recoil.multiply"] = "Rekyl/Multiplicera"
+L["unlameifier.folder.recoil.divide"] = "Rekyl/Dela"
+
+L["unlameifier_tuning_recoil_x010.printname"] = "0,1x Rekyl"
+L["unlameifier_tuning_recoil_x010.compactname"] = "0,1x Rekyl"
+L["unlameifier_tuning_recoil_x010.description"] = string.format(statsdesc.minusinv, "Rekyl", "90%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x025.printname"] = "0,25x Rekyl"
+L["unlameifier_tuning_recoil_x025.compactname"] = "0,25x Rekyl"
+L["unlameifier_tuning_recoil_x025.description"] = string.format(statsdesc.minusinv, "Rekyl", "75%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x050.printname"] = "0,5x Rekyl"
+L["unlameifier_tuning_recoil_x050.compactname"] = "0,5x Rekyl"
+L["unlameifier_tuning_recoil_x050.description"] = string.format(statsdesc.minusinv, "Rekyl", "50%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x075.printname"] = "0,75x Rekyl"
+L["unlameifier_tuning_recoil_x075.compactname"] = "0,75x Rekyl"
+L["unlameifier_tuning_recoil_x075.description"] = string.format(statsdesc.minusinv, "Rekyl", "25%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x090.printname"] = "0,9x Rekyl"
+L["unlameifier_tuning_recoil_x090.compactname"] = "0,9x Rekyl"
+L["unlameifier_tuning_recoil_x090.description"] = string.format(statsdesc.minusinv, "Rekyl", "10%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x110.printname"] = "1,1x Rekyl"
+L["unlameifier_tuning_recoil_x110.compactname"] = "1,1x Rekyl"
+L["unlameifier_tuning_recoil_x110.description"] = string.format(statsdesc.plusinv, "Rekyl", "10%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x125.printname"] = "1,25x Rekyl"
+L["unlameifier_tuning_recoil_x125.compactname"] = "1,25x Rekyl"
+L["unlameifier_tuning_recoil_x125.description"] = string.format(statsdesc.plusinv, "Rekyl", "25%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter."
+
+L["unlameifier_tuning_recoil_x150.printname"] = "1,5x Rekyl"
+L["unlameifier_tuning_recoil_x150.compactname"] = "1,5x Rekyl"
+L["unlameifier_tuning_recoil_x150.description"] = string.format(statsdesc.plusinv, "Rekyl", "50%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_x175.printname"] = "1,75x Rekyl"
+L["unlameifier_tuning_recoil_x175.compactname"] = "1,75x Rekyl"
+L["unlameifier_tuning_recoil_x175.description"] = string.format(statsdesc.plusinv, "Rekyl", "75%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_x2.printname"] = "2x Rekyl"
+L["unlameifier_tuning_recoil_x2.compactname"] = "2x Rekyl"
+L["unlameifier_tuning_recoil_x2.description"] = string.format(statsdesc.plusinv, "Rekyl", "100%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_x5.printname"] = "5x Rekyl"
+L["unlameifier_tuning_recoil_x5.compactname"] = "5x Rekyl"
+L["unlameifier_tuning_recoil_x5.description"] = string.format(statsdesc.plusinv, "Rekyl", "400%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_x10.printname"] = "10x Rekyl"
+L["unlameifier_tuning_recoil_x10.compactname"] = "10x Rekyl"
+L["unlameifier_tuning_recoil_x10.description"] = string.format(statsdesc.plusinv, "Rekyl", "900%") .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus1.printname"] = "+1 Rekyl"
+L["unlameifier_tuning_recoil_plus1.compactname"] = "+1 Rekyl"
+L["unlameifier_tuning_recoil_plus1.description"] = string.format(statsdesc.plusinv, "Rekyl", 1) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus5.printname"] = "+5 Rekyl"
+L["unlameifier_tuning_recoil_plus5.compactname"] = "+5 Rekyl"
+L["unlameifier_tuning_recoil_plus5.description"] = string.format(statsdesc.plusinv, "Rekyl", 5) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus10.printname"] = "+10 Rekyl"
+L["unlameifier_tuning_recoil_plus10.compactname"] = "+10 Rekyl"
+L["unlameifier_tuning_recoil_plus10.description"] = string.format(statsdesc.plusinv, "Rekyl", 10) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus25.printname"] = "+25 Rekyl"
+L["unlameifier_tuning_recoil_plus25.compactname"] = "+25 Rekyl"
+L["unlameifier_tuning_recoil_plus25.description"] = string.format(statsdesc.plusinv, "Rekyl", 25) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus50.printname"] = "+50 Rekyl"
+L["unlameifier_tuning_recoil_plus50.compactname"] = "+50 Rekyl"
+L["unlameifier_tuning_recoil_plus50.description"] = string.format(statsdesc.plusinv, "Rekyl", 50) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus75.printname"] = "+75 Rekyl"
+L["unlameifier_tuning_recoil_plus75.compactname"] = "+75 Rekyl"
+L["unlameifier_tuning_recoil_plus75.description"] = string.format(statsdesc.plusinv, "Rekyl", 75) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus100.printname"] = "+100 Rekyl"
+L["unlameifier_tuning_recoil_plus100.compactname"] = "+100 Rekyl"
+L["unlameifier_tuning_recoil_plus100.description"] = string.format(statsdesc.plusinv, "Rekyl", 100) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus500.printname"] = "+500 Rekyl"
+L["unlameifier_tuning_recoil_plus500.compactname"] = "+500 Rekyl"
+L["unlameifier_tuning_recoil_plus500.description"] = string.format(statsdesc.plusinv, "Rekyl", 500) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_plus1000.printname"] = "+1000 Rekyl"
+L["unlameifier_tuning_recoil_plus1000.compactname"] = "+1000 Rekyl"
+L["unlameifier_tuning_recoil_plus1000.description"] = string.format(statsdesc.plusinv, "Rekyl", 1000) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoohigh
+
+L["unlameifier_tuning_recoil_minus1.printname"] = "-1 Rekyl"
+L["unlameifier_tuning_recoil_minus1.compactname"] = "-1 Rekyl"
+L["unlameifier_tuning_recoil_minus1.description"] = string.format(statsdesc.minusinv, "Rekyl", 1) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus5.printname"] = "-5 Rekyl"
+L["unlameifier_tuning_recoil_minus5.compactname"] = "-5 Rekyl"
+L["unlameifier_tuning_recoil_minus5.description"] = string.format(statsdesc.minusinv, "Rekyl", 5) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus10.printname"] = "-10 Rekyl"
+L["unlameifier_tuning_recoil_minus10.compactname"] = "-10 Rekyl"
+L["unlameifier_tuning_recoil_minus10.description"] = string.format(statsdesc.minusinv, "Rekyl", 10) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus25.printname"] = "-25 Rekyl"
+L["unlameifier_tuning_recoil_minus25.compactname"] = "-25 Rekyl"
+L["unlameifier_tuning_recoil_minus25.description"] = string.format(statsdesc.minusinv, "Rekyl", 25) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus50.printname"] = "-50 Rekyl"
+L["unlameifier_tuning_recoil_minus50.compactname"] = "-50 Rekyl"
+L["unlameifier_tuning_recoil_minus50.description"] = string.format(statsdesc.minusinv, "Rekyl", 50) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus75.printname"] = "-75 Rekyl"
+L["unlameifier_tuning_recoil_minus75.compactname"] = "-75 Rekyl"
+L["unlameifier_tuning_recoil_minus75.description"] = string.format(statsdesc.minusinv, "Rekyl", 75) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus100.printname"] = "-100 Rekyl"
+L["unlameifier_tuning_recoil_minus100.compactname"] = "-100 Rekyl"
+L["unlameifier_tuning_recoil_minus100.description"] = string.format(statsdesc.minusinv, "Rekyl", 100) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus500.printname"] = "-500 Rekyl"
+L["unlameifier_tuning_recoil_minus500.compactname"] = "-500 Rekyl"
+L["unlameifier_tuning_recoil_minus500.description"] = string.format(statsdesc.minusinv, "Rekyl", 500) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+L["unlameifier_tuning_recoil_minus1000.printname"] = "-1000 Rekyl"
+L["unlameifier_tuning_recoil_minus1000.compactname"] = "-1000 Rekyl"
+L["unlameifier_tuning_recoil_minus1000.description"] = string.format(statsdesc.minusinv, "Rekyl", 1000) .. "Detta ändrar hur mycket kameran förflyttar sig upåt när du skjuter." .. statsdesc.warnrecoiltoolow
+
+///////// Visual Recoil
+L["unlameifier.folder.visRekyl"] = "Visuell Rekyl"
+L["unlameifier.folder.visrecoil.plus"] = "Visual Recoil/Lägg till"
+L["unlameifier.folder.visrecoil.minus"] = "Visual Recoil/Ta bort"
+L["unlameifier.folder.visrecoil.multiply"] = "Visual Recoil/Multiplicera"
+L["unlameifier.folder.visrecoil.divide"] = "Visual Recoil/Dela"
+
+L["unlameifier_tuning_visrecoil_x010.printname"] = "0,1x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x010.compactname"] = "0,1x VisRekyl"
+L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", "90%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x025.printname"] = "0,25x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x025.compactname"] = "0,25x VisRekyl"
+L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", "75%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x050.printname"] = "0,5x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x050.compactname"] = "0,5x VisRekyl"
+L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", "50%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x075.printname"] = "0,75x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x075.compactname"] = "0,75x VisRekyl"
+L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", "25%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x090.printname"] = "0,9x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x090.compactname"] = "0,9x VisRekyl"
+L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", "10%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x110.printname"] = "1,1x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x110.compactname"] = "1,1x VisRekyl"
+L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "10%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x125.printname"] = "1,25x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x125.compactname"] = "1,25x VisRekyl"
+L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "25%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x150.printname"] = "1,5x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x150.compactname"] = "1,5x VisRekyl"
+L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "50%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x175.printname"] = "1,75x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x175.compactname"] = "1,75x VisRekyl"
+L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "75%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x2.compactname"] = "2x VisRekyl"
+L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "100%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x5.compactname"] = "5x VisRekyl"
+L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "400%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_x10.compactname"] = "10x VisRekyl"
+L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", "900%") .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 1) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 5) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 10) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 25) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 50) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 75) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 100) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 500) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 VisRekyl"
+L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Visuell Rekyl", 1000) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 1) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 5) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 10) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 25) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 50) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 75) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 100) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 500) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Visuell Rekyl"
+L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 VisRekyl"
+L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Visuell Rekyl", 1000) .. "Detta ändrar hur mycket hårkorset och vapnet förflyttar sig upåt när du skjuter oberoende av kameran." .. statsdesc.warnvisrecoiltoolow
+
+///////// Reload Time
+L["unlameifier.folder.reloadtime"] = "Omladdningstid"
+L["unlameifier.folder.reloadtime.plus"] = "Omladdningstid/Lägg till"
+L["unlameifier.folder.reloadtime.minus"] = "Omladdningstid/Ta bort"
+L["unlameifier.folder.reloadtime.multiply"] = "Omladdningstid/Multiplicera"
+L["unlameifier.folder.reloadtime.divide"] = "Omladdningstid/Dela"
+
+L["unlameifier_tuning_reloadtime_x0.printname"] = "0x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x0.compactname"] = "0x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x0.description"] = string.format(statsdesc.minusinv, "Omladdningstid", "100%") .. "Detta ändrar hur snabbt vapnet laddas om." .. "\n\n" .. "Detta är praktiskt sett en <color=255,255,100>omedelbar omladdning</color> effekt."
+
+L["unlameifier_tuning_reloadtime_x010.printname"] = "0,1x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x010.compactname"] = "0,1x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x010.description"] = string.format(statsdesc.minusinv, "Omladdningstid", "90%") .. "Detta ändrar hur snabbt vapnet laddas om." 
+
+L["unlameifier_tuning_reloadtime_x025.printname"] = "0,25x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x025.compactname"] = "0,25x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x025.description"] = string.format(statsdesc.minusinv, "Omladdningstid", "75%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x050.printname"] = "0,5x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x050.compactname"] = "0,5x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x050.description"] = string.format(statsdesc.minusinv, "Omladdningstid", "50%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x075.printname"] = "0,75x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x075.compactname"] = "0,75x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x075.description"] = string.format(statsdesc.minusinv, "Omladdningstid", "25%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x090.printname"] = "0,9x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x090.compactname"] = "0,9x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x090.description"] = string.format(statsdesc.minusinv, "Omladdningstid", "10%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x110.printname"] = "1,1x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x110.compactname"] = "1,1x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x110.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "10%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x125.printname"] = "1,25x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x125.compactname"] = "1,25x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x125.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "25%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x150.printname"] = "1,5x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x150.compactname"] = "1,5x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x150.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "50%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x175.printname"] = "1,75x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x175.compactname"] = "1,75x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x175.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "75%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x2.printname"] = "2x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x2.compactname"] = "2x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x2.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "100%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x5.printname"] = "5x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x5.compactname"] = "5x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x5.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "400%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+L["unlameifier_tuning_reloadtime_x10.printname"] = "10x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x10.compactname"] = "10x Omladdningstid"
+L["unlameifier_tuning_reloadtime_x10.description"] = string.format(statsdesc.plusinv, "Omladdningstid", "900%") .. "Detta ändrar hur snabbt vapnet laddas om."
+
+///////// Deploy Time
+L["unlameifier.folder.deploytime"] = "Ta Fram Tid"
+L["unlameifier.folder.deploytime.plus"] = "Ta Fram Tid/Lägg till"
+L["unlameifier.folder.deploytime.minus"] = "Ta Fram Tid/Ta bort"
+L["unlameifier.folder.deploytime.multiply"] = "Ta Fram Tid/Multiplicera"
+L["unlameifier.folder.deploytime.divide"] = "Ta Fram Tid/Dela"
+
+L["unlameifier_tuning_deploytime_x0.printname"] = "0x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x0.compactname"] = "0x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x0.description"] = string.format(statsdesc.minusinv, "Ta Fram Tid", "100%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort." .. "\n\n" .. "Detta är praktiskt sett en <color=255,255,100>ta fram omedelbart</color> effekt."
+
+L["unlameifier_tuning_deploytime_x010.printname"] = "0,1x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x010.compactname"] = "0,1x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x010.description"] = string.format(statsdesc.minusinv, "Draw Time", "90%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort." 
+
+L["unlameifier_tuning_deploytime_x025.printname"] = "0,25x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x025.compactname"] = "0,25x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x025.description"] = string.format(statsdesc.minusinv, "Draw Time", "75%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x050.printname"] = "0,5x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x050.compactname"] = "0,5x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x050.description"] = string.format(statsdesc.minusinv, "Draw Time", "50%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x075.printname"] = "0,75x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x075.compactname"] = "0,75x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x075.description"] = string.format(statsdesc.minusinv, "Draw Time", "25%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x090.printname"] = "0,9x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x090.compactname"] = "0,9x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x090.description"] = string.format(statsdesc.minusinv, "Draw Time", "10%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x110.printname"] = "1,1x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x110.compactname"] = "1,1x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x110.description"] = string.format(statsdesc.plusinv, "Draw Time", "10%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x125.printname"] = "1,25x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x125.compactname"] = "1,25x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x125.description"] = string.format(statsdesc.plusinv, "Draw Time", "25%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x150.printname"] = "1,5x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x150.compactname"] = "1,5x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x150.description"] = string.format(statsdesc.plusinv, "Draw Time", "50%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x175.printname"] = "1,75x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x175.compactname"] = "1,75x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x175.description"] = string.format(statsdesc.plusinv, "Draw Time", "75%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x2.printname"] = "2x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x2.compactname"] = "2x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x2.description"] = string.format(statsdesc.plusinv, "Draw Time", "100%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x5.printname"] = "5x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x5.compactname"] = "5x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x5.description"] = string.format(statsdesc.plusinv, "Draw Time", "400%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+L["unlameifier_tuning_deploytime_x10.printname"] = "10x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x10.compactname"] = "10x Ta Fram Tid"
+L["unlameifier_tuning_deploytime_x10.description"] = string.format(statsdesc.plusinv, "Draw Time", "900%") .. "Detta ändrar hur snabbt vapnet tas fram och läggs bort."
+
+///////// ADS Time
+L["unlameifier.folder.adstime"] = "Siktetid"
+L["unlameifier.folder.adstime.plus"] = "Siktetid/Lägg till"
+L["unlameifier.folder.adstime.minus"] = "Siktetid/Ta bort"
+L["unlameifier.folder.adstime.multiply"] = "Siktetid/Multiplicera"
+L["unlameifier.folder.adstime.divide"] = "Siktetid/Dela"
+
+L["unlameifier_tuning_adstime_x0.printname"] = "0x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x0.compactname"] = "0x Siktetid"
+L["unlameifier_tuning_adstime_x0.description"] = string.format(statsdesc.minusinv, "Res/Sänk Siktetid", "100%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet." .. "\n\n" .. "Detta är praktiskt sett en <color=255,255,100>instant ADS</color> effekt." .. statsdesc.warnadstoolow
+
+L["unlameifier_tuning_adstime_x010.printname"] = "0,1x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x010.compactname"] = "0,1x Siktetid"
+L["unlameifier_tuning_adstime_x010.description"] = string.format(statsdesc.minusinv, "Res/Sänk Siktetid", "90%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."  .. statsdesc.warnadstoolow
+
+L["unlameifier_tuning_adstime_x025.printname"] = "0,25x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x025.compactname"] = "0,25x Siktetid"
+L["unlameifier_tuning_adstime_x025.description"] = string.format(statsdesc.minusinv, "Res/Sänk Siktetid", "75%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet." .. statsdesc.warnadstoolow
+
+L["unlameifier_tuning_adstime_x050.printname"] = "0,5x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x050.compactname"] = "0,5x Siktetid"
+L["unlameifier_tuning_adstime_x050.description"] = string.format(statsdesc.minusinv, "Res/Sänk Siktetid", "50%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x075.printname"] = "0,75x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x075.compactname"] = "0,75x Siktetid"
+L["unlameifier_tuning_adstime_x075.description"] = string.format(statsdesc.minusinv, "Res/Sänk Siktetid", "25%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x090.printname"] = "0,9x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x090.compactname"] = "0,9x Siktetid"
+L["unlameifier_tuning_adstime_x090.description"] = string.format(statsdesc.minusinv, "Res/Sänk Siktetid", "10%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x110.printname"] = "1,1x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x110.compactname"] = "1,1x Siktetid"
+L["unlameifier_tuning_adstime_x110.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "10%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x125.printname"] = "1,25x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x125.compactname"] = "1,25x Siktetid"
+L["unlameifier_tuning_adstime_x125.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "25%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x150.printname"] = "1,5x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x150.compactname"] = "1,5x Siktetid"
+L["unlameifier_tuning_adstime_x150.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "50%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x175.printname"] = "1,75x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x175.compactname"] = "1,75x Siktetid"
+L["unlameifier_tuning_adstime_x175.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "75%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x2.printname"] = "2x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x2.compactname"] = "2x Siktetid"
+L["unlameifier_tuning_adstime_x2.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "100%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x5.printname"] = "5x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x5.compactname"] = "5x Siktetid"
+L["unlameifier_tuning_adstime_x5.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "400%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+L["unlameifier_tuning_adstime_x10.printname"] = "10x Res/Sänk Siktetid"
+L["unlameifier_tuning_adstime_x10.compactname"] = "10x Siktetid"
+L["unlameifier_tuning_adstime_x10.description"] = string.format(statsdesc.plusinv, "Res/Sänk Siktetid", "900%") .. "Detta ändrar hur snabbt vapnet reser till eller sänks från siktet."
+
+///////// Magasin Kapacitet
+L["unlameifier.folder.MagKap"] = "Mag Kapacitet"
+L["unlameifier.folder.magcap.fixed"] = "Mag Kapacitet/Fast"
+L["unlameifier.folder.magcap.plus"] = "Mag Kapacitet/Lägg till"
+L["unlameifier.folder.magcap.minus"] = "Mag Kapacitet/Ta bort"
+L["unlameifier.folder.magcap.multiply"] = "Mag Kapacitet/Multiplicera"
+L["unlameifier.folder.magcap.divide"] = "Mag Kapacitet/Dela"
+
+L["unlameifier_tuning_mag_capacity_x010.printname"] = "0,1x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x010.compactname"] = "0,1x MagKap"
+L["unlameifier_tuning_mag_capacity_x010.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", "90%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x025.printname"] = "0,25x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x025.compactname"] = "0,25x MagKap"
+L["unlameifier_tuning_mag_capacity_x025.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", "75%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x050.printname"] = "0,5x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x050.compactname"] = "0,5x MagKap"
+L["unlameifier_tuning_mag_capacity_x050.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", "50%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x075.printname"] = "0,75x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x075.compactname"] = "0,75x MagKap"
+L["unlameifier_tuning_mag_capacity_x075.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", "25%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x090.printname"] = "0,9x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x090.compactname"] = "0,9x MagKap"
+L["unlameifier_tuning_mag_capacity_x090.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", "10%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x110.printname"] = "1,1x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x110.compactname"] = "1,1x MagKap"
+L["unlameifier_tuning_mag_capacity_x110.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "10%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x125.printname"] = "1,25x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x125.compactname"] = "1,25x MagKap"
+L["unlameifier_tuning_mag_capacity_x125.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "25%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x150.printname"] = "1,5x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x150.compactname"] = "1,5x MagKap"
+L["unlameifier_tuning_mag_capacity_x150.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "50%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x175.printname"] = "1,75x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x175.compactname"] = "1,75x MagKap"
+L["unlameifier_tuning_mag_capacity_x175.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "75%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x2.printname"] = "2x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x2.compactname"] = "2x MagKap"
+L["unlameifier_tuning_mag_capacity_x2.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "100%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x5.printname"] = "5x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x5.compactname"] = "5x MagKap"
+L["unlameifier_tuning_mag_capacity_x5.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "400%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_x10.printname"] = "10x Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_x10.compactname"] = "10x MagKap"
+L["unlameifier_tuning_mag_capacity_x10.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", "900%") .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus1.printname"] = "+1 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus1.compactname"] = "+1 MagKap"
+L["unlameifier_tuning_mag_capacity_plus1.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 1) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus5.printname"] = "+5 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus5.compactname"] = "+5 MagKap"
+L["unlameifier_tuning_mag_capacity_plus5.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 5) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus10.printname"] = "+10 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus10.compactname"] = "+10 MagKap"
+L["unlameifier_tuning_mag_capacity_plus10.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 10) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus25.printname"] = "+25 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus25.compactname"] = "+25 MagKap"
+L["unlameifier_tuning_mag_capacity_plus25.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 25) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus50.printname"] = "+50 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus50.compactname"] = "+50 MagKap"
+L["unlameifier_tuning_mag_capacity_plus50.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 50) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus75.printname"] = "+75 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus75.compactname"] = "+75 MagKap"
+L["unlameifier_tuning_mag_capacity_plus75.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 75) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus100.printname"] = "+100 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus100.compactname"] = "+100 MagKap"
+L["unlameifier_tuning_mag_capacity_plus100.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 100) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus500.printname"] = "+500 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus500.compactname"] = "+500 MagKap"
+L["unlameifier_tuning_mag_capacity_plus500.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 500) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_plus1000.printname"] = "+1000 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_plus1000.compactname"] = "+1000 MagKap"
+L["unlameifier_tuning_mag_capacity_plus1000.description"] = string.format(statsdesc.plus, "Magasin Kapacitet", 1000) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus1.printname"] = "-1 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus1.compactname"] = "-1 MagKap"
+L["unlameifier_tuning_mag_capacity_minus1.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 1) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus5.printname"] = "-5 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus5.compactname"] = "-5 MagKap"
+L["unlameifier_tuning_mag_capacity_minus5.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 5) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus10.printname"] = "-10 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus10.compactname"] = "-10 MagKap"
+L["unlameifier_tuning_mag_capacity_minus10.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 10) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus25.printname"] = "-25 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus25.compactname"] = "-25 MagKap"
+L["unlameifier_tuning_mag_capacity_minus25.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 25) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus50.printname"] = "-50 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus50.compactname"] = "-50 MagKap"
+L["unlameifier_tuning_mag_capacity_minus50.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 50) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus75.printname"] = "-75 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus75.compactname"] = "-75 MagKap"
+L["unlameifier_tuning_mag_capacity_minus75.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 75) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus100.printname"] = "-100 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus100.compactname"] = "-100 MagKap"
+L["unlameifier_tuning_mag_capacity_minus100.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 100) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus500.printname"] = "-500 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus500.compactname"] = "-500 MagKap"
+L["unlameifier_tuning_mag_capacity_minus500.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 500) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_minus1000.printname"] = "-1000 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_minus1000.compactname"] = "-1000 MagKap"
+L["unlameifier_tuning_mag_capacity_minus1000.description"] = string.format(statsdesc.minus, "Magasin Kapacitet", 1000) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force1.printname"] = "1 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force1.compactname"] = "1 MagKap"
+L["unlameifier_tuning_mag_capacity_force1.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 1) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force5.printname"] = "5 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force5.compactname"] = "5 MagKap"
+L["unlameifier_tuning_mag_capacity_force5.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 5) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force10.printname"] = "10 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force10.compactname"] = "10 MagKap"
+L["unlameifier_tuning_mag_capacity_force10.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 10) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force15.printname"] = "15 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force15.compactname"] = "15 MagKap"
+L["unlameifier_tuning_mag_capacity_force15.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 15) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force17.printname"] = "17 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force17.compactname"] = "17 MagKap"
+L["unlameifier_tuning_mag_capacity_force17.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 17) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force20.printname"] = "20 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force20.compactname"] = "20 MagKap"
+L["unlameifier_tuning_mag_capacity_force20.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 20) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force25.printname"] = "25 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force25.compactname"] = "25 MagKap"
+L["unlameifier_tuning_mag_capacity_force25.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 25) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force30.printname"] = "30 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force30.compactname"] = "30 MagKap"
+L["unlameifier_tuning_mag_capacity_force30.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 30) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force50.printname"] = "50 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force50.compactname"] = "50 MagKap"
+L["unlameifier_tuning_mag_capacity_force50.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 50) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force75.printname"] = "75 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force75.compactname"] = "75 MagKap"
+L["unlameifier_tuning_mag_capacity_force75.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 75) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force100.printname"] = "100 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force100.compactname"] = "100 MagKap"
+L["unlameifier_tuning_mag_capacity_force100.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 100) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force500.printname"] = "500 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force500.compactname"] = "500 MagKap"
+L["unlameifier_tuning_mag_capacity_force500.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 500) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+L["unlameifier_tuning_mag_capacity_force1000.printname"] = "1000 Magasin Kapacitet"
+L["unlameifier_tuning_mag_capacity_force1000.compactname"] = "1000 MagKap"
+L["unlameifier_tuning_mag_capacity_force1000.description"] = string.format(statsdesc.fixed, "Magasin Kapacitet", 1000) .. "Detta ändrar hur många skott varje magasin kan hålla."
+
+///////// Chamber Capacity
+L["unlameifier.folder.chambersize"] = "Eldrör Laddantal"
+L["unlameifier.folder.chambersize.fixed"] = "Eldrör Laddantal/Fast"
+L["unlameifier.folder.chambersize.plus"] = "Eldrör Laddantal/Lägg till"
+L["unlameifier.folder.chambersize.minus"] = "Eldrör Laddantal/Ta bort"
+L["unlameifier.folder.chambersize.multiply"] = "Eldrör Laddantal/Multiplicera"
+L["unlameifier.folder.chambersize.divide"] = "Eldrör Laddantal/Dela"
+
+L["unlameifier_tuning_chamber_capacity_x010.printname"] = "0,1x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "0,1x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x010.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", "90%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x025.printname"] = "0,25x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "0,25x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x025.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", "75%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x050.printname"] = "0,5x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "0,5x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x050.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", "50%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x075.printname"] = "0,75x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "0,75x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x075.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", "25%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x090.printname"] = "0,9x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "0,9x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x090.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", "10%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x110.printname"] = "1,1x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "1,1x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x110.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "10%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x125.printname"] = "1,25x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "1,25x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x125.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "25%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x150.printname"] = "1,5x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "1,5x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x150.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "50%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x175.printname"] = "1,75x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "1,75x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x175.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "75%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x2.printname"] = "2x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "2x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x2.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "100%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x5.printname"] = "5x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "5x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x5.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "400%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_x10.printname"] = "10x Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "10x Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_x10.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", "900%") .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus1.printname"] = "+1 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus1.compactname"] = "+1 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus1.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 1) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus5.printname"] = "+5 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus5.compactname"] = "+5 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus5.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 5) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus10.printname"] = "+10 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus10.compactname"] = "+10 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus10.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 10) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus25.printname"] = "+25 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus25.compactname"] = "+25 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus25.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 25) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus50.printname"] = "+50 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus50.compactname"] = "+50 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus50.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 50) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus75.printname"] = "+75 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus75.compactname"] = "+75 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus75.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 75) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus100.printname"] = "+100 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus100.compactname"] = "+100 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus100.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 100) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus500.printname"] = "+500 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus500.compactname"] = "+500 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus500.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 500) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_plus1000.printname"] = "+1000 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_plus1000.compactname"] = "+1000 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_plus1000.description"] = string.format(statsdesc.plus, "Eldrör Laddantal", 1000) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus1.printname"] = "-1 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus1.compactname"] = "-1 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus1.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 1) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus5.printname"] = "-5 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus5.compactname"] = "-5 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus5.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 5) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus10.printname"] = "-10 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus10.compactname"] = "-10 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus10.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 10) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus25.printname"] = "-25 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus25.compactname"] = "-25 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus25.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 25) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus50.printname"] = "-50 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus50.compactname"] = "-50 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus50.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 50) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus75.printname"] = "-75 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus75.compactname"] = "-75 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus75.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 75) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus100.printname"] = "-100 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus100.compactname"] = "-100 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus100.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 100) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus500.printname"] = "-500 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus500.compactname"] = "-500 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus500.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 500) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_minus1000.printname"] = "-1000 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_minus1000.compactname"] = "-1000 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_minus1000.description"] = string.format(statsdesc.minus, "Eldrör Laddantal", 1000) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force0.printname"] = "0 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force0.compactname"] = "0 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force0.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 0) .. "Detta ändrar hur många skott som kan laddas in i eldröret." .. "\n\n" .. "Avaktiverar helt och hållet förmågan att ha ett skott laddat i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force1.printname"] = "1 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "1 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force1.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 1) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force5.printname"] = "5 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "5 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force5.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 5) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force10.printname"] = "10 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "10 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force10.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 10) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force15.printname"] = "15 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "15 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force15.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 15) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force17.printname"] = "17 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "17 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force17.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 17) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force20.printname"] = "20 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "20 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force20.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 20) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force25.printname"] = "25 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "25 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force25.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 25) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force30.printname"] = "30 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "30 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force30.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 30) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force50.printname"] = "50 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "50 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force50.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 50) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force75.printname"] = "75 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "75 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force75.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 75) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force100.printname"] = "100 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "100 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force100.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 100) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force500.printname"] = "500 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "500 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force500.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 500) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+L["unlameifier_tuning_chamber_capacity_force1000.printname"] = "1000 Eldrör Laddantal"
+L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "1000 Eldrör Ladd."
+L["unlameifier_tuning_chamber_capacity_force1000.description"] = string.format(statsdesc.fixed, "Eldrör Laddantal", 1000) .. "Detta ändrar hur många skott som kan laddas in i eldröret."
+
+///////// Penetration
+L["unlameifier.folder.penetration"] = "Penetration"
+L["unlameifier.folder.penetration.plus"] = "Penetration/Lägg till"
+L["unlameifier.folder.penetration.minus"] = "Penetration/Ta bort"
+L["unlameifier.folder.penetration.multiply"] = "Penetration/Multiplicera"
+L["unlameifier.folder.penetration.divide"] = "Penetration/Dela"
+
+L["unlameifier_tuning_penetration_x010.printname"] = "0,1x Penetration"
+L["unlameifier_tuning_penetration_x010.compactname"] = "0,1x Penetration"
+L["unlameifier_tuning_penetration_x010.description"] = string.format(statsdesc.minus, "Material Penetration", "90%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x025.printname"] = "0,25x Penetration"
+L["unlameifier_tuning_penetration_x025.compactname"] = "0,25x Penetration"
+L["unlameifier_tuning_penetration_x025.description"] = string.format(statsdesc.minus, "Material Penetration", "75%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x050.printname"] = "0,5x Penetration"
+L["unlameifier_tuning_penetration_x050.compactname"] = "0,5x Penetration"
+L["unlameifier_tuning_penetration_x050.description"] = string.format(statsdesc.minus, "Material Penetration", "50%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x075.printname"] = "0,75x Penetration"
+L["unlameifier_tuning_penetration_x075.compactname"] = "0,75x Penetration"
+L["unlameifier_tuning_penetration_x075.description"] = string.format(statsdesc.minus, "Material Penetration", "25%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x090.printname"] = "0,9x Penetration"
+L["unlameifier_tuning_penetration_x090.compactname"] = "0,9x Penetration"
+L["unlameifier_tuning_penetration_x090.description"] = string.format(statsdesc.minus, "Material Penetration", "10%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x110.printname"] = "1,1x Penetration"
+L["unlameifier_tuning_penetration_x110.compactname"] = "1,1x Penetration"
+L["unlameifier_tuning_penetration_x110.description"] = string.format(statsdesc.plus, "Material Penetration", "10%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x125.printname"] = "1,25x Penetration"
+L["unlameifier_tuning_penetration_x125.compactname"] = "1,25x Penetration"
+L["unlameifier_tuning_penetration_x125.description"] = string.format(statsdesc.plus, "Material Penetration", "25%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x150.printname"] = "1,5x Penetration"
+L["unlameifier_tuning_penetration_x150.compactname"] = "1,5x Penetration"
+L["unlameifier_tuning_penetration_x150.description"] = string.format(statsdesc.plus, "Material Penetration", "50%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x175.printname"] = "1,75x Penetration"
+L["unlameifier_tuning_penetration_x175.compactname"] = "1,75x Penetration"
+L["unlameifier_tuning_penetration_x175.description"] = string.format(statsdesc.plus, "Material Penetration", "75%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x2.printname"] = "2x Penetration"
+L["unlameifier_tuning_penetration_x2.compactname"] = "2x Penetration"
+L["unlameifier_tuning_penetration_x2.description"] = string.format(statsdesc.plus, "Material Penetration", "100%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x5.printname"] = "5x Penetration"
+L["unlameifier_tuning_penetration_x5.compactname"] = "5x Penetration"
+L["unlameifier_tuning_penetration_x5.description"] = string.format(statsdesc.plus, "Material Penetration", "400%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_x10.printname"] = "10x Penetration"
+L["unlameifier_tuning_penetration_x10.compactname"] = "10x Penetration"
+L["unlameifier_tuning_penetration_x10.description"] = string.format(statsdesc.plus, "Material Penetration", "900%") .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus1.printname"] = "+1 Penetration"
+L["unlameifier_tuning_penetration_plus1.compactname"] = "+1 Penetration"
+L["unlameifier_tuning_penetration_plus1.description"] = string.format(statsdesc.plus, "Material Penetration", 1) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus5.printname"] = "+5 Penetration"
+L["unlameifier_tuning_penetration_plus5.compactname"] = "+5 Penetration"
+L["unlameifier_tuning_penetration_plus5.description"] = string.format(statsdesc.plus, "Material Penetration", 5) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus10.printname"] = "+10 Penetration"
+L["unlameifier_tuning_penetration_plus10.compactname"] = "+10 Penetration"
+L["unlameifier_tuning_penetration_plus10.description"] = string.format(statsdesc.plus, "Material Penetration", 10) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus25.printname"] = "+25 Penetration"
+L["unlameifier_tuning_penetration_plus25.compactname"] = "+25 Penetration"
+L["unlameifier_tuning_penetration_plus25.description"] = string.format(statsdesc.plus, "Material Penetration", 25) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus50.printname"] = "+50 Penetration"
+L["unlameifier_tuning_penetration_plus50.compactname"] = "+50 Penetration"
+L["unlameifier_tuning_penetration_plus50.description"] = string.format(statsdesc.plus, "Material Penetration", 50) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus75.printname"] = "+75 Penetration"
+L["unlameifier_tuning_penetration_plus75.compactname"] = "+75 Penetration"
+L["unlameifier_tuning_penetration_plus75.description"] = string.format(statsdesc.plus, "Material Penetration", 75) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus100.printname"] = "+100 Penetration"
+L["unlameifier_tuning_penetration_plus100.compactname"] = "+100 Penetration"
+L["unlameifier_tuning_penetration_plus100.description"] = string.format(statsdesc.plus, "Material Penetration", 100) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus500.printname"] = "+500 Penetration"
+L["unlameifier_tuning_penetration_plus500.compactname"] = "+500 Penetration"
+L["unlameifier_tuning_penetration_plus500.description"] = string.format(statsdesc.plus, "Material Penetration", 500) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_plus1000.printname"] = "+1000 Penetration"
+L["unlameifier_tuning_penetration_plus1000.compactname"] = "+1000 Penetration"
+L["unlameifier_tuning_penetration_plus1000.description"] = string.format(statsdesc.plus, "Material Penetration", 1000) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus1.printname"] = "-1 Penetration"
+L["unlameifier_tuning_penetration_minus1.compactname"] = "-1 Penetration"
+L["unlameifier_tuning_penetration_minus1.description"] = string.format(statsdesc.minus, "Material Penetration", 1) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus5.printname"] = "-5 Penetration"
+L["unlameifier_tuning_penetration_minus5.compactname"] = "-5 Penetration"
+L["unlameifier_tuning_penetration_minus5.description"] = string.format(statsdesc.minus, "Material Penetration", 5) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus10.printname"] = "-10 Penetration"
+L["unlameifier_tuning_penetration_minus10.compactname"] = "-10 Penetration"
+L["unlameifier_tuning_penetration_minus10.description"] = string.format(statsdesc.minus, "Material Penetration", 10) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus25.printname"] = "-25 Penetration"
+L["unlameifier_tuning_penetration_minus25.compactname"] = "-25 Penetration"
+L["unlameifier_tuning_penetration_minus25.description"] = string.format(statsdesc.minus, "Material Penetration", 25) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus50.printname"] = "-50 Penetration"
+L["unlameifier_tuning_penetration_minus50.compactname"] = "-50 Penetration"
+L["unlameifier_tuning_penetration_minus50.description"] = string.format(statsdesc.minus, "Material Penetration", 50) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus75.printname"] = "-75 Penetration"
+L["unlameifier_tuning_penetration_minus75.compactname"] = "-75 Penetration"
+L["unlameifier_tuning_penetration_minus75.description"] = string.format(statsdesc.minus, "Material Penetration", 75) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus100.printname"] = "-100 Penetration"
+L["unlameifier_tuning_penetration_minus100.compactname"] = "-100 Penetration"
+L["unlameifier_tuning_penetration_minus100.description"] = string.format(statsdesc.minus, "Material Penetration", 100) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus500.printname"] = "-500 Penetration"
+L["unlameifier_tuning_penetration_minus500.compactname"] = "-500 Penetration"
+L["unlameifier_tuning_penetration_minus500.description"] = string.format(statsdesc.minus, "Material Penetration", 500) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+L["unlameifier_tuning_penetration_minus1000.printname"] = "-1000 Penetration"
+L["unlameifier_tuning_penetration_minus1000.compactname"] = "-1000 Penetration"
+L["unlameifier_tuning_penetration_minus1000.description"] = string.format(statsdesc.minus, "Material Penetration", 1000) .. "Detta ändrar hur långt ett skott kan gå igenom material."
+
+///////// Spread
+L["unlameifier.folder.Spridning"] = "Spridning"
+L["unlameifier.folder.spread.multiply"] = "Spridning/Multiplicera"
+L["unlameifier.folder.spread.divide"] = "Spridning/Dela"
+
+L["unlameifier_tuning_spread_x0.printname"] = "0x Spridning"
+L["unlameifier_tuning_spread_x0.compactname"] = "0x Spridning"
+L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Spridning", "100%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har." .. "\n\n" .. "Tar helt och hållet bort <color=100,255,100>all spridning</color> vilket gör att vapnet alltid är <color=100,255,100>100% träffsäker</color>."
+
+L["unlameifier_tuning_spread_x010.printname"] = "0,1x Spridning"
+L["unlameifier_tuning_spread_x010.compactname"] = "0,1x Spridning"
+L["unlameifier_tuning_spread_x010.description"] = string.format(statsdesc.minusinv, "Spridning", "90%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x025.printname"] = "0,25x Spridning"
+L["unlameifier_tuning_spread_x025.compactname"] = "0,25x Spridning"
+L["unlameifier_tuning_spread_x025.description"] = string.format(statsdesc.minusinv, "Spridning", "75%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x050.printname"] = "0,5x Spridning"
+L["unlameifier_tuning_spread_x050.compactname"] = "0,5x Spridning"
+L["unlameifier_tuning_spread_x050.description"] = string.format(statsdesc.minusinv, "Spridning", "50%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x075.printname"] = "0,75x Spridning"
+L["unlameifier_tuning_spread_x075.compactname"] = "0,75x Spridning"
+L["unlameifier_tuning_spread_x075.description"] = string.format(statsdesc.minusinv, "Spridning", "25%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x090.printname"] = "0,9x Spridning"
+L["unlameifier_tuning_spread_x090.compactname"] = "0,9x Spridning"
+L["unlameifier_tuning_spread_x090.description"] = string.format(statsdesc.minusinv, "Spridning", "10%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x110.printname"] = "1,1x Spridning"
+L["unlameifier_tuning_spread_x110.compactname"] = "1,1x Spridning"
+L["unlameifier_tuning_spread_x110.description"] = string.format(statsdesc.plusinv, "Spridning", "10%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x125.printname"] = "1,25x Spridning"
+L["unlameifier_tuning_spread_x125.compactname"] = "1,25x Spridning"
+L["unlameifier_tuning_spread_x125.description"] = string.format(statsdesc.plusinv, "Spridning", "25%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x150.printname"] = "1,5x Spridning"
+L["unlameifier_tuning_spread_x150.compactname"] = "1,5x Spridning"
+L["unlameifier_tuning_spread_x150.description"] = string.format(statsdesc.plusinv, "Spridning", "50%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x175.printname"] = "1,75x Spridning"
+L["unlameifier_tuning_spread_x175.compactname"] = "1,75x Spridning"
+L["unlameifier_tuning_spread_x175.description"] = string.format(statsdesc.plusinv, "Spridning", "75%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x2.printname"] = "2x Spridning"
+L["unlameifier_tuning_spread_x2.compactname"] = "2x Spridning"
+L["unlameifier_tuning_spread_x2.description"] = string.format(statsdesc.plusinv, "Spridning", "100%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x5.printname"] = "5x Spridning"
+L["unlameifier_tuning_spread_x5.compactname"] = "5x Spridning"
+L["unlameifier_tuning_spread_x5.description"] = string.format(statsdesc.plusinv, "Spridning", "400%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+L["unlameifier_tuning_spread_x10.printname"] = "10x Spridning"
+L["unlameifier_tuning_spread_x10.compactname"] = "10x Spridning"
+L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Spridning", "900%") .. "Detta ändrar hur mycket träffsäkerhet vapnet har."
+
+///////// Impact Force
+L["unlameifier.folder.impactforce"] = "Träffstyrka"
+L["unlameifier.folder.impactforce.multiply"] = "Träffstyrka/Multiplicera"
+L["unlameifier.folder.impactforce.divide"] = "Träffstyrka/Dela"
+
+L["unlameifier_tuning_impact_forcex0.printname"] = "0x Träffstyrka"
+L["unlameifier_tuning_impact_forcex0.compactname"] = "0x Träffstyrka"
+L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Träffstyrka", "100%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar." .. "\n\n" .. "<color=100,255,255>Avaktiverar</color> helt och hållet Träffstyrkan."
+
+L["unlameifier_tuning_impact_forcex010.printname"] = "0,1x Träffstyrka"
+L["unlameifier_tuning_impact_forcex010.compactname"] = "0,1x Träffstyrka"
+L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Träffstyrka", "90%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex025.printname"] = "0,25x Träffstyrka"
+L["unlameifier_tuning_impact_forcex025.compactname"] = "0,25x Träffstyrka"
+L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Träffstyrka", "75%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex050.printname"] = "0,5x Träffstyrka"
+L["unlameifier_tuning_impact_forcex050.compactname"] = "0,5x Träffstyrka"
+L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Träffstyrka", "50%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex075.printname"] = "0,75x Träffstyrka"
+L["unlameifier_tuning_impact_forcex075.compactname"] = "0,75x Träffstyrka"
+L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Träffstyrka", "25%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex090.printname"] = "0,9x Träffstyrka"
+L["unlameifier_tuning_impact_forcex090.compactname"] = "0,9x Träffstyrka"
+L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Träffstyrka", "10%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex110.printname"] = "1,1x Träffstyrka"
+L["unlameifier_tuning_impact_forcex110.compactname"] = "1,1x Träffstyrka"
+L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Träffstyrka", "10%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex125.printname"] = "1,25x Träffstyrka"
+L["unlameifier_tuning_impact_forcex125.compactname"] = "1,25x Träffstyrka"
+L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Träffstyrka", "25%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex150.printname"] = "1,5x Träffstyrka"
+L["unlameifier_tuning_impact_forcex150.compactname"] = "1,5x Träffstyrka"
+L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Träffstyrka", "50%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex175.printname"] = "1,75x Träffstyrka"
+L["unlameifier_tuning_impact_forcex175.compactname"] = "1,75x Träffstyrka"
+L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Träffstyrka", "75%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex2.printname"] = "2x Träffstyrka"
+L["unlameifier_tuning_impact_forcex2.compactname"] = "2x Träffstyrka"
+L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Träffstyrka", "100%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex5.printname"] = "5x Träffstyrka"
+L["unlameifier_tuning_impact_forcex5.compactname"] = "5x Träffstyrka"
+L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Träffstyrka", "400%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+L["unlameifier_tuning_impact_forcex10.printname"] = "10x Träffstyrka"
+L["unlameifier_tuning_impact_forcex10.compactname"] = "10x Träffstyrka"
+L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Träffstyrka", "900%") .. "Detta ändrar hur mycket styrka som tillämpas på det du träffar."
+
+///////// Maximum Range
+L["unlameifier.folder.maxrange"] = "Räckvidd/Max"
+L["unlameifier.folder.maxrange.multiply"] = "Räckvidd/Max/Multiplicera"
+L["unlameifier.folder.maxrange.divide"] = "Räckvidd/Max/Dela"
+
+L["unlameifier_tuning_max_range_x010.printname"] = "0,1x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x010.compactname"] = "0,1x Max Räckv."
+L["unlameifier_tuning_max_range_x010.description"] = string.format(statsdesc.minus, "Maximal Räckvidd", "90%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada." .. statsdesc.warnmaxrange
+
+L["unlameifier_tuning_max_range_x025.printname"] = "0,25x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x025.compactname"] = "0,25x Max Räckv."
+L["unlameifier_tuning_max_range_x025.description"] = string.format(statsdesc.minus, "Maximal Räckvidd", "75%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada." .. statsdesc.warnmaxrange
+
+L["unlameifier_tuning_max_range_x050.printname"] = "0,5x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x050.compactname"] = "0,5x Max Räckv."
+L["unlameifier_tuning_max_range_x050.description"] = string.format(statsdesc.minus, "Maximal Räckvidd", "50%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada." .. statsdesc.warnmaxrange
+
+L["unlameifier_tuning_max_range_x075.printname"] = "0,75x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x075.compactname"] = "0,75x Max Räckv."
+L["unlameifier_tuning_max_range_x075.description"] = string.format(statsdesc.minus, "Maximal Räckvidd", "25%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada." .. statsdesc.warnmaxrange
+
+L["unlameifier_tuning_max_range_x090.printname"] = "0,9x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x090.compactname"] = "0,9x Max Räckv."
+L["unlameifier_tuning_max_range_x090.description"] = string.format(statsdesc.minus, "Maximal Räckvidd", "10%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada." .. statsdesc.warnmaxrange
+
+L["unlameifier_tuning_max_range_x110.printname"] = "1,1x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x110.compactname"] = "1,1x Max Räckv."
+L["unlameifier_tuning_max_range_x110.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "10%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+L["unlameifier_tuning_max_range_x125.printname"] = "1,25x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x125.compactname"] = "1,25x Max Räckv."
+L["unlameifier_tuning_max_range_x125.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "25%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+L["unlameifier_tuning_max_range_x150.printname"] = "1,5x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x150.compactname"] = "1,5x Max Räckv."
+L["unlameifier_tuning_max_range_x150.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "50%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+L["unlameifier_tuning_max_range_x175.printname"] = "1,75x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x175.compactname"] = "1,75x Max Räckv."
+L["unlameifier_tuning_max_range_x175.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "75%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+L["unlameifier_tuning_max_range_x2.printname"] = "2x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x2.compactname"] = "2x Max Räckv."
+L["unlameifier_tuning_max_range_x2.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "100%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+L["unlameifier_tuning_max_range_x5.printname"] = "5x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x5.compactname"] = "5x Max Räckv."
+L["unlameifier_tuning_max_range_x5.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "400%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+L["unlameifier_tuning_max_range_x10.printname"] = "10x Maximal Räckvidd"
+L["unlameifier_tuning_max_range_x10.compactname"] = "10x Max Räckv."
+L["unlameifier_tuning_max_range_x10.description"] = string.format(statsdesc.plus, "Maximal Räckvidd", "900%") .. "Detta ändrar hur långt skottet måste nå innan den gör dess minsta skada."
+
+///////// Minimum Range
+L["unlameifier.folder.minrange"] = "Räckvidd/Min"
+L["unlameifier.folder.minrange.multiply"] = "Räckvidd/Min/Multiplicera"
+L["unlameifier.folder.minrange.divide"] = "Räckvidd/Min/Dela"
+
+L["unlameifier_tuning_min_range_x010.printname"] = "0,1x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x010.compactname"] = "0,1x Min Räckv."
+L["unlameifier_tuning_min_range_x010.description"] = string.format(statsdesc.minus, "Minimum Räckvidd", "90%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada."
+
+L["unlameifier_tuning_min_range_x025.printname"] = "0,25x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x025.compactname"] = "0,25x Min Räckv."
+L["unlameifier_tuning_min_range_x025.description"] = string.format(statsdesc.minus, "Minimum Räckvidd", "75%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada."
+
+L["unlameifier_tuning_min_range_x050.printname"] = "0,5x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x050.compactname"] = "0,5x Min Räckv."
+L["unlameifier_tuning_min_range_x050.description"] = string.format(statsdesc.minus, "Minimum Räckvidd", "50%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada."
+
+L["unlameifier_tuning_min_range_x075.printname"] = "0,75x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x075.compactname"] = "0,75x Min Räckv."
+L["unlameifier_tuning_min_range_x075.description"] = string.format(statsdesc.minus, "Minimum Räckvidd", "25%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada."
+
+L["unlameifier_tuning_min_range_x090.printname"] = "0,9x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x090.compactname"] = "0,9x Min Räckv."
+L["unlameifier_tuning_min_range_x090.description"] = string.format(statsdesc.minus, "Minimum Räckvidd", "10%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada."
+
+L["unlameifier_tuning_min_range_x110.printname"] = "1,1x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x110.compactname"] = "1,1x Min Räckv."
+L["unlameifier_tuning_min_range_x110.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "10%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+L["unlameifier_tuning_min_range_x125.printname"] = "1,25x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x125.compactname"] = "1,25x Min Räckv."
+L["unlameifier_tuning_min_range_x125.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "25%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+L["unlameifier_tuning_min_range_x150.printname"] = "1,5x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x150.compactname"] = "1,5x Min Räckv."
+L["unlameifier_tuning_min_range_x150.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "50%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+L["unlameifier_tuning_min_range_x175.printname"] = "1,75x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x175.compactname"] = "1,75x Min Räckv."
+L["unlameifier_tuning_min_range_x175.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "75%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+L["unlameifier_tuning_min_range_x2.printname"] = "2x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x2.compactname"] = "2x Min Räckv."
+L["unlameifier_tuning_min_range_x2.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "100%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+L["unlameifier_tuning_min_range_x5.printname"] = "5x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x5.compactname"] = "5x Min Räckv."
+L["unlameifier_tuning_min_range_x5.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "400%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+L["unlameifier_tuning_min_range_x10.printname"] = "10x Minimum Räckvidd"
+L["unlameifier_tuning_min_range_x10.compactname"] = "10x Min Räckv."
+L["unlameifier_tuning_min_range_x10.description"] = string.format(statsdesc.plus, "Minimum Räckvidd", "900%") .. "Detta ändrar hur långt skottet måste nå innan den börjar sänka dess skada." .. statsdesc.warnminrange
+
+///////// Malfunction
+L["unlameifier.folder.Felfunktion"] = "Felfunktion"
+L["unlameifier.folder.malfunction.fixed"] = "Felfunktion/Fast"
+L["unlameifier.folder.malfunction.plus"] = "Felfunktion/Lägg till"
+L["unlameifier.folder.malfunction.minus"] = "Felfunktion/Ta bort"
+L["unlameifier.folder.malfunction.multiply"] = "Felfunktion/Multiplicera"
+L["unlameifier.folder.malfunction.divide"] = "Felfunktion/Dela"
+
+L["unlameifier.folder.malfunction.utility.system"] = "Felfunktion/Utility/System"
+
+L["unlameifier_tuning_malfunction_enable.printname"] = "Felfunktions - Tvinga PÅ"
+L["unlameifier_tuning_malfunction_enable.compactname"] = "+Felfunktion"
+L["unlameifier_tuning_malfunction_enable.description"] = "Tvingar PÅ <color=255,255,100>vapen felfunktioner</color>.\nTillåter vapnet att ha en chans att få felfunktion."
+
+L["unlameifier_tuning_malfunction_disable.printname"] = "Felfunktions - Tvinga AV"
+L["unlameifier_tuning_malfunction_disable.compactname"] = "-Felfunktion"
+L["unlameifier_tuning_malfunction_disable.description"] = "Tvingar AV <color=255,255,100>vapen felfunktioner</color>.\nVapnet kommer aldrig ha en felfunktion."
+
+L["unlameifier_tuning_mean_shots_to_fail_x010.printname"] = "0,1x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x010.compactname"] = "0,1x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x010.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", "90%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_x025.printname"] = "0,25x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x025.compactname"] = "0,25x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x025.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", "75%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_x050.printname"] = "0,5x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x050.compactname"] = "0,5x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x050.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", "50%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_x075.printname"] = "0,75x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x075.compactname"] = "0,75x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x075.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", "25%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_x090.printname"] = "0,9x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x090.compactname"] = "0,9x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x090.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", "10%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_x110.printname"] = "1,1x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x110.compactname"] = "1,1x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x110.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "10%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_x125.printname"] = "1,25x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x125.compactname"] = "1,25x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x125.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "25%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_x150.printname"] = "1,5x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x150.compactname"] = "1,5x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x150.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "50%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_x175.printname"] = "1,75x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x175.compactname"] = "1,75x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x175.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "75%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_x2.printname"] = "2x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x2.compactname"] = "2x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x2.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "100%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_x5.printname"] = "5x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x5.compactname"] = "5x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x5.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "400%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_x10.printname"] = "10x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x10.compactname"] = "10x Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_x10.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", "900%") .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus1.printname"] = "+1 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus1.compactname"] = "+1 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus1.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 1) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus5.printname"] = "+5 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus5.compactname"] = "+5 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus5.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 5) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus10.printname"] = "+10 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus10.compactname"] = "+10 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus10.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 10) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus25.printname"] = "+25 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus25.compactname"] = "+25 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus25.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 25) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus50.printname"] = "+50 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus50.compactname"] = "+50 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus50.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 50) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus75.printname"] = "+75 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus75.compactname"] = "+75 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus75.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 75) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus100.printname"] = "+100 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus100.compactname"] = "+100 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus100.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 100) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus500.printname"] = "+500 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus500.compactname"] = "+500 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus500.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 500) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.printname"] = "+1000 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.compactname"] = "+1000 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.description"] = string.format(statsdesc.plus, "Elaka Skott Mellan Fel", 1000) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+
+L["unlameifier_tuning_mean_shots_to_fail_minus1.printname"] = "-1 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus1.compactname"] = "-1 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus1.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 1) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus5.printname"] = "-5 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus5.compactname"] = "-5 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus5.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 5) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus10.printname"] = "-10 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus10.compactname"] = "-10 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus10.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 10) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus25.printname"] = "-25 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus25.compactname"] = "-25 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus25.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 25) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus50.printname"] = "-50 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus50.compactname"] = "-50 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus50.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 50) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus75.printname"] = "-75 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus75.compactname"] = "-75 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus75.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 75) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus100.printname"] = "-100 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus100.compactname"] = "-100 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus100.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 100) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus500.printname"] = "-500 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus500.compactname"] = "-500 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus500.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 500) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.printname"] = "-1000 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.compactname"] = "-1000 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.description"] = string.format(statsdesc.minus, "Elaka Skott Mellan Fel", 1000) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force1.printname"] = "1 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force1.compactname"] = "1 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force1.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 1) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force5.printname"] = "5 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force5.compactname"] = "5 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force5.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 5) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force10.printname"] = "10 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force10.compactname"] = "10 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force10.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 10) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force15.printname"] = "15 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force15.compactname"] = "15 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force15.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 15) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force17.printname"] = "17 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force17.compactname"] = "17 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force17.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 17) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force20.printname"] = "20 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force20.compactname"] = "20 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force20.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 20) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force25.printname"] = "25 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force25.compactname"] = "25 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force25.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 25) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force30.printname"] = "30 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force30.compactname"] = "30 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force30.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 30) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force50.printname"] = "50 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force50.compactname"] = "50 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force50.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 50) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force75.printname"] = "75 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force75.compactname"] = "75 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force75.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 75) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force100.printname"] = "100 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force100.compactname"] = "100 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force100.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 100) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force500.printname"] = "500 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force500.compactname"] = "500 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force500.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 500) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+L["unlameifier_tuning_mean_shots_to_fail_force1000.printname"] = "1000 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force1000.compactname"] = "1000 Skott till Fel"
+L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format(statsdesc.fixed, "Elaka Skott Mellan Fel", 1000) .. "Detta ändrar hur stor chans det är att ett fel inträffar." .. statsdesc.warnmalf
+
+///////// Overheating
+L["unlameifier.folder.heat"] = "Hetta"
+L["unlameifier.folder.heat.utility.system"] = "Hetta/Utility/System"
+
+L["unlameifier_tuning_heat_enable.printname"] = "Överhettande - Tvinga PÅ"
+L["unlameifier_tuning_heat_enable.compactname"] = "+Överhet"
+L["unlameifier_tuning_heat_enable.description"] = "Tvingar PÅ <color=255,255,100>vapen överhettning</color>.\nVapnet stoppar ifall den skjuts för länge."
+
+L["unlameifier_tuning_heat_disable.printname"] = "Överhettande - Tvinga AV"
+L["unlameifier_tuning_heat_disable.compactname"] = "-Överhet"
+L["unlameifier_tuning_heat_disable.description"] = "Tvingar AV <color=255,255,100>vapen överhettning</color>.\nVapnet kommer aldrig överhettas."
+
+L["unlameifier_tuning_heat_lockout_enable.printname"] = "Överhettande Utelåst - Tvinga PÅ"
+L["unlameifier_tuning_heat_lockout_enable.compactname"] = "+Hetta Utelåst"
+L["unlameifier_tuning_heat_lockout_enable.description"] = "Tvingar PÅ <color=255,255,100>överhettande utelåsning</color>.\nTvingar dig att vänta tills hettan är helt borta innan du kan skjuta igen." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_lockout_disable.printname"] = "Överhettande Utelåst - Tvinga AV"
+L["unlameifier_tuning_heat_lockout_disable.compactname"] = "-Hetta Utelåst"
+L["unlameifier_tuning_heat_lockout_disable.description"] = "Tvingar AV <color=255,255,100>överhettande utelåsning</color>.\nTillåter dig att skjuta vapnet även om den är varm." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_fix_enable.printname"] = "Överhettande Full Fix - Tvinga PÅ"
+L["unlameifier_tuning_heat_fix_enable.compactname"] = "+Hetta Full Fix"
+L["unlameifier_tuning_heat_fix_enable.description"] = "Tvingar PÅ <color=255,255,100>överhettande full fix</color>.\nNär vapnet får fel och är överhettad så kommer all hetta omedelbart återställas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_fix_disable.printname"] = "Överhettande Full Fix - Tvinga AV"
+L["unlameifier_tuning_heat_fix_disable.compactname"] = "-Hetta Full Fix"
+L["unlameifier_tuning_heat_fix_disable.description"] = "Tvingar AV <color=255,255,100>överhettande full fix</color>.\nNär vapnet får fel och är överhettad så kommer hettan gradvist sänkas." .. statsdesc.warnheat
+
+///////// Overheating Per Shot
+L["unlameifier.folder.heat.pershot.plus"] = "Hetta/Per Skott/Lägg till"
+L["unlameifier.folder.heat.pershot.minus"] = "Hetta/Per Skott/Ta bort"
+
+L["unlameifier_tuning_heat_per_shot_plus025.printname"] = "+0,25 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus025.compactname"] = "+0,25 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus025.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 0.25) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus05.printname"] = "+0,5 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus05.compactname"] = "+0,5 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus05.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 0.5) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus1.printname"] = "+1 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus1.compactname"] = "+1 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 1) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus5.printname"] = "+5 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus5.compactname"] = "+5 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 5) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus10.printname"] = "+10 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus10.compactname"] = "+10 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus10.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 10) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus25.printname"] = "+25 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus25.compactname"] = "+25 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus25.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 25) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus50.printname"] = "+50 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus50.compactname"] = "+50 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus50.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 50) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus75.printname"] = "+75 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus75.compactname"] = "+75 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus75.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 75) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus100.printname"] = "+100 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus100.compactname"] = "+100 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus100.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 100) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus500.printname"] = "+500 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus500.compactname"] = "+500 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus500.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 500) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_plus1000.printname"] = "+1000 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_plus1000.compactname"] = "+1000 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_plus1000.description"] = string.format(statsdesc.plusinv, "Hetta Per Skott", 1000) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+
+L["unlameifier_tuning_heat_per_shot_minus025.printname"] = "-0,25 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus025.compactname"] = "-0,25 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus025.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 0.25) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus05.printname"] = "-0,5 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus05.compactname"] = "-0,5 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus05.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 0.5) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus1.printname"] = "-1 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus1.compactname"] = "-1 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 1) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus5.printname"] = "-5 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus5.compactname"] = "-5 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 5) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus10.printname"] = "-10 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus10.compactname"] = "-10 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus10.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 10) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus25.printname"] = "-25 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus25.compactname"] = "-25 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus25.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 25) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus50.printname"] = "-50 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus50.compactname"] = "-50 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus50.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 50) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus75.printname"] = "-75 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus75.compactname"] = "-75 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus75.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 75) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus100.printname"] = "-100 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus100.compactname"] = "-100 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus100.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 100) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus500.printname"] = "-500 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus500.compactname"] = "-500 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus500.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 500) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_per_shot_minus1000.printname"] = "-1000 Hetta Per Skott"
+L["unlameifier_tuning_heat_per_shot_minus1000.compactname"] = "-1000 Hetta PS"
+L["unlameifier_tuning_heat_per_shot_minus1000.description"] = string.format(statsdesc.minusinv, "Hetta Per Skott", 1000) .. "Detta ändrar hur mycket hetta varje skott lägger till innan vapnet överhettas." .. statsdesc.warnheat
+
+///////// Overheating Capacity
+L["unlameifier.folder.heat.capacity.fixed"] = "Hetta/Kapacitet/Fast"
+L["unlameifier.folder.heat.capacity.plus"] = "Hetta/Kapacitet/Lägg till"
+L["unlameifier.folder.heat.capacity.minus"] = "Hetta/Kapacitet/Ta bort"
+L["unlameifier.folder.heat.capacity.multiply"] = "Hetta/Kapacitet/Multiplicera"
+L["unlameifier.folder.heat.capacity.divide"] = "Hetta/Kapacitet/Dela"
+
+L["unlameifier_tuning_heat_capacity_x010.printname"] = "0,1x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x010.compactname"] = "0,1x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x010.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", "90%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_x025.printname"] = "0,25x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x025.compactname"] = "0,25x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x025.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", "75%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_x050.printname"] = "0,5x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x050.compactname"] = "0,5x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x050.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", "50%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_x075.printname"] = "0,75x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x075.compactname"] = "0,75x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x075.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", "25%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_x090.printname"] = "0,9x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x090.compactname"] = "0,9x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x090.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", "10%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_x110.printname"] = "1,1x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x110.compactname"] = "1,1x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x110.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "10%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_x125.printname"] = "1,25x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x125.compactname"] = "1,25x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x125.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "25%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_x150.printname"] = "1,5x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x150.compactname"] = "1,5x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x150.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "50%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_x175.printname"] = "1,75x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x175.compactname"] = "1,75x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x175.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "75%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_x2.printname"] = "2x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x2.compactname"] = "2x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x2.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "100%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_x5.printname"] = "5x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x5.compactname"] = "5x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x5.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "400%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_x10.printname"] = "10x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x10.compactname"] = "10x Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_x10.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", "900%") .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus025.printname"] = "+0,25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus025.compactname"] = "+0,25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus025.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 0.25) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus05.printname"] = "+0,5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus05.compactname"] = "+0,5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus05.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 0.5) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus1.printname"] = "+1 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus1.compactname"] = "+1 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus1.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 1) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus5.printname"] = "+5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus5.compactname"] = "+5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus5.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 5) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus10.printname"] = "+10 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus10.compactname"] = "+10 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus10.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 10) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus25.printname"] = "+25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus25.compactname"] = "+25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus25.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 25) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus50.printname"] = "+50 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus50.compactname"] = "+50 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus50.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 50) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus75.printname"] = "+75 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus75.compactname"] = "+75 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus75.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 75) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus100.printname"] = "+100 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus100.compactname"] = "+100 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus100.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 100) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus500.printname"] = "+500 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus500.compactname"] = "+500 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus500.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 500) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_plus1000.printname"] = "+1000 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus1000.compactname"] = "+1000 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_plus1000.description"] = string.format(statsdesc.plus, " Hetta Kapacitet", 1000) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_minus025.printname"] = "-0,25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus025.compactname"] = "-0,25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus025.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 0.25) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus05.printname"] = "-0,5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus05.compactname"] = "-0,5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus05.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 0.5) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus1.printname"] = "-1 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus1.compactname"] = "-1 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus1.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 1) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus5.printname"] = "-5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus5.compactname"] = "-5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus5.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 5) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus10.printname"] = "-10 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus10.compactname"] = "-10 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus10.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 10) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus25.printname"] = "-25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus25.compactname"] = "-25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus25.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 25) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus50.printname"] = "-50 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus50.compactname"] = "-50 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus50.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 50) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus75.printname"] = "-75 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus75.compactname"] = "-75 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus75.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 75) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus100.printname"] = "-100 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus100.compactname"] = "-100 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus100.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 100) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus500.printname"] = "-500 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus500.compactname"] = "-500 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus500.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 500) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_minus1000.printname"] = "-1000 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus1000.compactname"] = "-1000 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_minus1000.description"] = string.format(statsdesc.minus, " Hetta Kapacitet", 1000) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_force1.printname"] = "1 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force1.compactname"] = "1 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force1.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 1) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+
+L["unlameifier_tuning_heat_capacity_force5.printname"] = "5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force5.compactname"] = "5 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force5.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 5) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force10.printname"] = "10 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force10.compactname"] = "10 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force10.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 10) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force15.printname"] = "15 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force15.compactname"] = "15 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force15.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 15) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force17.printname"] = "17 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force17.compactname"] = "17 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force17.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 17) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force20.printname"] = "20 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force20.compactname"] = "20 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force20.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 20) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force25.printname"] = "25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force25.compactname"] = "25 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force25.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 25) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force30.printname"] = "30 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force30.compactname"] = "30 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force30.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 30) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force50.printname"] = "50 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force50.compactname"] = "50 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force50.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 50) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force75.printname"] = "75 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force75.compactname"] = "75 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force75.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 75) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force100.printname"] = "100 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force100.compactname"] = "100 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force100.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 100) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force500.printname"] = "500 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force500.compactname"] = "500 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force500.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 500) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_capacity_force1000.printname"] = "1000 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force1000.compactname"] = "1000 Hetta Kapacitet"
+L["unlameifier_tuning_heat_capacity_force1000.description"] = string.format(statsdesc.fixed, " Hetta Kapacitet", 1000) .. "Detta ändrar maximalt antal hetta som krävs för att vapnet ska överhettas." .. statsdesc.warnheat
+
+///////// Overheat Dissipation
+L["unlameifier.folder.heat.dissipation.fixed"] = "Hetta/Förlust/Fast"
+L["unlameifier.folder.heat.dissipation.plus"] = "Hetta/Förlust/Lägg till"
+L["unlameifier.folder.heat.dissipation.minus"] = "Hetta/Förlust/Ta bort"
+L["unlameifier.folder.heat.dissipation.multiply"] = "Hetta/Förlust/Multiplicera"
+L["unlameifier.folder.heat.dissipation.divide"] = "Hetta/Förlust/Dela"
+
+L["unlameifier_tuning_heat_dissipation_x010.printname"] = "0,1x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x010.compactname"] = "0,1x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x010.description"] = string.format(statsdesc.minus, "Hetta Förlust", "90%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x025.printname"] = "0,25x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x025.compactname"] = "0,25x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x025.description"] = string.format(statsdesc.minus, "Hetta Förlust", "75%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x050.printname"] = "0,5x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x050.compactname"] = "0,5x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x050.description"] = string.format(statsdesc.minus, "Hetta Förlust", "50%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x075.printname"] = "0,75x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x075.compactname"] = "0,75x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x075.description"] = string.format(statsdesc.minus, "Hetta Förlust", "25%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x090.printname"] = "0,9x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x090.compactname"] = "0,9x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x090.description"] = string.format(statsdesc.minus, "Hetta Förlust", "10%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x110.printname"] = "1,1x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x110.compactname"] = "1,1x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x110.description"] = string.format(statsdesc.plus, "Hetta Förlust", "10%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x125.printname"] = "1,25x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x125.compactname"] = "1,25x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x125.description"] = string.format(statsdesc.plus, "Hetta Förlust", "25%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x150.printname"] = "1,5x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x150.compactname"] = "1,5x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x150.description"] = string.format(statsdesc.plus, "Hetta Förlust", "50%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x175.printname"] = "1,75x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x175.compactname"] = "1,75x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x175.description"] = string.format(statsdesc.plus, "Hetta Förlust", "75%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x2.printname"] = "2x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x2.compactname"] = "2x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x2.description"] = string.format(statsdesc.plus, "Hetta Förlust", "100%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x5.printname"] = "5x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x5.compactname"] = "5x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x5.description"] = string.format(statsdesc.plus, "Hetta Förlust", "400%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_x10.printname"] = "10x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x10.compactname"] = "10x Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_x10.description"] = string.format(statsdesc.plus, "Hetta Förlust", "900%") .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus025.printname"] = "+0,25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus025.compactname"] = "+0,25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus025.description"] = string.format(statsdesc.plus, "Hetta Förlust", 0.25) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus05.printname"] = "+0,5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus05.compactname"] = "+0,5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus05.description"] = string.format(statsdesc.plus, "Hetta Förlust", 0.5) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus1.printname"] = "+1 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus1.compactname"] = "+1 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus1.description"] = string.format(statsdesc.plus, "Hetta Förlust", 1) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus5.printname"] = "+5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus5.compactname"] = "+5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus5.description"] = string.format(statsdesc.plus, "Hetta Förlust", 5) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus10.printname"] = "+10 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus10.compactname"] = "+10 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus10.description"] = string.format(statsdesc.plus, "Hetta Förlust", 10) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus25.printname"] = "+25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus25.compactname"] = "+25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus25.description"] = string.format(statsdesc.plus, "Hetta Förlust", 25) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus50.printname"] = "+50 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus50.compactname"] = "+50 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus50.description"] = string.format(statsdesc.plus, "Hetta Förlust", 50) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus75.printname"] = "+75 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus75.compactname"] = "+75 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus75.description"] = string.format(statsdesc.plus, "Hetta Förlust", 75) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus100.printname"] = "+100 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus100.compactname"] = "+100 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus100.description"] = string.format(statsdesc.plus, "Hetta Förlust", 100) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus500.printname"] = "+500 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus500.compactname"] = "+500 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus500.description"] = string.format(statsdesc.plus, "Hetta Förlust", 500) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_plus1000.printname"] = "+1000 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus1000.compactname"] = "+1000 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_plus1000.description"] = string.format(statsdesc.plus, "Hetta Förlust", 1000) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus025.printname"] = "-0,25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus025.compactname"] = "-0,25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus025.description"] = string.format(statsdesc.minus, "Hetta Förlust", 0.25) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus05.printname"] = "-0,5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus05.compactname"] = "-0,5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus05.description"] = string.format(statsdesc.minus, "Hetta Förlust", 0.5) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus1.printname"] = "-1 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus1.compactname"] = "-1 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus1.description"] = string.format(statsdesc.minus, "Hetta Förlust", 1) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus5.printname"] = "-5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus5.compactname"] = "-5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus5.description"] = string.format(statsdesc.minus, "Hetta Förlust", 5) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus10.printname"] = "-10 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus10.compactname"] = "-10 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus10.description"] = string.format(statsdesc.minus, "Hetta Förlust", 10) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus25.printname"] = "-25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus25.compactname"] = "-25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus25.description"] = string.format(statsdesc.minus, "Hetta Förlust", 25) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus50.printname"] = "-50 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus50.compactname"] = "-50 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus50.description"] = string.format(statsdesc.minus, "Hetta Förlust", 50) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus75.printname"] = "-75 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus75.compactname"] = "-75 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus75.description"] = string.format(statsdesc.minus, "Hetta Förlust", 75) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus100.printname"] = "-100 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus100.compactname"] = "-100 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus100.description"] = string.format(statsdesc.minus, "Hetta Förlust", 100) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus500.printname"] = "-500 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus500.compactname"] = "-500 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus500.description"] = string.format(statsdesc.minus, "Hetta Förlust", 500) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_minus1000.printname"] = "-1000 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus1000.compactname"] = "-1000 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_minus1000.description"] = string.format(statsdesc.minus, "Hetta Förlust", 1000) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force1.printname"] = "1 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force1.compactname"] = "1 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force1.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 1) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force5.printname"] = "5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force5.compactname"] = "5 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force5.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 5) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force10.printname"] = "10 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force10.compactname"] = "10 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force10.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 10) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force15.printname"] = "15 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force15.compactname"] = "15 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force15.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 15) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force17.printname"] = "17 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force17.compactname"] = "17 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force17.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 17) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force20.printname"] = "20 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force20.compactname"] = "20 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force20.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 20) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force25.printname"] = "25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force25.compactname"] = "25 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force25.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 25) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force30.printname"] = "30 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force30.compactname"] = "30 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force30.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 30) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force50.printname"] = "50 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force50.compactname"] = "50 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force50.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 50) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force75.printname"] = "75 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force75.compactname"] = "75 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force75.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 75) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force100.printname"] = "100 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force100.compactname"] = "100 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force100.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 100) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force500.printname"] = "500 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force500.compactname"] = "500 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force500.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 500) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_dissipation_force1000.printname"] = "1000 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force1000.compactname"] = "1000 Hetta Förlust"
+L["unlameifier_tuning_heat_dissipation_force1000.description"] = string.format(statsdesc.fixed, "Hetta Förlust", 1000) .. "Detta ändrar hur snabbt hettan tas bort över tid." .. statsdesc.warnheat
+
+///////// Overheat Delay
+L["unlameifier.folder.heat.delay.fixed"] = "Hetta/Fördröjning/Fast"
+
+L["unlameifier_tuning_heat_delay_force0.printname"] = "Hetta Förlust Fördröjning - 0 Sekunder"
+L["unlameifier_tuning_heat_delay_force0.compactname"] = "0s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force0.description"] = string.format(statsdesc.fixedsec, "Hetta Fördröjning", 0) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force05.printname"] = "Hetta Förlust Fördröjning - 0,5 Sekunder"
+L["unlameifier_tuning_heat_delay_force05.compactname"] = "0,5s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force05.description"] = string.format(statsdesc.fixedsec, "Hetta Fördröjning", 0.5) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force1.printname"] = "Hetta Förlust Fördröjning - 1 Sekund"
+L["unlameifier_tuning_heat_delay_force1.compactname"] = "1s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force1.description"] = string.format(statsdesc.fixedsec, "Hetta Fördröjning", 1) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force3.printname"] = "Hetta Förlust Fördröjning - 3 Sekunder"
+L["unlameifier_tuning_heat_delay_force3.compactname"] = "3s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Hetta Fördröjning", 3) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force5.printname"] = "Hetta Förlust Fördröjning - 5 Sekunder"
+L["unlameifier_tuning_heat_delay_force5.compactname"] = "5s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Hetta Fördröjning", 5) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force10.printname"] = "Hetta Förlust Fördröjning - 10 Sekunder"
+L["unlameifier_tuning_heat_delay_force10.compactname"] = "10s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Hetta Fördröjning", 10) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force30.printname"] = "Hetta Förlust Fördröjning - 30 Sekunder"
+L["unlameifier_tuning_heat_delay_force30.compactname"] = "30s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Hetta Fördröjning", 30) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force60.printname"] = "Hetta Förlust Fördröjning - 60 Sekunder"
+L["unlameifier_tuning_heat_delay_force60.compactname"] = "60s Hetta Fördröjning"
+L["unlameifier_tuning_heat_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Hetta Fördröjning", 60) .. "Detta ändrar fördröjningen innan hettan automatiskt tas bort över tid." .. statsdesc.warnheat
+
+///////// Trigger Delay
+L["unlameifier.folder.triggerdelay"] = "Avtryckare Fördröjning"
+L["unlameifier.folder.triggerdelay.utility.system"] = "Avtryckare Fördröjning/Utility/System"
+
+L["unlameifier_tuning_triggerdelay_enable.printname"] = "Avtryckare Fördröjning - Tvinga PÅ"
+L["unlameifier_tuning_triggerdelay_enable.compactname"] = "+AvtryckFördröj."
+L["unlameifier_tuning_triggerdelay_enable.description"] = "Tvingar PÅ <color=255,255,100>avtryckare fördröjning</color>.\nVapnet kommer ha en fördröjning innan den skjuts efter du trycker på skjutknappen."
+
+L["unlameifier_tuning_triggerdelay_disable.printname"] = "Avtryckare Fördröjning - Tvinga AV"
+L["unlameifier_tuning_triggerdelay_disable.compactname"] = "-AvtryckFördröj."
+L["unlameifier_tuning_triggerdelay_disable.description"] = "Tvingar AV <color=255,255,100>avtryckare fördröjning</color>.\nVapnet kommer omedelbart skjuta efter du tryckt på skjutknappen."
+
+L["unlameifier_tuning_triggerdelaycancellable_enable.printname"] = "Avtryckare Fördröjning Avbrytning - Tvinga PÅ"
+L["unlameifier_tuning_triggerdelaycancellable_enable.compactname"] = "+AF-Avbryt."
+L["unlameifier_tuning_triggerdelaycancellable_enable.description"] = "Tvingar PÅ <color=255,255,100>avtryckare fördröjning avbrytning</color>.\nOm du släpper skjutknappen innan vapnet skjuts så skjuts ej vapnet." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelaycancellable_disable.printname"] = "Avtryckare Fördröjning Avbrytning - Tvinga AV"
+L["unlameifier_tuning_triggerdelaycancellable_disable.compactname"] = "-AF-Avbryt."
+L["unlameifier_tuning_triggerdelaycancellable_disable.description"] = "Tvingar AV <color=255,255,100>avtryckare fördröjning avbrytning</color>.\nVapnet kommer alltid skjuta efter du tryckt på skjutknappen." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.printname"] = "Avtryckare Fördröjning \"Släpp för att Skjuta\" - Tvinga PÅ"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.compactname"] = "+SläppSkjut"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.description"] = "Tvingar PÅ <color=255,255,100>avtryckare fördröjning \"släpp för att skjuta\"</color>.\nVapnet kommer skjuta efter du släppt skjutknappen." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.printname"] = "Avtryckare Fördröjning \"Släpp för att Skjuta\" - Tvinga AV"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.compactname"] = "-SläppSkjut"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.description"] = "Tvingar AV <color=255,255,100>avtryckare fördröjning \"släpp för att skjuta\"</color>.\nVapnet kommer skjuta när du trycker på (eller håller inne) skjutknappen." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerstartfireanim_enable.printname"] = "Avtryckare Fördröjning Animation - Tvinga PÅ"
+L["unlameifier_tuning_triggerstartfireanim_enable.compactname"] = "+AF-Anim"
+L["unlameifier_tuning_triggerstartfireanim_enable.description"] = "Tvingar PÅ <color=255,255,100>avtryckare fördröjning animation</color>.\nVapnet kommer spela \"trigger\"-animationen när du trycker och håller inne skjutknappen innan den skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerstartfireanim_disable.printname"] = "Avtryckare Fördröjning Animation - Tvinga AV"
+L["unlameifier_tuning_triggerstartfireanim_disable.compactname"] = "-AF-Anim"
+L["unlameifier_tuning_triggerstartfireanim_disable.description"] = "Tvingar AV <color=255,255,100>avtryckare fördröjning animation</color>.\nVapnet kommer inte spela \"trigger\"-animationen när du trycker och håller inne skjutknappen innan den skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelayrepeat_enable.printname"] = "Avtryckare Fördröjning Upprepande - Tvinga PÅ"
+L["unlameifier_tuning_triggerdelayrepeat_enable.compactname"] = "+AF-Upprep."
+L["unlameifier_tuning_triggerdelayrepeat_enable.description"] = "Tvingar PÅ <color=255,255,100>avtryckare fördröjning upprepande</color>.\nAvtryckare fördröjningen kommer inträffa varje gång vapnet skjuts." .. statsdesc.warntrigger .. statsdesc.warntriggerauto
+
+L["unlameifier_tuning_triggerdelayrepeat_disable.printname"] = "Avtryckare Fördröjning Upprepande - Tvinga AV"
+L["unlameifier_tuning_triggerdelayrepeat_disable.compactname"] = "-AF-Upprep."
+L["unlameifier_tuning_triggerdelayrepeat_disable.description"] = "Tvingar AV <color=255,255,100>avtryckare fördröjning upprepande</color>.\nAvtryckare fördröjningen kommer endast inträffa när du först trycker på skjutknappen." .. statsdesc.warntrigger
+
+///////// Trigger Delay Times
+L["unlameifier.folder.triggerdelay.fixed"] = "Avtryckare Fördröjning/Fast"
+
+L["unlameifier_tuning_trigger_delay_force0.printname"] = "Avtryckare Fördröjning - 0 Sekunder"
+L["unlameifier_tuning_trigger_delay_force0.compactname"] = "0s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force0.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 0) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force01.printname"] = "Avtryckare Fördröjning - 0,1 Sekunder"
+L["unlameifier_tuning_trigger_delay_force01.compactname"] = "0,1s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force01.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 0.1) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force02.printname"] = "Avtryckare Fördröjning - 0,2 Sekunder"
+L["unlameifier_tuning_trigger_delay_force02.compactname"] = "0,2s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force02.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 0.2) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force03.printname"] = "Avtryckare Fördröjning - 0,3 Sekunder"
+L["unlameifier_tuning_trigger_delay_force03.compactname"] = "0,3s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force03.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 0.3) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force04.printname"] = "Avtryckare Fördröjning - 0,4 Sekunder"
+L["unlameifier_tuning_trigger_delay_force04.compactname"] = "0,4s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force04.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 0.4) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force05.printname"] = "Avtryckare Fördröjning - 0,5 Sekunder"
+L["unlameifier_tuning_trigger_delay_force05.compactname"] = "0,5s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force05.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 0.5) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force1.printname"] = "Avtryckare Fördröjning - 1 Sekund"
+L["unlameifier_tuning_trigger_delay_force1.compactname"] = "1s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force1.description"] = string.format(statsdesc.fixedsec, "Avtryckare Fördröjning", 1) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force3.printname"] = "Avtryckare Fördröjning - 3 Sekunder"
+L["unlameifier_tuning_trigger_delay_force3.compactname"] = "3s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 3) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force5.printname"] = "Avtryckare Fördröjning - 5 Sekunder"
+L["unlameifier_tuning_trigger_delay_force5.compactname"] = "5s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 5) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force10.printname"] = "Avtryckare Fördröjning - 10 Sekunder"
+L["unlameifier_tuning_trigger_delay_force10.compactname"] = "10s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 10) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force30.printname"] = "Avtryckare Fördröjning - 30 Sekunder"
+L["unlameifier_tuning_trigger_delay_force30.compactname"] = "30s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 30) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force60.printname"] = "Avtryckare Fördröjning - 60 Sekunder"
+L["unlameifier_tuning_trigger_delay_force60.compactname"] = "60s AvtryckFördröj."
+L["unlameifier_tuning_trigger_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Avtryckare Fördröjning", 60) .. "Detta ändrar fördröjningen mellan att skjutknappen trycks och vapnet skjuts." .. statsdesc.warntrigger
+
+///////// EFT Ergonomics
+L["unlameifier.folder.ergonomics.fixed"] = "Ergonomi/Fast"
+L["unlameifier.folder.ergonomics.plus"] = "Ergonomi/Lägg till"
+L["unlameifier.folder.ergonomics.minus"] = "Ergonomi/Ta bort"
+L["unlameifier.folder.ergonomics.multiply"] = "Ergonomi/Multiplicera"
+L["unlameifier.folder.ergonomics.divide"] = "Ergonomi/Dela"
+
+requireseft = "\n\n<color=255,100,100>VARNING</color>: Kommer ej göra något på vapnet om det är utrustat på ett vapen som inte är från \"Escape from Tarkov\"."
+
+L["unlameifier_tuning_ergonomics_x010.printname"] = "0,1x Ergonomi"
+L["unlameifier_tuning_ergonomics_x010.compactname"] = "0,1x Ergonomi"
+L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomi", "90%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x025.printname"] = "0,25x Ergonomi"
+L["unlameifier_tuning_ergonomics_x025.compactname"] = "0,25x Ergonomi"
+L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomi", "75%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x050.printname"] = "0,5x Ergonomi"
+L["unlameifier_tuning_ergonomics_x050.compactname"] = "0,5x Ergonomi"
+L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomi", "50%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x075.printname"] = "0,75x Ergonomi"
+L["unlameifier_tuning_ergonomics_x075.compactname"] = "0,75x Ergonomi"
+L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomi", "25%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x090.printname"] = "0,9x Ergonomi"
+L["unlameifier_tuning_ergonomics_x090.compactname"] = "0,9x Ergonomi"
+L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomi", "10%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x110.printname"] = "1,1x Ergonomi"
+L["unlameifier_tuning_ergonomics_x110.compactname"] = "1,1x Ergonomi"
+L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomi", "10%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x125.printname"] = "1,25x Ergonomi"
+L["unlameifier_tuning_ergonomics_x125.compactname"] = "1,25x Ergonomi"
+L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomi", "25%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x150.printname"] = "1,5x Ergonomi"
+L["unlameifier_tuning_ergonomics_x150.compactname"] = "1,5x Ergonomi"
+L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomi", "50%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x175.printname"] = "1,75x Ergonomi"
+L["unlameifier_tuning_ergonomics_x175.compactname"] = "1,75x Ergonomi"
+L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomi", "75%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x2.printname"] = "2x Ergonomi"
+L["unlameifier_tuning_ergonomics_x2.compactname"] = "2x Ergonomi"
+L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomi", "100%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x5.printname"] = "5x Ergonomi"
+L["unlameifier_tuning_ergonomics_x5.compactname"] = "5x Ergonomi"
+L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomi", "400%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x10.printname"] = "10x Ergonomi"
+L["unlameifier_tuning_ergonomics_x10.compactname"] = "10x Ergonomi"
+L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomi", "900%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus1.printname"] = "+1 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus1.compactname"] = "+1 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomi", 1) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus5.printname"] = "+5 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus5.compactname"] = "+5 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomi", 5) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus10.printname"] = "+10 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus10.compactname"] = "+10 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomi", 10) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus25.printname"] = "+25 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus25.compactname"] = "+25 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomi", 25) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus50.printname"] = "+50 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus50.compactname"] = "+50 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomi", 50) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus75.printname"] = "+75 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus75.compactname"] = "+75 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomi", 75) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus100.printname"] = "+100 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus100.compactname"] = "+100 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomi", 100) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus500.printname"] = "+500 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus500.compactname"] = "+500 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomi", 500) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus1000.printname"] = "+1000 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus1000.compactname"] = "+1000 Ergonomi"
+L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomi", 1000) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus1.printname"] = "-1 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus1.compactname"] = "-1 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomi", 1) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus5.printname"] = "-5 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus5.compactname"] = "-5 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomi", 5) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus10.printname"] = "-10 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus10.compactname"] = "-10 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomi", 10) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus25.printname"] = "-25 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus25.compactname"] = "-25 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomi", 25) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus50.printname"] = "-50 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus50.compactname"] = "-50 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomi", 50) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus75.printname"] = "-75 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus75.compactname"] = "-75 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomi", 75) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus100.printname"] = "-100 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus100.compactname"] = "-100 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomi", 100) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus500.printname"] = "-500 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus500.compactname"] = "-500 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomi", 500) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus1000.printname"] = "-1000 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus1000.compactname"] = "-1000 Ergonomi"
+L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomi", 1000) .. "REPLACEME" .. requireseft
+
+///////// Ammo Override
+L["unlameifier.folder.ammooverride"] = "Ammo Överskrivning"
+L["unlameifier.folder.ammooverride.hl1"] = "Ammo Överskrivning/HL:S"
+L["unlameifier.folder.ammooverride.hl2"] = "Ammo Överskrivning/HL2"
+
+local ammoset = "Ändrar vapnets ammunitionstyp till <color=255,255,100>%s</color>."
+local ammosetfrom = "Ändrar vapnets ammunitionstyp till <color=255,255,100>%s</color> från %s."
+
+///// Half-Life 2
+L["unlameifier_tuning_ammo_override_ar2_hl2.printname"] = "Ammo Överskrivning - ar2"
+L["unlameifier_tuning_ammo_override_ar2_hl2.compactname"] = "ar2"
+L["unlameifier_tuning_ammo_override_ar2_hl2.description"] = string.format(ammosetfrom, "Rifle Ammo", "Overwatch Standard Issue (Pulsgevär)")
+
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.printname"] = "Ammo Överskrivning - ar2altfire"
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.compactname"] = "ar2altfire"
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.description"] = string.format(ammosetfrom, "Combine's Balls", "Overwatch Standard Issue (Pulsgeväret)")
+
+L["unlameifier_tuning_ammo_override_pistol_hl2.printname"] = "Ammo Överskrivning - pistol"
+L["unlameifier_tuning_ammo_override_pistol_hl2.compactname"] = "pistol"
+L["unlameifier_tuning_ammo_override_pistol_hl2.description"] = string.format(ammosetfrom, "Pistol Ammo", "9 mm Pistolen")
+
+L["unlameifier_tuning_ammo_override_smg1_hl2.printname"] = "Ammo Överskrivning - smg1"
+L["unlameifier_tuning_ammo_override_smg1_hl2.compactname"] = "smg1"
+L["unlameifier_tuning_ammo_override_smg1_hl2.description"] = string.format(ammosetfrom, "Carbine Ammo", "KPisten (Kulsprutepistol)") 
+
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.printname"] = "Ammo Överskrivning - smg1_grenade"
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.compactname"] = "smg1_grenade"
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.description"] = string.format(ammosetfrom, "SMG Grenades", "KPisten (Kulsprutepistol)") 
+
+L["unlameifier_tuning_ammo_override_357_hl2.printname"] = "Ammo Överskrivning - 357"
+L["unlameifier_tuning_ammo_override_357_hl2.compactname"] = "357"
+L["unlameifier_tuning_ammo_override_357_hl2.description"] = string.format(ammosetfrom, "Magnum Ammo",  ".357 Magnum") 
+
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.printname"] = "Ammo Överskrivning - xbowbolt"
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.compactname"] = "xbowbolt"
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.description"] = string.format(ammosetfrom, "Crossbow Bolts", "Armborsten") 
+
+L["unlameifier_tuning_ammo_override_buckshot_hl2.printname"] = "Ammo Överskrivning - buckshot"
+L["unlameifier_tuning_ammo_override_buckshot_hl2.compactname"] = "buckshot"
+L["unlameifier_tuning_ammo_override_buckshot_hl2.description"] = string.format(ammosetfrom, "Shotgun Ammo", "Hagelgeväret") 
+
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.printname"] = "Ammo Överskrivning - rpg_round"
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.compactname"] = "rpg_round"
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.description"] = string.format(ammosetfrom, "RPG Round", "RPG (Raketdriven granat)") 
+
+L["unlameifier_tuning_ammo_override_grenade_hl2.printname"] = "Ammo Överskrivning - grenade"
+L["unlameifier_tuning_ammo_override_grenade_hl2.compactname"] = "grenade"
+L["unlameifier_tuning_ammo_override_grenade_hl2.description"] = string.format(ammosetfrom, "Grenades", "Granaten") 
+
+L["unlameifier_tuning_ammo_override_slam_hl2.printname"] = "Ammo Överskrivning - slam"
+L["unlameifier_tuning_ammo_override_slam_hl2.compactname"] = "slam"
+L["unlameifier_tuning_ammo_override_slam_hl2.description"] = string.format(ammosetfrom, "SLAM Ammo", "S.L.A.M") 
+
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.printname"] = "Ammo Överskrivning - alyxgun"
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.compactname"] = "alyxgun"
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.description"] = string.format(ammoset, "alyxgun") 
+
+L["unlameifier_tuning_ammo_override_sniperround_hl2.printname"] = "Ammo Överskrivning - sniperround"
+L["unlameifier_tuning_ammo_override_sniperround_hl2.compactname"] = "sniperround"
+L["unlameifier_tuning_ammo_override_sniperround_hl2.description"] = string.format(ammoset, "sniperround") 
+
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.printname"] = "Ammo Överskrivning - sniperpenetratedround"
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.compactname"] = "sniperpenetratedround"
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.description"] = string.format(ammoset, "sniperpenetratedround") 
+
+///// Half-Life 1
+L["unlameifier_tuning_ammo_override_9mmround_hls.printname"] = "Ammo Överskrivning - 9mmround"
+L["unlameifier_tuning_ammo_override_9mmround_hls.compactname"] = "9mmround"
+L["unlameifier_tuning_ammo_override_9mmround_hls.description"] = string.format(ammosetfrom, "9mm Ammo", "Pistolen och MP5:an")
+
+L["unlameifier_tuning_ammo_override_357round_hls.printname"] = "Ammo Överskrivning - 357round"
+L["unlameifier_tuning_ammo_override_357round_hls.compactname"] = "357round"
+L["unlameifier_tuning_ammo_override_357round_hls.description"] = string.format(ammosetfrom, "357 Ammo", ".357 Magnum")
+
+L["unlameifier_tuning_ammo_override_buckshot_hls.printname"] = "Ammo Överskrivning - buckshothl1"
+L["unlameifier_tuning_ammo_override_buckshot_hls.compactname"] = "buckshothl1"
+L["unlameifier_tuning_ammo_override_buckshot_hls.description"] = string.format(ammosetfrom, "Shotgun Ammo", "Hagelgeväret")
+
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.printname"] = "Ammo Överskrivning - xbowbolthl1"
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.compactname"] = "xbowbolthl1"
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.description"] = string.format(ammosetfrom, "Crossbow Bolts", "Armborsten")
+
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.printname"] = "Ammo Överskrivning - mp5_grenade"
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.compactname"] = "mp5_grenade"
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.description"] = string.format(ammosetfrom, "MP5 Grenades", "KPisten")
+
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.printname"] = "Ammo Överskrivning - rpg_rocket"
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.compactname"] = "rpg_rocket"
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.description"] = string.format(ammosetfrom, "RPG Rockets", "RPG")
+
+L["unlameifier_tuning_ammo_override_uranium_hls.printname"] = "Ammo Överskrivning - uranium"
+L["unlameifier_tuning_ammo_override_uranium_hls.compactname"] = "uranium"
+L["unlameifier_tuning_ammo_override_uranium_hls.description"] = string.format(ammosetfrom, "Uranium", "Tau-Kanonen")
+
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.printname"] = "Ammo Överskrivning - grenadehl1"
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.compactname"] = "grenadehl1"
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.description"] = string.format(ammosetfrom, "Grenades", "Granaten")
+
+L["unlameifier_tuning_ammo_override_hornet_hls.printname"] = "Ammo Överskrivning - hornet"
+L["unlameifier_tuning_ammo_override_hornet_hls.compactname"] = "hornet"
+L["unlameifier_tuning_ammo_override_hornet_hls.description"] = string.format(ammosetfrom, "Hornets", "Hornet-Geväret")
+
+L["unlameifier_tuning_ammo_override_snark_hls.printname"] = "Ammo Överskrivning - snark"
+L["unlameifier_tuning_ammo_override_snark_hls.compactname"] = "snark"
+L["unlameifier_tuning_ammo_override_snark_hls.description"] = string.format(ammoset, "Snarks")
+
+L["unlameifier_tuning_ammo_override_tripmine_hls.printname"] = "Ammo Överskrivning - tripmine"
+L["unlameifier_tuning_ammo_override_tripmine_hls.compactname"] = "tripmine"
+L["unlameifier_tuning_ammo_override_tripmine_hls.description"] = string.format(ammoset, "Tripmines")
+
+L["unlameifier_tuning_ammo_override_satchel_hls.printname"] = "Ammo Överskrivning - satchel"
+L["unlameifier_tuning_ammo_override_satchel_hls.compactname"] = "satchel"
+L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(ammoset, "Buntladdningarna")

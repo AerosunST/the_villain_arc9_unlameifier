@@ -6172,6 +6172,28 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
+ATT.PrintName = "0 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 0
+ATT.HeatDelayTime = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force0")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5 Second Heat Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
+ATT.SortOrder = 0.5
+ATT.HeatDelayTime = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
 ATT.PrintName = "1 Second Heat Delay"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.delay.fixed")
 ATT.SortOrder = 1
@@ -6233,3 +6255,471 @@ ATT.SortOrder = 60
 ATT.HeatDelayTime = 60
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_heat_delay_force60")
+
+///////////////////////////////////////     "Trigger Delay" (TriggerDelay)
+//////////////////// Fixed
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = -1
+ATT.HeatDelayTime = 0
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force0")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 0.1
+ATT.HeatDelayTime = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force01")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.2 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 0.2
+ATT.HeatDelayTime = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force02")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.3 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 0.3
+ATT.HeatDelayTime = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force03")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.4 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 0.4
+ATT.HeatDelayTime = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force04")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 0.5
+ATT.HeatDelayTime = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force05")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 1
+ATT.HeatDelayTime = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "3 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 3
+ATT.HeatDelayTime = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force3")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 5
+ATT.HeatDelayTime = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 10
+ATT.HeatDelayTime = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "30 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 30
+ATT.HeatDelayTime = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "60 Second Trigger Delay"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.fixed")
+ATT.SortOrder = 60
+ATT.HeatDelayTime = 60
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_trigger_delay_force60")
+
+///////////////////////////////////////     "Ergonomics (EFT)" (Ergonomics)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.divide")
+
+ATT.EFTErgoMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.divide")
+
+ATT.EFTErgoMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.divide")
+
+ATT.EFTErgoMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.divide")
+
+ATT.EFTErgoMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.divide")
+
+ATT.EFTErgoMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+
+ATT.EFTErgoMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+
+ATT.EFTErgoMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+
+ATT.EFTErgoMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+
+ATT.EFTErgoMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+
+ATT.EFTErgoMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+
+ATT.EFTErgoMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.multiply")
+ATT.SortOrder = 10
+ATT.EFTErgoMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+
+ATT.EFTErgoAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 5
+ATT.EFTErgoAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 10
+ATT.EFTErgoAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 25
+ATT.EFTErgoAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 50
+ATT.EFTErgoAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 75
+ATT.EFTErgoAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 100
+ATT.EFTErgoAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 500
+ATT.EFTErgoAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.plus")
+ATT.SortOrder = 1000
+ATT.EFTErgoAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+
+ATT.EFTErgoAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 5
+ATT.EFTErgoAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 10
+ATT.EFTErgoAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 25
+ATT.EFTErgoAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 50
+ATT.EFTErgoAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 75
+ATT.EFTErgoAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 100
+ATT.EFTErgoAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 500
+ATT.EFTErgoAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Ergonomics"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ergonomics.minus")
+ATT.SortOrder = 1000
+ATT.EFTErgoAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ergonomics_minus1000")

@@ -357,7 +357,7 @@ Lạy cụ cụ đừng có làm mấy bài rap rồi đăng trên Soundcloud n�
 
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Các tiện ích"
-L["unlameifier.folder..toys"] = "Unlameifier/Giải trí dui dui"
+L["unlameifier.folder.toys"] = "Unlameifier/Giải trí dui dui"
 L["unlameifier.folder.tracers"] = "Unlameifier/Đường đạn"
 
 L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Giải trí dui dui/Đề can cho bề mặt tiếp xúc"

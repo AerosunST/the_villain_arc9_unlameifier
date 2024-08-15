@@ -372,7 +372,7 @@ For the record, your soundcloud tracks are ass. Stop trying, please. You are not
 //////////////////////////////// unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Unlameifier/Utilities"
 
-L["unlameifier.folder..toys"] = "Unlameifier/Unlameifier/Toys"
+L["unlameifier.folder.toys"] = "Unlameifier/Unlameifier/Toys"
 L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
 
 L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
@@ -2540,7 +2540,7 @@ L["unlameifier.folder.misc"] = "Мisc."
 L["unlameifier.folder.misc.function"] = "Мisc./Function"
 L["unlameifier.folder.misc.effects"] = "Мisc./Effects"
 
-local requireseft = "\n\n<color=255,100,100>NOTE</color>: Requires the \"Escape from Tarkov\" weapons in order to properly function."
+local requireseft = "\n\n<color=255,100,100>WARNING</color>: Requires the \"Escape from Tarkov\" weapons in order to properly function."
 
 L["unlameifier_tuning_force_suppressor_off.printname"] = "Silencer - Force Disable"
 L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Silencer"
@@ -2595,15 +2595,7 @@ L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
 L["unlameifier_tuning_system.printname"] = "Enable Tuning"
 L["unlameifier_tuning_system.compactname"] = "Tuning"
--- L["unlameifier_tuning_system.description"] = [[Allows you to fine-tune the statistics of your weapon in incremental values to make it behave the way you desire. You can equip this in any order, as the tuning slots will be at the very end of your custom slot stack. <color=255,255,0>For the sake of visual sanity, these subslots will NOT appear in the 3D interface.</color>
-
--- <color=255,0,0>WARNING.</color> THIS CAN BE USED TO MAKE SUPER-ULTRA POWERFUL CHEAT WEAPONS. There are no restrictions as to what this can do, so if you are a server owner be certain to disable this attachment if you do not want players to have this function. While there are functions to make attachments only available to server administrators, Unlameifier was not made with Multiplayer in mind and therefore will not have this restriction.
-
--- if you play darkrp, please uninstall Garry's Mod and go outside. Thank you.
-
--- oh and, if you're looking to disable this attachment, it is internally named "unlameifier_tuning_system"]] -- Original
-
-L["unlameifier_tuning_system.description"] = [[Allows the user to fine-tune the statistics of the weapon by equipping various stat-altering attachments. Can be equipped in any order.
+L["unlameifier_tuning_system.description"] = [[Allows the user to <color=255,255,100>fine-tune the statistics of the weapon</color> by equipping various stat-altering attachments. Can be equipped in any order.
 
 <color=255,100,100>WARNING</color>: This can be used to create super-ultra powerful cheat-like weapons. There are no restrictions on what this can create, so if you are a server owner, ensure that this attachment is disabled, unless you want players to utilize this. While ARC9 does have a function that disables attachments to everyone but admins, Unlameifier was never made with Multiplayer in mind, and therefore will not have this restriction.
 
@@ -2619,35 +2611,37 @@ local statsdesc = {
 	plusinv = "Increases the \"%s\" value by <color=255,100,100>+%s</color>.\n",
 	minusinv = "Reduces the \"%s\" value by <color=100,255,100>-%s</color>.\n",
 	
-	fixedsec = "Sets the \"%s\" value to <color=255,255,100>%d</color> second.\n",
-	fixedsecs = "Sets the \"%s\" value to <color=255,255,100>%d</color> seconds.\n",
+	fixedsec = "Sets the \"%s\" value to <color=255,255,100>%s</color> second.\n",
+	fixedsecs = "Sets the \"%s\" value to <color=255,255,100>%s</color> seconds.\n",
 
 	warntoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is set too low, it might cause the weapon to no longer function.",
 	warntoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is set too high, it might cause severe performance issues.",
-	warnwaytoohigh = "\n\n<color=255,100,100>WARNING</color>: Will cause severe performance issues if used.",
-	
+
 	warnammotoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is set higher than the available ammo in the gun, it will not fire.",
 	warnammotoolow = "\n\n<color=255,100,100>WARNING</color>: If the value equals the default value, it will no longer require ammo when firing, essentially giving it the <color=255,255,100>Bottomless Clip</color> effect. If the value is lower than default, it will <color=100,255,100>GAIN</color> ammo in the magazine.",
-	
+
 	warndmgtoolow = "\n\n<color=175,175,255>NOTE</color>: If the value reaches a negative one, it will deal 0 damage.",
 	warndmgeft = "\n\n<color=175,175,255>NOTE</color>: If used on an \"Escape from Tarkov\" weapon, <color=255,255,100>Force-Disable Damage Lookup Tables</color> (found in \"Custom Slot/Unlameifier/Utilities\") also needs to be equipped in order for this to have any effect.",
-	
+
 	warnrecoiltoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, minor or severe visual glitches can occur.",
 	warnrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will move the camera down instead of up. If set too high, minor or severe visual glitches can occur.",
-	
+
 	warnvisrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will push the weapon forward instead of backwards. If set too high, minor or severe visual glitches can occur.",
 
 	warnadstoolow = "\n\n<color=175,175,255>NOTE</color>: If the value is set to or close to 0, the weapon will not immediately visually snap to the center of your screen.",
-	
+
 	warnmaxrange = "\n\n<color=255,100,100>WARNING</color>: If the value goes below the \"Minimum Range\" value, there will be zero damage drop-off.",
 	warnminrange = "\n\n<color=255,100,100>WARNING</color>: If the value goes over the \"Maximum Range\" value, there will be zero damage drop-off.",
-	
+
 	warnmalf = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Malfunctions\" are disabled.",
 	warnmalftoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to jam after every shot.",
 
 	warnheat = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Overheating\" is disabled.",
 	warnheattoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to overheat on every shot.", -- for "Heat per Shot"
 	warnheattoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is too low, it can cause the weapon to overheat on every shot.", -- for "Heat Capacity"
+
+	warntrigger = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Trigger Delay\" is disabled.", -- for anything "Trigger Delay" related
+	warntriggerauto = "\n<color=175,175,255>NOTE</color>: Has no noticable effect if the weapon is set to semi-automatic.", -- for anything "Trigger Delay" related
 
 }
 
@@ -3979,123 +3973,123 @@ L["unlameifier.folder.penetration.divide"] = "Penetration/Divide"
 
 L["unlameifier_tuning_penetration_x010.printname"] = "0.1x Penetration"
 L["unlameifier_tuning_penetration_x010.compactname"] = "0.1x Penetration"
-L["unlameifier_tuning_penetration_x010.description"] = string.format(statsdesc.minus, "Penetration", "90%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x010.description"] = string.format(statsdesc.minus, "Material Penetration", "90%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x025.printname"] = "0.25x Penetration"
 L["unlameifier_tuning_penetration_x025.compactname"] = "0.25x Penetration"
-L["unlameifier_tuning_penetration_x025.description"] = string.format(statsdesc.minus, "Penetration", "75%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x025.description"] = string.format(statsdesc.minus, "Material Penetration", "75%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x050.printname"] = "0.5x Penetration"
 L["unlameifier_tuning_penetration_x050.compactname"] = "0.5x Penetration"
-L["unlameifier_tuning_penetration_x050.description"] = string.format(statsdesc.minus, "Penetration", "50%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x050.description"] = string.format(statsdesc.minus, "Material Penetration", "50%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x075.printname"] = "0.75x Penetration"
 L["unlameifier_tuning_penetration_x075.compactname"] = "0.75x Penetration"
-L["unlameifier_tuning_penetration_x075.description"] = string.format(statsdesc.minus, "Penetration", "25%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x075.description"] = string.format(statsdesc.minus, "Material Penetration", "25%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x090.printname"] = "0.9x Penetration"
 L["unlameifier_tuning_penetration_x090.compactname"] = "0.9x Penetration"
-L["unlameifier_tuning_penetration_x090.description"] = string.format(statsdesc.minus, "Penetration", "10%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x090.description"] = string.format(statsdesc.minus, "Material Penetration", "10%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x110.printname"] = "1.1x Penetration"
 L["unlameifier_tuning_penetration_x110.compactname"] = "1.1x Penetration"
-L["unlameifier_tuning_penetration_x110.description"] = string.format(statsdesc.plus, "Penetration", "10%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x110.description"] = string.format(statsdesc.plus, "Material Penetration", "10%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x125.printname"] = "1.25x Penetration"
 L["unlameifier_tuning_penetration_x125.compactname"] = "1.25x Penetration"
-L["unlameifier_tuning_penetration_x125.description"] = string.format(statsdesc.plus, "Penetration", "25%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x125.description"] = string.format(statsdesc.plus, "Material Penetration", "25%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x150.printname"] = "1.5x Penetration"
 L["unlameifier_tuning_penetration_x150.compactname"] = "1.5x Penetration"
-L["unlameifier_tuning_penetration_x150.description"] = string.format(statsdesc.plus, "Penetration", "50%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x150.description"] = string.format(statsdesc.plus, "Material Penetration", "50%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x175.printname"] = "1.75x Penetration"
 L["unlameifier_tuning_penetration_x175.compactname"] = "1.75x Penetration"
-L["unlameifier_tuning_penetration_x175.description"] = string.format(statsdesc.plus, "Penetration", "75%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x175.description"] = string.format(statsdesc.plus, "Material Penetration", "75%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x2.printname"] = "2x Penetration"
 L["unlameifier_tuning_penetration_x2.compactname"] = "2x Penetration"
-L["unlameifier_tuning_penetration_x2.description"] = string.format(statsdesc.plus, "Penetration", "100%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x2.description"] = string.format(statsdesc.plus, "Material Penetration", "100%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x5.printname"] = "5x Penetration"
 L["unlameifier_tuning_penetration_x5.compactname"] = "5x Penetration"
-L["unlameifier_tuning_penetration_x5.description"] = string.format(statsdesc.plus, "Penetration", "400%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x5.description"] = string.format(statsdesc.plus, "Material Penetration", "400%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_x10.printname"] = "10x Penetration"
 L["unlameifier_tuning_penetration_x10.compactname"] = "10x Penetration"
-L["unlameifier_tuning_penetration_x10.description"] = string.format(statsdesc.plus, "Penetration", "900%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x10.description"] = string.format(statsdesc.plus, "Material Penetration", "900%") .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus1.printname"] = "+1 Penetration"
 L["unlameifier_tuning_penetration_plus1.compactname"] = "+1 Penetration"
-L["unlameifier_tuning_penetration_plus1.description"] = string.format(statsdesc.plus, "Penetration", 1) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus1.description"] = string.format(statsdesc.plus, "Material Penetration", 1) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus5.printname"] = "+5 Penetration"
 L["unlameifier_tuning_penetration_plus5.compactname"] = "+5 Penetration"
-L["unlameifier_tuning_penetration_plus5.description"] = string.format(statsdesc.plus, "Penetration", 5) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus5.description"] = string.format(statsdesc.plus, "Material Penetration", 5) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus10.printname"] = "+10 Penetration"
 L["unlameifier_tuning_penetration_plus10.compactname"] = "+10 Penetration"
-L["unlameifier_tuning_penetration_plus10.description"] = string.format(statsdesc.plus, "Penetration", 10) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus10.description"] = string.format(statsdesc.plus, "Material Penetration", 10) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus25.printname"] = "+25 Penetration"
 L["unlameifier_tuning_penetration_plus25.compactname"] = "+25 Penetration"
-L["unlameifier_tuning_penetration_plus25.description"] = string.format(statsdesc.plus, "Penetration", 25) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus25.description"] = string.format(statsdesc.plus, "Material Penetration", 25) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus50.printname"] = "+50 Penetration"
 L["unlameifier_tuning_penetration_plus50.compactname"] = "+50 Penetration"
-L["unlameifier_tuning_penetration_plus50.description"] = string.format(statsdesc.plus, "Penetration", 50) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus50.description"] = string.format(statsdesc.plus, "Material Penetration", 50) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus75.printname"] = "+75 Penetration"
 L["unlameifier_tuning_penetration_plus75.compactname"] = "+75 Penetration"
-L["unlameifier_tuning_penetration_plus75.description"] = string.format(statsdesc.plus, "Penetration", 75) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus75.description"] = string.format(statsdesc.plus, "Material Penetration", 75) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus100.printname"] = "+100 Penetration"
 L["unlameifier_tuning_penetration_plus100.compactname"] = "+100 Penetration"
-L["unlameifier_tuning_penetration_plus100.description"] = string.format(statsdesc.plus, "Penetration", 100) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus100.description"] = string.format(statsdesc.plus, "Material Penetration", 100) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus500.printname"] = "+500 Penetration"
 L["unlameifier_tuning_penetration_plus500.compactname"] = "+500 Penetration"
-L["unlameifier_tuning_penetration_plus500.description"] = string.format(statsdesc.plus, "Penetration", 500) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus500.description"] = string.format(statsdesc.plus, "Material Penetration", 500) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_plus1000.printname"] = "+1000 Penetration"
 L["unlameifier_tuning_penetration_plus1000.compactname"] = "+1000 Penetration"
-L["unlameifier_tuning_penetration_plus1000.description"] = string.format(statsdesc.plus, "Penetration", 1000) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus1000.description"] = string.format(statsdesc.plus, "Material Penetration", 1000) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus1.printname"] = "-1 Penetration"
 L["unlameifier_tuning_penetration_minus1.compactname"] = "-1 Penetration"
-L["unlameifier_tuning_penetration_minus1.description"] = string.format(statsdesc.minus, "Penetration", 1) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus1.description"] = string.format(statsdesc.minus, "Material Penetration", 1) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus5.printname"] = "-5 Penetration"
 L["unlameifier_tuning_penetration_minus5.compactname"] = "-5 Penetration"
-L["unlameifier_tuning_penetration_minus5.description"] = string.format(statsdesc.minus, "Penetration", 5) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus5.description"] = string.format(statsdesc.minus, "Material Penetration", 5) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus10.printname"] = "-10 Penetration"
 L["unlameifier_tuning_penetration_minus10.compactname"] = "-10 Penetration"
-L["unlameifier_tuning_penetration_minus10.description"] = string.format(statsdesc.minus, "Penetration", 10) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus10.description"] = string.format(statsdesc.minus, "Material Penetration", 10) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus25.printname"] = "-25 Penetration"
 L["unlameifier_tuning_penetration_minus25.compactname"] = "-25 Penetration"
-L["unlameifier_tuning_penetration_minus25.description"] = string.format(statsdesc.minus, "Penetration", 25) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus25.description"] = string.format(statsdesc.minus, "Material Penetration", 25) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus50.printname"] = "-50 Penetration"
 L["unlameifier_tuning_penetration_minus50.compactname"] = "-50 Penetration"
-L["unlameifier_tuning_penetration_minus50.description"] = string.format(statsdesc.minus, "Penetration", 50) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus50.description"] = string.format(statsdesc.minus, "Material Penetration", 50) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus75.printname"] = "-75 Penetration"
 L["unlameifier_tuning_penetration_minus75.compactname"] = "-75 Penetration"
-L["unlameifier_tuning_penetration_minus75.description"] = string.format(statsdesc.minus, "Penetration", 75) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus75.description"] = string.format(statsdesc.minus, "Material Penetration", 75) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus100.printname"] = "-100 Penetration"
 L["unlameifier_tuning_penetration_minus100.compactname"] = "-100 Penetration"
-L["unlameifier_tuning_penetration_minus100.description"] = string.format(statsdesc.minus, "Penetration", 100) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus100.description"] = string.format(statsdesc.minus, "Material Penetration", 100) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus500.printname"] = "-500 Penetration"
 L["unlameifier_tuning_penetration_minus500.compactname"] = "-500 Penetration"
-L["unlameifier_tuning_penetration_minus500.description"] = string.format(statsdesc.minus, "Penetration", 500) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus500.description"] = string.format(statsdesc.minus, "Material Penetration", 500) .. "This alters how far a bullet can penetrate through materials."
 
 L["unlameifier_tuning_penetration_minus1000.printname"] = "-1000 Penetration"
 L["unlameifier_tuning_penetration_minus1000.compactname"] = "-1000 Penetration"
-L["unlameifier_tuning_penetration_minus1000.description"] = string.format(statsdesc.minus, "Penetration", 1000) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus1000.description"] = string.format(statsdesc.minus, "Material Penetration", 1000) .. "This alters how far a bullet can penetrate through materials."
 
 ///////// Spread
 L["unlameifier.folder.spread"] = "Spread"
@@ -4104,55 +4098,55 @@ L["unlameifier.folder.spread.divide"] = "Spread/Divide"
 
 L["unlameifier_tuning_spread_x0.printname"] = "0x Spread"
 L["unlameifier_tuning_spread_x0.compactname"] = "0x Spread"
-L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Spread", "100%") .. "This alters how much accuracy you will lose when using your weapon." .. "\n\n" .. "Effectively removes <color=100,255,100>all spread</color>, making the weapon <color=100,255,100>perfectly accurate</color> at all times."
+L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Spread", "100%") .. "This alters how much accuracy the weapon has." .. "\n\n" .. "Effectively removes <color=100,255,100>all spread</color>, making the weapon <color=100,255,100>perfectly accurate</color> at all times."
 
 L["unlameifier_tuning_spread_x010.printname"] = "0.1x Spread"
 L["unlameifier_tuning_spread_x010.compactname"] = "0.1x Spread"
-L["unlameifier_tuning_spread_x010.description"] = string.format(statsdesc.minusinv, "Spread", "90%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x010.description"] = string.format(statsdesc.minusinv, "Spread", "90%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x025.printname"] = "0.25x Spread"
 L["unlameifier_tuning_spread_x025.compactname"] = "0.25x Spread"
-L["unlameifier_tuning_spread_x025.description"] = string.format(statsdesc.minusinv, "Spread", "75%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x025.description"] = string.format(statsdesc.minusinv, "Spread", "75%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x050.printname"] = "0.5x Spread"
 L["unlameifier_tuning_spread_x050.compactname"] = "0.5x Spread"
-L["unlameifier_tuning_spread_x050.description"] = string.format(statsdesc.minusinv, "Spread", "50%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x050.description"] = string.format(statsdesc.minusinv, "Spread", "50%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x075.printname"] = "0.75x Spread"
 L["unlameifier_tuning_spread_x075.compactname"] = "0.75x Spread"
-L["unlameifier_tuning_spread_x075.description"] = string.format(statsdesc.minusinv, "Spread", "25%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x075.description"] = string.format(statsdesc.minusinv, "Spread", "25%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x090.printname"] = "0.9x Spread"
 L["unlameifier_tuning_spread_x090.compactname"] = "0.9x Spread"
-L["unlameifier_tuning_spread_x090.description"] = string.format(statsdesc.minusinv, "Spread", "10%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x090.description"] = string.format(statsdesc.minusinv, "Spread", "10%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x110.printname"] = "1.1x Spread"
 L["unlameifier_tuning_spread_x110.compactname"] = "1.1x Spread"
-L["unlameifier_tuning_spread_x110.description"] = string.format(statsdesc.plusinv, "Spread", "10%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x110.description"] = string.format(statsdesc.plusinv, "Spread", "10%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x125.printname"] = "1.25x Spread"
 L["unlameifier_tuning_spread_x125.compactname"] = "1.25x Spread"
-L["unlameifier_tuning_spread_x125.description"] = string.format(statsdesc.plusinv, "Spread", "25%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x125.description"] = string.format(statsdesc.plusinv, "Spread", "25%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x150.printname"] = "1.5x Spread"
 L["unlameifier_tuning_spread_x150.compactname"] = "1.5x Spread"
-L["unlameifier_tuning_spread_x150.description"] = string.format(statsdesc.plusinv, "Spread", "50%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x150.description"] = string.format(statsdesc.plusinv, "Spread", "50%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x175.printname"] = "1.75x Spread"
 L["unlameifier_tuning_spread_x175.compactname"] = "1.75x Spread"
-L["unlameifier_tuning_spread_x175.description"] = string.format(statsdesc.plusinv, "Spread", "75%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x175.description"] = string.format(statsdesc.plusinv, "Spread", "75%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x2.printname"] = "2x Spread"
 L["unlameifier_tuning_spread_x2.compactname"] = "2x Spread"
-L["unlameifier_tuning_spread_x2.description"] = string.format(statsdesc.plusinv, "Spread", "100%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x2.description"] = string.format(statsdesc.plusinv, "Spread", "100%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x5.printname"] = "5x Spread"
 L["unlameifier_tuning_spread_x5.compactname"] = "5x Spread"
-L["unlameifier_tuning_spread_x5.description"] = string.format(statsdesc.plusinv, "Spread", "400%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x5.description"] = string.format(statsdesc.plusinv, "Spread", "400%") .. "This alters how much accuracy the weapon has."
 
 L["unlameifier_tuning_spread_x10.printname"] = "10x Spread"
 L["unlameifier_tuning_spread_x10.compactname"] = "10x Spread"
-L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Spread", "900%") .. "This alters how much accuracy you will lose when using your weapon."
+L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Spread", "900%") .. "This alters how much accuracy the weapon has."
 
 ///////// Impact Force
 L["unlameifier.folder.impactforce"] = "Impact Force"
@@ -4161,55 +4155,55 @@ L["unlameifier.folder.impactforce.divide"] = "Impact Force/Divide"
 
 L["unlameifier_tuning_impact_forcex0.printname"] = "0x Impact Force"
 L["unlameifier_tuning_impact_forcex0.compactname"] = "0x Impact Force"
-L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Impact Force", "100%") .. "This alters how far the bullet needs to travel before it starts to reduce damage." .. "\n\n" .. "Completely <color=100,255,255>disables</color> Impact Force."
+L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Impact Force", "100%") .. "This alters how much force is applied to anything you hit." .. "\n\n" .. "Completely <color=100,255,255>disables</color> Impact Force."
 
 L["unlameifier_tuning_impact_forcex010.printname"] = "0.1x Impact Force"
 L["unlameifier_tuning_impact_forcex010.compactname"] = "0.1x Impact Force"
-L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Impact Force", "90%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Impact Force", "90%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex025.printname"] = "0.25x Impact Force"
 L["unlameifier_tuning_impact_forcex025.compactname"] = "0.25x Impact Force"
-L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Impact Force", "75%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Impact Force", "75%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex050.printname"] = "0.5x Impact Force"
 L["unlameifier_tuning_impact_forcex050.compactname"] = "0.5x Impact Force"
-L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Impact Force", "50%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Impact Force", "50%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex075.printname"] = "0.75x Impact Force"
 L["unlameifier_tuning_impact_forcex075.compactname"] = "0.75x Impact Force"
-L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Impact Force", "25%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Impact Force", "25%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex090.printname"] = "0.9x Impact Force"
 L["unlameifier_tuning_impact_forcex090.compactname"] = "0.9x Impact Force"
-L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Impact Force", "10%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Impact Force", "10%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex110.printname"] = "1.1x Impact Force"
 L["unlameifier_tuning_impact_forcex110.compactname"] = "1.1x Impact Force"
-L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Impact Force", "10%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Impact Force", "10%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex125.printname"] = "1.25x Impact Force"
 L["unlameifier_tuning_impact_forcex125.compactname"] = "1.25x Impact Force"
-L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Impact Force", "25%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Impact Force", "25%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex150.printname"] = "1.5x Impact Force"
 L["unlameifier_tuning_impact_forcex150.compactname"] = "1.5x Impact Force"
-L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Impact Force", "50%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Impact Force", "50%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex175.printname"] = "1.75x Impact Force"
 L["unlameifier_tuning_impact_forcex175.compactname"] = "1.75x Impact Force"
-L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Impact Force", "75%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Impact Force", "75%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex2.printname"] = "2x Impact Force"
 L["unlameifier_tuning_impact_forcex2.compactname"] = "2x Impact Force"
-L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Impact Force", "100%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Impact Force", "100%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex5.printname"] = "5x Impact Force"
 L["unlameifier_tuning_impact_forcex5.compactname"] = "5x Impact Force"
-L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Impact Force", "400%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Impact Force", "400%") .. "This alters how much force is applied to anything you hit."
 
 L["unlameifier_tuning_impact_forcex10.printname"] = "10x Impact Force"
 L["unlameifier_tuning_impact_forcex10.compactname"] = "10x Impact Force"
-L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Impact Force", "900%") .. "This alters how far the bullet needs to travel before it starts to reduce damage."
+L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Impact Force", "900%") .. "This alters how much force is applied to anything you hit."
 
 ///////// Maximum Range
 L["unlameifier.folder.maxrange"] = "Range/Max"
@@ -4327,13 +4321,13 @@ L["unlameifier.folder.malfunction.divide"] = "Malfunction/Divide"
 
 L["unlameifier.folder.malfunction.utility.system"] = "Malfunction/Utility/System"
 
-L["unlameifier_tuning_malfunction_disable.printname"] = "Malfunctions - Force Disable"
-L["unlameifier_tuning_malfunction_disable.compactname"] = "-Malfunction"
-L["unlameifier_tuning_malfunction_disable.description"] = "Forcefully disables <color=255,255,100>weapon malfunctions</color>.\nThe weapon will never have a malfunction."
-
 L["unlameifier_tuning_malfunction_enable.printname"] = "Malfunctions - Force Enable"
 L["unlameifier_tuning_malfunction_enable.compactname"] = "+Malfunction"
 L["unlameifier_tuning_malfunction_enable.description"] = "Forcefully enables <color=255,255,100>weapon malfunctions</color>.\nAllows the weapon to have a chance to malfunction."
+
+L["unlameifier_tuning_malfunction_disable.printname"] = "Malfunctions - Force Disable"
+L["unlameifier_tuning_malfunction_disable.compactname"] = "-Malfunction"
+L["unlameifier_tuning_malfunction_disable.description"] = "Forcefully disables <color=255,255,100>weapon malfunctions</color>.\nThe weapon will never have a malfunction."
 
 L["unlameifier_tuning_mean_shots_to_fail_x010.printname"] = "0.1x Shots to Fail"
 L["unlameifier_tuning_mean_shots_to_fail_x010.compactname"] = "0.1x Shots to Fail"
@@ -4511,29 +4505,29 @@ L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format
 L["unlameifier.folder.heat"] = "Heat"
 L["unlameifier.folder.heat.utility.system"] = "Heat/Utility/System"
 
-L["unlameifier_tuning_heat_disable.printname"] = "Overheating - Force Disable"
-L["unlameifier_tuning_heat_disable.compactname"] = "-Overheat"
-L["unlameifier_tuning_heat_disable.description"] = "Forcefully disables <color=255,255,100>weapon overheating</color>.\nThe weapon will never overheat."
-
 L["unlameifier_tuning_heat_enable.printname"] = "Overheating - Force Enable"
 L["unlameifier_tuning_heat_enable.compactname"] = "+Overheat"
 L["unlameifier_tuning_heat_enable.description"] = "Forcefully enables <color=255,255,100>weapon overheating</color>.\nJams the weapon if fired for too long."
 
-L["unlameifier_tuning_heat_lockout_disable.printname"] = "Overheat Lockout - Force Disable"
-L["unlameifier_tuning_heat_lockout_disable.compactname"] = "-Heat Lockout"
-L["unlameifier_tuning_heat_lockout_disable.description"] = "Forcefully disables <color=255,255,100>overheat lockout</color>.\nAllows you to shoot the weapon even if the weapon is hot." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_disable.printname"] = "Overheating - Force Disable"
+L["unlameifier_tuning_heat_disable.compactname"] = "-Overheat"
+L["unlameifier_tuning_heat_disable.description"] = "Forcefully disables <color=255,255,100>weapon overheating</color>.\nThe weapon will never overheat."
 
 L["unlameifier_tuning_heat_lockout_enable.printname"] = "Overheat Lockout - Force Enable"
 L["unlameifier_tuning_heat_lockout_enable.compactname"] = "+Heat Lockout"
 L["unlameifier_tuning_heat_lockout_enable.description"] = "Forcefully enables <color=255,255,100>overheat lockout</color>.\nForces you to wait until the heat is fully gone before firing again." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_fix_disable.printname"] = "Overheat Full Fix - Force Disable"
-L["unlameifier_tuning_heat_fix_disable.compactname"] = "-Heat Full Fix"
-L["unlameifier_tuning_heat_fix_disable.description"] = "Forcefully disables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, the heat will gradually lower." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_lockout_disable.printname"] = "Overheat Lockout - Force Disable"
+L["unlameifier_tuning_heat_lockout_disable.compactname"] = "-Heat Lockout"
+L["unlameifier_tuning_heat_lockout_disable.description"] = "Forcefully disables <color=255,255,100>overheat lockout</color>.\nAllows you to shoot the weapon even if the weapon is hot." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_fix_enable.printname"] = "Overheat Full Fix - Force Enable"
 L["unlameifier_tuning_heat_fix_enable.compactname"] = "+Heat Full Fix"
 L["unlameifier_tuning_heat_fix_enable.description"] = "Forcefully enables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, all heat is immediately reset." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_fix_disable.printname"] = "Overheat Full Fix - Force Disable"
+L["unlameifier_tuning_heat_fix_disable.compactname"] = "-Heat Full Fix"
+L["unlameifier_tuning_heat_fix_disable.description"] = "Forcefully disables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, the heat will gradually lower." .. statsdesc.warnheat
 
 ///////// Overheating Per Shot
 L["unlameifier.folder.heat.pershot.plus"] = "Heat/Per Shot/Add"
@@ -5020,6 +5014,14 @@ L["unlameifier_tuning_heat_dissipation_force1000.description"] = string.format(s
 ///////// Overheat Delay
 L["unlameifier.folder.heat.delay.fixed"] = "Heat/Delay/Fixed"
 
+L["unlameifier_tuning_heat_delay_force0.printname"] = "Heat Dissipation Delay - 0 Seconds"
+L["unlameifier_tuning_heat_delay_force0.compactname"] = "0s Heat Delay"
+L["unlameifier_tuning_heat_delay_force0.description"] = string.format(statsdesc.fixedsec, "Heat Delay", 0) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+
+L["unlameifier_tuning_heat_delay_force05.printname"] = "Heat Dissipation Delay - 0.5 Seconds"
+L["unlameifier_tuning_heat_delay_force05.compactname"] = "0.5s Heat Delay"
+L["unlameifier_tuning_heat_delay_force05.description"] = string.format(statsdesc.fixedsec, "Heat Delay", 0.5) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+
 L["unlameifier_tuning_heat_delay_force1.printname"] = "Heat Dissipation Delay - 1 Second"
 L["unlameifier_tuning_heat_delay_force1.compactname"] = "1s Heat Delay"
 L["unlameifier_tuning_heat_delay_force1.description"] = string.format(statsdesc.fixedsec, "Heat Delay", 1) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
@@ -5043,3 +5045,341 @@ L["unlameifier_tuning_heat_delay_force30.description"] = string.format(statsdesc
 L["unlameifier_tuning_heat_delay_force60.printname"] = "Heat Dissipation Delay - 60 Seconds"
 L["unlameifier_tuning_heat_delay_force60.compactname"] = "60s Heat Delay"
 L["unlameifier_tuning_heat_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Heat Delay", 60) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+
+///////// Trigger Delay
+L["unlameifier.folder.triggerdelay"] = "Trigger Delay"
+L["unlameifier.folder.triggerdelay.utility.system"] = "Trigger Delay/Utility/System"
+
+L["unlameifier_tuning_triggerdelay_enable.printname"] = "Trigger Delay - Force Enable"
+L["unlameifier_tuning_triggerdelay_enable.compactname"] = "+TrigDelay"
+L["unlameifier_tuning_triggerdelay_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay</color>.\nThe weapon will have a delay before firing after you press the fire button."
+
+L["unlameifier_tuning_triggerdelay_disable.printname"] = "Trigger Delay - Force Disable"
+L["unlameifier_tuning_triggerdelay_disable.compactname"] = "-TrigDelay"
+L["unlameifier_tuning_triggerdelay_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay</color>.\nThe weapon will immediately fire when pressing the firing button."
+
+L["unlameifier_tuning_triggerdelaycancellable_enable.printname"] = "Trigger Delay Cancelling - Force Enable"
+L["unlameifier_tuning_triggerdelaycancellable_enable.compactname"] = "+TrigDelay Cancel"
+L["unlameifier_tuning_triggerdelaycancellable_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay cancelling</color>.\nIf you release the firing button before the weapon fire, you'll not fire." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelaycancellable_disable.printname"] = "Trigger Delay Cancelling - Force Disable"
+L["unlameifier_tuning_triggerdelaycancellable_disable.compactname"] = "-TrigDelay Cancel"
+L["unlameifier_tuning_triggerdelaycancellable_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay cancelling</color>.\nThe weapon will always fire after you press the firing button." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.printname"] = "Trigger Delay \"Release to Fire\" - Force Enable"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.compactname"] = "+ReleaseToFire"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you release the firing button." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.printname"] = "Trigger Delay \"Release to Fire\" - Force Disable"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.compactname"] = "-ReleaseToFire"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you press (and/or hold) the firing button." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerstartfireanim_enable.printname"] = "Trigger Delay Animation - Force Enable"
+L["unlameifier_tuning_triggerstartfireanim_enable.compactname"] = "+TrigDelayAnim"
+L["unlameifier_tuning_triggerstartfireanim_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay animation</color>.\nThe weapon will play the \"trigger\" animation (if one exists) when you press and hold the firing button before firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerstartfireanim_disable.printname"] = "Trigger Delay Animation - Force Disable"
+L["unlameifier_tuning_triggerstartfireanim_disable.compactname"] = "-TrigDelayAnim"
+L["unlameifier_tuning_triggerstartfireanim_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay animation</color>.\nThe weapon will not play the \"trigger\" animation when you press and hold the firing button before firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_triggerdelayrepeat_enable.printname"] = "Trigger Delay Repeat - Force Enable"
+L["unlameifier_tuning_triggerdelayrepeat_enable.compactname"] = "+TrigDelayRepeat"
+L["unlameifier_tuning_triggerdelayrepeat_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur every time the weapon fires." .. statsdesc.warntrigger .. statsdesc.warntriggerauto
+
+L["unlameifier_tuning_triggerdelayrepeat_disable.printname"] = "Trigger Delay Repeat - Force Disable"
+L["unlameifier_tuning_triggerdelayrepeat_disable.compactname"] = "-TrigDelayRepeat"
+L["unlameifier_tuning_triggerdelayrepeat_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur only when you first press the firing button." .. statsdesc.warntrigger
+
+///////// Trigger Delay Times
+L["unlameifier.folder.triggerdelay.fixed"] = "Trigger Delay/Fixed"
+
+L["unlameifier_tuning_trigger_delay_force0.printname"] = "Trigger Delay - 0 Seconds"
+L["unlameifier_tuning_trigger_delay_force0.compactname"] = "0s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force0.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force01.printname"] = "Trigger Delay - 0.1 Seconds"
+L["unlameifier_tuning_trigger_delay_force01.compactname"] = "0.1s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force01.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.1) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force02.printname"] = "Trigger Delay - 0.2 Seconds"
+L["unlameifier_tuning_trigger_delay_force02.compactname"] = "0.2s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force02.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.2) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force03.printname"] = "Trigger Delay - 0.3 Seconds"
+L["unlameifier_tuning_trigger_delay_force03.compactname"] = "0.3s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force03.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.3) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force04.printname"] = "Trigger Delay - 0.4 Seconds"
+L["unlameifier_tuning_trigger_delay_force04.compactname"] = "0.4s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force04.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.4) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force05.printname"] = "Trigger Delay - 0.5 Seconds"
+L["unlameifier_tuning_trigger_delay_force05.compactname"] = "0.5s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force05.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.5) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force1.printname"] = "Trigger Delay - 1 Second"
+L["unlameifier_tuning_trigger_delay_force1.compactname"] = "1s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force1.description"] = string.format(statsdesc.fixedsec, "Trigger Delay", 1) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force3.printname"] = "Trigger Delay - 3 Seconds"
+L["unlameifier_tuning_trigger_delay_force3.compactname"] = "3s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 3) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force5.printname"] = "Trigger Delay - 5 Seconds"
+L["unlameifier_tuning_trigger_delay_force5.compactname"] = "5s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 5) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force10.printname"] = "Trigger Delay - 10 Seconds"
+L["unlameifier_tuning_trigger_delay_force10.compactname"] = "10s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 10) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force30.printname"] = "Trigger Delay - 30 Seconds"
+L["unlameifier_tuning_trigger_delay_force30.compactname"] = "30s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 30) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+L["unlameifier_tuning_trigger_delay_force60.printname"] = "Trigger Delay - 60 Seconds"
+L["unlameifier_tuning_trigger_delay_force60.compactname"] = "60s TrigDelay"
+L["unlameifier_tuning_trigger_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 60) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+
+///////// EFT Ergonomics
+L["unlameifier.folder.ergonomics.fixed"] = "Ergonomics/Fixed"
+L["unlameifier.folder.ergonomics.plus"] = "Ergonomics/Add"
+L["unlameifier.folder.ergonomics.minus"] = "Ergonomics/Subtract"
+L["unlameifier.folder.ergonomics.multiply"] = "Ergonomics/Multiply"
+L["unlameifier.folder.ergonomics.divide"] = "Ergonomics/Divide"
+
+requireseft = "\n\n<color=255,100,100>WARNING</color>: Equipping on a weapon not from \"Escape from Tarkov\" causes this to not do anything."
+
+L["unlameifier_tuning_ergonomics_x010.printname"] = "0.1x Ergonomics"
+L["unlameifier_tuning_ergonomics_x010.compactname"] = "0.1x Ergonomics"
+L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomics", "90%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x025.printname"] = "0.25x Ergonomics"
+L["unlameifier_tuning_ergonomics_x025.compactname"] = "0.25x Ergonomics"
+L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomics", "75%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x050.printname"] = "0.5x Ergonomics"
+L["unlameifier_tuning_ergonomics_x050.compactname"] = "0.5x Ergonomics"
+L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomics", "50%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x075.printname"] = "0.75x Ergonomics"
+L["unlameifier_tuning_ergonomics_x075.compactname"] = "0.75x Ergonomics"
+L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomics", "25%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x090.printname"] = "0.9x Ergonomics"
+L["unlameifier_tuning_ergonomics_x090.compactname"] = "0.9x Ergonomics"
+L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomics", "10%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x110.printname"] = "1.1x Ergonomics"
+L["unlameifier_tuning_ergonomics_x110.compactname"] = "1.1x Ergonomics"
+L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomics", "10%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x125.printname"] = "1.25x Ergonomics"
+L["unlameifier_tuning_ergonomics_x125.compactname"] = "1.25x Ergonomics"
+L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomics", "25%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x150.printname"] = "1.5x Ergonomics"
+L["unlameifier_tuning_ergonomics_x150.compactname"] = "1.5x Ergonomics"
+L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomics", "50%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x175.printname"] = "1.75x Ergonomics"
+L["unlameifier_tuning_ergonomics_x175.compactname"] = "1.75x Ergonomics"
+L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomics", "75%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x2.printname"] = "2x Ergonomics"
+L["unlameifier_tuning_ergonomics_x2.compactname"] = "2x Ergonomics"
+L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomics", "100%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x5.printname"] = "5x Ergonomics"
+L["unlameifier_tuning_ergonomics_x5.compactname"] = "5x Ergonomics"
+L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomics", "400%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_x10.printname"] = "10x Ergonomics"
+L["unlameifier_tuning_ergonomics_x10.compactname"] = "10x Ergonomics"
+L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomics", "900%") .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus1.printname"] = "+1 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus1.compactname"] = "+1 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomics", 1) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus5.printname"] = "+5 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus5.compactname"] = "+5 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomics", 5) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus10.printname"] = "+10 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus10.compactname"] = "+10 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomics", 10) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus25.printname"] = "+25 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus25.compactname"] = "+25 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomics", 25) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus50.printname"] = "+50 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus50.compactname"] = "+50 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomics", 50) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus75.printname"] = "+75 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus75.compactname"] = "+75 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomics", 75) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus100.printname"] = "+100 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus100.compactname"] = "+100 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomics", 100) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus500.printname"] = "+500 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus500.compactname"] = "+500 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomics", 500) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_plus1000.printname"] = "+1000 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus1000.compactname"] = "+1000 Ergonomics"
+L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomics", 1000) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus1.printname"] = "-1 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus1.compactname"] = "-1 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomics", 1) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus5.printname"] = "-5 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus5.compactname"] = "-5 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomics", 5) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus10.printname"] = "-10 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus10.compactname"] = "-10 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomics", 10) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus25.printname"] = "-25 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus25.compactname"] = "-25 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomics", 25) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus50.printname"] = "-50 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus50.compactname"] = "-50 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomics", 50) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus75.printname"] = "-75 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus75.compactname"] = "-75 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomics", 75) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus100.printname"] = "-100 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus100.compactname"] = "-100 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomics", 100) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus500.printname"] = "-500 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus500.compactname"] = "-500 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomics", 500) .. "REPLACEME" .. requireseft
+
+L["unlameifier_tuning_ergonomics_minus1000.printname"] = "-1000 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus1000.compactname"] = "-1000 Ergonomics"
+L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomics", 1000) .. "REPLACEME" .. requireseft
+
+///////// Ammo Override
+L["unlameifier.folder.ammooverride"] = "Ammo Override"
+L["unlameifier.folder.ammooverride.hl1"] = "Ammo Override/HL:S"
+L["unlameifier.folder.ammooverride.hl2"] = "Ammo Override/HL2"
+
+local ammoset = "Overrides the weapon ammo to <color=255,255,100>%s</color>."
+local ammosetfrom = "Overrides the weapon ammo to <color=255,255,100>%s</color> from the %s."
+
+///// Half-Life 2
+L["unlameifier_tuning_ammo_override_ar2_hl2.printname"] = "Ammo Override - ar2"
+L["unlameifier_tuning_ammo_override_ar2_hl2.compactname"] = "ar2"
+L["unlameifier_tuning_ammo_override_ar2_hl2.description"] = string.format(ammosetfrom, "Rifle Ammo", "Overwatch Standard Issue (Pulse-Rifle)")
+
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.printname"] = "Ammo Override - ar2altfire"
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.compactname"] = "ar2altfire"
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.description"] = string.format(ammosetfrom, "Combine's Balls", "Overwatch Standard Issue (Pulse-Rifle)")
+
+L["unlameifier_tuning_ammo_override_pistol_hl2.printname"] = "Ammo Override - pistol"
+L["unlameifier_tuning_ammo_override_pistol_hl2.compactname"] = "pistol"
+L["unlameifier_tuning_ammo_override_pistol_hl2.description"] = string.format(ammosetfrom, "Pistol Ammo", "9mm Pistol")
+
+L["unlameifier_tuning_ammo_override_smg1_hl2.printname"] = "Ammo Override - smg1"
+L["unlameifier_tuning_ammo_override_smg1_hl2.compactname"] = "smg1"
+L["unlameifier_tuning_ammo_override_smg1_hl2.description"] = string.format(ammosetfrom, "Carbine Ammo", "SMG (Submachine Gun)") 
+
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.printname"] = "Ammo Override - smg1_grenade"
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.compactname"] = "smg1_grenade"
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.description"] = string.format(ammosetfrom, "SMG Grenades", "SMG (Submachine Gun)") 
+
+L["unlameifier_tuning_ammo_override_357_hl2.printname"] = "Ammo Override - 357"
+L["unlameifier_tuning_ammo_override_357_hl2.compactname"] = "357"
+L["unlameifier_tuning_ammo_override_357_hl2.description"] = string.format(ammosetfrom, "Magnum Ammo",  ".357 Magnum") 
+
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.printname"] = "Ammo Override - xbowbolt"
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.compactname"] = "xbowbolt"
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.description"] = string.format(ammosetfrom, "Crossbow Bolts", "Crossbow") 
+
+L["unlameifier_tuning_ammo_override_buckshot_hl2.printname"] = "Ammo Override - buckshot"
+L["unlameifier_tuning_ammo_override_buckshot_hl2.compactname"] = "buckshot"
+L["unlameifier_tuning_ammo_override_buckshot_hl2.description"] = string.format(ammosetfrom, "Shotgun Ammo", "Shotgun") 
+
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.printname"] = "Ammo Override - rpg_round"
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.compactname"] = "rpg_round"
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.description"] = string.format(ammosetfrom, "RPG Round", "RPG (Rocket Propelled Grenade)") 
+
+L["unlameifier_tuning_ammo_override_grenade_hl2.printname"] = "Ammo Override - grenade"
+L["unlameifier_tuning_ammo_override_grenade_hl2.compactname"] = "grenade"
+L["unlameifier_tuning_ammo_override_grenade_hl2.description"] = string.format(ammosetfrom, "Grenades", "Grenade") 
+
+L["unlameifier_tuning_ammo_override_slam_hl2.printname"] = "Ammo Override - slam"
+L["unlameifier_tuning_ammo_override_slam_hl2.compactname"] = "slam"
+L["unlameifier_tuning_ammo_override_slam_hl2.description"] = string.format(ammosetfrom, "SLAM Ammo", "S.L.A.M") 
+
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.printname"] = "Ammo Override - alyxgun"
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.compactname"] = "alyxgun"
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.description"] = string.format(ammoset, "alyxgun") 
+
+L["unlameifier_tuning_ammo_override_sniperround_hl2.printname"] = "Ammo Override - sniperround"
+L["unlameifier_tuning_ammo_override_sniperround_hl2.compactname"] = "sniperround"
+L["unlameifier_tuning_ammo_override_sniperround_hl2.description"] = string.format(ammoset, "sniperround") 
+
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.printname"] = "Ammo Override - sniperpenetratedround"
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.compactname"] = "sniperpenetratedround"
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.description"] = string.format(ammoset, "sniperpenetratedround") 
+
+///// Half-Life 1
+L["unlameifier_tuning_ammo_override_9mmround_hls.printname"] = "Ammo Override - 9mmround"
+L["unlameifier_tuning_ammo_override_9mmround_hls.compactname"] = "9mmround"
+L["unlameifier_tuning_ammo_override_9mmround_hls.description"] = string.format(ammosetfrom, "9mm Ammo", "Pistol & MP5")
+
+L["unlameifier_tuning_ammo_override_357round_hls.printname"] = "Ammo Override - 357round"
+L["unlameifier_tuning_ammo_override_357round_hls.compactname"] = "357round"
+L["unlameifier_tuning_ammo_override_357round_hls.description"] = string.format(ammosetfrom, "357 Ammo", ".357 Magnum")
+
+L["unlameifier_tuning_ammo_override_buckshot_hls.printname"] = "Ammo Override - buckshothl1"
+L["unlameifier_tuning_ammo_override_buckshot_hls.compactname"] = "buckshothl1"
+L["unlameifier_tuning_ammo_override_buckshot_hls.description"] = string.format(ammosetfrom, "Shotgun Ammo", "Shotgun")
+
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.printname"] = "Ammo Override - xbowbolthl1"
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.compactname"] = "xbowbolthl1"
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.description"] = string.format(ammosetfrom, "Crossbow Bolts", "Crossbow")
+
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.printname"] = "Ammo Override - mp5_grenade"
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.compactname"] = "mp5_grenade"
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.description"] = string.format(ammosetfrom, "MP5 Grenades", "SMG")
+
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.printname"] = "Ammo Override - rpg_rocket"
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.compactname"] = "rpg_rocket"
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.description"] = string.format(ammosetfrom, "RPG Rockets", "RPG")
+
+L["unlameifier_tuning_ammo_override_uranium_hls.printname"] = "Ammo Override - uranium"
+L["unlameifier_tuning_ammo_override_uranium_hls.compactname"] = "uranium"
+L["unlameifier_tuning_ammo_override_uranium_hls.description"] = string.format(ammosetfrom, "Uranium", "Tau Cannon")
+
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.printname"] = "Ammo Override - grenadehl1"
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.compactname"] = "grenadehl1"
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.description"] = string.format(ammosetfrom, "Grenades", "Grenade")
+
+L["unlameifier_tuning_ammo_override_hornet_hls.printname"] = "Ammo Override - hornet"
+L["unlameifier_tuning_ammo_override_hornet_hls.compactname"] = "hornet"
+L["unlameifier_tuning_ammo_override_hornet_hls.description"] = string.format(ammosetfrom, "Hornets", "Hornet Gun")
+
+L["unlameifier_tuning_ammo_override_snark_hls.printname"] = "Ammo Override - snark"
+L["unlameifier_tuning_ammo_override_snark_hls.compactname"] = "snark"
+L["unlameifier_tuning_ammo_override_snark_hls.description"] = string.format(ammoset, "Snarks")
+
+L["unlameifier_tuning_ammo_override_tripmine_hls.printname"] = "Ammo Override - tripmine"
+L["unlameifier_tuning_ammo_override_tripmine_hls.compactname"] = "tripmine"
+L["unlameifier_tuning_ammo_override_tripmine_hls.description"] = string.format(ammoset, "Tripmines")
+
+L["unlameifier_tuning_ammo_override_satchel_hls.printname"] = "Ammo Override - satchel"
+L["unlameifier_tuning_ammo_override_satchel_hls.compactname"] = "satchel"
+L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(ammoset, "Satchel Charges")

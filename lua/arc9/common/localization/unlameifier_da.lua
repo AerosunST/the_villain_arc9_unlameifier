@@ -24,1126 +24,1160 @@ Text in Line 2 ]]
 --]]
 
 //////////////////////////////// unlameifier_eft_charms
--- L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
--- L["unlameifier_eft_charm_up.compactname"] = "Charms (U)"
--- L["unlameifier_eft_charm_up.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on top-mounted rails for best results.
+L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
+L["unlameifier_eft_charm_up.compactname"] = "Charms (U)"
+L["unlameifier_eft_charm_up.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on top-mounted rails for best results.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_down.printname"] = "Charms Adapter (Down)"
--- L["unlameifier_eft_charm_down.compactname"] = "Charms (D)"
--- L["unlameifier_eft_charm_down.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on bottom rails for best results.
+L["unlameifier_eft_charm_down.printname"] = "Charms Adapter (Down)"
+L["unlameifier_eft_charm_down.compactname"] = "Charms (D)"
+L["unlameifier_eft_charm_down.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on bottom rails for best results.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_left.printname"] = "Charms Adapter (Left)"
--- L["unlameifier_eft_charm_left.compactname"] = "Charms (L)"
--- L["unlameifier_eft_charm_left.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on left-side rails for best results.
+L["unlameifier_eft_charm_left.printname"] = "Charms Adapter (Left)"
+L["unlameifier_eft_charm_left.compactname"] = "Charms (L)"
+L["unlameifier_eft_charm_left.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on left-side rails for best results.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
--- L["unlameifier_eft_charm_right.printname"] = "Charms Adapter (Right)"
--- L["unlameifier_eft_charm_right.compactname"] = "Charms (R)"
--- L["unlameifier_eft_charm_right.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on right-side rails for best results.
+L["unlameifier_eft_charm_right.printname"] = "Charms Adapter (Right)"
+L["unlameifier_eft_charm_right.compactname"] = "Charms (R)"
+L["unlameifier_eft_charm_right.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on right-side rails for best results.
 
--- Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
+Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
 //////////////////////////////// unlameifier_eft_extras
 //////////////// MP7-specific
--- L["eft_frontsight_mp7_fold.printname"] = "Folded H&K MP7 Front Flip-Up Sight"
--- L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
--- L["eft_frontsight_mp7_fold.description"] = [[A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
+L["eft_frontsight_mp7_fold.printname"] = "Folded H&K MP7 Front Flip-Up Sight"
+L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
+L["eft_frontsight_mp7_fold.description"] = [[A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
 
--- WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
+WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
 
--- L["eft_rearsight_mp7_folded.printname"] = "Folded H&K MP7 Rear Flip-Up Sight"
--- L["eft_rearsight_mp7_folded.compactname"] = "MP7 RS"
--- L["eft_rearsight_mp7_folded.description"] = [[A removable folding flip-up rear sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
+L["eft_rearsight_mp7_folded.printname"] = "Folded H&K MP7 Rear Flip-Up Sight"
+L["eft_rearsight_mp7_folded.compactname"] = "MP7 RS"
+L["eft_rearsight_mp7_folded.description"] = [[A removable folding flip-up rear sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Folded for use of the alternative low-profile sights.
 
--- WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
+WARNING: This will fold other iron sights. Use only with irons that have low-profile sights]]
 
 //////////////// Generic Irons
--- L["unlameifier_eft_iron_force_down_front.printname"] = "Force Iron Sights Down"
--- L["unlameifier_eft_iron_force_down_front.compactname"] = "Irons Down"
--- L["unlameifier_eft_iron_force_down_front.description"] = [[Forces iron sights down.
+L["unlameifier_eft_iron_force_down_front.printname"] = "Force Iron Sights Down"
+L["unlameifier_eft_iron_force_down_front.compactname"] = "Irons Down"
+L["unlameifier_eft_iron_force_down_front.description"] = [[Forces iron sights down.
 
--- For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
+For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
 
--- L["unlameifier_eft_iron_force_up_front.printname"] = "Force Iron Sights Up"
--- L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
--- L["unlameifier_eft_iron_force_up_front.description"] = [[Forces iron sights up.
+L["unlameifier_eft_iron_force_up_front.printname"] = "Force Iron Sights Up"
+L["unlameifier_eft_iron_force_up_front.compactname"] = "Irons Up"
+L["unlameifier_eft_iron_force_up_front.description"] = [[Forces iron sights up.
 
--- For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
+For the record, you really only need one of these enabled. No, mixing them doesn't work.]]
 
 //////////////// Shotgun-Specific?
--- L["unlameifier_eft_videogame_shotguns.printname"] = "Video Game Logic"
--- L["unlameifier_eft_videogame_shotguns.compactname"] = "Game Logic"
--- L["unlameifier_eft_videogame_shotguns.description"] = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.
+L["unlameifier_eft_videogame_shotguns.printname"] = "Video Game Logic"
+L["unlameifier_eft_videogame_shotguns.compactname"] = "Game Logic"
+L["unlameifier_eft_videogame_shotguns.description"] = [[Gives EFT shotguns more spread so then they behave more like a traditional videogame shotgun. Surprisingly very practical.
 
--- Maybe don't equip this on non-shotguns (unless you hate yourself).]]
+Maybe don't equip this on non-shotguns (unless you hate yourself).]]
 
--- L["unlameifier_tuning_disable_dluts.printname"] = "Force-Disable Damage Lookup Tables"
--- L["unlameifier_tuning_disable_dluts.compactname"] = "Disable DLUT"
--- L["unlameifier_tuning_disable_dluts.description"] = [[Force-disables damage lookup tables on weapons that use them for whatever reason. You NEED this in order to be able to modify damage on EFT weapons (except for shotguns, for some reason).
+L["unlameifier_tuning_disable_dluts.printname"] = "Force-Disable Damage Lookup Tables"
+L["unlameifier_tuning_disable_dluts.compactname"] = "Disable DLUT"
+L["unlameifier_tuning_disable_dluts.description"] = [[Force-disables damage lookup tables on weapons that use them for whatever reason. You NEED this in order to be able to modify damage on EFT weapons (except for shotguns, for some reason).
 
--- Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
+Still, if you're noticing your damage isn't being changed despite equipping a damage modifier, this will more than likely fix that problem. Beware that this can screw with damage curves.]]
 
--- L["unlameifier_eft_doom_hold.printname"] = "Alternative viewmodel position (DOOM)"
--- L["unlameifier_eft_doom_hold.compactname"] = "DOOM Hold"
--- L["unlameifier_eft_doom_hold.description"] = [[You know what? Fuck all this tactical Bravo-Delta-Sierra-Mike larper shit. I'm playing DOOM.
+L["unlameifier_eft_doom_hold.printname"] = "Alternative viewmodel position (DOOM)"
+L["unlameifier_eft_doom_hold.compactname"] = "DOOM Hold"
+L["unlameifier_eft_doom_hold.description"] = [[You know what? Fuck all this tactical Bravo-Delta-Sierra-Mike larper shit. I'm playing DOOM.
 
--- Makes you hold your gun at the center of the screen, like DOOM.]]
+Makes you hold your gun at the center of the screen, like DOOM.]]
 
 //////////////// EFT Custom Slots
--- L["unlameifier_eft_custom_melee_override.printname"] = "EFT Custom Melee Slot"
--- L["unlameifier_eft_custom_melee_override.compactname"] = "Melee Slot"
--- L["unlameifier_eft_custom_melee_override.description"] = "Forces your weapon to use the EFT Custom Melee slot."
+L["unlameifier_eft_custom_melee_override.printname"] = "EFT Custom Melee Slot"
+L["unlameifier_eft_custom_melee_override.compactname"] = "Melee Slot"
+L["unlameifier_eft_custom_melee_override.description"] = "Forces your weapon to use the EFT Custom Melee slot."
 
--- L["unlameifier_eft_custom_override.printname"] = "EFT Custom Slot"
--- L["unlameifier_eft_custom_override.compactname"] = "Custom Slot"
--- L["unlameifier_eft_custom_override.description"] = "Forces your weapon to use the EFT Custom slot. Useful for going back to the normal custom slot if you forced the melee slot on."
+L["unlameifier_eft_custom_override.printname"] = "EFT Custom Slot"
+L["unlameifier_eft_custom_override.compactname"] = "Custom Slot"
+L["unlameifier_eft_custom_override.description"] = "Forces your weapon to use the EFT Custom slot. Useful for going back to the normal custom slot if you forced the melee slot on."
 
 //////////////// Tracer Colours
--- L["unlameifier_tracer_red.printname"] = "Red Tracers"
--- L["unlameifier_tracer_red.compactname"] = "Red"
--- L["unlameifier_tracer_red.description"] = "Gives your gun <color=222,31,31>red tracers</color>."
+L["unlameifier_tracer_red.printname"] = "Red Tracers"
+L["unlameifier_tracer_red.compactname"] = "Red"
+L["unlameifier_tracer_red.description"] = "Gives your gun <color=222,31,31>red tracers</color>."
 
--- L["unlameifier_tracer_green.printname"] = "Green Tracers"
--- L["unlameifier_tracer_green.compactname"] = "Green"
--- L["unlameifier_tracer_green.description"] = "Gives your gun <color=31,222,73>green tracers</color>."
+L["unlameifier_tracer_green.printname"] = "Green Tracers"
+L["unlameifier_tracer_green.compactname"] = "Green"
+L["unlameifier_tracer_green.description"] = "Gives your gun <color=31,222,73>green tracers</color>."
 
--- L["unlameifier_tracer_blue.printname"] = "Blue Tracers"
--- L["unlameifier_tracer_blue.compactname"] = "Blue"
--- L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
+L["unlameifier_tracer_blue.printname"] = "Blue Tracers"
+L["unlameifier_tracer_blue.compactname"] = "Blue"
+L["unlameifier_tracer_blue.description"] = "Gives your gun <color=31,57,222>blue tracers</color>."
 
--- L["unlameifier_tracer_yellow.printname"] = "Yellow Tracers"
--- L["unlameifier_tracer_yellow.compactname"] = "Yellow"
--- L["unlameifier_tracer_yellow.description"] = "Gives your gun <color=222,217,31>yellow tracers</color>."
+L["unlameifier_tracer_yellow.printname"] = "Yellow Tracers"
+L["unlameifier_tracer_yellow.compactname"] = "Yellow"
+L["unlameifier_tracer_yellow.description"] = "Gives your gun <color=222,217,31>yellow tracers</color>."
 
--- L["unlameifier_tracer_orange.printname"] = "Orange Tracers"
--- L["unlameifier_tracer_orange.compactname"] = "Orange"
--- L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>orange tracers</color>."
+L["unlameifier_tracer_orange.printname"] = "Orange Tracers"
+L["unlameifier_tracer_orange.compactname"] = "Orange"
+L["unlameifier_tracer_orange.description"] = "Gives your gun <color=222,136,31>orange tracers</color>."
 
--- L["unlameifier_tracer_purple.printname"] = "Purple Tracers"
--- L["unlameifier_tracer_purple.compactname"] = "Purple"
--- L["unlameifier_tracer_purple.description"] = "Gives your gun <color=124,31,222>purple tracers</color>."
+L["unlameifier_tracer_purple.printname"] = "Purple Tracers"
+L["unlameifier_tracer_purple.compactname"] = "Purple"
+L["unlameifier_tracer_purple.description"] = "Gives your gun <color=124,31,222>purple tracers</color>."
 
--- L["unlameifier_tracer_pink.printname"] = "Pink Tracers"
--- L["unlameifier_tracer_pink.compactname"] = "Pink"
--- L["unlameifier_tracer_pink.description"] = "Gives your gun <color=222,31,213>pink tracers</color>."
+L["unlameifier_tracer_pink.printname"] = "Pink Tracers"
+L["unlameifier_tracer_pink.compactname"] = "Pink"
+L["unlameifier_tracer_pink.description"] = "Gives your gun <color=222,31,213>pink tracers</color>."
 
--- L["unlameifier_tracer_white.printname"] = "White Tracers"
--- L["unlameifier_tracer_white.compactname"] = "White"
--- L["unlameifier_tracer_white.description"] = "Gives your gun white tracers."
+L["unlameifier_tracer_white.printname"] = "White Tracers"
+L["unlameifier_tracer_white.compactname"] = "White"
+L["unlameifier_tracer_white.description"] = "Gives your gun white tracers."
 
--- L["unlameifier_tracer_cyan.printname"] = "Cyan Tracers"
--- L["unlameifier_tracer_cyan.compactname"] = "Cyan"
--- L["unlameifier_tracer_cyan.description"] = "Gives your gun <color=31,180,222>cyan tracers</color>."
+L["unlameifier_tracer_cyan.printname"] = "Cyan Tracers"
+L["unlameifier_tracer_cyan.compactname"] = "Cyan"
+L["unlameifier_tracer_cyan.description"] = "Gives your gun <color=31,180,222>cyan tracers</color>."
 
--- L["unlameifier_tracer_teal.printname"] = "Teal Tracers"
--- L["unlameifier_tracer_teal.compactname"] = "Teal"
--- L["unlameifier_tracer_teal.description"] = "Gives your gun <color=31,222,188>teal tracers</color>."
+L["unlameifier_tracer_teal.printname"] = "Teal Tracers"
+L["unlameifier_tracer_teal.compactname"] = "Teal"
+L["unlameifier_tracer_teal.description"] = "Gives your gun <color=31,222,188>teal tracers</color>."
 
--- L["unlameifier_tracer_tateal.printname"] = "Tom Aero 0 Teal"
--- L["unlameifier_tracer_tateal.compactname"] = "TA Teal"
--- L["unlameifier_tracer_tateal.description"] = [[Gives your gun <color=0,255,132>teal tracers</color>, except a little greener
+L["unlameifier_tracer_tateal.printname"] = "Tom Aero 0 Teal"
+L["unlameifier_tracer_tateal.compactname"] = "TA Teal"
+L["unlameifier_tracer_tateal.description"] = [[Gives your gun <color=0,255,132>teal tracers</color>, except a little greener
 
--- <color=0,255,132>"Do you ever feel as though you are living in a Hell of your own design?"</color>]]
+<color=0,255,132>"Do you ever feel as though you are living in a Hell of your own design?"</color>]]
 
--- L["unlameifier_tracer_usa.printname"] = "United States of America Tracers"
--- L["unlameifier_tracer_usa.compactname"] = "U.S."
--- L["unlameifier_tracer_usa.description"] = [[Gives your gun <color=255,25,25>red</color>, white, and <color=25,25,255>blue</color> tracers.
+L["unlameifier_tracer_usa.printname"] = "United States of America Tracers"
+L["unlameifier_tracer_usa.compactname"] = "U.S."
+L["unlameifier_tracer_usa.description"] = [[Gives your gun <color=255,25,25>red</color>, white, and <color=25,25,255>blue</color> tracers.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
--- L["unlameifier_tracer_player_color.printname"] = "Player Color Tracers"
--- L["unlameifier_tracer_player_color.compactname"] = "Player"
--- L["unlameifier_tracer_player_color.description"] = [[Gives your gun tracers based off your player color. Set it via the Playermodel Menu.
+L["unlameifier_tracer_player_color.printname"] = "Player Color Tracers"
+L["unlameifier_tracer_player_color.compactname"] = "Player"
+L["unlameifier_tracer_player_color.description"] = [[Gives your gun tracers based off your player color. Set it via the Playermodel Menu.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
--- L["unlameifier_tracer_weapon_color.printname"] = "Weapon Color Tracers"
--- L["unlameifier_tracer_weapon_color.compactname"] = "Weapon"
--- L["unlameifier_tracer_weapon_color.description"] = [[Gives your gun tracers based off your weapon color. Set it via the Playermodel Menu.
+L["unlameifier_tracer_weapon_color.printname"] = "Weapon Color Tracers"
+L["unlameifier_tracer_weapon_color.compactname"] = "Weapon"
+L["unlameifier_tracer_weapon_color.description"] = [[Gives your gun tracers based off your weapon color. Set it via the Playermodel Menu.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
--- L["unlameifier_tracer_rainbow.printname"] = "Rainbow Tracers"
--- L["unlameifier_tracer_rainbow.compactname"] = "Rainbow"
--- L["unlameifier_tracer_rainbow.description"] = [[Gives your gun rainbow tracers.
+L["unlameifier_tracer_rainbow.printname"] = "Rainbow Tracers"
+L["unlameifier_tracer_rainbow.compactname"] = "Rainbow"
+L["unlameifier_tracer_rainbow.description"] = [[Gives your gun rainbow tracers.
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
--- L["unlameifier_tracer_trans.printname"] = "Trans Tracers"
--- L["unlameifier_tracer_trans.compactname"] = "Trans"
--- L["unlameifier_tracer_trans.description"] = [[Gives your gun <color=91,206,250>blue</color>, <color=245,169,184>pink</color>, and white tracers. Because you are loved and valid.
+L["unlameifier_tracer_trans.printname"] = "Trans Tracers"
+L["unlameifier_tracer_trans.compactname"] = "Trans"
+L["unlameifier_tracer_trans.description"] = [[Gives your gun <color=91,206,250>blue</color>, <color=245,169,184>pink</color>, and white tracers. Because you are loved and valid.
 
--- Unlameifier original. Based off code from Standard Weapons, ARC9's prototype weapon pack.]]
+Unlameifier original. Based off code from Standard Weapons, ARC9's prototype weapon pack.]]
 
--- L["unlameifier_tracer_ranging.printname"] = "Effective Range Tracers"
--- L["unlameifier_tracer_ranging.compactname"] = "Range"
--- L["unlameifier_tracer_ranging.description"] = [[To quote the original attachment's description:
+L["unlameifier_tracer_ranging.printname"] = "Effective Range Tracers"
+L["unlameifier_tracer_ranging.compactname"] = "Range"
+L["unlameifier_tracer_ranging.description"] = [[To quote the original attachment's description:
 
--- "Tracer rounds. Burns from green to red based on the effectiveness of the weapon at that range."
+"Tracer rounds. Burns from green to red based on the effectiveness of the weapon at that range."
 
--- Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
+Salvaged from Standard Weapons, ARC9's prototype weapon pack.]]
 
 //////////////// Tracer Size
--- L["unlameifier_tracer_size_010x.printname"] = "Tracer Size - 0.1x"
--- L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
--- L["unlameifier_tracer_size_010x.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.1</color>."
+L["unlameifier_tracer_size_010x.printname"] = "Tracer Size - 0.1x"
+L["unlameifier_tracer_size_010x.compactname"] = "0.1x"
+L["unlameifier_tracer_size_010x.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.1</color>."
 
--- L["unlameifier_tracer_size_x025.printname"] = "Tracer Size - 0.25x"
--- L["unlameifier_tracer_size_x025.compactname"] = "0.25x"
--- L["unlameifier_tracer_size_x025.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.25</color>."
+L["unlameifier_tracer_size_x025.printname"] = "Tracer Size - 0.25x"
+L["unlameifier_tracer_size_x025.compactname"] = "0.25x"
+L["unlameifier_tracer_size_x025.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.25</color>."
 
--- L["unlameifier_tracer_size_x05.printname"] = "Tracer Size - 0.5x"
--- L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
--- L["unlameifier_tracer_size_x05.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.5</color>."
+L["unlameifier_tracer_size_x05.printname"] = "Tracer Size - 0.5x"
+L["unlameifier_tracer_size_x05.compactname"] = "0.5x"
+L["unlameifier_tracer_size_x05.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.5</color>."
 
--- L["unlameifier_tracer_size_x075.printname"] = "Tracer Size - 0.75x"
--- L["unlameifier_tracer_size_x075.compactname"] = "0.75x"
--- L["unlameifier_tracer_size_x075.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.75</color>."
+L["unlameifier_tracer_size_x075.printname"] = "Tracer Size - 0.75x"
+L["unlameifier_tracer_size_x075.compactname"] = "0.75x"
+L["unlameifier_tracer_size_x075.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.75</color>."
 
--- L["unlameifier_tracer_size_x090.printname"] = "Tracer Size - 0.9x"
--- L["unlameifier_tracer_size_x090.compactname"] = "0.9x"
--- L["unlameifier_tracer_size_x090.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.9</color>."
+L["unlameifier_tracer_size_x090.printname"] = "Tracer Size - 0.9x"
+L["unlameifier_tracer_size_x090.compactname"] = "0.9x"
+L["unlameifier_tracer_size_x090.description"] = "Multiplies the size of the tracers by <color=175,175,255>0.9</color>."
 
--- L["unlameifier_tracer_size_2x.printname"] = "Tracer Size - 2x"
--- L["unlameifier_tracer_size_2x.compactname"] = "2x"
--- L["unlameifier_tracer_size_2x.description"] = "Multiplies the size of the tracers by <color=175,175,255>2</color>."
+L["unlameifier_tracer_size_2x.printname"] = "Tracer Size - 2x"
+L["unlameifier_tracer_size_2x.compactname"] = "2x"
+L["unlameifier_tracer_size_2x.description"] = "Multiplies the size of the tracers by <color=175,175,255>2</color>."
 
--- L["unlameifier_tracer_size_5x.printname"] = "Tracer Size - 5x"
--- L["unlameifier_tracer_size_5x.compactname"] = "5x"
--- L["unlameifier_tracer_size_5x.description"] = "Multiplies the size of the tracers by <color=175,175,255>5</color>."
+L["unlameifier_tracer_size_5x.printname"] = "Tracer Size - 5x"
+L["unlameifier_tracer_size_5x.compactname"] = "5x"
+L["unlameifier_tracer_size_5x.description"] = "Multiplies the size of the tracers by <color=175,175,255>5</color>."
 
--- L["unlameifier_tracer_size_10x.printname"] = "Tracer Size - 10x"
--- L["unlameifier_tracer_size_10x.compactname"] = "10x"
--- L["unlameifier_tracer_size_10x.description"] = "Multiplies the size of the tracers by <color=175,175,255>10</color>."
+L["unlameifier_tracer_size_10x.printname"] = "Tracer Size - 10x"
+L["unlameifier_tracer_size_10x.compactname"] = "10x"
+L["unlameifier_tracer_size_10x.description"] = "Multiplies the size of the tracers by <color=175,175,255>10</color>."
 
--- L["unlameifier_tracer_size_50x.printname"] = "Tracer Size - 50x"
--- L["unlameifier_tracer_size_50x.compactname"] = "50x"
--- L["unlameifier_tracer_size_50x.description"] = "Multiplies the size of the tracers by <color=175,175,255>50</color>."
+L["unlameifier_tracer_size_50x.printname"] = "Tracer Size - 50x"
+L["unlameifier_tracer_size_50x.compactname"] = "50x"
+L["unlameifier_tracer_size_50x.description"] = "Multiplies the size of the tracers by <color=175,175,255>50</color>."
 
--- L["unlameifier_tracer_size_100x.printname"] = "Tracer Size - 100x"
--- L["unlameifier_tracer_size_100x.compactname"] = "100x"
--- L["unlameifier_tracer_size_100x.description"] = "Multiplies the size of the tracers by <color=175,175,255>100</color>."
+L["unlameifier_tracer_size_100x.printname"] = "Tracer Size - 100x"
+L["unlameifier_tracer_size_100x.compactname"] = "100x"
+L["unlameifier_tracer_size_100x.description"] = "Multiplies the size of the tracers by <color=175,175,255>100</color>."
 
--- L["unlameifier_tracer_size_supernova.printname"] = "Tracer Size - Supernova"
--- L["unlameifier_tracer_size_supernova.compactname"] = "Supernova"
--- L["unlameifier_tracer_size_supernova.description"] = [[Multiplies the size of the tracers by <color=175,175,255>-200</color>.
+L["unlameifier_tracer_size_supernova.printname"] = "Tracer Size - Supernova"
+L["unlameifier_tracer_size_supernova.compactname"] = "Supernova"
+L["unlameifier_tracer_size_supernova.description"] = [[Multiplies the size of the tracers by <color=175,175,255>-200</color>.
 
--- The result of a hilarious math calculation error.]]
+The result of a hilarious math calculation error.]]
 
 //////////////// Effects
--- L["eft_unlameifier_toys_dissolve.printname"] = "Dissolve Effect"
--- L["eft_unlameifier_toys_dissolve.compactname"] = "Dissolve"
--- L["eft_unlameifier_toys_dissolve.description"] = "Makes anything you kill dissolve, like the AR2 energy ball. Just for funsies :)"
+L["eft_unlameifier_toys_dissolve.printname"] = "Dissolve Effect"
+L["eft_unlameifier_toys_dissolve.compactname"] = "Dissolve"
+L["eft_unlameifier_toys_dissolve.description"] = "Makes anything you kill dissolve, like the AR2 energy ball. Just for funsies :)"
 
--- L["eft_unlameifier_toys_remove_tool.printname"] = "Remove Tool Effect"
--- L["eft_unlameifier_toys_remove_tool.compactname"] = "Remove Tool"
--- L["eft_unlameifier_toys_remove_tool.description"] = [[Makes anything you kill not spawn a ragdoll, like the Remove Tool. Just for funsies :)
+L["eft_unlameifier_toys_remove_tool.printname"] = "Remove Tool Effect"
+L["eft_unlameifier_toys_remove_tool.compactname"] = "Remove Tool"
+L["eft_unlameifier_toys_remove_tool.description"] = [[Makes anything you kill not spawn a ragdoll, like the Remove Tool. Just for funsies :)
 
--- might be abusable, beware.]]
+might be abusable, beware.]]
 
--- L["eft_unlameifier_toys_shock.printname"] = "Shock Effect"
--- L["eft_unlameifier_toys_shock.compactname"] = "Shock"
--- L["eft_unlameifier_toys_shock.description"] = "Makes anything you hit spark, as though the gun were electric. Just for funsies :)"
+L["eft_unlameifier_toys_shock.printname"] = "Shock Effect"
+L["eft_unlameifier_toys_shock.compactname"] = "Shock"
+L["eft_unlameifier_toys_shock.description"] = "Makes anything you hit spark, as though the gun were electric. Just for funsies :)"
 
--- L["eft_unlameifier_toys_lightning.printname"] = "Lightning Effect"
--- L["eft_unlameifier_toys_lightning.compactname"] = "Lightning"
--- L["eft_unlameifier_toys_lightning.description"] = [[Unlike spark, this one is MUCH more violent. Combines shock + dissolve for a spectacular kill effect. Just for funsies :)
+L["eft_unlameifier_toys_lightning.printname"] = "Lightning Effect"
+L["eft_unlameifier_toys_lightning.compactname"] = "Lightning"
+L["eft_unlameifier_toys_lightning.description"] = [[Unlike spark, this one is MUCH more violent. Combines shock + dissolve for a spectacular kill effect. Just for funsies :)
 
--- Visually, this has the same effect as when you kill something with the Super Gravity Gun. Pretty neat!]]
+Visually, this has the same effect as when you kill something with the Super Gravity Gun. Pretty neat!]]
+
+L["eft_unlameifier_toys_gsr_zeus.printname"] = "Zeus x27 Muzzle Effect"
+L["eft_unlameifier_toys_gsr_zeus.compactname"] = "Zeus Muzzle"
+L["eft_unlameifier_toys_gsr_zeus.description"] = [[Overrides the weapon's muzzle effect with the one used on the Zeus x27 from the Gunsmith Reloaded addon.
+
+<color=255,100,100>WARNING</color>: Requires Gunsmith Reloaded. If not installed, expect broken particle effects.]]
 
 //////////////// Impact Decals
--- L["eft_unlameifier_toys_impact_blood.printname"] = "Blood Decal"
--- L["eft_unlameifier_toys_impact_blood.compactname"] = "Blood"
--- L["eft_unlameifier_toys_impact_blood.description"] = "Make a massacre of imaginary people."
+L["eft_unlameifier_toys_impact_blood.printname"] = "Blood Decal"
+L["eft_unlameifier_toys_impact_blood.compactname"] = "Blood"
+L["eft_unlameifier_toys_impact_blood.description"] = "Make a massacre of imaginary people."
 
--- L["eft_unlameifier_toys_impact_cross.printname"] = "Cross Decal"
--- L["eft_unlameifier_toys_impact_cross.compactname"] = "Cross"
--- L["eft_unlameifier_toys_impact_cross.description"] = "X marks the spot!"
+L["eft_unlameifier_toys_impact_cross.printname"] = "Cross Decal"
+L["eft_unlameifier_toys_impact_cross.compactname"] = "Cross"
+L["eft_unlameifier_toys_impact_cross.description"] = "X marks the spot!"
 
--- L["eft_unlameifier_toys_impact_eye.printname"] = "Eye Decal"
--- L["eft_unlameifier_toys_impact_eye.compactname"] = "Eye"
--- L["eft_unlameifier_toys_impact_eye.description"] = [[THE EYES! THEY'RE EVERYWHERE! THEY SEE EVERYTHING!
+L["eft_unlameifier_toys_impact_eye.printname"] = "Eye Decal"
+L["eft_unlameifier_toys_impact_eye.compactname"] = "Eye"
+L["eft_unlameifier_toys_impact_eye.description"] = [[THE EYES! THEY'RE EVERYWHERE! THEY SEE EVERYTHING!
 
--- I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY]]
+I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY]]
 
--- L["eft_unlameifier_toys_impact_fadingscorch.printname"] = "Scorch Mark Decal"
--- L["eft_unlameifier_toys_impact_fadingscorch.compactname"] = "Scorch"
--- L["eft_unlameifier_toys_impact_fadingscorch.description"] = [[Leave the enemy with a sick burn.
+L["eft_unlameifier_toys_impact_fadingscorch.printname"] = "Scorch Mark Decal"
+L["eft_unlameifier_toys_impact_fadingscorch.compactname"] = "Scorch"
+L["eft_unlameifier_toys_impact_fadingscorch.description"] = [[Leave the enemy with a sick burn.
 
--- Note: Does not actually burn the target.]]
+Note: Does not actually burn the target.]]
 
--- L["eft_unlameifier_toys_impact_flesh.printname"] = "Flesh Impact Decal"
--- L["eft_unlameifier_toys_impact_flesh.compactname"] = "Flesh"
--- L["eft_unlameifier_toys_impact_flesh.description"] = [[He's in the walls... HE'S IN THE GOD DAMN WALLS!
+L["eft_unlameifier_toys_impact_flesh.printname"] = "Flesh Impact Decal"
+L["eft_unlameifier_toys_impact_flesh.compactname"] = "Flesh"
+L["eft_unlameifier_toys_impact_flesh.description"] = [[He's in the walls... HE'S IN THE GOD DAMN WALLS!
 
--- ...or, you just want to have a blood splotch whenever you hit something. Idk, you do you, edgelord.]]
+...or, you just want to have a blood splotch whenever you hit something. Idk, you do you, edgelord.]]
 
--- L["eft_unlameifier_toys_impact_nought.printname"] = "Nought Decal"
--- L["eft_unlameifier_toys_impact_nought.compactname"] = "Nought"
--- L["eft_unlameifier_toys_impact_nought.description"] = "Really just an O."
+L["eft_unlameifier_toys_impact_nought.printname"] = "Nought Decal"
+L["eft_unlameifier_toys_impact_nought.compactname"] = "Nought"
+L["eft_unlameifier_toys_impact_nought.description"] = "Really just an O."
 
--- L["eft_unlameifier_toys_impact_noughtsncrosses.printname"] = "Noughts n' Crosses Decal"
--- L["eft_unlameifier_toys_impact_noughtsncrosses.compactname"] = "Tic-Tac-Toe"
--- L["eft_unlameifier_toys_impact_noughtsncrosses.description"] = [[Hey, look! You can play Tic-Tac-Toe with this!
+L["eft_unlameifier_toys_impact_noughtsncrosses.printname"] = "Noughts n' Crosses Decal"
+L["eft_unlameifier_toys_impact_noughtsncrosses.compactname"] = "Tic-Tac-Toe"
+L["eft_unlameifier_toys_impact_noughtsncrosses.description"] = [[Hey, look! You can play Tic-Tac-Toe with this!
 
--- VERY chaotic in full auto.]]
+VERY chaotic in full auto.]]
 
--- L["eft_unlameifier_toys_impact_paintsplatblue.printname"] = "Blue Paint Decal"
--- L["eft_unlameifier_toys_impact_paintsplatblue.compactname"] = "Blue Paint"
--- L["eft_unlameifier_toys_impact_paintsplatblue.description"] = "Yes, it really does paint your enemies blue. It's funny :)"
+L["eft_unlameifier_toys_impact_paintsplatblue.printname"] = "Blue Paint Decal"
+L["eft_unlameifier_toys_impact_paintsplatblue.compactname"] = "Blue Paint"
+L["eft_unlameifier_toys_impact_paintsplatblue.description"] = "Yes, it really does paint your enemies blue. It's funny :)"
 
--- L["eft_unlameifier_toys_impact_paintsplatgreen.printname"] = "Green Paint Decal"
--- L["eft_unlameifier_toys_impact_paintsplatgreen.compactname"] = "Green Paint"
--- L["eft_unlameifier_toys_impact_paintsplatgreen.description"] = "Yes, it really does paint your enemies green. It's funny :)"
+L["eft_unlameifier_toys_impact_paintsplatgreen.printname"] = "Green Paint Decal"
+L["eft_unlameifier_toys_impact_paintsplatgreen.compactname"] = "Green Paint"
+L["eft_unlameifier_toys_impact_paintsplatgreen.description"] = "Yes, it really does paint your enemies green. It's funny :)"
 
--- L["eft_unlameifier_toys_impact_paintsplatpink.printname"] = "Pink Paint Decal"
--- L["eft_unlameifier_toys_impact_paintsplatpink.compactname"] = "Pink Paint"
--- L["eft_unlameifier_toys_impact_paintsplatpink.description"] = "Hey, wait a minute..."
+L["eft_unlameifier_toys_impact_paintsplatpink.printname"] = "Pink Paint Decal"
+L["eft_unlameifier_toys_impact_paintsplatpink.compactname"] = "Pink Paint"
+L["eft_unlameifier_toys_impact_paintsplatpink.description"] = "Hey, wait a minute..."
 
--- L["eft_unlameifier_toys_impact_bigscorch.printname"] = "Big Scorch Decal"
--- L["eft_unlameifier_toys_impact_bigscorch.compactname"] = "Big Scorch"
--- L["eft_unlameifier_toys_impact_bigscorch.description"] = "For those BIG bullets."
+L["eft_unlameifier_toys_impact_bigscorch.printname"] = "Big Scorch Decal"
+L["eft_unlameifier_toys_impact_bigscorch.compactname"] = "Big Scorch"
+L["eft_unlameifier_toys_impact_bigscorch.description"] = "For those BIG bullets."
 
--- L["eft_unlameifier_toys_impact_smile.printname"] = "Smiley Decal"
--- L["eft_unlameifier_toys_impact_smile.compactname"] = "Smiley"
--- L["eft_unlameifier_toys_impact_smile.description"] = [[THE WALLS! THEY MOCK ME WITH THEIR SMILE!
+L["eft_unlameifier_toys_impact_smile.printname"] = "Smiley Decal"
+L["eft_unlameifier_toys_impact_smile.compactname"] = "Smiley"
+L["eft_unlameifier_toys_impact_smile.description"] = [[THE WALLS! THEY MOCK ME WITH THEIR SMILE!
 
--- I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY ]]
+I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY I'M NOT CRAZY ]]
 
--- L["eft_unlameifier_toys_impact_yellowblood.printname"] = "Yellow Blood Decal"
--- L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Yellow Blood"
--- L["eft_unlameifier_toys_impact_yellowblood.description"] = "Is that mustard?"
+L["eft_unlameifier_toys_impact_yellowblood.printname"] = "Yellow Blood Decal"
+L["eft_unlameifier_toys_impact_yellowblood.compactname"] = "Yellow Blood"
+L["eft_unlameifier_toys_impact_yellowblood.description"] = "Is that mustard?"
 
 //////////////// Glock 17 Parts on other Handguns
--- L["eft_unlameifier_g17_g18c_conversion_slides.printname"] = "Glock 17 Slides"
--- L["eft_unlameifier_g17_g18c_conversion_slides.compactname"] = "G17 Slides"
--- L["eft_unlameifier_g17_g18c_conversion_slides.description"] = "Allows installation of Glock 17 slides onto the Glock 18C."
+L["eft_unlameifier_g17_g18c_conversion_slides.printname"] = "Glock 17 Slides"
+L["eft_unlameifier_g17_g18c_conversion_slides.compactname"] = "G17 Slides"
+L["eft_unlameifier_g17_g18c_conversion_slides.description"] = "Allows installation of Glock 17 slides onto the Glock 18C."
 
--- L["eft_unlameifier_g17_g18c_conversion_barrels.printname"] = "Glock 17 Barrels"
--- L["eft_unlameifier_g17_g18c_conversion_barrels.compactname"] = "G17 Barrels"
--- L["eft_unlameifier_g17_g18c_conversion_barrels.description"] = "Allows installation of Glock 17 barrels onto the Glock 18C."
+L["eft_unlameifier_g17_g18c_conversion_barrels.printname"] = "Glock 17 Barrels"
+L["eft_unlameifier_g17_g18c_conversion_barrels.compactname"] = "G17 Barrels"
+L["eft_unlameifier_g17_g18c_conversion_barrels.description"] = "Allows installation of Glock 17 barrels onto the Glock 18C."
 
--- L["eft_unlameifier_g17_usp_front_sights.printname"] = "Glock 17 Front Sights"
--- L["eft_unlameifier_g17_usp_front_sights.compactname"] = "G17 F. Sights"
--- L["eft_unlameifier_g17_usp_front_sights.description"] = "Allows installation of Glock 17 front sights onto the USP."
+L["eft_unlameifier_g17_usp_front_sights.printname"] = "Glock 17 Front Sights"
+L["eft_unlameifier_g17_usp_front_sights.compactname"] = "G17 F. Sights"
+L["eft_unlameifier_g17_usp_front_sights.description"] = "Allows installation of Glock 17 front sights onto the USP."
 
--- L["eft_unlameifier_g17_usp_rear_sights.printname"] = "Glock 17 Rear Sights (Standard Slides)"
--- L["eft_unlameifier_g17_usp_rear_sights.compactname"] = "G17 R. Sights (Std)"
--- L["eft_unlameifier_g17_usp_rear_sights.description"] = "Allows installation of Glock 17 rear sights onto the USP's standard form-factor slides (not universal due to positioning issues)."
+L["eft_unlameifier_g17_usp_rear_sights.printname"] = "Glock 17 Rear Sights (Standard Slides)"
+L["eft_unlameifier_g17_usp_rear_sights.compactname"] = "G17 R. Sights (Std)"
+L["eft_unlameifier_g17_usp_rear_sights.description"] = "Allows installation of Glock 17 rear sights onto the USP's standard form-factor slides (not universal due to positioning issues)."
 
--- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.printname"] = "Glock 17 Rear Sights (Elite & Expert Slides)"
--- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "G17 R. Sights (E&E)"
--- L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Allows installation of Glock 17 rear sights onto the USP's Elite and Expert form-factor slides (not universal due to positioning issues)."
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.printname"] = "Glock 17 Rear Sights (Elite & Expert Slides)"
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.compactname"] = "G17 R. Sights (E&E)"
+L["eft_unlameifier_g17_usp_rear_sights_elite_expert.description"] = "Allows installation of Glock 17 rear sights onto the USP's Elite and Expert form-factor slides (not universal due to positioning issues)."
 
--- L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Allows installation of Glock 17 front sights onto the M9A3."
+L["eft_unlameifier_g17_m9a3_front_sights.description"] = "Allows installation of Glock 17 front sights onto the M9A3."
 
--- L["eft_unlameifier_g17_m9a3_rear_sights.printname"] = "Glock 17 Rear Sights"
--- L["eft_unlameifier_g17_m9a3_rear_sights.compactname"] = "G17 R. Sights"
--- L["eft_unlameifier_g17_m9a3_rear_sights.description"] = "Allows installation of Glock 17 rear sights onto the M9A3."
+L["eft_unlameifier_g17_m9a3_rear_sights.printname"] = "Glock 17 Rear Sights"
+L["eft_unlameifier_g17_m9a3_rear_sights.compactname"] = "G17 R. Sights"
+L["eft_unlameifier_g17_m9a3_rear_sights.description"] = "Allows installation of Glock 17 rear sights onto the M9A3."
 
 //////////////// Handgun Holding
--- L["eft_unlameifier_one_handed.printname"] = "One Handed"
--- L["eft_unlameifier_one_handed.compactname"] = "One Hand"
--- L["eft_unlameifier_one_handed.description"] = [[Holds the weapon with one hand.
+L["eft_unlameifier_one_handed.printname"] = "One Handed"
+L["eft_unlameifier_one_handed.compactname"] = "One Hand"
+L["eft_unlameifier_one_handed.description"] = [[Holds the weapon with one hand.
 
--- Shamelessly stolen from Rooneyviz's EFT ATT Pack and made more widely available. Removed stat modifiers for the sake of tacticoolness. This is purely cosmetic now. May not work on non-EFT guns.]]
+Shamelessly stolen from Rooneyviz's EFT ATT Pack and made more widely available. Removed stat modifiers for the sake of tacticoolness. This is purely cosmetic now. May not work on non-EFT guns.]]
 
--- L["eft_unlameifier_gangsta_hold.printname"] = "Gangsta Hold"
--- L["eft_unlameifier_gangsta_hold.compactname"] = "Gangsta Hold"
--- L["eft_unlameifier_gangsta_hold.description"] = [[Holds the weapon sideways with one hand.
+L["eft_unlameifier_gangsta_hold.printname"] = "Gangsta Hold"
+L["eft_unlameifier_gangsta_hold.compactname"] = "Gangsta Hold"
+L["eft_unlameifier_gangsta_hold.description"] = [[Holds the weapon sideways with one hand.
 
--- For the record, your soundcloud tracks are ass. Stop trying, please. You are not getting out of the hood with any of those.]]
+For the record, your soundcloud tracks are ass. Stop trying, please. You are not getting out of the hood with any of those.]]
 
 //////////////////////////////// unlameifier_eft_extras custom strings
--- L["unlameifier.folder.utilities"] = "Unlameifier/Utilities"
--- L["unlameifier.folder.toys"] = "Unlameifier/Toys"
--- L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
+L["unlameifier.folder.utilities"] = "Unlameifier/Utilities"
+L["unlameifier.folder.toys"] = "Unlameifier/Toys"
+L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
 
--- L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
--- L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Tracers/Modifiers"
+L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
+L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Tracers/Modifiers"
 
--- L["unlameifier_attname_frontsight"] = "Front Sight"
--- L["unlameifier_attname_rearsight"] = "Rear Sight"
--- L["unlameifier_attname_customslot"] = "Custom Slot"
+L["unlameifier_attname_frontsight"] = "Front Sight"
+L["unlameifier_attname_rearsight"] = "Rear Sight"
+L["unlameifier_attname_customslot"] = "Custom Slot"
 
--- L["unlameifier_attname_g17_slide"] = "Glock 17 Slide"
--- L["unlameifier_attname_g17_slide"] = "Glock 17 Barrel"
--- L["unlameifier_attname_g17_frontsight"] = "Glock 17 Front Sight"
--- L["unlameifier_attname_g17_rearsight"] = "Glock 17 Rear Sight"
+L["unlameifier_attname_g17_slide"] = "Glock 17 Slide"
+L["unlameifier_attname_g17_slide"] = "Glock 17 Barrel"
+L["unlameifier_attname_g17_frontsight"] = "Glock 17 Front Sight"
+L["unlameifier_attname_g17_rearsight"] = "Glock 17 Rear Sight"
 
--- L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
--- L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"
+L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
+L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"
 
 //////////////////////////////// unlameifier_sound_mods
 //////////////// DOOM 1993
--- L["unlameifier.folder.sounds.doom"] = "Unlameifier/Sound Mods/DOOM"
+L["unlameifier.folder.sounds.doom"] = "Unlameifier/Sound Mods/DOOM"
 
--- L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
--- L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
--- L["unlameifier_sound_doom_pistol.description"] = "Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
+L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
+L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
+L["unlameifier_sound_doom_pistol.description"] = "Changes the firing sound of the weapon to the Pistol from DOOM (1993)."
 
--- L["unlameifier_sound_doom_shotgun.printname"] = "Shotgun"
--- L["unlameifier_sound_doom_shotgun.compactname"] = "Shotgun"
--- L["unlameifier_sound_doom_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
+L["unlameifier_sound_doom_shotgun.printname"] = "Shotgun"
+L["unlameifier_sound_doom_shotgun.compactname"] = "Shotgun"
+L["unlameifier_sound_doom_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from DOOM (1993)."
 
--- L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
--- L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
--- L["unlameifier_sound_doom_BFG.description"] = "Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
+L["unlameifier_sound_doom_BFG.printname"] = "BFG9000"
+L["unlameifier_sound_doom_BFG.compactname"] = "BFG9000"
+L["unlameifier_sound_doom_BFG.description"] = "Changes the firing sound of the weapon to the BFG9000 from DOOM (1993)."
 
--- L["unlameifier_sound_doom_plasma.printname"] = "Plasma Rifle"
--- L["unlameifier_sound_doom_plasma.compactname"] = "Plasma R."
--- L["unlameifier_sound_doom_plasma.description"] = "Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
+L["unlameifier_sound_doom_plasma.printname"] = "Plasma Rifle"
+L["unlameifier_sound_doom_plasma.compactname"] = "Plasma R."
+L["unlameifier_sound_doom_plasma.description"] = "Changes the firing sound of the weapon to the Plasma Rifle from DOOM (1993)."
 
--- L["unlameifier_sound_doom_rocket.printname"] = "Rocket Launcher"
--- L["unlameifier_sound_doom_rocket.compactname"] = "Rocket"
--- L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
+L["unlameifier_sound_doom_rocket.printname"] = "Rocket Launcher"
+L["unlameifier_sound_doom_rocket.compactname"] = "Rocket"
+L["unlameifier_sound_doom_rocket.description"] = "Changes the firing sound of the weapon to the Rocket Launcher from DOOM (1993)."
 
 //////////////// Half-Life 2
--- L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Sound Mods/HL2"
+L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Sound Mods/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "9 mm Pistol"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistol"
--- L["unlameifier_sound_hl2_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 2.
+L["unlameifier_sound_hl2_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 2.
 
--- "Rise and shine, Mr. Freeman... Rise... and shine..."]]
+"Rise and shine, Mr. Freeman... Rise... and shine..."]]
 
 L["unlameifier_sound_hl2_357.printname"] = ".357 Magnum"
 L["unlameifier_sound_hl2_357.compactname"] = ".357"
--- L["unlameifier_sound_hl2_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 2.
+L["unlameifier_sound_hl2_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 2.
 
--- Naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
+Naming a gun after the caliber it fires is absolutely stupid. This is a Colt Python. Contrary to popular belief, .357, the caliber, is not as powerful as you'd think it is.]]
 
 L["unlameifier_sound_hl2_ar2.printname"] = "Overwatch-Standardudstyr (Impulsriffel)"
 L["unlameifier_sound_hl2_ar2.compactname"] = "AR2"
--- L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the OSI (Pulse-Rifle) from Half-Life 2.
+L["unlameifier_sound_hl2_ar2.description"] = [[Changes the firing sound of the weapon to the OSI (Pulse-Rifle) from Half-Life 2.
 
--- More widely known as the 'AR2', which actually exists, unless you believe some city folk who say they used the 'AR3'...]]
+More widely known as the 'AR2', which actually exists, unless you believe some city folk who say they used the 'AR3'...]]
 
 L["unlameifier_sound_hl2_alyx.printname"] = "Alyx's Gun"
 L["unlameifier_sound_hl2_alyx.compactname"] = "Alyx's"
--- L["unlameifier_sound_hl2_alyx.description"] = [[Changes the firing sound of the weapon to Alyx's Gun from Half-Life 2.
+L["unlameifier_sound_hl2_alyx.description"] = [[Changes the firing sound of the weapon to Alyx's Gun from Half-Life 2.
 
--- "Well, Russ, it's official. There is NOTHING left of your gun in this gun. This is just... this is MY gun."]]
+"Well, Russ, it's official. There is NOTHING left of your gun in this gun. This is just... this is MY gun."]]
 
 L["unlameifier_sound_hl2_xbow.printname"] = "Armbrøst"
 L["unlameifier_sound_hl2_xbow.compactname"] = "Armbrøst"
--- L["unlameifier_sound_hl2_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 2.
+L["unlameifier_sound_hl2_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 2.
 
--- Sadly, it does not allow you to stick ragdolls to surfaces.]]
+Sadly, it does not allow you to stick ragdolls to surfaces.]]
 
 L["unlameifier_sound_hl2_ar22.printname"] = "Overwatch-Standardudstyr (Impulsriffel) Energibold"
 L["unlameifier_sound_hl2_ar22.compactname"] = "AR2 EB"
--- L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the Pulse-Rifle's Energy Ball from Half-Life 2 being shot.
+L["unlameifier_sound_hl2_ar22.description"] = [[Changes the firing sound of the weapon to the Pulse-Rifle's Energy Ball from Half-Life 2 being shot.
 
--- Don't point at allies unless you really hate them.]]
+Don't point at allies unless you really hate them.]]
 
 L["unlameifier_sound_hl2_rpg.printname"] = "RPG (Raketstyret Granat)"
 L["unlameifier_sound_hl2_rpg.compactname"] = "RPG"
--- L["unlameifier_sound_hl2_rpg.description"] = [[Changes the firing sound of the weapon to the RPG from Half-Life 2.
+L["unlameifier_sound_hl2_rpg.description"] = [[Changes the firing sound of the weapon to the RPG from Half-Life 2.
 
--- Did you know that the RPG in HL2 is an AT4? Not only that, they also hold it backwards.]]
+Did you know that the RPG in HL2 is an AT4? Not only that, they also hold it backwards.]]
 
 L["unlameifier_sound_hl2_shotgun.printname"] = "Haglgevær"
 L["unlameifier_sound_hl2_shotgun.compactname"] = "Haglgevær"
--- L["unlameifier_sound_hl2_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from Half-Life 2.
+L["unlameifier_sound_hl2_shotgun.description"] = [[Changes the firing sound of the weapon to the Shotgun from Half-Life 2.
 
--- Known for defying the laws of physics by firing a second shot through its magazine tube. Not recommended to attempt in real life.]]
+Known for defying the laws of physics by firing a second shot through its magazine tube. Not recommended to attempt in real life.]]
 
 L["unlameifier_sound_hl2_smg.printname"] = "SMG (Maskinpistol)"
 L["unlameifier_sound_hl2_smg.compactname"] = "SMG"
--- L["unlameifier_sound_hl2_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 2.
+L["unlameifier_sound_hl2_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 2.
 
--- Where exactly is the grenade being shot from, I wonder...?]]
+Where exactly is the grenade being shot from, I wonder...?]]
 
--- L["unlameifier_sound_hl2_airboat2.printname"] = "Mudskipper Gauss Cannon"
--- L["unlameifier_sound_hl2_airboat2.compactname"] = "Mudskipper"
--- L["unlameifier_sound_hl2_airboat2.description"] = [[Changes the firing sound of the weapon to the Mudskipper's Gauss Cannon from Half-Life 2.
+L["unlameifier_sound_hl2_airboat2.printname"] = "Mudskipper Gauss Cannon"
+L["unlameifier_sound_hl2_airboat2.compactname"] = "Mudskipper"
+L["unlameifier_sound_hl2_airboat2.description"] = [[Changes the firing sound of the weapon to the Mudskipper's Gauss Cannon from Half-Life 2.
 
--- Does not actually rapidly spam dynamite.]]
+Does not actually rapidly spam dynamite.]]
 
 //////////////// Half-Life 1
--- L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Sound Mods/HL1"
+L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Sound Mods/HL1"
 
--- L["unlameifier_sound_hl1_pistol.printname"] = "Pistol"
--- L["unlameifier_sound_hl1_pistol.compactname"] = "Pistol"
--- L["unlameifier_sound_hl1_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 1.
+L["unlameifier_sound_hl1_pistol.printname"] = "Pistol"
+L["unlameifier_sound_hl1_pistol.compactname"] = "Pistol"
+L["unlameifier_sound_hl1_pistol.description"] = [[Changes the firing sound of the weapon to the Pistol from Half-Life 1.
 
--- "Eat lead you outer space octopus!"]]
+"Eat lead you outer space octopus!"]]
 
--- L["unlameifier_sound_hl1_357.printname"] = ".357 Magnum"
--- L["unlameifier_sound_hl1_357.compactname"] = ".357"
--- L["unlameifier_sound_hl1_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 1.
+L["unlameifier_sound_hl1_357.printname"] = ".357 Magnum"
+L["unlameifier_sound_hl1_357.compactname"] = ".357"
+L["unlameifier_sound_hl1_357.description"] = [[Changes the firing sound of the weapon to the .357 from Half-Life 1.
 
--- See the HL2 .357 description for identical rant.]]
+See the HL2 .357 description for identical rant.]]
 
--- L["unlameifier_sound_hl1_deagle.printname"] = "Desert Eagle"
--- L["unlameifier_sound_hl1_deagle.compactname"] = "Deagle"
--- L["unlameifier_sound_hl1_deagle.description"] = [[Changes the firing sound of the weapon to the Desert Eagle from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_deagle.printname"] = "Desert Eagle"
+L["unlameifier_sound_hl1_deagle.compactname"] = "Deagle"
+L["unlameifier_sound_hl1_deagle.description"] = [[Changes the firing sound of the weapon to the Desert Eagle from Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 
--- L["unlameifier_sound_hl1_displacer.printname"] = "Displacer Cannon"
--- L["unlameifier_sound_hl1_displacer.compactname"] = "Displacer"
--- L["unlameifier_sound_hl1_displacer.description"] = [[Changes the firing sound of the weapon to the Displacer Cannon from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_displacer.printname"] = "Displacer Cannon"
+L["unlameifier_sound_hl1_displacer.compactname"] = "Displacer"
+L["unlameifier_sound_hl1_displacer.description"] = [[Changes the firing sound of the weapon to the Displacer Cannon from Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 
--- L["unlameifier_sound_hl1_tau.printname"] = "Tau Cannon"
--- L["unlameifier_sound_hl1_tau.compactname"] = "Tau"
--- L["unlameifier_sound_hl1_tau.description"] = "Changes the firing sound of the weapon to the Tau Cannon from Half-Life 1."
+L["unlameifier_sound_hl1_tau.printname"] = "Tau Cannon"
+L["unlameifier_sound_hl1_tau.compactname"] = "Tau"
+L["unlameifier_sound_hl1_tau.description"] = "Changes the firing sound of the weapon to the Tau Cannon from Half-Life 1."
 
--- L["unlameifier_sound_hl1_tau2.printname"] = "Tau Cannon (Secondary Fire)"
--- L["unlameifier_sound_hl1_tau2.compactname"] = "Tau (S)"
--- L["unlameifier_sound_hl1_tau2.description"] = "Changes the firing sound of the weapon to the Tau Cannon's Secondary Fire from Half-Life 1."
+L["unlameifier_sound_hl1_tau2.printname"] = "Tau Cannon (Secondary Fire)"
+L["unlameifier_sound_hl1_tau2.compactname"] = "Tau (S)"
+L["unlameifier_sound_hl1_tau2.description"] = "Changes the firing sound of the weapon to the Tau Cannon's Secondary Fire from Half-Life 1."
 
--- L["unlameifier_sound_hl1_glauncher.printname"] = "Grenade Launcher"
--- L["unlameifier_sound_hl1_glauncher.compactname"] = "GL"
--- L["unlameifier_sound_hl1_glauncher.description"] = [[Changes the firing sound of the weapon to the SMG's Grenade Launcher from Half-Life 1.
+L["unlameifier_sound_hl1_glauncher.printname"] = "Grenade Launcher"
+L["unlameifier_sound_hl1_glauncher.compactname"] = "GL"
+L["unlameifier_sound_hl1_glauncher.description"] = [[Changes the firing sound of the weapon to the SMG's Grenade Launcher from Half-Life 1.
 
--- <color=175,175,255>NOTE</color>: reload sound is mixed in, too lazy to remove attachment and wait 30 trillion years for .ogg files to delete. if that breaks immersion, woe is you.]]
+<color=175,175,255>NOTE</color>: reload sound is mixed in, too lazy to remove attachment and wait 30 trillion years for .ogg files to delete. if that breaks immersion, woe is you.]]
 
--- L["unlameifier_sound_hl1_smg.printname"] = "SMG"
--- L["unlameifier_sound_hl1_smg.compactname"] = "SMG"
--- L["unlameifier_sound_hl1_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 1.
+L["unlameifier_sound_hl1_smg.printname"] = "SMG"
+L["unlameifier_sound_hl1_smg.compactname"] = "SMG"
+L["unlameifier_sound_hl1_smg.description"] = [[Changes the firing sound of the weapon to the SMG from Half-Life 1.
 
--- <color=175,175,255>NOTE</color>: This is the MP5 in the original version of Half-Life, not to be confused with the M16 in the HD version. M16 is a separate attachment.]]
+<color=175,175,255>NOTE</color>: This is the MP5 in the original version of Half-Life, not to be confused with the M16 in the HD version. M16 is a separate attachment.]]
 
--- L["unlameifier_sound_hl1_m16.printname"] = "M16 (Hi-Def SMG)"
--- L["unlameifier_sound_hl1_m16.compactname"] = "M16 (SMG)"
--- L["unlameifier_sound_hl1_m16.description"] = [[Changes the firing sound of the weapon to the M16, the SMG from Half-Life 1 HD Pack.
+L["unlameifier_sound_hl1_m16.printname"] = "M16 (Hi-Def SMG)"
+L["unlameifier_sound_hl1_m16.compactname"] = "M16 (SMG)"
+L["unlameifier_sound_hl1_m16.description"] = [[Changes the firing sound of the weapon to the M16, the SMG from Half-Life 1 HD Pack.
 
--- <color=175,175,255>NOTE</color>: This is from the HD version of Half-Life 1. It replaces the MP5 out for an M16, which also changes its sound (hence why you are seeing this here).]]
+<color=175,175,255>NOTE</color>: This is from the HD version of Half-Life 1. It replaces the MP5 out for an M16, which also changes its sound (hence why you are seeing this here).]]
 
--- L["unlameifier_sound_hl1_saw.printname"] = "Light Machine Gun"
--- L["unlameifier_sound_hl1_saw.compactname"] = "LMG"
--- L["unlameifier_sound_hl1_saw.description"] = [[Changes the firing sound of the weapon to the LMG from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_saw.printname"] = "Light Machine Gun"
+L["unlameifier_sound_hl1_saw.compactname"] = "LMG"
+L["unlameifier_sound_hl1_saw.description"] = [[Changes the firing sound of the weapon to the LMG from Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 
--- L["unlameifier_sound_hl1_shotgun.printname"] = "Shotgun"
--- L["unlameifier_sound_hl1_shotgun.compactname"] = "Shotgun"
--- L["unlameifier_sound_hl1_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
+L["unlameifier_sound_hl1_shotgun.printname"] = "Shotgun"
+L["unlameifier_sound_hl1_shotgun.compactname"] = "Shotgun"
+L["unlameifier_sound_hl1_shotgun.description"] = "Changes the firing sound of the weapon to the Shotgun from Half-Life 1."
 
--- L["unlameifier_sound_hl1_sniper.printname"] = "Sniper Rifle"
--- L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
--- L["unlameifier_sound_hl1_sniper.description"] = [[Changes the firing sound of the weapon to the Sniper Rifle from Half-Life 1: Opposing Force.
+L["unlameifier_sound_hl1_sniper.printname"] = "Sniper Rifle"
+L["unlameifier_sound_hl1_sniper.compactname"] = "Sniper"
+L["unlameifier_sound_hl1_sniper.description"] = [[Changes the firing sound of the weapon to the Sniper Rifle from Half-Life 1: Opposing Force.
 
--- As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
+As of this time of writing, I have not played Opposing Force/Blue Shift so if I get some details wrong please let me know, thanks.]]
 
--- L["unlameifier_sound_hl1_xbow.printname"] = "Crossbow"
--- L["unlameifier_sound_hl1_xbow.compactname"] = "Crossbow"
--- L["unlameifier_sound_hl1_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 1.
+L["unlameifier_sound_hl1_xbow.printname"] = "Crossbow"
+L["unlameifier_sound_hl1_xbow.compactname"] = "Crossbow"
+L["unlameifier_sound_hl1_xbow.description"] = [[Changes the firing sound of the weapon to the Crossbow from Half-Life 1.
 
--- To be fair, there's weirder shit in Unlameifier to change your weapon's firing sound to. But you do you.]]
+To be fair, there's weirder shit in Unlameifier to change your weapon's firing sound to. But you do you.]]
 
 //////////////// Counter-Strike: Source
--- L["unlameifier.folder.sounds.css"] = "Unlameifier/Sound Mods/CSS"
+L["unlameifier.folder.sounds.css"] = "Unlameifier/Sound Mods/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "9X19mm sidevåben"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
--- L["unlameifier_sound_css_glock18.description"] = [[Changes the firing sound of the weapon to the 9x19mm Sidearm from Counter-Strike: Source.
+L["unlameifier_sound_css_glock18.description"] = [[Changes the firing sound of the weapon to the 9x19mm Sidearm from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
+<color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's Glock 18 is actually a Glock 19. If you know about firearms, the inaccuracies are very obvious.]]
 
 L["unlameifier_sound_css_usp.printname"] = "K&M .45 Tactical"
 L["unlameifier_sound_css_usp.compactname"] = "USP"
--- L["unlameifier_sound_css_usp.description"] = [[Changes the firing sound of the weapon to the K&M .45 Tactical from Counter-Strike: Source.
+L["unlameifier_sound_css_usp.description"] = [[Changes the firing sound of the weapon to the K&M .45 Tactical from Counter-Strike: Source.
 
--- <color=150,150,255>Fun Fact</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
+<color=150,150,255>Fun Fact</color>: Similar to every other CSS weapon, the K&M ejects shells to the left. Apart from that, it is by far the most accurate weapon model depicted in-game.]]
 
 L["unlameifier_sound_css_p228.printname"] = "228 Compact"
 L["unlameifier_sound_css_p228.compactname"] = "P228"
--- L["unlameifier_sound_css_p228.description"] = [[Changes the firing sound of the weapon to the 228 Compact from Counter-Strike: Source.
+L["unlameifier_sound_css_p228.description"] = [[Changes the firing sound of the weapon to the 228 Compact from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
+<color=150,150,255>Fun Fact</color>: According to imfdb.org, Source's P228 is actually a P229, as it is chambered in .357 SIG.]]
 
 L["unlameifier_sound_css_deagle.printname"] = "Night Hawk .50C"
 L["unlameifier_sound_css_deagle.compactname"] = "Deagle"
--- L["unlameifier_sound_css_deagle.description"] = [[Changes the firing sound of the weapon to the Night Hawk .50C from Counter-Strike: Source.
+L["unlameifier_sound_css_deagle.description"] = [[Changes the firing sound of the weapon to the Night Hawk .50C from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
--- <color=150,150,255>Fun Fact</color>: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
+<color=150,150,255>Fun Fact</color>: According to imfdb.org, the Desert Eagle Mark XIX, chambered in .50 AE, does not have a fluted barrel, as it is depicted as having in Source.]]
 
 L["unlameifier_sound_css_fiveseven.printname"] = "ES Five-Seven"
 L["unlameifier_sound_css_fiveseven.compactname"] = "Five-SeveN"
--- L["unlameifier_sound_css_fiveseven.description"] = [[Changes the firing sound of the weapon to the ES Five-Seven from Counter-Strike: Source.
+L["unlameifier_sound_css_fiveseven.description"] = [[Changes the firing sound of the weapon to the ES Five-Seven from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
--- <color=150,150,255>Fun Fact</color>: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
+<color=150,150,255>Fun Fact</color>: Only half of the ES' slide is animated. Unsure if that's how the real firearm works...]]
 
 L["unlameifier_sound_css_elite.printname"] = ".40 Dual Elites"
 L["unlameifier_sound_css_elite.compactname"] = "Elite"
--- L["unlameifier_sound_css_elite.description"] = [[Changes the firing sound of the weapon to the .40 Dual Elites from Counter-Strike: Source.
+L["unlameifier_sound_css_elite.description"] = [[Changes the firing sound of the weapon to the .40 Dual Elites from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the USP.
 
--- <color=150,150,255>Fun Fact</color>: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
+<color=150,150,255>Fun Fact</color>: The real name for the .40 Dual Elites is "Beretta 92G Elite II". Despite its name, it is chambered for 9x19mm, not .40 S&W.]]
 
 L["unlameifier_sound_css_xm1014.printname"] = "Automatisk Leone YG1265-haglgevær"
 L["unlameifier_sound_css_xm1014.compactname"] = "XM1014"
--- L["unlameifier_sound_css_xm1014.description"] = [[Changes the firing sound of the weapon to the Leone YG1265 Auto Shotgun from Counter-Strike: Source.
+L["unlameifier_sound_css_xm1014.description"] = [[Changes the firing sound of the weapon to the Leone YG1265 Auto Shotgun from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
+<color=150,150,255>Fun Fact</color>: Both Global Offensive and CS2 still use the name "XM1014", despite it being a fully fictional name.]]
 
 L["unlameifier_sound_css_tmp.printname"] = "Schmidt-maskinpistol"
 L["unlameifier_sound_css_tmp.compactname"] = "TMP"
--- L["unlameifier_sound_css_tmp.description"] = [[Changes the firing sound of the weapon to the Schmidt Machine Pistol from Counter-Strike: Source.
+L["unlameifier_sound_css_tmp.description"] = [[Changes the firing sound of the weapon to the Schmidt Machine Pistol from Counter-Strike: Source.
 
--- <color=255,100,100>NOTE</color>: Does not have separate unsuppressed sounds.
+<color=255,100,100>NOTE</color>: Does not have separate unsuppressed sounds.
 
--- <color=150,150,255>Fun Fact</color>: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
+<color=150,150,255>Fun Fact</color>: This is the only suppressed weapon in Source that cannot remove its suppressor.]]
 
 L["unlameifier_sound_css_mac10.printname"] = "Ingram MAC-10"
 L["unlameifier_sound_css_mac10.compactname"] = "MAC-10"
--- L["unlameifier_sound_css_mac10.description"] = [[Changes the firing sound of the weapon to the Ingram MAC-10 from Counter-Strike: Source.
+L["unlameifier_sound_css_mac10.description"] = [[Changes the firing sound of the weapon to the Ingram MAC-10 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name.]]
+<color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name.]]
 
 L["unlameifier_sound_css_mp5.printname"] = "K&M-maskinpistol"
 L["unlameifier_sound_css_mp5.compactname"] = "MP5"
--- L["unlameifier_sound_css_mp5.description"] = [[Changes the firing sound of the weapon to the K&M Sub-Machine Gun from Counter-Strike: Source.
+L["unlameifier_sound_css_mp5.description"] = [[Changes the firing sound of the weapon to the K&M Sub-Machine Gun from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
+<color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that is not mirrored, as its operating actions are already on the left side.]]
 
 L["unlameifier_sound_css_ump45.printname"] = "K&M UMP45"
 L["unlameifier_sound_css_ump45.compactname"] = "UMP"
--- L["unlameifier_sound_css_ump45.description"] = [[Changes the firing sound of the weapon to the K&M UMP45 from Counter-Strike: Source.
+L["unlameifier_sound_css_ump45.description"] = [[Changes the firing sound of the weapon to the K&M UMP45 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
--- <color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
+<color=150,150,255>Fun Fact</color>: This is one of very few firearms in Source that use its real-life name, except for the manufacturer. Additionally, according to the weapon model, it is always on safe.]]
 
 L["unlameifier_sound_css_p90.printname"] = "ES C90"
 L["unlameifier_sound_css_p90.compactname"] = "P90"
--- L["unlameifier_sound_css_p90.description"] = [[Changes the firing sound of the weapon to the ES C90 from Counter-Strike: Source.
+L["unlameifier_sound_css_p90.description"] = [[Changes the firing sound of the weapon to the ES C90 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the TMP.
 
--- <color=150,150,255>Fun Fact</color>: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
+<color=150,150,255>Fun Fact</color>: Due to an error, the C90 was once chambered in .338 Lapua Magnum. This was later patched.]]
 
 L["unlameifier_sound_css_galil.printname"] = "IDF Defender"
 L["unlameifier_sound_css_galil.compactname"] = "Galil"
--- L["unlameifier_sound_css_galil.description"] = [[Changes the firing sound of the weapon to the IDF Defender from Counter-Strike: Source.
+L["unlameifier_sound_css_galil.description"] = [[Changes the firing sound of the weapon to the IDF Defender from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
+<color=150,150,255>Fun Fact</color>: The real-life Galil comes with built-in bottle openers. Don't believe it? Look it up!]]
 
 L["unlameifier_sound_css_famas.printname"] = "Clarion 5.56"
 L["unlameifier_sound_css_famas.compactname"] = "FAMAS"
--- L["unlameifier_sound_css_famas.description"] = [[Changes the firing sound of the weapon to the Clarion 5.56 from Counter-Strike: Source.
+L["unlameifier_sound_css_famas.description"] = [[Changes the firing sound of the weapon to the Clarion 5.56 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: "Clarions" are medieval war trumpets.]]
+<color=150,150,255>Fun Fact</color>: "Clarions" are medieval war trumpets.]]
 
 L["unlameifier_sound_css_ak47.printname"] = "CV-47"
 L["unlameifier_sound_css_ak47.compactname"] = "AK-47"
--- L["unlameifier_sound_css_ak47.description"] = [[Changes the firing sound of the weapon to the CV-47 from Counter-Strike: Source.
+L["unlameifier_sound_css_ak47.description"] = [[Changes the firing sound of the weapon to the CV-47 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
+<color=150,150,255>Fun Fact</color>: This is the most obvious example of a mirrored weapon in Source. Minh "Gooseman" Le is a left-handed shooter, and wanted all weapons to be operated left-handed.]]
 
 L["unlameifier_sound_css_m4a1.printname"] = "Maverick M4A1 Carbine"
 L["unlameifier_sound_css_m4a1.compactname"] = "M4A1"
--- L["unlameifier_sound_css_m4a1.description"] = [[Changes the firing sound of the weapon to the Maverick M4A1 Carbine from Counter-Strike: Source.
+L["unlameifier_sound_css_m4a1.description"] = [[Changes the firing sound of the weapon to the Maverick M4A1 Carbine from Counter-Strike: Source.
 
--- <color=150,150,255>Fun Fact</color>: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
+<color=150,150,255>Fun Fact</color>: During the reload animation, the player is seen operating the forward assist instead of the charging handle.]]
 
 L["unlameifier_sound_css_sg552.printname"] = "Krieg 552"
 L["unlameifier_sound_css_sg552.compactname"] = "SG 552"
--- L["unlameifier_sound_css_sg552.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
+L["unlameifier_sound_css_sg552.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: Despite firing in full-auto, the firing selector is set to semi-auto.]]
+<color=150,150,255>Fun Fact</color>: Despite firing in full-auto, the firing selector is set to semi-auto.]]
 
 L["unlameifier_sound_css_aug.printname"] = "Bullpup"
 L["unlameifier_sound_css_aug.compactname"] = "AUG"
--- L["unlameifier_sound_css_aug.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
+L["unlameifier_sound_css_aug.description"] = [[Changes the firing sound of the weapon to the Krieg 552 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
+<color=150,150,255>Fun Fact</color>: When reloading, you can easily see the charging handle is not physically attached to the gun.]]
 
 L["unlameifier_sound_css_scout.printname"] = "Schmidt Scout"
 L["unlameifier_sound_css_scout.compactname"] = "Scout"
--- L["unlameifier_sound_css_scout.description"] = [[Changes the firing sound of the weapon to the Schmidt Scout from Counter-Strike: Source.
+L["unlameifier_sound_css_scout.description"] = [[Changes the firing sound of the weapon to the Schmidt Scout from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
+<color=150,150,255>Fun Fact</color>: The real-life Steyr Scout has a built-in magazine holder in its stock.]]
 
 L["unlameifier_sound_css_sg550.printname"] = "Krieg 550 Commando"
 L["unlameifier_sound_css_sg550.compactname"] = "SG 550"
--- L["unlameifier_sound_css_sg550.description"] = [[Changes the firing sound of the weapon to the Krieg 550 Commando from Counter-Strike: Source.
+L["unlameifier_sound_css_sg550.description"] = [[Changes the firing sound of the weapon to the Krieg 550 Commando from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
+<color=150,150,255>Fun Fact</color>: The "Commando" suffix makes no sense, as the Krieg 550 is depicted as being the full-length SIG 550.]]
 
 L["unlameifier_sound_css_awp.printname"] = "Magnum-snigskytteriffel"
 L["unlameifier_sound_css_awp.compactname"] = "AWP"
--- L["unlameifier_sound_css_awp.description"] = [[Changes the firing sound of the weapon to the Magnum Sniper Rifle from Counter-Strike: Source.
+L["unlameifier_sound_css_awp.description"] = [[Changes the firing sound of the weapon to the Magnum Sniper Rifle from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
+<color=150,150,255>Fun Fact</color>: The real-life AWP was built by two guys in a garage and was entered into the British MOD trials exclusively to see how it'd do against proper military rifles. "Unfortunately", they won and had to quickly start making thousands of rifles for the British military.]]
 
 L["unlameifier_sound_css_g3sg1.printname"] = "D3/AU-1"
 L["unlameifier_sound_css_g3sg1.compactname"] = "G3/SG-1"
--- L["unlameifier_sound_css_g3sg1.description"] = [[Changes the firing sound of the weapon to the D3/AU-1 from Counter-Strike: Source.
+L["unlameifier_sound_css_g3sg1.description"] = [[Changes the firing sound of the weapon to the D3/AU-1 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
+<color=150,150,255>Fun Fact</color>: The firing selector is set to safe. Additionally, the charging handle does not actually move during reload.]]
 
 L["unlameifier_sound_css_m249.printname"] = "M249"
 L["unlameifier_sound_css_m249.compactname"] = "M249"
--- L["unlameifier_sound_css_m249.description"] = [[Changes the firing sound of the weapon to the M249 from Counter-Strike: Source.
+L["unlameifier_sound_css_m249.description"] = [[Changes the firing sound of the weapon to the M249 from Counter-Strike: Source.
 
--- When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
+When <color=100,255,100>Suppressed</color>: Uses sounds from the M4A1.
 
--- <color=150,150,255>Fun Fact</color>: In Source, the M249 does not have a stock.]]
+<color=150,150,255>Fun Fact</color>: In Source, the M249 does not have a stock.]]
 
 //////////////// Neosun Mouth
--- L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sound Mods/Neosun"
+L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sound Mods/Neosun"
 
--- L["unlameifier_sound_neosun_pew.printname"] = "Pew"
--- L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
--- L["unlameifier_sound_neosun_pew.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_pew.printname"] = "Pew"
+L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
+L["unlameifier_sound_neosun_pew.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
 
--- This one is "pew".]]
+This one is "pew".]]
 
--- L["unlameifier_sound_neosun_bang.printname"] = "Bang"
--- L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
--- L["unlameifier_sound_neosun_bang.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_bang.printname"] = "Bang"
+L["unlameifier_sound_neosun_bang.compactname"] = "Bang"
+L["unlameifier_sound_neosun_bang.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
 
--- This one is "bang".]]
+This one is "bang".]]
 
--- L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
--- L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
--- L["unlameifier_sound_neosun_gunshot.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
+L["unlameifier_sound_neosun_gunshot.printname"] = "Gunshot"
+L["unlameifier_sound_neosun_gunshot.compactname"] = "Gunshot"
+L["unlameifier_sound_neosun_gunshot.description"] = [[Professional Voice Actor Neosun has been contracted to provide you the most realistic gunfire sounds ever made.
 
--- This one is "gunshot".]]
+This one is "gunshot".]]
 
 //////////////// Misc.
--- L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sound Mods/Misc."
+L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sound Mods/Misc."
 
--- L["unlameifier_sound_misc_sussy.printname"] = "Deranged Madness"
--- L["unlameifier_sound_misc_sussy.compactname"] = "Insanity"
--- L["unlameifier_sound_misc_sussy.description"] = [[An attachment only the most unhinged and depraved would ever equip. Heed this warning now, for there is no turning back.
+L["unlameifier_sound_misc_sussy.printname"] = "Deranged Madness"
+L["unlameifier_sound_misc_sussy.compactname"] = "Insanity"
+L["unlameifier_sound_misc_sussy.description"] = [[An attachment only the most unhinged and depraved would ever equip. Heed this warning now, for there is no turning back.
 
--- Don't ask why your rate of fire is limited to 250 RPM... it's important, trust me.]]
+Don't ask why your rate of fire is limited to 250 RPM... it's important, trust me.]]
 
--- L["unlameifier_sound_misc_magicmissile.printname"] = "MAGIC MISSILE!"
--- L["unlameifier_sound_misc_magicmissile.compactname"] = "MISSILE!"
--- L["unlameifier_sound_misc_magicmissile.description"] = [["Now is time for the final battle"
+L["unlameifier_sound_misc_magicmissile.printname"] = "MAGIC MISSILE!"
+L["unlameifier_sound_misc_magicmissile.compactname"] = "MISSILE!"
+L["unlameifier_sound_misc_magicmissile.description"] = [["Now is time for the final battle"
 
--- -Court Wizard Chase Caspian]]
+-Court Wizard Chase Caspian]]
 
--- L["unlameifier_sound_misc_mrskeltal.printname"] = "Mr. Skeltal!"
--- L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
--- L["unlameifier_sound_misc_mrskeltal.description"] = [[thank u mr. skeltal
+L["unlameifier_sound_misc_mrskeltal.printname"] = "Mr. Skeltal!"
+L["unlameifier_sound_misc_mrskeltal.compactname"] = "Doot"
+L["unlameifier_sound_misc_mrskeltal.description"] = [[thank u mr. skeltal
 
--- bullets not required for dooting]]
+bullets not required for dooting]]
 
--- L["unlameifier_sound_misc_ltg.printname"] = "A Message from Low Tier God"
--- L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
--- L["unlameifier_sound_misc_ltg.description"] = [["Your life is NOTHING. You serve ZERO purpose".
--- -LowTierGod
+L["unlameifier_sound_misc_ltg.printname"] = "A Message from Low Tier God"
+L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
+L["unlameifier_sound_misc_ltg.description"] = [["Your life is NOTHING. You serve ZERO purpose".
+-LowTierGod
 
--- note: Unlameifier and its creator, Neosun, does not promote, condone, or encourage suicide. If you are experiencing thoughts of self-harm or suicide, please dial 988 to get in touch with the Suicide and Crisis Lifeline (United States, refer to your country's equivalent if you are outside of the US). They are available 24 hours a day. No call is insignificant when suicide is on the mind. You matter, and you are loved.
+note: Unlameifier and its creator, Neosun, does not promote, condone, or encourage suicide. If you are experiencing thoughts of self-harm or suicide, please dial 988 to get in touch with the Suicide and Crisis Lifeline (United States, refer to your country's equivalent if you are outside of the US). They are available 24 hours a day. No call is insignificant when suicide is on the mind. You matter, and you are loved.
 
--- If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
+If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
 
--- L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage Parody"
--- L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
--- L["unlameifier_sound_misc_mlg.description"] = [[basically the gen z equivalent of skibidi toilet.
+L["unlameifier_sound_misc_lightning.printname"] = "Lightning Storm"
+L["unlameifier_sound_misc_lightning.compactname"] = "Lightning"
+L["unlameifier_sound_misc_lightning.description"] = "Wield the power of the tempest."
 
--- inject 2013 brain rot directly into your veins]]
+L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage Parody"
+L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
+L["unlameifier_sound_misc_mlg.description"] = [[basically the gen z equivalent of skibidi toilet.
 
--- L["unlameifier_sound_misc_fireworks.printname"] = "Fireworks"
--- L["unlameifier_sound_misc_fireworks.compactname"] = "Fireworks"
--- L["unlameifier_sound_misc_fireworks.description"] = [[Freedom without the Freedom.
+inject 2013 brain rot directly into your veins]]
 
--- Works best in semi-auto.]]
+L["unlameifier_sound_misc_fireworks.printname"] = "Fireworks"
+L["unlameifier_sound_misc_fireworks.compactname"] = "Fireworks"
+L["unlameifier_sound_misc_fireworks.description"] = [[Freedom without the Freedom.
 
--- L["unlameifier_sound_misc_eagle.printname"] = "Eagle"
--- L["unlameifier_sound_misc_eagle.compactname"] = "Eagle"
--- L["unlameifier_sound_misc_eagle.description"] = [[Wield the power of the Freedom of the United States of America.
+Works best in semi-auto.]]
 
--- Works best in semi-auto.
+L["unlameifier_sound_misc_eagle.printname"] = "Eagle"
+L["unlameifier_sound_misc_eagle.compactname"] = "Eagle"
+L["unlameifier_sound_misc_eagle.description"] = [[Wield the power of the Freedom of the United States of America.
 
--- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
+Works best in semi-auto.
 
--- L["unlameifier_sound_misc_eagle_alt.printname"] = "Eagle (Alternative Version)"
--- L["unlameifier_sound_misc_eagle_alt.compactname"] = "Eagle (Alt.)"
--- L["unlameifier_sound_misc_eagle_alt.description"] = [[Wield the power of the Freedom of the United States of America.
+<color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
--- Unlike the original, this one adds an eagle screech when you stop firing.
+L["unlameifier_sound_misc_eagle_alt.printname"] = "Eagle (Alternative Version)"
+L["unlameifier_sound_misc_eagle_alt.compactname"] = "Eagle (Alt.)"
+L["unlameifier_sound_misc_eagle_alt.description"] = [[Wield the power of the Freedom of the United States of America.
 
--- <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
+Unlike the original, this one adds an eagle screech when you stop firing.
+
+<color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
 //////////////// Call of Duty: Modern Warfare 2 (2009)
--- L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sound Mods/MW2"
+L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sound Mods/MW2"
 
--- L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
--- L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
--- L["unlameifier_sound_codmw2_intervention.description"] = [[Changes the firing sound of the weapon to the Intervention from Call of Duty: Modern Warfare 2 (2009).
+L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
+L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
+L["unlameifier_sound_codmw2_intervention.description"] = [[Changes the firing sound of the weapon to the Intervention from Call of Duty: Modern Warfare 2 (2009).
 
--- Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
+Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
 
 //////////////// Roblox
--- L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sound Mods/Roblox"
+L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sound Mods/Roblox"
 
--- L["unlameifier_sound_roblox_paintball.printname"] = "Paintball Gun"
--- L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
--- L["unlameifier_sound_roblox_paintball.description"] = [[Changes the firing sound of the weapon to the Paintball Gun from Roblox.
+L["unlameifier_sound_roblox_paintball.printname"] = "Paintball Gun"
+L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
+L["unlameifier_sound_roblox_paintball.description"] = [[Changes the firing sound of the weapon to the Paintball Gun from Roblox.
 
--- Certified Hood Classic.]]
+Certified Hood Classic.]]
 
--- L["unlameifier_sound_roblox_slingshot.printname"] = "Slingshot"
--- L["unlameifier_sound_roblox_slingshot.compactname"] = "Slingshot"
--- L["unlameifier_sound_roblox_slingshot.description"] = [[Changes the firing sound of the weapon to the Slingshot from Roblox.
+L["unlameifier_sound_roblox_slingshot.printname"] = "Slingshot"
+L["unlameifier_sound_roblox_slingshot.compactname"] = "Slingshot"
+L["unlameifier_sound_roblox_slingshot.description"] = [[Changes the firing sound of the weapon to the Slingshot from Roblox.
 
--- Certified Hood Classic.]]
+Certified Hood Classic.]]
 
--- L["unlameifier_sound_roblox_superball.printname"] = "Superball"
--- L["unlameifier_sound_roblox_superball.compactname"] = "Superball"
--- L["unlameifier_sound_roblox_superball.description"] = [[Changes the firing sound of the weapon to the Superball from Roblox.
+L["unlameifier_sound_roblox_superball.printname"] = "Superball"
+L["unlameifier_sound_roblox_superball.compactname"] = "Superball"
+L["unlameifier_sound_roblox_superball.description"] = [[Changes the firing sound of the weapon to the Superball from Roblox.
 
--- Certified Hood Classic.]]
+Certified Hood Classic.]]
 
--- L["unlameifier_sound_roblox_laserpistol.printname"] = "XLS Mark II Pulse Laser Pistol"
--- L["unlameifier_sound_roblox_laserpistol.compactname"] = "Laser Pistol"
--- L["unlameifier_sound_roblox_laserpistol.description"] = [[Changes the firing sound of the weapon to the XLS Mark II Pulse Laser Pistol from Roblox.
+L["unlameifier_sound_roblox_laserpistol.printname"] = "XLS Mark II Pulse Laser Pistol"
+L["unlameifier_sound_roblox_laserpistol.compactname"] = "Laser Pistol"
+L["unlameifier_sound_roblox_laserpistol.description"] = [[Changes the firing sound of the weapon to the XLS Mark II Pulse Laser Pistol from Roblox.
 
--- The OG "pew" sound.]]
+The OG "pew" sound.]]
 
--- L["unlameifier_sound_roblox_guitar.printname"] = "Red Stratobloxxer"
--- L["unlameifier_sound_roblox_guitar.compactname"] = "Guitar"
--- L["unlameifier_sound_roblox_guitar.description"] = [[Changes the firing sound of the weapon to the Red Stratobloxxer from Roblox.
+L["unlameifier_sound_roblox_guitar.printname"] = "Red Stratobloxxer"
+L["unlameifier_sound_roblox_guitar.compactname"] = "Guitar"
+L["unlameifier_sound_roblox_guitar.description"] = [[Changes the firing sound of the weapon to the Red Stratobloxxer from Roblox.
 
--- You might be able to play a song with it!]]
+You might be able to play a song with it!]]
 
 //////////////// Music
--- L["unlameifier.folder.sounds.music"] = "Unlameifier/Sound Mods/Music"
+L["unlameifier.folder.sounds.music"] = "Unlameifier/Sound Mods/Music"
 
--- L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
--- L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
--- L["unlameifier_sound_music_usa1.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
+L["unlameifier_sound_music_usa1.compactname"] = "USA Anthem"
+L["unlameifier_sound_music_usa1.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner but Angry"
--- L["unlameifier_sound_music_usa2.compactname"] = "USA Anthem Angy"
--- L["unlameifier_sound_music_usa2.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner but Angry"
+L["unlameifier_sound_music_usa2.compactname"] = "USA Anthem Angy"
+L["unlameifier_sound_music_usa2.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
 
--- Taken from the BroForce Soundtrack.]] -- "AMERICA" but in colour
+Taken from the BroForce Soundtrack.]]  -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa3.printname"] = "Ode to Joy"
--- L["unlameifier_sound_music_usa3.compactname"] = "Ode to Joy"
--- L["unlameifier_sound_music_usa3.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa3.printname"] = "Ode to Joy"
+L["unlameifier_sound_music_usa3.compactname"] = "Ode to Joy"
+L["unlameifier_sound_music_usa3.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
--- L["unlameifier_sound_music_usa4.printname"] = "1812 Overture"
--- L["unlameifier_sound_music_usa4.compactname"] = "1812 Overture"
--- L["unlameifier_sound_music_usa4.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
+L["unlameifier_sound_music_usa4.printname"] = "1812 Overture"
+L["unlameifier_sound_music_usa4.compactname"] = "1812 Overture"
+L["unlameifier_sound_music_usa4.description"] = [[NOTHING IS MORE AMERICAN THAN MAGDUMPING 1776 ROUNDS OF FREEDOM INTO COMMUNIST AIRSPACE.
 
--- GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 //////////////// KindredFlame
--- L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sound Mods/KindredFlame"
+L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sound Mods/KindredFlame"
 
--- L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame's M16A4"
--- L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
--- L["unlameifier_sound_ws_m16a4.description"] = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
+L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame's M16A4"
+L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
+L["unlameifier_sound_ws_m16a4.description"] = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
 
--- The legend never dies...]]
+The legend never dies...]]
+
+//////////////// Misc. (Ricochet)
+L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Sound Mods/Misc./Ricochet"
+
+L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball Sounds"
+L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
+L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Makes the ricochets sound like a pinball machine. Sounds best with low-velocity projectiles.
+
+Combine with \"100% Ricochet Chance\", \"90° Ricochet\", \"+Ricochet Seeking\" and \"90° Ricochet Seeking\" in the Tuning System for a more realistic pinball experience.]]
+
+//////////////// Misc. (Impact)
+L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sound Mods/Misc./Impact"
+
+L["unlameifier_sound_impact_misc_discord.printname"] = "Discord Notification"
+L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord"
+L["unlameifier_sound_impact_misc_discord.description"] = [[Replaces the bullet impact sound with the Discord notification.
+
+Psychological warfare at its finest.]]
+
+L["unlameifier_sound_impact_misc_discord60s.printname"] = "Discord Notification at 60 Second Delay"
+L["unlameifier_sound_impact_misc_discord60s.compactname"] = "Discord 60s"
+L["unlameifier_sound_impact_misc_discord60s.description"] = [[Replaces the bullet impact sound with the Discord notification delayed by 60 seconds.
+
+Calm down, Satan.]]
 
 //////////////// Melee Sounds Misc (Impact)
--- L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sound Mods/Impact/Misc."
+L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sound Mods/Impact/Misc."
 
--- L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
--- L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
--- L["unlameifier_sound_melee_bonk_impact.description"] = "Changes the melee hit sound with a bonk."
+L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
+L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
+L["unlameifier_sound_melee_bonk_impact.description"] = "Changes the melee hit sound with a bonk."
 
--- L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Johnny Test Whipcrack"
--- L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
--- L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*."
+L["unlameifier_sound_melee_whipcrack_impact.printname"] = "Johnny Test Whipcrack"
+L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
+L["unlameifier_sound_melee_whipcrack_impact.description"] = "Now *whipcrack* you *whipcrack* can *whipcrack* sound *whipcrack* just *whipcrack* like *whipcrack* your *whipcrack* favorite *whipcrack* cartoon *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*  *whipcrack*."
 
 //////////////// Melee Sounds JJBA (Swing)
--- L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Swing/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Swing/JJBA"
 
--- L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
--- L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
--- L["unlameifier_sound_melee_jojo_jotaro_swing.description"] = [[STAR PLATINUM!!
--- ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
+L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
+L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
+L["unlameifier_sound_melee_jojo_jotaro_swing.description"] = [[STAR PLATINUM!!
+ORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORAORA!
 
--- (kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+(kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
 
--- L["unlameifier_sound_melee_jojo_dio_swing.printname"] = "Muda (DIO)"
--- L["unlameifier_sound_melee_jojo_dio_swing.compactname"] = "Muda"
--- L["unlameifier_sound_melee_jojo_dio_swing.description"] = [[THE WORLD!!
--- MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
+L["unlameifier_sound_melee_jojo_dio_swing.printname"] = "Muda (DIO)"
+L["unlameifier_sound_melee_jojo_dio_swing.compactname"] = "Muda"
+L["unlameifier_sound_melee_jojo_dio_swing.description"] = [[THE WORLD!!
+MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA!
 
--- (kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
+(kinda sounds bad because melee doesn't have looping sound- blame arctic)]]
 
 //////////////// Melee Sounds JJBA (Impact)
--- L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Impact/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sound Mods/Impact/JJBA"
 
--- L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
--- L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
--- L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
+L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
+L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
+L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
 
 //////////////// Day of Defeat: Source
--- L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sound Mods/DoD:S"
+L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sound Mods/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = "Kaliber .30"
 L["unlameifier_sound_dods_30cal.compactname"] = "Kaliber .30"
--- L["unlameifier_sound_dods_30cal.description"] = "Changes the firing sound of the weapon to the .30 Cal from Day of Defeat: Source."
+L["unlameifier_sound_dods_30cal.description"] = "Changes the firing sound of the weapon to the .30 Cal from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_bar.printname"] = "BAR"
 L["unlameifier_sound_dods_bar.compactname"] = "BAR"
--- L["unlameifier_sound_dods_bar.description"] = "Changes the firing sound of the weapon to the BAR from Day of Defeat: Source."
+L["unlameifier_sound_dods_bar.description"] = "Changes the firing sound of the weapon to the BAR from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_c96.printname"] = "C96"
 L["unlameifier_sound_dods_c96.compactname"] = "C96"
--- L["unlameifier_sound_dods_c96.description"] = "Changes the firing sound of the weapon to the C96 from Day of Defeat: Source."
+L["unlameifier_sound_dods_c96.description"] = "Changes the firing sound of the weapon to the C96 from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_colt.printname"] = "Colt"
 L["unlameifier_sound_dods_colt.compactname"] = "Colt"
--- L["unlameifier_sound_dods_colt.description"] = "Changes the firing sound of the weapon to the Colt from Day of Defeat: Source."
+L["unlameifier_sound_dods_colt.description"] = "Changes the firing sound of the weapon to the Colt from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_garand.printname"] = "M1 Garand"
 L["unlameifier_sound_dods_garand.compactname"] = "M1 Garand"
--- L["unlameifier_sound_dods_garand.description"] = "Changes the firing sound of the weapon to the Garand from Day of Defeat: Source."
+L["unlameifier_sound_dods_garand.description"] = "Changes the firing sound of the weapon to the Garand from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_grenade.printname"] = "Riffelgranat"
 L["unlameifier_sound_dods_grenade.compactname"] = "Riffelgranat"
--- L["unlameifier_sound_dods_grenade.description"] = "Changes the firing sound of the weapon to the Garand's and K98k's Rifle Grenade from Day of Defeat: Source."
+L["unlameifier_sound_dods_grenade.description"] = "Changes the firing sound of the weapon to the Garand's and K98k's Rifle Grenade from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_k98.printname"] = "K98k"
 L["unlameifier_sound_dods_k98.compactname"] = "K98k"
--- L["unlameifier_sound_dods_k98.description"] = "Changes the firing sound of the weapon to the K98k from Day of Defeat: Source."
+L["unlameifier_sound_dods_k98.description"] = "Changes the firing sound of the weapon to the K98k from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_k98scoped.printname"] = "K98 Finskytte-riffel"
 L["unlameifier_sound_dods_k98scoped.compactname"] = "K98 F.R."
--- L["unlameifier_sound_dods_k98scoped.description"] = "Changes the firing sound of the weapon to the K98 Sniper Rifle from Day of Defeat: Source."
+L["unlameifier_sound_dods_k98scoped.description"] = "Changes the firing sound of the weapon to the K98 Sniper Rifle from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_m1carbine.printname"] = "M1 Carbine"
 L["unlameifier_sound_dods_m1carbine.compactname"] = "M1 Carbine"
--- L["unlameifier_sound_dods_m1carbine.description"] = "Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat: Source."
+L["unlameifier_sound_dods_m1carbine.description"] = "Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mg42.printname"] = "MG42"
 L["unlameifier_sound_dods_mg42.compactname"] = "MG42"
--- L["unlameifier_sound_dods_mg42.description"] = "Changes the firing sound of the weapon to the MG42 from Day of Defeat: Source."
+L["unlameifier_sound_dods_mg42.description"] = "Changes the firing sound of the weapon to the MG42 from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mortar.printname"] = "Mortar"
 L["unlameifier_sound_dods_mortar.compactname"] = "Mortar"
--- L["unlameifier_sound_dods_mortar.description"] = "Changes the firing sound of the weapon to the Mortar from Day of Defeat: Source."
+L["unlameifier_sound_dods_mortar.description"] = "Changes the firing sound of the weapon to the Mortar from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mp40.printname"] = "MP40"
 L["unlameifier_sound_dods_mp40.compactname"] = "MP40"
--- L["unlameifier_sound_dods_mp40.description"] = "Changes the firing sound of the weapon to the MP40 from Day of Defeat: Source."
+L["unlameifier_sound_dods_mp40.description"] = "Changes the firing sound of the weapon to the MP40 from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_mp44.printname"] = "MP44"
 L["unlameifier_sound_dods_mp44.compactname"] = "MP44"
--- L["unlameifier_sound_dods_mp44.description"] = "Changes the firing sound of the weapon to the MP44 from Day of Defeat: Source."
+L["unlameifier_sound_dods_mp44.description"] = "Changes the firing sound of the weapon to the MP44 from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_p38.printname"] = "P38"
 L["unlameifier_sound_dods_p38.compactname"] = "P38"
--- L["unlameifier_sound_dods_p38.description"] = "Changes the firing sound of the weapon to the P38 from Day of Defeat: Source."
+L["unlameifier_sound_dods_p38.description"] = "Changes the firing sound of the weapon to the P38 from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_rocket.printname"] = "Bazooka"
 L["unlameifier_sound_dods_rocket.compactname"] = "Bazooka"
--- L["unlameifier_sound_dods_rocket.description"] = "Changes the firing sound of the weapon to the Bazooka and Panzershreck from Day of Defeat: Source."
+L["unlameifier_sound_dods_rocket.description"] = "Changes the firing sound of the weapon to the Bazooka and Panzershreck from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_spring.printname"] = "Springfield"
 L["unlameifier_sound_dods_spring.compactname"] = "Springfield"
--- L["unlameifier_sound_dods_spring.description"] = "Changes the firing sound of the weapon to the Springfield from Day of Defeat: Source."
+L["unlameifier_sound_dods_spring.description"] = "Changes the firing sound of the weapon to the Springfield from Day of Defeat: Source."
 
 L["unlameifier_sound_dods_thompson.printname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
--- L["unlameifier_sound_dods_thompson.description"] = "Changes the firing sound of the weapon to the Thompson from Day of Defeat: Source."
+L["unlameifier_sound_dods_thompson.description"] = "Changes the firing sound of the weapon to the Thompson from Day of Defeat: Source."
 
 //////////////// Day of Defeat
--- L["unlameifier.folder.sounds.dod"] = "Unlameifier/Sound Mods/DoD"
+L["unlameifier.folder.sounds.dod"] = "Unlameifier/Sound Mods/DoD"
 
--- L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
--- L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
--- L["unlameifier_sound_dod_30cal.description"] = [[Changes the firing sound of the weapon to the .30 Cal from Day of Defeat.
+L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
+L["unlameifier_sound_dod_30cal.description"] = [[Changes the firing sound of the weapon to the .30 Cal from Day of Defeat.
 
--- "Ultimate covering fire is the ability of this class.  A single man in good position can stop an enemy attack in its tracks. With it's massive recoil, this weapon is best used with bipod deployed."]]
+"Ultimate covering fire is the ability of this class.  A single man in good position can stop an enemy attack in its tracks. With it's massive recoil, this weapon is best used with bipod deployed."]]
 
--- L["unlameifier_sound_dod_bar.printname"] = "BAR"
--- L["unlameifier_sound_dod_bar.compactname"] = "BAR"
--- L["unlameifier_sound_dod_bar.description"] = [[Changes the firing sound of the weapon to the BAR from Day of Defeat.
+L["unlameifier_sound_dod_bar.printname"] = "BAR"
+L["unlameifier_sound_dod_bar.compactname"] = "BAR"
+L["unlameifier_sound_dod_bar.description"] = [[Changes the firing sound of the weapon to the BAR from Day of Defeat.
 
--- "This class is meant to lay down cover fire for his fellow assaulting infantry. With the BAR's large round, this class can knock down 3 or 4 enemy soldiers at a time with one clip."]]
+"This class is meant to lay down cover fire for his fellow assaulting infantry. With the BAR's large round, this class can knock down 3 or 4 enemy soldiers at a time with one clip."]]
 
--- L["unlameifier_sound_dod_bren.printname"] = "Bren"
--- L["unlameifier_sound_dod_bren.compactname"] = "Bren"
--- L["unlameifier_sound_dod_bren.description"] = [[Changes the firing sound of the weapon to the Bren from Day of Defeat.
+L["unlameifier_sound_dod_bren.printname"] = "Bren"
+L["unlameifier_sound_dod_bren.compactname"] = "Bren"
+L["unlameifier_sound_dod_bren.description"] = [[Changes the firing sound of the weapon to the Bren from Day of Defeat.
 
--- "Known for it's outstanding reliability and power, the Bren machine gun was the mainstay for the Commonwealth forces in WWII.  Used both as a light and heavy machine gun, the Bren gun is extremely adaptable to the situation and can be used in both defensive and offensive roles."]]
+"Known for it's outstanding reliability and power, the Bren machine gun was the mainstay for the Commonwealth forces in WWII.  Used both as a light and heavy machine gun, the Bren gun is extremely adaptable to the situation and can be used in both defensive and offensive roles."]]
 
--- L["unlameifier_sound_dod_carbine.printname"] = "M1 Carbine"
--- L["unlameifier_sound_dod_carbine.compactname"] = "M1 Carbine"
--- L["unlameifier_sound_dod_carbine.description"] = [[Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat.
+L["unlameifier_sound_dod_carbine.printname"] = "M1 Carbine"
+L["unlameifier_sound_dod_carbine.compactname"] = "M1 Carbine"
+L["unlameifier_sound_dod_carbine.description"] = [[Changes the firing sound of the weapon to the M1 Carbine from Day of Defeat.
 
--- "With the lighter recoil of the M1 Carbine, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+"With the lighter recoil of the M1 Carbine, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
 
--- L["unlameifier_sound_dod_colt.printname"] = "Colt 1911 Pistol"
--- L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911 Pistol"
--- L["unlameifier_sound_dod_colt.description"] = "Changes the firing sound of the weapon to the Colt 1911 Pistol from Day of Defeat."
+L["unlameifier_sound_dod_colt.printname"] = "Colt 1911 Pistol"
+L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911 Pistol"
+L["unlameifier_sound_dod_colt.description"] = "Changes the firing sound of the weapon to the Colt 1911 Pistol from Day of Defeat."
 
--- L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
--- L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
--- L["unlameifier_sound_dod_enfield.description"] = [[Changes the firing sound of the weapon to the Enfield from Day of Defeat.
+L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
+L["unlameifier_sound_dod_enfield.compactname"] = "Enfield"
+L["unlameifier_sound_dod_enfield.description"] = [[Changes the firing sound of the weapon to the Enfield from Day of Defeat.
 
--- "With the smoothest action in the world, this rifle was one of the most accurate of the war.  When compared to other bolt action rifles of the time, it's 10 round magazine gave it a distinct advantage in ammunition capacity."]]
+"With the smoothest action in the world, this rifle was one of the most accurate of the war.  When compared to other bolt action rifles of the time, it's 10 round magazine gave it a distinct advantage in ammunition capacity."]]
 
--- L["unlameifier_sound_dod_enfieldsniper.printname"] = "Scoped Enfield"
--- L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield S."
--- L["unlameifier_sound_dod_enfieldsniper.description"] = [[Changes the firing sound of the weapon to the Scoped Enfield from Day of Defeat.
+L["unlameifier_sound_dod_enfieldsniper.printname"] = "Scoped Enfield"
+L["unlameifier_sound_dod_enfieldsniper.compactname"] = "Enfield S."
+L["unlameifier_sound_dod_enfieldsniper.description"] = [[Changes the firing sound of the weapon to the Scoped Enfield from Day of Defeat.
 
--- "The Enfield was one of the finest sniper rifles of the war.  Fitted with a 4x power sniper scope, the No4(T) proved to be such a fine weapon that after the war it continued serving for many years as the British Army's sniper rifle."]]
+"The Enfield was one of the finest sniper rifles of the war.  Fitted with a 4x power sniper scope, the No4(T) proved to be such a fine weapon that after the war it continued serving for many years as the British Army's sniper rifle."]]
 
--- L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
--- L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
--- L["unlameifier_sound_dod_fg42.description"] = [[Changes the firing sound of the weapon to the Fg42 from Day of Defeat.
+L["unlameifier_sound_dod_fg42.printname"] = "Fg42"
+L["unlameifier_sound_dod_fg42.compactname"] = "Fg42"
+L["unlameifier_sound_dod_fg42.description"] = [[Changes the firing sound of the weapon to the Fg42 from Day of Defeat.
 
--- "The Fg42 represented a huge stride in the advance of infantry small arms.  Using the full 8mm cartridge, this specialized weapon was reserved for Germany's elite Fallschirmjäger. This Fg42 can be used with the bipod for sustained cover fire.  The Fg42 was a very short compact weapon.  This compactness produced two effects, horrid recoil in automatic fire and the loudest muzzle blast of any weapon of the war.  Enemy soldiers immediately hit the dirt when they heard the titanic blast of this weapon.  The Fg42 is best used firing in short 2 to 3 shot bursts."]]
+"The Fg42 represented a huge stride in the advance of infantry small arms.  Using the full 8mm cartridge, this specialized weapon was reserved for Germany's elite Fallschirmjäger. This Fg42 can be used with the bipod for sustained cover fire.  The Fg42 was a very short compact weapon.  This compactness produced two effects, horrid recoil in automatic fire and the loudest muzzle blast of any weapon of the war.  Enemy soldiers immediately hit the dirt when they heard the titanic blast of this weapon.  The Fg42 is best used firing in short 2 to 3 shot bursts."]]
 
--- L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
--- L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
--- L["unlameifier_sound_dod_garand.description"] = [[Changes the firing sound of the weapon to the M1 Garand from Day of Defeat.
+L["unlameifier_sound_dod_garand.printname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.compactname"] = "M1 Garand"
+L["unlameifier_sound_dod_garand.description"] = [[Changes the firing sound of the weapon to the M1 Garand from Day of Defeat.
 
--- "Known as the 'rifle that won the war',  the Garand provides this class with semi-automatic one shot kill capability.  After learning to control the Garand's recoil, this weapon and class can turn the tide of a battle."]]
+"Known as the 'rifle that won the war',  the Garand provides this class with semi-automatic one shot kill capability.  After learning to control the Garand's recoil, this weapon and class can turn the tide of a battle."]]
 
--- L["unlameifier_sound_dod_greasegun.printname"] = "Greasegun"
--- L["unlameifier_sound_dod_greasegun.compactname"] = "Greasegun"
--- L["unlameifier_sound_dod_greasegun.description"] = [[Changes the firing sound of the weapon to the Greasegun from Day of Defeat.
+L["unlameifier_sound_dod_greasegun.printname"] = "Greasegun"
+L["unlameifier_sound_dod_greasegun.compactname"] = "Greasegun"
+L["unlameifier_sound_dod_greasegun.description"] = [[Changes the firing sound of the weapon to the Greasegun from Day of Defeat.
 
--- "With the lighter recoil and slower rate of fire of the Greasegun, this class can hit targets accurately with sustained fire.  This class is ideal for short range inner city fighting."]]
+"With the lighter recoil and slower rate of fire of the Greasegun, this class can hit targets accurately with sustained fire.  This class is ideal for short range inner city fighting."]]
 
--- L["unlameifier_sound_dod_k43.printname"] = "K43"
--- L["unlameifier_sound_dod_k43.compactname"] = "K43"
--- L["unlameifier_sound_dod_k43.description"] = [[Changes the firing sound of the weapon to the K43 from Day of Defeat.
+L["unlameifier_sound_dod_k43.printname"] = "K43"
+L["unlameifier_sound_dod_k43.compactname"] = "K43"
+L["unlameifier_sound_dod_k43.description"] = [[Changes the firing sound of the weapon to the K43 from Day of Defeat.
 
--- "Germany's reply to the US M1 Garand and Soviet SVT40 rifles, the K43 provides semi-automatic one shot kill capability.  After learning to control the K43's recoil, this weapon can turn the tide of a battle."]]
+"Germany's reply to the US M1 Garand and Soviet SVT40 rifles, the K43 provides semi-automatic one shot kill capability.  After learning to control the K43's recoil, this weapon can turn the tide of a battle."]]
 
--- L["unlameifier_sound_dod_kar.printname"] = "K98"
--- L["unlameifier_sound_dod_kar.compactname"] = "K98"
--- L["unlameifier_sound_dod_kar.description"] = [[Changes the firing sound of the weapon to the K98 from Day of Defeat.
+L["unlameifier_sound_dod_kar.printname"] = "K98"
+L["unlameifier_sound_dod_kar.compactname"] = "K98"
+L["unlameifier_sound_dod_kar.description"] = [[Changes the firing sound of the weapon to the K98 from Day of Defeat.
 
--- "The backbone of the Wehrmacht, the Kar 98 is characterized by it's pinpoint accuracy. This class rules the battlefield during long range encounters.  The added bayonet provides close in protection during house to house fighting."]]
+"The backbone of the Wehrmacht, the Kar 98 is characterized by it's pinpoint accuracy. This class rules the battlefield during long range encounters.  The added bayonet provides close in protection during house to house fighting."]]
 
--- L["unlameifier_sound_dod_luger.printname"] = "Luger '08 Pistol"
--- L["unlameifier_sound_dod_luger.compactname"] = "Luger '08 Pistol"
--- L["unlameifier_sound_dod_luger.description"] = "Changes the firing sound of the weapon to the Luger '08 Pistol from Day of Defeat."
+L["unlameifier_sound_dod_luger.printname"] = "Luger '08 Pistol"
+L["unlameifier_sound_dod_luger.compactname"] = "Luger '08 Pistol"
+L["unlameifier_sound_dod_luger.description"] = "Changes the firing sound of the weapon to the Luger '08 Pistol from Day of Defeat."
 
--- L["unlameifier_sound_dod_mg34.printname"] = "MG34"
--- L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
--- L["unlameifier_sound_dod_mg34.description"] = [[Changes the firing sound of the weapon to the MG34 from Day of Defeat.
+L["unlameifier_sound_dod_mg34.printname"] = "MG34"
+L["unlameifier_sound_dod_mg34.compactname"] = "MG34"
+L["unlameifier_sound_dod_mg34.description"] = [[Changes the firing sound of the weapon to the MG34 from Day of Defeat.
 
--- "The MG34 was one of the best machine guns fielded during WWII.  The MG34 with drum can provide a steady stream of covering fire without the danger of barrel overheat."]]
+"The MG34 was one of the best machine guns fielded during WWII.  The MG34 with drum can provide a steady stream of covering fire without the danger of barrel overheat."]]
 
--- L["unlameifier_sound_dod_mg42.printname"] = "MG42"
--- L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
--- L["unlameifier_sound_dod_mg42.description"] = [[Changes the firing sound of the weapon to the MG42 from Day of Defeat.
+L["unlameifier_sound_dod_mg42.printname"] = "MG42"
+L["unlameifier_sound_dod_mg42.compactname"] = "MG42"
+L["unlameifier_sound_dod_mg42.description"] = [[Changes the firing sound of the weapon to the MG42 from Day of Defeat.
 
--- "The MG42 is one of the best machine guns ever fielded by any army in the history of warfare.  The MG42, with its 1200 rounds per minute rate of fire, lays down a wall of lead that is impenetrable.  Use extreme caution though, as the high rate of fire can lead to the barrel overheating."]]
+"The MG42 is one of the best machine guns ever fielded by any army in the history of warfare.  The MG42, with its 1200 rounds per minute rate of fire, lays down a wall of lead that is impenetrable.  Use extreme caution though, as the high rate of fire can lead to the barrel overheating."]]
 
--- L["unlameifier_sound_dod_mortar.printname"] = "Mortar"
--- L["unlameifier_sound_dod_mortar.compactname"] = "Mortar"
--- L["unlameifier_sound_dod_mortar.description"] = [[Changes the firing sound of the weapon to the Mortar from Day of Defeat.
+L["unlameifier_sound_dod_mortar.printname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.compactname"] = "Mortar"
+L["unlameifier_sound_dod_mortar.description"] = [[Changes the firing sound of the weapon to the Mortar from Day of Defeat.
 
--- "The infantryman's personal artillery, the mortar, gives soldiers in the field an extremely mobile, lethal, heavy-strike capability. This weapon is best utilized against hidden or bunkered enemy positions that normal infantry have trouble taking out. Snipers and machine gunners fear this weapon noted for its shrieking incoming whistle."]]
+"The infantryman's personal artillery, the mortar, gives soldiers in the field an extremely mobile, lethal, heavy-strike capability. This weapon is best utilized against hidden or bunkered enemy positions that normal infantry have trouble taking out. Snipers and machine gunners fear this weapon noted for its shrieking incoming whistle."]]
 
--- L["unlameifier_sound_dod_mp40.printname"] = "MP40"
--- L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
--- L["unlameifier_sound_dod_mp40.description"] = [[Changes the firing sound of the weapon to the MP40 from Day of Defeat.
+L["unlameifier_sound_dod_mp40.printname"] = "MP40"
+L["unlameifier_sound_dod_mp40.compactname"] = "MP40"
+L["unlameifier_sound_dod_mp40.description"] = [[Changes the firing sound of the weapon to the MP40 from Day of Defeat.
 
--- "With his low recoil Mp40, a soldier can manuever in and out of back alleys and through bombed out buildings while still hitting his target."]]
+"With his low recoil Mp40, a soldier can manuever in and out of back alleys and through bombed out buildings while still hitting his target."]]
 
--- L["unlameifier_sound_dod_mp44.printname"] = "STG44"
--- L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
--- L["unlameifier_sound_dod_mp44.description"] = [[Changes the firing sound of the weapon to the STG44 from Day of Defeat.
+L["unlameifier_sound_dod_mp44.printname"] = "STG44"
+L["unlameifier_sound_dod_mp44.compactname"] = "STG44"
+L["unlameifier_sound_dod_mp44.description"] = [[Changes the firing sound of the weapon to the STG44 from Day of Defeat.
 
--- "The first true assault rifle in history, this weapon can perform varying roles with effectiveness.  The Stg44's medium sized round provides knock down power while keeping recoil to a minimum.  The Stg44 is best used firing in short 2 to 3 shot bursts."]]
+"The first true assault rifle in history, this weapon can perform varying roles with effectiveness.  The Stg44's medium sized round provides knock down power while keeping recoil to a minimum.  The Stg44 is best used firing in short 2 to 3 shot bursts."]]
 
--- L["unlameifier_sound_dod_piat.printname"] = "PIAT"
--- L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
--- L["unlameifier_sound_dod_piat.description"] = [[Changes the firing sound of the weapon to the PIAT from Day of Defeat.
+L["unlameifier_sound_dod_piat.printname"] = "PIAT"
+L["unlameifier_sound_dod_piat.compactname"] = "PIAT"
+L["unlameifier_sound_dod_piat.description"] = [[Changes the firing sound of the weapon to the PIAT from Day of Defeat.
 
--- "Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+"Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
 
--- L["unlameifier_sound_dod_rocket.printname"] = "Rocket"
--- L["unlameifier_sound_dod_rocket.compactname"] = "Rocket"
--- L["unlameifier_sound_dod_rocket.description"] = [[Changes the firing sound of the weapon to the Bazooka and Panzerschreck from Day of Defeat.
+L["unlameifier_sound_dod_rocket.printname"] = "Rocket"
+L["unlameifier_sound_dod_rocket.compactname"] = "Rocket"
+L["unlameifier_sound_dod_rocket.description"] = [[Changes the firing sound of the weapon to the Bazooka and Panzerschreck from Day of Defeat.
 
--- "Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
+"Developed later in the war, rocket weapons were the perfect instrument to destroy tanks and vehicles.  They could also be used in certain situations to blow holes into walls, providing either an improvised escape or attack route."]]
 
--- L["unlameifier_sound_dod_spring.printname"] = "Springfield"
--- L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
--- L["unlameifier_sound_dod_spring.description"] = [[Changes the firing sound of the weapon to the Springfield from Day of Defeat.
+L["unlameifier_sound_dod_spring.printname"] = "Springfield"
+L["unlameifier_sound_dod_spring.compactname"] = "Springfield"
+L["unlameifier_sound_dod_spring.description"] = [[Changes the firing sound of the weapon to the Springfield from Day of Defeat.
 
--- "This class hides in the shadows.  With his Springfield '03, this class is the lone wolf of the squad, venturing out on his own to rain unseen terror on opposing squads."]]
+"This class hides in the shadows.  With his Springfield '03, this class is the lone wolf of the squad, venturing out on his own to rain unseen terror on opposing squads."]]
 
--- L["unlameifier_sound_dod_sten.printname"] = "Sten"
--- L["unlameifier_sound_dod_sten.compactname"] = "Sten"
--- L["unlameifier_sound_dod_sten.description"] = [[Changes the firing sound of the weapon to the Sten from Day of Defeat.
+L["unlameifier_sound_dod_sten.printname"] = "Sten"
+L["unlameifier_sound_dod_sten.compactname"] = "Sten"
+L["unlameifier_sound_dod_sten.description"] = [[Changes the firing sound of the weapon to the Sten from Day of Defeat.
 
--- "The venerable Sten Gun was developed to replace the costly to manufacture American Tommy Gun used by the British Army earier in the war.  Made almost entirely of sheet metal stampings, it is a lightweight, reliable submachine gun.  An excellent close in weapon, it was the choice for many commandos throughout the war."]]
+"The venerable Sten Gun was developed to replace the costly to manufacture American Tommy Gun used by the British Army earier in the war.  Made almost entirely of sheet metal stampings, it is a lightweight, reliable submachine gun.  An excellent close in weapon, it was the choice for many commandos throughout the war."]]
 
--- L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
--- L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
--- L["unlameifier_sound_dod_thompson.description"] = [[Changes the firing sound of the weapon to the Thompson from Day of Defeat.
+L["unlameifier_sound_dod_thompson.printname"] = "Thompson"
+L["unlameifier_sound_dod_thompson.compactname"] = "Thompson"
+L["unlameifier_sound_dod_thompson.description"] = [[Changes the firing sound of the weapon to the Thompson from Day of Defeat.
 
--- "With the lighter recoil of the Thompson, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
+"With the lighter recoil of the Thompson, this class can hit targets quickly and accurately.  This class is ideal for short range inner city fighting."]]
 
--- L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
--- L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
--- L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."
+L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
+L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
+L["unlameifier_sound_dod_webley.description"] = "Changes the firing sound of the weapon to the Webley Revolver from Day of Defeat."
 
 //////////////// Team Fortress 2
--- L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sound Mods/TF2"
--- L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sound Mods/Swing/TF2"
--- L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sound Mods/Impact/TF2"
+L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sound Mods/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sound Mods/Swing/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sound Mods/Impact/TF2"
 
--- L["unlameifier_tf2_scout"] = "/Scout"
--- L["unlameifier_tf2_soldier"] = "/Soldier"
--- L["unlameifier_tf2_pyro"] = "/Pyro"
--- L["unlameifier_tf2_demo"] = "/Demo"
--- L["unlameifier_tf2_heavy"] = "/Heavy"
--- L["unlameifier_tf2_engineer"] = "/Engineer"
--- L["unlameifier_tf2_medic"] = "/Medic"
--- L["unlameifier_tf2_sniper"] = "/Sniper"
--- L["unlameifier_tf2_spy"] = "/Spy"
+L["unlameifier_tf2_scout"] = "/Scout"
+L["unlameifier_tf2_soldier"] = "/Soldier"
+L["unlameifier_tf2_pyro"] = "/Pyro"
+L["unlameifier_tf2_demo"] = "/Demo"
+L["unlameifier_tf2_heavy"] = "/Heavy"
+L["unlameifier_tf2_engineer"] = "/Engineer"
+L["unlameifier_tf2_medic"] = "/Medic"
+L["unlameifier_tf2_sniper"] = "/Sniper"
+L["unlameifier_tf2_spy"] = "/Spy"
 
 local tf2desc = {
 	shoot = "Replaces the firing sounds with ones from the %s from Team Fortress 2.",
@@ -1173,7 +1207,7 @@ L["unlameifier_sound_tf2_righteousbison.description"] = string.format(tf2desc.sh
 
 L["unlameifier_sound_tf2_bow.printname"] = "Buer"
 L["unlameifier_sound_tf2_bow.compactname"] = "Buer"
--- L["unlameifier_sound_tf2_bow.description"] = "Replaces the firing sounds with ones from various Bows from Team Fortress 2." .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_bow.description"] = "Replaces the firing sounds with ones from various Bows from Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_invasion_pistol.printname"] = "The C.A.P.P.E.R"
 L["unlameifier_sound_tf2_invasion_pistol.compactname"] = "C.A.P.P.E.R"
@@ -1512,7 +1546,7 @@ L["unlameifier_sound_tf2_saxxy_hit.description"] = string.format(tf2desc.hit, "S
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Skovl"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Skovl"
--- L["unlameifier_sound_tf2_shovel_swing.description"] = "Replaces the melee swing sounds with ones from various Shovels from Team Fortress 2." .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_shovel_swing.description"] = "Replaces the melee swing sounds with ones from various Shovels from Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_hothand_hit.printname"] = "Hot Hand"
 L["unlameifier_sound_tf2_hothand_hit.compactname"] = "Hot Hand"
@@ -1535,242 +1569,242 @@ L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "
 L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "Wrench") .. string.format(tf2desc.crit, 10)
 
 //////////////// Fallout 4 & 76
--- L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sound Mods/Fallout 4"
--- L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Sound Mods/Fallout 76"
--- L["unlameifier.folder.sounds.fo76.auto"] = "Unlameifier/Sound Mods/Fallout 76/Auto"
--- L["unlameifier.folder.sounds.fo76.auto.420"] = "Unlameifier/Sound Mods/Fallout 76/Auto/420RPM"
--- L["unlameifier.folder.sounds.fo76.auto.540"] = "Unlameifier/Sound Mods/Fallout 76/Auto/540RPM"
--- L["unlameifier.folder.sounds.fo76.auto.660"] = "Unlameifier/Sound Mods/Fallout 76/Auto/660RPM"
--- L["unlameifier.folder.sounds.fo76.auto.780"] = "Unlameifier/Sound Mods/Fallout 76/Auto/780RPM"
--- L["unlameifier.folder.sounds.fo76.auto.900"] = "Unlameifier/Sound Mods/Fallout 76/Auto/900RPM"
+L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sound Mods/Fallout 4"
+L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Sound Mods/Fallout 76"
+L["unlameifier.folder.sounds.fo76.auto"] = "Unlameifier/Sound Mods/Fallout 76/Auto"
+L["unlameifier.folder.sounds.fo76.auto.420"] = "Unlameifier/Sound Mods/Fallout 76/Auto/420RPM"
+L["unlameifier.folder.sounds.fo76.auto.540"] = "Unlameifier/Sound Mods/Fallout 76/Auto/540RPM"
+L["unlameifier.folder.sounds.fo76.auto.660"] = "Unlameifier/Sound Mods/Fallout 76/Auto/660RPM"
+L["unlameifier.folder.sounds.fo76.auto.780"] = "Unlameifier/Sound Mods/Fallout 76/Auto/780RPM"
+L["unlameifier.folder.sounds.fo76.auto.900"] = "Unlameifier/Sound Mods/Fallout 76/Auto/900RPM"
 
 local fo76nosupp = "\n\n<color=255,150,150>Note</color>: Does not have suppressed sounds."
 
--- L["unlameifier_sound_fo76_pistol_black_powder.printname"] = "Black Powder Pistol"
--- L["unlameifier_sound_fo76_pistol_black_powder.compactname"] = "BP Pistol"
--- L["unlameifier_sound_fo76_pistol_black_powder.description"] = "Changes the firing sound of the weapon to the \"Black Powder Pistol\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_black_powder.printname"] = "Black Powder Pistol"
+L["unlameifier_sound_fo76_pistol_black_powder.compactname"] = "BP Pistol"
+L["unlameifier_sound_fo76_pistol_black_powder.description"] = "Changes the firing sound of the weapon to the \"Black Powder Pistol\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_black_powder_dragon.printname"] = "The Dragon"
--- L["unlameifier_sound_fo76_rifle_black_powder_dragon.compactname"] = "Dragon"
--- L["unlameifier_sound_fo76_rifle_black_powder_dragon.description"] = "Changes the firing sound of the weapon to \"The Dragon\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.printname"] = "The Dragon"
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.compactname"] = "Dragon"
+L["unlameifier_sound_fo76_rifle_black_powder_dragon.description"] = "Changes the firing sound of the weapon to \"The Dragon\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_black_powder.printname"] = "Black Powder Rifle"
--- L["unlameifier_sound_fo76_rifle_black_powder.compactname"] = "BP Rifle"
--- L["unlameifier_sound_fo76_rifle_black_powder.description"] = "Changes the firing sound of the weapon to the \"Black Powder Rifle\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_black_powder.printname"] = "Black Powder Rifle"
+L["unlameifier_sound_fo76_rifle_black_powder.compactname"] = "BP Rifle"
+L["unlameifier_sound_fo76_rifle_black_powder.description"] = "Changes the firing sound of the weapon to the \"Black Powder Rifle\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_bow_cross.printname"] = "Crossbow"
--- L["unlameifier_sound_fo76_bow_cross.compactname"] = "Crossbow"
--- L["unlameifier_sound_fo76_bow_cross.description"] = "Changes the firing sound of the weapon to the \"Crossbow\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_bow_cross.printname"] = "Crossbow"
+L["unlameifier_sound_fo76_bow_cross.compactname"] = "Crossbow"
+L["unlameifier_sound_fo76_bow_cross.description"] = "Changes the firing sound of the weapon to the \"Crossbow\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_bow_standard.printname"] = "Bow"
--- L["unlameifier_sound_fo76_bow_standard.compactname"] = "Bow"
--- L["unlameifier_sound_fo76_bow_standard.description"] = "Changes the firing sound of the weapon to the \"Bow\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_bow_standard.printname"] = "Bow"
+L["unlameifier_sound_fo76_bow_standard.compactname"] = "Bow"
+L["unlameifier_sound_fo76_bow_standard.description"] = "Changes the firing sound of the weapon to the \"Bow\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_broadsider.printname"] = "Broadsider"
--- L["unlameifier_sound_fo76_broadsider.compactname"] = "Broadsider"
--- L["unlameifier_sound_fo76_broadsider.description"] = "Changes the firing sound of the weapon to the \"Broadsider\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_broadsider.printname"] = "Broadsider"
+L["unlameifier_sound_fo76_broadsider.compactname"] = "Broadsider"
+L["unlameifier_sound_fo76_broadsider.description"] = "Changes the firing sound of the weapon to the \"Broadsider\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_fatman.printname"] = "Fat Man"
--- L["unlameifier_sound_fo76_fatman.compactname"] = "Fat Man"
--- L["unlameifier_sound_fo76_fatman.description"] = "Changes the firing sound of the weapon to the \"Fat Man\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_fatman.printname"] = "Fat Man"
+L["unlameifier_sound_fo76_fatman.compactname"] = "Fat Man"
+L["unlameifier_sound_fo76_fatman.description"] = "Changes the firing sound of the weapon to the \"Fat Man\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_gatling.printname"] = "Gatling Gun"
--- L["unlameifier_sound_fo76_gatling.compactname"] = "Gatling"
--- L["unlameifier_sound_fo76_gatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Gun\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_gatling.printname"] = "Gatling Gun"
+L["unlameifier_sound_fo76_gatling.compactname"] = "Gatling"
+L["unlameifier_sound_fo76_gatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Gun\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_revolverpipe.printname"] = "Pipe Revolver"
--- L["unlameifier_sound_fo76_revolverpipe.compactname"] = "Pipe Rev."
--- L["unlameifier_sound_fo76_revolverpipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Revolver\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_revolverpipe.printname"] = "Pipe Revolver"
+L["unlameifier_sound_fo76_revolverpipe.compactname"] = "Pipe Rev."
+L["unlameifier_sound_fo76_revolverpipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Revolver\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_riflepipe.printname"] = "Pipe Gun"
--- L["unlameifier_sound_fo76_riflepipe.compactname"] = "Pipe Rifle"
--- L["unlameifier_sound_fo76_riflepipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_riflepipe.printname"] = "Pipe Gun"
+L["unlameifier_sound_fo76_riflepipe.compactname"] = "Pipe Rifle"
+L["unlameifier_sound_fo76_riflepipe.description"] = "Changes the firing sound of the weapon to the \"Pipe Rifle\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_junkjet.printname"] = "Junk Jet"
--- L["unlameifier_sound_fo76_junkjet.compactname"] = "Junk Jet"
--- L["unlameifier_sound_fo76_junkjet.description"] = "Changes the firing sound of the weapon to the \"Junk Jet\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_junkjet.printname"] = "Junk Jet"
+L["unlameifier_sound_fo76_junkjet.compactname"] = "Junk Jet"
+L["unlameifier_sound_fo76_junkjet.description"] = "Changes the firing sound of the weapon to the \"Junk Jet\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_grenadeautomatic.printname"] = "Auto Grenade Launcher"
--- L["unlameifier_sound_fo76_grenadeautomatic.compactname"] = "Auto GL"
--- L["unlameifier_sound_fo76_grenadeautomatic.description"] = "Changes the firing sound of the weapon to the \"Auto Grenade Launcher\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_grenadeautomatic.printname"] = "Auto Grenade Launcher"
+L["unlameifier_sound_fo76_grenadeautomatic.compactname"] = "Auto GL"
+L["unlameifier_sound_fo76_grenadeautomatic.description"] = "Changes the firing sound of the weapon to the \"Auto Grenade Launcher\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_grenadebreak.printname"] = "M79 Grenade Launcher"
--- L["unlameifier_sound_fo76_grenadebreak.compactname"] = "M79"
--- L["unlameifier_sound_fo76_grenadebreak.description"] = "Changes the firing sound of the weapon to the \"M79 Grenade Launcher\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_grenadebreak.printname"] = "M79 Grenade Launcher"
+L["unlameifier_sound_fo76_grenadebreak.compactname"] = "M79"
+L["unlameifier_sound_fo76_grenadebreak.description"] = "Changes the firing sound of the weapon to the \"M79 Grenade Launcher\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_missile.printname"] = "Missile Launcher"
--- L["unlameifier_sound_fo76_missile.compactname"] = "Missile"
--- L["unlameifier_sound_fo76_missile.description"] = "Changes the firing sound of the weapon to the \"Missile Launcher\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_missile.printname"] = "Missile Launcher"
+L["unlameifier_sound_fo76_missile.compactname"] = "Missile"
+L["unlameifier_sound_fo76_missile.description"] = "Changes the firing sound of the weapon to the \"Missile Launcher\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_10mm.printname"] = "10mm Pistol"
--- L["unlameifier_sound_fo76_pistol_10mm.compactname"] = "10mm"
--- L["unlameifier_sound_fo76_pistol_10mm.description"] = "Changes the firing sound of the weapon to the \"10mm Pistol\" from Fallout 76."
+L["unlameifier_sound_fo76_pistol_10mm.printname"] = "10mm Pistol"
+L["unlameifier_sound_fo76_pistol_10mm.compactname"] = "10mm"
+L["unlameifier_sound_fo76_pistol_10mm.description"] = "Changes the firing sound of the weapon to the \"10mm Pistol\" from Fallout 76."
 
--- L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Alien Blaster"
--- L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"
--- L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Changes the firing sound of the weapon to the \"Alien Blaster\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_alienblaster.printname"] = "Alien Blaster"
+L["unlameifier_sound_fo76_pistol_alienblaster.compactname"] = "Alien"
+L["unlameifier_sound_fo76_pistol_alienblaster.description"] = "Changes the firing sound of the weapon to the \"Alien Blaster\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "Pipe Syringer"
--- L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "Pipe Syr."
--- L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Changes the firing sound of the weapon to the possible unused \"Pipe Syringer\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_syringerpipe.printname"] = "Pipe Syringer"
+L["unlameifier_sound_fo76_pistol_syringerpipe.compactname"] = "Pipe Syr."
+L["unlameifier_sound_fo76_pistol_syringerpipe.description"] = "Changes the firing sound of the weapon to the possible unused \"Pipe Syringer\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_laser.printname"] = "Laser Pistol"
--- L["unlameifier_sound_fo76_pistol_laser.compactname"] = "Laser"
--- L["unlameifier_sound_fo76_pistol_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Pistol\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_laser.printname"] = "Laser Pistol"
+L["unlameifier_sound_fo76_pistol_laser.compactname"] = "Laser"
+L["unlameifier_sound_fo76_pistol_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Pistol\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_10mm_covert.printname"] = "10mm Pistol \"Deliverer\""
--- L["unlameifier_sound_fo76_pistol_10mm_covert.compactname"] = "Deliverer"
--- L["unlameifier_sound_fo76_pistol_10mm_covert.description"] = "Changes the firing sound of the weapon to the \"Deliverer\" from Fallout 4."
+L["unlameifier_sound_fo76_pistol_10mm_covert.printname"] = "10mm Pistol \"Deliverer\""
+L["unlameifier_sound_fo76_pistol_10mm_covert.compactname"] = "Deliverer"
+L["unlameifier_sound_fo76_pistol_10mm_covert.description"] = "Changes the firing sound of the weapon to the \"Deliverer\" from Fallout 4."
 
--- L["unlameifier_sound_fo76_pistol_flaregun.printname"] = "Flare Gun"
--- L["unlameifier_sound_fo76_pistol_flaregun.compactname"] = "Flare"
--- L["unlameifier_sound_fo76_pistol_flaregun.description"] = "Changes the firing sound of the weapon to the \"Flare Gun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_flaregun.printname"] = "Flare Gun"
+L["unlameifier_sound_fo76_pistol_flaregun.compactname"] = "Flare"
+L["unlameifier_sound_fo76_pistol_flaregun.description"] = "Changes the firing sound of the weapon to the \"Flare Gun\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_fortyfour.printname"] = ".44 Pistol"
--- L["unlameifier_sound_fo76_pistol_fortyfour.compactname"] = ".44 Pistol"
--- L["unlameifier_sound_fo76_pistol_fortyfour.description"] = "Changes the firing sound of the weapon to the \".44 Pistol\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_fortyfour.printname"] = ".44 Pistol"
+L["unlameifier_sound_fo76_pistol_fortyfour.compactname"] = ".44 Pistol"
+L["unlameifier_sound_fo76_pistol_fortyfour.description"] = "Changes the firing sound of the weapon to the \".44 Pistol\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_gammagun.printname"] = "Gamma Gun"
--- L["unlameifier_sound_fo76_pistol_gammagun.compactname"] = "Gamma Gun"
--- L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_gammagun.printname"] = "Gamma Gun"
+L["unlameifier_sound_fo76_pistol_gammagun.compactname"] = "Gamma Gun"
+L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_pistol_revolver.printname"] = "Single Action Revolver"
--- L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "SA Revolver"
--- L["unlameifier_sound_fo76_pistol_revolver.description"] = "Changes the firing sound of the weapon to the \"Single Action Revolver\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_revolver.printname"] = "Single Action Revolver"
+L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "SA Revolver"
+L["unlameifier_sound_fo76_pistol_revolver.description"] = "Changes the firing sound of the weapon to the \"Single Action Revolver\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Communist Rifle\""
--- L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Communist\""
--- L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76."
+L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Communist Rifle\""
+L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Communist\""
+L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76."
 
--- L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Combat Rifle"
--- L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Combat"
--- L["unlameifier_sound_fo76_rifle_combatrifle.description"] = "Changes the firing sound of the weapon to the \"Combat Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Combat Rifle"
+L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Combat"
+L["unlameifier_sound_fo76_rifle_combatrifle.description"] = "Changes the firing sound of the weapon to the \"Combat Rifle\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_rifle_hank.printname"] = "Unknown \"Hank\""
--- L["unlameifier_sound_fo76_rifle_hank.compactname"] = "Unknown \"Hank\""
--- L["unlameifier_sound_fo76_rifle_hank.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_hank.printname"] = "Unknown \"Hank\""
+L["unlameifier_sound_fo76_rifle_hank.compactname"] = "Unknown \"Hank\""
+L["unlameifier_sound_fo76_rifle_hank.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_huntinga.printname"] = "Hunting Rifle"
--- L["unlameifier_sound_fo76_rifle_huntinga.compactname"] = "Hunting"
--- L["unlameifier_sound_fo76_rifle_huntinga.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_huntinga.printname"] = "Hunting Rifle"
+L["unlameifier_sound_fo76_rifle_huntinga.compactname"] = "Hunting"
+L["unlameifier_sound_fo76_rifle_huntinga.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_rifle_huntingb.printname"] = "Hunting Rifle II"
--- L["unlameifier_sound_fo76_rifle_huntingb.compactname"] = "Hunting II"
--- L["unlameifier_sound_fo76_rifle_huntingb.description"] = "Changes the firing sound of the weapon to an alternative \"Hunting Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_huntingb.printname"] = "Hunting Rifle II"
+L["unlameifier_sound_fo76_rifle_huntingb.compactname"] = "Hunting II"
+L["unlameifier_sound_fo76_rifle_huntingb.description"] = "Changes the firing sound of the weapon to an alternative \"Hunting Rifle\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_rifle_huntinga_50cal.printname"] = "Hunting Rifle (.50 Receiver)"
--- L["unlameifier_sound_fo76_rifle_huntinga_50cal.compactname"] = "Hunting .50"
--- L["unlameifier_sound_fo76_rifle_huntinga_50cal.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76 equipped with the \".50 Receiver\" mod."
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.printname"] = "Hunting Rifle (.50 Receiver)"
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.compactname"] = "Hunting .50"
+L["unlameifier_sound_fo76_rifle_huntinga_50cal.description"] = "Changes the firing sound of the weapon to the \"Hunting Rifle\" from Fallout 4 and 76 equipped with the \".50 Receiver\" mod."
 
--- L["unlameifier_sound_fo76_rifle_laser.printname"] = "Laser Rifle"
--- L["unlameifier_sound_fo76_rifle_laser.compactname"] = "Laser R."
--- L["unlameifier_sound_fo76_rifle_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_laser.printname"] = "Laser Rifle"
+L["unlameifier_sound_fo76_rifle_laser.compactname"] = "Laser R."
+L["unlameifier_sound_fo76_rifle_laser.description"] = "Changes the firing sound of the weapon to the \"Laser Rifle\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_musket.printname"] = "Laser Musket I"
--- L["unlameifier_sound_fo76_rifle_musket.compactname"] = "Musket I"
--- L["unlameifier_sound_fo76_rifle_musket.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 1 charge from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket.printname"] = "Laser Musket I"
+L["unlameifier_sound_fo76_rifle_musket.compactname"] = "Musket I"
+L["unlameifier_sound_fo76_rifle_musket.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 1 charge from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_musket2.printname"] = "Laser Musket II"
--- L["unlameifier_sound_fo76_rifle_musket2.compactname"] = "Musket II"
--- L["unlameifier_sound_fo76_rifle_musket2.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 2 charges from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket2.printname"] = "Laser Musket II"
+L["unlameifier_sound_fo76_rifle_musket2.compactname"] = "Musket II"
+L["unlameifier_sound_fo76_rifle_musket2.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 2 charges from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_musket3.printname"] = "Laser Musket III"
--- L["unlameifier_sound_fo76_rifle_musket3.compactname"] = "Musket III"
--- L["unlameifier_sound_fo76_rifle_musket3.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 3 charges from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket3.printname"] = "Laser Musket III"
+L["unlameifier_sound_fo76_rifle_musket3.compactname"] = "Musket III"
+L["unlameifier_sound_fo76_rifle_musket3.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 3 charges from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_musket4.printname"] = "Laser Musket IV"
--- L["unlameifier_sound_fo76_rifle_musket4.compactname"] = "Musket IV"
--- L["unlameifier_sound_fo76_rifle_musket4.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 4 charges from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_musket4.printname"] = "Laser Musket IV"
+L["unlameifier_sound_fo76_rifle_musket4.compactname"] = "Musket IV"
+L["unlameifier_sound_fo76_rifle_musket4.description"] = "Changes the firing sound of the weapon to the \"Laser Musket\" with 4 charges from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_machinegunlight.printname"] = "Light Machine Gun"
--- L["unlameifier_sound_fo76_rifle_machinegunlight.compactname"] = "LMG"
--- L["unlameifier_sound_fo76_rifle_machinegunlight.description"] = "Changes the firing sound of the weapon to the \"Light Machine Gun\" from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_machinegunlight.printname"] = "Light Machine Gun"
+L["unlameifier_sound_fo76_rifle_machinegunlight.compactname"] = "LMG"
+L["unlameifier_sound_fo76_rifle_machinegunlight.description"] = "Changes the firing sound of the weapon to the \"Light Machine Gun\" from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_railway.printname"] = "Railway Rifle"
--- L["unlameifier_sound_fo76_rifle_railway.compactname"] = "Railway"
--- L["unlameifier_sound_fo76_rifle_railway.description"] = "Changes the firing sound of the weapon to the \"Railway Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_railway.printname"] = "Railway Rifle"
+L["unlameifier_sound_fo76_rifle_railway.compactname"] = "Railway"
+L["unlameifier_sound_fo76_rifle_railway.description"] = "Changes the firing sound of the weapon to the \"Railway Rifle\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_redding.printname"] = "Unknown \"Redding\""
--- L["unlameifier_sound_fo76_rifle_redding.compactname"] = "Unknown \"Redding\""
--- L["unlameifier_sound_fo76_rifle_redding.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_redding.printname"] = "Unknown \"Redding\""
+L["unlameifier_sound_fo76_rifle_redding.compactname"] = "Unknown \"Redding\""
+L["unlameifier_sound_fo76_rifle_redding.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_snipera.printname"] = "Unknown \"SniperA\""
--- L["unlameifier_sound_fo76_rifle_snipera.compactname"] = "Unknown \"SniperA\""
--- L["unlameifier_sound_fo76_rifle_snipera.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_snipera.printname"] = "Unknown \"SniperA\""
+L["unlameifier_sound_fo76_rifle_snipera.compactname"] = "Unknown \"SniperA\""
+L["unlameifier_sound_fo76_rifle_snipera.description"] = "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_gauss.printname"] = "Gauss Rifle"
--- L["unlameifier_sound_fo76_rifle_gauss.compactname"] = "Gauss"
--- L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound of the weapon to the \"Gauss Rifle\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_gauss.printname"] = "Gauss Rifle"
+L["unlameifier_sound_fo76_rifle_gauss.compactname"] = "Gauss"
+L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound of the weapon to the \"Gauss Rifle\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_rifle_assault.printname"] = "Assault Rifle"
--- L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Assault"
--- L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_assault.printname"] = "Assault Rifle"
+L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Assault"
+L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Plasma Gun"
--- L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
--- L["unlameifier_sound_fo76_rifle_plasma.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Plasma Gun"
+L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
+L["unlameifier_sound_fo76_rifle_plasma.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_plasma_shotgun.printname"] = "Plasma Gun (Splitter)"
--- L["unlameifier_sound_fo76_rifle_plasma_shotgun.compactname"] = "Plasma (Split.)"
--- L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" equipped with a \"Splitter\" barrel mod from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.printname"] = "Plasma Gun (Splitter)"
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.compactname"] = "Plasma (Split.)"
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" equipped with a \"Splitter\" barrel mod from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_plasma_sniper.printname"] = "Plasma Gun (Sniper)"
--- L["unlameifier_sound_fo76_rifle_plasma_sniper.compactname"] = "Plasma (Sniper)"
--- L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" equipped with a \"Sniper\" barrel mod from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma_sniper.printname"] = "Plasma Gun (Sniper)"
+L["unlameifier_sound_fo76_rifle_plasma_sniper.compactname"] = "Plasma (Sniper)"
+L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" equipped with a \"Sniper\" barrel mod from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_rifle_10mm.printname"] = "10mm Submachine Gun"
--- L["unlameifier_sound_fo76_rifle_10mm.compactname"] = "10mm SMG"
--- L["unlameifier_sound_fo76_rifle_10mm.description"] = "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76."
+L["unlameifier_sound_fo76_rifle_10mm.printname"] = "10mm Submachine Gun"
+L["unlameifier_sound_fo76_rifle_10mm.compactname"] = "10mm SMG"
+L["unlameifier_sound_fo76_rifle_10mm.description"] = "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76."
 
--- L["unlameifier_sound_fo76_shotgun_doublebarrel.printname"] = "Double-Barreled Shotgun"
--- L["unlameifier_sound_fo76_shotgun_doublebarrel.compactname"] = "DB Shotgun"
--- L["unlameifier_sound_fo76_shotgun_doublebarrel.description"] = "Changes the firing sound of the weapon to the \"Double-Barreled Shotgun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_shotgun_doublebarrel.printname"] = "Double-Barreled Shotgun"
+L["unlameifier_sound_fo76_shotgun_doublebarrel.compactname"] = "DB Shotgun"
+L["unlameifier_sound_fo76_shotgun_doublebarrel.description"] = "Changes the firing sound of the weapon to the \"Double-Barreled Shotgun\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_shotgun_pump.printname"] = "Pump Action Shotgun"
--- L["unlameifier_sound_fo76_shotgun_pump.compactname"] = "PA Shotgun"
--- L["unlameifier_sound_fo76_shotgun_pump.description"] = "Changes the firing sound of the weapon to the \"Pump Action Shotgun\" from Fallout 76."
+L["unlameifier_sound_fo76_shotgun_pump.printname"] = "Pump Action Shotgun"
+L["unlameifier_sound_fo76_shotgun_pump.compactname"] = "PA Shotgun"
+L["unlameifier_sound_fo76_shotgun_pump.description"] = "Changes the firing sound of the weapon to the \"Pump Action Shotgun\" from Fallout 76."
 
--- L["unlameifier_sound_fo76_shotgun_combat.printname"] = "Combat Shotgun"
--- L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Combat Shot."
--- L["unlameifier_sound_fo76_shotgun_combat.description"] = "Changes the firing sound of the weapon to the \"Combat Shotgun\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_shotgun_combat.printname"] = "Combat Shotgun"
+L["unlameifier_sound_fo76_shotgun_combat.compactname"] = "Combat Shot."
+L["unlameifier_sound_fo76_shotgun_combat.description"] = "Changes the firing sound of the weapon to the \"Combat Shotgun\" from Fallout 4 and 76."
 
--- L["unlameifier_sound_fo76_syringer.printname"] = "Syringer"
--- L["unlameifier_sound_fo76_syringer.compactname"] = "Syringer"
--- L["unlameifier_sound_fo76_syringer.description"] = "Changes the firing sound of the weapon to the \"Syringer\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_syringer.printname"] = "Syringer"
+L["unlameifier_sound_fo76_syringer.compactname"] = "Syringer"
+L["unlameifier_sound_fo76_syringer.description"] = "Changes the firing sound of the weapon to the \"Syringer\" from Fallout 4 and 76." .. fo76nosupp
 
 //////////////// Fallout 4 & 76 Looping Audio
 ///////// Non-RPM-Specific
--- L["unlameifier_sound_fo76_auto_cryolator.printname"] = "Cryolator"
--- L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Cryolator"
--- L["unlameifier_sound_fo76_auto_cryolator.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_cryolator.printname"] = "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Cryolator"
+L["unlameifier_sound_fo76_auto_cryolator.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Cryolator (Crystallizing Barrel)"
--- L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (Crystal.)"
--- L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the \"Crystallizing Barrel\" mod." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Cryolator (Crystallizing Barrel)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (Crystal.)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the \"Crystallizing Barrel\" mod." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_auto_flamer.printname"] = "Flamer"
--- L["unlameifier_sound_fo76_auto_flamer.compactname"] = "Flamer"
--- L["unlameifier_sound_fo76_auto_flamer.description"] = "Changes the firing sound of the weapon to the \"Flamer\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_flamer.printname"] = "Flamer"
+L["unlameifier_sound_fo76_auto_flamer.compactname"] = "Flamer"
+L["unlameifier_sound_fo76_auto_flamer.description"] = "Changes the firing sound of the weapon to the \"Flamer\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_auto_gatlingplasma.printname"] = "Gatling Plasma"
--- L["unlameifier_sound_fo76_auto_gatlingplasma.compactname"] = "Gatling P."
--- L["unlameifier_sound_fo76_auto_gatlingplasma.description"] = "Changes the firing sound of the weapon to the \"Gatling Plasma\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_gatlingplasma.printname"] = "Gatling Plasma"
+L["unlameifier_sound_fo76_auto_gatlingplasma.compactname"] = "Gatling P."
+L["unlameifier_sound_fo76_auto_gatlingplasma.description"] = "Changes the firing sound of the weapon to the \"Gatling Plasma\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_auto_minigun.printname"] = "Minigun"
--- L["unlameifier_sound_fo76_auto_minigun.compactname"] = "Minigun"
--- L["unlameifier_sound_fo76_auto_minigun.description"] = "Changes the firing sound of the weapon to the \"Minigun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_minigun.printname"] = "Minigun"
+L["unlameifier_sound_fo76_auto_minigun.compactname"] = "Minigun"
+L["unlameifier_sound_fo76_auto_minigun.description"] = "Changes the firing sound of the weapon to the \"Minigun\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_auto_rifle_lasergatling.printname"] = "Gatling Laser"
--- L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "Gatling L."
--- L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Laser\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_rifle_lasergatling.printname"] = "Gatling Laser"
+L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "Gatling L."
+L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Laser\" from Fallout 4 and 76." .. fo76nosupp
 
--- L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Plasma Gun (Flamer Barrel)"
--- L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (F.)"
--- L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76 with the \"Flamer Barrel\" mod equipped." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Plasma Gun (Flamer Barrel)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (F.)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76 with the \"Flamer Barrel\" mod equipped." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_smg.printname"] = "Submachine Gun"
--- L["unlameifier_sound_fo76_rifle_smg.compactname"] = "SMG"
--- L["unlameifier_sound_fo76_rifle_smg.description"] = "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_smg.compactname"] = "SMG"
+L["unlameifier_sound_fo76_rifle_smg.description"] = "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 4 and 76."
 
 local fo76loop = "Uses looping sounds, shooting at <color=153,204,255>%s RPM</color>.\n"
 
@@ -1781,429 +1815,486 @@ L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
 //////////////// Battlefield 2
--- L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Sound Mods/BF2"
--- L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Sound Mods/BF2/Vehicle"
--- L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sound Mods/BF2/Stationary"
+L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Sound Mods/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Sound Mods/BF2/Vehicle"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sound Mods/BF2/Stationary"
 
--- L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sound Mods/Swing/BF2"
+L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sound Mods/Swing/BF2"
 
 local bf2nosupp = "\n\n<color=255,150,150>Note</color>: Does not have suppressed sounds."
 
--- L["unlameifier_sound_bf2_beretta92.printname"] = "92FS"
--- L["unlameifier_sound_bf2_beretta92.compactname"] = "92FS"
--- L["unlameifier_sound_bf2_beretta92.description"] = "Changes the firing sound of the weapon to the 92FS from Battlefield 2."
+L["unlameifier_sound_bf2_beretta92.printname"] = "92FS"
+L["unlameifier_sound_bf2_beretta92.compactname"] = "92FS"
+L["unlameifier_sound_bf2_beretta92.description"] = "Changes the firing sound of the weapon to the 92FS from Battlefield 2."
 
--- L["unlameifier_sound_bf2_ak47.printname"] = "AK-47"
--- L["unlameifier_sound_bf2_ak47.compactname"] = "AK-47"
--- L["unlameifier_sound_bf2_ak47.description"] = "Changes the firing sound of the weapon to the AK-47 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_ak47.printname"] = "AK-47"
+L["unlameifier_sound_bf2_ak47.compactname"] = "AK-47"
+L["unlameifier_sound_bf2_ak47.description"] = "Changes the firing sound of the weapon to the AK-47 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_ak74u.printname"] = "AK-74U"
--- L["unlameifier_sound_bf2_ak74u.compactname"] = "AK-74U"
--- L["unlameifier_sound_bf2_ak74u.description"] = "Changes the firing sound of the weapon to the AK-74U from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_ak74u.printname"] = "AK-74U"
+L["unlameifier_sound_bf2_ak74u.compactname"] = "AK-74U"
+L["unlameifier_sound_bf2_ak74u.description"] = "Changes the firing sound of the weapon to the AK-74U from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_bageera.printname"] = "MR-444"
--- L["unlameifier_sound_bf2_bageera.compactname"] = "MR-444"
--- L["unlameifier_sound_bf2_bageera.description"] = "Changes the firing sound of the weapon to the MR-444 from Battlefield 2."
+L["unlameifier_sound_bf2_bageera.printname"] = "MR-444"
+L["unlameifier_sound_bf2_bageera.compactname"] = "MR-444"
+L["unlameifier_sound_bf2_bageera.description"] = "Changes the firing sound of the weapon to the MR-444 from Battlefield 2."
 
--- L["unlameifier_sound_bf2_barret95.printname"] = "M95"
--- L["unlameifier_sound_bf2_barret95.compactname"] = "M95"
--- L["unlameifier_sound_bf2_barret95.description"] = "Changes the firing sound of the weapon to the M95 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_barret95.printname"] = "M95"
+L["unlameifier_sound_bf2_barret95.compactname"] = "M95"
+L["unlameifier_sound_bf2_barret95.description"] = "Changes the firing sound of the weapon to the M95 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_bizon.printname"] = "PP-19"
--- L["unlameifier_sound_bf2_bizon.compactname"] = "PP-19"
--- L["unlameifier_sound_bf2_bizon.description"] = "Changes the firing sound of the weapon to the PP-19 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_bizon.printname"] = "PP-19"
+L["unlameifier_sound_bf2_bizon.compactname"] = "PP-19"
+L["unlameifier_sound_bf2_bizon.description"] = "Changes the firing sound of the weapon to the PP-19 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_zipline.printname"] = "Crossbow"
--- L["unlameifier_sound_bf2_zipline.compactname"] = "Crossbow"
--- L["unlameifier_sound_bf2_zipline.description"] = "Changes the firing sound of the weapon to the Crossbow from Battlefield 2: Special Forces." .. bf2nosupp
+L["unlameifier_sound_bf2_zipline.printname"] = "Crossbow"
+L["unlameifier_sound_bf2_zipline.compactname"] = "Crossbow"
+L["unlameifier_sound_bf2_zipline.description"] = "Changes the firing sound of the weapon to the Crossbow from Battlefield 2: Special Forces." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_dragunov.printname"] = "SVD"
--- L["unlameifier_sound_bf2_dragunov.compactname"] = "SVD"
--- L["unlameifier_sound_bf2_dragunov.description"] = "Changes the firing sound of the weapon to the SVD from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_dragunov.printname"] = "SVD"
+L["unlameifier_sound_bf2_dragunov.compactname"] = "SVD"
+L["unlameifier_sound_bf2_dragunov.description"] = "Changes the firing sound of the weapon to the SVD from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_eryx.printname"] = "Eryx"
--- L["unlameifier_sound_bf2_eryx.compactname"] = "Eryx"
--- L["unlameifier_sound_bf2_eryx.description"] = "Changes the firing sound of the weapon to the Eryx from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_eryx.printname"] = "Eryx"
+L["unlameifier_sound_bf2_eryx.compactname"] = "Eryx"
+L["unlameifier_sound_bf2_eryx.description"] = "Changes the firing sound of the weapon to the Eryx from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_famas.printname"] = "FAMAS"
--- L["unlameifier_sound_bf2_famas.compactname"] = "FAMAS"
--- L["unlameifier_sound_bf2_famas.description"] = "Changes the firing sound of the weapon to the FAMAS from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_famas.printname"] = "FAMAS"
+L["unlameifier_sound_bf2_famas.compactname"] = "FAMAS"
+L["unlameifier_sound_bf2_famas.description"] = "Changes the firing sound of the weapon to the FAMAS from Battlefield 2: Euro Force." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_type95mg.printname"] = "Type 95"
--- L["unlameifier_sound_bf2_type95mg.compactname"] = "Type 95"
--- L["unlameifier_sound_bf2_type95mg.description"] = "Changes the firing sound of the weapon to the Type 95 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type95mg.printname"] = "Type 95"
+L["unlameifier_sound_bf2_type95mg.compactname"] = "Type 95"
+L["unlameifier_sound_bf2_type95mg.description"] = "Changes the firing sound of the weapon to the Type 95 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_predator.printname"] = "SRAW"
--- L["unlameifier_sound_bf2_predator.compactname"] = "SRAW"
--- L["unlameifier_sound_bf2_predator.description"] = "Changes the firing sound of the weapon to the SRAW from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_predator.printname"] = "SRAW"
+L["unlameifier_sound_bf2_predator.compactname"] = "SRAW"
+L["unlameifier_sound_bf2_predator.description"] = "Changes the firing sound of the weapon to the SRAW from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_fn2000.printname"] = "F2000"
--- L["unlameifier_sound_bf2_fn2000.compactname"] = "F2000"
--- L["unlameifier_sound_bf2_fn2000.description"] = "Changes the firing sound of the weapon to the F2000 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_fn2000.printname"] = "F2000"
+L["unlameifier_sound_bf2_fn2000.compactname"] = "F2000"
+L["unlameifier_sound_bf2_fn2000.description"] = "Changes the firing sound of the weapon to the F2000 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_fnp90.printname"] = "P90"
--- L["unlameifier_sound_bf2_fnp90.compactname"] = "P90"
--- L["unlameifier_sound_bf2_fnp90.description"] = "Changes the firing sound of the weapon to the P90 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_fnp90.printname"] = "P90"
+L["unlameifier_sound_bf2_fnp90.compactname"] = "P90"
+L["unlameifier_sound_bf2_fnp90.description"] = "Changes the firing sound of the weapon to the P90 from Battlefield 2: Euro Force." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_g3a2.printname"] = "G3"
--- L["unlameifier_sound_bf2_g3a2.compactname"] = "G3"
--- L["unlameifier_sound_bf2_g3a2.description"] = "Changes the firing sound of the weapon to the G3 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_g3a2.printname"] = "G3"
+L["unlameifier_sound_bf2_g3a2.compactname"] = "G3"
+L["unlameifier_sound_bf2_g3a2.description"] = "Changes the firing sound of the weapon to the G3 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_g36k.printname"] = "G36K"
--- L["unlameifier_sound_bf2_g36k.compactname"] = "G36K"
--- L["unlameifier_sound_bf2_g36k.description"] = "Changes the firing sound of the weapon to the G36K from Battlefield 2: Special Forces." .. bf2nosupp
+L["unlameifier_sound_bf2_g36k.printname"] = "G36K"
+L["unlameifier_sound_bf2_g36k.compactname"] = "G36K"
+L["unlameifier_sound_bf2_g36k.description"] = "Changes the firing sound of the weapon to the G36K from Battlefield 2: Special Forces." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_g36c.printname"] = "G36C"
--- L["unlameifier_sound_bf2_g36c.compactname"] = "G36C"
--- L["unlameifier_sound_bf2_g36c.description"] = "Changes the firing sound of the weapon to the G36C from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_g36c.printname"] = "G36C"
+L["unlameifier_sound_bf2_g36c.compactname"] = "G36C"
+L["unlameifier_sound_bf2_g36c.description"] = "Changes the firing sound of the weapon to the G36C from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_ak101.printname"] = "AK-101"
--- L["unlameifier_sound_bf2_ak101.compactname"] = "AK-101"
--- L["unlameifier_sound_bf2_ak101.description"] = "Changes the firing sound of the weapon to the AK-101 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_ak101.printname"] = "AK-101"
+L["unlameifier_sound_bf2_ak101.compactname"] = "AK-101"
+L["unlameifier_sound_bf2_ak101.description"] = "Changes the firing sound of the weapon to the AK-101 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_hk21.printname"] = "HK21"
--- L["unlameifier_sound_bf2_hk21.compactname"] = "HK21"
--- L["unlameifier_sound_bf2_hk21.description"] = "Changes the firing sound of the weapon to the HK21 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_hk21.printname"] = "HK21"
+L["unlameifier_sound_bf2_hk21.compactname"] = "HK21"
+L["unlameifier_sound_bf2_hk21.description"] = "Changes the firing sound of the weapon to the HK21 from Battlefield 2: Euro Force." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_hk53a3.printname"] = "HK53A3"
--- L["unlameifier_sound_bf2_hk53a3.compactname"] = "HK53A3"
--- L["unlameifier_sound_bf2_hk53a3.description"] = "Changes the firing sound of the weapon to the HK53A3 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_hk53a3.printname"] = "HK53A3"
+L["unlameifier_sound_bf2_hk53a3.compactname"] = "HK53A3"
+L["unlameifier_sound_bf2_hk53a3.description"] = "Changes the firing sound of the weapon to the HK53A3 from Battlefield 2: Euro Force." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_jackhammer.printname"] = "MK3A1"
--- L["unlameifier_sound_bf2_jackhammer.compactname"] = "MK3A1"
--- L["unlameifier_sound_bf2_jackhammer.description"] = "Changes the firing sound of the weapon to the MK3A1 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_jackhammer.printname"] = "MK3A1"
+L["unlameifier_sound_bf2_jackhammer.compactname"] = "MK3A1"
+L["unlameifier_sound_bf2_jackhammer.description"] = "Changes the firing sound of the weapon to the MK3A1 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_knife_swing.printname"] = "Knife"
--- L["unlameifier_sound_bf2_knife_swing.compactname"] = "Knife"
--- L["unlameifier_sound_bf2_knife_swing.description"] = "Changes the melee swing sound of the weapon to the Knife from Battlefield 2."
+L["unlameifier_sound_bf2_knife_swing.printname"] = "Knife"
+L["unlameifier_sound_bf2_knife_swing.compactname"] = "Knife"
+L["unlameifier_sound_bf2_knife_swing.description"] = "Changes the melee swing sound of the weapon to the Knife from Battlefield 2."
 
--- L["unlameifier_sound_bf2_l96a1.printname"] = "L96A1"
--- L["unlameifier_sound_bf2_l96a1.compactname"] = "L96A1"
--- L["unlameifier_sound_bf2_l96a1.description"] = "Changes the firing sound of the weapon to the L96A1 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_l96a1.printname"] = "L96A1"
+L["unlameifier_sound_bf2_l96a1.compactname"] = "L96A1"
+L["unlameifier_sound_bf2_l96a1.description"] = "Changes the firing sound of the weapon to the L96A1 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_benelli_m4.printname"] = "BENELLI M4"
--- L["unlameifier_sound_bf2_benelli_m4.compactname"] = "BENELLI"
--- L["unlameifier_sound_bf2_benelli_m4.description"] = "Changes the firing sound of the weapon to the BENELLI M4 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_benelli_m4.printname"] = "BENELLI M4"
+L["unlameifier_sound_bf2_benelli_m4.compactname"] = "BENELLI"
+L["unlameifier_sound_bf2_benelli_m4.description"] = "Changes the firing sound of the weapon to the BENELLI M4 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_m4.printname"] = "M4"
--- L["unlameifier_sound_bf2_m4.compactname"] = "M4"
--- L["unlameifier_sound_bf2_m4.description"] = "Changes the firing sound of the weapon to the M4 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m4.printname"] = "M4"
+L["unlameifier_sound_bf2_m4.compactname"] = "M4"
+L["unlameifier_sound_bf2_m4.description"] = "Changes the firing sound of the weapon to the M4 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_m16a2.printname"] = "M16A2"
--- L["unlameifier_sound_bf2_m16a2.compactname"] = "M16A2"
--- L["unlameifier_sound_bf2_m16a2.description"] = "Changes the firing sound of the weapon to the M16A2 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m16a2.printname"] = "M16A2"
+L["unlameifier_sound_bf2_m16a2.compactname"] = "M16A2"
+L["unlameifier_sound_bf2_m16a2.description"] = "Changes the firing sound of the weapon to the M16A2 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_m24.printname"] = "M24"
--- L["unlameifier_sound_bf2_m24.compactname"] = "M24"
--- L["unlameifier_sound_bf2_m24.description"] = "Changes the firing sound of the weapon to the M24 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m24.printname"] = "M24"
+L["unlameifier_sound_bf2_m24.compactname"] = "M24"
+L["unlameifier_sound_bf2_m24.description"] = "Changes the firing sound of the weapon to the M24 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_m203.printname"] = "M203"
--- L["unlameifier_sound_bf2_m203.compactname"] = "M203"
--- L["unlameifier_sound_bf2_m203.description"] = "Changes the firing sound of the weapon to the M203 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m203.printname"] = "M203"
+L["unlameifier_sound_bf2_m203.compactname"] = "M203"
+L["unlameifier_sound_bf2_m203.description"] = "Changes the firing sound of the weapon to the M203 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_m249.printname"] = "M249 SAW"
--- L["unlameifier_sound_bf2_m249.compactname"] = "M249"
--- L["unlameifier_sound_bf2_m249.description"] = "Changes the firing sound of the weapon to the M249 SAW from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m249.printname"] = "M249 SAW"
+L["unlameifier_sound_bf2_m249.compactname"] = "M249"
+L["unlameifier_sound_bf2_m249.description"] = "Changes the firing sound of the weapon to the M249 SAW from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_mg36.printname"] = "MG36"
--- L["unlameifier_sound_bf2_mg36.compactname"] = "MG36"
--- L["unlameifier_sound_bf2_mg36.description"] = "Changes the firing sound of the weapon to the MG36 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_mg36.printname"] = "MG36"
+L["unlameifier_sound_bf2_mg36.compactname"] = "MG36"
+L["unlameifier_sound_bf2_mg36.description"] = "Changes the firing sound of the weapon to the MG36 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_mp5.printname"] = "MP5"
--- L["unlameifier_sound_bf2_mp5.compactname"] = "MP5"
--- L["unlameifier_sound_bf2_mp5.description"] = "Changes the firing sound of the weapon to the MP5 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_mp5.printname"] = "MP5"
+L["unlameifier_sound_bf2_mp5.compactname"] = "MP5"
+L["unlameifier_sound_bf2_mp5.description"] = "Changes the firing sound of the weapon to the MP5 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_mp7.printname"] = "MP7"
--- L["unlameifier_sound_bf2_mp7.compactname"] = "MP7"
--- L["unlameifier_sound_bf2_mp7.description"] = "Changes the firing sound of the weapon to the MP7 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_mp7.printname"] = "MP7"
+L["unlameifier_sound_bf2_mp7.compactname"] = "MP7"
+L["unlameifier_sound_bf2_mp7.description"] = "Changes the firing sound of the weapon to the MP7 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_norinco982.printname"] = "NOR982"
--- L["unlameifier_sound_bf2_norinco982.compactname"] = "NOR982"
--- L["unlameifier_sound_bf2_norinco982.description"] = "Changes the firing sound of the weapon to the NOR982 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+L["unlameifier_sound_bf2_norinco982.printname"] = "NOR982"
+L["unlameifier_sound_bf2_norinco982.compactname"] = "NOR982"
+L["unlameifier_sound_bf2_norinco982.description"] = "Changes the firing sound of the weapon to the NOR982 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_pkm.printname"] = "PKM"
--- L["unlameifier_sound_bf2_pkm.compactname"] = "PKM"
--- L["unlameifier_sound_bf2_pkm.description"] = "Changes the firing sound of the weapon to the PKM from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_pkm.printname"] = "PKM"
+L["unlameifier_sound_bf2_pkm.compactname"] = "PKM"
+L["unlameifier_sound_bf2_pkm.description"] = "Changes the firing sound of the weapon to the PKM from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_protecta.printname"] = "DAO-12"
--- L["unlameifier_sound_bf2_protecta.compactname"] = "DAO-12"
--- L["unlameifier_sound_bf2_protecta.description"] = "Changes the firing sound of the weapon to the DAO-12 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_protecta.printname"] = "DAO-12"
+L["unlameifier_sound_bf2_protecta.compactname"] = "DAO-12"
+L["unlameifier_sound_bf2_protecta.description"] = "Changes the firing sound of the weapon to the DAO-12 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_qsz92.printname"] = "QSZ-92"
--- L["unlameifier_sound_bf2_qsz92.compactname"] = "QSZ-92"
--- L["unlameifier_sound_bf2_qsz92.description"] = "Changes the firing sound of the weapon to the QSZ-92 from Battlefield 2."
+L["unlameifier_sound_bf2_qsz92.printname"] = "QSZ-92"
+L["unlameifier_sound_bf2_qsz92.compactname"] = "QSZ-92"
+L["unlameifier_sound_bf2_qsz92.description"] = "Changes the firing sound of the weapon to the QSZ-92 from Battlefield 2."
 
--- L["unlameifier_sound_bf2_remington1187.printname"] = "M11-87"
--- L["unlameifier_sound_bf2_remington1187.compactname"] = "M11-87"
--- L["unlameifier_sound_bf2_remington1187.description"] = "Changes the firing sound of the weapon to the M11-87 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+L["unlameifier_sound_bf2_remington1187.printname"] = "M11-87"
+L["unlameifier_sound_bf2_remington1187.compactname"] = "M11-87"
+L["unlameifier_sound_bf2_remington1187.description"] = "Changes the firing sound of the weapon to the M11-87 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_rpk74.printname"] = "RPK-74"
--- L["unlameifier_sound_bf2_rpk74.compactname"] = "RPK-74"
--- L["unlameifier_sound_bf2_rpk74.description"] = "Changes the firing sound of the weapon to the RPK-74 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_rpk74.printname"] = "RPK-74"
+L["unlameifier_sound_bf2_rpk74.compactname"] = "RPK-74"
+L["unlameifier_sound_bf2_rpk74.description"] = "Changes the firing sound of the weapon to the RPK-74 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_sa80.printname"] = "L85A1"
--- L["unlameifier_sound_bf2_sa80.compactname"] = "L85A1"
--- L["unlameifier_sound_bf2_sa80.description"] = "Changes the firing sound of the weapon to the L85A1 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_sa80.printname"] = "L85A1"
+L["unlameifier_sound_bf2_sa80.compactname"] = "L85A1"
+L["unlameifier_sound_bf2_sa80.description"] = "Changes the firing sound of the weapon to the L85A1 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_sa80a2.printname"] = "L85A2"
--- L["unlameifier_sound_bf2_sa80a2.compactname"] = "L85A2"
--- L["unlameifier_sound_bf2_sa80a2.description"] = "Changes the firing sound of the weapon to the L85A2 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_sa80a2.printname"] = "L85A2"
+L["unlameifier_sound_bf2_sa80a2.compactname"] = "L85A2"
+L["unlameifier_sound_bf2_sa80a2.description"] = "Changes the firing sound of the weapon to the L85A2 from Battlefield 2: Euro Force." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_saiga12.printname"] = "S12K"
--- L["unlameifier_sound_bf2_saiga12.compactname"] = "S12K"
--- L["unlameifier_sound_bf2_saiga12.description"] = "Changes the firing sound of the weapon to the S12K from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_saiga12.printname"] = "S12K"
+L["unlameifier_sound_bf2_saiga12.compactname"] = "S12K"
+L["unlameifier_sound_bf2_saiga12.description"] = "Changes the firing sound of the weapon to the S12K from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_fnscarh.printname"] = "SCAR-H"
--- L["unlameifier_sound_bf2_fnscarh.compactname"] = "SCAR-H"
--- L["unlameifier_sound_bf2_fnscarh.description"] = "Changes the firing sound of the weapon to the SCAR-H from Battlefield 2: Special Forces." .. bf2nosupp
+L["unlameifier_sound_bf2_fnscarh.printname"] = "SCAR-H"
+L["unlameifier_sound_bf2_fnscarh.compactname"] = "SCAR-H"
+L["unlameifier_sound_bf2_fnscarh.description"] = "Changes the firing sound of the weapon to the SCAR-H from Battlefield 2: Special Forces." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_fnscarl.printname"] = "SCAR-L"
--- L["unlameifier_sound_bf2_fnscarl.compactname"] = "SCAR-L"
--- L["unlameifier_sound_bf2_fnscarl.description"] = "Changes the firing sound of the weapon to the SCAR-L from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_fnscarl.printname"] = "SCAR-L"
+L["unlameifier_sound_bf2_fnscarl.compactname"] = "SCAR-L"
+L["unlameifier_sound_bf2_fnscarl.description"] = "Changes the firing sound of the weapon to the SCAR-L from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_type85.printname"] = "Type 85"
--- L["unlameifier_sound_bf2_type85.compactname"] = "Type 85"
--- L["unlameifier_sound_bf2_type85.description"] = "Changes the firing sound of the weapon to the Type 85 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type85.printname"] = "Type 85"
+L["unlameifier_sound_bf2_type85.compactname"] = "Type 85"
+L["unlameifier_sound_bf2_type85.description"] = "Changes the firing sound of the weapon to the Type 85 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_type88.printname"] = "Type 88"
--- L["unlameifier_sound_bf2_type88.compactname"] = "Type 88"
--- L["unlameifier_sound_bf2_type88.description"] = "Changes the firing sound of the weapon to the Type 88 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type88.printname"] = "Type 88"
+L["unlameifier_sound_bf2_type88.compactname"] = "Type 88"
+L["unlameifier_sound_bf2_type88.description"] = "Changes the firing sound of the weapon to the Type 88 from Battlefield 2." .. bf2nosupp
 
--- L["unlameifier_sound_bf2_type95.printname"] = "QBZ-97"
--- L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
--- L["unlameifier_sound_bf2_type95.description"] = "Changes the firing sound of the weapon to the QBZ-97 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type95.printname"] = "QBZ-97"
+L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
+L["unlameifier_sound_bf2_type95.description"] = "Changes the firing sound of the weapon to the QBZ-97 from Battlefield 2." .. bf2nosupp
+
+//////////////// Battlefield 2142
+L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Sound Mods/BF2142"
+
+local bf2looping = "\n<color=255,150,150>Note</color>: Looping sound effect."
+
+L["unlameifier_sound_bf2142_as_rifle.printname"] = "Krylov FA-37 AR"
+L["unlameifier_sound_bf2142_as_rifle.compactname"] = "FA-37"
+L["unlameifier_sound_bf2142_as_rifle.description"] = "Changes the firing sound of the weapon to the Krylov FA-37 AR from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_mg.printname"] = "Let Shuko-maskingevær"
+L["unlameifier_sound_bf2142_as_mg.compactname"] = "Shuko"
+L["unlameifier_sound_bf2142_as_mg.description"] = "Changes the firing sound of the weapon to the Shuko LMG from Battlefield 2142." .. bf2nosupp .. bf2looping
+
+L["unlameifier_sound_bf2142_as_smg.printname"] = "Malkov RK-11-maskinpistol"
+L["unlameifier_sound_bf2142_as_smg.compactname"] = "RK-11"
+L["unlameifier_sound_bf2142_as_smg.description"] = "Changes the firing sound of the weapon to the Malkov RK-11 SMG from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_sniper.printname"] = "Park 52-snigskytteriffel"
+L["unlameifier_sound_bf2142_as_sniper.compactname"] = "Park 52"
+L["unlameifier_sound_bf2142_as_sniper.description"] = "Changes the firing sound of the weapon to the Park 52 Sniper Rifle from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_pistol.printname"] = "Takao T20-pistol"
+L["unlameifier_sound_bf2142_as_pistol.compactname"] = "T20"
+L["unlameifier_sound_bf2142_as_pistol.description"] = "Changes the firing sound of the weapon to the Takao T20 Pistol from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_rifle.printname"] = "SCAR 11 AR"
+L["unlameifier_sound_bf2142_eu_rifle.compactname"] = "SCAR 11"
+L["unlameifier_sound_bf2142_eu_rifle.description"] = "Changes the firing sound of the weapon to the SCAR 11 AR from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_mg.printname"] = "Let Bianchi-maskingevær"
+L["unlameifier_sound_bf2142_eu_mg.compactname"] = "Bianchi"
+L["unlameifier_sound_bf2142_eu_mg.description"] = "Changes the firing sound of the weapon to the Bianchi LMG from Battlefield 2142." .. bf2nosupp .. bf2looping
+
+L["unlameifier_sound_bf2142_eu_smg.printname"] = "Turcotte Rapid-maskinpistol"
+L["unlameifier_sound_bf2142_eu_smg.compactname"] = "Turcotte"
+L["unlameifier_sound_bf2142_eu_smg.description"] = "Changes the firing sound of the weapon to the Turcotte Rapid SMG from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_sniper.printname"] = "Morretti SR4-snigskytteriffel"
+L["unlameifier_sound_bf2142_eu_sniper.compactname"] = "SR4"
+L["unlameifier_sound_bf2142_eu_sniper.description"] = "Changes the firing sound of the weapon to the Morretti SR4 Sniper Rifle from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_pistol.printname"] = "P33 Pereira-pistol"
+L["unlameifier_sound_bf2142_eu_pistol.compactname"] = "P33"
+L["unlameifier_sound_bf2142_eu_pistol.description"] = "Changes the firing sound of the weapon to the P33 Pereira Pistol from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_adv_sniper.printname"] = "Av. Zeller-H-snigskytteriffel"
+L["unlameifier_sound_bf2142_unl_adv_sniper.compactname"] = "Zeller-H"
+L["unlameifier_sound_bf2142_unl_adv_sniper.description"] = "Changes the firing sound of the weapon to the Zeller-H Advanced Sniper Rifle from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_shotgun.printname"] = "Clark 15B-haglgevær"
+L["unlameifier_sound_bf2142_unl_shotgun.compactname"] = "Clark 15B"
+L["unlameifier_sound_bf2142_unl_shotgun.description"] = "Changes the firing sound of the weapon to the Clark 15B Shotgun from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert-karabinriffel"
+L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
+L["unlameifier_sound_bf2142_unl_carbine.description"] = "Changes the firing sound of the weapon to the Lambert Carbine from Battlefield 2142." .. bf2nosupp
 
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
 
 //////////////// HL2
--- L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
+L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
 
--- L["unlameifier_charms_hl2_skull.printname"] = "Skull"
--- L["unlameifier_charms_hl2_skull.compactname"] = "Skull"
--- L["unlameifier_charms_hl2_skull.description"] = "B-B-Bad to the bone."
+L["unlameifier_charms_hl2_skull.printname"] = "Skull"
+L["unlameifier_charms_hl2_skull.compactname"] = "Skull"
+L["unlameifier_charms_hl2_skull.description"] = "B-B-Bad to the bone."
 
--- L["unlameifier_charms_hl2_baby.printname"] = "Baby"
--- L["unlameifier_charms_hl2_baby.compactname"] = "Baby"
--- L["unlameifier_charms_hl2_baby.description"] = "Delicious pizza topping."
+L["unlameifier_charms_hl2_baby.printname"] = "Baby"
+L["unlameifier_charms_hl2_baby.compactname"] = "Baby"
+L["unlameifier_charms_hl2_baby.description"] = "Delicious pizza topping."
 
--- L["unlameifier_charms_hl2_can.printname"] = "Can"
--- L["unlameifier_charms_hl2_can.compactname"] = "Can"
--- L["unlameifier_charms_hl2_can.description"] = "\"Pick up that can\"."
+L["unlameifier_charms_hl2_can.printname"] = "Can"
+L["unlameifier_charms_hl2_can.compactname"] = "Can"
+L["unlameifier_charms_hl2_can.description"] = "\"Pick up that can\"."
 
--- L["unlameifier_charms_hl2_hula.printname"] = "Hula Doll"
--- L["unlameifier_charms_hl2_hula.compactname"] = "Doll"
--- L["unlameifier_charms_hl2_hula.description"] = "Reminder of a better place."
+L["unlameifier_charms_hl2_hula.printname"] = "Hula Doll"
+L["unlameifier_charms_hl2_hula.compactname"] = "Doll"
+L["unlameifier_charms_hl2_hula.description"] = "Reminder of a better place."
 
--- L["unlameifier_charms_hl2_milk.printname"] = "The Milk"
--- L["unlameifier_charms_hl2_milk.compactname"] = "Milk"
--- L["unlameifier_charms_hl2_milk.description"] = "Your dad can finally come home now."
+L["unlameifier_charms_hl2_milk.printname"] = "The Milk"
+L["unlameifier_charms_hl2_milk.compactname"] = "Milk"
+L["unlameifier_charms_hl2_milk.description"] = "Your dad can finally come home now."
 
--- L["unlameifier_charms_hl2_melon.printname"] = "Melon"
--- L["unlameifier_charms_hl2_melon.compactname"] = "Melon"
--- L["unlameifier_charms_hl2_melon.description"] = "melon :)"
+L["unlameifier_charms_hl2_melon.printname"] = "Melon"
+L["unlameifier_charms_hl2_melon.compactname"] = "Melon"
+L["unlameifier_charms_hl2_melon.description"] = "melon :)"
 
--- L["unlameifier_charms_hl2_science_team.printname"] = "The Science Team"
--- L["unlameifier_charms_hl2_science_team.compactname"] = "Scientists"
--- L["unlameifier_charms_hl2_science_team.description"] = "No! I'm with the science team!"
+L["unlameifier_charms_hl2_science_team.printname"] = "The Science Team"
+L["unlameifier_charms_hl2_science_team.compactname"] = "Scientists"
+L["unlameifier_charms_hl2_science_team.description"] = "No! I'm with the science team!"
 
--- L["unlameifier_charms_hl2_traffic_cone.printname"] = "Traffic Cone"
--- L["unlameifier_charms_hl2_traffic_cone.compactname"] = "Cone"
--- L["unlameifier_charms_hl2_traffic_cone.description"] = "We used to flip these things off the very edge of the world and slowly crawl our way down to the abyss to see if it landed right side up or not."
+L["unlameifier_charms_hl2_traffic_cone.printname"] = "Traffic Cone"
+L["unlameifier_charms_hl2_traffic_cone.compactname"] = "Cone"
+L["unlameifier_charms_hl2_traffic_cone.description"] = "We used to flip these things off the very edge of the world and slowly crawl our way down to the abyss to see if it landed right side up or not."
 
--- L["unlameifier_charms_hl2_bucket.printname"] = "The Bucket"
--- L["unlameifier_charms_hl2_bucket.compactname"] = "Bucket"
--- L["unlameifier_charms_hl2_bucket.description"] = "The emotional support bucket will join you on your journeys, no matter how grim your situation may be. Stanley Approved."
+L["unlameifier_charms_hl2_bucket.printname"] = "The Bucket"
+L["unlameifier_charms_hl2_bucket.compactname"] = "Bucket"
+L["unlameifier_charms_hl2_bucket.description"] = "The emotional support bucket will join you on your journeys, no matter how grim your situation may be. Stanley Approved."
 
--- L["unlameifier_charms_hl2_breen_bust.printname"] = "Breen Bust"
--- L["unlameifier_charms_hl2_breen_bust.compactname"] = "Breen"
--- L["unlameifier_charms_hl2_breen_bust.description"] = "\"Welcome! Welcome to City 17! You have chosen, or been chosen, to relocate to one of our finest remaining urban centers. I thought so much of City 17 that I elected to establish my administration here, in the Citadel so thoughtfully provided by our benefactors. I've been proud to call City 17 my home. And so, whether you are here to stay, or passing through on your way to parts unknown - welcome to City 17. It's safer here\"."
+L["unlameifier_charms_hl2_breen_bust.printname"] = "Breen Bust"
+L["unlameifier_charms_hl2_breen_bust.compactname"] = "Breen"
+L["unlameifier_charms_hl2_breen_bust.description"] = "\"Welcome! Welcome to City 17! You have chosen, or been chosen, to relocate to one of our finest remaining urban centers. I thought so much of City 17 that I elected to establish my administration here, in the Citadel so thoughtfully provided by our benefactors. I've been proud to call City 17 my home. And so, whether you are here to stay, or passing through on your way to parts unknown - welcome to City 17. It's safer here\"."
 
--- L["unlameifier_charms_hl2_crt.printname"] = "CRT Monitor"
--- L["unlameifier_charms_hl2_crt.compactname"] = "CRT"
--- L["unlameifier_charms_hl2_crt.description"] = "Nowadays, we put the monitor down gently to not break the monitor. Back then, we put THESE fuckers down gently to not break the table."
+L["unlameifier_charms_hl2_crt.printname"] = "CRT Monitor"
+L["unlameifier_charms_hl2_crt.compactname"] = "CRT"
+L["unlameifier_charms_hl2_crt.description"] = "Nowadays, we put the monitor down gently to not break the monitor. Back then, we put THESE fuckers down gently to not break the table."
 
--- L["unlameifier_charms_hl2_paintbucket.printname"] = "Bucket 'o Paint"
--- L["unlameifier_charms_hl2_paintbucket.compactname"] = "Paint"
--- L["unlameifier_charms_hl2_paintbucket.description"] = "...don't worry, we all thought the same thing the first time we saw one of these hit the wall."
+L["unlameifier_charms_hl2_paintbucket.printname"] = "Bucket 'o Paint"
+L["unlameifier_charms_hl2_paintbucket.compactname"] = "Paint"
+L["unlameifier_charms_hl2_paintbucket.description"] = "...don't worry, we all thought the same thing the first time we saw one of these hit the wall."
 
--- L["unlameifier_charms_hl2_plug.printname"] = "Plug"
--- L["unlameifier_charms_hl2_plug.compactname"] = "Plug"
--- L["unlameifier_charms_hl2_plug.description"] = "\"You going to let Gordon throw the switch?\""
+L["unlameifier_charms_hl2_plug.printname"] = "Plug"
+L["unlameifier_charms_hl2_plug.compactname"] = "Plug"
+L["unlameifier_charms_hl2_plug.description"] = "\"You going to let Gordon throw the switch?\""
 
--- L["unlameifier_charms_hl2_vending.printname"] = "Vending Machine"
--- L["unlameifier_charms_hl2_vending.compactname"] = "Vending"
--- L["unlameifier_charms_hl2_vending.description"] = "\"Don't drink the water. They put something in it to make you forget. I don't even remember how I got here.\""
+L["unlameifier_charms_hl2_vending.printname"] = "Vending Machine"
+L["unlameifier_charms_hl2_vending.compactname"] = "Vending"
+L["unlameifier_charms_hl2_vending.description"] = "\"Don't drink the water. They put something in it to make you forget. I don't even remember how I got here.\""
 
--- L["unlameifier_charms_hl2_headcrab.printname"] = "Headcrab"
--- L["unlameifier_charms_hl2_headcrab.compactname"] = "Headcrab"
--- L["unlameifier_charms_hl2_headcrab.description"] = "\"It's your pet, the freakin' head-humper!\""
+L["unlameifier_charms_hl2_headcrab.printname"] = "Headcrab"
+L["unlameifier_charms_hl2_headcrab.compactname"] = "Headcrab"
+L["unlameifier_charms_hl2_headcrab.description"] = "\"It's your pet, the freakin' head-humper!\""
 
--- L["unlameifier_charms_hl2_cheaple.printname"] = "Cheaple"
--- L["unlameifier_charms_hl2_cheaple.compactname"] = "Cheaple"
--- L["unlameifier_charms_hl2_cheaple.description"] = "Cheaple, my beloved..."
+L["unlameifier_charms_hl2_cheaple.printname"] = "Cheaple"
+L["unlameifier_charms_hl2_cheaple.compactname"] = "Cheaple"
+L["unlameifier_charms_hl2_cheaple.description"] = "Cheaple, my beloved..."
 
--- L["unlameifier_charms_hl2_hev.printname"] = "Mk. V Hazardous Environment Suit"
--- L["unlameifier_charms_hl2_hev.compactname"] = "H.E.V."
--- L["unlameifier_charms_hl2_hev.description"] = "\"I've made a few modifications, but I'll just acquaint you with the essentials. Now, let's see... The Mark V Hazardous Environment Suit has been redesigned for comfort and utility.\""
+L["unlameifier_charms_hl2_hev.printname"] = "Mk. V Hazardous Environment Suit"
+L["unlameifier_charms_hl2_hev.compactname"] = "H.E.V."
+L["unlameifier_charms_hl2_hev.description"] = "\"I've made a few modifications, but I'll just acquaint you with the essentials. Now, let's see... The Mark V Hazardous Environment Suit has been redesigned for comfort and utility.\""
 
--- L["unlameifier_charms_hl2_rollermine.printname"] = "Rollermine"
--- L["unlameifier_charms_hl2_rollermine.compactname"] = "Rollermine"
--- L["unlameifier_charms_hl2_rollermine.description"] = "Silly little guys. Fun to throw at people."
+L["unlameifier_charms_hl2_rollermine.printname"] = "Rollermine"
+L["unlameifier_charms_hl2_rollermine.compactname"] = "Rollermine"
+L["unlameifier_charms_hl2_rollermine.description"] = "Silly little guys. Fun to throw at people."
 
--- L["unlameifier_charms_hl2_suitcase.printname"] = "Suitcase"
--- L["unlameifier_charms_hl2_suitcase.compactname"] = "Suitcase"
--- L["unlameifier_charms_hl2_suitcase.description"] = "What mysteries lie within this suitcase?"
+L["unlameifier_charms_hl2_suitcase.printname"] = "Suitcase"
+L["unlameifier_charms_hl2_suitcase.compactname"] = "Suitcase"
+L["unlameifier_charms_hl2_suitcase.description"] = "What mysteries lie within this suitcase?"
 
--- L["unlameifier_charms_hl2_gravity_gun.printname"] = "Gravity Gun"
--- L["unlameifier_charms_hl2_gravity_gun.compactname"] = "Gravity Gun"
--- L["unlameifier_charms_hl2_gravity_gun.description"] = "\"Take the Gravity Gun.\""
+L["unlameifier_charms_hl2_gravity_gun.printname"] = "Gravity Gun"
+L["unlameifier_charms_hl2_gravity_gun.compactname"] = "Gravity Gun"
+L["unlameifier_charms_hl2_gravity_gun.description"] = "\"Take the Gravity Gun.\""
 
--- L["unlameifier_charms_hl2_crowbar.printname"] = "Crowbar"
--- L["unlameifier_charms_hl2_crowbar.compactname"] = "Crowbar"
--- L["unlameifier_charms_hl2_crowbar.description"] = "\"The right man in the wrong place can make all the difference in the world.\""
+L["unlameifier_charms_hl2_crowbar.printname"] = "Crowbar"
+L["unlameifier_charms_hl2_crowbar.compactname"] = "Crowbar"
+L["unlameifier_charms_hl2_crowbar.description"] = "\"The right man in the wrong place can make all the difference in the world.\""
 
--- L["unlameifier_charms_hl2_ravenholm.printname"] = "Ravenholm Sign"
--- L["unlameifier_charms_hl2_ravenholm.compactname"] = "Ravenholm"
--- L["unlameifier_charms_hl2_ravenholm.description"] = "Spoiler alert: We went to Ravenholm."
+L["unlameifier_charms_hl2_ravenholm.printname"] = "Ravenholm Sign"
+L["unlameifier_charms_hl2_ravenholm.compactname"] = "Ravenholm"
+L["unlameifier_charms_hl2_ravenholm.description"] = "Spoiler alert: We went to Ravenholm."
 
--- L["unlameifier_charms_hl2_medkit.printname"] = "Medkit"
--- L["unlameifier_charms_hl2_medkit.compactname"] = "Medkit"
--- L["unlameifier_charms_hl2_medkit.description"] = "\"Here, take this medkit!\""
+L["unlameifier_charms_hl2_medkit.printname"] = "Medkit"
+L["unlameifier_charms_hl2_medkit.compactname"] = "Medkit"
+L["unlameifier_charms_hl2_medkit.description"] = "\"Here, take this medkit!\""
 
--- L["unlameifier_charms_hl2_suit_battery.printname"] = "Suit Battery"
--- L["unlameifier_charms_hl2_suit_battery.compactname"] = "Battery"
--- L["unlameifier_charms_hl2_suit_battery.description"] = "Makes a cool sound whenever you pick them up. Technically backwards, but this is the COOLER side."
+L["unlameifier_charms_hl2_suit_battery.printname"] = "Suit Battery"
+L["unlameifier_charms_hl2_suit_battery.compactname"] = "Battery"
+L["unlameifier_charms_hl2_suit_battery.description"] = "Makes a cool sound whenever you pick them up. Technically backwards, but this is the COOLER side."
 
--- L["unlameifier_charms_hl2_item_crate.printname"] = "Item Crate"
--- L["unlameifier_charms_hl2_item_crate.compactname"] = "Crate"
--- L["unlameifier_charms_hl2_item_crate.description"] = "Will always have exactly what you need. No, seriously. That is how this thing is coded to work. It checks to see what you need the most. Don't believe me? Try dumping all your ammo on one gun just before smashing one of these guys open!"
+L["unlameifier_charms_hl2_item_crate.printname"] = "Item Crate"
+L["unlameifier_charms_hl2_item_crate.compactname"] = "Crate"
+L["unlameifier_charms_hl2_item_crate.description"] = "Will always have exactly what you need. No, seriously. That is how this thing is coded to work. It checks to see what you need the most. Don't believe me? Try dumping all your ammo on one gun just before smashing one of these guys open!"
 
 //////////////// Developer Stuff
--- L["unlameifier.folder.charms.dev"] = "Unlameifier/Dev"
+L["unlameifier.folder.charms.dev"] = "Unlameifier/Dev"
 
--- L["unlameifier_charms_dev_info_player_start.printname"] = "info_player_start"
--- L["unlameifier_charms_dev_info_player_start.compactname"] = "info_player_start"
--- L["unlameifier_charms_dev_info_player_start.description"] = "Spawn point in the Hammer Editor."
+L["unlameifier_charms_dev_info_player_start.printname"] = "info_player_start"
+L["unlameifier_charms_dev_info_player_start.compactname"] = "info_player_start"
+L["unlameifier_charms_dev_info_player_start.description"] = "Spawn point in the Hammer Editor."
 
--- L["unlameifier_charms_dev_error.printname"] = "ERROR"
--- L["unlameifier_charms_dev_error.compactname"] = "ERROR"
--- L["unlameifier_charms_dev_error.description"] = "\"F**K! WHY IS CS:S REQUIRED FOR THIS?!\""
+L["unlameifier_charms_dev_error.printname"] = "ERROR"
+L["unlameifier_charms_dev_error.compactname"] = "ERROR"
+L["unlameifier_charms_dev_error.description"] = "\"F**K! WHY IS CS:S REQUIRED FOR THIS?!\""
 
--- L["unlameifier_charms_dev_ground_node.printname"] = "Ground Node"
--- L["unlameifier_charms_dev_ground_node.compactname"] = "Ground Node"
--- L["unlameifier_charms_dev_ground_node.description"] = "You might want some of these if you want to fight NPCs..."
+L["unlameifier_charms_dev_ground_node.printname"] = "Ground Node"
+L["unlameifier_charms_dev_ground_node.compactname"] = "Ground Node"
+L["unlameifier_charms_dev_ground_node.description"] = "You might want some of these if you want to fight NPCs..."
 
 //////////////// Counter-Strike: Source
--- L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
+L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
 
 local requirescss = "\n\n<color=255,100,100>NOTE</color>: Requires Counter-Strike: Source to be mounted in order to work."
 
--- L["unlameifier_charms_css_cash.printname"] = "Cold Hard Cash"
--- L["unlameifier_charms_css_cash.compactname"] = "Cash"
--- L["unlameifier_charms_css_cash.description"] = "Tons of cold hard cash, perfect for any heister."
+L["unlameifier_charms_css_cash.printname"] = "Cold Hard Cash"
+L["unlameifier_charms_css_cash.compactname"] = "Cash"
+L["unlameifier_charms_css_cash.description"] = "Tons of cold hard cash, perfect for any heister."
 
--- L["unlameifier_charms_css_snowman.printname"] = "Snowman"
--- L["unlameifier_charms_css_snowman.compactname"] = "Snowman"
--- L["unlameifier_charms_css_snowman.description"] = "He's a really chill guy once you get to know him."
+L["unlameifier_charms_css_snowman.printname"] = "Snowman"
+L["unlameifier_charms_css_snowman.compactname"] = "Snowman"
+L["unlameifier_charms_css_snowman.description"] = "He's a really chill guy once you get to know him."
 
--- L["unlameifier_charms_css_coffee_mug.printname"] = "Coffee Mug"
--- L["unlameifier_charms_css_coffee_mug.compactname"] = "Mug"
--- L["unlameifier_charms_css_coffee_mug.description"] = "Sleep? What's that?"
+L["unlameifier_charms_css_coffee_mug.printname"] = "Coffee Mug"
+L["unlameifier_charms_css_coffee_mug.compactname"] = "Mug"
+L["unlameifier_charms_css_coffee_mug.description"] = "Sleep? What's that?"
 
--- L["unlameifier_charms_css_fish.printname"] = "Fish"
--- L["unlameifier_charms_css_fish.compactname"] = "Fish"
--- L["unlameifier_charms_css_fish.description"] = "Fish."
+L["unlameifier_charms_css_fish.printname"] = "Fish"
+L["unlameifier_charms_css_fish.compactname"] = "Fish"
+L["unlameifier_charms_css_fish.description"] = "Fish."
 
--- L["unlameifier_charms_css_turtle.printname"] = "Turtle"
--- L["unlameifier_charms_css_turtle.compactname"] = "Turtle"
--- L["unlameifier_charms_css_turtle.description"] = "\"I like turtles.\""
+L["unlameifier_charms_css_turtle.printname"] = "Turtle"
+L["unlameifier_charms_css_turtle.compactname"] = "Turtle"
+L["unlameifier_charms_css_turtle.description"] = "\"I like turtles.\""
 
--- L["unlameifier_charms_css_c4.printname"] = "C4"
--- L["unlameifier_charms_css_c4.compactname"] = "C4"
--- L["unlameifier_charms_css_c4.description"] = "This really is \"the bomb\"."
+L["unlameifier_charms_css_c4.printname"] = "C4"
+L["unlameifier_charms_css_c4.compactname"] = "C4"
+L["unlameifier_charms_css_c4.description"] = "This really is \"the bomb\"."
 
--- L["unlameifier_charms_css_knife.printname"] = "Knife"
--- L["unlameifier_charms_css_knife.compactname"] = "Knife"
--- L["unlameifier_charms_css_knife.description"] = "\"DOOR STUCK! DOOR STUCK!\""
+L["unlameifier_charms_css_knife.printname"] = "Knife"
+L["unlameifier_charms_css_knife.compactname"] = "Knife"
+L["unlameifier_charms_css_knife.description"] = "\"DOOR STUCK! DOOR STUCK!\""
 
--- L["unlameifier_charms_css_deagle.printname"] = "Deagle"
--- L["unlameifier_charms_css_deagle.compactname"] = "Deagle"
--- L["unlameifier_charms_css_deagle.description"] = "Wielded by none other than the legendary Juan Deag himself."
+L["unlameifier_charms_css_deagle.printname"] = "Deagle"
+L["unlameifier_charms_css_deagle.compactname"] = "Deagle"
+L["unlameifier_charms_css_deagle.description"] = "Wielded by none other than the legendary Juan Deag himself."
 
--- L["unlameifier_charms_css_pc.printname"] = "PC"
--- L["unlameifier_charms_css_pc.compactname"] = "PC"
--- L["unlameifier_charms_css_pc.description"] = "Aren't you playing on one of these?"
+L["unlameifier_charms_css_pc.printname"] = "PC"
+L["unlameifier_charms_css_pc.compactname"] = "PC"
+L["unlameifier_charms_css_pc.description"] = "Aren't you playing on one of these?"
 
--- L["unlameifier_charms_css_i_hate_skibidi_toilet.printname"] = "Toilet"
--- L["unlameifier_charms_css_i_hate_skibidi_toilet.compactname"] = "Toilet"
--- L["unlameifier_charms_css_i_hate_skibidi_toilet.description"] = "I refuse to comment."
+L["unlameifier_charms_css_i_hate_skibidi_toilet.printname"] = "Toilet"
+L["unlameifier_charms_css_i_hate_skibidi_toilet.compactname"] = "Toilet"
+L["unlameifier_charms_css_i_hate_skibidi_toilet.description"] = "I refuse to comment."
 
--- L["unlameifier_charms_css_keyboard.printname"] = "Keyboard"
--- L["unlameifier_charms_css_keyboard.compactname"] = "Keyboard"
--- L["unlameifier_charms_css_keyboard.description"] = "Why call it \"keyboard\" when there's clearly buttons...?"
+L["unlameifier_charms_css_keyboard.printname"] = "Keyboard"
+L["unlameifier_charms_css_keyboard.compactname"] = "Keyboard"
+L["unlameifier_charms_css_keyboard.description"] = "Why call it \"keyboard\" when there's clearly buttons...?"
 
--- L["unlameifier_charms_css_mouse.printname"] = "Mouse"
--- L["unlameifier_charms_css_mouse.compactname"] = "Mouse"
--- L["unlameifier_charms_css_mouse.description"] = "Computer mice were named after actual mice, so \"mice\" should absolutely be the official plural for computer mice. Fight me."
+L["unlameifier_charms_css_mouse.printname"] = "Mouse"
+L["unlameifier_charms_css_mouse.compactname"] = "Mouse"
+L["unlameifier_charms_css_mouse.description"] = "Computer mice were named after actual mice, so \"mice\" should absolutely be the official plural for computer mice. Fight me."
 
--- L["unlameifier_charms_css_monitor.printname"] = "Monitor"
--- L["unlameifier_charms_css_monitor.compactname"] = "Monitor"
--- L["unlameifier_charms_css_monitor.description"] = "Despite the keyring punching right through it, it still works. It's just built different."
+L["unlameifier_charms_css_monitor.printname"] = "Monitor"
+L["unlameifier_charms_css_monitor.compactname"] = "Monitor"
+L["unlameifier_charms_css_monitor.description"] = "Despite the keyring punching right through it, it still works. It's just built different."
 
--- L["unlameifier_charms_css_cinderblocks.printname"] = "Cinderblocks"
--- L["unlameifier_charms_css_cinderblocks.compactname"] = "Cinderblocks"
--- L["unlameifier_charms_css_cinderblocks.description"] = "In theory, this *should* reduce your recoil."
+L["unlameifier_charms_css_cinderblocks.printname"] = "Cinderblocks"
+L["unlameifier_charms_css_cinderblocks.compactname"] = "Cinderblocks"
+L["unlameifier_charms_css_cinderblocks.description"] = "In theory, this *should* reduce your recoil."
 
 //////////////// Garry's Mod
--- L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
+L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
 
--- L["unlameifier_charms_gmod_tnt.printname"] = "TNT"
--- L["unlameifier_charms_gmod_tnt.compactname"] = "TNT"
--- L["unlameifier_charms_gmod_tnt.description"] = "Use \"Drive\" on the context menu with these guys to make a hilarious prank for your friends."
+L["unlameifier_charms_gmod_tnt.printname"] = "TNT"
+L["unlameifier_charms_gmod_tnt.compactname"] = "TNT"
+L["unlameifier_charms_gmod_tnt.description"] = "Use \"Drive\" on the context menu with these guys to make a hilarious prank for your friends."
 
--- L["unlameifier_charms_gmod_do_not_press.printname"] = "\"DO NOT PRESS\""
--- L["unlameifier_charms_gmod_do_not_press.compactname"] = "DNP"
--- L["unlameifier_charms_gmod_do_not_press.description"] = "You're gonna press it, aren't you?"
+L["unlameifier_charms_gmod_do_not_press.printname"] = "\"DO NOT PRESS\""
+L["unlameifier_charms_gmod_do_not_press.compactname"] = "DNP"
+L["unlameifier_charms_gmod_do_not_press.description"] = "You're gonna press it, aren't you?"
 
--- L["unlameifier_charms_gmod_light_switch.printname"] = "Light Switch"
--- L["unlameifier_charms_gmod_light_switch.compactname"] = "Switch"
--- L["unlameifier_charms_gmod_light_switch.description"] = "It's turned on..."
+L["unlameifier_charms_gmod_light_switch.printname"] = "Light Switch"
+L["unlameifier_charms_gmod_light_switch.compactname"] = "Switch"
+L["unlameifier_charms_gmod_light_switch.description"] = "It's turned on..."
 
--- L["unlameifier_charms_gmod_hoverball.printname"] = "Hoverball"
--- L["unlameifier_charms_gmod_hoverball.compactname"] = "Hoverball"
--- L["unlameifier_charms_gmod_hoverball.description"] = "It makes things hover."
+L["unlameifier_charms_gmod_hoverball.printname"] = "Hoverball"
+L["unlameifier_charms_gmod_hoverball.compactname"] = "Hoverball"
+L["unlameifier_charms_gmod_hoverball.description"] = "It makes things hover."
 
--- L["unlameifier_charms_gmod_camera_tool.printname"] = "Camera (Tool)"
--- L["unlameifier_charms_gmod_camera_tool.compactname"] = "Camera"
--- L["unlameifier_charms_gmod_camera_tool.description"] = "Camera as seen from the Camera Tool."
+L["unlameifier_charms_gmod_camera_tool.printname"] = "Camera (Tool)"
+L["unlameifier_charms_gmod_camera_tool.compactname"] = "Camera"
+L["unlameifier_charms_gmod_camera_tool.description"] = "Camera as seen from the Camera Tool."
 
--- L["unlameifier_charms_gmod_burger.printname"] = "Burger"
--- L["unlameifier_charms_gmod_burger.compactname"] = "Burger"
--- L["unlameifier_charms_gmod_burger.description"] = "mmm yummy burger :)"
+L["unlameifier_charms_gmod_burger.printname"] = "Burger"
+L["unlameifier_charms_gmod_burger.compactname"] = "Burger"
+L["unlameifier_charms_gmod_burger.description"] = "mmm yummy burger :)"
 
--- L["unlameifier_charms_gmod_hotdog.printname"] = "Hotdog"
--- L["unlameifier_charms_gmod_hotdog.compactname"] = "Hotdog"
--- L["unlameifier_charms_gmod_hotdog.description"] = "mmm yummy hotdog :)"
+L["unlameifier_charms_gmod_hotdog.printname"] = "Hotdog"
+L["unlameifier_charms_gmod_hotdog.compactname"] = "Hotdog"
+L["unlameifier_charms_gmod_hotdog.description"] = "mmm yummy hotdog :)"
 
 //////////////// Team Fortress 2
--- L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
+L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
 
 local requirestf2 = "\n\n<color=255,100,100>NOTE</color>: Requires Team Fortress 2 to be mounted in order to work."
 
--- L["unlameifier_charms_tf2_spider.printname"] = "Spider"
--- L["unlameifier_charms_tf2_spider.compactname"] = "Spider"
--- L["unlameifier_charms_tf2_spider.description"] = "How do I shoot web?"
+L["unlameifier_charms_tf2_spider.printname"] = "Spider"
+L["unlameifier_charms_tf2_spider.compactname"] = "Spider"
+L["unlameifier_charms_tf2_spider.description"] = "How do I shoot web?"
 
--- L["unlameifier_charms_tf2_ghost.printname"] = "Ghost"
--- L["unlameifier_charms_tf2_ghost.compactname"] = "Ghost"
--- L["unlameifier_charms_tf2_ghost.description"] = "Spook up your gun with a super scary GHOST!!"
+L["unlameifier_charms_tf2_ghost.printname"] = "Ghost"
+L["unlameifier_charms_tf2_ghost.compactname"] = "Ghost"
+L["unlameifier_charms_tf2_ghost.description"] = "Spook up your gun with a super scary GHOST!!"
 
--- L["unlameifier_charms_tf2_bat.printname"] = "Bat"
--- L["unlameifier_charms_tf2_bat.compactname"] = "Bat"
--- L["unlameifier_charms_tf2_bat.description"] = "Put your gun in its goth phase."
+L["unlameifier_charms_tf2_bat.printname"] = "Bat"
+L["unlameifier_charms_tf2_bat.compactname"] = "Bat"
+L["unlameifier_charms_tf2_bat.description"] = "Put your gun in its goth phase."
 
--- L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
--- L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
--- L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."
+L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
+L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
+L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."

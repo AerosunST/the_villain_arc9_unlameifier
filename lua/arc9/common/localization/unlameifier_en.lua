@@ -264,6 +264,12 @@ L["eft_unlameifier_toys_lightning.description"] = [[Unlike spark, this one is MU
 
 Visually, this has the same effect as when you kill something with the Super Gravity Gun. Pretty neat!]]
 
+L["eft_unlameifier_toys_gsr_zeus.printname"] = "Zeus x27 Muzzle Effect"
+L["eft_unlameifier_toys_gsr_zeus.compactname"] = "Zeus Muzzle"
+L["eft_unlameifier_toys_gsr_zeus.description"] = [[Overrides the weapon's muzzle effect with the one used on the Zeus x27 from the Gunsmith Reloaded addon.
+
+<color=255,100,100>WARNING</color>: Requires Gunsmith Reloaded. If not installed, expect broken particle effects.]]
+
 //////////////// Impact Decals
 L["eft_unlameifier_toys_impact_blood.printname"] = "Blood Decal"
 L["eft_unlameifier_toys_impact_blood.compactname"] = "Blood"
@@ -786,6 +792,10 @@ note: Unlameifier and its creator, Neosun, does not promote, condone, or encoura
 
 If you feel like you need someone to talk to, feel free to add me on Steam (just make sure to leave a comment mentioning this attachment so I don't think you're spam) ♥]]
 
+L["unlameifier_sound_misc_lightning.printname"] = "Lightning Storm"
+L["unlameifier_sound_misc_lightning.compactname"] = "Lightning"
+L["unlameifier_sound_misc_lightning.description"] = "Wield the power of the tempest."
+
 L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage Parody"
 L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
 L["unlameifier_sound_misc_mlg.description"] = [[basically the gen z equivalent of skibidi toilet.
@@ -893,6 +903,30 @@ L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
 L["unlameifier_sound_ws_m16a4.description"] = [[Sounds taken from KindredFlame/WhiteSnow's legendary M16A4 from CW2.0.
 
 The legend never dies...]]
+
+//////////////// Misc. (Ricochet)
+L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Sound Mods/Misc./Ricochet"
+
+L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball Sounds"
+L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
+L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Makes the ricochets sound like a pinball machine. Sounds best with low-velocity projectiles.
+
+Combine with \"100% Ricochet Chance\", \"90° Ricochet\", \"+Ricochet Seeking\" and \"90° Ricochet Seeking\" in the Tuning System for a more realistic pinball experience.]]
+
+//////////////// Misc. (Impact)
+L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sound Mods/Misc./Impact"
+
+L["unlameifier_sound_impact_misc_discord.printname"] = "Discord Notification"
+L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord"
+L["unlameifier_sound_impact_misc_discord.description"] = [[Replaces the bullet impact sound with the Discord notification.
+
+Psychological warfare at its finest.]]
+
+L["unlameifier_sound_impact_misc_discord60s.printname"] = "Discord Notification at 60 Second Delay"
+L["unlameifier_sound_impact_misc_discord60s.compactname"] = "Discord 60s"
+L["unlameifier_sound_impact_misc_discord60s.description"] = [[Replaces the bullet impact sound with the Discord notification delayed by 60 seconds.
+
+Calm down, Satan.]]
 
 //////////////// Melee Sounds Misc (Impact)
 L["unlameifier.folder.sounds.melee.bonk"] = "Unlameifier/Sound Mods/Impact/Misc."
@@ -2299,6 +2333,63 @@ L["unlameifier_sound_bf2_type95.printname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.description"] = "Changes the firing sound of the weapon to the QBZ-97 from Battlefield 2." .. bf2nosupp
 
+//////////////// Battlefield 2142
+L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Sound Mods/BF2142"
+
+local bf2looping = "\n<color=255,150,150>Note</color>: Looping sound effect."
+
+L["unlameifier_sound_bf2142_as_rifle.printname"] = "Krylov FA-37 AR"
+L["unlameifier_sound_bf2142_as_rifle.compactname"] = "FA-37"
+L["unlameifier_sound_bf2142_as_rifle.description"] = "Changes the firing sound of the weapon to the Krylov FA-37 AR from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_mg.printname"] = "Shuko LMG"
+L["unlameifier_sound_bf2142_as_mg.compactname"] = "Shuko"
+L["unlameifier_sound_bf2142_as_mg.description"] = "Changes the firing sound of the weapon to the Shuko LMG from Battlefield 2142." .. bf2nosupp .. bf2looping
+
+L["unlameifier_sound_bf2142_as_smg.printname"] = "Malkov RK-11 SMG"
+L["unlameifier_sound_bf2142_as_smg.compactname"] = "RK-11"
+L["unlameifier_sound_bf2142_as_smg.description"] = "Changes the firing sound of the weapon to the Malkov RK-11 SMG from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_sniper.printname"] = "Park 52 Sniper Rifle"
+L["unlameifier_sound_bf2142_as_sniper.compactname"] = "Park 52"
+L["unlameifier_sound_bf2142_as_sniper.description"] = "Changes the firing sound of the weapon to the Park 52 Sniper Rifle from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_pistol.printname"] = "Takao T20 Pistol"
+L["unlameifier_sound_bf2142_as_pistol.compactname"] = "T20"
+L["unlameifier_sound_bf2142_as_pistol.description"] = "Changes the firing sound of the weapon to the Takao T20 Pistol from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_rifle.printname"] = "SCAR 11 AR"
+L["unlameifier_sound_bf2142_eu_rifle.compactname"] = "SCAR 11"
+L["unlameifier_sound_bf2142_eu_rifle.description"] = "Changes the firing sound of the weapon to the SCAR 11 AR from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_mg.printname"] = "Bianchi LMG"
+L["unlameifier_sound_bf2142_eu_mg.compactname"] = "Bianchi"
+L["unlameifier_sound_bf2142_eu_mg.description"] = "Changes the firing sound of the weapon to the Bianchi LMG from Battlefield 2142." .. bf2nosupp .. bf2looping
+
+L["unlameifier_sound_bf2142_eu_smg.printname"] = "Turcotte Rapid SMG"
+L["unlameifier_sound_bf2142_eu_smg.compactname"] = "Turcotte"
+L["unlameifier_sound_bf2142_eu_smg.description"] = "Changes the firing sound of the weapon to the Turcotte Rapid SMG from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_sniper.printname"] = "Morretti SR4 Sniper Rifle"
+L["unlameifier_sound_bf2142_eu_sniper.compactname"] = "SR4"
+L["unlameifier_sound_bf2142_eu_sniper.description"] = "Changes the firing sound of the weapon to the Morretti SR4 Sniper Rifle from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_pistol.printname"] = "P33 Pereira Pistol"
+L["unlameifier_sound_bf2142_eu_pistol.compactname"] = "P33"
+L["unlameifier_sound_bf2142_eu_pistol.description"] = "Changes the firing sound of the weapon to the P33 Pereira Pistol from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_adv_sniper.printname"] = "Zeller-H Adv Sniper Rifle"
+L["unlameifier_sound_bf2142_unl_adv_sniper.compactname"] = "Zeller-H"
+L["unlameifier_sound_bf2142_unl_adv_sniper.description"] = "Changes the firing sound of the weapon to the Zeller-H Advanced Sniper Rifle from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_shotgun.printname"] = "Clark 15B Shotgun"
+L["unlameifier_sound_bf2142_unl_shotgun.compactname"] = "Clark 15B"
+L["unlameifier_sound_bf2142_unl_shotgun.description"] = "Changes the firing sound of the weapon to the Clark 15B Shotgun from Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert Carbine"
+L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
+L["unlameifier_sound_bf2142_unl_carbine.description"] = "Changes the firing sound of the weapon to the Lambert Carbine from Battlefield 2142." .. bf2nosupp
+
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
@@ -2595,7 +2686,7 @@ L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
 L["unlameifier_tuning_system.printname"] = "Enable Tuning"
 L["unlameifier_tuning_system.compactname"] = "Tuning"
-L["unlameifier_tuning_system.description"] = [[Allows the user to <color=255,255,100>fine-tune the statistics of the weapon</color> by equipping various stat-altering attachments. Can be equipped in any order.
+L["unlameifier_tuning_system.description"] = [[Allows the user to <color=255,255,100>fine-tune the statistics of the weapon</color> by equipping various stat-altering attachments. Can be equipped in any order. For the sake of not causing clutter, the subslots will <color=255,255,100>NOT</color> appear in the 3D Interface.
 
 <color=255,100,100>WARNING</color>: This can be used to create super-ultra powerful cheat-like weapons. There are no restrictions on what this can create, so if you are a server owner, ensure that this attachment is disabled, unless you want players to utilize this. While ARC9 does have a function that disables attachments to everyone but admins, Unlameifier was never made with Multiplayer in mind, and therefore will not have this restriction.
 
@@ -5278,10 +5369,12 @@ L["unlameifier.folder.ammooverride.hl2"] = "Ammo Override/HL2"
 local ammoset = "Overrides the weapon ammo to <color=255,255,100>%s</color>."
 local ammosetfrom = "Overrides the weapon ammo to <color=255,255,100>%s</color> from the %s."
 
+local warnammoarccw = "\n\n<color=175,175,255>NOTE</color>: When using ArcCW's \"Custom Ammo Names\" function, this will instead appear as <color=255,255,100>%s</color>."
+
 ///// Half-Life 2
 L["unlameifier_tuning_ammo_override_ar2_hl2.printname"] = "Ammo Override - ar2"
 L["unlameifier_tuning_ammo_override_ar2_hl2.compactname"] = "ar2"
-L["unlameifier_tuning_ammo_override_ar2_hl2.description"] = string.format(ammosetfrom, "Rifle Ammo", "Overwatch Standard Issue (Pulse-Rifle)")
+L["unlameifier_tuning_ammo_override_ar2_hl2.description"] = string.format(ammosetfrom, "Pulse Ammo", "Overwatch Standard Issue (Pulse-Rifle)") .. string.format(warnammoarccw, "Rifle Ammo")
 
 L["unlameifier_tuning_ammo_override_ar2altfire_hl2.printname"] = "Ammo Override - ar2altfire"
 L["unlameifier_tuning_ammo_override_ar2altfire_hl2.compactname"] = "ar2altfire"
@@ -5293,7 +5386,7 @@ L["unlameifier_tuning_ammo_override_pistol_hl2.description"] = string.format(amm
 
 L["unlameifier_tuning_ammo_override_smg1_hl2.printname"] = "Ammo Override - smg1"
 L["unlameifier_tuning_ammo_override_smg1_hl2.compactname"] = "smg1"
-L["unlameifier_tuning_ammo_override_smg1_hl2.description"] = string.format(ammosetfrom, "Carbine Ammo", "SMG (Submachine Gun)") 
+L["unlameifier_tuning_ammo_override_smg1_hl2.description"] = string.format(ammosetfrom, "SMG Ammo", "SMG (Submachine Gun)")  .. string.format(warnammoarccw, "Carbine Ammo")
 
 L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.printname"] = "Ammo Override - smg1_grenade"
 L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.compactname"] = "smg1_grenade"
@@ -5301,7 +5394,7 @@ L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.description"] = string.form
 
 L["unlameifier_tuning_ammo_override_357_hl2.printname"] = "Ammo Override - 357"
 L["unlameifier_tuning_ammo_override_357_hl2.compactname"] = "357"
-L["unlameifier_tuning_ammo_override_357_hl2.description"] = string.format(ammosetfrom, "Magnum Ammo",  ".357 Magnum") 
+L["unlameifier_tuning_ammo_override_357_hl2.description"] = string.format(ammosetfrom, ".357 Ammo",  ".357 Magnum")  .. string.format(warnammoarccw, "Magnum Ammo")
 
 L["unlameifier_tuning_ammo_override_xbowbolt_hl2.printname"] = "Ammo Override - xbowbolt"
 L["unlameifier_tuning_ammo_override_xbowbolt_hl2.compactname"] = "xbowbolt"
@@ -5325,15 +5418,15 @@ L["unlameifier_tuning_ammo_override_slam_hl2.description"] = string.format(ammos
 
 L["unlameifier_tuning_ammo_override_alyxgun_hl2.printname"] = "Ammo Override - alyxgun"
 L["unlameifier_tuning_ammo_override_alyxgun_hl2.compactname"] = "alyxgun"
-L["unlameifier_tuning_ammo_override_alyxgun_hl2.description"] = string.format(ammoset, "alyxgun") 
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.description"] = string.format(ammoset, "Alyx Gun") 
 
 L["unlameifier_tuning_ammo_override_sniperround_hl2.printname"] = "Ammo Override - sniperround"
 L["unlameifier_tuning_ammo_override_sniperround_hl2.compactname"] = "sniperround"
-L["unlameifier_tuning_ammo_override_sniperround_hl2.description"] = string.format(ammoset, "sniperround") 
+L["unlameifier_tuning_ammo_override_sniperround_hl2.description"] = string.format(ammoset, "sniperround") .. string.format(warnammoarccw, "Sniper Ammo")
 
 L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.printname"] = "Ammo Override - sniperpenetratedround"
 L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.compactname"] = "sniperpenetratedround"
-L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.description"] = string.format(ammoset, "sniperpenetratedround") 
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.description"] = string.format(ammoset, "sniperpenetratedround") .. string.format(warnammoarccw, "Sniper Ammo")
 
 ///// Half-Life 1
 L["unlameifier_tuning_ammo_override_9mmround_hls.printname"] = "Ammo Override - 9mmround"

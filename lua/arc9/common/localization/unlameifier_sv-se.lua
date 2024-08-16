@@ -256,6 +256,12 @@ L["eft_unlameifier_toys_lightning.description"] = [[Likt chock, men denna är MY
 
 Visuellt så har denna samma effekt som när du dödar någon med Super Gravitationsvapnet. Ganska schysst!]]
 
+L["eft_unlameifier_toys_gsr_zeus.printname"] = "Mynningseffekt från Zeus x27"
+L["eft_unlameifier_toys_gsr_zeus.compactname"] = "Zeus-Effekt"
+L["eft_unlameifier_toys_gsr_zeus.description"] = [[Ersätter vapnets mynningseffekt med dem som från Zeus x27:an från tillägget \"Gunsmith Reloaded\".
+
+<color=255,100,100>VARNING</color>: Kräver \"Gunsmith Reloaded\". Om ej installerat så förvänta dig brutna partikeleffekter.]]
+
 //////////////// Impact Decals
 L["eft_unlameifier_toys_impact_blood.printname"] = "Bloddekal"
 L["eft_unlameifier_toys_impact_blood.compactname"] = "Blod"
@@ -775,6 +781,10 @@ Notera: Unlameifier och dess skapare, Neosun, främjar inte, gottgör eller uppm
 
 Mind har också tillgång till en chatt ifall man inte vill prata i telefon. Oavsett vilka svårigheter du har så finns det alltid hjälp ♥]]
 
+L["unlameifier_sound_misc_lightning.printname"] = "Lightning Storm"
+L["unlameifier_sound_misc_lightning.compactname"] = "Lightning"
+L["unlameifier_sound_misc_lightning.description"] = "Wield the power of the tempest."
+
 L["unlameifier_sound_misc_mlg.printname"] = "MLG Montage-Parodi"
 L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
 L["unlameifier_sound_misc_mlg.description"] = [[gen z-motsvarigheten till "skibidi toilet"
@@ -852,7 +862,7 @@ L["unlameifier_sound_music_usa1.printname"] = "\"The Star-Spangled Banner\""
 L["unlameifier_sound_music_usa1.compactname"] = "USA Nationalsång"
 L["unlameifier_sound_music_usa1.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
-GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa2.printname"] = "\"The Star-Spangled Banner\" men Arg"
 L["unlameifier_sound_music_usa2.compactname"] = "USA Nationalsång Arg"
@@ -860,19 +870,19 @@ L["unlameifier_sound_music_usa2.description"] = [[INGET ÄR MER AMERIKANSKT ÄN 
 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
 
-Tagen från BroForce-ljudspåret.]] -- "AMERICA" but in colour
+Tagen från BroForce-ljudspåret.]]  -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa3.printname"] = "\"Ode to Joy\""
 L["unlameifier_sound_music_usa3.compactname"] = "\"Ode to Joy\""
 L["unlameifier_sound_music_usa3.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
-GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa4.printname"] = "1812 Ouvertyr"
 L["unlameifier_sound_music_usa4.compactname"] = "1812 Ouvertyr"
 L["unlameifier_sound_music_usa4.description"] = [[INGET ÄR MER AMERIKANSKT ÄN ATT DUMPA 1776 FRIHETSSKOTT IN I KOMMUNISTISKT LUFTUTRYMME.
 
-GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]] -- "AMERICA" but in colour
+GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 //////////////// KindredFlame
 L["unlameifier.folder.sounds.ws"] = "Unlameifier/Ljudmodd/KindredFlame"
@@ -882,6 +892,30 @@ L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
 L["unlameifier_sound_ws_m16a4.description"] = [[Ljud tagna från KindredFlame/Whitesnows legendariska M16A4 från CW2.0.
 
 Legenden dör aldrig...]]
+
+//////////////// Misc. (Ricochet)
+L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Ljudmodd/Annat/Rikoschett"
+
+L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball-Ljud"
+L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
+L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Gör att ljuden från rikoschetter låter som en pinball-maskin. Låter bäst med projektiler med låg hastighet.
+
+Kombinera med \"100% Rikoschett Chans\", \"90° Rikoschett\", \"+Rikoschett Sök.\" och \"90° Rikoschett Sök.\" i Tuningsystemet för en mer realistisk pinball-upplevelse.]]
+
+//////////////// Misc. (Impact)
+L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Ljudmodd/Annat/Träffar"
+
+L["unlameifier_sound_impact_misc_discord.printname"] = "Discord-Notis"
+L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord"
+L["unlameifier_sound_impact_misc_discord.description"] = [[Ersätter skotträtff ljudet med Discord-notisen.
+
+Psykologisk krigföring.]]
+
+L["unlameifier_sound_impact_misc_discord60s.printname"] = "Discord-Notis med 60 Sekunders Fördröjning"
+L["unlameifier_sound_impact_misc_discord60s.compactname"] = "Discord 60s"
+L["unlameifier_sound_impact_misc_discord60s.description"] = [[Ersätter skotträtff ljudet med Discord-notisen fördröjd med 60 sekunder.
+
+Lugna ner sig, djävulen.]]
 
 //////////////// Melee Sounds Misc (Impact)
 L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Ljudmodd/Träffar/Annat"
@@ -1977,6 +2011,63 @@ L["unlameifier_sound_bf2_type95.printname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.description"] = "Ersätter skottljuden med dem från QBZ-97 från Battlefield 2." .. bf2nosupp
 
+//////////////// Battlefield 2142
+L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Sound Mods/BF2142"
+
+local bf2looping = "\n<color=255,150,150>Note</color>: Looping sound effect."
+
+L["unlameifier_sound_bf2142_as_rifle.printname"] = "Krylov FA-37 AR"
+L["unlameifier_sound_bf2142_as_rifle.compactname"] = "FA-37"
+L["unlameifier_sound_bf2142_as_rifle.description"] = "Ersätter skottljuden med dem från Krylov FA-37 AR från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_mg.printname"] = "Shuko LMG"
+L["unlameifier_sound_bf2142_as_mg.compactname"] = "Shuko"
+L["unlameifier_sound_bf2142_as_mg.description"] = "Ersätter skottljuden med dem från Shuko LMG från Battlefield 2142." .. bf2nosupp .. bf2looping
+
+L["unlameifier_sound_bf2142_as_smg.printname"] = "Malkov RK-11"
+L["unlameifier_sound_bf2142_as_smg.compactname"] = "RK-11"
+L["unlameifier_sound_bf2142_as_smg.description"] = "Ersätter skottljuden med dem från Malkov RK-11 från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_sniper.printname"] = "Park 52 precisionsgevär"
+L["unlameifier_sound_bf2142_as_sniper.compactname"] = "Park 52"
+L["unlameifier_sound_bf2142_as_sniper.description"] = "Ersätter skottljuden med dem från Park 52 precisionsgeväret från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_as_pistol.printname"] = "Takao T20-pistol"
+L["unlameifier_sound_bf2142_as_pistol.compactname"] = "T20"
+L["unlameifier_sound_bf2142_as_pistol.description"] = "Ersätter skottljuden med dem från Takao T20-pistolen från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_rifle.printname"] = "SCAR 11 AR"
+L["unlameifier_sound_bf2142_eu_rifle.compactname"] = "SCAR 11"
+L["unlameifier_sound_bf2142_eu_rifle.description"] = "Ersätter skottljuden med dem från SCAR 11 AR från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_mg.printname"] = "Bianchi FA-6"
+L["unlameifier_sound_bf2142_eu_mg.compactname"] = "Bianchi"
+L["unlameifier_sound_bf2142_eu_mg.description"] = "Ersätter skottljuden med dem från Bianchi FA-6:an från Battlefield 2142." .. bf2nosupp .. bf2looping
+
+L["unlameifier_sound_bf2142_eu_smg.printname"] = "Turcotte Rapid"
+L["unlameifier_sound_bf2142_eu_smg.compactname"] = "Turcotte"
+L["unlameifier_sound_bf2142_eu_smg.description"] = "Ersätter skottljuden med dem från Turcotte Rapid från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_sniper.printname"] = "Morretti SR4"
+L["unlameifier_sound_bf2142_eu_sniper.compactname"] = "SR4"
+L["unlameifier_sound_bf2142_eu_sniper.description"] = "Ersätter skottljuden med dem från Morretti SR4 från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_eu_pistol.printname"] = "P33 Pereira-pistol"
+L["unlameifier_sound_bf2142_eu_pistol.compactname"] = "P33"
+L["unlameifier_sound_bf2142_eu_pistol.description"] = "Ersätter skottljuden med dem från P33 Pereira-pistolen från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_adv_sniper.printname"] = "Zeller-H Präzision Av"
+L["unlameifier_sound_bf2142_unl_adv_sniper.compactname"] = "Zeller-H"
+L["unlameifier_sound_bf2142_unl_adv_sniper.description"] = "Ersätter skottljuden med dem från Zeller-H Präzision Av från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_shotgun.printname"] = "Clark 15B hagelgevär"
+L["unlameifier_sound_bf2142_unl_shotgun.compactname"] = "Clark 15B"
+L["unlameifier_sound_bf2142_unl_shotgun.description"] = "Ersätter skottljuden med dem från Clark 15B hagelgeväret från Battlefield 2142." .. bf2nosupp
+
+L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert-karbin"
+L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
+L["unlameifier_sound_bf2142_unl_carbine.description"] = "Ersätter skottljuden med dem från Lambert-karbinen från Battlefield 2142." .. bf2nosupp
+
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
@@ -2315,11 +2406,11 @@ local statsdesc = {
 	warnmalftoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för högt så kan den orsaka att vapnet får fel efter varje skott.",
 
 	warnheat = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Överhettning\" är avaktiverat.",
-	warnheattoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för högt så kan det orsaka att vapnet överhettas efter varje skott.", -- for "Hetta Per Skott"
-	warnheattoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för lågt så kan det orsaka att vapnet överhettas efter varje skott.", -- for " Hetta Kapacitet"
+	warnheattoohigh = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för högt så kan det orsaka att vapnet överhettas efter varje skott.",
+	warnheattoolow = "\n\n<color=255,100,100>VARNING</color>: Om värdet är för lågt så kan det orsaka att vapnet överhettas efter varje skott.",
 
-	warntrigger = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Avtryckare Fördröjning\" är avaktiverat.", -- for anything "Avtryckare Fördröjning" related
-	warntriggerauto = "\n<color=175,175,255>NOTERA</color>: Har ingen märkvärdig effekt ifall vapnet är satt till halvautomat.", -- for anything "Avtryckare Fördröjning" related
+	warntrigger = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Avtryckare Fördröjning\" är avaktiverat.",
+	warntriggerauto = "\n<color=175,175,255>NOTERA</color>: Har ingen märkvärdig effekt ifall vapnet är satt till halvautomat.",
 
 }
 

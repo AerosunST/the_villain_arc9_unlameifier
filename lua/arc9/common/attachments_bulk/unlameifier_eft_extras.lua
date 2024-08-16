@@ -2339,6 +2339,33 @@ ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_lightning")
 
 ATT = {}
 
+ATT.PrintName = "GSR Taser Muzzle Effect"
+ATT.CompactName = "GSR Taser"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Description = [[Overrides your weapon's muzzle effects with the Zeus from GSR.
+
+<color=255,100,100>WARNING:</color> Obviously, GSR is required for this to work. Expect broken particle effects otherwise.]]
+
+ATT.Category = {"eft_custom_slot", }
+ATT.Folder = "Unlameifier/Toys"
+ATT.AttNotForNPCs = true
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.MuzzleParticle = "weapon_muzzle_flash_taser"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_unlameifier_toys_gsr_zeus")
+
+ATT = {}
+
 ATT.PrintName = "Blood"
 ATT.CompactName = "Blood"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")

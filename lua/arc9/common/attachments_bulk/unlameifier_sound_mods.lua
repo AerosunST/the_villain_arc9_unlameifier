@@ -1944,6 +1944,36 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_ltg")
 
 ATT = {}
 
+ATT.PrintName = "Lightning Storm"
+ATT.CompactName = "Lightning"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc"
+ATT.Description = [[Wield the power of the tempest.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ShootSound = { "arc9/unlameifier/soundmods/misc/lightning1.ogg", "arc9/unlameifier/soundmods/misc/lightning2.ogg", "arc9/unlameifier/soundmods/misc/lightning3.ogg", "arc9/unlameifier/soundmods/misc/lightning4.ogg", "arc9/unlameifier/soundmods/misc/lightning5.ogg",}
+ATT.ShootSoundIndoor = { "arc9/unlameifier/soundmods/misc/lightning1.ogg", "arc9/unlameifier/soundmods/misc/lightning2.ogg", "arc9/unlameifier/soundmods/misc/lightning3.ogg", "arc9/unlameifier/soundmods/misc/lightning4.ogg", "arc9/unlameifier/soundmods/misc/lightning5.ogg",}
+ATT.ShootSoundSilenced = { "arc9/unlameifier/soundmods/misc/lightning1.ogg", "arc9/unlameifier/soundmods/misc/lightning2.ogg", "arc9/unlameifier/soundmods/misc/lightning3.ogg", "arc9/unlameifier/soundmods/misc/lightning4.ogg", "arc9/unlameifier/soundmods/misc/lightning5.ogg",}
+ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/misc/lightning1.ogg", "arc9/unlameifier/soundmods/misc/lightning2.ogg", "arc9/unlameifier/soundmods/misc/lightning3.ogg", "arc9/unlameifier/soundmods/misc/lightning4.ogg", "arc9/unlameifier/soundmods/misc/lightning5.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/lightning4.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_misc_lightning")
+
+ATT = {}
+
 ATT.PrintName = "MLG Montage Parody"
 ATT.CompactName = "MLG"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
@@ -2413,6 +2443,97 @@ ATT.ShootSoundSilencedIndoor = { "arc9/unlameifier/soundmods/ws/m4a1-1.wav",}
 ATT.InstallSound = "arc9/unlameifier/soundmods/ws/famas-1.wav"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_ws_m16a4")
+
+// ////////// RICOCHET SOUNDS (MISC) //////////
+
+ATT = {}
+
+ATT.PrintName = "Pinball Sounds"
+ATT.CompactName = "Pinball"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc/Ricochet"
+ATT.Description = [[Makes your ricochet sounds sound like a pinball machine. Sounds best with low-velocity projectiles.
+
+Combo with 100% Ricochet Chance + 90 Degree Angle + Seeking Ricochet Enabled + 90 Degree Seeking Angle in the Tuning System for a realistic pinball experience.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.RicochetSounds = { "arc9/unlameifier/soundmods/misc/ricochet/pinball1.ogg", "arc9/unlameifier/soundmods/misc/ricochet/pinball2.ogg", "arc9/unlameifier/soundmods/misc/ricochet/pinball3.ogg", "arc9/unlameifier/soundmods/misc/ricochet/pinball4.ogg", "arc9/unlameifier/soundmods/misc/ricochet/pinball5.ogg", "arc9/unlameifier/soundmods/misc/ricochet/pinball6.ogg",}
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/ricochet/pinball1.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_ricochet_misc_pinball")
+
+// ////////// IMPACT SOUNDS (MISC) //////////
+
+ATT = {}
+
+ATT.PrintName = "Discord Ping (Instant)"
+ATT.CompactName = "Discord 0s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc/Impact"
+ATT.Description = [[Makes your bullet impact sound the Discord Notification ping.
+
+Psychological warfare.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ImpactSound = "arc9/unlameifier/soundmods/misc/impact/discord.ogg"
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/impact/discord.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_impact_misc_discord")
+
+ATT = {}
+
+ATT.PrintName = "Discord Ping (60 Second Delay)"
+ATT.CompactName = "Discord 60s"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_audio.png", "mips smooth")
+ATT.Folder = "Unlameifier/Sound Mods/Misc/Impact"
+ATT.Description = [[Makes your bullet impact sound the Discord Notification ping. There will be a 60 second delay until the sound actually plays because you are fucking evil.
+
+Calm down there, Satan.]]
+ATT.SortOrder = 0
+ATT.AttNotForNPCs = true
+
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.ImpactSound = "arc9/unlameifier/soundmods/misc/impact/discord60s.ogg"
+ATT.InstallSound = "arc9/unlameifier/soundmods/misc/impact/discord.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_impact_misc_discord60s")
 
 // ////////// MELEE SOUNDS MISC (IMPACT)//////////
 

@@ -26,25 +26,25 @@ Text in Line 2 ]]
 //////////////////////////////// unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Adaptador de amuletos (arriba)"
 L["unlameifier_eft_charm_up.compactname"] = "Amuletos (A)"
-L["unlameifier_eft_charm_up.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles montados encima para mejores resultados.
+L["unlameifier_eft_charm_up.description"] = [[Prueba súper experimental para ver si podemos crear un riel de amuletos universal. De manera óptima, úsalo en rieles montados encima para mejores resultados.
 
 Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
 L["unlameifier_eft_charm_down.printname"] = "Adaptador de amuletos (abajo)"
 L["unlameifier_eft_charm_down.compactname"] = "Amuletos (B)"
-L["unlameifier_eft_charm_down.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles montados debajo para mejores resultados.
+L["unlameifier_eft_charm_down.description"] = [[Prueba súper experimental para ver si podemos crear un riel de amuletos universal. De manera óptima, úsalo en rieles montados debajo para mejores resultados.
 
 Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
 L["unlameifier_eft_charm_left.printname"] = "Adaptador de amuletos (izquierda)"
 L["unlameifier_eft_charm_left.compactname"] = "Amuletos (I)"
-L["unlameifier_eft_charm_left.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles del lado izquierdo para mejores resultados.
+L["unlameifier_eft_charm_left.description"] = [[Prueba súper experimental para ver si podemos crear un riel de amuletos universal. De manera óptima, úsalo en rieles del lado izquierdo para mejores resultados.
 
 Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
 L["unlameifier_eft_charm_right.printname"] = "Adaptador de amuletos (derecha)"
 L["unlameifier_eft_charm_right.compactname"] = "Amuletos (D)"
-L["unlameifier_eft_charm_right.description"] = [[Prueba súper experimental para ver si podemos crear un rail de amuletos universal. Óptimamente, úsalo en raíles del lado derecho para mejores resultados.
+L["unlameifier_eft_charm_right.description"] = [[Prueba súper experimental para ver si podemos crear un riel de amuletos universal. De manera óptima, úsalo en rieles del lado derecho para mejores resultados.
 
 Mejor usado con pantallas de estadísticas. Las pegatinas no funcionan actualmente. No hay manera de forzar ForceNoCosmetics = true.]]
 
@@ -267,7 +267,7 @@ L["eft_unlameifier_toys_impact_cross.description"] = "¡La X marca el lugar!"
 
 L["eft_unlameifier_toys_impact_eye.printname"] = "Calcomanía de ojo"
 L["eft_unlameifier_toys_impact_eye.compactname"] = "Ojo"
-L["eft_unlameifier_toys_impact_eye.description"] = [[¡LOS OJOS! ¡ESTÁN POR TODAS PARTES!¡LO VEN TODO!
+L["eft_unlameifier_toys_impact_eye.description"] = [[¡LOS OJOS! ¡ESTÁN POR TODAS PARTES! ¡LO VEN TODO!
 
 NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO NO ESTOY LOCO]]
 
@@ -307,7 +307,7 @@ L["eft_unlameifier_toys_impact_paintsplatpink.description"] = "Eh, espera un mom
 
 L["eft_unlameifier_toys_impact_bigscorch.printname"] = "Calcomanía de quemadura grande"
 L["eft_unlameifier_toys_impact_bigscorch.compactname"] = "Quemadura grande"
-L["eft_unlameifier_toys_impact_bigscorch.description"] = "Para esas GRANDES balas."
+L["eft_unlameifier_toys_impact_bigscorch.description"] = "Para esas balas GRANDES."
 
 L["eft_unlameifier_toys_impact_smile.printname"] = "Calcomanía de sonrisa"
 L["eft_unlameifier_toys_impact_smile.compactname"] = "Sonrisa"
@@ -1225,196 +1225,196 @@ L["unlameifier_sound_tf2_dragonsfury.compactname"] = "Huo-Long"
 L["unlameifier_sound_tf2_dragonsfury.description"] = string.format(tf2desc.shoot, "de la Achicharradora Huo-Long") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_russianriot.printname"] = "El Negocio Familiar"
-L["unlameifier_sound_tf2_russianriot.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_russianriot.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_russianriot.compactname"] = "Negocio Fam."
+L["unlameifier_sound_tf2_russianriot.description"] = string.format(tf2desc.shoot, "del Negocio Familiar") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_achievement_flamethrower.printname"] = "El Tuestalomos"
-L["unlameifier_sound_tf2_achievement_flamethrower.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_achievement_flamethrower.description"] = string.format(tf2desc.shoot, "Backburner")
+L["unlameifier_sound_tf2_achievement_flamethrower.compactname"] = "Tuestalomos"
+L["unlameifier_sound_tf2_achievement_flamethrower.description"] = string.format(tf2desc.shoot, "del Tuestalomos")
 
 L["unlameifier_sound_tf2_thedegreaser.printname"] = "El Desengrasador"
-L["unlameifier_sound_tf2_thedegreaser.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_thedegreaser.description"] = string.format(tf2desc.shoot, "Degreaser")
+L["unlameifier_sound_tf2_thedegreaser.compactname"] = "Desengrasador"
+L["unlameifier_sound_tf2_thedegreaser.description"] = string.format(tf2desc.shoot, "del Desengrasador")
 
 L["unlameifier_sound_tf2_flamethrower.printname"] = "Lanzallamas"
-L["unlameifier_sound_tf2_flamethrower.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_flamethrower.description"] = string.format(tf2desc.shoot, "REPLACEME")
+L["unlameifier_sound_tf2_flamethrower.compactname"] = "Lanzallamas"
+L["unlameifier_sound_tf2_flamethrower.description"] = string.format(tf2desc.shoot, "del Lanzallamas")
 
 L["unlameifier_sound_tf2_flaregun_detonator.printname"] = "El Detonador"
-L["unlameifier_sound_tf2_flaregun_detonator.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_flaregun_detonator.description"] = string.format(tf2desc.shoot, "REPLACEME")
+L["unlameifier_sound_tf2_flaregun_detonator.compactname"] = "Detonador"
+L["unlameifier_sound_tf2_flaregun_detonator.description"] = string.format(tf2desc.shoot, "del Detonador")
 
 L["unlameifier_sound_tf2_achievement_flaregun.printname"] = "La Pistola de Bengalas"
-L["unlameifier_sound_tf2_achievement_flaregun.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_achievement_flaregun.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_achievement_flaregun.compactname"] = "Bengalas"
+L["unlameifier_sound_tf2_achievement_flaregun.description"] = string.format(tf2desc.shoot, "de la Pistola de Bengalas") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_sentry_shotgun.printname"] = "La Justiciera"
-L["unlameifier_sound_tf2_sentry_shotgun.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_sentry_shotgun.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_sentry_shotgun.compactname"] = "Justiciera"
+L["unlameifier_sound_tf2_sentry_shotgun.description"] = string.format(tf2desc.shoot, "de la Justiciera") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_gatlinggun.printname"] = "El Titán de Latón"
-L["unlameifier_sound_tf2_gatlinggun.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_gatlinggun.description"] = string.format(tf2desc.shoot, "REPLACEME")
+L["unlameifier_sound_tf2_gatlinggun.compactname"] = "Titán Latón"
+L["unlameifier_sound_tf2_gatlinggun.description"] = string.format(tf2desc.shoot, "del Titán de Latón")
 
 L["unlameifier_sound_tf2_grenadelauncher.printname"] = "Lanzagranadas"
-L["unlameifier_sound_tf2_grenadelauncher.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_grenadelauncher.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_grenadelauncher.compactname"] = "Lanzagranadas"
+L["unlameifier_sound_tf2_grenadelauncher.description"] = string.format(tf2desc.shoot, "del Lanzagranadas") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_letranger.printname"] = "El Extranjero"
-L["unlameifier_sound_tf2_letranger.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_letranger.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_letranger.compactname"] = "Extranjero"
+L["unlameifier_sound_tf2_letranger.description"] = string.format(tf2desc.shoot, "del Extranjero") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_lochnload.printname"] = "El Bombstruo del Lago Ness"
-L["unlameifier_sound_tf2_lochnload.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_lochnload.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_lochnload.compactname"] = "Bombstruo"
+L["unlameifier_sound_tf2_lochnload.description"] = string.format(tf2desc.shoot, "del Bombstruo del Lago Ness") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_cannon.printname"] = "Bala Perdida"
-L["unlameifier_sound_tf2_cannon.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_cannon.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "¡Doble Donk!"
+L["unlameifier_sound_tf2_cannon.compactname"] = "Bala Perdida"
+L["unlameifier_sound_tf2_cannon.description"] = string.format(tf2desc.shoot, "de la Bala Perdida") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "¡Doble Donk!"
 
 L["unlameifier_sound_tf2_manmelter.printname"] = "El Derritegente"
-L["unlameifier_sound_tf2_manmelter.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "REPLACEME") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Siendo de gran ayuda para leñadores, montañeses y divisores de átomos, este milagroso dispositivo cortador de materia quema cada molécula individualmente a la vez que la parte."
+L["unlameifier_sound_tf2_manmelter.compactname"] = "Derritegente"
+L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "del Derritegente") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Siendo de gran ayuda para leñadores, montañeses y divisores de átomos, este milagroso dispositivo cortador de materia quema cada molécula individualmente a la vez que la parte."
 
 L["unlameifier_sound_tf2_achievement_minigun.printname"] = "Natascha"
-L["unlameifier_sound_tf2_achievement_minigun.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_achievement_minigun.description"] = string.format(tf2desc.shoot, "REPLACEME")
+L["unlameifier_sound_tf2_achievement_minigun.compactname"] = "Natascha"
+L["unlameifier_sound_tf2_achievement_minigun.description"] = string.format(tf2desc.shoot, "de la Natascha")
 
 L["unlameifier_sound_tf2_minigun.printname"] = "Ametralladora"
-L["unlameifier_sound_tf2_minigun.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_minigun.description"] = string.format(tf2desc.shoot, "REPLACEME")
+L["unlameifier_sound_tf2_minigun.compactname"] = "Ametralladora"
+L["unlameifier_sound_tf2_minigun.description"] = string.format(tf2desc.shoot, "de la Ametralladora")
 
 L["unlameifier_sound_tf2_phlogistinator.printname"] = "El Flogistonador"
-L["unlameifier_sound_tf2_phlogistinator.compactname"] = "Phlogistinator"
-L["unlameifier_sound_tf2_phlogistinator.description"] = string.format(tf2desc.shoot, "Phlogistinator") .. "\n\n" .. "Un aparato revolucionario capaz de despertar la sustancia ígnea llamada flogistón que existe en todas las criaturas combustibles, es decir, en todas."
+L["unlameifier_sound_tf2_phlogistinator.compactname"] = "Flogistonador"
+L["unlameifier_sound_tf2_phlogistinator.description"] = string.format(tf2desc.shoot, "del Flogistonador") .. "\n\n" .. "Un aparato revolucionario capaz de despertar la sustancia ígnea llamada flogistón que existe en todas las criaturas combustibles, es decir, en todas."
 
 L["unlameifier_sound_tf2_pistol.printname"] = "Pistola"
-L["unlameifier_sound_tf2_pistol.compactname"] = "Pistol"
-L["unlameifier_sound_tf2_pistol.description"] = string.format(tf2desc.shoot, "Pistol") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pistol.compactname"] = "Pistola"
+L["unlameifier_sound_tf2_pistol.description"] = string.format(tf2desc.shoot, "de la Pistola") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_pomson.printname"] = "La Pomson 6000"
 L["unlameifier_sound_tf2_pomson.compactname"] = "Pomson"
-L["unlameifier_sound_tf2_pomson.description"] = string.format(tf2desc.shoot, "Pomson 6000") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Un utensilio portátil e innovador capaz de producir rápidos impulsos de amplia radiación en cantidades suficientes como para inmolar, mutilar e incapacitar de otras maneras a los irlandeses."
+L["unlameifier_sound_tf2_pomson.description"] = string.format(tf2desc.shoot, "de la Pomson 6000") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Un utensilio portátil e innovador capaz de producir rápidos impulsos de amplia radiación en cantidades suficientes como para inmolar, mutilar e incapacitar de otras maneras a los irlandeses."
 
 L["unlameifier_sound_tf2_theoriginal.printname"] = "El Original"
 L["unlameifier_sound_tf2_theoriginal.compactname"] = "Original"
-L["unlameifier_sound_tf2_theoriginal.description"] = string.format(tf2desc.shoot, "Original") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_theoriginal.description"] = string.format(tf2desc.shoot, "del Original") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_shotgun_building_rescue.printname"] = "La Rescatadora"
-L["unlameifier_sound_tf2_shotgun_building_rescue.compactname"] = "Rescue R."
-L["unlameifier_sound_tf2_shotgun_building_rescue.description"] = string.format(tf2desc.shoot, "Rescue Ranger") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_shotgun_building_rescue.compactname"] = "Rescatadora"
+L["unlameifier_sound_tf2_shotgun_building_rescue.description"] = string.format(tf2desc.shoot, "de la Rescatadora") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_reserveshooter.printname"] = "El Tirador de Reserva"
-L["unlameifier_sound_tf2_reserveshooter.compactname"] = "Reserve S."
-L["unlameifier_sound_tf2_reserveshooter.description"] = string.format(tf2desc.shoot, "Reserve Shooter") .. string.format(tf2desc.crit, 40)
+L["unlameifier_sound_tf2_reserveshooter.compactname"] = "De Reserva"
+L["unlameifier_sound_tf2_reserveshooter.description"] = string.format(tf2desc.shoot, "del Tirador de Reserva") .. string.format(tf2desc.crit, 40)
 
 L["unlameifier_sound_tf2_revolver.printname"] = "Revólver"
 L["unlameifier_sound_tf2_revolver.compactname"] = "Revólver"
-L["unlameifier_sound_tf2_revolver.description"] = string.format(tf2desc.shoot, "Revolver") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_revolver.description"] = string.format(tf2desc.shoot, "del Revólver") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_theblackbox.printname"] = "La Caja Negra"
-L["unlameifier_sound_tf2_theblackbox.compactname"] = "Black Box"
-L["unlameifier_sound_tf2_theblackbox.description"] = string.format(tf2desc.shoot, "Black Box") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_theblackbox.compactname"] = "Caja Negra"
+L["unlameifier_sound_tf2_theblackbox.description"] = string.format(tf2desc.shoot, "de la Caja Negra") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_achievement_rocketlauncher.printname"] = "El Impacto Directo"
-L["unlameifier_sound_tf2_achievement_rocketlauncher.compactname"] = "Direct Hit"
-L["unlameifier_sound_tf2_achievement_rocketlauncher.description"] = string.format(tf2desc.shoot, "Direct Hit") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_achievement_rocketlauncher.compactname"] = "Impacto Directo"
+L["unlameifier_sound_tf2_achievement_rocketlauncher.description"] = string.format(tf2desc.shoot, "del Impacto Directo") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_rocketlauncher_jump.printname"] = "El Saltacohetes"
-L["unlameifier_sound_tf2_rocketlauncher_jump.compactname"] = "Jumper"
-L["unlameifier_sound_tf2_rocketlauncher_jump.description"] = string.format(tf2desc.shoot, "Rocket Jumper")
+L["unlameifier_sound_tf2_rocketlauncher_jump.compactname"] = "Saltacohetes"
+L["unlameifier_sound_tf2_rocketlauncher_jump.description"] = string.format(tf2desc.shoot, "del Saltacohetes")
 
 L["unlameifier_sound_tf2_libertylauncher.printname"] = "El Libertador"
-L["unlameifier_sound_tf2_libertylauncher.compactname"] = "Liberty"
-L["unlameifier_sound_tf2_libertylauncher.description"] = string.format(tf2desc.shoot, "Liberty Launcher") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_libertylauncher.compactname"] = "Libertador"
+L["unlameifier_sound_tf2_libertylauncher.description"] = string.format(tf2desc.shoot, "del Libertador") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_rocketlauncher.printname"] = "Lanzacohetes"
-L["unlameifier_sound_tf2_rocketlauncher.compactname"] = "Rocket"
-L["unlameifier_sound_tf2_rocketlauncher.description"] = string.format(tf2desc.shoot, "Rocket Launcher") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_rocketlauncher.compactname"] = "Lanzacohetes"
+L["unlameifier_sound_tf2_rocketlauncher.description"] = string.format(tf2desc.shoot, "del Lanzacohetes") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_sodapopper.printname"] = "La Refrescopeta"
-L["unlameifier_sound_tf2_sodapopper.compactname"] = "Soda"
-L["unlameifier_sound_tf2_sodapopper.description"] = string.format(tf2desc.shoot, "Soda Popper") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_sodapopper.compactname"] = "Refrescopeta"
+L["unlameifier_sound_tf2_sodapopper.description"] = string.format(tf2desc.shoot, "de la Refrescopeta") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_achievement_scattergun_double.printname"] = "La Dispensadora de Caña"
-L["unlameifier_sound_tf2_achievement_scattergun_double.compactname"] = "F-A-N"
-L["unlameifier_sound_tf2_achievement_scattergun_double.description"] = string.format(tf2desc.shoot, "Force-A-Nature") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_achievement_scattergun_double.compactname"] = "Dispensadora"
+L["unlameifier_sound_tf2_achievement_scattergun_double.description"] = string.format(tf2desc.shoot, "de la Dispensadora de Caña") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_scattergun.printname"] = "Recortada"
-L["unlameifier_sound_tf2_scattergun.compactname"] = "Scattergun"
-L["unlameifier_sound_tf2_scattergun.description"] = string.format(tf2desc.shoot, "Scattergun") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_scattergun.compactname"] = "Recortada"
+L["unlameifier_sound_tf2_scattergun.description"] = string.format(tf2desc.shoot, "de la Recortada") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_invasion_sniperrifle.printname"] = "Estrella Fugaz"
-L["unlameifier_sound_tf2_invasion_sniperrifle.compactname"] = "S. Star"
-L["unlameifier_sound_tf2_invasion_sniperrifle.description"] = string.format(tf2desc.shoot, "Shooting Star") .. tf2desc.aimcharge .. string.format(tf2desc.aimchargecrit, 10) .. "\n\n" .. "¡Convierte a tus enemigos en cenizas!"
+L["unlameifier_sound_tf2_invasion_sniperrifle.compactname"] = "Estrella F."
+L["unlameifier_sound_tf2_invasion_sniperrifle.description"] = string.format(tf2desc.shoot, "de la Estrella Fugaz") .. tf2desc.aimcharge .. string.format(tf2desc.aimchargecrit, 10) .. "\n\n" .. "¡Convierte a tus enemigos en cenizas!"
 
 L["unlameifier_sound_tf2_theshortstop.printname"] = "La Paratenseco"
-L["unlameifier_sound_tf2_theshortstop.compactname"] = "Shortstop"
-L["unlameifier_sound_tf2_theshortstop.description"] = string.format(tf2desc.shoot, "Shortstop") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Lo último de Mann Co. en defensa personal, lleno de carácter y dinamismo."
+L["unlameifier_sound_tf2_theshortstop.compactname"] = "Paratenseco"
+L["unlameifier_sound_tf2_theshortstop.description"] = string.format(tf2desc.shoot, "del Paratenseco") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Lo último de Mann Co. en defensa personal, lleno de carácter y dinamismo."
 
 L["unlameifier_sound_tf2_shotgun.printname"] = "Escopeta"
-L["unlameifier_sound_tf2_shotgun.compactname"] = "Shotgun"
-L["unlameifier_sound_tf2_shotgun.description"] = string.format(tf2desc.shoot, "Shotgun") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_shotgun.compactname"] = "Escopeta"
+L["unlameifier_sound_tf2_shotgun.description"] = string.format(tf2desc.shoot, "de la Escopeta") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_smg.printname"] = "Metralleta"
-L["unlameifier_sound_tf2_smg.compactname"] = "SMG"
-L["unlameifier_sound_tf2_smg.description"] = string.format(tf2desc.shoot, "SMG") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_smg.compactname"] = "Metralleta"
+L["unlameifier_sound_tf2_smg.description"] = string.format(tf2desc.shoot, "de la Metralleta") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_bazaarbargain.printname"] = "La Ganga del Bazar"
-L["unlameifier_sound_tf2_bazaarbargain.compactname"] = "Bazaar"
-L["unlameifier_sound_tf2_bazaarbargain.description"] = string.format(tf2desc.shoot, "Bazaar Bargain") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_bazaarbargain.compactname"] = "Bazar"
+L["unlameifier_sound_tf2_bazaarbargain.description"] = string.format(tf2desc.shoot, "de la Ganga del Bazar") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_dex_rifle.printname"] = "La Machina"
 L["unlameifier_sound_tf2_dex_rifle.compactname"] = "Machina"
-L["unlameifier_sound_tf2_dex_rifle.description"] = string.format(tf2desc.shoot, "Machina") .. string.format(tf2desc.crit, 20) .. tf2desc.aimcharge
+L["unlameifier_sound_tf2_dex_rifle.description"] = string.format(tf2desc.shoot, "de la Machina") .. string.format(tf2desc.crit, 20) .. tf2desc.aimcharge
 
 L["unlameifier_sound_tf2_classicsniperrifle.printname"] = "El Clásico"
-L["unlameifier_sound_tf2_classicsniperrifle.compactname"] = "Classic"
-L["unlameifier_sound_tf2_classicsniperrifle.description"] = string.format(tf2desc.shoot, "Classic") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_classicsniperrifle.compactname"] = "Clásico"
+L["unlameifier_sound_tf2_classicsniperrifle.description"] = string.format(tf2desc.shoot, "del Clásico") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_sniperrifle.printname"] = "Rifle de Francotirador"
-L["unlameifier_sound_tf2_sniperrifle.compactname"] = "Sniper"
-L["unlameifier_sound_tf2_sniperrifle.description"] = string.format(tf2desc.shoot, "Sniper Rifle") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_sniperrifle.compactname"] = "Francotirador"
+L["unlameifier_sound_tf2_sniperrifle.description"] = string.format(tf2desc.shoot, "del Rifle de Francotirador") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_sydneysleeper.printname"] = "El Adormecedor de Sídney"
-L["unlameifier_sound_tf2_sydneysleeper.compactname"] = "Sydney"
-L["unlameifier_sound_tf2_sydneysleeper.description"] = string.format(tf2desc.shoot, "Sydney Sleeper") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_sydneysleeper.compactname"] = "Sídney"
+L["unlameifier_sound_tf2_sydneysleeper.description"] = string.format(tf2desc.shoot, "del Adormecedor de Sídney") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_stickeybomb_jump.printname"] = "Saltalapas"
 L["unlameifier_sound_tf2_stickeybomb_jump.compactname"] = "Saltalapas"
-L["unlameifier_sound_tf2_stickeybomb_jump.description"] = string.format(tf2desc.shoot, "Sticky Jumper")
+L["unlameifier_sound_tf2_stickeybomb_jump.description"] = string.format(tf2desc.shoot, "del Saltalapas")
 
 L["unlameifier_sound_tf2_stickeybomblauncher.printname"] = "Lanzabombas Lapa"
-L["unlameifier_sound_tf2_stickeybomblauncher.compactname"] = "Stickybomb"
-L["unlameifier_sound_tf2_stickeybomblauncher.description"] = string.format(tf2desc.shoot, "Stickybomb Launcher") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_stickeybomblauncher.compactname"] = "Lapa"
+L["unlameifier_sound_tf2_stickeybomblauncher.description"] = string.format(tf2desc.shoot, "del Lanzabombas Lapa") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_syringegun.printname"] = "Pistola de Jeringas"
-L["unlameifier_sound_tf2_syringegun.compactname"] = "Syringe"
-L["unlameifier_sound_tf2_syringegun.description"] = string.format(tf2desc.shoot, "Syringe Gun") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_syringegun.compactname"] = "Jeringas"
+L["unlameifier_sound_tf2_syringegun.description"] = string.format(tf2desc.shoot, "de la Pistola de Jeringas") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_iron_bomber.printname"] = "El Bombardero de Acero"
-L["unlameifier_sound_tf2_iron_bomber.compactname"] = "Iron B."
-L["unlameifier_sound_tf2_iron_bomber.description"] = string.format(tf2desc.shoot, "Iron Bomber") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_iron_bomber.compactname"] = "Bomb. Acero"
+L["unlameifier_sound_tf2_iron_bomber.description"] = string.format(tf2desc.shoot, "del Bombardero de Acero") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_enforcer.printname"] = "El Ejecutor"
-L["unlameifier_sound_tf2_enforcer.compactname"] = "Enforcer"
-L["unlameifier_sound_tf2_enforcer.description"] = string.format(tf2desc.shoot, "Enforcer") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_enforcer.compactname"] = "Ejecutor"
+L["unlameifier_sound_tf2_enforcer.description"] = string.format(tf2desc.shoot, "del Ejecutor") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_backscatter.printname"] = "La Retroescopeta"
-L["unlameifier_sound_tf2_backscatter.compactname"] = "Back S."
-L["unlameifier_sound_tf2_backscatter.description"] = string.format(tf2desc.shoot, "Back Scatter") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_backscatter.compactname"] = "Retroescopeta"
+L["unlameifier_sound_tf2_backscatter.description"] = string.format(tf2desc.shoot, "de la Retroescopeta") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_tomislav.printname"] = "Tomislav"
 L["unlameifier_sound_tf2_tomislav.compactname"] = "Tomislav"
-L["unlameifier_sound_tf2_tomislav.description"] = string.format(tf2desc.shoot, "Tomislav")
+L["unlameifier_sound_tf2_tomislav.description"] = string.format(tf2desc.shoot, "de la Tomislav")
 
 L["unlameifier_sound_tf2_dex_shotgun.printname"] = "La Enviudadora"
-L["unlameifier_sound_tf2_dex_shotgun.compactname"] = "Widowmaker"
-L["unlameifier_sound_tf2_dex_shotgun.description"] = string.format(tf2desc.shoot, "Widowmaker") .. string.format(tf2desc.crit, 30)
+L["unlameifier_sound_tf2_dex_shotgun.compactname"] = "Enviudadora"
+L["unlameifier_sound_tf2_dex_shotgun.description"] = string.format(tf2desc.shoot, "de la Enviudadora") .. string.format(tf2desc.crit, 30)
 
 L["unlameifier_sound_tf2_winger.printname"] = "La Aeropistola"
-L["unlameifier_sound_tf2_winger.compactname"] = "Winger"
-L["unlameifier_sound_tf2_winger.description"] = string.format(tf2desc.shoot, "Winger") .. string.format(tf2desc.crit, 30)
+L["unlameifier_sound_tf2_winger.compactname"] = "Aeropistola"
+L["unlameifier_sound_tf2_winger.description"] = string.format(tf2desc.shoot, "de la Aeropistola") .. string.format(tf2desc.crit, 30)
 
 //////////////// Team Fortress 2 Melee Sounds
 L["unlameifier_sound_tf2_thirddegree.printname"] = "El Tercer Grado"
@@ -1453,11 +1453,11 @@ L["unlameifier_sound_tf2_bottle_hit.printname"] = "Botella"
 L["unlameifier_sound_tf2_bottle_hit.compactname"] = "Botella"
 L["unlameifier_sound_tf2_bottle_hit.description"] = string.format(tf2desc.hit, "de la Botella")
 
-L["unlameifier_sound_tf2_sword_hit.printname"] = "Sword"
-L["unlameifier_sound_tf2_sword_hit.compactname"] = "Sword"
-L["unlameifier_sound_tf2_sword_hit.description"] = string.format(tf2desc.hit, "various swords")
+L["unlameifier_sound_tf2_sword_hit.printname"] = "Espada"
+L["unlameifier_sound_tf2_sword_hit.compactname"] = "Espada"
+L["unlameifier_sound_tf2_sword_hit.description"] = string.format(tf2desc.hit, "de espadas varias")
 
-L["unlameifier_sound_tf2_sword_swing.description"] = string.format(tf2desc.swing, "various swords") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_sword_swing.description"] = string.format(tf2desc.swing, "de espadas varias") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_disciplinaryaction_hit.printname"] = "La Acción Disciplinaria"
 L["unlameifier_sound_tf2_disciplinaryaction_hit.compactname"] = "Disciplinaria"
@@ -1470,68 +1470,68 @@ L["unlameifier_sound_tf2_evictionnotice_hit.compactname"] = "Desahucio"
 L["unlameifier_sound_tf2_evictionnotice_hit.description"] = string.format(tf2desc.swing, "de la Orden de Desahucio") .. string.format(tf2desc.crit, 40)
 
 L["unlameifier_sound_tf2_robot_arm_swing.printname"] = "El Forajido"
-L["unlameifier_sound_tf2_robot_arm_swing.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_robot_arm_swing.description"] = string.format(tf2desc.swing, "REPLACEME")
+L["unlameifier_sound_tf2_robot_arm_swing.compactname"] = "Forajido"
+L["unlameifier_sound_tf2_robot_arm_swing.description"] = string.format(tf2desc.swing, "del Forajido")
 
 L["unlameifier_sound_tf2_theholymackerel_hit.printname"] = "El Arenque Sagrado"
-L["unlameifier_sound_tf2_theholymackerel_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_theholymackerel_hit.description"] = string.format(tf2desc.hit, "REPLACEME") .. "\n\n" .. "Que te peguen con un pez debe ser de lo más humillante."
+L["unlameifier_sound_tf2_theholymackerel_hit.compactname"] = "Arenque"
+L["unlameifier_sound_tf2_theholymackerel_hit.description"] = string.format(tf2desc.hit, "del Arenque Sagrado") .. "\n\n" .. "Que te peguen con un pez debe ser de lo más humillante."
 
 L["unlameifier_sound_tf2_spycicle_hit.printname"] = "El Apungelador"
-L["unlameifier_sound_tf2_spycicle_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_spycicle_hit.description"] = string.format(tf2desc.hit, "REPLACEME") .. "\n\n" .. "Es el regalo perfecto para un hombre que lo tiene todo: un carámbano clavado en su espalda. Incluso la gente rica no puede comprar eso en las tiendas."
+L["unlameifier_sound_tf2_spycicle_hit.compactname"] = "Apungelador"
+L["unlameifier_sound_tf2_spycicle_hit.description"] = string.format(tf2desc.hit, "del Apungelador") .. "\n\n" .. "Es el regalo perfecto para un hombre que lo tiene todo: un carámbano clavado en su espalda. Incluso la gente rica no puede comprar eso en las tiendas."
 
 L["unlameifier_sound_tf2_knife_swing.printname"] = "Mariposa"
-L["unlameifier_sound_tf2_knife_swing.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_knife_swing.description"] = string.format(tf2desc.swing, "REPLACEME")
+L["unlameifier_sound_tf2_knife_swing.compactname"] = "Mariposa"
+L["unlameifier_sound_tf2_knife_swing.description"] = string.format(tf2desc.swing, "de la Mariposa")
 
 L["unlameifier_sound_tf2_machete_swing.printname"] = "Machete"
-L["unlameifier_sound_tf2_machete_swing.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_machete_swing.description"] = string.format(tf2desc.swing, "REPLACEME")
+L["unlameifier_sound_tf2_machete_swing.compactname"] = "Machete"
+L["unlameifier_sound_tf2_machete_swing.description"] = string.format(tf2desc.swing, "del Machete")
 
 L["unlameifier_sound_tf2_fistsofsteel_hit.printname"] = "Los Puños de Acero"
-L["unlameifier_sound_tf2_fistsofsteel_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_fistsofsteel_hit.description"] = string.format(tf2desc.hit, "REPLACEME") .. string.format(tf2desc.crit, 40)
+L["unlameifier_sound_tf2_fistsofsteel_hit.compactname"] = "Puños Acero"
+L["unlameifier_sound_tf2_fistsofsteel_hit.description"] = string.format(tf2desc.hit, "de los Puños de Acero") .. string.format(tf2desc.crit, 40)
 
 L["unlameifier_sound_tf2_masculinemittens_hit.printname"] = "El Puñetazo Festivo"
-L["unlameifier_sound_tf2_masculinemittens_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_masculinemittens_hit.compactname"] = "Puñ. Festivo"
+L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "del Puñetazo Festivo") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_sd_sign_hit.printname"] = "El Aniquilador de Neón"
-L["unlameifier_sound_tf2_sd_sign_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_sd_sign_hit.description"] = string.format(tf2desc.hit, "REPLACEME")
+L["unlameifier_sound_tf2_sd_sign_hit.compactname"] = "Aniq. Neón"
+L["unlameifier_sound_tf2_sd_sign_hit.description"] = string.format(tf2desc.hit, "del Aniquilador de Neón")
 
 L["unlameifier_sound_tf2_achievement_pickaxe_swing.printname"] = "El Ecualizador"
-L["unlameifier_sound_tf2_achievement_pickaxe_swing.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_achievement_pickaxe_swing.description"] = string.format(tf2desc.swing, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_achievement_pickaxe_swing.compactname"] = "Ecualizador"
+L["unlameifier_sound_tf2_achievement_pickaxe_swing.description"] = string.format(tf2desc.swing, "del Ecualizador") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_saxxy_hit.printname"] = "El Saxxy"
-L["unlameifier_sound_tf2_saxxy_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_saxxy_hit.description"] = string.format(tf2desc.hit, "REPLACEME")
+L["unlameifier_sound_tf2_saxxy_hit.compactname"] = "Saxxy"
+L["unlameifier_sound_tf2_saxxy_hit.description"] = string.format(tf2desc.hit, "del Saxxy")
 
 L["unlameifier_sound_tf2_shovel_swing.printname"] = "Pala"
 L["unlameifier_sound_tf2_shovel_swing.compactname"] = "Pala"
 L["unlameifier_sound_tf2_shovel_swing.description"] = "Reemplaza los sonidos de oscilación de armas cuerpo a cuerpo por los de las diversas palas de Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_hothand_hit.printname"] = "La Mano Caliente"
-L["unlameifier_sound_tf2_hothand_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_hothand_hit.description"] = string.format(tf2desc.hit, "REPLACEME") .. "\n\n" .. "Esta bofetada le indica a tu adversario (y a cualquiera que esté mirando la lista de víctimas) que tu mano acaba de obsequiarle un vigoroso masaje a un afortunado rostro."
+L["unlameifier_sound_tf2_hothand_hit.compactname"] = "Mano Caliente"
+L["unlameifier_sound_tf2_hothand_hit.description"] = string.format(tf2desc.hit, "de la Mano Caliente") .. "\n\n" .. "Esta bofetada le indica a tu adversario (y a cualquiera que esté mirando la lista de víctimas) que tu mano acaba de obsequiarle un vigoroso masaje a un afortunado rostro."
 
-L["unlameifier_sound_tf2_hothand_swing.description"] = string.format(tf2desc.swing, "REPLACEME") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Esta bofetada le indica a tu adversario (y a cualquiera que esté mirando la lista de víctimas) que tu mano acaba de obsequiarle un vigoroso masaje a un afortunado rostro."
+L["unlameifier_sound_tf2_hothand_swing.description"] = string.format(tf2desc.swing, "de la Mano Caliente") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Esta bofetada le indica a tu adversario (y a cualquiera que esté mirando la lista de víctimas) que tu mano acaba de obsequiarle un vigoroso masaje a un afortunado rostro."
 
 L["unlameifier_sound_tf2_sharpdresser_hit.printname"] = "La Manga Afilada"
-L["unlameifier_sound_tf2_sharpdresser_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_sharpdresser_hit.description"] = string.format(tf2desc.hit, "REPLACEME") .. "\n\n" .. "Every merc's crazy for a sharp-dressed man. With 15th century murder-knives extruding from his cufflinks."
+L["unlameifier_sound_tf2_sharpdresser_hit.compactname"] = "Manga Afilada"
+L["unlameifier_sound_tf2_sharpdresser_hit.description"] = string.format(tf2desc.hit, "de la Manga Afilada") .. "\n\n" .. "Every merc's crazy for a sharp-dressed man. With 15th century murder-knives extruding from his cufflinks."
 
 L["unlameifier_sound_tf2_achievement_bonesaw_hit.printname"] = "La Übersaw"
-L["unlameifier_sound_tf2_achievement_bonesaw_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_achievement_bonesaw_hit.description"] = string.format(tf2desc.hit, "REPLACEME")
+L["unlameifier_sound_tf2_achievement_bonesaw_hit.compactname"] = "Übersaw"
+L["unlameifier_sound_tf2_achievement_bonesaw_hit.description"] = string.format(tf2desc.hit, "de la Übersaw")
 
 L["unlameifier_sound_tf2_wrench_hit.printname"] = "Llave Inglesa"
-L["unlameifier_sound_tf2_wrench_hit.compactname"] = "REPLACEME"
-L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "REPLACEME")
+L["unlameifier_sound_tf2_wrench_hit.compactname"] = "Llave Inglesa"
+L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "de la Llave Inglesa")
 
-L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "REPLACEME") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "de la Llave Inglesa") .. string.format(tf2desc.crit, 10)
 
 //////////////// Fallout 4 & 76
 L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sonidos/Fallout 4"
@@ -1711,11 +1711,11 @@ L["unlameifier_sound_fo76_rifle_plasma.description"] = "Cambia el sonido de disp
 
 L["unlameifier_sound_fo76_rifle_plasma_shotgun.printname"] = "Arma de plasma (Divisor)"
 L["unlameifier_sound_fo76_rifle_plasma_shotgun.compactname"] = "Plasma (Div.)"
-L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" equipped with a \"Splitter\" barrel mod de Fallout 4 y 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma_shotgun.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" equipado con un modificador de cañón \"Separador\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_plasma_sniper.printname"] = "Arma de plasma (Francotirador)"
 L["unlameifier_sound_fo76_rifle_plasma_sniper.compactname"] = "Plasma (Franco.)"
-L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" equipped with a \"Sniper\" barrel mod de Fallout 4 y 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_plasma_sniper.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" equipado con un modificador de cañón \"Francotirador\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_10mm.printname"] = "Subfusil de 10 mm"
 L["unlameifier_sound_fo76_rifle_10mm.compactname"] = "SF 10 mm"
@@ -1741,37 +1741,37 @@ L["unlameifier_sound_fo76_syringer.description"] = "Cambia el sonido de disparo 
 ///////// Non-RPM-Specific
 L["unlameifier_sound_fo76_auto_cryolator.printname"] = "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Cryolator"
--- L["unlameifier_sound_fo76_auto_cryolator.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_cryolator.description"] = "Cambia el sonido de disparo del arma por el del \"Cryolator\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Cryolator (Cañón largo)"
 L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (Largo)"
--- L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the \"Crystallizing Barrel\" mod." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Cambia el sonido de disparo del arma por el del \"Cryolator\" de Fallout 4 y 76 equipado con la modificación \"Cañón cristalizador\"." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_flamer.printname"] = "Lanzallamas"
 L["unlameifier_sound_fo76_auto_flamer.compactname"] = "Lanza."
--- L["unlameifier_sound_fo76_auto_flamer.description"] = "Changes the firing sound of the weapon to the \"Flamer\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_flamer.description"] = "Cambia el sonido de disparo del arma por el del \"Lanzallamas\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_gatlingplasma.printname"] = "Ametralladora de plasma"
 L["unlameifier_sound_fo76_auto_gatlingplasma.compactname"] = "Amet. P."
--- L["unlameifier_sound_fo76_auto_gatlingplasma.description"] = "Changes the firing sound of the weapon to the \"Gatling Plasma\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_gatlingplasma.description"] = "Cambia el sonido de disparo del arma por el de la \"Ametralladora de plasma\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_minigun.printname"] = "Ametralladora"
 L["unlameifier_sound_fo76_auto_minigun.compactname"] = "Ametral."
--- L["unlameifier_sound_fo76_auto_minigun.description"] = "Changes the firing sound of the weapon to the \"Minigun\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_minigun.description"] = "Cambia el sonido de disparo del arma por el de la \"Ametralladora\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.printname"] = "Ametralladora láser"
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "Ametral. l."
--- L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Laser\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Cambia el sonido de disparo del arma por el de la \"Ametralladora láser\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Arma de plasma (Cañón de lanzallamas)"
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (L.)"
--- L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76 with the \"Flamer Barrel\" mod equipped." .. fo76nosupp
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Cambia el sonido de disparo del arma por el del \"Arma de plasma\" de Fallout 4 y 76 con el modificador \"Cañón de lanzallamas\" equipado." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_smg.printname"] = "Subfusil"
 L["unlameifier_sound_fo76_rifle_smg.compactname"] = "Subfusil"
--- L["unlameifier_sound_fo76_rifle_smg.description"] = "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 4 and 76."
+L["unlameifier_sound_fo76_rifle_smg.description"] = "Cambia el sonido de disparo del arma por el del \"Subfusil\" de Fallout 4 y 76."
 
-local fo76loop = "Uses looping sounds, shooting at <color=153,204,255>%s RPM</color>.\n"
+local fo76loop = "Utiliza sonidos en bucle, disparando a <color=153,204,255>%s RPM</color>.\n"
 
 L["unlameifier.fo76.rpm.420"] = string.format(fo76loop, 420)
 L["unlameifier.fo76.rpm.540"] = string.format(fo76loop, 540)
@@ -1780,429 +1780,429 @@ L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
 //////////////// Battlefield 2
--- L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Sound Mods/BF2"
--- L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Sound Mods/BF2/Vehicle"
--- L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sound Mods/BF2/Stationary"
+L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Sonidos/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Sonidos/BF2/Vehículo"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sonidos/BF2/Estacionario"
 
--- L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sound Mods/Swing/BF2"
+L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sonidos/Oscilación/BF2"
 
-local bf2nosupp = "\n\n<color=255,150,150>Note</color>: Does not have suppressed sounds."
+local bf2nosupp = "\n\n<color=255,150,150>Note</color>: No tiene sonidos silenciados."
 
 L["unlameifier_sound_bf2_beretta92.printname"] = "92FS"
 L["unlameifier_sound_bf2_beretta92.compactname"] = "92FS"
--- L["unlameifier_sound_bf2_beretta92.description"] = "Changes the firing sound of the weapon to the 92FS from Battlefield 2."
+L["unlameifier_sound_bf2_beretta92.description"] = "Cambia el sonido del arma por el de la 92FS de Battlefield 2."
 
 L["unlameifier_sound_bf2_ak47.printname"] = "AK-47"
 L["unlameifier_sound_bf2_ak47.compactname"] = "AK-47"
--- L["unlameifier_sound_bf2_ak47.description"] = "Changes the firing sound of the weapon to the AK-47 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_ak47.description"] = "Cambia el sonido del arma por el del AK-47 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_ak74u.printname"] = "AK 74U"
 L["unlameifier_sound_bf2_ak74u.compactname"] = "AK 74U"
--- L["unlameifier_sound_bf2_ak74u.description"] = "Changes the firing sound of the weapon to the AK-74U from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_ak74u.description"] = "Cambia el sonido del arma por el del AK 74U de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_bageera.printname"] = "MR-444"
 L["unlameifier_sound_bf2_bageera.compactname"] = "MR-444"
--- L["unlameifier_sound_bf2_bageera.description"] = "Changes the firing sound of the weapon to the MR-444 from Battlefield 2."
+L["unlameifier_sound_bf2_bageera.description"] = "Cambia el sonido del arma por el de la MR-444 de Battlefield 2."
 
 L["unlameifier_sound_bf2_barret95.printname"] = "M95"
 L["unlameifier_sound_bf2_barret95.compactname"] = "M95"
--- L["unlameifier_sound_bf2_barret95.description"] = "Changes the firing sound of the weapon to the M95 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_barret95.description"] = "Cambia el sonido del arma por el del M95 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_bizon.printname"] = "PP-19"
 L["unlameifier_sound_bf2_bizon.compactname"] = "PP-19"
--- L["unlameifier_sound_bf2_bizon.description"] = "Changes the firing sound of the weapon to the PP-19 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_bizon.description"] = "Cambia el sonido del arma por el del PP-19 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_zipline.printname"] = "Ballesta"
 L["unlameifier_sound_bf2_zipline.compactname"] = "Ballesta"
--- L["unlameifier_sound_bf2_zipline.description"] = "Changes the firing sound of the weapon to the Crossbow from Battlefield 2: Special Forces." .. bf2nosupp
+L["unlameifier_sound_bf2_zipline.description"] = "Cambia el sonido del arma por el de la Ballesta de Battlefield 2: Special Forces." .. bf2nosupp
 
 L["unlameifier_sound_bf2_dragunov.printname"] = "SVD"
 L["unlameifier_sound_bf2_dragunov.compactname"] = "SVD"
--- L["unlameifier_sound_bf2_dragunov.description"] = "Changes the firing sound of the weapon to the SVD from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_dragunov.description"] = "Cambia el sonido del arma por el del SVD de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_eryx.printname"] = "Eryx"
 L["unlameifier_sound_bf2_eryx.compactname"] = "Eryx"
--- L["unlameifier_sound_bf2_eryx.description"] = "Changes the firing sound of the weapon to the Eryx from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_eryx.description"] = "Cambia el sonido del arma por el del Eryx de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_famas.printname"] = "FAMAS"
 L["unlameifier_sound_bf2_famas.compactname"] = "FAMAS"
--- L["unlameifier_sound_bf2_famas.description"] = "Changes the firing sound of the weapon to the FAMAS from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_famas.description"] = "Cambia el sonido del arma por el del FAMAS de Battlefield 2: Euro Force." .. bf2nosupp
 
 L["unlameifier_sound_bf2_type95mg.printname"] = "Tipo 95"
 L["unlameifier_sound_bf2_type95mg.compactname"] = "Tipo 95"
--- L["unlameifier_sound_bf2_type95mg.description"] = "Changes the firing sound of the weapon to the Type 95 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type95mg.description"] = "Cambia el sonido del arma por el de la Tipo 95 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_predator.printname"] = "SRAW"
 L["unlameifier_sound_bf2_predator.compactname"] = "SRAW"
--- L["unlameifier_sound_bf2_predator.description"] = "Changes the firing sound of the weapon to the SRAW from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_predator.description"] = "Cambia el sonido del arma por el de la SRAW de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_fn2000.printname"] = "F2000"
 L["unlameifier_sound_bf2_fn2000.compactname"] = "F2000"
--- L["unlameifier_sound_bf2_fn2000.description"] = "Changes the firing sound of the weapon to the F2000 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_fn2000.description"] = "Cambia el sonido del arma por el del F2000 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_fnp90.printname"] = "P90"
 L["unlameifier_sound_bf2_fnp90.compactname"] = "P90"
--- L["unlameifier_sound_bf2_fnp90.description"] = "Changes the firing sound of the weapon to the P90 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_fnp90.description"] = "Cambia el sonido del arma por el del P90 de Battlefield 2: Euro Force." .. bf2nosupp
 
 L["unlameifier_sound_bf2_g3a2.printname"] = "G3"
 L["unlameifier_sound_bf2_g3a2.compactname"] = "G3"
--- L["unlameifier_sound_bf2_g3a2.description"] = "Changes the firing sound of the weapon to the G3 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_g3a2.description"] = "Cambia el sonido del arma por el del G3 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_g36k.printname"] = "G36K"
 L["unlameifier_sound_bf2_g36k.compactname"] = "G36K"
--- L["unlameifier_sound_bf2_g36k.description"] = "Changes the firing sound of the weapon to the G36K from Battlefield 2: Special Forces." .. bf2nosupp
+L["unlameifier_sound_bf2_g36k.description"] = "Cambia el sonido del arma por el del G36K de Battlefield 2: Special Forces." .. bf2nosupp
 
 L["unlameifier_sound_bf2_g36c.printname"] = "G36C"
 L["unlameifier_sound_bf2_g36c.compactname"] = "G36C"
--- L["unlameifier_sound_bf2_g36c.description"] = "Changes the firing sound of the weapon to the G36C from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_g36c.description"] = "Cambia el sonido del arma por el del G36C de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_ak101.printname"] = "AK 101"
 L["unlameifier_sound_bf2_ak101.compactname"] = "AK 101"
--- L["unlameifier_sound_bf2_ak101.description"] = "Changes the firing sound of the weapon to the AK-101 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_ak101.description"] = "Cambia el sonido del arma por el del AK 101 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_hk21.printname"] = "HK21"
 L["unlameifier_sound_bf2_hk21.compactname"] = "HK21"
--- L["unlameifier_sound_bf2_hk21.description"] = "Changes the firing sound of the weapon to the HK21 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_hk21.description"] = "Cambia el sonido del arma por el del HK21 de Battlefield 2: Euro Force." .. bf2nosupp
 
 L["unlameifier_sound_bf2_hk53a3.printname"] = "HK53A3"
 L["unlameifier_sound_bf2_hk53a3.compactname"] = "HK53A3"
--- L["unlameifier_sound_bf2_hk53a3.description"] = "Changes the firing sound of the weapon to the HK53A3 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_hk53a3.description"] = "Cambia el sonido del arma por el del HK53A3 de Battlefield 2: Euro Force." .. bf2nosupp
 
 L["unlameifier_sound_bf2_jackhammer.printname"] = "MK3A1"
 L["unlameifier_sound_bf2_jackhammer.compactname"] = "MK3A1"
--- L["unlameifier_sound_bf2_jackhammer.description"] = "Changes the firing sound of the weapon to the MK3A1 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_jackhammer.description"] = "Cambia el sonido del arma por el del MK3A1 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_knife_swing.printname"] = "Cuchillo"
 L["unlameifier_sound_bf2_knife_swing.compactname"] = "Cuchillo"
--- L["unlameifier_sound_bf2_knife_swing.description"] = "Changes the melee swing sound of the weapon to the Knife from Battlefield 2."
+L["unlameifier_sound_bf2_knife_swing.description"] = "Cambia el sonido de oscilación del arma cuerpo a cuerpo por el del Cuchillo de Battlefield 2."
 
 L["unlameifier_sound_bf2_l96a1.printname"] = "L96A1"
 L["unlameifier_sound_bf2_l96a1.compactname"] = "L96A1"
--- L["unlameifier_sound_bf2_l96a1.description"] = "Changes the firing sound of the weapon to the L96A1 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_l96a1.description"] = "Cambia el sonido del arma por el del L96A1 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_benelli_m4.printname"] = "BENELLI M4"
 L["unlameifier_sound_bf2_benelli_m4.compactname"] = "BENELLI"
--- L["unlameifier_sound_bf2_benelli_m4.description"] = "Changes the firing sound of the weapon to the BENELLI M4 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_benelli_m4.description"] = "Cambia el sonido del arma por el de la BENELLI M4 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_m4.printname"] = "M4"
 L["unlameifier_sound_bf2_m4.compactname"] = "M4"
--- L["unlameifier_sound_bf2_m4.description"] = "Changes the firing sound of the weapon to the M4 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m4.description"] = "Cambia el sonido del arma por el del M4 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_m16a2.printname"] = "M16A2"
 L["unlameifier_sound_bf2_m16a2.compactname"] = "M16A2"
--- L["unlameifier_sound_bf2_m16a2.description"] = "Changes the firing sound of the weapon to the M16A2 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m16a2.description"] = "Cambia el sonido del arma por el del M16A2 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_m24.printname"] = "M24"
 L["unlameifier_sound_bf2_m24.compactname"] = "M24"
--- L["unlameifier_sound_bf2_m24.description"] = "Changes the firing sound of the weapon to the M24 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m24.description"] = "Cambia el sonido del arma por el del M24 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_m203.printname"] = "M203"
 L["unlameifier_sound_bf2_m203.compactname"] = "M203"
--- L["unlameifier_sound_bf2_m203.description"] = "Changes the firing sound of the weapon to the M203 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m203.description"] = "Cambia el sonido del arma por el del M203 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_m249.printname"] = "M 249 SAW"
 L["unlameifier_sound_bf2_m249.compactname"] = "M 249"
--- L["unlameifier_sound_bf2_m249.description"] = "Changes the firing sound of the weapon to the M249 SAW from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_m249.description"] = "Cambia el sonido del arma por el del M249 SAW de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_mg36.printname"] = "MG36"
 L["unlameifier_sound_bf2_mg36.compactname"] = "MG36"
--- L["unlameifier_sound_bf2_mg36.description"] = "Changes the firing sound of the weapon to the MG36 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_mg36.description"] = "Cambia el sonido del arma por el del MG36 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_mp5.printname"] = "MP5"
 L["unlameifier_sound_bf2_mp5.compactname"] = "MP5"
--- L["unlameifier_sound_bf2_mp5.description"] = "Changes the firing sound of the weapon to the MP5 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_mp5.description"] = "Cambia el sonido del arma por el del MP5 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_mp7.printname"] = "MP7"
 L["unlameifier_sound_bf2_mp7.compactname"] = "MP7"
--- L["unlameifier_sound_bf2_mp7.description"] = "Changes the firing sound of the weapon to the MP7 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_mp7.description"] = "Cambia el sonido del arma por el del MP7 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_norinco982.printname"] = "NOR 982"
 L["unlameifier_sound_bf2_norinco982.compactname"] = "NOR 982"
--- L["unlameifier_sound_bf2_norinco982.description"] = "Changes the firing sound of the weapon to the NOR982 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+L["unlameifier_sound_bf2_norinco982.description"] = "Cambia el sonido del arma por el de la NOR982 de Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
 
 L["unlameifier_sound_bf2_pkm.printname"] = "PKM"
 L["unlameifier_sound_bf2_pkm.compactname"] = "PKM"
--- L["unlameifier_sound_bf2_pkm.description"] = "Changes the firing sound of the weapon to the PKM from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_pkm.description"] = "Cambia el sonido del arma por el de la PKM de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_protecta.printname"] = "DAO-12"
 L["unlameifier_sound_bf2_protecta.compactname"] = "DAO-12"
--- L["unlameifier_sound_bf2_protecta.description"] = "Changes the firing sound of the weapon to the DAO-12 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_protecta.description"] = "Cambia el sonido del arma por el de la DAO-12 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_qsz92.printname"] = "QSZ-92"
 L["unlameifier_sound_bf2_qsz92.compactname"] = "QSZ-92"
--- L["unlameifier_sound_bf2_qsz92.description"] = "Changes the firing sound of the weapon to the QSZ-92 from Battlefield 2."
+L["unlameifier_sound_bf2_qsz92.description"] = "Cambia el sonido del arma por el de la QSZ-92 de Battlefield 2."
 
 L["unlameifier_sound_bf2_remington1187.printname"] = "M11-87"
 L["unlameifier_sound_bf2_remington1187.compactname"] = "M11-87"
--- L["unlameifier_sound_bf2_remington1187.description"] = "Changes the firing sound of the weapon to the M11-87 from Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+L["unlameifier_sound_bf2_remington1187.description"] = "Cambia el sonido del arma por el de la M11-87 de Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
 
 L["unlameifier_sound_bf2_rpk74.printname"] = "RPK 74"
 L["unlameifier_sound_bf2_rpk74.compactname"] = "RPK 74"
--- L["unlameifier_sound_bf2_rpk74.description"] = "Changes the firing sound of the weapon to the RPK-74 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_rpk74.description"] = "Cambia el sonido del arma por el de la RPK-74 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_sa80.printname"] = "L85A1"
 L["unlameifier_sound_bf2_sa80.compactname"] = "L85A1"
--- L["unlameifier_sound_bf2_sa80.description"] = "Changes the firing sound of the weapon to the L85A1 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_sa80.description"] = "Cambia el sonido del arma por el del L85A1 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_sa80a2.printname"] = "L85A2"
 L["unlameifier_sound_bf2_sa80a2.compactname"] = "L85A2"
--- L["unlameifier_sound_bf2_sa80a2.description"] = "Changes the firing sound of the weapon to the L85A2 from Battlefield 2: Euro Force." .. bf2nosupp
+L["unlameifier_sound_bf2_sa80a2.description"] = "Cambia el sonido del arma por el del L85A2 de Battlefield 2: Euro Force." .. bf2nosupp
 
 L["unlameifier_sound_bf2_saiga12.printname"] = "S 12K"
 L["unlameifier_sound_bf2_saiga12.compactname"] = "S 12K"
--- L["unlameifier_sound_bf2_saiga12.description"] = "Changes the firing sound of the weapon to the S12K from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_saiga12.description"] = "Cambia el sonido del arma por el de la S 12K de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_fnscarh.printname"] = "SCAR-H"
 L["unlameifier_sound_bf2_fnscarh.compactname"] = "SCAR-H"
--- L["unlameifier_sound_bf2_fnscarh.description"] = "Changes the firing sound of the weapon to the SCAR-H from Battlefield 2: Special Forces." .. bf2nosupp
+L["unlameifier_sound_bf2_fnscarh.description"] = "Cambia el sonido del arma por el del SCAR-H de Battlefield 2: Special Forces." .. bf2nosupp
 
 L["unlameifier_sound_bf2_fnscarl.printname"] = "SCAR-L"
 L["unlameifier_sound_bf2_fnscarl.compactname"] = "SCAR-L"
--- L["unlameifier_sound_bf2_fnscarl.description"] = "Changes the firing sound of the weapon to the SCAR-L from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_fnscarl.description"] = "Cambia el sonido del arma por el del SCAR-L de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_type85.printname"] = "Tipo 85"
 L["unlameifier_sound_bf2_type85.compactname"] = "Tipo 85"
--- L["unlameifier_sound_bf2_type85.description"] = "Changes the firing sound of the weapon to the Type 85 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type85.description"] = "Cambia el sonido del arma por el de la Type 85 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_type88.printname"] = "Tipo 88"
 L["unlameifier_sound_bf2_type88.compactname"] = "Tipo 88"
--- L["unlameifier_sound_bf2_type88.description"] = "Changes the firing sound of the weapon to the Type 88 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type88.description"] = "Cambia el sonido del arma por el de la Type 88 de Battlefield 2." .. bf2nosupp
 
 L["unlameifier_sound_bf2_type95.printname"] = "QBZ 97"
 L["unlameifier_sound_bf2_type95.compactname"] = "QBZ 97"
--- L["unlameifier_sound_bf2_type95.description"] = "Changes the firing sound of the weapon to the QBZ-97 from Battlefield 2." .. bf2nosupp
+L["unlameifier_sound_bf2_type95.description"] = "Cambia el sonido del arma por el del QBZ-97 de Battlefield 2." .. bf2nosupp
 
 //////////////////////////////// unlameifier_toys_charms
 
-local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
+local ulcharm = "\n\nAmuletos incluidos en <color=175,175,255>Unlameifier</color>"
 
 //////////////// HL2
--- L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
+L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
 
--- L["unlameifier_charms_hl2_skull.printname"] = "Skull"
--- L["unlameifier_charms_hl2_skull.compactname"] = "Skull"
--- L["unlameifier_charms_hl2_skull.description"] = "B-B-Bad to the bone."
+L["unlameifier_charms_hl2_skull.printname"] = "Cráneo"
+L["unlameifier_charms_hl2_skull.compactname"] = "Cráneo"
+L["unlameifier_charms_hl2_skull.description"] = "M-M-Malo hasta la médula."
 
--- L["unlameifier_charms_hl2_baby.printname"] = "Baby"
--- L["unlameifier_charms_hl2_baby.compactname"] = "Baby"
--- L["unlameifier_charms_hl2_baby.description"] = "Delicious pizza topping."
+L["unlameifier_charms_hl2_baby.printname"] = "Bebé"
+L["unlameifier_charms_hl2_baby.compactname"] = "Bebé"
+L["unlameifier_charms_hl2_baby.description"] = "Ingrediente delicioso para pizza."
 
--- L["unlameifier_charms_hl2_can.printname"] = "Can"
--- L["unlameifier_charms_hl2_can.compactname"] = "Can"
--- L["unlameifier_charms_hl2_can.description"] = "\"Pick up that can\"."
+L["unlameifier_charms_hl2_can.printname"] = "Lata"
+L["unlameifier_charms_hl2_can.compactname"] = "Lata"
+L["unlameifier_charms_hl2_can.description"] = "\"Recoge esa lata\"."
 
--- L["unlameifier_charms_hl2_hula.printname"] = "Hula Doll"
--- L["unlameifier_charms_hl2_hula.compactname"] = "Doll"
--- L["unlameifier_charms_hl2_hula.description"] = "Reminder of a better place."
+L["unlameifier_charms_hl2_hula.printname"] = "Muñeca hula"
+L["unlameifier_charms_hl2_hula.compactname"] = "Muñeca"
+L["unlameifier_charms_hl2_hula.description"] = "Un recordatorio de un lugar mejor."
 
--- L["unlameifier_charms_hl2_milk.printname"] = "The Milk"
--- L["unlameifier_charms_hl2_milk.compactname"] = "Milk"
--- L["unlameifier_charms_hl2_milk.description"] = "Your dad can finally come home now."
+L["unlameifier_charms_hl2_milk.printname"] = "La Leche"
+L["unlameifier_charms_hl2_milk.compactname"] = "Leche"
+L["unlameifier_charms_hl2_milk.description"] = "Tu padre puede al fin venir a casa."
 
--- L["unlameifier_charms_hl2_melon.printname"] = "Melon"
--- L["unlameifier_charms_hl2_melon.compactname"] = "Melon"
--- L["unlameifier_charms_hl2_melon.description"] = "melon :)"
+L["unlameifier_charms_hl2_melon.printname"] = "Melón"
+L["unlameifier_charms_hl2_melon.compactname"] = "Melón"
+L["unlameifier_charms_hl2_melon.description"] = "melón :)"
 
--- L["unlameifier_charms_hl2_science_team.printname"] = "The Science Team"
--- L["unlameifier_charms_hl2_science_team.compactname"] = "Scientists"
--- L["unlameifier_charms_hl2_science_team.description"] = "No! I'm with the science team!"
+L["unlameifier_charms_hl2_science_team.printname"] = "El equipo de ciencia"
+L["unlameifier_charms_hl2_science_team.compactname"] = "Científicos"
+L["unlameifier_charms_hl2_science_team.description"] = "¡No dispare! ¡Estoy con el equipo de ciencia!"
 
--- L["unlameifier_charms_hl2_traffic_cone.printname"] = "Traffic Cone"
--- L["unlameifier_charms_hl2_traffic_cone.compactname"] = "Cone"
--- L["unlameifier_charms_hl2_traffic_cone.description"] = "We used to flip these things off the very edge of the world and slowly crawl our way down to the abyss to see if it landed right side up or not."
+L["unlameifier_charms_hl2_traffic_cone.printname"] = "Cono de tráfico"
+L["unlameifier_charms_hl2_traffic_cone.compactname"] = "Cono"
+L["unlameifier_charms_hl2_traffic_cone.description"] = "Solíamos lanzar estas cosas desde el borde del mundo y arrastrarnos lentamente hacia el abismo para ver si aterrizaban de pie o no."
 
--- L["unlameifier_charms_hl2_bucket.printname"] = "The Bucket"
--- L["unlameifier_charms_hl2_bucket.compactname"] = "Bucket"
--- L["unlameifier_charms_hl2_bucket.description"] = "The emotional support bucket will join you on your journeys, no matter how grim your situation may be. Stanley Approved."
+L["unlameifier_charms_hl2_bucket.printname"] = "El Cubo"
+L["unlameifier_charms_hl2_bucket.compactname"] = "Cubo"
+L["unlameifier_charms_hl2_bucket.description"] = "El cubo de apoyo emocional te acompañará en tus aventuras, sin importar como de fea se ponga la situación. Aprobado por Stanley."
 
--- L["unlameifier_charms_hl2_breen_bust.printname"] = "Breen Bust"
--- L["unlameifier_charms_hl2_breen_bust.compactname"] = "Breen"
--- L["unlameifier_charms_hl2_breen_bust.description"] = "\"Welcome! Welcome to City 17! You have chosen, or been chosen, to relocate to one of our finest remaining urban centers. I thought so much of City 17 that I elected to establish my administration here, in the Citadel so thoughtfully provided by our benefactors. I've been proud to call City 17 my home. And so, whether you are here to stay, or passing through on your way to parts unknown - welcome to City 17. It's safer here\"."
+L["unlameifier_charms_hl2_breen_bust.printname"] = "Busto de Breen"
+L["unlameifier_charms_hl2_breen_bust.compactname"] = "Breen"
+L["unlameifier_charms_hl2_breen_bust.description"] = "\"¡Bienvenidos! ¡Bienvenidos a Ciudad 17! Habéis elegido, u os han elegido, para trasladarse a uno de nuestros mejores centros urbanos. Yo apreciaba tanto Ciudad 17 que decidí establecer aquí mi Administración, en la ciudadela amablemente proporcionada por nuestros benefactores. Me enorgullece llamar a Ciudad 17 mi hogar. Así que, ya hayáis venido para quedaros o vayáis de paso hacia lugares desconocidos, bienvenidos a Ciudad 17. Un lugar seguro.\""
 
--- L["unlameifier_charms_hl2_crt.printname"] = "CRT Monitor"
--- L["unlameifier_charms_hl2_crt.compactname"] = "CRT"
--- L["unlameifier_charms_hl2_crt.description"] = "Nowadays, we put the monitor down gently to not break the monitor. Back then, we put THESE fuckers down gently to not break the table."
+L["unlameifier_charms_hl2_crt.printname"] = "Monitor CRT"
+L["unlameifier_charms_hl2_crt.compactname"] = "CRT"
+L["unlameifier_charms_hl2_crt.description"] = "Hoy día, colocamos con cuidado el monitor para intentar no romperlo. Antaño, teníamos que colocar ESTOS cabrones con cuidado para no romper la mesa."
 
--- L["unlameifier_charms_hl2_paintbucket.printname"] = "Bucket 'o Paint"
--- L["unlameifier_charms_hl2_paintbucket.compactname"] = "Paint"
--- L["unlameifier_charms_hl2_paintbucket.description"] = "...don't worry, we all thought the same thing the first time we saw one of these hit the wall."
+L["unlameifier_charms_hl2_paintbucket.printname"] = "Cubo de pintura"
+L["unlameifier_charms_hl2_paintbucket.compactname"] = "Pintura"
+L["unlameifier_charms_hl2_paintbucket.description"] = "... no te preocupes, todos pensamos lo mismo la primera vez que vimos uno de estos estrellarse contra la pared."
 
--- L["unlameifier_charms_hl2_plug.printname"] = "Plug"
--- L["unlameifier_charms_hl2_plug.compactname"] = "Plug"
--- L["unlameifier_charms_hl2_plug.description"] = "\"You going to let Gordon throw the switch?\""
+L["unlameifier_charms_hl2_plug.printname"] = "Enchufe"
+L["unlameifier_charms_hl2_plug.compactname"] = "Enchufe"
+L["unlameifier_charms_hl2_plug.description"] = "\"¿Que accione Gordon el interruptor?\""
 
--- L["unlameifier_charms_hl2_vending.printname"] = "Vending Machine"
--- L["unlameifier_charms_hl2_vending.compactname"] = "Vending"
--- L["unlameifier_charms_hl2_vending.description"] = "\"Don't drink the water. They put something in it to make you forget. I don't even remember how I got here.\""
+L["unlameifier_charms_hl2_vending.printname"] = "Máquina expendedora"
+L["unlameifier_charms_hl2_vending.compactname"] = "Expendedora"
+L["unlameifier_charms_hl2_vending.description"] = "\"No bebas agua. Le ponen algo que te hace olvidar. Ni siquiera recuerdo cómo llegué aquí.\""
 
--- L["unlameifier_charms_hl2_headcrab.printname"] = "Headcrab"
--- L["unlameifier_charms_hl2_headcrab.compactname"] = "Headcrab"
--- L["unlameifier_charms_hl2_headcrab.description"] = "\"It's your pet, the freakin' head-humper!\""
+L["unlameifier_charms_hl2_headcrab.printname"] = "Cangrejo"
+L["unlameifier_charms_hl2_headcrab.compactname"] = "Cangrejo"
+L["unlameifier_charms_hl2_headcrab.description"] = "\"¡Es tu mascota, el asaltacabezas!\""
 
--- L["unlameifier_charms_hl2_cheaple.printname"] = "Cheaple"
--- L["unlameifier_charms_hl2_cheaple.compactname"] = "Cheaple"
--- L["unlameifier_charms_hl2_cheaple.description"] = "Cheaple, my beloved..."
+L["unlameifier_charms_hl2_cheaple.printname"] = "Cheaple"
+L["unlameifier_charms_hl2_cheaple.compactname"] = "Cheaple"
+L["unlameifier_charms_hl2_cheaple.description"] = "Mi querido Cheaple..."
 
--- L["unlameifier_charms_hl2_hev.printname"] = "Mk. V Hazardous Environment Suit"
--- L["unlameifier_charms_hl2_hev.compactname"] = "H.E.V."
--- L["unlameifier_charms_hl2_hev.description"] = "\"I've made a few modifications, but I'll just acquaint you with the essentials. Now, let's see... The Mark V Hazardous Environment Suit has been redesigned for comfort and utility.\""
+L["unlameifier_charms_hl2_hev.printname"] = "Traje de protección Mark V"
+L["unlameifier_charms_hl2_hev.compactname"] = "H.E.V."
+L["unlameifier_charms_hl2_hev.description"] = "\"He hecho algunas modificaciones, pero solo te explicaré lo esencial. Bien, veamos... El traje de protección Mark V se ha rediseñado para un mejor uso y comodidad.\""
 
--- L["unlameifier_charms_hl2_rollermine.printname"] = "Rollermine"
--- L["unlameifier_charms_hl2_rollermine.compactname"] = "Rollermine"
--- L["unlameifier_charms_hl2_rollermine.description"] = "Silly little guys. Fun to throw at people."
+L["unlameifier_charms_hl2_rollermine.printname"] = "Mina rodante"
+L["unlameifier_charms_hl2_rollermine.compactname"] = "Mina"
+L["unlameifier_charms_hl2_rollermine.description"] = "Pequeñajos graciosos. Son divertido de arrojar a la gente."
 
--- L["unlameifier_charms_hl2_suitcase.printname"] = "Suitcase"
--- L["unlameifier_charms_hl2_suitcase.compactname"] = "Suitcase"
--- L["unlameifier_charms_hl2_suitcase.description"] = "What mysteries lie within this suitcase?"
+L["unlameifier_charms_hl2_suitcase.printname"] = "Maleta"
+L["unlameifier_charms_hl2_suitcase.compactname"] = "Maleta"
+L["unlameifier_charms_hl2_suitcase.description"] = "¿Qué misterios yacen en esta maleta?"
 
--- L["unlameifier_charms_hl2_gravity_gun.printname"] = "Gravity Gun"
--- L["unlameifier_charms_hl2_gravity_gun.compactname"] = "Gravity Gun"
--- L["unlameifier_charms_hl2_gravity_gun.description"] = "\"Take the Gravity Gun.\""
+L["unlameifier_charms_hl2_gravity_gun.printname"] = "Arma gravitatoria"
+L["unlameifier_charms_hl2_gravity_gun.compactname"] = "Arma gravitatoria"
+L["unlameifier_charms_hl2_gravity_gun.description"] = "\"Coge la pistola antigravedad.\""
 
--- L["unlameifier_charms_hl2_crowbar.printname"] = "Crowbar"
--- L["unlameifier_charms_hl2_crowbar.compactname"] = "Crowbar"
--- L["unlameifier_charms_hl2_crowbar.description"] = "\"The right man in the wrong place can make all the difference in the world.\""
+L["unlameifier_charms_hl2_crowbar.printname"] = "Palanca"
+L["unlameifier_charms_hl2_crowbar.compactname"] = "Palanca"
+L["unlameifier_charms_hl2_crowbar.description"] = "\"El hombre adecuado en el sitio equivocado puede cambiar el rumbo del mundo.\""
 
--- L["unlameifier_charms_hl2_ravenholm.printname"] = "Ravenholm Sign"
--- L["unlameifier_charms_hl2_ravenholm.compactname"] = "Ravenholm"
--- L["unlameifier_charms_hl2_ravenholm.description"] = "Spoiler alert: We went to Ravenholm."
+L["unlameifier_charms_hl2_ravenholm.printname"] = "Señal de Ravenholm"
+L["unlameifier_charms_hl2_ravenholm.compactname"] = "Ravenholm"
+L["unlameifier_charms_hl2_ravenholm.description"] = "Alerta de spoiler: Fuimos a Ravenholm."
 
--- L["unlameifier_charms_hl2_medkit.printname"] = "Medkit"
--- L["unlameifier_charms_hl2_medkit.compactname"] = "Medkit"
--- L["unlameifier_charms_hl2_medkit.description"] = "\"Here, take this medkit!\""
+L["unlameifier_charms_hl2_medkit.printname"] = "Botiquín"
+L["unlameifier_charms_hl2_medkit.compactname"] = "Botiquín"
+L["unlameifier_charms_hl2_medkit.description"] = "\"¡Toma, cúrate!\""
 
--- L["unlameifier_charms_hl2_suit_battery.printname"] = "Suit Battery"
--- L["unlameifier_charms_hl2_suit_battery.compactname"] = "Battery"
--- L["unlameifier_charms_hl2_suit_battery.description"] = "Makes a cool sound whenever you pick them up. Technically backwards, but this is the COOLER side."
+L["unlameifier_charms_hl2_suit_battery.printname"] = "Batería de traje"
+L["unlameifier_charms_hl2_suit_battery.compactname"] = "Batería"
+L["unlameifier_charms_hl2_suit_battery.description"] = "Hace un sonido guay cuando la recoges. Técnicamente está al revés, pero este es el MEJOR lado."
 
--- L["unlameifier_charms_hl2_item_crate.printname"] = "Item Crate"
--- L["unlameifier_charms_hl2_item_crate.compactname"] = "Crate"
--- L["unlameifier_charms_hl2_item_crate.description"] = "Will always have exactly what you need. No, seriously. That is how this thing is coded to work. It checks to see what you need the most. Don't believe me? Try dumping all your ammo on one gun just before smashing one of these guys open!"
+L["unlameifier_charms_hl2_item_crate.printname"] = "Caja de recursos"
+L["unlameifier_charms_hl2_item_crate.compactname"] = "Caja"
+L["unlameifier_charms_hl2_item_crate.description"] = "Siempre te darán lo que necesitas. No, en serio. Es como esta cosa está programada para funcionar. Comprueba qué es lo que más necesitas. ¿No me crees? ¡Trata de agotar toda la munición de un arma antes de abrir una de estas cajas!"
 
 //////////////// Developer Stuff
--- L["unlameifier.folder.charms.dev"] = "Unlameifier/Dev"
+L["unlameifier.folder.charms.dev"] = "Unlameifier/Desarrollador"
 
--- L["unlameifier_charms_dev_info_player_start.printname"] = "info_player_start"
--- L["unlameifier_charms_dev_info_player_start.compactname"] = "info_player_start"
--- L["unlameifier_charms_dev_info_player_start.description"] = "Spawn point in the Hammer Editor."
+L["unlameifier_charms_dev_info_player_start.printname"] = "info_player_start"
+L["unlameifier_charms_dev_info_player_start.compactname"] = "info_player_start"
+L["unlameifier_charms_dev_info_player_start.description"] = "Punto de aparición en el editor Hammer."
 
--- L["unlameifier_charms_dev_error.printname"] = "ERROR"
--- L["unlameifier_charms_dev_error.compactname"] = "ERROR"
--- L["unlameifier_charms_dev_error.description"] = "\"F**K! WHY IS CS:S REQUIRED FOR THIS?!\""
+L["unlameifier_charms_dev_error.printname"] = "ERROR"
+L["unlameifier_charms_dev_error.compactname"] = "ERROR"
+L["unlameifier_charms_dev_error.description"] = "\"¡J**ER! ¿¡POR QUÉ ESTO REQUIERE EL CS:S!?\""
 
--- L["unlameifier_charms_dev_ground_node.printname"] = "Ground Node"
--- L["unlameifier_charms_dev_ground_node.compactname"] = "Ground Node"
--- L["unlameifier_charms_dev_ground_node.description"] = "You might want some of these if you want to fight NPCs..."
+L["unlameifier_charms_dev_ground_node.printname"] = "Nodo de suelo"
+L["unlameifier_charms_dev_ground_node.compactname"] = "Nodo suelo"
+L["unlameifier_charms_dev_ground_node.description"] = "Tal vez quieras unos cuantos de estos si quieres pelear contra NPCs..."
 
 //////////////// Counter-Strike: Source
--- L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
+L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
 
-local requirescss = "\n\n<color=255,100,100>NOTE</color>: Requires Counter-Strike: Source to be mounted in order to work."
+local requirescss = "\n\n<color=255,100,100>NOTE</color>: Requiere que Counter-Strike: Source esté montado para funcionar."
 
--- L["unlameifier_charms_css_cash.printname"] = "Cold Hard Cash"
--- L["unlameifier_charms_css_cash.compactname"] = "Cash"
--- L["unlameifier_charms_css_cash.description"] = "Tons of cold hard cash, perfect for any heister."
+L["unlameifier_charms_css_cash.printname"] = "Pasta gansa"
+L["unlameifier_charms_css_cash.compactname"] = "Pasta"
+L["unlameifier_charms_css_cash.description"] = "Montones de pasta gansa, perfecto para cualquier atracador."
 
--- L["unlameifier_charms_css_snowman.printname"] = "Snowman"
--- L["unlameifier_charms_css_snowman.compactname"] = "Snowman"
--- L["unlameifier_charms_css_snowman.description"] = "He's a really chill guy once you get to know him."
+L["unlameifier_charms_css_snowman.printname"] = "Muñeco de nieve"
+L["unlameifier_charms_css_snowman.compactname"] = "Muñ. nieve"
+L["unlameifier_charms_css_snowman.description"] = "Es un tio muy tranquilo una vez que lo conoces."
 
--- L["unlameifier_charms_css_coffee_mug.printname"] = "Coffee Mug"
--- L["unlameifier_charms_css_coffee_mug.compactname"] = "Mug"
--- L["unlameifier_charms_css_coffee_mug.description"] = "Sleep? What's that?"
+L["unlameifier_charms_css_coffee_mug.printname"] = "Taza de café"
+L["unlameifier_charms_css_coffee_mug.compactname"] = "Taza"
+L["unlameifier_charms_css_coffee_mug.description"] = "¿Dormir? ¿Qué es eso?"
 
--- L["unlameifier_charms_css_fish.printname"] = "Fish"
--- L["unlameifier_charms_css_fish.compactname"] = "Fish"
--- L["unlameifier_charms_css_fish.description"] = "Fish."
+L["unlameifier_charms_css_fish.printname"] = "Pez"
+L["unlameifier_charms_css_fish.compactname"] = "Pez"
+L["unlameifier_charms_css_fish.description"] = "Pez."
 
--- L["unlameifier_charms_css_turtle.printname"] = "Turtle"
--- L["unlameifier_charms_css_turtle.compactname"] = "Turtle"
--- L["unlameifier_charms_css_turtle.description"] = "\"I like turtles.\""
+L["unlameifier_charms_css_turtle.printname"] = "Tortuga"
+L["unlameifier_charms_css_turtle.compactname"] = "Tortuga"
+L["unlameifier_charms_css_turtle.description"] = "\"Me gustan las tortugas.\""
 
--- L["unlameifier_charms_css_c4.printname"] = "C4"
--- L["unlameifier_charms_css_c4.compactname"] = "C4"
--- L["unlameifier_charms_css_c4.description"] = "This really is \"the bomb\"."
+L["unlameifier_charms_css_c4.printname"] = "C4"
+L["unlameifier_charms_css_c4.compactname"] = "C4"
+L["unlameifier_charms_css_c4.description"] = "La verdad es que esto es \"la bomba\"."
 
--- L["unlameifier_charms_css_knife.printname"] = "Knife"
--- L["unlameifier_charms_css_knife.compactname"] = "Knife"
--- L["unlameifier_charms_css_knife.description"] = "\"DOOR STUCK! DOOR STUCK!\""
+L["unlameifier_charms_css_knife.printname"] = "Cuchillo"
+L["unlameifier_charms_css_knife.compactname"] = "Cuchillo"
+L["unlameifier_charms_css_knife.description"] = "\"¡PUERTA ATASCADA! ¡PUERTA ATASCADA!\""
 
--- L["unlameifier_charms_css_deagle.printname"] = "Deagle"
--- L["unlameifier_charms_css_deagle.compactname"] = "Deagle"
--- L["unlameifier_charms_css_deagle.description"] = "Wielded by none other than the legendary Juan Deag himself."
+L["unlameifier_charms_css_deagle.printname"] = "Deagle"
+L["unlameifier_charms_css_deagle.compactname"] = "Deagle"
+L["unlameifier_charms_css_deagle.description"] = "Empuñada por nada mas ni nada menos que la mismisima leyenda Juan Deag."
 
--- L["unlameifier_charms_css_pc.printname"] = "PC"
--- L["unlameifier_charms_css_pc.compactname"] = "PC"
--- L["unlameifier_charms_css_pc.description"] = "Aren't you playing on one of these?"
+L["unlameifier_charms_css_pc.printname"] = "Ordenador"
+L["unlameifier_charms_css_pc.compactname"] = "PC"
+L["unlameifier_charms_css_pc.description"] = "¿No estás jugando en uno de estos?"
 
--- L["unlameifier_charms_css_i_hate_skibidi_toilet.printname"] = "Toilet"
--- L["unlameifier_charms_css_i_hate_skibidi_toilet.compactname"] = "Toilet"
--- L["unlameifier_charms_css_i_hate_skibidi_toilet.description"] = "I refuse to comment."
+L["unlameifier_charms_css_i_hate_skibidi_toilet.printname"] = "Retrete"
+L["unlameifier_charms_css_i_hate_skibidi_toilet.compactname"] = "Retrete"
+L["unlameifier_charms_css_i_hate_skibidi_toilet.description"] = "Me niego a comentar."
 
--- L["unlameifier_charms_css_keyboard.printname"] = "Keyboard"
--- L["unlameifier_charms_css_keyboard.compactname"] = "Keyboard"
--- L["unlameifier_charms_css_keyboard.description"] = "Why call it \"keyboard\" when there's clearly buttons...?"
+L["unlameifier_charms_css_keyboard.printname"] = "Teclado"
+L["unlameifier_charms_css_keyboard.compactname"] = "Teclado"
+L["unlameifier_charms_css_keyboard.description"] = "Por qué llamarlo \"teclado\" cuando claramente lo que hay son botones?"
 
--- L["unlameifier_charms_css_mouse.printname"] = "Mouse"
--- L["unlameifier_charms_css_mouse.compactname"] = "Mouse"
--- L["unlameifier_charms_css_mouse.description"] = "Computer mice were named after actual mice, so \"mice\" should absolutely be the official plural for computer mice. Fight me."
+L["unlameifier_charms_css_mouse.printname"] = "Ratón"
+L["unlameifier_charms_css_mouse.compactname"] = "Ratón"
+L["unlameifier_charms_css_mouse.description"] = "Se le llama \"ratón\" porque se parece a un ratón. No es necesario recurrir a \"mouse\" teniendo una palabra en nuestro idioma. Si no estás de acuerdo te espero afuera."
 
--- L["unlameifier_charms_css_monitor.printname"] = "Monitor"
--- L["unlameifier_charms_css_monitor.compactname"] = "Monitor"
--- L["unlameifier_charms_css_monitor.description"] = "Despite the keyring punching right through it, it still works. It's just built different."
+L["unlameifier_charms_css_monitor.printname"] = "Monitor"
+L["unlameifier_charms_css_monitor.compactname"] = "Monitor"
+L["unlameifier_charms_css_monitor.description"] = "Despite the keyring punching right through it, it still works. It's just built different."
 
--- L["unlameifier_charms_css_cinderblocks.printname"] = "Cinderblocks"
--- L["unlameifier_charms_css_cinderblocks.compactname"] = "Cinderblocks"
--- L["unlameifier_charms_css_cinderblocks.description"] = "In theory, this *should* reduce your recoil."
+L["unlameifier_charms_css_cinderblocks.printname"] = "Bloques de hormigón"
+L["unlameifier_charms_css_cinderblocks.compactname"] = "Bloq. hormigón"
+L["unlameifier_charms_css_cinderblocks.description"] = "En teoría, esto *debería* reducir tu retroceso."
 
 //////////////// Garry's Mod
--- L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
+L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
 
--- L["unlameifier_charms_gmod_tnt.printname"] = "TNT"
--- L["unlameifier_charms_gmod_tnt.compactname"] = "TNT"
--- L["unlameifier_charms_gmod_tnt.description"] = "Use \"Drive\" on the context menu with these guys to make a hilarious prank for your friends."
+L["unlameifier_charms_gmod_tnt.printname"] = "Trinitrotolueno"
+L["unlameifier_charms_gmod_tnt.compactname"] = "TNT"
+L["unlameifier_charms_gmod_tnt.description"] = "Usa \"Conducir\" en el menú contextual con uno de estos para gastarle hilarantes bromas a tus amigos."
 
--- L["unlameifier_charms_gmod_do_not_press.printname"] = "\"DO NOT PRESS\""
--- L["unlameifier_charms_gmod_do_not_press.compactname"] = "DNP"
--- L["unlameifier_charms_gmod_do_not_press.description"] = "You're gonna press it, aren't you?"
+L["unlameifier_charms_gmod_do_not_press.printname"] = "\"NO PULSAR\""
+L["unlameifier_charms_gmod_do_not_press.compactname"] = "No pulsar"
+L["unlameifier_charms_gmod_do_not_press.description"] = "No lo irás a pulsar, ¿verdad?"
 
--- L["unlameifier_charms_gmod_light_switch.printname"] = "Light Switch"
--- L["unlameifier_charms_gmod_light_switch.compactname"] = "Switch"
--- L["unlameifier_charms_gmod_light_switch.description"] = "It's turned on..."
+L["unlameifier_charms_gmod_light_switch.printname"] = "Interruptor de la luz"
+L["unlameifier_charms_gmod_light_switch.compactname"] = "Interruptor"
+L["unlameifier_charms_gmod_light_switch.description"] = "Está encendido..."
 
--- L["unlameifier_charms_gmod_hoverball.printname"] = "Hoverball"
--- L["unlameifier_charms_gmod_hoverball.compactname"] = "Hoverball"
--- L["unlameifier_charms_gmod_hoverball.description"] = "It makes things hover."
+L["unlameifier_charms_gmod_hoverball.printname"] = "Bola flotante"
+L["unlameifier_charms_gmod_hoverball.compactname"] = "B. flotante"
+L["unlameifier_charms_gmod_hoverball.description"] = "Hace que las cosas floten."
 
--- L["unlameifier_charms_gmod_camera_tool.printname"] = "Camera (Tool)"
--- L["unlameifier_charms_gmod_camera_tool.compactname"] = "Camera"
--- L["unlameifier_charms_gmod_camera_tool.description"] = "Camera as seen from the Camera Tool."
+L["unlameifier_charms_gmod_camera_tool.printname"] = "Cámara (Herramienta)"
+L["unlameifier_charms_gmod_camera_tool.compactname"] = "Cámara"
+L["unlameifier_charms_gmod_camera_tool.description"] = "La cámara de la herramienta Cámara."
 
--- L["unlameifier_charms_gmod_burger.printname"] = "Burger"
--- L["unlameifier_charms_gmod_burger.compactname"] = "Burger"
--- L["unlameifier_charms_gmod_burger.description"] = "mmm yummy burger :)"
+L["unlameifier_charms_gmod_burger.printname"] = "Hamburguesa"
+L["unlameifier_charms_gmod_burger.compactname"] = "Hamburguesa"
+L["unlameifier_charms_gmod_burger.description"] = "mmm rica hamburguesa :)"
 
--- L["unlameifier_charms_gmod_hotdog.printname"] = "Hotdog"
--- L["unlameifier_charms_gmod_hotdog.compactname"] = "Hotdog"
--- L["unlameifier_charms_gmod_hotdog.description"] = "mmm yummy hotdog :)"
+L["unlameifier_charms_gmod_hotdog.printname"] = "Perrito caliente"
+L["unlameifier_charms_gmod_hotdog.compactname"] = "Hotdog"
+L["unlameifier_charms_gmod_hotdog.description"] = "mmm rico perrito caliente :)"
 
 //////////////// Team Fortress 2
--- L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
+L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
 
-local requirestf2 = "\n\n<color=255,100,100>NOTE</color>: Requires Team Fortress 2 to be mounted in order to work."
+local requirestf2 = "\n\n<color=255,100,100>NOTE</color>: Requiere que Team Fortress 2 esté montado para funcionar."
 
--- L["unlameifier_charms_tf2_spider.printname"] = "Spider"
--- L["unlameifier_charms_tf2_spider.compactname"] = "Spider"
--- L["unlameifier_charms_tf2_spider.description"] = "How do I shoot web?"
+L["unlameifier_charms_tf2_spider.printname"] = "Araña"
+L["unlameifier_charms_tf2_spider.compactname"] = "Araña"
+L["unlameifier_charms_tf2_spider.description"] = "¿Cómo tiro tela de araña?"
 
--- L["unlameifier_charms_tf2_ghost.printname"] = "Ghost"
--- L["unlameifier_charms_tf2_ghost.compactname"] = "Ghost"
--- L["unlameifier_charms_tf2_ghost.description"] = "Spook up your gun with a super scary GHOST!!"
+L["unlameifier_charms_tf2_ghost.printname"] = "Fantasma"
+L["unlameifier_charms_tf2_ghost.compactname"] = "Fantasma"
+L["unlameifier_charms_tf2_ghost.description"] = "¡¡Haz que tu arma sea terrorífica con un FANTASMA super aterrador!!"
 
--- L["unlameifier_charms_tf2_bat.printname"] = "Bat"
--- L["unlameifier_charms_tf2_bat.compactname"] = "Bat"
--- L["unlameifier_charms_tf2_bat.description"] = "Put your gun in its goth phase."
+L["unlameifier_charms_tf2_bat.printname"] = "Murciélago"
+L["unlameifier_charms_tf2_bat.compactname"] = "Murciélago"
+L["unlameifier_charms_tf2_bat.description"] = "Haz pasar a tu arma por su fase gótica."
 
--- L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
--- L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
--- L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."
+L["unlameifier_charms_tf2_jackolantern.printname"] = "Calabaza de Halloween"
+L["unlameifier_charms_tf2_jackolantern.compactname"] = "Calabaza"
+L["unlameifier_charms_tf2_jackolantern.description"] = "Jack, de donde surge el nombre original de la calabaza de Halloween (\"Jack-O'-Lantern\" o \"farol de Jack\"), fue un embaucador increíble. Tanto, de hecho, que el mismo diablo fue engañado más de una vez por el bueno de Jack."

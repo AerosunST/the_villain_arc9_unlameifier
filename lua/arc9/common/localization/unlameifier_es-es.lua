@@ -256,11 +256,11 @@ L["eft_unlameifier_toys_lightning.description"] = [[Al contrario de la chispa, e
 
 Visualmente, esto tiene el mismo efecto como cuando matas algo con la súper arma gravitatoria. ¡Bastante chulo!]]
 
-L["eft_unlameifier_toys_gsr_zeus.printname"] = "Zeus x27 Muzzle Effect" -- NEW
-L["eft_unlameifier_toys_gsr_zeus.compactname"] = "Zeus Muzzle" -- NEW
-L["eft_unlameifier_toys_gsr_zeus.description"] = [[Overrides the weapon's muzzle effect with the one used on the Zeus x27 from the Gunsmith Reloaded addon.
+L["eft_unlameifier_toys_gsr_zeus.printname"] = "Fogonazo de la Zeus x27"
+L["eft_unlameifier_toys_gsr_zeus.compactname"] = "Fogonazo Zeus"
+L["eft_unlameifier_toys_gsr_zeus.description"] = [[Sustituye el efecto del fogonazo del arma con el que se usa en la Zeus x27 de la extensión Gunsmith Reloaded.
 
-<color=255,100,100>WARNING</color>: Requires Gunsmith Reloaded. If not installed, expect broken particle effects.]] -- NEW
+<color=255,100,100>AVISO</color>: Requiere Gunsmith Reloaded. Si no está instalado, espera efectos de partículas rotos.]]
 
 //////////////// Impact Decals
 L["eft_unlameifier_toys_impact_blood.printname"] = "Calcomanía de sangre"
@@ -773,7 +773,7 @@ L["unlameifier_sound_misc_mrskeltal.description"] = [[grax sr. skeltal
 no hacen falta balas para hacer "doot"]]
 
 L["unlameifier_sound_misc_ltg.printname"] = "Un mensaje de Low Tier God"
-L["unlameifier_sound_misc_ltg.compactname"] = "KYS"
+L["unlameifier_sound_misc_ltg.compactname"] = "Suicídate"
 L["unlameifier_sound_misc_ltg.description"] = [["Tu vida no es NADA. No tienes NINGÚN propósito".
  -LowTierGod
 
@@ -781,9 +781,9 @@ nota: Unlameifier y su creador, Neosun, no promueve, aprueba o fomenta el suicid
 
 Si crees que necesitas hablar con alguien, eres libre de agregarme en Steam (solo asegurate de dejarme un comentario mencionando este accesorio para que no crea que eres spam) ♥]]
 
-L["unlameifier_sound_misc_lightning.printname"] = "Lightning Storm"
-L["unlameifier_sound_misc_lightning.compactname"] = "Lightning"
-L["unlameifier_sound_misc_lightning.description"] = "Wield the power of the tempest."
+L["unlameifier_sound_misc_lightning.printname"] = "Tormenta eléctrica"
+L["unlameifier_sound_misc_lightning.compactname"] = "Tormenta"
+L["unlameifier_sound_misc_lightning.description"] = "Empuña el poder de la tempestad."
 
 L["unlameifier_sound_misc_mlg.printname"] = "Parodia de montaje MLG"
 L["unlameifier_sound_misc_mlg.compactname"] = "MLG"
@@ -894,28 +894,28 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Sonidos sacados de la legendaria
 La leyenda nunca muere...]]
 
 //////////////// Misc. (Ricochet)
-L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Sonidos/Otros/Ricochet" -- NEW
+L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Sonidos/Otros/Rebote"
 
-L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball Sounds" -- NEW
-L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball" -- NEW
-L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Makes the ricochets sound like a pinball machine. Sounds best with low-velocity projectiles.
+L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Sonido de Pinball"
+L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
+L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Hace que los sonidos de rebote suenen como una máquina de pinball. Suena mejor con proyectiles de baja velocidad.
 
-Combine with \"100% Ricochet Chance\", \"90° Ricochet\", \"+Ricochet Seeking\" and \"90° Ricochet Seeking\" in the Tuning System for a more realistic pinball experience.]] -- NEW
+Combínalo con \"Probabilidad de rebote del 100%\", \"Rebote de 90°\", \"+Rebote de búsqueda\" y \"Rebote de búsqueda de 90°\" en el Sistema de ajustado para una experiéncia de pinball más realista."]]
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sonidos/Otros/Impacto"
 
-L["unlameifier_sound_impact_misc_discord.printname"] = "Discord Notification" -- NEW
-L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord" -- NEW
-L["unlameifier_sound_impact_misc_discord.description"] = [[Replaces the bullet impact sound with the Discord notification.
+L["unlameifier_sound_impact_misc_discord.printname"] = "Notificación de Discord"
+L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord"
+L["unlameifier_sound_impact_misc_discord.description"] = [[Reemplaza el sonido de impacto de la bala con el de las notificaciones de Discord.
 
-Psychological warfare at its finest.]] -- NEW
+Guerra psicológica en su máxima expresión.]]
 
-L["unlameifier_sound_impact_misc_discord60s.printname"] = "Discord Notification at 60 Second Delay"
+L["unlameifier_sound_impact_misc_discord60s.printname"] = "Notificación de Discord con un retraso de 60 segundos"
 L["unlameifier_sound_impact_misc_discord60s.compactname"] = "Discord 60s"
-L["unlameifier_sound_impact_misc_discord60s.description"] = [[Replaces the bullet impact sound with the Discord notification delayed by 60 seconds.
+L["unlameifier_sound_impact_misc_discord60s.description"] = [[Reemplaza el sonido de impacto de la bala con el de las notificaciones de Discord con un retraso de 60 segundos.
 
-Calm down, Satan.]] -- NEW
+Relájate, Satanás.]]
 
 //////////////// Melee Sounds Misc (Impact)
 L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sonidos/Impacto/Otros"
@@ -1051,7 +1051,7 @@ L["unlameifier_sound_dod_carbine.description"] = [[Cambia el sonido de disparo d
 "Con el ligero retroceso de la Carabina M1, esta clase puede acertar a objetivos de manera rápida y precisa. Esta clase es ideal para peleas urbanas a cortas distancias."]]
 
 L["unlameifier_sound_dod_colt.printname"] = "Pistola Colt 1911"
-L["unlameifier_sound_dod_colt.compactname"] = "Pistola Colt 1911"
+L["unlameifier_sound_dod_colt.compactname"] = "Colt 1911"
 L["unlameifier_sound_dod_colt.description"] = "Cambia el sonido de disparo del arma por el de la pistola Colt 1911 de Day of Defeat."
 
 L["unlameifier_sound_dod_enfield.printname"] = "Enfield"
@@ -1097,7 +1097,7 @@ L["unlameifier_sound_dod_kar.description"] = [[Cambia el sonido de disparo del a
 "La espina dorsal de la Wehrmacht, el Kar 98 se caracteriza por su precisión milimétrica. Esta clase domina el campo de batalla durante enfrentamientos a larga distancia. La bayoneta añadida proporciona protección a corta distancia durante peleas entre casas."]]
 
 L["unlameifier_sound_dod_luger.printname"] = "Pistola Luger '08"
-L["unlameifier_sound_dod_luger.compactname"] = "Pistola Luger '08"
+L["unlameifier_sound_dod_luger.compactname"] = "Luger '08"
 L["unlameifier_sound_dod_luger.description"] = "Cambia el sonido de disparo del arma por el de la pistola Luger '08 de Day of Defeat."
 
 L["unlameifier_sound_dod_mg34.printname"] = "MG34"
@@ -1222,7 +1222,7 @@ L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Cruzado"
 L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc.shoot, "de la Ballesta del Cruzado") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "El AWPa Cabezas"
-L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPa Cabezas"
+L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPa"
 L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "del AWPa Cabezas") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_dex_revolver.printname"] = "El Diamondback"
@@ -1350,7 +1350,7 @@ L["unlameifier_sound_tf2_theblackbox.compactname"] = "Caja Negra"
 L["unlameifier_sound_tf2_theblackbox.description"] = string.format(tf2desc.shoot, "de la Caja Negra") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_achievement_rocketlauncher.printname"] = "El Impacto Directo"
-L["unlameifier_sound_tf2_achievement_rocketlauncher.compactname"] = "Impacto Directo"
+L["unlameifier_sound_tf2_achievement_rocketlauncher.compactname"] = "Imp. Directo"
 L["unlameifier_sound_tf2_achievement_rocketlauncher.description"] = string.format(tf2desc.shoot, "del Impacto Directo") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_rocketlauncher_jump.printname"] = "El Saltacohetes"
@@ -1664,7 +1664,7 @@ L["unlameifier_sound_fo76_pistol_fortyfour.description"] = "Cambia el sonido de 
 
 L["unlameifier_sound_fo76_pistol_gammagun.printname"] = "Arma gamma"
 L["unlameifier_sound_fo76_pistol_gammagun.compactname"] = "Arma gamma"
-L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Cambia el sonido de disparo del arma por el de la \"Arma gamma\" de Fallout 4 y 76." .. fo76nosupp
+L["unlameifier_sound_fo76_pistol_gammagun.description"] = "Cambia el sonido de disparo del arma por el del \"Arma gamma\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_pistol_revolver.printname"] = "Revólver de acción simple"
 L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "Revólver AS"
@@ -1777,7 +1777,7 @@ L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator.description"] = "Cambia el sonido de disparo del arma por el del \"Cryolator\" de Fallout 4 y 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Cryolator (Cañón largo)"
-L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (Largo)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (L.)"
 L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Cambia el sonido de disparo del arma por el del \"Cryolator\" de Fallout 4 y 76 equipado con la modificación \"Cañón cristalizador\"." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_flamer.printname"] = "Lanzallamas"
@@ -1819,7 +1819,7 @@ L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sonidos/BF2/Estacio
 
 L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sonidos/Oscilación/BF2"
 
-local bf2nosupp = "\n\n<color=255,150,150>Note</color>: No tiene sonidos silenciados."
+local bf2nosupp = "\n\n<color=255,150,150>Nota</color>: No tiene sonidos de disparo con silenciador."
 
 L["unlameifier_sound_bf2_beretta92.printname"] = "92FS"
 L["unlameifier_sound_bf2_beretta92.compactname"] = "92FS"
@@ -1951,7 +1951,7 @@ L["unlameifier_sound_bf2_mp7.description"] = "Cambia el sonido de disparo del ar
 
 L["unlameifier_sound_bf2_norinco982.printname"] = "NOR 982"
 L["unlameifier_sound_bf2_norinco982.compactname"] = "NOR 982"
-L["unlameifier_sound_bf2_norinco982.description"] = "Cambia el sonido de disparo del arma por el de la NOR982 de Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+L["unlameifier_sound_bf2_norinco982.description"] = "Cambia el sonido de disparo del arma por el de la NOR982 de Battlefield 2. Nótese que el sonido tiene integrado un sonido de bombeo de escopeta que no me quise molestar en quitar. Demándame." .. bf2nosupp
 
 L["unlameifier_sound_bf2_pkm.printname"] = "PKM"
 L["unlameifier_sound_bf2_pkm.compactname"] = "PKM"
@@ -1967,7 +1967,7 @@ L["unlameifier_sound_bf2_qsz92.description"] = "Cambia el sonido de disparo del 
 
 L["unlameifier_sound_bf2_remington1187.printname"] = "M11-87"
 L["unlameifier_sound_bf2_remington1187.compactname"] = "M11-87"
-L["unlameifier_sound_bf2_remington1187.description"] = "Cambia el sonido de disparo del arma por el de la M11-87 de Battlefield 2. Note that the sound has a built-in pump-action sound I could not be arsed to remove. Sue me." .. bf2nosupp
+L["unlameifier_sound_bf2_remington1187.description"] = "Cambia el sonido de disparo del arma por el de la M11-87 de Battlefield 2. Nótese que el sonido tiene integrado un sonido de bombeo de escopeta que no me quise molestar en quitar. Demándame." .. bf2nosupp
 
 L["unlameifier_sound_bf2_rpk74.printname"] = "RPK 74"
 L["unlameifier_sound_bf2_rpk74.compactname"] = "RPK 74"
@@ -2008,7 +2008,7 @@ L["unlameifier_sound_bf2_type95.description"] = "Cambia el sonido de disparo del
 //////////////// Battlefield 2142
 L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Sonidos/BF2142"
 
-local bf2looping = "\n<color=255,150,150>Note</color>: Efecto de sonido en bucle."
+local bf2looping = "\n<color=255,150,150>Nota</color>: Efecto de sonido en bucle."
 
 L["unlameifier_sound_bf2142_as_rifle.printname"] = "Fusil de asalto Krylov"
 L["unlameifier_sound_bf2142_as_rifle.compactname"] = "FA-37"
@@ -2187,7 +2187,7 @@ L["unlameifier_charms_dev_ground_node.description"] = "Tal vez quieras unos cuan
 //////////////// Counter-Strike: Source
 L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
 
-local requirescss = "\n\n<color=255,100,100>NOTE</color>: Requiere que Counter-Strike: Source esté montado para funcionar."
+local requirescss = "\n\n<color=255,100,100>NOTA</color>: Requiere que Counter-Strike: Source esté montado para funcionar."
 
 L["unlameifier_charms_css_cash.printname"] = "Pasta gansa"
 L["unlameifier_charms_css_cash.compactname"] = "Pasta"
@@ -2279,7 +2279,7 @@ L["unlameifier_charms_gmod_hotdog.description"] = "mmm rico perrito caliente :)"
 //////////////// Team Fortress 2
 L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
 
-local requirestf2 = "\n\n<color=255,100,100>NOTE</color>: Requiere que Team Fortress 2 esté montado para funcionar."
+local requirestf2 = "\n\n<color=255,100,100>NOTA</color>: Requiere que Team Fortress 2 esté montado para funcionar."
 
 L["unlameifier_charms_tf2_spider.printname"] = "Araña"
 L["unlameifier_charms_tf2_spider.compactname"] = "Araña"

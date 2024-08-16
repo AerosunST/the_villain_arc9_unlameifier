@@ -3663,7 +3663,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_as_rifle")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_as_rifle")
 
 -------------------
 
@@ -3690,7 +3690,7 @@ ATT.ShootSoundWindDownIndoor = gsp .. "AS_MG_Fire_1p_end.wav"
 
 ATT.InstallSound = gsp .. "AS_MG_Fire_1p_install.ogg"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_as_mg")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_as_mg")
 
 -------------------
 
@@ -3709,7 +3709,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_as_smg")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_as_smg")
 
 -------------------
 
@@ -3728,7 +3728,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_as_sniper")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_as_sniper")
 
 -------------------
 
@@ -3747,7 +3747,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_as_pistol")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_as_pistol")
 
 -------------------
 ATT = {}
@@ -3765,7 +3765,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_eu_rifle")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_eu_rifle")
 
 -------------------
 
@@ -3792,7 +3792,7 @@ ATT.ShootSoundWindDownIndoor = gsp .. "eu_MG_Fire_1p_end.wav"
 
 ATT.InstallSound = gsp .. "eu_MG_Fire_1p_install.ogg"
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_eu_mg")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_eu_mg")
 
 -------------------
 
@@ -3811,7 +3811,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_eu_smg")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_eu_smg")
 
 -------------------
 
@@ -3830,7 +3830,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_eu_sniper")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_eu_sniper")
 
 -------------------
 
@@ -3849,7 +3849,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_eu_pistol")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_eu_pistol")
 
 -------------------
 
@@ -3868,7 +3868,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_unl_adv_sniper")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_unl_adv_sniper")
 
 -------------------
 
@@ -3887,7 +3887,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_unl_shotgun")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_unl_shotgun")
 
 -------------------
 
@@ -3906,4 +3906,4 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_unl_carbine")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_unl_carbine")

@@ -859,13 +859,13 @@ L["unlameifier_sound_roblox_guitar.description"] = [[Cambia el sonido de disparo
 L["unlameifier.folder.sounds.music"] = "Unlameifier/Sonidos/Música"
 
 L["unlameifier_sound_music_usa1.printname"] = "The Star-Spangled Banner"
-L["unlameifier_sound_music_usa1.compactname"] = "Himno EE. UU."
+L["unlameifier_sound_music_usa1.compactname"] = "EE. UU."
 L["unlameifier_sound_music_usa1.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
 DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa2.printname"] = "The Star-Spangled Banner pero enfadado"
-L["unlameifier_sound_music_usa2.compactname"] = "Himno EE. UU. enfadao"
+L["unlameifier_sound_music_usa2.compactname"] = "EE. UU. enfadao"
 L["unlameifier_sound_music_usa2.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
 DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
@@ -873,13 +873,13 @@ DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.
 Sacado de la banda sonora original de BroForce.]]  -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa3.printname"] = "Oda a la alegría"
-L["unlameifier_sound_music_usa3.compactname"] = "Oda a la alegría"
+L["unlameifier_sound_music_usa3.compactname"] = "Oda alegría"
 L["unlameifier_sound_music_usa3.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
 DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 L["unlameifier_sound_music_usa4.printname"] = "Obertura 1812"
-L["unlameifier_sound_music_usa4.compactname"] = "Obertura 1812"
+L["unlameifier_sound_music_usa4.compactname"] = "Obert. 1812"
 L["unlameifier_sound_music_usa4.description"] = [[NADA ES MÁS AMERICANO QUE VACIAR CARGADORES DISPARANDO 1776 BALAS DE LIBERTAD EN ESPACIO AÉREO COMUNISTA.
 
 DIOS BENDIGA A <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
@@ -900,7 +900,7 @@ L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Sonido de Pinball"
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
 L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Hace que los sonidos de rebote suenen como una máquina de pinball. Suena mejor con proyectiles de baja velocidad.
 
-Combínalo con \"Probabilidad de rebote del 100%\", \"Rebote de 90°\", \"+Rebote de búsqueda\" y \"Rebote de búsqueda de 90°\" en el Sistema de ajustado para una experiéncia de pinball más realista."]]
+Combínalo con "Probabilidad de rebote del 100%", "Rebote de 90°", "+Rebote de búsqueda" y "Rebote de búsqueda de 90°" en el sistema de ajustes para una experiéncia de pinball más realista."]]
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sonidos/Otros/Impacto"

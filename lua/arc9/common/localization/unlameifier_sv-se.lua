@@ -1223,7 +1223,7 @@ L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "AWPekaren"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPekaren"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPekaren") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "This controversial bolt-action beaut is banned in thousands of countries, and with good reason: You could really hurt someone with this thing."
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPekaren") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Denna kontroversiella repeterskönhet är förbjuden i tusentals länder och med god anledning: Du kan verkligen skada någon med den här grejen."
 
 L["unlameifier_sound_tf2_dex_revolver.printname"] = "Diamondback"
 L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamondback"

@@ -1672,9 +1672,9 @@ L["unlameifier_sound_fo76_pistol_revolver.printname"] = "Revolver a colpo singol
 L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "Revolver CS"
 L["unlameifier_sound_fo76_pistol_revolver.description"] = "Changes the firing sound of the weapon to the \"Single Action Revolver\" from Fallout 76." .. fo76nosupp
 
-L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Communist Rifle\""
-L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Communist\""
-L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76."
+L["unlameifier_sound_fo76_rifle_chinese.printname"] = "Fucile fatto a mano"
+L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "Fatto a mano"
+L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the \"Handmade Rifle\" from Fallout 76."
 
 L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Carabina da combattimento"
 L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Combat."
@@ -1738,7 +1738,7 @@ L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound 
 
 L["unlameifier_sound_fo76_rifle_assault.printname"] = "Fucile d'assalto"
 L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Assalto"
-L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76."
 
 L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Arma al plasma"
 L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
@@ -1779,7 +1779,7 @@ L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Cryolator (Canna cristallizzante)"
-L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (Cristall.)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the \"Crystallizing Barrel\" mod." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_flamer.printname"] = "Fiammeggiante"
@@ -1799,7 +1799,7 @@ L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "L. Gatling"
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Laser\" from Fallout 4 and 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Arma al plasma (Canna lanciafiamme)"
-L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (L.)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76 with the \"Flamer Barrel\" mod equipped." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_smg.printname"] = "Mitragliatrice"

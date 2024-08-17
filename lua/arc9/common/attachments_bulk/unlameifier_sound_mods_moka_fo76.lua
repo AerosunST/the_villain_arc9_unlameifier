@@ -557,7 +557,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_revolver")
 
 ATT = {}
 
-ATT.PrintName = "Communist Rifle"
+ATT.PrintName = "Handmade Rifle"
 
 table.Merge(ATT, sharedcode)
 

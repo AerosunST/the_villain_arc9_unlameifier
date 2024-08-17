@@ -1693,9 +1693,9 @@ L["unlameifier_sound_fo76_pistol_revolver.printname"] = "Single Action Revolver"
 L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "SA Revolver"
 L["unlameifier_sound_fo76_pistol_revolver.description"] = "Changes the firing sound of the weapon to the \"Single Action Revolver\" from Fallout 76." .. fo76nosupp
 
-L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Communist Rifle\""
-L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Communist\""
-L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76."
+L["unlameifier_sound_fo76_rifle_chinese.printname"] = "Handmade Rifle"
+L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "Handmade"
+L["unlameifier_sound_fo76_rifle_chinese.description"] = "Changes the firing sound of the weapon to the \"Handmade Rifle\" from Fallout 76."
 
 L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Combat Rifle"
 L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Combat"
@@ -1759,7 +1759,7 @@ L["unlameifier_sound_fo76_rifle_gauss.description"] = "Changes the firing sound 
 
 L["unlameifier_sound_fo76_rifle_assault.printname"] = "Assault Rifle"
 L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Assault"
-L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_assault.description"] = "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76."
 
 L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Plasma Gun"
 L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
@@ -1800,7 +1800,7 @@ L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Cryolator (Crystallizing Barrel)"
-L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator (Crystal.)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Cryolator"
 L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Changes the firing sound of the weapon to the \"Cryolator\" from Fallout 4 and 76 equipped with the \"Crystallizing Barrel\" mod." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_flamer.printname"] = "Flamer"
@@ -1820,7 +1820,7 @@ L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "Gatling L."
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Changes the firing sound of the weapon to the \"Gatling Laser\" from Fallout 4 and 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Plasma Gun (Flamer Barrel)"
-L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (F.)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76 with the \"Flamer Barrel\" mod equipped." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_smg.printname"] = "Submachine Gun"
@@ -1856,9 +1856,9 @@ L["unlameifier_sound_fo76_auto_pistol_gammagun_420.printname"] = ARC9:GetPhrase(
 L["unlameifier_sound_fo76_auto_pistol_gammagun_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.compactname") or "Gamma Gun"
 L["unlameifier_sound_fo76_auto_pistol_gammagun_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.description") or "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_chinese_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "\"Communist Rifle\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "\"Communist\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_chinese_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "Handmade Rifle"
+L["unlameifier_sound_fo76_auto_rifle_chinese_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "Handmade"
+L["unlameifier_sound_fo76_auto_rifle_chinese_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the Handmade Rifle from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.printname") or "Combat Rifle"
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.compactname") or "Combat"
@@ -1882,15 +1882,15 @@ L["unlameifier_sound_fo76_auto_rifle_smg_420.description"] = (ARC9:GetPhrase("un
 
 L["unlameifier_sound_fo76_auto_rifle_assault_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.printname") or "Assault Rifle"
 L["unlameifier_sound_fo76_auto_rifle_assault_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.compactname") or "Assault"
-L["unlameifier_sound_fo76_auto_rifle_assault_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_assault_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.printname") or "Plasma Gun"
 L["unlameifier_sound_fo76_auto_rifle_plasma_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.compactname") or "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.description") or "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_10mm_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "10mm Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_10mm_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.compactname") or "10mm SMG"
-L["unlameifier_sound_fo76_auto_rifle_10mm_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_10mm_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.printname") or "10mm Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_10mm_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.compactname") or "10mm SMG"
+L["unlameifier_sound_fo76_auto_rifle_10mm_420.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.420") or string.format(fo76loop, 420)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_shotgun_combat_420.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.printname") or "Combat Shotgun"
 L["unlameifier_sound_fo76_auto_shotgun_combat_420.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.compactname") or "Combat Shot."
@@ -1917,9 +1917,9 @@ L["unlameifier_sound_fo76_auto_pistol_gammagun_540.printname"] = ARC9:GetPhrase(
 L["unlameifier_sound_fo76_auto_pistol_gammagun_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.compactname") or "Gamma Gun"
 L["unlameifier_sound_fo76_auto_pistol_gammagun_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.description") or "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_chinese_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "\"Communist Rifle\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "\"Communist\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_chinese_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "Handmade Rifle"
+L["unlameifier_sound_fo76_auto_rifle_chinese_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "Handmade"
+L["unlameifier_sound_fo76_auto_rifle_chinese_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the Handmade Rifle from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.printname") or "Combat Rifle"
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.compactname") or "Combat"
@@ -1937,21 +1937,21 @@ L["unlameifier_sound_fo76_auto_rifle_redding_540.printname"] = ARC9:GetPhrase("u
 L["unlameifier_sound_fo76_auto_rifle_redding_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.compactname") or "Unknown \"Redding\""
 L["unlameifier_sound_fo76_auto_rifle_redding_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.description") or "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_smg_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_smg_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "SMG"
-L["unlameifier_sound_fo76_auto_rifle_smg_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_smg_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.printname") or "Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_smg_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.compactname") or "SMG"
+L["unlameifier_sound_fo76_auto_rifle_smg_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_assault_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.printname") or "Assault Rifle"
 L["unlameifier_sound_fo76_auto_rifle_assault_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.compactname") or "Assault"
-L["unlameifier_sound_fo76_auto_rifle_assault_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_assault_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.printname") or "Plasma Gun"
 L["unlameifier_sound_fo76_auto_rifle_plasma_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.compactname") or "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.description") or "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_10mm_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "10mm Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_10mm_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.compactname") or "10mm SMG"
-L["unlameifier_sound_fo76_auto_rifle_10mm_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_10mm_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.printname") or "10mm Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_10mm_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.compactname") or "10mm SMG"
+L["unlameifier_sound_fo76_auto_rifle_10mm_540.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.540") or string.format(fo76loop, 540)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_shotgun_combat_540.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.printname") or "Combat Shotgun"
 L["unlameifier_sound_fo76_auto_shotgun_combat_540.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.compactname") or "Combat Shot."
@@ -1978,9 +1978,9 @@ L["unlameifier_sound_fo76_auto_pistol_gammagun_660.printname"] = ARC9:GetPhrase(
 L["unlameifier_sound_fo76_auto_pistol_gammagun_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.compactname") or "Gamma Gun"
 L["unlameifier_sound_fo76_auto_pistol_gammagun_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.description") or "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_chinese_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "\"Communist Rifle\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "\"Communist\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_chinese_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "Handmade Rifle"
+L["unlameifier_sound_fo76_auto_rifle_chinese_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "Handmade"
+L["unlameifier_sound_fo76_auto_rifle_chinese_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the Handmade Rifle from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.printname") or "Combat Rifle"
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.compactname") or "Combat"
@@ -1998,21 +1998,21 @@ L["unlameifier_sound_fo76_auto_rifle_redding_660.printname"] = ARC9:GetPhrase("u
 L["unlameifier_sound_fo76_auto_rifle_redding_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.compactname") or "Unknown \"Redding\""
 L["unlameifier_sound_fo76_auto_rifle_redding_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.description") or "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_smg_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_smg_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "SMG"
-L["unlameifier_sound_fo76_auto_rifle_smg_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_smg_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.printname") or "Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_smg_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.compactname") or "SMG"
+L["unlameifier_sound_fo76_auto_rifle_smg_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_assault_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.printname") or "Assault Rifle"
 L["unlameifier_sound_fo76_auto_rifle_assault_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.compactname") or "Assault"
-L["unlameifier_sound_fo76_auto_rifle_assault_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_assault_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.printname") or "Plasma Gun"
 L["unlameifier_sound_fo76_auto_rifle_plasma_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.compactname") or "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.description") or "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_10mm_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "10mm Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_10mm_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.compactname") or "10mm SMG"
-L["unlameifier_sound_fo76_auto_rifle_10mm_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_10mm_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.printname") or "10mm Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_10mm_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.compactname") or "10mm SMG"
+L["unlameifier_sound_fo76_auto_rifle_10mm_660.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.660") or string.format(fo76loop, 660)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_shotgun_combat_660.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.printname") or "Combat Shotgun"
 L["unlameifier_sound_fo76_auto_shotgun_combat_660.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.compactname") or "Combat Shot."
@@ -2039,9 +2039,9 @@ L["unlameifier_sound_fo76_auto_pistol_gammagun_780.printname"] = ARC9:GetPhrase(
 L["unlameifier_sound_fo76_auto_pistol_gammagun_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.compactname") or "Gamma Gun"
 L["unlameifier_sound_fo76_auto_pistol_gammagun_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.description") or "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_chinese_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "\"Communist Rifle\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "\"Communist\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_chinese_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "Handmade Rifle"
+L["unlameifier_sound_fo76_auto_rifle_chinese_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "Handmade"
+L["unlameifier_sound_fo76_auto_rifle_chinese_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the Handmade Rifle from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.printname") or "Combat Rifle"
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.compactname") or "Combat"
@@ -2059,21 +2059,21 @@ L["unlameifier_sound_fo76_auto_rifle_redding_780.printname"] = ARC9:GetPhrase("u
 L["unlameifier_sound_fo76_auto_rifle_redding_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.compactname") or "Unknown \"Redding\""
 L["unlameifier_sound_fo76_auto_rifle_redding_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.description") or "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_smg_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_smg_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "SMG"
-L["unlameifier_sound_fo76_auto_rifle_smg_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_smg_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.printname") or "Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_smg_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.compactname") or "SMG"
+L["unlameifier_sound_fo76_auto_rifle_smg_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_assault_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.printname") or "Assault Rifle"
 L["unlameifier_sound_fo76_auto_rifle_assault_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.compactname") or "Assault"
-L["unlameifier_sound_fo76_auto_rifle_assault_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_assault_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.printname") or "Plasma Gun"
 L["unlameifier_sound_fo76_auto_rifle_plasma_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.compactname") or "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.description") or "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_10mm_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "10mm Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_10mm_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.compactname") or "10mm SMG"
-L["unlameifier_sound_fo76_auto_rifle_10mm_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_10mm_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.printname") or "10mm Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_10mm_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.compactname") or "10mm SMG"
+L["unlameifier_sound_fo76_auto_rifle_10mm_780.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.780") or string.format(fo76loop, 780)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_shotgun_combat_780.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.printname") or "Combat Shotgun"
 L["unlameifier_sound_fo76_auto_shotgun_combat_780.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.compactname") or "Combat Shot."
@@ -2100,9 +2100,9 @@ L["unlameifier_sound_fo76_auto_pistol_gammagun_900.printname"] = ARC9:GetPhrase(
 L["unlameifier_sound_fo76_auto_pistol_gammagun_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.compactname") or "Gamma Gun"
 L["unlameifier_sound_fo76_auto_pistol_gammagun_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_pistol_gammagun.description") or "Changes the firing sound of the weapon to the \"Gamma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_chinese_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "\"Communist Rifle\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "\"Communist\""
-L["unlameifier_sound_fo76_auto_rifle_chinese_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the unused \"Communist Rifle\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_chinese_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.printname") or "Handmade Rifle"
+L["unlameifier_sound_fo76_auto_rifle_chinese_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.compactname") or "Handmade"
+L["unlameifier_sound_fo76_auto_rifle_chinese_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_chinese.description") or "Changes the firing sound of the weapon to the Handmade Rifle from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.printname") or "Combat Rifle"
 L["unlameifier_sound_fo76_auto_rifle_combatrifle_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_combatrifle.compactname") or "Combat"
@@ -2120,21 +2120,21 @@ L["unlameifier_sound_fo76_auto_rifle_redding_900.printname"] = ARC9:GetPhrase("u
 L["unlameifier_sound_fo76_auto_rifle_redding_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.compactname") or "Unknown \"Redding\""
 L["unlameifier_sound_fo76_auto_rifle_redding_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_redding.description") or "Changes the firing sound of the weapon to an unidentified weapon from Fallout 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_smg_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_smg_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.printname") or "SMG"
-L["unlameifier_sound_fo76_auto_rifle_smg_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_auto_rifle_smg_420.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_smg_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.printname") or "Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_smg_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.compactname") or "SMG"
+L["unlameifier_sound_fo76_auto_rifle_smg_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_smg.description") or "Changes the firing sound of the weapon to the \"Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_assault_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.printname") or "Assault Rifle"
 L["unlameifier_sound_fo76_auto_rifle_assault_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.compactname") or "Assault"
-L["unlameifier_sound_fo76_auto_rifle_assault_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76." .. fo76nosupp)
+L["unlameifier_sound_fo76_auto_rifle_assault_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_assault.description") or "Changes the firing sound of the weapon to the \"Assault Rifle\" from Fallout 4 and 76.")
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.printname") or "Plasma Gun"
 L["unlameifier_sound_fo76_auto_rifle_plasma_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.compactname") or "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_plasma.description") or "Changes the firing sound of the weapon to the \"Plasma Gun\" from Fallout 4 and 76." .. fo76nosupp)
 
-L["unlameifier_sound_fo76_auto_rifle_10mm_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.printname") or "10mm Submachine Gun"
-L["unlameifier_sound_fo76_auto_rifle_10mm_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.compactname") or "10mm SMG"
-L["unlameifier_sound_fo76_auto_rifle_10mm_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_riflepipe.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
+L["unlameifier_sound_fo76_auto_rifle_10mm_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.printname") or "10mm Submachine Gun"
+L["unlameifier_sound_fo76_auto_rifle_10mm_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.compactname") or "10mm SMG"
+L["unlameifier_sound_fo76_auto_rifle_10mm_900.description"] = (ARC9:GetPhrase("unlameifier.fo76.rpm.900") or string.format(fo76loop, 900)) .. (ARC9:GetPhrase("unlameifier_sound_fo76_rifle_10mm.description") or "Changes the firing sound of the weapon to the \"10mm Submachine Gun\" from Fallout 76.")
 
 L["unlameifier_sound_fo76_auto_shotgun_combat_900.printname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.printname") or "Combat Shotgun"
 L["unlameifier_sound_fo76_auto_shotgun_combat_900.compactname"] = ARC9:GetPhrase("unlameifier_sound_fo76_shotgun_combat.compactname") or "Combat Shot."

@@ -20,6 +20,7 @@
 61016E8E Gilded Paint (.44 Pistol)
 2507D Gamma Gun
 3E6C5 Single Action Revolver
+028E7 Handmade Rifle
 13515 Combat Rifle
 1B901 Hunting Rifle
 1B901 + 39ECA .50 Receiver

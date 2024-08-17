@@ -1676,9 +1676,9 @@ L["unlameifier_sound_fo76_pistol_revolver.printname"] = "\"Single-Action\"-Revol
 L["unlameifier_sound_fo76_pistol_revolver.compactname"] = "SA-Revolver"
 L["unlameifier_sound_fo76_pistol_revolver.description"] = "Ersätter skottljuden med dem från \"Single-Action\"-Revolvern från Fallout 76." .. fo76nosupp
 
-L["unlameifier_sound_fo76_rifle_chinese.printname"] = "\"Kommunistgevär\""
-L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "\"Kommunist\""
-L["unlameifier_sound_fo76_rifle_chinese.description"] = "Ersätter skottljuden med dem från oanvändna \"Kommunistgeväret\" från Fallout 76."
+L["unlameifier_sound_fo76_rifle_chinese.printname"] = "Handgjort Gevär"
+L["unlameifier_sound_fo76_rifle_chinese.compactname"] = "Handgjort"
+L["unlameifier_sound_fo76_rifle_chinese.description"] = "Ersätter skottljuden med dem från Handgjorda Geväret från Fallout 76."
 
 L["unlameifier_sound_fo76_rifle_combatrifle.printname"] = "Stridsgevär"
 L["unlameifier_sound_fo76_rifle_combatrifle.compactname"] = "Strids"
@@ -1742,7 +1742,7 @@ L["unlameifier_sound_fo76_rifle_gauss.description"] = "Ersätter skottljuden med
 
 L["unlameifier_sound_fo76_rifle_assault.printname"] = "Automatkarbin"
 L["unlameifier_sound_fo76_rifle_assault.compactname"] = "Automat"
-L["unlameifier_sound_fo76_rifle_assault.description"] = "Ersätter skottljuden med dem från Automatkarbinen från Fallout 4 och 76." .. fo76nosupp
+L["unlameifier_sound_fo76_rifle_assault.description"] = "Ersätter skottljuden med dem från Automatkarbinen från Fallout 4 och 76."
 
 L["unlameifier_sound_fo76_rifle_plasma.printname"] = "Plasmavapen"
 L["unlameifier_sound_fo76_rifle_plasma.compactname"] = "Plasma"
@@ -1783,7 +1783,7 @@ L["unlameifier_sound_fo76_auto_cryolator.compactname"] = "Kryolator"
 L["unlameifier_sound_fo76_auto_cryolator.description"] = "Ersätter skottljuden med dem från Kryolatorn från Fallout 4 och 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_cryolator_mod.printname"] = "Kryolator (Kristalliserande Pipa)"
-L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Kryolator (Kristall.)"
+L["unlameifier_sound_fo76_auto_cryolator_mod.compactname"] = "Kryolator"
 L["unlameifier_sound_fo76_auto_cryolator_mod.description"] = "Ersätter skottljuden med dem från Kryolatorn från Fallout 4 och 76 utrustat med en \"Kristalliserande Pipa\"-modd." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_flamer.printname"] = "Eldkastare"
@@ -1803,7 +1803,7 @@ L["unlameifier_sound_fo76_auto_rifle_lasergatling.compactname"] = "Gatling-L."
 L["unlameifier_sound_fo76_auto_rifle_lasergatling.description"] = "Ersätter skottljuden med dem från Gatling-Lasern från Fallout 4 och 76." .. fo76nosupp
 
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.printname"] = "Plasmavapen (Kastare Pipa)"
-L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma (K.)"
+L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.compactname"] = "Plasma"
 L["unlameifier_sound_fo76_auto_rifle_plasma_thrower.description"] = "Ersätter skottljuden med dem från Plasmavapnet från Fallout 4 och 76 utrustat med en \"Kastare Pipa\"-modd." .. fo76nosupp
 
 L["unlameifier_sound_fo76_rifle_smg.printname"] = "Kulsprutepistol"
@@ -2012,9 +2012,9 @@ L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.description"] = "Ersätter skottljuden med dem från QBZ-97 från Battlefield 2." .. bf2nosupp
 
 //////////////// Battlefield 2142
-L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Sound Mods/BF2142"
+L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Ljudmodd/BF2142"
 
-local bf2looping = "\n<color=255,150,150>Note</color>: Looping sound effect."
+local bf2looping = "\n<color=255,150,150>Notera</color>: Slingande ljudeffekt."
 
 L["unlameifier_sound_bf2142_as_rifle.printname"] = "Krylov FA-37 AR"
 L["unlameifier_sound_bf2142_as_rifle.compactname"] = "FA-37"

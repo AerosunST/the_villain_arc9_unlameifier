@@ -1145,7 +1145,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_thrower")
 
 ATT = {}
 
-ATT.PrintName = "Communist Gun - 420RPM"
+ATT.PrintName = "Handmade Rifle - 420RPM"
 
 table.Merge(ATT, sharedcode)
 
@@ -1182,7 +1182,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_420")
 
 ATT = {}
 
-ATT.PrintName = "Communist Gun - 540RPM"
+ATT.PrintName = "Handmade Rifle - 540RPM"
 
 table.Merge(ATT, sharedcode)
 
@@ -1219,7 +1219,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_540")
 
 ATT = {}
 
-ATT.PrintName = "Communist Gun - 660RPM"
+ATT.PrintName = "Handmade Rifle - 660RPM"
 
 table.Merge(ATT, sharedcode)
 
@@ -1256,7 +1256,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_660")
 
 ATT = {}
 
-ATT.PrintName = "Communist Gun - 780RPM"
+ATT.PrintName = "Handmade Rifle - 780RPM"
 
 table.Merge(ATT, sharedcode)
 
@@ -1293,7 +1293,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_780")
 
 ATT = {}
 
-ATT.PrintName = "Communist Gun - 900RPM"
+ATT.PrintName = "Handmade Rifle - 900RPM"
 
 table.Merge(ATT, sharedcode)
 
@@ -1732,3 +1732,1113 @@ ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_lasergatling_fire_end_pc_01_l
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_lasergatling_fire_end_pc_01_lpm.wav"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_lasergatling")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Light Machine Gun - 420RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_420")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Light Machine Gun - 540RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_540")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Light Machine Gun - 660RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_660")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Light Machine Gun - 780RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_780")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Light Machine Gun - 900RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_900")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Unknown \"Redding\" - 420RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_redding_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_420")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Unknown \"Redding\" - 540RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_redding_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_540")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Unknown \"Redding\" - 660RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_redding_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_660")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Unknown \"Redding\" - 780RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_redding_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_780")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Unknown \"Redding\" - 900RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_redding_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_900")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Submachine Gun - 420RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_420")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Submachine Gun - 540RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_540")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Submachine Gun - 660RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_660")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Submachine Gun - 780RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_780")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Submachine Gun - 900RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_900")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Assault Rifle - 420RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleistvan_fire_auto_0420rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleistvan_fire_auto_0420rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0420rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0420rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_420")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Assault Rifle - 540RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleistvan_fire_auto_0540rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleistvan_fire_auto_0540rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0540rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0540rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_540")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Assault Rifle - 660RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleistvan_fire_auto_0660rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleistvan_fire_auto_0660rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0660rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0660rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_660")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Assault Rifle - 780RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleistvan_fire_auto_0780rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleistvan_fire_auto_0780rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0780rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0780rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_780")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Assault Rifle - 900RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleistvan_fire_auto_0900rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleistvan_fire_auto_0900rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleistvan_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0900rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0900rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_900")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Plasma Gun - 420RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_420")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Plasma Gun - 540RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleplasma_fire_auto_0540rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleplasma_fire_auto_0540rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0540rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0540rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_540")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Plasma Gun - 660RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_660")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Plasma Gun - 780RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleplasma_fire_auto_0780rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleplasma_fire_auto_0780rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0780rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0780rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_780")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "Plasma Gun - 900RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_900")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "10mm Submachine Gun - 420RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.420")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0420rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0420rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_420")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "10mm Submachine Gun - 540RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.540")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0540rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0540rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_540")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "10mm Submachine Gun - 660RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.660")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0660rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0660rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_660")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "10mm Submachine Gun - 780RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.780")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0780rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0780rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_780")
+
+-------------------
+
+ATT = {}
+
+ATT.PrintName = "10mm Submachine Gun - 900RPM"
+
+table.Merge(ATT, sharedcode)
+
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.fo76.auto.900")
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDown = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+ATT.ShootSoundWindDownIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_end_01_lpm.wav"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0900rpm_01_lpm.wav"
+ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0900rpm_01_lpm.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_900")

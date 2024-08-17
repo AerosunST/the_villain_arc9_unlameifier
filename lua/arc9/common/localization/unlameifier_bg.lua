@@ -1169,15 +1169,15 @@ L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sound Mods/TF2"
 L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sound Mods/Swing/TF2"
 L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sound Mods/Impact/TF2"
 
-L["unlameifier_tf2_scout"] = "/Scout"
-L["unlameifier_tf2_soldier"] = "/Soldier"
-L["unlameifier_tf2_pyro"] = "/Pyro"
-L["unlameifier_tf2_demo"] = "/Demo"
-L["unlameifier_tf2_heavy"] = "/Heavy"
-L["unlameifier_tf2_engineer"] = "/Engineer"
-L["unlameifier_tf2_medic"] = "/Medic"
-L["unlameifier_tf2_sniper"] = "/Sniper"
-L["unlameifier_tf2_spy"] = "/Spy"
+L["unlameifier_tf2_scout"] = "/Разузнавач"
+L["unlameifier_tf2_soldier"] = "/Войник"
+L["unlameifier_tf2_pyro"] = "/Подпалвач"
+L["unlameifier_tf2_demo"] = "/Разрушител"
+L["unlameifier_tf2_heavy"] = "/Картечар"
+L["unlameifier_tf2_engineer"] = "/Инженер"
+L["unlameifier_tf2_medic"] = "/Медик"
+L["unlameifier_tf2_sniper"] = "/Снайпер"
+L["unlameifier_tf2_spy"] = "/Шпионин"
 
 local tf2desc = {
 	shoot = "Replaces the firing sounds with ones from the %s from Team Fortress 2.",
@@ -1189,268 +1189,268 @@ local tf2desc = {
 }
 
 //////////////// Team Fortress 2 Firing Sounds
-L["unlameifier_sound_tf2_sticky_quickie.printname"] = "Quickiebomb Launcher"
-L["unlameifier_sound_tf2_sticky_quickie.compactname"] = "Quickiebomb"
+L["unlameifier_sound_tf2_sticky_quickie.printname"] = "Бързометният гранатомет"
+L["unlameifier_sound_tf2_sticky_quickie.compactname"] = "Бързометният"
 L["unlameifier_sound_tf2_sticky_quickie.description"] = string.format(tf2desc.shoot, "Quickiebomb Launcher") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_airstrike.printname"] = "Air Strike"
-L["unlameifier_sound_tf2_airstrike.compactname"] = "Air Strike"
+L["unlameifier_sound_tf2_airstrike.printname"] = "Въздушният удар"
+L["unlameifier_sound_tf2_airstrike.compactname"] = "Възд. удар"
 L["unlameifier_sound_tf2_airstrike.description"] = string.format(tf2desc.shoot, "Air Strike") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_achievement_revolver.printname"] = "Ambassador"
-L["unlameifier_sound_tf2_achievement_revolver.compactname"] = "Ambassador"
+L["unlameifier_sound_tf2_achievement_revolver.printname"] = "Посланикът"
+L["unlameifier_sound_tf2_achievement_revolver.compactname"] = "Посланикът"
 L["unlameifier_sound_tf2_achievement_revolver.description"] = string.format(tf2desc.shoot, "Ambassador") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_righteousbison.printname"] = "Righteous Bison"
-L["unlameifier_sound_tf2_righteousbison.compactname"] = "Bison"
+L["unlameifier_sound_tf2_righteousbison.printname"] = "Праведният бизон"
+L["unlameifier_sound_tf2_righteousbison.compactname"] = "Бизон"
 L["unlameifier_sound_tf2_righteousbison.description"] = string.format(tf2desc.shoot, "Righteous Bison") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_bow.printname"] = "Bows"
-L["unlameifier_sound_tf2_bow.compactname"] = "Bow"
+L["unlameifier_sound_tf2_bow.printname"] = "Лък"
+L["unlameifier_sound_tf2_bow.compactname"] = "Лък"
 L["unlameifier_sound_tf2_bow.description"] = "Replaces the firing sounds with ones from various Bows from Team Fortress 2." .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_invasion_pistol.printname"] = "C.A.P.P.E.R"
-L["unlameifier_sound_tf2_invasion_pistol.compactname"] = "C.A.P.P.E.R"
-L["unlameifier_sound_tf2_invasion_pistol.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.R") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Turn your enemies in to ash!"
+L["unlameifier_sound_tf2_invasion_pistol.printname"] = "К.А.П.П.Е.Р."
+L["unlameifier_sound_tf2_invasion_pistol.compactname"] = "К.А.П.П.Е.Р."
+L["unlameifier_sound_tf2_invasion_pistol.description"] = string.format(tf2desc.shoot, "C.A.P.P.E.R") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Направете враговете си на пух и прах!"
 
-L["unlameifier_sound_tf2_cowmangler.printname"] = "Cow Mangler 5000"
-L["unlameifier_sound_tf2_cowmangler.compactname"] = "C.M. 5000"
+L["unlameifier_sound_tf2_cowmangler.printname"] = "Кравешкият обезобразител 5000"
+L["unlameifier_sound_tf2_cowmangler.compactname"] = "К.О. 5000"
 L["unlameifier_sound_tf2_cowmangler.description"] = string.format(tf2desc.shoot, "Cow Mangler 5000")
 
-L["unlameifier_sound_tf2_crusaderscrossbow.printname"] = "Crusader's Crossbow"
-L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Crusader's"
+L["unlameifier_sound_tf2_crusaderscrossbow.printname"] = "Арбалетът на кръстоносеца"
+L["unlameifier_sound_tf2_crusaderscrossbow.compactname"] = "Арбалетът"
 L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc.shoot, "Crusader's Crossbow") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_csgo_awp.printname"] = "AWPer Hand"
+L["unlameifier_sound_tf2_csgo_awp.printname"] = "The AWPer Hand"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPer Hand"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Тази противоречива прелест с подвижен затвор е забранена в хиляди държави и то не без причина: наистина може да нараните някого с това нещо."
 
-L["unlameifier_sound_tf2_dex_revolver.printname"] = "Diamondback"
-L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamondback"
+L["unlameifier_sound_tf2_dex_revolver.printname"] = "Диамантената гърмяща змия"
+L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Диамант."
 L["unlameifier_sound_tf2_dex_revolver.description"] = string.format(tf2desc.shoot, "Diamondback") .. string.format(tf2desc.crit, 30)
 
-L["unlameifier_sound_tf2_scorchshot.printname"] = "Scorch Shot"
-L["unlameifier_sound_tf2_scorchshot.compactname"] = "Scorch Shot"
+L["unlameifier_sound_tf2_scorchshot.printname"] = "Обгарящият изстрел"
+L["unlameifier_sound_tf2_scorchshot.compactname"] = "Обгар."
 L["unlameifier_sound_tf2_scorchshot.description"] = string.format(tf2desc.shoot, "Scorch Shot") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Beggar's Bazooka"
-L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Beggar's"
+L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Сиромашката базука"
+L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Сиромаш."
 L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "Beggar's Bazooka") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pretty Boy's Pocket Pistol"
-L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Pretty Boy's"
-L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pep_pistol.printname"] = "Джобният пистолет на Хубавеца"
+L["unlameifier_sound_tf2_pep_pistol.compactname"] = "Хубавеца"
+L["unlameifier_sound_tf2_pep_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Baby Face's Blaster"
-L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Baby Face"
+L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Пушкалото на Бейбифейс"
+L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Бейбифейс"
 L["unlameifier_sound_tf2_pep_scattergun.description"] = string.format(tf2desc.shoot, "Baby Face's Blaster") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "Hitman's Heatmaker"
-L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "Hitman's"
-L["unlameifier_sound_tf2_pro_sniperrifle.description"] = string.format(tf2desc.shoot, "Hitman's Heatmaker") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Heads will roll."
+L["unlameifier_sound_tf2_pro_sniperrifle.printname"] = "Нажежителят на наемния убиец"
+L["unlameifier_sound_tf2_pro_sniperrifle.compactname"] = "На убиец"
+L["unlameifier_sound_tf2_pro_sniperrifle.description"] = string.format(tf2desc.shoot, "Hitman's Heatmaker") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Ще падат глави."
 
-L["unlameifier_sound_tf2_pro_smg.printname"] = "Cleaner's Carbine"
-L["unlameifier_sound_tf2_pro_smg.compactname"] = "Cleaner's"
+L["unlameifier_sound_tf2_pro_smg.printname"] = "Карабината на чистача"
+L["unlameifier_sound_tf2_pro_smg.compactname"] = "Чистача"
 L["unlameifier_sound_tf2_pro_smg.description"] = string.format(tf2desc.shoot, "Cleaner's Carbine") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_sd_minigun.printname"] = "Huo-Long Heater"
-L["unlameifier_sound_tf2_sd_minigun.compactname"] = "Huo-Long"
+L["unlameifier_sound_tf2_sd_minigun.printname"] = "Драконовият нагревател Хуо-Лонг"
+L["unlameifier_sound_tf2_sd_minigun.compactname"] = "Хуо-Лонг"
 L["unlameifier_sound_tf2_sd_minigun.description"] = string.format(tf2desc.shoot, "Huo-Long Heater")
 
-L["unlameifier_sound_tf2_dragonsfury.printname"] = "Dragon's Fury"
-L["unlameifier_sound_tf2_dragonsfury.compactname"] = "Dragon's"
+L["unlameifier_sound_tf2_dragonsfury.printname"] = "Яростта на дракона"
+L["unlameifier_sound_tf2_dragonsfury.compactname"] = "Дракона"
 L["unlameifier_sound_tf2_dragonsfury.description"] = string.format(tf2desc.shoot, "Dragon's Fury") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_russianriot.printname"] = "Family Business"
-L["unlameifier_sound_tf2_russianriot.compactname"] = "Family"
+L["unlameifier_sound_tf2_russianriot.printname"] = "Семейният бизнес"
+L["unlameifier_sound_tf2_russianriot.compactname"] = "Семейният"
 L["unlameifier_sound_tf2_russianriot.description"] = string.format(tf2desc.shoot, "Family Business") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_achievement_flamethrower.printname"] = "Backburner"
-L["unlameifier_sound_tf2_achievement_flamethrower.compactname"] = "Backburner"
+L["unlameifier_sound_tf2_achievement_flamethrower.printname"] = "Котлонът"
+L["unlameifier_sound_tf2_achievement_flamethrower.compactname"] = "Котлонът"
 L["unlameifier_sound_tf2_achievement_flamethrower.description"] = string.format(tf2desc.shoot, "Backburner")
 
-L["unlameifier_sound_tf2_thedegreaser.printname"] = "Degreaser"
-L["unlameifier_sound_tf2_thedegreaser.compactname"] = "Degreaser"
+L["unlameifier_sound_tf2_thedegreaser.printname"] = "Обезмаслителят"
+L["unlameifier_sound_tf2_thedegreaser.compactname"] = "Обезмас."
 L["unlameifier_sound_tf2_thedegreaser.description"] = string.format(tf2desc.shoot, "Degreaser")
 
-L["unlameifier_sound_tf2_flamethrower.printname"] = "Flame Thrower"
-L["unlameifier_sound_tf2_flamethrower.compactname"] = "Flame Thr."
+L["unlameifier_sound_tf2_flamethrower.printname"] = "Огнехвъргачката"
+L["unlameifier_sound_tf2_flamethrower.compactname"] = "Огнех."
 L["unlameifier_sound_tf2_flamethrower.description"] = string.format(tf2desc.shoot, "Flame Thrower")
 
-L["unlameifier_sound_tf2_flaregun_detonator.printname"] = "Detonator"
-L["unlameifier_sound_tf2_flaregun_detonator.compactname"] = "Detonator"
+L["unlameifier_sound_tf2_flaregun_detonator.printname"] = "Детонаторът"
+L["unlameifier_sound_tf2_flaregun_detonator.compactname"] = "Детонаторът"
 L["unlameifier_sound_tf2_flaregun_detonator.description"] = string.format(tf2desc.shoot, "Detonator")
 
-L["unlameifier_sound_tf2_achievement_flaregun.printname"] = "Flare Gun"
-L["unlameifier_sound_tf2_achievement_flaregun.compactname"] = "Flare"
+L["unlameifier_sound_tf2_achievement_flaregun.printname"] = "Сигналният пистолет"
+L["unlameifier_sound_tf2_achievement_flaregun.compactname"] = "Сигнал."
 L["unlameifier_sound_tf2_achievement_flaregun.description"] = string.format(tf2desc.shoot, "Flare Gun") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_sentry_shotgun.printname"] = "Frontier Justice"
-L["unlameifier_sound_tf2_sentry_shotgun.compactname"] = "Frontier"
+L["unlameifier_sound_tf2_sentry_shotgun.printname"] = "Уличното правосъдие"
+L["unlameifier_sound_tf2_sentry_shotgun.compactname"] = "Уличното"
 L["unlameifier_sound_tf2_sentry_shotgun.description"] = string.format(tf2desc.shoot, "Frontier Justice") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_gatlinggun.printname"] = "Brass Beast"
-L["unlameifier_sound_tf2_gatlinggun.compactname"] = "Brass B."
+L["unlameifier_sound_tf2_gatlinggun.printname"] = "Месинговият звяр"
+L["unlameifier_sound_tf2_gatlinggun.compactname"] = "Звяр"
 L["unlameifier_sound_tf2_gatlinggun.description"] = string.format(tf2desc.shoot, "Brass Beast")
 
-L["unlameifier_sound_tf2_grenadelauncher.printname"] = "Grenade Launcher"
-L["unlameifier_sound_tf2_grenadelauncher.compactname"] = "GL"
+L["unlameifier_sound_tf2_grenadelauncher.printname"] = "Гранатомет"
+L["unlameifier_sound_tf2_grenadelauncher.compactname"] = "Гранатомет"
 L["unlameifier_sound_tf2_grenadelauncher.description"] = string.format(tf2desc.shoot, "Grenade Launcher") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_letranger.printname"] = "L'Etranger"
-L["unlameifier_sound_tf2_letranger.compactname"] = "L'Etranger"
+L["unlameifier_sound_tf2_letranger.printname"] = "Странникът"
+L["unlameifier_sound_tf2_letranger.compactname"] = "Странникът"
 L["unlameifier_sound_tf2_letranger.description"] = string.format(tf2desc.shoot, "L'Etranger") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_lochnload.printname"] = "Loch-n-Load"
-L["unlameifier_sound_tf2_lochnload.compactname"] = "L-n-L"
+L["unlameifier_sound_tf2_lochnload.printname"] = "Лохнеското презареждане"
+L["unlameifier_sound_tf2_lochnload.compactname"] = "Л.П."
 L["unlameifier_sound_tf2_lochnload.description"] = string.format(tf2desc.shoot, "Loch-n-Load") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_cannon.printname"] = "Loose Cannon"
-L["unlameifier_sound_tf2_cannon.compactname"] = "Loose"
-L["unlameifier_sound_tf2_cannon.description"] = string.format(tf2desc.shoot, "Loose Cannon") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Double Donk!"
+L["unlameifier_sound_tf2_cannon.printname"] = "Оръдието без лафет"
+L["unlameifier_sound_tf2_cannon.compactname"] = "Без лафет"
+L["unlameifier_sound_tf2_cannon.description"] = string.format(tf2desc.shoot, "Loose Cannon") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Двойно тряс!"
 
-L["unlameifier_sound_tf2_manmelter.printname"] = "Manmelter"
-L["unlameifier_sound_tf2_manmelter.compactname"] = "Manmelter"
-L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "Manmelter") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Being a device that flouts conventional scientific consensus that the molecules composing the human body must be arranged \"just so\", and not, for example, across a square-mile radius."
+L["unlameifier_sound_tf2_manmelter.printname"] = "Човекоразтопвачът"
+L["unlameifier_sound_tf2_manmelter.compactname"] = "Човекор."
+L["unlameifier_sound_tf2_manmelter.description"] = string.format(tf2desc.shoot, "Manmelter") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Това оръжие ще се презарежда автоматично, когато не е активно.\n\nБидейки устройство, което пренебрегва общоприетото научно заключение, че молекулите съставящи човешкото тяло трябва да са подредени „точно както са“, а не, например, връз равномерна площ от една квадратна миля."
 
-L["unlameifier_sound_tf2_achievement_minigun.printname"] = "Natascha"
-L["unlameifier_sound_tf2_achievement_minigun.compactname"] = "Natascha"
+L["unlameifier_sound_tf2_achievement_minigun.printname"] = "Наташа"
+L["unlameifier_sound_tf2_achievement_minigun.compactname"] = "Наташа"
 L["unlameifier_sound_tf2_achievement_minigun.description"] = string.format(tf2desc.shoot, "Natascha")
 
-L["unlameifier_sound_tf2_minigun.printname"] = "Minigun"
-L["unlameifier_sound_tf2_minigun.compactname"] = "Minigun"
+L["unlameifier_sound_tf2_minigun.printname"] = "Картечница"
+L["unlameifier_sound_tf2_minigun.compactname"] = "Картечница"
 L["unlameifier_sound_tf2_minigun.description"] = string.format(tf2desc.shoot, "Minigun")
 
-L["unlameifier_sound_tf2_phlogistinator.printname"] = "Phlogistinator"
-L["unlameifier_sound_tf2_phlogistinator.compactname"] = "Phlogistinator"
-L["unlameifier_sound_tf2_phlogistinator.description"] = string.format(tf2desc.shoot, "Phlogistinator") .. "\n\n" .. "Being a revolutionary appliance capable of awakening the fire element phlogiston that exists in all combustible creatures, which is to say, all of them."
+L["unlameifier_sound_tf2_phlogistinator.printname"] = "Флогистинаторът"
+L["unlameifier_sound_tf2_phlogistinator.compactname"] = "Флогисти."
+L["unlameifier_sound_tf2_phlogistinator.description"] = string.format(tf2desc.shoot, "Phlogistinator") .. "\n\n" .. "Бидейки революционно приспособление, способно да пробуди огнения елемент флогистон, който може да бъде открит във всички възпламеними твари, това ще рече — всички от тях."
 
-L["unlameifier_sound_tf2_pistol.printname"] = "Pistol"
-L["unlameifier_sound_tf2_pistol.compactname"] = "Pistol"
+L["unlameifier_sound_tf2_pistol.printname"] = "Пистолет"
+L["unlameifier_sound_tf2_pistol.compactname"] = "Пистолет"
 L["unlameifier_sound_tf2_pistol.description"] = string.format(tf2desc.shoot, "Pistol") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_pomson.printname"] = "Pomson 6000"
-L["unlameifier_sound_tf2_pomson.compactname"] = "Pomson"
+L["unlameifier_sound_tf2_pomson.printname"] = "Помсън 6000"
+L["unlameifier_sound_tf2_pomson.compactname"] = "Помсън"
 L["unlameifier_sound_tf2_pomson.description"] = string.format(tf2desc.shoot, "Pomson 6000") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Being an innovative hand-held irradiating utensil capable of producing rapid pulses of high-amplitude radiation in sufficient quantity as to immolate, maim and otherwise incapacitate the Irish."
 
-L["unlameifier_sound_tf2_theoriginal.printname"] = "Original"
-L["unlameifier_sound_tf2_theoriginal.compactname"] = "Original"
+L["unlameifier_sound_tf2_theoriginal.printname"] = "Оригиналът"
+L["unlameifier_sound_tf2_theoriginal.compactname"] = "Оригиналът"
 L["unlameifier_sound_tf2_theoriginal.description"] = string.format(tf2desc.shoot, "Original") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_shotgun_building_rescue.printname"] = "Rescue Ranger"
-L["unlameifier_sound_tf2_shotgun_building_rescue.compactname"] = "Rescue R."
+L["unlameifier_sound_tf2_shotgun_building_rescue.printname"] = "Спасителният рейнджър"
+L["unlameifier_sound_tf2_shotgun_building_rescue.compactname"] = "Рейнджър"
 L["unlameifier_sound_tf2_shotgun_building_rescue.description"] = string.format(tf2desc.shoot, "Rescue Ranger") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_reserveshooter.printname"] = "Reserve Shooter"
-L["unlameifier_sound_tf2_reserveshooter.compactname"] = "Reserve S."
+L["unlameifier_sound_tf2_reserveshooter.printname"] = "Запасният офицер"
+L["unlameifier_sound_tf2_reserveshooter.compactname"] = "Запасният"
 L["unlameifier_sound_tf2_reserveshooter.description"] = string.format(tf2desc.shoot, "Reserve Shooter") .. string.format(tf2desc.crit, 40)
 
-L["unlameifier_sound_tf2_revolver.printname"] = "Revolver"
-L["unlameifier_sound_tf2_revolver.compactname"] = "Revolver"
+L["unlameifier_sound_tf2_revolver.printname"] = "Револвер"
+L["unlameifier_sound_tf2_revolver.compactname"] = "Револвер"
 L["unlameifier_sound_tf2_revolver.description"] = string.format(tf2desc.shoot, "Revolver") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_theblackbox.printname"] = "Black Box"
-L["unlameifier_sound_tf2_theblackbox.compactname"] = "Black Box"
+L["unlameifier_sound_tf2_theblackbox.printname"] = "Черната кутия"
+L["unlameifier_sound_tf2_theblackbox.compactname"] = "Черната кутия"
 L["unlameifier_sound_tf2_theblackbox.description"] = string.format(tf2desc.shoot, "Black Box") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_achievement_rocketlauncher.printname"] = "Direct Hit"
-L["unlameifier_sound_tf2_achievement_rocketlauncher.compactname"] = "Direct Hit"
+L["unlameifier_sound_tf2_achievement_rocketlauncher.printname"] = "Директното попадение"
+L["unlameifier_sound_tf2_achievement_rocketlauncher.compactname"] = "Директ."
 L["unlameifier_sound_tf2_achievement_rocketlauncher.description"] = string.format(tf2desc.shoot, "Direct Hit") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_rocketlauncher_jump.printname"] = "Rocket Jumper"
-L["unlameifier_sound_tf2_rocketlauncher_jump.compactname"] = "Jumper"
+L["unlameifier_sound_tf2_rocketlauncher_jump.printname"] = "Ракетният скок"
+L["unlameifier_sound_tf2_rocketlauncher_jump.compactname"] = "Ракет. скок"
 L["unlameifier_sound_tf2_rocketlauncher_jump.description"] = string.format(tf2desc.shoot, "Rocket Jumper")
 
-L["unlameifier_sound_tf2_libertylauncher.printname"] = "Liberty Launcher"
-L["unlameifier_sound_tf2_libertylauncher.compactname"] = "Liberty"
+L["unlameifier_sound_tf2_libertylauncher.printname"] = "Ракетометът на свободата"
+L["unlameifier_sound_tf2_libertylauncher.compactname"] = "Свободата"
 L["unlameifier_sound_tf2_libertylauncher.description"] = string.format(tf2desc.shoot, "Liberty Launcher") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_rocketlauncher.printname"] = "Rocket Launcher"
-L["unlameifier_sound_tf2_rocketlauncher.compactname"] = "Rocket"
+L["unlameifier_sound_tf2_rocketlauncher.printname"] = "Ракетомет"
+L["unlameifier_sound_tf2_rocketlauncher.compactname"] = "Ракетомет"
 L["unlameifier_sound_tf2_rocketlauncher.description"] = string.format(tf2desc.shoot, "Rocket Launcher") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_sodapopper.printname"] = "Soda Popper"
-L["unlameifier_sound_tf2_sodapopper.compactname"] = "Soda"
+L["unlameifier_sound_tf2_sodapopper.printname"] = "Газираното пушкало"
+L["unlameifier_sound_tf2_sodapopper.compactname"] = "Газиран."
 L["unlameifier_sound_tf2_sodapopper.description"] = string.format(tf2desc.shoot, "Soda Popper") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_achievement_scattergun_double.printname"] = "Force-A-Nature"
-L["unlameifier_sound_tf2_achievement_scattergun_double.compactname"] = "F-A-N"
+L["unlameifier_sound_tf2_achievement_scattergun_double.printname"] = "Природната стихия"
+L["unlameifier_sound_tf2_achievement_scattergun_double.compactname"] = "П.С."
 L["unlameifier_sound_tf2_achievement_scattergun_double.description"] = string.format(tf2desc.shoot, "Force-A-Nature") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_scattergun.printname"] = "Scattergun"
-L["unlameifier_sound_tf2_scattergun.compactname"] = "Scattergun"
+L["unlameifier_sound_tf2_scattergun.printname"] = "Разпръсквачът"
+L["unlameifier_sound_tf2_scattergun.compactname"] = "Разп."
 L["unlameifier_sound_tf2_scattergun.description"] = string.format(tf2desc.shoot, "Scattergun") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_invasion_sniperrifle.printname"] = "Shooting Star"
-L["unlameifier_sound_tf2_invasion_sniperrifle.compactname"] = "S. Star"
-L["unlameifier_sound_tf2_invasion_sniperrifle.description"] = string.format(tf2desc.shoot, "Shooting Star") .. tf2desc.aimcharge .. string.format(tf2desc.aimchargecrit, 10) .. "\n\n" .. "Turn your enemies in to ash!"
+L["unlameifier_sound_tf2_invasion_sniperrifle.printname"] = "Падащата звезда"
+L["unlameifier_sound_tf2_invasion_sniperrifle.compactname"] = "П. звезда"
+L["unlameifier_sound_tf2_invasion_sniperrifle.description"] = string.format(tf2desc.shoot, "Shooting Star") .. tf2desc.aimcharge .. string.format(tf2desc.aimchargecrit, 10) .. "\n\n" .. "Направете враговете си на пух и прах!"
 
-L["unlameifier_sound_tf2_theshortstop.printname"] = "Shortstop"
-L["unlameifier_sound_tf2_theshortstop.compactname"] = "Shortstop"
-L["unlameifier_sound_tf2_theshortstop.description"] = string.format(tf2desc.shoot, "Shortstop") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Mann Co.'s latest in high attitude break-action personal defense."
+L["unlameifier_sound_tf2_theshortstop.printname"] = "Стоперът"
+L["unlameifier_sound_tf2_theshortstop.compactname"] = "Стоперът"
+L["unlameifier_sound_tf2_theshortstop.description"] = string.format(tf2desc.shoot, "Shortstop") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Най-новото самозащитно средство, от вече характерното за Манн Ко, с което да спрете нападение."
 
-L["unlameifier_sound_tf2_shotgun.printname"] = "Shotgun"
-L["unlameifier_sound_tf2_shotgun.compactname"] = "Shotgun"
+L["unlameifier_sound_tf2_shotgun.printname"] = "Пушка"
+L["unlameifier_sound_tf2_shotgun.compactname"] = "Пушка"
 L["unlameifier_sound_tf2_shotgun.description"] = string.format(tf2desc.shoot, "Shotgun") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_smg.printname"] = "SMG"
-L["unlameifier_sound_tf2_smg.compactname"] = "SMG"
+L["unlameifier_sound_tf2_smg.printname"] = "Лек автомат"
+L["unlameifier_sound_tf2_smg.compactname"] = "Автомат"
 L["unlameifier_sound_tf2_smg.description"] = string.format(tf2desc.shoot, "SMG") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_bazaarbargain.printname"] = "Bazaar Bargain"
-L["unlameifier_sound_tf2_bazaarbargain.compactname"] = "Bazaar"
+L["unlameifier_sound_tf2_bazaarbargain.printname"] = "Базарната сделка"
+L["unlameifier_sound_tf2_bazaarbargain.compactname"] = "Базар."
 L["unlameifier_sound_tf2_bazaarbargain.description"] = string.format(tf2desc.shoot, "Bazaar Bargain") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_dex_rifle.printname"] = "Machina"
-L["unlameifier_sound_tf2_dex_rifle.compactname"] = "Machina"
+L["unlameifier_sound_tf2_dex_rifle.printname"] = "Механизмът"
+L["unlameifier_sound_tf2_dex_rifle.compactname"] = "Механ."
 L["unlameifier_sound_tf2_dex_rifle.description"] = string.format(tf2desc.shoot, "Machina") .. string.format(tf2desc.crit, 20) .. tf2desc.aimcharge
 
-L["unlameifier_sound_tf2_classicsniperrifle.printname"] = "Classic"
-L["unlameifier_sound_tf2_classicsniperrifle.compactname"] = "Classic"
+L["unlameifier_sound_tf2_classicsniperrifle.printname"] = "Класиката"
+L["unlameifier_sound_tf2_classicsniperrifle.compactname"] = "Класиката"
 L["unlameifier_sound_tf2_classicsniperrifle.description"] = string.format(tf2desc.shoot, "Classic") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_sniperrifle.printname"] = "Sniper Rifle"
-L["unlameifier_sound_tf2_sniperrifle.compactname"] = "Sniper"
+L["unlameifier_sound_tf2_sniperrifle.printname"] = "Снайперистката винтовка"
+L["unlameifier_sound_tf2_sniperrifle.compactname"] = "Снайпер."
 L["unlameifier_sound_tf2_sniperrifle.description"] = string.format(tf2desc.shoot, "Sniper Rifle") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_sydneysleeper.printname"] = "Sydney Sleeper"
-L["unlameifier_sound_tf2_sydneysleeper.compactname"] = "Sydney"
+L["unlameifier_sound_tf2_sydneysleeper.printname"] = "Приспивачът от Сидни"
+L["unlameifier_sound_tf2_sydneysleeper.compactname"] = "Сидни"
 L["unlameifier_sound_tf2_sydneysleeper.description"] = string.format(tf2desc.shoot, "Sydney Sleeper") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_stickeybomb_jump.printname"] = "Sticky Jumper"
-L["unlameifier_sound_tf2_stickeybomb_jump.compactname"] = "S. Jumper"
+L["unlameifier_sound_tf2_stickeybomb_jump.printname"] = "Лепкавият подскок"
+L["unlameifier_sound_tf2_stickeybomb_jump.compactname"] = "Л. подскок"
 L["unlameifier_sound_tf2_stickeybomb_jump.description"] = string.format(tf2desc.shoot, "Sticky Jumper")
 
-L["unlameifier_sound_tf2_stickeybomblauncher.printname"] = "Stickybomb Launcher"
-L["unlameifier_sound_tf2_stickeybomblauncher.compactname"] = "Stickybomb"
+L["unlameifier_sound_tf2_stickeybomblauncher.printname"] = "Гранатомет за лепкави бомби"
+L["unlameifier_sound_tf2_stickeybomblauncher.compactname"] = "Лепкави"
 L["unlameifier_sound_tf2_stickeybomblauncher.description"] = string.format(tf2desc.shoot, "Stickybomb Launcher") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_syringegun.printname"] = "Syringe Gun"
-L["unlameifier_sound_tf2_syringegun.compactname"] = "Syringe"
+L["unlameifier_sound_tf2_syringegun.printname"] = "Спринцовко-изстрелвач"
+L["unlameifier_sound_tf2_syringegun.compactname"] = "С-И"
 L["unlameifier_sound_tf2_syringegun.description"] = string.format(tf2desc.shoot, "Syringe Gun") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_iron_bomber.printname"] = "Iron Bomber"
-L["unlameifier_sound_tf2_iron_bomber.compactname"] = "Iron B."
+L["unlameifier_sound_tf2_iron_bomber.printname"] = "Железният бомбаджия"
+L["unlameifier_sound_tf2_iron_bomber.compactname"] = "Железн."
 L["unlameifier_sound_tf2_iron_bomber.description"] = string.format(tf2desc.shoot, "Iron Bomber") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_enforcer.printname"] = "Enforcer"
-L["unlameifier_sound_tf2_enforcer.compactname"] = "Enforcer"
+L["unlameifier_sound_tf2_enforcer.printname"] = "Правоприлагащият"
+L["unlameifier_sound_tf2_enforcer.compactname"] = "Правопр."
 L["unlameifier_sound_tf2_enforcer.description"] = string.format(tf2desc.shoot, "Enforcer") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_backscatter.printname"] = "Back Scatter"
-L["unlameifier_sound_tf2_backscatter.compactname"] = "Back S."
+L["unlameifier_sound_tf2_backscatter.printname"] = "Гръбното разпръскване"
+L["unlameifier_sound_tf2_backscatter.compactname"] = "Г.Р."
 L["unlameifier_sound_tf2_backscatter.description"] = string.format(tf2desc.shoot, "Back Scatter") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_tomislav.printname"] = "Tomislav"
-L["unlameifier_sound_tf2_tomislav.compactname"] = "Tomislav"
+L["unlameifier_sound_tf2_tomislav.printname"] = "Томислав"
+L["unlameifier_sound_tf2_tomislav.compactname"] = "Томислав"
 L["unlameifier_sound_tf2_tomislav.description"] = string.format(tf2desc.shoot, "Tomislav")
 
-L["unlameifier_sound_tf2_dex_shotgun.printname"] = "Widowmaker"
-L["unlameifier_sound_tf2_dex_shotgun.compactname"] = "Widowmaker"
+L["unlameifier_sound_tf2_dex_shotgun.printname"] = "Овдовителят"
+L["unlameifier_sound_tf2_dex_shotgun.compactname"] = "Овдовителят"
 L["unlameifier_sound_tf2_dex_shotgun.description"] = string.format(tf2desc.shoot, "Widowmaker") .. string.format(tf2desc.crit, 30)
 
-L["unlameifier_sound_tf2_winger.printname"] = "Winger"
-L["unlameifier_sound_tf2_winger.compactname"] = "Winger"
+L["unlameifier_sound_tf2_winger.printname"] = "Крилатият"
+L["unlameifier_sound_tf2_winger.compactname"] = "Крилатият"
 L["unlameifier_sound_tf2_winger.description"] = string.format(tf2desc.shoot, "Winger") .. string.format(tf2desc.crit, 30)
 
 //////////////// Team Fortress 2 Melee Sounds

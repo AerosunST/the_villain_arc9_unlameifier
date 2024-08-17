@@ -1223,7 +1223,7 @@ L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "El AWPa Cabezas"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPa"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "del AWPa Cabezas") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "del AWPa Cabezas") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Esta polémica belleza de cerrojo está prohibida en miles de países, y con razón: Puedes herir a alguien de verdad con este trasto."
 
 L["unlameifier_sound_tf2_dex_revolver.printname"] = "El Diamondback"
 L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamondback"
@@ -1237,9 +1237,9 @@ L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Bazuca del Mendigo"
 L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Del Mendigo"
 L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "del Bazuca del Mendigo") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pistola de Bolsillo del Guaperas"
-L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Del Guaperas"
-L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "de la Pistola de Bolsillo del Guaperas") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pep_pistol.printname"] = "Pistola de Bolsillo del Guaperas"
+L["unlameifier_sound_tf2_pep_pistol.compactname"] = "Del Guaperas"
+L["unlameifier_sound_tf2_pep_pistol.description"] = string.format(tf2desc.shoot, "de la Pistola de Bolsillo del Guaperas") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Devastadora del Imberbe"
 L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Imberbe"

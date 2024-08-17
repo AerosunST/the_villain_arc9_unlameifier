@@ -1225,7 +1225,7 @@ L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "AWPer Capita"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPer Capita"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Capita") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Capita") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Esta controversa belezura de ferrolho foi banida de milhares de países — e com razão: você realmente poderia ferir alguém com ela."
 
 L["unlameifier_sound_tf2_dex_revolver.printname"] = "Diamante Bruto"
 L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Diamante Bruto"
@@ -1239,9 +1239,9 @@ L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Lança-Foguetes do Lament
 L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Lamentável"
 L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "Lança-Foguetes do Lamentável") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Pistola Portátil do Peralta"
-L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Peralta"
-L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pistola Portátil do Peralta") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pep_pistol.printname"] = "Pistola Portátil do Peralta"
+L["unlameifier_sound_tf2_pep_pistol.compactname"] = "Peralta"
+L["unlameifier_sound_tf2_pep_pistol.description"] = string.format(tf2desc.shoot, "Pistola Portátil do Peralta") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Destruidora do Degenerado"
 L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Degenerado"

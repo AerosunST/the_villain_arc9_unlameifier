@@ -1223,7 +1223,7 @@ L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "AWPer Hand"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "AWPer Hand"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Dette kontroversielle bolt-action-pragteksemplar er forbudt i tusindvis af lande, og med god grund: Du kunne virkelig såre nogen med den her ting."
 
 L["unlameifier_sound_tf2_dex_revolver.printname"] = "Tilbagelånet"
 L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Tilbagelånet"
@@ -1237,9 +1237,9 @@ L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Tiggerens Bazooka"
 L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Tiggerens"
 L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "Beggar's Bazooka") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Lækkerbiskens Lommepistol"
-L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Lækkerbiskens"
-L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pep_pistol.printname"] = "Lækkerbiskens Lommepistol"
+L["unlameifier_sound_tf2_pep_pistol.compactname"] = "Lækkerbiskens"
+L["unlameifier_sound_tf2_pep_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Dengsedrengens Dræber"
 L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Dengsedrengens"
@@ -1261,8 +1261,8 @@ L["unlameifier_sound_tf2_dragonsfury.printname"] = "Dragens Vrede"
 L["unlameifier_sound_tf2_dragonsfury.compactname"] = "Dragens"
 L["unlameifier_sound_tf2_dragonsfury.description"] = string.format(tf2desc.shoot, "Dragon's Fury") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_russianriot.printname"] = "Family Business"
-L["unlameifier_sound_tf2_russianriot.compactname"] = "Family"
+L["unlameifier_sound_tf2_russianriot.printname"] = "Familieforretningen"
+L["unlameifier_sound_tf2_russianriot.compactname"] = "Familie."
 L["unlameifier_sound_tf2_russianriot.description"] = string.format(tf2desc.shoot, "Family Business") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_achievement_flamethrower.printname"] = "Backburner"

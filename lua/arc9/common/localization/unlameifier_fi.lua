@@ -1223,7 +1223,7 @@ L["unlameifier_sound_tf2_crusaderscrossbow.description"] = string.format(tf2desc
 
 L["unlameifier_sound_tf2_csgo_awp.printname"] = "Tarkka AWPuja"
 L["unlameifier_sound_tf2_csgo_awp.compactname"] = "Tarkka AWPuja"
-L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_csgo_awp.description"] = string.format(tf2desc.shoot, "AWPer Hand") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "This controversial bolt-action beaut is banned in thousands of countries, and with good reason: You could really hurt someone with this thing."
 
 L["unlameifier_sound_tf2_dex_revolver.printname"] = "Teräsniska"
 L["unlameifier_sound_tf2_dex_revolver.compactname"] = "Teräsniska"
@@ -1237,9 +1237,9 @@ L["unlameifier_sound_tf2_dumpsterdevice.printname"] = "Kerjäläisen kanuuna"
 L["unlameifier_sound_tf2_dumpsterdevice.compactname"] = "Kerjäläisen"
 L["unlameifier_sound_tf2_dumpsterdevice.description"] = string.format(tf2desc.shoot, "Beggar's Bazooka") .. string.format(tf2desc.crit, 10)
 
-L["unlameifier_sound_tf2_doom_scout_pistol.printname"] = "Söpönassun sormipyssy"
-L["unlameifier_sound_tf2_doom_scout_pistol.compactname"] = "Söpönassun"
-L["unlameifier_sound_tf2_doom_scout_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_pep_pistol.printname"] = "Söpönassun sormipyssy"
+L["unlameifier_sound_tf2_pep_pistol.compactname"] = "Söpönassun"
+L["unlameifier_sound_tf2_pep_pistol.description"] = string.format(tf2desc.shoot, "Pretty Boy's Pocket Pistol") .. string.format(tf2desc.crit, 10)
 
 L["unlameifier_sound_tf2_pep_scattergun.printname"] = "Pikkupojan paukkurauta"
 L["unlameifier_sound_tf2_pep_scattergun.compactname"] = "Pikkupojan"

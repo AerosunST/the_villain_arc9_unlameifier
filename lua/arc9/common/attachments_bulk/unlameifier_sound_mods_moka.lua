@@ -1227,7 +1227,7 @@ ATT.ShootSoundSilenced = gssf
 ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gsp .. "doom_scout_pistol.wav",
 
-ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_doom_scout_pistol")
+ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_pep_pistol")
 
 -------------------
 

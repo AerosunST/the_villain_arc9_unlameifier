@@ -894,7 +894,7 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Ljud tagna från KindredFlame/Wh
 Legenden dör aldrig...]]
 
 //////////////// Misc. (Ricochet)
-L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Ljudmodd/Annat/Rikoschett"
+L["unlameifier.folder.sounds.misc.Rikoschett"] = "Unlameifier/Ljudmodd/Annat/Rikoschett"
 
 L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball-Ljud"
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
@@ -2364,18 +2364,18 @@ L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
 L["unlameifier_tuning_system.printname"] = "Aktivera Anpassning"
 L["unlameifier_tuning_system.compactname"] = "Anpassning"
-L["unlameifier_tuning_system.description"] = [[Tillåter användaren att <color=255,255,100>finjustera statistiken på vapnet</color> genom att utrusta diverse statistikändrande tillbehör. Kan utrustas i vilken ordning som helst.
+L["unlameifier_tuning_system.description"] = [[Tillåter användaren att <color=255,255,100>finjustera statistiken på vapnet</color> genom att utrusta diverse statistikändrande tillbehör. Kan utrustas i vilken ordning som helst. För att inte orsaka röra så kommer underplatserna <color=255,255,100>INTE</color> visas i 3D-gränssnittet.
 
-<color=255,100,100>WARNING</color>: Detta kan användas för att skapa super-ultra kraftfulla fusk-liknande vapen. Det finns ingen begränsning på vad denna kan skapa, så ifall du är en server ägare, var säker på att detta tillbehör är avstängt, om du inte vill att spelare ska använda den. Medans ARC9 har en funktion som avaktiverar tillbehör till alla förutom administratörer så var Unlameifier ej gjort för Flerspelareläget, och kommer därför inte ha denna funktion.
+<color=255,100,100>VARNING</color>: Detta kan användas för att skapa super-ultra kraftfulla fusk-liknande vapen. Det finns ingen begränsning på vad denna kan skapa, så ifall du är en serverägare, var säker på att detta tillbehör är avstängt, om du inte vill att spelare ska använda den. Medans ARC9 har en funktion som avaktiverar tillbehör till alla förutom administratörer så var Unlameifier ej gjort för Flerspelareläget, och kommer därför inte ha denna funktion.
 
 Om du använder ARC9 eller Unlameifier på DarkRP, vänligen avinstallera Garry's Mod, gå ut och rör gräs. Tack.
 
-<color=255,255,100>Admins/Server Ägare</color>: Om du vill avaktivera detta tillbehör, lägg till "unlameifier_tuning_system" i svartlistan.]]
+<color=255,255,100>Admins/Serverägare</color>: Om du vill avaktivera detta tillbehör, lägg till "unlameifier_tuning_system" i svartlistan.]]
 
 local statsdesc = {
 	plus = "Ökar \"%s\"-värdet med <color=100,255,100>+%s</color>.\n",
 	minus = "Sänker \"%s\"-värdet med <color=255,100,100>-%s</color>.\n",
-	fixed = "Sätter \"%s\"-värdet till ett vast värde av <color=255,255,100>%d</color>.\n",
+	fixed = "Sätter \"%s\"-värdet till ett vast värde av <color=255,255,100>%s</color>.\n",
 	
 	plusinv = "Ökar \"%s\"-värdet med <color=255,100,100>+%s</color>.\n",
 	minusinv = "Sänker \"%s\"-värdet med <color=100,255,100>-%s</color>.\n",
@@ -2411,6 +2411,8 @@ local statsdesc = {
 
 	warntrigger = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Avtryckare Fördröjning\" är avaktiverat.",
 	warntriggerauto = "\n<color=175,175,255>NOTERA</color>: Har ingen märkvärdig effekt ifall vapnet är satt till halvautomat.",
+
+	warnseekingricochet = "\n<color=175,175,255>NOTERA</color>: Gör inget om \"Sökande Rikoschett\" är avaktiverat.",
 
 }
 
@@ -5152,3 +5154,408 @@ L["unlameifier_tuning_ammo_override_tripmine_hls.description"] = string.format(a
 L["unlameifier_tuning_ammo_override_satchel_hls.printname"] = "Ammo Överskrivning - satchel"
 L["unlameifier_tuning_ammo_override_satchel_hls.compactname"] = "satchel"
 L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(ammoset, "Buntladdningarna")
+
+///////// Ricochet
+L["unlameifier.folder.ricoschet"] = "Rikoschett"
+L["unlameifier.folder.ricochet.utility.system"] = "Rikoschett/Utility/System"
+
+L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Sökande Rikoschett - Tvinga PÅ"
+L["unlameifier_tuning_ricochet_seeking_enable.compactname"] = "+RikoschettSök."
+L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Tvingar PÅ <color=255,255,100>målsökande rikoschett</color>.\nSkott som rikoschettar kommer söka sig mot närmsta tillgängliga måltavlan."
+
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Sökande Rikoschett - Tvinga AV"
+L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-RikoschettSök."
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Tvingar AV <color=255,255,100>målsökande rikoschett</color>.\nSkott kommer rikoschetta normalt."
+
+///////// Ricochet Angles
+L["unlameifier.folder.ricochet.fixed"] = "Rikoschett/Vinkel/Fast"
+L["unlameifier.folder.ricochet.plus"] = "Rikoschett/Vinkel/Lägg till"
+L["unlameifier.folder.ricochet.minus"] = "Rikoschett/Vinkel/Ta bort"
+L["unlameifier.folder.ricochet.multiply"] = "Rikoschett/Vinkel/Multiplicera"
+L["unlameifier.folder.ricochet.divide"] = "Rikoschett/Vinkel/Dela"
+
+L["unlameifier_tuning_ricochet_max_angle_plus1.printname"] = "+1° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus1.compactname"] = "+1° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus1.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 1) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus5.printname"] = "+5° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus5.compactname"] = "+5° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus5.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 5) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus15.printname"] = "+15° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus15.compactname"] = "+15° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus15.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 15) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus30.printname"] = "+30° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus30.compactname"] = "+30° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus30.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 30) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus45.printname"] = "+45° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus45.compactname"] = "+45° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus45.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 45) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus60.printname"] = "+60° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus60.compactname"] = "+60° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus60.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 60) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus75.printname"] = "+75° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus75.compactname"] = "+75° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus75.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 75) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_plus90.printname"] = "+90° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus90.compactname"] = "+90° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_plus90.description"] = string.format(statsdesc.plus, "Rikoschett Vinkel", 90) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus1.printname"] = "-1° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus1.compactname"] = "-1° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus1.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 1) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus5.printname"] = "-5° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus5.compactname"] = "-5° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus5.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 5) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus15.printname"] = "-15° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus15.compactname"] = "-15° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus15.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 15) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus30.printname"] = "-30° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus30.compactname"] = "-30° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus30.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 30) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus45.printname"] = "-45° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus45.compactname"] = "-45° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus45.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 45) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus60.printname"] = "-60° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus60.compactname"] = "-60° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus60.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 60) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus75.printname"] = "-75° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus75.compactname"] = "-75° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus75.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 75) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_minus90.printname"] = "-90° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus90.compactname"] = "-90° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_minus90.description"] = string.format(statsdesc.minus, "Rikoschett Vinkel", 90) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_0.printname"] = "0° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_0.compactname"] = "0° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_0.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 1) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa." .. "\n\n" .. "Avaktiverar praktiskt sätt rikoschett."
+
+L["unlameifier_tuning_ricochet_max_angle_1.printname"] = "1° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_1.compactname"] = "1° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_1.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 1) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_5.printname"] = "5° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_5.compactname"] = "5° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_5.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 5) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_15.printname"] = "15° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_15.compactname"] = "15° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_15.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 15) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_30.printname"] = "30° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_30.compactname"] = "30° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_30.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 30) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_45.printname"] = "45° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_45.compactname"] = "45° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_45.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 45) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_60.printname"] = "60° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_60.compactname"] = "60° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_60.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 60) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_75.printname"] = "75° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_75.compactname"] = "75° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_75.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 75) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+L["unlameifier_tuning_ricochet_max_angle_90.printname"] = "90° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_90.compactname"] = "90° Rikoschett"
+L["unlameifier_tuning_ricochet_max_angle_90.description"] = string.format(statsdesc.fixed, "Rikoschett Vinkel", 90) .. "Ändrar maximala vinkeln (i grader) där en rikoschett kan inträffa."
+
+///////// Sökande Rikoschett Vinkels
+L["unlameifier.folder.ricochet.seeking.fixed"] = "Rikoschett/Sök Vinkel/Fast"
+L["unlameifier.folder.ricochet.seeking.plus"] = "Rikoschett/Sök Vinkel/Lägg till"
+L["unlameifier.folder.ricochet.seeking.minus"] = "Rikoschett/Sök Vinkel/Ta bort"
+L["unlameifier.folder.ricochet.seeking.multiply"] = "Rikoschett/Sök Vinkel/Multiplicera"
+L["unlameifier.folder.ricochet.seeking.divide"] = "Rikoschett/Sök Vinkel/Dela"
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.printname"] = "+1° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.compactname"] = "+1° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 1) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.printname"] = "+5° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.compactname"] = "+5° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 5) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.printname"] = "+15° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.compactname"] = "+15° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 15) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.printname"] = "+30° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.compactname"] = "+30° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 30) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.printname"] = "+45° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.compactname"] = "+45° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 45) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.printname"] = "+60° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.compactname"] = "+60° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 60) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.printname"] = "+75° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.compactname"] = "+75° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 75) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.printname"] = "+90° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.compactname"] = "+90° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.description"] = string.format(statsdesc.plus, "Sökande Rikoschett Vinkel", 90) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.printname"] = "-1° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.compactname"] = "-1° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 1) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.printname"] = "-5° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.compactname"] = "-5° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 5) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.printname"] = "-15° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.compactname"] = "-15° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 15) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.printname"] = "-30° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.compactname"] = "-30° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 30) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.printname"] = "-45° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.compactname"] = "-45° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 45) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.printname"] = "-60° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.compactname"] = "-60° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 60) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.printname"] = "-75° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.compactname"] = "-75° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 75) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.printname"] = "-90° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.compactname"] = "-90° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.description"] = string.format(statsdesc.minus, "Sökande Rikoschett Vinkel", 90) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_0.printname"] = "0° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_0.compactname"] = "0° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_0.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 1) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet .. "\n\n" .. "Avaktiverar praktiskt sett sökande rikoschett."
+
+L["unlameifier_tuning_ricochet_seeking_angle_1.printname"] = "1° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_1.compactname"] = "1° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_1.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 1) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_5.printname"] = "5° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_5.compactname"] = "5° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_5.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 5) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_15.printname"] = "15° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_15.compactname"] = "15° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_15.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 15) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_30.printname"] = "30° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_30.compactname"] = "30° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_30.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 30) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_45.printname"] = "45° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_45.compactname"] = "45° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_45.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 45) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_60.printname"] = "60° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_60.compactname"] = "60° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_60.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 60) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_75.printname"] = "75° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_75.compactname"] = "75° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_75.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 75) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_90.printname"] = "90° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_90.compactname"] = "90° Sökande Rikoschett"
+L["unlameifier_tuning_ricochet_seeking_angle_90.description"] = string.format(statsdesc.fixed, "Sökande Rikoschett Vinkel", 90) .. "Detta ändrar krävda vinkeln (i grader) för att en rikoschett ska börja söka efter en måltavla." .. statsdesc.warnseekingricochet
+
+///////// Sökande Rikoschett Vinkels
+L["unlameifier.folder.ricochet.chance.fixed"] = "Rikoschett/Chans/Fast"
+L["unlameifier.folder.ricochet.chance.plus"] = "Rikoschett/Chans/Lägg till"
+L["unlameifier.folder.ricochet.chance.minus"] = "Rikoschett/Chans/Ta bort"
+L["unlameifier.folder.ricochet.chance.multiply"] = "Rikoschett/Chans/Multiplicera"
+L["unlameifier.folder.ricochet.chance.divide"] = "Rikoschett/Chans/Dela"
+
+L["unlameifier_tuning_ricochet_chance_plus1p.printname"] = "+1% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus1p.compactname"] = "+1% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus1p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.01") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus5p.printname"] = "+5% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus5p.compactname"] = "+5% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus5p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.05") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus10p.printname"] = "+10% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus10p.compactname"] = "+10% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus10p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.1") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus20p.printname"] = "+20% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus20p.compactname"] = "+20% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus20p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.2") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus25p.printname"] = "+25% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus25p.compactname"] = "+25% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus25p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.25") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus30p.printname"] = "+30% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus30p.compactname"] = "+30% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus30p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.3") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus40p.printname"] = "+40% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus40p.compactname"] = "+40% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus40p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.4") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus50p.printname"] = "+50% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus50p.compactname"] = "+50% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus50p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.5") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus60p.printname"] = "+60% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus60p.compactname"] = "+60% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus60p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.6") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus70p.printname"] = "+70% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus70p.compactname"] = "+70% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus70p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.7") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus75p.printname"] = "+75% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus75p.compactname"] = "+75% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus75p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.75") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus80p.printname"] = "+80% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus80p.compactname"] = "+80% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus80p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.8") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus90p.printname"] = "+90% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus90p.compactname"] = "+90% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus90p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "0.9") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_plus100p.printname"] = "+100% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus100p.compactname"] = "+100% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_plus100p.description"] = string.format(statsdesc.plus, "Rikoschett Chans", "1") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus1p.printname"] = "-1% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus1p.compactname"] = "-1% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus1p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.01") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus5p.printname"] = "-5% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus5p.compactname"] = "-5% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus5p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.05") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus10p.printname"] = "-10% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus10p.compactname"] = "-10% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus10p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.1") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus20p.printname"] = "-20% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus20p.compactname"] = "-20% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus20p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.2") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus25p.printname"] = "-25% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus25p.compactname"] = "-25% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus25p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.25") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus30p.printname"] = "-30% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus30p.compactname"] = "-30% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus30p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.3") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus40p.printname"] = "-40% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus40p.compactname"] = "-40% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus40p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.4") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus50p.printname"] = "-50% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus50p.compactname"] = "-50% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus50p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.5") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus60p.printname"] = "-60% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus60p.compactname"] = "-60% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus60p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.6") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus70p.printname"] = "-70% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus70p.compactname"] = "-70% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus70p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.7") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus75p.printname"] = "-75% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus75p.compactname"] = "-75% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus75p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.75") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus80p.printname"] = "-80% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus80p.compactname"] = "-80% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus80p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.8") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus90p.printname"] = "-90% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus90p.compactname"] = "-90% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus90p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "0.9") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_minus100p.printname"] = "-100% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus100p.compactname"] = "-100% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_minus100p.description"] = string.format(statsdesc.minus, "Rikoschett Chans", "1") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_0.printname"] = "0% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_0.compactname"] = "0% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_0.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar." .. "\n\n" .. "Avaktiverar förmågan att utföra en rikoschett."
+
+L["unlameifier_tuning_ricochet_chance_1p.printname"] = "1% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_1p.compactname"] = "1% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_1p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.01") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_5p.printname"] = "5% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_5p.compactname"] = "5% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_5p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.05") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_10p.printname"] = "10% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_10p.compactname"] = "10% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_10p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.1") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_20p.printname"] = "20% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_20p.compactname"] = "20% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_20p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.2") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_25p.printname"] = "25% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_25p.compactname"] = "25% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_25p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.25") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_30p.printname"] = "30% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_30p.compactname"] = "30% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_30p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.3") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_40p.printname"] = "40% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_40p.compactname"] = "40% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_40p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.4") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_50p.printname"] = "50% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_50p.compactname"] = "50% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_50p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.5") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_60p.printname"] = "60% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_60p.compactname"] = "60% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_60p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.6") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_70p.printname"] = "70% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_70p.compactname"] = "70% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_70p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.7") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_75p.printname"] = "75% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_75p.compactname"] = "75% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_75p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.75") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_80p.printname"] = "80% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_80p.compactname"] = "80% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_80p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.8") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_90p.printname"] = "90% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_90p.compactname"] = "90% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_90p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "0.9") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar."
+
+L["unlameifier_tuning_ricochet_chance_100p.printname"] = "100% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_100p.compactname"] = "100% Rikoschett Chans"
+L["unlameifier_tuning_ricochet_chance_100p.description"] = string.format(statsdesc.fixed, "Rikoschett Chans", "1") .. "Detta ändrar hur stor chans det är att en rikoschett inträffar." .. "\n\n" .. "Garanterar att skottet kommer utföra en rikoschett."

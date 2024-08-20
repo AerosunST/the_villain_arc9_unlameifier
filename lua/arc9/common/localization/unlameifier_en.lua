@@ -911,7 +911,7 @@ L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball Sounds"
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
 L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Makes the ricochets sound like a pinball machine. Sounds best with low-velocity projectiles.
 
-Combine with \"100% Ricochet Chance\", \"90° Ricochet\", \"+Ricochet Seeking\" and \"90° Ricochet Seeking\" in the Tuning System for a more realistic pinball experience.]]
+Combine with \"100% Ricochet Chance\", \"90° Ricochet\", \"+Seeking Ricochet\" and \"90° Seeking Ricochet\" in the Tuning System for a more realistic pinball experience.]]
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sound Mods/Misc./Impact"
@@ -2697,7 +2697,7 @@ If you use ARC9 or Unlameifier on DarkRP, please uninstall Garry's Mod and go to
 local statsdesc = {
 	plus = "Increases the \"%s\" value by <color=100,255,100>+%s</color>.\n",
 	minus = "Reduces the \"%s\" value by <color=255,100,100>-%s</color>.\n",
-	fixed = "Sets the \"%s\" value to a fixed value of <color=255,255,100>%d</color>.\n",
+	fixed = "Sets the \"%s\" value to a fixed value of <color=255,255,100>%s</color>.\n",
 	
 	plusinv = "Increases the \"%s\" value by <color=255,100,100>+%s</color>.\n",
 	minusinv = "Reduces the \"%s\" value by <color=100,255,100>-%s</color>.\n",
@@ -2733,6 +2733,8 @@ local statsdesc = {
 
 	warntrigger = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Trigger Delay\" is disabled.", -- for anything "Trigger Delay" related
 	warntriggerauto = "\n<color=175,175,255>NOTE</color>: Has no noticable effect if the weapon is set to semi-automatic.", -- for anything "Trigger Delay" related
+
+	warnseekingricochet = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Seeking Ricochet\" is disabled.",
 
 }
 
@@ -5476,3 +5478,408 @@ L["unlameifier_tuning_ammo_override_tripmine_hls.description"] = string.format(a
 L["unlameifier_tuning_ammo_override_satchel_hls.printname"] = "Ammo Override - satchel"
 L["unlameifier_tuning_ammo_override_satchel_hls.compactname"] = "satchel"
 L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(ammoset, "Satchel Charges")
+
+///////// Ricochet
+L["unlameifier.folder.ricochet"] = "Ricochet"
+L["unlameifier.folder.ricochet.utility.system"] = "Ricochet/Utility/System"
+
+L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Seeking Ricochet - Force Enable"
+L["unlameifier_tuning_ricochet_seeking_enable.compactname"] = "+SeekingRicochet"
+L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Forcefully enables <color=255,255,100>target seeking ricochet</color>.\nBullets that ricochet will seek towards the closest available target."
+
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Seeking Ricochet - Force Disable"
+L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-SeekingRicochet"
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Forcefully disables <color=255,255,100>target seeking ricochet</color>.\nBullets will ricochet normally."
+
+///////// Ricochet Angles
+L["unlameifier.folder.ricochet.fixed"] = "Ricochet/Angle/Fixed"
+L["unlameifier.folder.ricochet.plus"] = "Ricochet/Angle/Add"
+L["unlameifier.folder.ricochet.minus"] = "Ricochet/Angle/Subtract"
+L["unlameifier.folder.ricochet.multiply"] = "Ricochet/Angle/Multiply"
+L["unlameifier.folder.ricochet.divide"] = "Ricochet/Angle/Divide"
+
+L["unlameifier_tuning_ricochet_max_angle_plus1.printname"] = "+1° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus1.compactname"] = "+1° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus1.description"] = string.format(statsdesc.plus, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus5.printname"] = "+5° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus5.compactname"] = "+5° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus5.description"] = string.format(statsdesc.plus, "Ricochet Angle", 5) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus15.printname"] = "+15° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus15.compactname"] = "+15° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus15.description"] = string.format(statsdesc.plus, "Ricochet Angle", 15) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus30.printname"] = "+30° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus30.compactname"] = "+30° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus30.description"] = string.format(statsdesc.plus, "Ricochet Angle", 30) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus45.printname"] = "+45° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus45.compactname"] = "+45° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus45.description"] = string.format(statsdesc.plus, "Ricochet Angle", 45) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus60.printname"] = "+60° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus60.compactname"] = "+60° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus60.description"] = string.format(statsdesc.plus, "Ricochet Angle", 60) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus75.printname"] = "+75° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus75.compactname"] = "+75° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus75.description"] = string.format(statsdesc.plus, "Ricochet Angle", 75) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_plus90.printname"] = "+90° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus90.compactname"] = "+90° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_plus90.description"] = string.format(statsdesc.plus, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus1.printname"] = "-1° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus1.compactname"] = "-1° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus1.description"] = string.format(statsdesc.minus, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus5.printname"] = "-5° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus5.compactname"] = "-5° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus5.description"] = string.format(statsdesc.minus, "Ricochet Angle", 5) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus15.printname"] = "-15° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus15.compactname"] = "-15° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus15.description"] = string.format(statsdesc.minus, "Ricochet Angle", 15) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus30.printname"] = "-30° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus30.compactname"] = "-30° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus30.description"] = string.format(statsdesc.minus, "Ricochet Angle", 30) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus45.printname"] = "-45° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus45.compactname"] = "-45° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus45.description"] = string.format(statsdesc.minus, "Ricochet Angle", 45) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus60.printname"] = "-60° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus60.compactname"] = "-60° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus60.description"] = string.format(statsdesc.minus, "Ricochet Angle", 60) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus75.printname"] = "-75° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus75.compactname"] = "-75° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus75.description"] = string.format(statsdesc.minus, "Ricochet Angle", 75) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_minus90.printname"] = "-90° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus90.compactname"] = "-90° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_minus90.description"] = string.format(statsdesc.minus, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_0.printname"] = "0° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_0.compactname"] = "0° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_0.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur." .. "\n\n" .. "Essentially disables ricochet."
+
+L["unlameifier_tuning_ricochet_max_angle_1.printname"] = "1° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_1.compactname"] = "1° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_1.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_5.printname"] = "5° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_5.compactname"] = "5° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_5.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 5) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_15.printname"] = "15° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_15.compactname"] = "15° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_15.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 15) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_30.printname"] = "30° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_30.compactname"] = "30° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_30.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 30) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_45.printname"] = "45° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_45.compactname"] = "45° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_45.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 45) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_60.printname"] = "60° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_60.compactname"] = "60° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_60.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 60) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_75.printname"] = "75° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_75.compactname"] = "75° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_75.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 75) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_max_angle_90.printname"] = "90° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_90.compactname"] = "90° Ricochet"
+L["unlameifier_tuning_ricochet_max_angle_90.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+
+///////// Seeking Ricochet Angles
+L["unlameifier.folder.ricochet.seeking.fixed"] = "Ricochet/Seek Angle/Fixed"
+L["unlameifier.folder.ricochet.seeking.plus"] = "Ricochet/Seek Angle/Add"
+L["unlameifier.folder.ricochet.seeking.minus"] = "Ricochet/Seek Angle/Subtract"
+L["unlameifier.folder.ricochet.seeking.multiply"] = "Ricochet/Seek Angle/Multiply"
+L["unlameifier.folder.ricochet.seeking.divide"] = "Ricochet/Seek Angle/Divide"
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.printname"] = "+1° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.compactname"] = "+1° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.printname"] = "+5° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.compactname"] = "+5° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 5) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.printname"] = "+15° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.compactname"] = "+15° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 15) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.printname"] = "+30° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.compactname"] = "+30° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 30) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.printname"] = "+45° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.compactname"] = "+45° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 45) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.printname"] = "+60° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.compactname"] = "+60° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 60) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.printname"] = "+75° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.compactname"] = "+75° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 75) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.printname"] = "+90° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.compactname"] = "+90° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.printname"] = "-1° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.compactname"] = "-1° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.printname"] = "-5° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.compactname"] = "-5° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 5) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.printname"] = "-15° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.compactname"] = "-15° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 15) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.printname"] = "-30° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.compactname"] = "-30° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 30) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.printname"] = "-45° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.compactname"] = "-45° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 45) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.printname"] = "-60° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.compactname"] = "-60° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 60) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.printname"] = "-75° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.compactname"] = "-75° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 75) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.printname"] = "-90° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.compactname"] = "-90° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_0.printname"] = "0° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_0.compactname"] = "0° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_0.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet .. "\n\n" .. "Essentially disables seeking ricochet."
+
+L["unlameifier_tuning_ricochet_seeking_angle_1.printname"] = "1° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_1.compactname"] = "1° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_1.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_5.printname"] = "5° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_5.compactname"] = "5° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_5.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 5) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_15.printname"] = "15° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_15.compactname"] = "15° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_15.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 15) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_30.printname"] = "30° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_30.compactname"] = "30° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_30.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 30) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_45.printname"] = "45° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_45.compactname"] = "45° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_45.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 45) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_60.printname"] = "60° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_60.compactname"] = "60° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_60.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 60) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_75.printname"] = "75° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_75.compactname"] = "75° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_75.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 75) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+L["unlameifier_tuning_ricochet_seeking_angle_90.printname"] = "90° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_90.compactname"] = "90° Seeking Ricochet"
+L["unlameifier_tuning_ricochet_seeking_angle_90.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+
+///////// Seeking Ricochet Angles
+L["unlameifier.folder.ricochet.chance.fixed"] = "Ricochet/Chance/Fixed"
+L["unlameifier.folder.ricochet.chance.plus"] = "Ricochet/Chance/Add"
+L["unlameifier.folder.ricochet.chance.minus"] = "Ricochet/Chance/Subtract"
+L["unlameifier.folder.ricochet.chance.multiply"] = "Ricochet/Chance/Multiply"
+L["unlameifier.folder.ricochet.chance.divide"] = "Ricochet/Chance/Divide"
+
+L["unlameifier_tuning_ricochet_chance_plus1p.printname"] = "+1% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus1p.compactname"] = "+1% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus1p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.01") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus5p.printname"] = "+5% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus5p.compactname"] = "+5% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus5p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.05") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus10p.printname"] = "+10% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus10p.compactname"] = "+10% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus10p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.1") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus20p.printname"] = "+20% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus20p.compactname"] = "+20% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus20p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.2") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus25p.printname"] = "+25% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus25p.compactname"] = "+25% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus25p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.25") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus30p.printname"] = "+30% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus30p.compactname"] = "+30% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus30p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.3") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus40p.printname"] = "+40% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus40p.compactname"] = "+40% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus40p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.4") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus50p.printname"] = "+50% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus50p.compactname"] = "+50% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus50p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.5") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus60p.printname"] = "+60% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus60p.compactname"] = "+60% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus60p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.6") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus70p.printname"] = "+70% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus70p.compactname"] = "+70% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus70p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.7") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus75p.printname"] = "+75% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus75p.compactname"] = "+75% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus75p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.75") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus80p.printname"] = "+80% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus80p.compactname"] = "+80% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus80p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.8") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus90p.printname"] = "+90% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus90p.compactname"] = "+90% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus90p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.9") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_plus100p.printname"] = "+100% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus100p.compactname"] = "+100% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_plus100p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus1p.printname"] = "-1% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus1p.compactname"] = "-1% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus1p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.01") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus5p.printname"] = "-5% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus5p.compactname"] = "-5% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus5p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.05") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus10p.printname"] = "-10% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus10p.compactname"] = "-10% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus10p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.1") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus20p.printname"] = "-20% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus20p.compactname"] = "-20% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus20p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.2") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus25p.printname"] = "-25% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus25p.compactname"] = "-25% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus25p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.25") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus30p.printname"] = "-30% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus30p.compactname"] = "-30% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus30p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.3") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus40p.printname"] = "-40% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus40p.compactname"] = "-40% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus40p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.4") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus50p.printname"] = "-50% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus50p.compactname"] = "-50% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus50p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.5") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus60p.printname"] = "-60% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus60p.compactname"] = "-60% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus60p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.6") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus70p.printname"] = "-70% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus70p.compactname"] = "-70% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus70p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.7") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus75p.printname"] = "-75% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus75p.compactname"] = "-75% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus75p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.75") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus80p.printname"] = "-80% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus80p.compactname"] = "-80% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus80p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.8") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus90p.printname"] = "-90% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus90p.compactname"] = "-90% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus90p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.9") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_minus100p.printname"] = "-100% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus100p.compactname"] = "-100% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_minus100p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_0.printname"] = "0% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_0.compactname"] = "0% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_0.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0") .. "This alters how likely a ricochet can occur." .. "\n\n" .. "Completely disables the ability to ricochet."
+
+L["unlameifier_tuning_ricochet_chance_1p.printname"] = "1% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_1p.compactname"] = "1% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_1p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.01") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_5p.printname"] = "5% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_5p.compactname"] = "5% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_5p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.05") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_10p.printname"] = "10% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_10p.compactname"] = "10% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_10p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.1") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_20p.printname"] = "20% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_20p.compactname"] = "20% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_20p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.2") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_25p.printname"] = "25% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_25p.compactname"] = "25% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_25p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.25") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_30p.printname"] = "30% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_30p.compactname"] = "30% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_30p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.3") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_40p.printname"] = "40% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_40p.compactname"] = "40% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_40p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.4") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_50p.printname"] = "50% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_50p.compactname"] = "50% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_50p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.5") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_60p.printname"] = "60% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_60p.compactname"] = "60% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_60p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.6") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_70p.printname"] = "70% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_70p.compactname"] = "70% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_70p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.7") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_75p.printname"] = "75% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_75p.compactname"] = "75% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_75p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.75") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_80p.printname"] = "80% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_80p.compactname"] = "80% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_80p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.8") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_90p.printname"] = "90% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_90p.compactname"] = "90% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_90p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.9") .. "This alters how likely a ricochet can occur."
+
+L["unlameifier_tuning_ricochet_chance_100p.printname"] = "100% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_100p.compactname"] = "100% Ricochet Chance"
+L["unlameifier_tuning_ricochet_chance_100p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur." .. "\n\n" .. "Guarantees that the bullet will ricochet."

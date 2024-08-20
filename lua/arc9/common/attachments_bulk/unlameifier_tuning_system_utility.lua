@@ -27,7 +27,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Suppressor OFF"
+ATT.PrintName = "Suppressor - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.Silencer = false
@@ -39,7 +39,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Suppressor ON"
+ATT.PrintName = "Suppressor - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.Silencer = true
@@ -51,7 +51,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Muzzleflash Light ON"
+ATT.PrintName = "Muzzleflash Light - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoFlash = false
@@ -62,7 +62,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Muzzleflash Light OFF"
+ATT.PrintName = "Muzzleflash Light - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoFlash = true
@@ -74,7 +74,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Muzzleflash ON"
+ATT.PrintName = "Muzzleflash - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoMuzzleEffect = false
@@ -85,7 +85,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Muzzleflash OFF"
+ATT.PrintName = "Muzzleflash - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.NoMuzzleEffect = true
@@ -231,7 +231,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Malfunctions ON"
+ATT.PrintName = "Malfunctions - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.malfunction.utility.system")
 
 ATT.Malfunction = true
@@ -255,7 +255,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Overheating ON"
+ATT.PrintName = "Overheating - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
 ATT.SortOrder = -1
 ATT.Overheat = true
@@ -267,7 +267,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Overheating OFF"
+ATT.PrintName = "Overheating - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
 ATT.SortOrder = -1
 ATT.Overheat = false
@@ -279,7 +279,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Overheating Lockout ON"
+ATT.PrintName = "Overheating Lockout - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
 ATT.SortOrder = 0
 ATT.HeatLockout = true
@@ -291,7 +291,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Overheating Lockout OFF"
+ATT.PrintName = "Overheating Lockout - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
 ATT.SortOrder = 0
 ATT.HeatLockout = false
@@ -303,7 +303,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Overheating Full Fix ON"
+ATT.PrintName = "Overheating Full Fix - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
 ATT.SortOrder = 1
 ATT.HeatFix = true
@@ -315,7 +315,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Overheating Full Fix OFF"
+ATT.PrintName = "Overheating Full Fix - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.heat.utility.system")
 ATT.SortOrder = 1
 ATT.HeatFix = false
@@ -328,7 +328,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Trigger Delay ON"
+ATT.PrintName = "Trigger Delay - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = -1
 ATT.TriggerDelay = true
@@ -340,7 +340,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Trigger Delay OFF"
+ATT.PrintName = "Trigger Delay - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = -1
 ATT.TriggerDelay = false
@@ -352,7 +352,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Trigger Delay Cancel ON"
+ATT.PrintName = "Trigger Delay Cancel - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = 0
 ATT.TriggerDelay = true
@@ -364,7 +364,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Trigger Delay Cancel OFF"
+ATT.PrintName = "Trigger Delay Cancel - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = 0
 ATT.TriggerDelay = false
@@ -376,7 +376,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "\"Release to Fire\" ON"
+ATT.PrintName = "\"Release to Fire\" - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = 1
 ATT.TriggerDelayReleaseToFire = true
@@ -388,7 +388,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "\"Release to Fire\" OFF"
+ATT.PrintName = "\"Release to Fire\" - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = 1
 ATT.TriggerDelayReleaseToFire = false
@@ -400,7 +400,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Trigger Delay Animation ON"
+ATT.PrintName = "Trigger Delay Animation - Force Enable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = 2
 ATT.TriggerStartFireAnim = true
@@ -412,7 +412,7 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
-ATT.PrintName = "Trigger Delay Animation OFF"
+ATT.PrintName = "Trigger Delay Animation - Force Disable"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.triggerdelay.utility.system")
 ATT.SortOrder = 2
 ATT.TriggerStartFireAnim = false
@@ -732,3 +732,27 @@ if IsMounted('hl1') then
 
 	ARC9.LoadAttachment(ATT, "unlameifier_tuning_ammo_override_satchel_hls")
 end
+
+//////////////////////	Ricochet Seeking
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Seeking Ricochet - Force Enable"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ricochet.utility.system")
+
+ATT.RicochetSeeking = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_enable")
+
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Seeking Ricochet - Force Disable"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ricochet.utility.system")
+
+ATT.RicochetSeeking = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_disable")

@@ -2947,163 +2947,163 @@ L["unlameifier.folder.maxdamage.divide"] = "Damage/Max/Divide"
 
 L["unlameifier_tuning_max_damage_x010.printname"] = "0.1x Maximum Damage"
 L["unlameifier_tuning_max_damage_x010.compactname"] = "0.1x Max DMG"
-L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Close Range Damage", "90%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Maximum Damage", "90%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x025.printname"] = "0.25x Maximum Damage"
 L["unlameifier_tuning_max_damage_x025.compactname"] = "0.25x Max DMG"
-L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Close Range Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Maximum Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x050.printname"] = "0.5x Maximum Damage"
 L["unlameifier_tuning_max_damage_x050.compactname"] = "0.5x Max DMG"
-L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Close Range Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Maximum Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x075.printname"] = "0.75x Maximum Damage"
 L["unlameifier_tuning_max_damage_x075.compactname"] = "0.75x Max DMG"
-L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Close Range Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Maximum Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x090.printname"] = "0.9x Maximum Damage"
 L["unlameifier_tuning_max_damage_x090.compactname"] = "0.9x Max DMG"
-L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Close Range Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Maximum Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x110.printname"] = "1.1x Maximum Damage"
 L["unlameifier_tuning_max_damage_x110.compactname"] = "1.1x Max DMG"
-L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Close Range Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Maximum Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x125.printname"] = "1.25x Maximum Damage"
 L["unlameifier_tuning_max_damage_x125.compactname"] = "1.25x Max DMG"
-L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Close Range Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Maximum Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x150.printname"] = "1.5x Maximum Damage"
 L["unlameifier_tuning_max_damage_x150.compactname"] = "1.5x Max DMG"
-L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Close Range Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Maximum Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x175.printname"] = "1.75x Maximum Damage"
 L["unlameifier_tuning_max_damage_x175.compactname"] = "1.75x Max DMG"
-L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Close Range Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Maximum Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x2.printname"] = "2x Maximum Damage"
 L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Max DMG"
-L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Close Range Damage", "100%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Maximum Damage", "100%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x5.printname"] = "5x Maximum Damage"
 L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Max DMG"
-L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Close Range Damage", "400%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Maximum Damage", "400%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x10.printname"] = "10x Maximum Damage"
 L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Max DMG"
-L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Close Range Damage", "900%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Maximum Damage", "900%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Max DMG"
-L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Close Range Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Max DMG"
-L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Close Range Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Max DMG"
-L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Close Range Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Max DMG"
-L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Close Range Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Max DMG"
-L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Close Range Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Max DMG"
-L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Close Range Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Max DMG"
-L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Close Range Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Max DMG"
-L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Close Range Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Maximum Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Maximum Damage"
 L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Max DMG"
-L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Close Range Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Maximum Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Max DMG"
-L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Close Range Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Max DMG"
-L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Close Range Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Max DMG"
-L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Close Range Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Max DMG"
-L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Close Range Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Max DMG"
-L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Close Range Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Max DMG"
-L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Close Range Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Max DMG"
-L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Close Range Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Max DMG"
-L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Close Range Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Maximum Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Maximum Damage"
 L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Max DMG"
-L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Close Range Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Maximum Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Max DMG"
-L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Close Range Damage", 0) .. "This alters how much damage the weapon can deal at its highest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Maximum Damage", 0) .. "This alters how much damage the weapon can deal at its highest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Max DMG"
-L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Close Range Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Max DMG"
-L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Close Range Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Max DMG"
-L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Close Range Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Max DMG"
-L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Close Range Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Max DMG"
-L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Close Range Damage", 30) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Maximum Damage", 30) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Max DMG"
-L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Close Range Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Max DMG"
-L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Close Range Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Max DMG"
-L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Close Range Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Maximum Damage"
 L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Max DMG"
-L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Close Range Damage", 99999) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Maximum Damage", 99999) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
 
 ///////// Minimum Damage
 L["unlameifier.folder.mindamage"] = "Damage/Min"
@@ -3115,163 +3115,163 @@ L["unlameifier.folder.mindamage.divide"] = "Damage/Min/Divide"
 
 L["unlameifier_tuning_min_damage_x010.printname"] = "0.1x Minimum Damage"
 L["unlameifier_tuning_min_damage_x010.compactname"] = "0.1x Min DMG"
-L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Long Range Damage", "90%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Minimum Damage", "90%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x025.printname"] = "0.25x Minimum Damage"
 L["unlameifier_tuning_min_damage_x025.compactname"] = "0.25x Min DMG"
-L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Long Range Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Minimum Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x050.printname"] = "0.5x Minimum Damage"
 L["unlameifier_tuning_min_damage_x050.compactname"] = "0.5x Min DMG"
-L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Long Range Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Minimum Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x075.printname"] = "0.75x Minimum Damage"
 L["unlameifier_tuning_min_damage_x075.compactname"] = "0.75x Min DMG"
-L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Long Range Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Minimum Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x090.printname"] = "0.9x Minimum Damage"
 L["unlameifier_tuning_min_damage_x090.compactname"] = "0.9x Min DMG"
-L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Long Range Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Minimum Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x110.printname"] = "1.1x Minimum Damage"
 L["unlameifier_tuning_min_damage_x110.compactname"] = "1.1x Min DMG"
-L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Long Range Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Minimum Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x125.printname"] = "1.25x Minimum Damage"
 L["unlameifier_tuning_min_damage_x125.compactname"] = "1.25x Min DMG"
-L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Long Range Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Minimum Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x150.printname"] = "1.5x Minimum Damage"
 L["unlameifier_tuning_min_damage_x150.compactname"] = "1.5x Min DMG"
-L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Long Range Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Minimum Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x175.printname"] = "1.75x Minimum Damage"
 L["unlameifier_tuning_min_damage_x175.compactname"] = "1.75x Min DMG"
-L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Long Range Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Minimum Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x2.printname"] = "2x Minimum Damage"
 L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Min DMG"
-L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Long Range Damage", "100%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Minimum Damage", "100%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x5.printname"] = "5x Minimum Damage"
 L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Min DMG"
-L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Long Range Damage", "400%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Minimum Damage", "400%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x10.printname"] = "10x Minimum Damage"
 L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Min DMG"
-L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Long Range Damage", "900%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Minimum Damage", "900%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Min DMG"
-L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Long Range Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Min DMG"
-L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Long Range Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Min DMG"
-L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Long Range Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Min DMG"
-L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Long Range Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Min DMG"
-L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Long Range Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Min DMG"
-L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Long Range Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Min DMG"
-L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Long Range Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Min DMG"
-L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Long Range Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Minimum Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Minimum Damage"
 L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Min DMG"
-L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Long Range Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Minimum Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Min DMG"
-L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Long Range Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Min DMG"
-L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Long Range Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Min DMG"
-L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Long Range Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Min DMG"
-L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Long Range Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Min DMG"
-L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Long Range Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Min DMG"
-L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Long Range Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Min DMG"
-L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Long Range Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Min DMG"
-L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Long Range Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Minimum Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Minimum Damage"
 L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Min DMG"
-L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Long Range Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Minimum Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Min DMG"
-L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Long Range Damage", 0) .. "This alters how much damage the weapon can deal at its lowest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Minimum Damage", 0) .. "This alters how much damage the weapon can deal at its lowest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Min DMG"
-L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Long Range Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Min DMG"
-L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Long Range Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Min DMG"
-L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Long Range Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Min DMG"
-L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Long Range Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Min DMG"
-L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Long Range Damage", 30) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Minimum Damage", 30) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Min DMG"
-L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Long Range Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Min DMG"
-L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Long Range Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Min DMG"
-L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Long Range Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Minimum Damage"
 L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Min DMG"
-L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Long Range Damage", 99999) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Minimum Damage", 99999) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
 
 ///////// Recoil
 L["unlameifier.folder.recoil"] = "Recoil"

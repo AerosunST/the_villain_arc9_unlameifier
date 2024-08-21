@@ -2615,163 +2615,163 @@ L["unlameifier.folder.maxdamage.divide"] = "Skada/Max/Dela"
 
 L["unlameifier_tuning_max_damage_x010.printname"] = "0,1x Maximal Skada"
 L["unlameifier_tuning_max_damage_x010.compactname"] = "0,1x Max SKD"
-L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Närdistans Skada", "90%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Maximal Skada", "90%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x025.printname"] = "0,25x Maximal Skada"
 L["unlameifier_tuning_max_damage_x025.compactname"] = "0,25x Max SKD"
-L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Närdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Maximal Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x050.printname"] = "0,5x Maximal Skada"
 L["unlameifier_tuning_max_damage_x050.compactname"] = "0,5x Max SKD"
-L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Närdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Maximal Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x075.printname"] = "0,75x Maximal Skada"
 L["unlameifier_tuning_max_damage_x075.compactname"] = "0,75x Max SKD"
-L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Närdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Maximal Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x090.printname"] = "0,9x Maximal Skada"
 L["unlameifier_tuning_max_damage_x090.compactname"] = "0,9x Max SKD"
-L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Närdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Maximal Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x110.printname"] = "1,1x Maximal Skada"
 L["unlameifier_tuning_max_damage_x110.compactname"] = "1,1x Max SKD"
-L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Närdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Maximal Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x125.printname"] = "1,25x Maximal Skada"
 L["unlameifier_tuning_max_damage_x125.compactname"] = "1,25x Max SKD"
-L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Närdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Maximal Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x150.printname"] = "1,5x Maximal Skada"
 L["unlameifier_tuning_max_damage_x150.compactname"] = "1,5x Max SKD"
-L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Närdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Maximal Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x175.printname"] = "1,75x Maximal Skada"
 L["unlameifier_tuning_max_damage_x175.compactname"] = "1,75x Max SKD"
-L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Närdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Maximal Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x2.printname"] = "2x Maximal Skada"
 L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Max SKD"
-L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Närdistans Skada", "100%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Maximal Skada", "100%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x5.printname"] = "5x Maximal Skada"
 L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Max SKD"
-L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Närdistans Skada", "400%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Maximal Skada", "400%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_x10.printname"] = "10x Maximal Skada"
 L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Max SKD"
-L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Närdistans Skada", "900%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Maximal Skada", "900%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Max SKD"
-L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Närdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Maximal Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Max SKD"
-L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Närdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Maximal Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Max SKD"
-L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Närdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Maximal Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Max SKD"
-L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Närdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Maximal Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Max SKD"
-L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Närdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Maximal Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Max SKD"
-L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Närdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Maximal Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Max SKD"
-L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Närdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Maximal Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Max SKD"
-L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Närdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Maximal Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Maximal Skada"
 L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Max SKD"
-L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Närdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Maximal Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Max SKD"
-L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Närdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Maximal Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Max SKD"
-L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Närdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Maximal Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Max SKD"
-L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Närdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Maximal Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Max SKD"
-L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Närdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Maximal Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Max SKD"
-L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Närdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Maximal Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Max SKD"
-L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Närdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Maximal Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Max SKD"
-L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Närdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Maximal Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Max SKD"
-L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Närdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Maximal Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Maximal Skada"
 L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Max SKD"
-L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Närdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Maximal Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Max SKD"
-L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 0) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. "\n\n<color=255,100,100>VARNING</color>: Beroende på vart du träffar så kan den fortfarande göra skada." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Maximal Skada", 0) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. "\n\n<color=255,100,100>VARNING</color>: Beroende på vart du träffar så kan den fortfarande göra skada." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Max SKD"
-L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Maximal Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Max SKD"
-L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Maximal Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Max SKD"
-L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Maximal Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Max SKD"
-L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Maximal Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Max SKD"
-L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 30) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Maximal Skada", 30) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Max SKD"
-L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Maximal Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Max SKD"
-L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Maximal Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Max SKD"
-L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Maximal Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Maximal Skada"
 L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Max SKD"
-L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Närdistans Skada", 99999) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Maximal Skada", 99999) .. "Detta ändrar hur mycket skada vapnet kan göra som dess högsta." .. statsdesc.warndmgeft
 
 ///////// Minimum Damage
 L["unlameifier.folder.mindamage"] = "Skada/Min"
@@ -2783,163 +2783,163 @@ L["unlameifier.folder.mindamage.divide"] = "Skada/Min/Dela"
 
 L["unlameifier_tuning_min_damage_x010.printname"] = "0,1x Minimum Skada"
 L["unlameifier_tuning_min_damage_x010.compactname"] = "0,1x Min SKD"
-L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Långdistans Skada", "90%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Minimum Skada", "90%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x025.printname"] = "0,25x Minimum Skada"
 L["unlameifier_tuning_min_damage_x025.compactname"] = "0,25x Min SKD"
-L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Långdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Minimum Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x050.printname"] = "0,5x Minimum Skada"
 L["unlameifier_tuning_min_damage_x050.compactname"] = "0,5x Min SKD"
-L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Långdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Minimum Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x075.printname"] = "0,75x Minimum Skada"
 L["unlameifier_tuning_min_damage_x075.compactname"] = "0,75x Min SKD"
-L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Långdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Minimum Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x090.printname"] = "0,9x Minimum Skada"
 L["unlameifier_tuning_min_damage_x090.compactname"] = "0,9x Min SKD"
-L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Långdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Minimum Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x110.printname"] = "1,1x Minimum Skada"
 L["unlameifier_tuning_min_damage_x110.compactname"] = "1,1x Min SKD"
-L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Långdistans Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Minimum Skada", "10%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x125.printname"] = "1,25x Minimum Skada"
 L["unlameifier_tuning_min_damage_x125.compactname"] = "1,25x Min SKD"
-L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Långdistans Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Minimum Skada", "25%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x150.printname"] = "1,5x Minimum Skada"
 L["unlameifier_tuning_min_damage_x150.compactname"] = "1,5x Min SKD"
-L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Långdistans Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Minimum Skada", "50%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x175.printname"] = "1,75x Minimum Skada"
 L["unlameifier_tuning_min_damage_x175.compactname"] = "1,75x Min SKD"
-L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Långdistans Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Minimum Skada", "75%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x2.printname"] = "2x Minimum Skada"
 L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Min SKD"
-L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Långdistans Skada", "100%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Minimum Skada", "100%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x5.printname"] = "5x Minimum Skada"
 L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Min SKD"
-L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Långdistans Skada", "400%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Minimum Skada", "400%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_x10.printname"] = "10x Minimum Skada"
 L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Min SKD"
-L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Långdistans Skada", "900%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Minimum Skada", "900%") .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Min SKD"
-L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Långdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Minimum Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Min SKD"
-L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Långdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Minimum Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Min SKD"
-L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Långdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Minimum Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Min SKD"
-L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Långdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Minimum Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Min SKD"
-L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Långdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Minimum Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Min SKD"
-L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Långdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Minimum Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Min SKD"
-L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Långdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Minimum Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Min SKD"
-L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Långdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Minimum Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Minimum Skada"
 L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Min SKD"
-L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Långdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Minimum Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Min SKD"
-L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Långdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Minimum Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Min SKD"
-L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Långdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Minimum Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Min SKD"
-L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Långdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Minimum Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Min SKD"
-L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Långdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Minimum Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Min SKD"
-L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Långdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Minimum Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Min SKD"
-L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Långdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Minimum Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Min SKD"
-L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Långdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Minimum Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Min SKD"
-L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Långdistans Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Minimum Skada", 500) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Minimum Skada"
 L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Min SKD"
-L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Långdistans Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Minimum Skada", 1000) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Min SKD"
-L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 0) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. "\n\n<color=255,100,100>VARNING</color>: Beroende på vart du träffar så kan den fortfarande göra skada." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Minimum Skada", 0) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. "\n\n<color=255,100,100>VARNING</color>: Beroende på vart du träffar så kan den fortfarande göra skada." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Min SKD"
-L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Minimum Skada", 1) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Min SKD"
-L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Minimum Skada", 5) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Min SKD"
-L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Minimum Skada", 10) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Min SKD"
-L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Minimum Skada", 25) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Min SKD"
-L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 30) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Minimum Skada", 30) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Min SKD"
-L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Minimum Skada", 50) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Min SKD"
-L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Minimum Skada", 75) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Min SKD"
-L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Minimum Skada", 100) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Minimum Skada"
 L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Min SKD"
-L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Långdistans Skada", 99999) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Minimum Skada", 99999) .. "Detta ändrar hur mycket skada vapnet kan göra som dess lägsta." .. statsdesc.warndmgeft
 
 ///////// Recoil
 L["unlameifier.folder.Rekyl"] = "Rekyl"

@@ -1531,7 +1531,7 @@ L["unlameifier_sound_tf2_fistsofsteel_hit.description"] = string.format(tf2desc.
 
 L["unlameifier_sound_tf2_masculinemittens_hit.printname"] = "Holiday Punch"
 L["unlameifier_sound_tf2_masculinemittens_hit.compactname"] = "Holiday"
-L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "Holiday Punch") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "Holiday Punch") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Be the life of the war party with these laugh-inducing punch-mittens."
 
 L["unlameifier_sound_tf2_sd_sign_hit.printname"] = "Neon Annihilator"
 L["unlameifier_sound_tf2_sd_sign_hit.compactname"] = "Neon"

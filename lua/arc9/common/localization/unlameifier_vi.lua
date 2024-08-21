@@ -1521,7 +1521,7 @@ L["unlameifier_sound_tf2_fistsofsteel_hit.description"] = string.format(tf2desc.
 
 L["unlameifier_sound_tf2_masculinemittens_hit.printname"] = "Nấm đấm giáng sinh"
 L["unlameifier_sound_tf2_masculinemittens_hit.compactname"] = "Giáng sinh"
-L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "Nấm đấm giáng sinh") .. string.format(tf2desc.crit, 10)
+L["unlameifier_sound_tf2_masculinemittens_hit.description"] = string.format(tf2desc.hit, "Nấm đấm giáng sinh") .. string.format(tf2desc.crit, 10) .. "\n\n" .. "Be the life of the war party with these laugh-inducing punch-mittens." -- NEW
 
 L["unlameifier_sound_tf2_sd_sign_hit.printname"] = "Bảng hiệu Neon Annihilator"
 L["unlameifier_sound_tf2_sd_sign_hit.compactname"] = "Neon"

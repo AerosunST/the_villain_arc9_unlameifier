@@ -98,7 +98,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "HL2 Ammotype Cycle"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.modifiers")
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -208,7 +208,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Infinite Ammo"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.modifiers")
 
 ATT.InfiniteAmmo = true
 
@@ -220,7 +220,7 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Bottomless Clip"
-ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc")
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.modifiers")
 
 ATT.BottomlessClip = true
 

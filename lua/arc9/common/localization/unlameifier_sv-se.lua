@@ -2308,6 +2308,7 @@ L["unlameifier_charms_tf2_jackolantern.description"] = "Jack kunde luras så vä
 L["unlameifier.folder.misc"] = "Annat"
 L["unlameifier.folder.misc.function"] = "Annat/Funktion"
 L["unlameifier.folder.misc.effects"] = "Annat/Effekter"
+L["unlameifier.folder.misc.modifiers"] = "Annat/Modifierare"
 
 local requireseft = "\n\n<color=255,100,100>NOTERA</color>: Kräver \"Escape from Tarkov\"-vapen för att kunna fungera korrekt."
 
@@ -4923,123 +4924,123 @@ requireseft = "\n\n<color=255,100,100>VARNING</color>: Kommer ej göra något p�
 
 L["unlameifier_tuning_ergonomics_x010.printname"] = "0,1x Ergonomi"
 L["unlameifier_tuning_ergonomics_x010.compactname"] = "0,1x Ergonomi"
-L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomi", "90%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomi", "90%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x025.printname"] = "0,25x Ergonomi"
 L["unlameifier_tuning_ergonomics_x025.compactname"] = "0,25x Ergonomi"
-L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomi", "75%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomi", "75%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x050.printname"] = "0,5x Ergonomi"
 L["unlameifier_tuning_ergonomics_x050.compactname"] = "0,5x Ergonomi"
-L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomi", "50%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomi", "50%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x075.printname"] = "0,75x Ergonomi"
 L["unlameifier_tuning_ergonomics_x075.compactname"] = "0,75x Ergonomi"
-L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomi", "25%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomi", "25%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x090.printname"] = "0,9x Ergonomi"
 L["unlameifier_tuning_ergonomics_x090.compactname"] = "0,9x Ergonomi"
-L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomi", "10%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomi", "10%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x110.printname"] = "1,1x Ergonomi"
 L["unlameifier_tuning_ergonomics_x110.compactname"] = "1,1x Ergonomi"
-L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomi", "10%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomi", "10%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x125.printname"] = "1,25x Ergonomi"
 L["unlameifier_tuning_ergonomics_x125.compactname"] = "1,25x Ergonomi"
-L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomi", "25%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomi", "25%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x150.printname"] = "1,5x Ergonomi"
 L["unlameifier_tuning_ergonomics_x150.compactname"] = "1,5x Ergonomi"
-L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomi", "50%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomi", "50%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x175.printname"] = "1,75x Ergonomi"
 L["unlameifier_tuning_ergonomics_x175.compactname"] = "1,75x Ergonomi"
-L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomi", "75%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomi", "75%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x2.printname"] = "2x Ergonomi"
 L["unlameifier_tuning_ergonomics_x2.compactname"] = "2x Ergonomi"
-L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomi", "100%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomi", "100%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x5.printname"] = "5x Ergonomi"
 L["unlameifier_tuning_ergonomics_x5.compactname"] = "5x Ergonomi"
-L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomi", "400%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomi", "400%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x10.printname"] = "10x Ergonomi"
 L["unlameifier_tuning_ergonomics_x10.compactname"] = "10x Ergonomi"
-L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomi", "900%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomi", "900%") .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus1.printname"] = "+1 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus1.compactname"] = "+1 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomi", 1) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomi", 1) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus5.printname"] = "+5 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus5.compactname"] = "+5 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomi", 5) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomi", 5) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus10.printname"] = "+10 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus10.compactname"] = "+10 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomi", 10) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomi", 10) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus25.printname"] = "+25 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus25.compactname"] = "+25 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomi", 25) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomi", 25) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus50.printname"] = "+50 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus50.compactname"] = "+50 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomi", 50) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomi", 50) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus75.printname"] = "+75 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus75.compactname"] = "+75 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomi", 75) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomi", 75) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus100.printname"] = "+100 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus100.compactname"] = "+100 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomi", 100) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomi", 100) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus500.printname"] = "+500 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus500.compactname"] = "+500 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomi", 500) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomi", 500) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus1000.printname"] = "+1000 Ergonomi"
 L["unlameifier_tuning_ergonomics_plus1000.compactname"] = "+1000 Ergonomi"
-L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomi", 1000) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomi", 1000) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus1.printname"] = "-1 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus1.compactname"] = "-1 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomi", 1) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomi", 1) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus5.printname"] = "-5 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus5.compactname"] = "-5 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomi", 5) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomi", 5) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus10.printname"] = "-10 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus10.compactname"] = "-10 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomi", 10) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomi", 10) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus25.printname"] = "-25 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus25.compactname"] = "-25 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomi", 25) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomi", 25) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus50.printname"] = "-50 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus50.compactname"] = "-50 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomi", 50) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomi", 50) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus75.printname"] = "-75 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus75.compactname"] = "-75 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomi", 75) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomi", 75) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus100.printname"] = "-100 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus100.compactname"] = "-100 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomi", 100) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomi", 100) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus500.printname"] = "-500 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus500.compactname"] = "-500 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomi", 500) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomi", 500) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus1000.printname"] = "-1000 Ergonomi"
 L["unlameifier_tuning_ergonomics_minus1000.compactname"] = "-1000 Ergonomi"
-L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomi", 1000) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomi", 1000) .. "Detta ändrar hur snabbt du höjer och sänker siktet, hur länge du kan hålla andan när du stabiliserar vapnet, och hur mycket ljud du gör i siktet." .. requireseft
 
 ///////// Ammo Override
 L["unlameifier.folder.ammooverride"] = "Ammo Överskrivning"

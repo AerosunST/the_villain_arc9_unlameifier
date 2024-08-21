@@ -2626,10 +2626,21 @@ L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
 L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."
 
 //////////////////////////////// unlameifier_tuning_system
+//////////////// TRANSLATOR NOTES - PLEASE READ BEFORE TRANSLATING FURTHER
+
+--[[
+Everything listed below is written to accommodate consistency, but quick translation.
+
+When translating, please look over every string, or look in-game before sending a Pull Request.
+
+If you have any questions, contact Moka.
+]]--
+
 //////////////// Utility
 L["unlameifier.folder.misc"] = "Мisc."
 L["unlameifier.folder.misc.function"] = "Мisc./Function"
 L["unlameifier.folder.misc.effects"] = "Мisc./Effects"
+L["unlameifier.folder.misc.modifiers"] = "Мisc./Modifiers"
 
 local requireseft = "\n\n<color=255,100,100>WARNING</color>: Requires the \"Escape from Tarkov\" weapons in order to properly function."
 
@@ -2728,11 +2739,11 @@ local statsdesc = {
 	warnmalftoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to jam after every shot.",
 
 	warnheat = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Overheating\" is disabled.",
-	warnheattoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to overheat on every shot.", -- for "Heat per Shot"
-	warnheattoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is too low, it can cause the weapon to overheat on every shot.", -- for "Heat Capacity"
+	warnheattoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to overheat on every shot.",
+	warnheattoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is too low, it can cause the weapon to overheat on every shot.",
 
-	warntrigger = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Trigger Delay\" is disabled.", -- for anything "Trigger Delay" related
-	warntriggerauto = "\n<color=175,175,255>NOTE</color>: Has no noticable effect if the weapon is set to semi-automatic.", -- for anything "Trigger Delay" related
+	warntrigger = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Trigger Delay\" is disabled.",
+	warntriggerauto = "\n<color=175,175,255>NOTE</color>: Has no noticable effect if the weapon is set to semi-automatic.",
 
 	warnseekingricochet = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Seeking Ricochet\" is disabled.",
 
@@ -5245,123 +5256,123 @@ requireseft = "\n\n<color=255,100,100>WARNING</color>: Equipping on a weapon not
 
 L["unlameifier_tuning_ergonomics_x010.printname"] = "0.1x Ergonomics"
 L["unlameifier_tuning_ergonomics_x010.compactname"] = "0.1x Ergonomics"
-L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomics", "90%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomics", "90%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x025.printname"] = "0.25x Ergonomics"
 L["unlameifier_tuning_ergonomics_x025.compactname"] = "0.25x Ergonomics"
-L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomics", "75%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomics", "75%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x050.printname"] = "0.5x Ergonomics"
 L["unlameifier_tuning_ergonomics_x050.compactname"] = "0.5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomics", "50%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomics", "50%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x075.printname"] = "0.75x Ergonomics"
 L["unlameifier_tuning_ergonomics_x075.compactname"] = "0.75x Ergonomics"
-L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomics", "25%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomics", "25%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x090.printname"] = "0.9x Ergonomics"
 L["unlameifier_tuning_ergonomics_x090.compactname"] = "0.9x Ergonomics"
-L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomics", "10%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomics", "10%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x110.printname"] = "1.1x Ergonomics"
 L["unlameifier_tuning_ergonomics_x110.compactname"] = "1.1x Ergonomics"
-L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomics", "10%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomics", "10%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x125.printname"] = "1.25x Ergonomics"
 L["unlameifier_tuning_ergonomics_x125.compactname"] = "1.25x Ergonomics"
-L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomics", "25%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomics", "25%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x150.printname"] = "1.5x Ergonomics"
 L["unlameifier_tuning_ergonomics_x150.compactname"] = "1.5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomics", "50%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomics", "50%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x175.printname"] = "1.75x Ergonomics"
 L["unlameifier_tuning_ergonomics_x175.compactname"] = "1.75x Ergonomics"
-L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomics", "75%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomics", "75%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x2.printname"] = "2x Ergonomics"
 L["unlameifier_tuning_ergonomics_x2.compactname"] = "2x Ergonomics"
-L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomics", "100%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomics", "100%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x5.printname"] = "5x Ergonomics"
 L["unlameifier_tuning_ergonomics_x5.compactname"] = "5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomics", "400%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomics", "400%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_x10.printname"] = "10x Ergonomics"
 L["unlameifier_tuning_ergonomics_x10.compactname"] = "10x Ergonomics"
-L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomics", "900%") .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomics", "900%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus1.printname"] = "+1 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus1.compactname"] = "+1 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomics", 1) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomics", 1) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus5.printname"] = "+5 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus5.compactname"] = "+5 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomics", 5) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomics", 5) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus10.printname"] = "+10 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus10.compactname"] = "+10 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomics", 10) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomics", 10) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus25.printname"] = "+25 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus25.compactname"] = "+25 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomics", 25) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomics", 25) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus50.printname"] = "+50 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus50.compactname"] = "+50 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomics", 50) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomics", 50) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus75.printname"] = "+75 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus75.compactname"] = "+75 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomics", 75) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomics", 75) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus100.printname"] = "+100 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus100.compactname"] = "+100 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomics", 100) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomics", 100) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus500.printname"] = "+500 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus500.compactname"] = "+500 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomics", 500) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomics", 500) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_plus1000.printname"] = "+1000 Ergonomics"
 L["unlameifier_tuning_ergonomics_plus1000.compactname"] = "+1000 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomics", 1000) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomics", 1000) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus1.printname"] = "-1 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus1.compactname"] = "-1 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomics", 1) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomics", 1) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus5.printname"] = "-5 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus5.compactname"] = "-5 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomics", 5) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomics", 5) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus10.printname"] = "-10 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus10.compactname"] = "-10 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomics", 10) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomics", 10) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus25.printname"] = "-25 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus25.compactname"] = "-25 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomics", 25) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomics", 25) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus50.printname"] = "-50 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus50.compactname"] = "-50 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomics", 50) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomics", 50) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus75.printname"] = "-75 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus75.compactname"] = "-75 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomics", 75) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomics", 75) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus100.printname"] = "-100 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus100.compactname"] = "-100 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomics", 100) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomics", 100) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus500.printname"] = "-500 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus500.compactname"] = "-500 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomics", 500) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomics", 500) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 L["unlameifier_tuning_ergonomics_minus1000.printname"] = "-1000 Ergonomics"
 L["unlameifier_tuning_ergonomics_minus1000.compactname"] = "-1000 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomics", 1000) .. "REPLACEME" .. requireseft
+L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomics", 1000) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
 
 ///////// Ammo Override
 L["unlameifier.folder.ammooverride"] = "Ammo Override"

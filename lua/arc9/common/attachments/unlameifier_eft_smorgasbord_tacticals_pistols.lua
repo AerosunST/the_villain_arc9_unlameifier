@@ -1,6 +1,6 @@
 ATT.PrintName = [[Smorgasbord (TACTIACLS)]]
 ATT.CompactName = [[Smorgasbord Tacticals]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_smorgasbord.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables EFT weapons to be able to use Smorgasbord tacticals.
 
 NOTE: These are separate from underbarrels due to angle issues. If you have a better way of handling this, please reach out to me on Discord @The Villain#0062 on Arctic's Diamond Doves server (Direct friend requests will be declined)]]

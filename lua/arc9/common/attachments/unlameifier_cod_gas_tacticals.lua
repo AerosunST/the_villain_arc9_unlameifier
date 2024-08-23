@@ -1,6 +1,6 @@
 ATT.PrintName = [[Gunsmith Arms Source]]
 ATT.CompactName = [[GAS Tacticals]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gas.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables CoD Pack weapons to be able to use GAS tacticals.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"

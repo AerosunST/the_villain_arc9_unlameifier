@@ -1,6 +1,6 @@
 ATT.PrintName = [[Gunsmith Reloaded (UNDERBARRELS)]]
 ATT.CompactName = [[GSR Converter]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gsr.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables CoD Pack weapons to be able to use GSR Underbarrels (Grips & UBWs).]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"

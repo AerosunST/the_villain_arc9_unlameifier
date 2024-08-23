@@ -1,6 +1,6 @@
 ATT.PrintName = [[Gunsmith Reloaded]]
 ATT.CompactName = [[GSR Converter]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gsr.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables Smorgasbord weapons to be able to use GSR optics.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"

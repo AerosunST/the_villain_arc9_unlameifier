@@ -1,6 +1,6 @@
 ATT.PrintName = [[CoD Pack]]
 ATT.CompactName = [[CoD Converter]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_cod.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables EFT weapons to be able to use CoD Pack tacticals and foregrips.
 
 You are on your honor to not do anything stupid with top-rail mounted foregrips.]]

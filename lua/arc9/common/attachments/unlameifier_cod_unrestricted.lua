@@ -1,6 +1,6 @@
 ATT.PrintName = [[Unrestricted Rail]]
 ATT.CompactName = [[Unrestricted Rail]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_cod.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Unrestricts what you can put on tactical rails (no, you can't put optics on it you silly goose, use a different unlameifier for that!)]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"

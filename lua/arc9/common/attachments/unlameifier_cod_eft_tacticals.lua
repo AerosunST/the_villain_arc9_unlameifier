@@ -1,6 +1,6 @@
 ATT.PrintName = [[Escape from Tarkov (TACTICALS)]]
 ATT.CompactName = [[EFT Tacticals]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_eft.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables CoD Pack weapons to be able to use EFT foregrips.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - Unlameifier"

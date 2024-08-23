@@ -1,6 +1,6 @@
 ATT.PrintName = [[Gunsmith Arms Source]]
 ATT.CompactName = [[GAS Converter]]
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_gas.png")
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_deprecated.png", "mips smooth")
 ATT.Description = [[Enables EFT weapons to be able to use GAS tacticals.
 
 NOTE: Lasers look weird.]]

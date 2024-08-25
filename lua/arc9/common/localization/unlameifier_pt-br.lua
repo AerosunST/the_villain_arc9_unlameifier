@@ -902,7 +902,7 @@ L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball Sounds" -- NEW
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball" -- NEW
 L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Makes the ricochets sound like a pinball machine. Sounds best with low-velocity projectiles.
 
-Combine with \"100% Ricochet Chance\", \"90° Ricochet\", \"+Seeking Ricochet\" and \"90° Seeking Ricochet\" in the Tuning System for a more realistic pinball experience.]] -- NEW
+Combine with "100% Ricochet Chance", "90° Ricochet", "+Seeking Ricochet" and "90° Seeking Ricochet" in the Tuning System for a more realistic pinball experience.]] -- NEW
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sons Diferenciados/Misc./Impacto"

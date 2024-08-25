@@ -891,7 +891,7 @@ L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball" -- NEW
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball" -- NEW
 L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Đổi tiếng đạn nảy thành tiếng pinball. Nghe ổn nhất khi dùng đạn tốc độ thấp.
 
-Kết hợp với \"Cơ hội nảy 100%\", \"Nảy 90 độ\", \"+Ngắm đạn nảy\" and \"Ngắm đạn nảy 90 độ\" trong mục Chỉnh sửa để có trải nghiệm chơi pinball chân thật nhất.]] -- NEW
+Kết hợp với "Cơ hội nảy 100%", "Nảy 90 độ", "+Ngắm đạn nảy" and "Ngắm đạn nảy 90 độ" trong mục Chỉnh sửa để có trải nghiệm chơi pinball chân thật nhất.]] -- NEW
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Tiếng/Misc./Va chạm" -- NEW

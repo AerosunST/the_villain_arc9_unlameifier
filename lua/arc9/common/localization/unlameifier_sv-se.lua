@@ -900,7 +900,7 @@ L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball-Ljud"
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
 L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Gör att ljuden från rikoschetter låter som en pinball-maskin. Låter bäst med projektiler med låg hastighet.
 
-Kombinera med \"100% Rikoschett Chans\", \"90° Rikoschett\", \"+Rikoschett Sök.\" och \"90° Rikoschett Sök.\" i Tuningsystemet för en mer realistisk pinball-upplevelse.]]
+Kombinera med "100% Rikoschett Chans", "90° Rikoschett", "+Rikoschett Sök." och "90° Rikoschett Sök." i Tuningsystemet för en mer realistisk pinball-upplevelse.]]
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Ljudmodd/Annat/Träffar"

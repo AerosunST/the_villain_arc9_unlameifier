@@ -3181,6 +3181,8 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.melee.bf2")
 
 table.Merge(ATT, sharedcode)
 
+ATT.Category = {"eft_custom_slot_melee"}
+
 gssf = gsp .. "knife_fire.ogg"
 
 ATT.MeleeSwingSound = gssf

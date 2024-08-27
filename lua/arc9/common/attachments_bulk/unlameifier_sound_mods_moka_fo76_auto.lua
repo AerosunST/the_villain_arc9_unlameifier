@@ -32,6 +32,7 @@ sharedcode = {
 
 // ////////// Fallout 76 //////////
 local gsp = "arc9/unlameifier/soundmods/fo76/auto/"
+local gspi = "arc9/unlameifier/soundmods/fo76/auto/install/"
 
 ATT = {}
 
@@ -65,6 +66,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_cryolator_fire_2d_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_cryolator_fire_2d_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_cryolator_fire_end_2d_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_cryolator_fire_end_2d_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_cryolator_fire_2d_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_cryolator")
 
@@ -103,6 +106,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrell
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_cryolator_fire_auto_modbarrellong_0420rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_cryolator_420")
 
 -------------------
@@ -139,6 +144,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_05
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_0540rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_cryolator_fire_auto_modbarrellong_0540rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_cryolator_540")
 
@@ -177,6 +184,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrell
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_cryolator_fire_auto_modbarrellong_0660rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_cryolator_660")
 
 -------------------
@@ -213,6 +222,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_07
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_0780rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_cryolator_fire_auto_modbarrellong_0780rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_cryolator_780")
 
@@ -251,6 +262,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrell
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_cryolator_fire_auto_modbarrellong_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_cryolator_fire_auto_modbarrellong_0900rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_cryolator_900")
 
 -------------------
@@ -287,6 +300,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_flamer_fire_2d_lpm.wav"
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_flamer_fire_2d_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_flamer_fire_2d_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_flamer_fire_2d_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_flamer_fire_2d_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_flamer")
 
@@ -325,6 +340,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_gatlingplasma_fire_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_gatlingplasma_fire_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_gatlingplasma_fire_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_gatlingplasma_fire_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_gatlingplasma")
 
 -------------------
@@ -361,6 +378,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenc
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0420rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_handmade_riflepipea_fire_auto_0420rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_420")
 
@@ -399,6 +418,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_handmade_riflepipea_fire_auto_0540rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_540")
 
 -------------------
@@ -435,6 +456,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenc
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0660rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_handmade_riflepipea_fire_auto_0660rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_660")
 
@@ -473,6 +496,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_handmade_riflepipea_fire_auto_0780rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_780")
 
 -------------------
@@ -509,6 +534,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenc
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_0900rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_handmade_riflepipea_fire_auto_silenced_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_handmade_riflepipea_fire_auto_0900rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_riflepipe_900")
 
@@ -547,6 +574,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_minigun_fire_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_minigun_fire_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_minigun_fire_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_minigun_fire_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_minigun")
 
 -------------------
@@ -583,6 +612,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_04
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_0420rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistol_10mm_fire_pc_auto_0420rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_10mm_420")
 
@@ -621,6 +652,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silen
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistol_10mm_fire_pc_auto_0540rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_10mm_540")
 
 -------------------
@@ -657,6 +690,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_06
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_0660rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistol_10mm_fire_pc_auto_0660rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_10mm_660")
 
@@ -695,6 +730,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silen
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistol_10mm_fire_pc_auto_0780rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_10mm_780")
 
 -------------------
@@ -731,6 +768,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_09
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_0900rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistol_10mm_fire_pc_auto_0900rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_10mm_900")
 
@@ -769,6 +808,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_0420r
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistol_laser_fire_player_0420rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_laser_420")
 
 -------------------
@@ -805,6 +846,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistol_laser_fire_player_0540rpm_lpm
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_0540rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistol_laser_fire_player_0540rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_laser_540")
 
@@ -843,6 +886,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_0660r
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistol_laser_fire_player_0660rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_laser_660")
 
 -------------------
@@ -879,6 +924,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistol_laser_fire_player_0780rpm_lpm
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_0780rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistol_laser_fire_player_0780rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_laser_780")
 
@@ -917,6 +964,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_0900r
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistol_laser_fire_player_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistol_laser_fire_player_0900rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_laser_900")
 
 -------------------
@@ -953,6 +1002,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistolgammagun_fire_auto_0420rpm_pla
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_0420rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistolgammagun_fire_auto_0420rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_gammagun_420")
 
@@ -991,6 +1042,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_0540r
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistolgammagun_fire_auto_0540rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_gammagun_540")
 
 -------------------
@@ -1027,6 +1080,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistolgammagun_fire_auto_0660rpm_pla
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_0660rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistolgammagun_fire_auto_0660rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_gammagun_660")
 
@@ -1065,6 +1120,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_0780r
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_pistolgammagun_fire_auto_0780rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_gammagun_780")
 
 -------------------
@@ -1101,6 +1158,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_pistolgammagun_fire_auto_0900rpm_pla
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_0900rpm_player_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_pistolgammagun_fire_auto_end_player_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_pistolgammagun_fire_auto_0900rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_pistol_gammagun_900")
 
@@ -1139,6 +1198,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_plasma_flamer_fire_player_lpm.
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_plasma_flamer_fire_end_player_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_plasma_flamer_fire_end_player_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_plasma_flamer_fire_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_thrower")
 
 -------------------
@@ -1175,6 +1236,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_si
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_0420rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_chineseassault_fire_pc_auto_0420rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_420")
 
@@ -1213,6 +1276,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_a
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_chineseassault_fire_pc_auto_0540rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_540")
 
 -------------------
@@ -1249,6 +1314,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_si
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_0660rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_chineseassault_fire_pc_auto_0660rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_660")
 
@@ -1287,6 +1354,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_a
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_chineseassault_fire_pc_auto_0780rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_780")
 
 -------------------
@@ -1323,6 +1392,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_si
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_0900rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_chineseassault_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_chineseassault_fire_pc_auto_0900rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_chinese_900")
 
@@ -1361,6 +1432,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_sile
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_combat_fire_auto_0420rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_combatrifle_420")
 
 -------------------
@@ -1397,6 +1470,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_0540rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_combat_fire_auto_0540rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_combatrifle_540")
 
@@ -1435,6 +1510,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_sile
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_combat_fire_auto_0660rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_combatrifle_660")
 
 -------------------
@@ -1471,6 +1548,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_0780rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_combat_fire_auto_0780rpm_player_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_combatrifle_780")
 
@@ -1509,6 +1588,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_sile
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_combat_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_combat_fire_auto_0900rpm_player_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_combatrifle_900")
 
 -------------------
@@ -1545,6 +1626,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_0420rpm
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_0420rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_laser_fire_auto_player_0420rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_laser_420")
 
@@ -1583,6 +1666,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_0
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_laser_fire_auto_player_0540rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_laser_540")
 
 -------------------
@@ -1619,6 +1704,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_0660rpm
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_0660rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_laser_fire_auto_player_0660rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_laser_660")
 
@@ -1657,6 +1744,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_0
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_laser_fire_auto_player_0780rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_laser_780")
 
 -------------------
@@ -1693,6 +1782,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_0900rpm
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_0900rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_laser_fire_auto_player_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_laser_fire_auto_player_0900rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_laser_900")
 
@@ -1731,6 +1822,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_lasergatling_fire_pc_01_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_lasergatling_fire_end_pc_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_lasergatling_fire_end_pc_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_lasergatling_fire_pc_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_lasergatling")
 
 -------------------
@@ -1767,6 +1860,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0420rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_machinegunlight_fire_pc_auto_0420rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_420")
 
@@ -1805,6 +1900,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_machinegunlight_fire_pc_auto_0540rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_540")
 
 -------------------
@@ -1841,6 +1938,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0660rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_machinegunlight_fire_pc_auto_0660rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_660")
 
@@ -1879,6 +1978,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_machinegunlight_fire_pc_auto_0780rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_780")
 
 -------------------
@@ -1915,6 +2016,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_0900rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_machinegunlight_fire_pc_auto_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_machinegunlight_fire_pc_auto_0900rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_machinegunlight_900")
 
@@ -1953,6 +2056,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_042
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_redding_fire_pc_auto_0420rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_420")
 
 -------------------
@@ -1989,6 +2094,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0540rpm_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0540rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_redding_fire_pc_auto_0540rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_540")
 
@@ -2027,6 +2134,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_066
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_redding_fire_pc_auto_0660rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_660")
 
 -------------------
@@ -2063,6 +2172,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_0780rpm_0
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_0780rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_redding_fire_pc_auto_0780rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_780")
 
@@ -2101,6 +2212,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_090
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_redding_fire_pc_auto_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_redding_fire_pc_auto_0900rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_redding_900")
 
 -------------------
@@ -2137,6 +2250,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosile
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0420rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_submachinegun_fire_pc_auto_0420rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_420")
 
@@ -2175,6 +2290,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_au
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_submachinegun_fire_pc_auto_0540rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_540")
 
 -------------------
@@ -2211,6 +2328,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosile
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0660rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_submachinegun_fire_pc_auto_0660rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_660")
 
@@ -2249,6 +2368,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_au
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifle_submachinegun_fire_pc_auto_0780rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_780")
 
 -------------------
@@ -2285,6 +2406,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosile
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_0900rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifle_submachinegun_fire_pc_autosilenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifle_submachinegun_fire_pc_auto_0900rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_smg_900")
 
@@ -2323,6 +2446,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifleistvan_fire_auto_0420rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_420")
 
 -------------------
@@ -2359,6 +2484,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0540r
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0540rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifleistvan_fire_auto_0540rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_540")
 
@@ -2397,6 +2524,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifleistvan_fire_auto_0660rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_660")
 
 -------------------
@@ -2433,6 +2562,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_0780r
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_0780rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifleistvan_fire_auto_0780rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_780")
 
@@ -2471,6 +2602,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleistvan_fire_auto_silenced_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifleistvan_fire_auto_0900rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_assault_900")
 
 -------------------
@@ -2507,6 +2640,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.wa
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifleplasma_fire_auto_0420rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_420")
 
@@ -2545,6 +2680,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0540rpm_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifleplasma_fire_auto_0540rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_540")
 
 -------------------
@@ -2581,6 +2718,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.wa
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifleplasma_fire_auto_0660rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_660")
 
@@ -2619,6 +2758,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0780rpm_
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_rifleplasma_fire_auto_0780rpm_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_780")
 
 -------------------
@@ -2655,6 +2796,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.wa
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_rifleplasma_fire_auto_end_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_rifleplasma_fire_auto_0900rpm_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_plasma_900")
 
@@ -2693,6 +2836,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0420rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_420")
 
 -------------------
@@ -2729,6 +2874,8 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0540rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0540rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_540")
 
@@ -2767,6 +2914,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0660rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_660")
 
 -------------------
@@ -2804,6 +2953,8 @@ ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 
+ATT.InstallSound = gspi .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0780rpm_01_lpm.ogg"
+
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_780")
 
 -------------------
@@ -2840,5 +2991,7 @@ ATT.ShootSoundLoopingSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_
 ATT.ShootSoundLoopingSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_0900rpm_01_lpm.wav"
 ATT.ShootSoundWindDownSilenced = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
 ATT.ShootSoundWindDownSilencedIndoor = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_auto_silenced_end_01_lpm.wav"
+
+ATT.InstallSound = gspi .. "wpn_riflesubmachinegun10mm_fire_pc_auto_0900rpm_01_lpm.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_auto_rifle_10mm_900")

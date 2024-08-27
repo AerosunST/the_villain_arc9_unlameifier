@@ -38,9 +38,9 @@ ATT.PrintName = "Black Powder Pistol"
 table.Merge(ATT, sharedcode)
 
 local firesound = {
-	gsp .. "pistol_black_powder_pc_fire_semi_01.wav",
-	gsp .. "pistol_black_powder_pc_fire_semi_02.wav",
-	gsp .. "pistol_black_powder_pc_fire_semi_03.wav",
+	gsp .. "pistol_black_powder_pc_fire_semi_01.ogg",
+	gsp .. "pistol_black_powder_pc_fire_semi_02.ogg",
+	gsp .. "pistol_black_powder_pc_fire_semi_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -48,7 +48,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "pistol_black_powder_pc_fire_semi_01.wav"
+ATT.InstallSound = gsp .. "pistol_black_powder_pc_fire_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_black_powder")
 
@@ -61,9 +61,9 @@ ATT.PrintName = "The Dragon"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "rifle_black_powder_dragon_pc_fire_semi_01.wav",
-	gsp .. "rifle_black_powder_dragon_pc_fire_semi_02.wav",
-	gsp .. "rifle_black_powder_dragon_pc_fire_semi_03.wav",
+	gsp .. "rifle_black_powder_dragon_pc_fire_semi_01.ogg",
+	gsp .. "rifle_black_powder_dragon_pc_fire_semi_02.ogg",
+	gsp .. "rifle_black_powder_dragon_pc_fire_semi_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -71,7 +71,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "rifle_black_powder_dragon_pc_fire_semi_01.wav"
+ATT.InstallSound = gsp .. "rifle_black_powder_dragon_pc_fire_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_black_powder_dragon")
 
@@ -84,9 +84,9 @@ ATT.PrintName = "Black Powder Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "rifle_black_powder_pc_fire_semi_01.wav",
-	gsp .. "rifle_black_powder_pc_fire_semi_02.wav",
-	gsp .. "rifle_black_powder_pc_fire_semi_03.wav",
+	gsp .. "rifle_black_powder_pc_fire_semi_01.ogg",
+	gsp .. "rifle_black_powder_pc_fire_semi_02.ogg",
+	gsp .. "rifle_black_powder_pc_fire_semi_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -94,7 +94,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "rifle_black_powder_pc_fire_semi_01.wav"
+ATT.InstallSound = gsp .. "rifle_black_powder_pc_fire_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_black_powder")
 
@@ -107,9 +107,9 @@ ATT.PrintName = "Crossbow"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_bow_cross_fire_pc_semi_01.wav",
-	gsp .. "wpn_bow_cross_fire_pc_semi_02.wav",
-	gsp .. "wpn_bow_cross_fire_pc_semi_03.wav",
+	gsp .. "wpn_bow_cross_fire_pc_semi_01.ogg",
+	gsp .. "wpn_bow_cross_fire_pc_semi_02.ogg",
+	gsp .. "wpn_bow_cross_fire_pc_semi_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -117,7 +117,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_bow_cross_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_bow_cross_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_bow_cross")
 
@@ -130,9 +130,9 @@ ATT.PrintName = "Bow"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_bow_standard_fire_pc_semi_01.wav",
-	gsp .. "wpn_bow_standard_fire_pc_semi_02.wav",
-	gsp .. "wpn_bow_standard_fire_pc_semi_03.wav",
+	gsp .. "wpn_bow_standard_fire_pc_semi_01.ogg",
+	gsp .. "wpn_bow_standard_fire_pc_semi_02.ogg",
+	gsp .. "wpn_bow_standard_fire_pc_semi_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -140,7 +140,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_bow_standard_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_bow_standard_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_bow_standard")
 
@@ -153,7 +153,7 @@ ATT.PrintName = "Broadsider"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_broadsider_fire_2d_01.wav",
+	gsp .. "wpn_broadsider_fire_2d_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -161,7 +161,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_broadsider_fire_2d_01.wav"
+ATT.InstallSound = gsp .. "wpn_broadsider_fire_2d_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_broadsider")
 
@@ -174,7 +174,7 @@ ATT.PrintName = "Fat Man"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_fatman_fire_2d.wav",
+	gsp .. "wpn_fatman_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -182,7 +182,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_fatman_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_fatman_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_fatman")
 
@@ -195,12 +195,12 @@ ATT.PrintName = "Gatling Gun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_gatling_fire_2d_01.wav",
-	gsp .. "wpn_gatling_fire_2d_02.wav",
-	gsp .. "wpn_gatling_fire_2d_03.wav",
-	gsp .. "wpn_gatling_fire_2d_04.wav",
-	gsp .. "wpn_gatling_fire_2d_05.wav",
-	gsp .. "wpn_gatling_fire_2d_06.wav",
+	gsp .. "wpn_gatling_fire_2d_01.ogg",
+	gsp .. "wpn_gatling_fire_2d_02.ogg",
+	gsp .. "wpn_gatling_fire_2d_03.ogg",
+	gsp .. "wpn_gatling_fire_2d_04.ogg",
+	gsp .. "wpn_gatling_fire_2d_05.ogg",
+	gsp .. "wpn_gatling_fire_2d_06.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -208,7 +208,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_gatling_fire_2d_01.wav"
+ATT.InstallSound = gsp .. "wpn_gatling_fire_2d_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_gatling")
 
@@ -221,13 +221,13 @@ ATT.PrintName = "Pipe Revolver"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_handmade_revolverpipea_fire_player_01.wav",
-	gsp .. "wpn_handmade_revolverpipea_fire_player_02.wav",
-	gsp .. "wpn_handmade_revolverpipea_fire_player_03.wav",
+	gsp .. "wpn_handmade_revolverpipea_fire_player_01.ogg",
+	gsp .. "wpn_handmade_revolverpipea_fire_player_02.ogg",
+	gsp .. "wpn_handmade_revolverpipea_fire_player_03.ogg",
 }
 
 local firesoundsupp = {
-	gsp .. "wpn_handmade_revolverpipea_fire_silenced_player_01.wav",
+	gsp .. "wpn_handmade_revolverpipea_fire_silenced_player_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -235,7 +235,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_handmade_revolverpipea_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_handmade_revolverpipea_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_revolverpipe")
 
@@ -248,13 +248,13 @@ ATT.PrintName = "Pipe Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_handmade_riflepipea_fire_player_01.wav",
-	gsp .. "wpn_handmade_riflepipea_fire_player_02.wav",
-	gsp .. "wpn_handmade_riflepipea_fire_player_03.wav",
+	gsp .. "wpn_handmade_riflepipea_fire_player_01.ogg",
+	gsp .. "wpn_handmade_riflepipea_fire_player_02.ogg",
+	gsp .. "wpn_handmade_riflepipea_fire_player_03.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_handmade_riflepipea_fire_silenced_01.wav",
+	gsp .. "wpn_handmade_riflepipea_fire_silenced_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -262,7 +262,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_handmade_riflepipea_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_handmade_riflepipea_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_riflepipe")
 
@@ -275,7 +275,7 @@ ATT.PrintName = "Junk Jet"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_junkjet_fire_2d_01.wav",
+	gsp .. "wpn_junkjet_fire_2d_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -283,7 +283,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_junkjet_fire_2d_01.wav"
+ATT.InstallSound = gsp .. "wpn_junkjet_fire_2d_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_junkjet")
 
@@ -296,7 +296,7 @@ ATT.PrintName = "Auto Grenade Launcher"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_launchergrenadeautomatic_fire_pc_semi_01.wav",
+	gsp .. "wpn_launchergrenadeautomatic_fire_pc_semi_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -304,7 +304,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_launchergrenadeautomatic_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_launchergrenadeautomatic_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_grenadeautomatic")
 
@@ -317,7 +317,7 @@ ATT.PrintName = "M79 Grenade Launcher"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_launchergrenadebreak_fire_pc_semi_01.wav",
+	gsp .. "wpn_launchergrenadebreak_fire_pc_semi_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -325,7 +325,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_launchergrenadebreak_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_launchergrenadebreak_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_grenadebreak")
 
@@ -338,7 +338,7 @@ ATT.PrintName = "Missile Launcher"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_launchermissile_fire_2d.wav",
+	gsp .. "wpn_launchermissile_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -346,7 +346,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_launchermissile_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_launchermissile_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_missile")
 
@@ -359,11 +359,11 @@ ATT.PrintName = "10mm Pistol"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistol_10mm_fire_pc_semi_01.wav",
+	gsp .. "wpn_pistol_10mm_fire_pc_semi_01.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_pistol_10mm_fire_pc_semi_silenced_01.wav",
+	gsp .. "wpn_pistol_10mm_fire_pc_semi_silenced_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -371,7 +371,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_pistol_10mm_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_pistol_10mm_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_10mm")
 
@@ -384,7 +384,7 @@ ATT.PrintName = "Alien Blaster"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistol_alienblaster_fire_player_01.wav",
+	gsp .. "wpn_pistol_alienblaster_fire_player_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -392,7 +392,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistol_alienblaster_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_pistol_alienblaster_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_alienblaster")
 
@@ -405,7 +405,7 @@ ATT.PrintName = "Pipe Syringer (Unused?)"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistol_handmadepipea_syringer_fire_2d.wav",
+	gsp .. "wpn_pistol_handmadepipea_syringer_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -413,7 +413,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistol_handmadepipea_syringer_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_pistol_handmadepipea_syringer_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_syringerpipe")
 
@@ -426,9 +426,9 @@ ATT.PrintName = "Laser Pistol"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistol_laser_fire_player_01.wav",
-	gsp .. "wpn_pistol_laser_fire_player_02.wav",
-	gsp .. "wpn_pistol_laser_fire_player_03.wav",
+	gsp .. "wpn_pistol_laser_fire_player_01.ogg",
+	gsp .. "wpn_pistol_laser_fire_player_02.ogg",
+	gsp .. "wpn_pistol_laser_fire_player_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -436,7 +436,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistol_laser_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_pistol_laser_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_laser")
 
@@ -449,11 +449,11 @@ ATT.PrintName = "10mm Pistol (Deliverer)"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistolcovert_fire_2d.wav",
+	gsp .. "wpn_pistolcovert_fire_2d.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_pistolcovert_fire_silenced_2d.wav",
+	gsp .. "wpn_pistolcovert_fire_silenced_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -461,7 +461,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_pistolcovert_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_pistolcovert_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_10mm_covert")
 
@@ -474,7 +474,7 @@ ATT.PrintName = "Flare Gun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistolflaregun_fire_2d.wav",
+	gsp .. "wpn_pistolflaregun_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -482,7 +482,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistolflaregun_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_pistolflaregun_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_flaregun")
 
@@ -495,7 +495,7 @@ ATT.PrintName = ".44 Pistol"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistolfortyfour_fire_2d.wav",
+	gsp .. "wpn_pistolfortyfour_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -503,7 +503,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistolfortyfour_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_pistolfortyfour_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_fortyfour")
 
@@ -516,7 +516,7 @@ ATT.PrintName = "Gamma Gun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistolgammagun_fire_2d.wav",
+	gsp .. "wpn_pistolgammagun_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -524,7 +524,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistolgammagun_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_pistolgammagun_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_gammagun")
 
@@ -537,11 +537,11 @@ ATT.PrintName = "Single Action Revolver"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_pistolrevolver_fire_2d_01.wav",
-	gsp .. "wpn_pistolrevolver_fire_2d_02.wav",
-	gsp .. "wpn_pistolrevolver_fire_2d_03.wav",
-	gsp .. "wpn_pistolrevolver_fire_2d_04.wav",
-	gsp .. "wpn_pistolrevolver_fire_2d_05.wav",
+	gsp .. "wpn_pistolrevolver_fire_2d_01.ogg",
+	gsp .. "wpn_pistolrevolver_fire_2d_02.ogg",
+	gsp .. "wpn_pistolrevolver_fire_2d_03.ogg",
+	gsp .. "wpn_pistolrevolver_fire_2d_04.ogg",
+	gsp .. "wpn_pistolrevolver_fire_2d_05.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -549,7 +549,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_pistolrevolver_fire_2d_01.wav"
+ATT.InstallSound = gsp .. "wpn_pistolrevolver_fire_2d_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_pistol_revolver")
 
@@ -562,15 +562,15 @@ ATT.PrintName = "Handmade Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_01.wav",
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_02.wav",
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_03.wav",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_01.ogg",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_02.ogg",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_03.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_01.wav",
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_02.wav",
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_03.wav",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_01.ogg",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_02.ogg",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -578,7 +578,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_rifle_chineseassault_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_chineseassault_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_chinese")
 
@@ -591,13 +591,13 @@ ATT.PrintName = "Combat Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_combat_fire_player_01.wav",
+	gsp .. "wpn_rifle_combat_fire_player_01.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_01.wav",
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_02.wav",
-	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_03.wav",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_01.ogg",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_02.ogg",
+	gsp .. "wpn_rifle_chineseassault_fire_pc_semi_silenced_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -605,7 +605,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_rifle_combat_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_combat_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_combatrifle")
 
@@ -618,9 +618,9 @@ ATT.PrintName = "Unknown \"Hank\""
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_hank_fire_pc_semi_01.wav",
-	gsp .. "wpn_rifle_hank_fire_pc_semi_02.wav",
-	gsp .. "wpn_rifle_hank_fire_pc_semi_03.wav",
+	gsp .. "wpn_rifle_hank_fire_pc_semi_01.ogg",
+	gsp .. "wpn_rifle_hank_fire_pc_semi_02.ogg",
+	gsp .. "wpn_rifle_hank_fire_pc_semi_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -628,7 +628,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_hank_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_hank_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_hank")
 
@@ -641,12 +641,12 @@ ATT.PrintName = "Hunting Rifle A"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_huntinga_fire_player_01a.wav",
+	gsp .. "wpn_rifle_huntinga_fire_player_01a.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_rifle_huntinga_fire_silenced_player_01.wav",
-	gsp .. "wpn_rifle_huntinga_fire_silenced_player_02.wav",
+	gsp .. "wpn_rifle_huntinga_fire_silenced_player_01.ogg",
+	gsp .. "wpn_rifle_huntinga_fire_silenced_player_02.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -654,7 +654,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_rifle_huntinga_fire_player_01a.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_huntinga_fire_player_01a.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_huntinga")
 
@@ -667,14 +667,14 @@ ATT.PrintName = "Hunting Rifle B"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_hunting_b_pc_fire_semi_01.wav",
-	gsp .. "wpn_rifle_hunting_b_pc_fire_semi_02.wav",
-	gsp .. "wpn_rifle_hunting_b_pc_fire_semi_03.wav",
+	gsp .. "wpn_rifle_hunting_b_pc_fire_semi_01.ogg",
+	gsp .. "wpn_rifle_hunting_b_pc_fire_semi_02.ogg",
+	gsp .. "wpn_rifle_hunting_b_pc_fire_semi_03.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_rifle_huntinga_fire_silenced_player_01.wav",
-	gsp .. "wpn_rifle_huntinga_fire_silenced_player_02.wav",
+	gsp .. "wpn_rifle_huntinga_fire_silenced_player_01.ogg",
+	gsp .. "wpn_rifle_huntinga_fire_silenced_player_02.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -682,7 +682,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_rifle_hunting_b_pc_fire_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_hunting_b_pc_fire_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_huntingb")
 
@@ -695,12 +695,12 @@ ATT.PrintName = "Hunting Rifle A (.50 Mod)"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_huntinga_fire_mod50cal_player_01.wav",
+	gsp .. "wpn_rifle_huntinga_fire_mod50cal_player_01.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_rifle_huntinga_fire_silenced_player_01.wav",
-	gsp .. "wpn_rifle_huntinga_fire_silenced_player_02.wav",
+	gsp .. "wpn_rifle_huntinga_fire_silenced_player_01.ogg",
+	gsp .. "wpn_rifle_huntinga_fire_silenced_player_02.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -708,7 +708,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_rifle_huntinga_fire_mod50cal_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_huntinga_fire_mod50cal_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_huntinga_50cal")
 
@@ -721,7 +721,7 @@ ATT.PrintName = "Laser Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_laser_fire_player_01.wav",
+	gsp .. "wpn_rifle_laser_fire_player_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -729,7 +729,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_laser_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_laser_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_laser")
 
@@ -742,7 +742,7 @@ ATT.PrintName = "Laser Musket I"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_lasermusket_fire_a_2d.wav",
+	gsp .. "wpn_rifle_lasermusket_fire_a_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -750,7 +750,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_a_2d.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_a_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_musket")
 
@@ -763,7 +763,7 @@ ATT.PrintName = "Laser Musket II"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_lasermusket_fire_b_2d.wav",
+	gsp .. "wpn_rifle_lasermusket_fire_b_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -771,7 +771,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_b_2d.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_b_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_musket2")
 
@@ -784,7 +784,7 @@ ATT.PrintName = "Laser Musket III"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_lasermusket_fire_c_2d.wav",
+	gsp .. "wpn_rifle_lasermusket_fire_c_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -792,7 +792,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_c_2d.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_c_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_musket3")
 
@@ -805,7 +805,7 @@ ATT.PrintName = "Laser Musket IV"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_lasermusket_fire_b_2d.wav",
+	gsp .. "wpn_rifle_lasermusket_fire_b_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -813,7 +813,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_b_2d.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_lasermusket_fire_b_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_musket4")
 
@@ -826,7 +826,7 @@ ATT.PrintName = "Light Machine Gun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_machinegunlight_fire_pc_semi_01.wav",
+	gsp .. "wpn_rifle_machinegunlight_fire_pc_semi_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -834,7 +834,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_machinegunlight_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_machinegunlight_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_machinegunlight")
 
@@ -847,7 +847,7 @@ ATT.PrintName = "Railway Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_railway_fire_2d.wav",
+	gsp .. "wpn_rifle_railway_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -855,7 +855,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_railway_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_railway_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_railway")
 
@@ -868,7 +868,7 @@ ATT.PrintName = "Unknown \"Redding\""
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_redding_fire_pc_semi_01.wav",
+	gsp .. "wpn_rifle_redding_fire_pc_semi_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -876,7 +876,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_redding_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_redding_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_redding")
 
@@ -889,7 +889,7 @@ ATT.PrintName = "Unknown \"SniperA\""
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifle_snipera_fire_2d.wav",
+	gsp .. "wpn_rifle_snipera_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -897,7 +897,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifle_snipera_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_rifle_snipera_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_snipera")
 
@@ -910,11 +910,11 @@ ATT.PrintName = "Gauss Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_riflegauss_fire_2d.wav",
+	gsp .. "wpn_riflegauss_fire_2d.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_riflegauss_fire_silenced_2d.wav",
+	gsp .. "wpn_riflegauss_fire_silenced_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -922,7 +922,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_riflegauss_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_riflegauss_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_gauss")
 
@@ -935,11 +935,11 @@ ATT.PrintName = "Assault Rifle"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifleistvan_fire_player_01d.wav",
+	gsp .. "wpn_rifleistvan_fire_player_01d.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_rifleistvan_fire_semi_silenced_01.wav",
+	gsp .. "wpn_rifleistvan_fire_semi_silenced_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -947,7 +947,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_rifleistvan_fire_player_01d.wav"
+ATT.InstallSound = gsp .. "wpn_rifleistvan_fire_player_01d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_assault")
 
@@ -960,7 +960,7 @@ ATT.PrintName = "Plasma Gun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifleplasma_fire_semi_01.wav",
+	gsp .. "wpn_rifleplasma_fire_semi_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -968,7 +968,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifleplasma_fire_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifleplasma_fire_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_plasma")
 
@@ -981,7 +981,7 @@ ATT.PrintName = "Plasma Gun (Shotgun)"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifleplasma_fire_semi_scatter_01.wav",
+	gsp .. "wpn_rifleplasma_fire_semi_scatter_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -989,7 +989,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifleplasma_fire_semi_scatter_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifleplasma_fire_semi_scatter_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_plasma_shotgun")
 
@@ -1002,7 +1002,7 @@ ATT.PrintName = "Plasma Gun (Sniper)"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_rifleplasma_fire_semi_sniper_01.wav",
+	gsp .. "wpn_rifleplasma_fire_semi_sniper_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -1010,7 +1010,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_rifleplasma_fire_semi_sniper_01.wav"
+ATT.InstallSound = gsp .. "wpn_rifleplasma_fire_semi_sniper_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_plasma_sniper")
 
@@ -1023,15 +1023,15 @@ ATT.PrintName = "10mm Submachine Gun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_01.wav",
-	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_02.wav",
-	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_03.wav",
+	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_01.ogg",
+	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_02.ogg",
+	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_03.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_silenced_01.wav",
-	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_silenced_02.wav",
-	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_silenced_03.wav",
+	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_silenced_01.ogg",
+	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_silenced_02.ogg",
+	gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_silenced_03.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -1039,7 +1039,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_riflesubmachinegun10mm_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_rifle_10mm")
 
@@ -1052,7 +1052,7 @@ ATT.PrintName = "Double-Barrel Shotgun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_shotgun_doublebarrel_fire_2d.wav",
+	gsp .. "wpn_shotgun_doublebarrel_fire_2d.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -1060,7 +1060,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_shotgun_doublebarrel_fire_2d.wav"
+ATT.InstallSound = gsp .. "wpn_shotgun_doublebarrel_fire_2d.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_shotgun_doublebarrel")
 
@@ -1073,14 +1073,14 @@ ATT.PrintName = "Pump-Action Shotgun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_shotgun_pump_fire_pc_semi_01.wav",
-	gsp .. "wpn_shotgun_pump_fire_pc_semi_02.wav",
-	gsp .. "wpn_shotgun_pump_fire_pc_semi_03.wav",
+	gsp .. "wpn_shotgun_pump_fire_pc_semi_01.ogg",
+	gsp .. "wpn_shotgun_pump_fire_pc_semi_02.ogg",
+	gsp .. "wpn_shotgun_pump_fire_pc_semi_03.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_shotgun_pump_fire_pc_semi_silenced_01.wav",
-	gsp .. "wpn_shotgun_pump_fire_pc_semi_silenced_02.wav",
+	gsp .. "wpn_shotgun_pump_fire_pc_semi_silenced_01.ogg",
+	gsp .. "wpn_shotgun_pump_fire_pc_semi_silenced_02.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -1088,7 +1088,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_shotgun_pump_fire_pc_semi_01.wav"
+ATT.InstallSound = gsp .. "wpn_shotgun_pump_fire_pc_semi_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_shotgun_pump")
 
@@ -1101,11 +1101,11 @@ ATT.PrintName = "Combat Shotgun"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_shotguncombat_fire_01_2da.wav",
+	gsp .. "wpn_shotguncombat_fire_01_2da.ogg",
 }
 
 firesoundsupp = {
-	gsp .. "wpn_shotguncombat_fire_silenced_player_01.wav",
+	gsp .. "wpn_shotguncombat_fire_silenced_player_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -1113,7 +1113,7 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesoundsupp
 ATT.ShootSoundSilencedIndoor = firesoundsupp
 
-ATT.InstallSound = gsp .. "wpn_shotguncombat_fire_01_2da.wav"
+ATT.InstallSound = gsp .. "wpn_shotguncombat_fire_01_2da.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_shotgun_combat")
 
@@ -1126,7 +1126,7 @@ ATT.PrintName = "Syringer"
 table.Merge(ATT, sharedcode)
 
 firesound = {
-	gsp .. "wpn_syringer_fire_player_01.wav",
+	gsp .. "wpn_syringer_fire_player_01.ogg",
 }
 
 ATT.ShootSound = firesound
@@ -1134,6 +1134,6 @@ ATT.ShootSoundIndoor = firesound
 ATT.ShootSoundSilenced = firesound
 ATT.ShootSoundSilencedIndoor = firesound
 
-ATT.InstallSound = gsp .. "wpn_syringer_fire_player_01.wav"
+ATT.InstallSound = gsp .. "wpn_syringer_fire_player_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_fo76_syringer")

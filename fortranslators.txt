@@ -1,0 +1,13 @@
+[Basics]
+1. Create an account on Github if you do not have one already.
+2. Download "Github Desktop" ( https://github.com/apps/desktop ).
+3. Once downloaded, installed and opened, click on "File" then "Clone repository..."
+4. Click on "URL" and input either the URL ( https://github.com/AerosunST/the_villain_arc9_unlameifier ) or the username and repository ( "AerosunST/the_villain_arc9_unlameifier" ). Then select where to download the files (folder will be created within the local path, so ensure it is, for example, "Steam/steamapps/common/GarrysMod/garrysmod/addons") and click "Clone".
+
+[Editing]
+1. Once cloned, click on "Current branch" (located in the middle as a large button) and click "New branch". Name it whatever you want.
+2. Open what you wish to open using any editing software. Notepad++ is recommended for this ( https://notepad-plus-plus.org ).
+	∟ Localizations are located in "lua/arc9/common/localization" and have a suffix depending on the language.
+	∟ Attachments are located in "lua/arc9/common/attachments_bulk".
+3. Once you have done your additions or edits, do a pull request. You do this by opening Github Desktop, and inputting a title and description in the bottom left, then clicking "Commit".
+4. Wait for your request to be accepted, then your changes will be made available in the main branch of the addon!

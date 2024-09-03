@@ -54,13 +54,13 @@ L["eft_frontsight_mp7_fold.printname"] = "Mira frontal abatible plegada de la H&
 L["eft_frontsight_mp7_fold.compactname"] = "MF MP7"
 L["eft_frontsight_mp7_fold.description"] = [[Una mira frontal abatible extraíble para subfusiles MP7, instalada en la montura. Fabricada por Heckler & Koch. Plegada para el uso de miras de perfil bajo alternativas.
 
-AVISO: Esto plegará otras miras de hierro. Úsalo solo con armas que tengan miras de perfil bajo.]]
+AVISO: Esto plegará las otras miras de hierro. Úsalo solo con armas que tengan miras de perfil bajo.]]
 
 L["eft_rearsight_mp7_folded.printname"] = "Mira trasera abatible plegada de la H&K MP7"
 L["eft_rearsight_mp7_folded.compactname"] = "MT MP7"
 L["eft_rearsight_mp7_folded.description"] = [[Una mira trasera abatible extraíble para subfusiles MP7, instalada en la montura. Fabricada por Heckler & Koch. Plegada para el uso de miras de perfil bajo alternativas.
 
-AVISO: Esto plegará otras miras de hierro. Úsalo solo con armas que tengan miras de perfil bajo.]]
+AVISO: Esto plegará las otras miras de hierro. Úsalo solo con armas que tengan miras de perfil bajo.]]
 
 //////////////// Generic Irons
 L["unlameifier_eft_iron_force_down_front.printname"] = "Mantener las miras de hierro bajadas"
@@ -2309,60 +2309,60 @@ If you have any questions, contact Moka.
 ]]--
 
 //////////////// Utility
-L["unlameifier.folder.misc"] = "Мisc."
-L["unlameifier.folder.misc.function"] = "Мisc./Function"
-L["unlameifier.folder.misc.effects"] = "Мisc./Effects"
-L["unlameifier.folder.misc.modifiers"] = "Мisc./Modifiers"
+L["unlameifier.folder.misc"] = "Otros"
+L["unlameifier.folder.misc.function"] = "Otros/Función"
+L["unlameifier.folder.misc.effects"] = "Otros/Efectos"
+L["unlameifier.folder.misc.modifiers"] = "Otros/Modificadores"
 
-local requireseft = "\n\n<color=255,100,100>WARNING</color>: Requires the \"Escape from Tarkov\" weapons in order to properly function."
+local requireseft = "\n\n<color=255,100,100>AVISO</color>: Requiere las armas de \"Escape from Tarkov\" para que funcione adecuadamente."
 
-L["unlameifier_tuning_force_suppressor_off.printname"] = "Silencer - Force Disable"
-L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Silencer"
-L["unlameifier_tuning_force_suppressor_off.description"] = "Forcefully disables <color=255,255,100>suppressors</color>. Useful if you wish for non-suppressed firing sounds despite using a suppressor."
+L["unlameifier_tuning_force_suppressor_off.printname"] = "Silenciador - Forzar desactivación"
+L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Silenciador"
+L["unlameifier_tuning_force_suppressor_off.description"] = "Desactiva forzosamente los <color=255,255,100>silenciadores</color>. Resulta útil si deseas que suenen los sonidos de disparo sin silenciador a pesar de tener uno instalado."
 
-L["unlameifier_tuning_force_suppressor_on.printname"] = "Silencer - Force Enable"
-L["unlameifier_tuning_force_suppressor_on.compactname"] = "+Silencer"
-L["unlameifier_tuning_force_suppressor_on.description"] = "Forcefully enables <color=255,255,100>suppressors</color>. Useful if you wish for suppressed firing sounds without using a suppressor."
+L["unlameifier_tuning_force_suppressor_on.printname"] = "Silenciador - Forzar activación"
+L["unlameifier_tuning_force_suppressor_on.compactname"] = "+Silenciador"
+L["unlameifier_tuning_force_suppressor_on.description"] = "Activa forzosamente los <color=255,255,100>silenciadores</color>. Resulta útil si deseas que suenen los sonidos de disparo con silenciador a pesar de no tener uno instalado."
 
-L["unlameifier_tuning_force_muzzleflash_light_on.printname"] = "Muzzle Flash Light - Force Enable"
-L["unlameifier_tuning_force_muzzleflash_light_on.compactname"] = "+Muzzle Light"
-L["unlameifier_tuning_force_muzzleflash_light_on.description"] = "Forcefully enables <color=255,255,100>muzzle flash light effect</color>, even when using a suppressor or muzzle device."
+L["unlameifier_tuning_force_muzzleflash_light_on.printname"] = "Luz del fogonazo - Forzar activación"
+L["unlameifier_tuning_force_muzzleflash_light_on.compactname"] = "+Luz fogonazo"
+L["unlameifier_tuning_force_muzzleflash_light_on.description"] = "Activa forzosamente el <color=255,255,100>efecto de luz del fogonazo</color>, incluso cuando se usa un silenciador o dispositivo para el cañón."
 
-L["unlameifier_tuning_force_muzzleflash_light_off.printname"] = "Muzzle Flash Light - Force Disable"
-L["unlameifier_tuning_force_muzzleflash_light_off.compactname"] = "-Muzzle Light"
-L["unlameifier_tuning_force_muzzleflash_light_off.description"] = "Forcefully disables <color=255,255,100>muzzle flash light effect</color>."
+L["unlameifier_tuning_force_muzzleflash_light_off.printname"] = "Luz del fogonazo - Forzar desactivación"
+L["unlameifier_tuning_force_muzzleflash_light_off.compactname"] = "-Luz fogonazo"
+L["unlameifier_tuning_force_muzzleflash_light_off.description"] = "Desactiva forzosamente el <color=255,255,100>efecto de luz del fogonazo</color>."
 
-L["unlameifier_tuning_force_muzzleflash_on.printname"] = "Muzzle Flash - Force Enable"
-L["unlameifier_tuning_force_muzzleflash_on.compactname"] = "+Muzzle Flash"
-L["unlameifier_tuning_force_muzzleflash_on.description"] = "Forcefully enables <color=255,255,100>muzzle flashes</color>, even when using a suppressor or muzzle device."
+L["unlameifier_tuning_force_muzzleflash_on.printname"] = "Fogonazo - Forzar activación"
+L["unlameifier_tuning_force_muzzleflash_on.compactname"] = "+Fogonazo"
+L["unlameifier_tuning_force_muzzleflash_on.description"] = "Activa forzosamente los <color=255,255,100>fogonazos</color>, incluso cuando se usa un silenciador o dispositivo para el cañón."
 
-L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Muzzle Flash - Force Disable"
-L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Muzzle Flash"
-L["unlameifier_tuning_force_muzzleflash_off.description"] = "Forcefully disables <color=255,255,100>muzzle flashes</color>."
+L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Fogonazo - Forzar desactivación"
+L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Fogonazo"
+L["unlameifier_tuning_force_muzzleflash_off.description"] = "Desactiva forzosamente los <color=255,255,100>fogonazos</color>."
 
-L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Cycling Half-Life 2 Ammo Types"
-L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "HL2 Ammo Cycle"
-L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Allows you to cycle between the Half-Life 2 ammo types using togglestats. Useful for weapon setups that utilize \"Vulture Aid\" or \"Scavenger\" perks from the CoD packs. Not recommended for use with other attachments that utilize togglestats, such as laser sights." .. "\n\n" .. "\"That thing's a gimmick, Sonny.\""
+L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Ciclo de tipos de munición de Half-Life 2"
+L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "Ciclo muni. HL2"
+L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Permite alternar entre los tipos de munición de Half-Life 2 usando togglestats. Resulta útil para configuraciones de armas que utilizan las ventajas \"Buitre ácido\" o \"Carroñero\" de los paquetes de CoD. No se recomienda para usarlo con otros accesorios que empleen togglestats, como miras laser." .. "\n\n" .. "\"Esa cosa es solo un engañabobos, hijo.\""
 
-L["unlameifier_tuning_incendiary_ammo.printname"] = "\"Escape from Tarkov\" Incendiary Ammo"
-L["unlameifier_tuning_incendiary_ammo.compactname"] = "Incendiary"
-L["unlameifier_tuning_incendiary_ammo.description"] = "Forcefully enables <color=100,255,100>incendiary ammunition</color>." .. requireseft
+L["unlameifier_tuning_incendiary_ammo.printname"] = "Munición incendiaria de \"Escape from Tarkov\""
+L["unlameifier_tuning_incendiary_ammo.compactname"] = "Incendiaria"
+L["unlameifier_tuning_incendiary_ammo.description"] = "Activa forzosamente la <color=100,255,100>munición incendiaria</color>." .. requireseft
 
-L["unlameifier_tuning_infinite_ammo.printname"] = "Infinite Ammo"
-L["unlameifier_tuning_infinite_ammo.compactname"] = "InfAmmo"
-L["unlameifier_tuning_infinite_ammo.description"] = "Enables <color=100,255,100>Infinite Ammo</color>.\nReloading does not utilize ammunition from reserves."
+L["unlameifier_tuning_infinite_ammo.printname"] = "Munición infinita"
+L["unlameifier_tuning_infinite_ammo.compactname"] = "Muni. inf."
+L["unlameifier_tuning_infinite_ammo.description"] = "Activa la <color=100,255,100>munición infinita</color>.\nRecargar no utilizará munición de reserva."
 
-L["unlameifier_tuning_bottomless_clip.printname"] = "Bottomless Clip"
-L["unlameifier_tuning_bottomless_clip.compactname"] = "Bottomless Clip"
-L["unlameifier_tuning_bottomless_clip.description"] = "Enables <color=100,255,100>Bottomless Clip</color>.\nFiring does not consume ammunition.\n\nFor the record, these so called \"clips\" are actually magazines. This is the internal name. Arctic wrote the function, despite also knowing full well that \"magazine\" is the correct term. \"Bottomless Clip\" is an expression that has just become slang among developers- whether they actually know the correct term or not."
+L["unlameifier_tuning_bottomless_clip.printname"] = "Cargador sin fondo"
+L["unlameifier_tuning_bottomless_clip.compactname"] = "Cargador sin fondo"
+L["unlameifier_tuning_bottomless_clip.description"] = "Activa el <color=100,255,100>cargador sin fondo</color>.\nDisparar no consume munición.\n\nEn inglés, el nombre interno de esta función es \"peine sin fondo\", a pesar de que los llamados \"peines\" en realidad son \"cargadores\". Arctic escribió la función, a pesar de saber que \"cargador\" es el término correcto. \"Peine sin fondo\" es una expresión que acabó adoptándose en el vocabulario de los desarrolladores - ya sepan el término correcto o no."
 
-L["unlameifier_tuning_explosive_ammo.printname"] = "High-Explosive Ammo"
-L["unlameifier_tuning_explosive_ammo.compactname"] = "HE Ammo"
-L["unlameifier_tuning_explosive_ammo.description"] = "Bullets <color=100,255,100>explode on contact</color>." .. requireseft
+L["unlameifier_tuning_explosive_ammo.printname"] = "Munición explosiva de alta poténcia"
+L["unlameifier_tuning_explosive_ammo.compactname"] = "Muni. explosiva"
+L["unlameifier_tuning_explosive_ammo.description"] = "Las balas <color=100,255,100>explótan al contacto</color>." .. requireseft
 
-L["unlameifier_tuning_nuke_ammo.printname"] = "Tactical Nuke Ammo"
-L["unlameifier_tuning_nuke_ammo.compactname"] = "Nuke Ammo"
-L["unlameifier_tuning_nuke_ammo.description"] = "Bullets <color=100,255,100>explode on contact</color>, but you got a <color=255,255,100>25 Killstreak</color>." .. requireseft
+L["unlameifier_tuning_nuke_ammo.printname"] = "Munición nuclear táctica"
+L["unlameifier_tuning_nuke_ammo.compactname"] = "Muni. nuclear"
+L["unlameifier_tuning_nuke_ammo.description"] = "Las balas <color=100,255,100>explótan al contacto</color>, pero tienes una <color=255,255,100>racha de 25 bajas</color>." .. requireseft
 
 //////////////// Stats
 L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"

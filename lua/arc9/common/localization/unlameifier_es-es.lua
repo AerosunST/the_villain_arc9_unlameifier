@@ -900,7 +900,7 @@ L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Sonido de Pinball"
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
 L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Hace que los sonidos de rebote suenen como una máquina de pinball. Suena mejor con proyectiles de baja velocidad.
 
-Combínalo con "Probabilidad de rebote del 100%", "Rebote de 90°", "+Rebote de búsqueda" y "Rebote de búsqueda de 90°" en el sistema de ajustes para una experiéncia de pinball más realista."]]
+Combínalo con "Probabilidad de rebote del 100%", "Rebote de 90°", "+Rebote buscador" y "Rebote buscador de 90°" en el sistema de ajustes para una experiéncia de pinball más realista."]]
 
 //////////////// Misc. (Impact)
 L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sonidos/Otros/Impacto"
@@ -2367,423 +2367,423 @@ L["unlameifier_tuning_nuke_ammo.description"] = "Las balas <color=100,255,100>ex
 //////////////// Stats
 L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
-L["unlameifier_tuning_system.printname"] = "Enable Tuning"
-L["unlameifier_tuning_system.compactname"] = "Tuning"
-L["unlameifier_tuning_system.description"] = [[Allows the user to <color=255,255,100>fine-tune the statistics of the weapon</color> by equipping various stat-altering attachments. Can be equipped in any order. For the sake of not causing clutter, the subslots will <color=255,255,100>NOT</color> appear in the 3D Interface.
+L["unlameifier_tuning_system.printname"] = "Activar afinación"
+L["unlameifier_tuning_system.compactname"] = "Afinación"
+L["unlameifier_tuning_system.description"] = [[Permite al usuario <color=255,255,100>afinar las estadísticas del arma</color> equipando varios accesorios que alteren sus estadísticas. Puede ser equipado en cualquier orden. Para no causar un desorden, las subranuras <color=255,255,100>NO</color> aparecerán en la interfaz 3D.
 
-<color=255,100,100>WARNING</color>: This can be used to create super-ultra powerful cheat-like weapons. There are no restrictions on what this can create, so if you are a server owner, ensure that this attachment is disabled, unless you want players to utilize this. While ARC9 does have a function that disables attachments to everyone but admins, Unlameifier was never made with Multiplayer in mind, and therefore will not have this restriction.
+<color=255,100,100>AVISO</color>: Esto se puede emplear para crear armas superultra poderosas que parezcan adquiridas con trampas. No hay restricciones en qué esto puede crear, así que si eres el dueño de un servidor, asegúrate que este accesorio se encuentra desactivado, a no ser que quieras que los jugadores lo usen. Mientras que ARC9 tiene una función que desactiva accesorios para todo el mundo excepto administradores, Unlameifier nunca se hizo pensando en multijugador, y por lo tanto no tendrá esta restricción.
 
-If you use ARC9 or Unlameifier on DarkRP, please uninstall Garry's Mod and go touch grass. Thanks.
+Si usas ARC9 o Unlameifier en DarkRP, por favor, desinstala Garry's Mod y ve a tocar hierba. Gracias.
 
-<color=255,255,100>Admins/Server Owners</color>: If you wish to disable this attachment, then blacklist "unlameifier_tuning_system".]]
+<color=255,255,100>Administradores/Dueños de servidores</color>: Si deseáis desactivar este accesorio, entonces añadid "unlameifier_tuning_system" a la lista negra.]]
 
 local statsdesc = {
-	plus = "Increases the \"%s\" value by <color=100,255,100>+%s</color>.\n",
-	minus = "Reduces the \"%s\" value by <color=255,100,100>-%s</color>.\n",
-	fixed = "Sets the \"%s\" value to a fixed value of <color=255,255,100>%s</color>.\n",
+	plus = "Aumenta el valor de \"%s\" por <color=100,255,100>+%s</color>.\n",
+	minus = "Reduce el valor de \"%s\" por <color=255,100,100>-%s</color>.\n",
+	fixed = "Establece el valor de \"%s\" a un valor fijo de <color=255,255,100>%s</color>.\n",
 	
-	plusinv = "Increases the \"%s\" value by <color=255,100,100>+%s</color>.\n",
-	minusinv = "Reduces the \"%s\" value by <color=100,255,100>-%s</color>.\n",
+	plusinv = "Aumenta el valor de \"%s\" por <color=255,100,100>+%s</color>.\n",
+	minusinv = "Reduce el valor de \"%s\" por <color=100,255,100>-%s</color>.\n",
 	
-	fixedsec = "Sets the \"%s\" value to <color=255,255,100>%s</color> second.\n",
-	fixedsecs = "Sets the \"%s\" value to <color=255,255,100>%s</color> seconds.\n",
+	fixedsec = "Establece el valor de \"%s\" a <color=255,255,100>%s</color> segundo.\n",
+	fixedsecs = "Establece el valor de \"%s\" a <color=255,255,100>%s</color> segundos.\n",
 
-	warntoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is set too low, it might cause the weapon to no longer function.",
-	warntoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is set too high, it might cause severe performance issues.",
+	warntoolow = "\n\n<color=255,100,100>AVISO</color>: Si el valor establecido es demasiado bajo, puede causar que el arma deje de funcionar.",
+	warntoohigh = "\n\n<color=255,100,100>AVISO</color>: Si el valor establecido es demasiado alto, puede causar severos problemas de rendimiento.",
 
-	warnammotoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is set higher than the available ammo in the gun, it will not fire.",
-	warnammotoolow = "\n\n<color=255,100,100>WARNING</color>: If the value equals the default value, it will no longer require ammo when firing, essentially giving it the <color=255,255,100>Bottomless Clip</color> effect. If the value is lower than default, it will <color=100,255,100>GAIN</color> ammo in the magazine.",
+	warnammotoohigh = "\n\n<color=255,100,100>AVISO</color>: Si el valor establecido es más alto que la munición disponible en el arma, no disparará.",
+	warnammotoolow = "\n\n<color=255,100,100>AVISO</color>: Si el valor establecido es igual al valor por defecto, no requerirá munición para disparar, esencialmente dándole el efecto de <color=255,255,100>Cargador infinito</color>. Si el valor es más bajo que el de por defecto, <color=100,255,100>GANARÁ</color> munición en el cargador.",
 
-	warndmgtoolow = "\n\n<color=175,175,255>NOTE</color>: If the value reaches a negative one, it will deal 0 damage.",
-	warndmgeft = "\n\n<color=175,175,255>NOTE</color>: If used on an \"Escape from Tarkov\" weapon, <color=255,255,100>Force-Disable Damage Lookup Tables</color> (found in \"Custom Slot/Unlameifier/Utilities\") also needs to be equipped in order for this to have any effect.",
+	warndmgtoolow = "\n\n<color=175,175,255>NOTA</color>: Si el valor alcanza uno negativo, hará 0 de daño.",
+	warndmgeft = "\n\n<color=175,175,255>NOTA</color>: Si es usado en un arma de \"Escape from Tarkov\", también será necesário tener equipado <color=255,255,100>Desactivar forzosamente las tablas de búsqueda de daños</color> (encontrado en \"Ranura personalizada/Unlameifier/Utilidades\") para que esto surja efecto.",
 
-	warnrecoiltoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, minor or severe visual glitches can occur.",
-	warnrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will move the camera down instead of up. If set too high, minor or severe visual glitches can occur.",
+	warnrecoiltoohigh = "\n\n<color=255,100,100>AVISO</color>: Si el valor es demasiado alto, puede que ocurran menores o severos artefactos visuales.",
+	warnrecoiltoolow = "\n\n<color=255,100,100>AVISO</color>: Si el valor alcanza uno negativo, moverá la cámara abajo en vez de arriba. Si se establece uno demasiado alto, puede que ocurran menores o severos artefactos visuales.",
 
-	warnvisrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will push the weapon forward instead of backwards. If set too high, minor or severe visual glitches can occur.",
+	warnvisrecoiltoolow = "\n\n<color=255,100,100>AVISO</color>: Si el valor alcanza uno negativo, empujará el arma hacia adelante en vez de hacia atrás. Si el valor establecido es demasiado alto, puede que ocurran menores o severos artefactos visuales.",
 
-	warnadstoolow = "\n\n<color=175,175,255>NOTE</color>: If the value is set to or close to 0, the weapon will not immediately visually snap to the center of your screen.",
+	warnadstoolow = "\n\n<color=175,175,255>NOTA</color>: Si el valor se establece demasiado cerca de 0, el arma no se ajustará visualmente inmediatamente al centro de tu pantalla.",
 
-	warnmaxrange = "\n\n<color=255,100,100>WARNING</color>: If the value goes below the \"Minimum Range\" value, there will be zero damage drop-off.",
-	warnminrange = "\n\n<color=255,100,100>WARNING</color>: If the value goes over the \"Maximum Range\" value, there will be zero damage drop-off.",
+	warnmaxrange = "\n\n<color=255,100,100>AVISO</color>: Si el valor va por debajo del valor de \"Alcance mínimo\", no habrá caída del daño.",
+	warnminrange = "\n\n<color=255,100,100>AVISO</color>: Si el valor va por encima del valor de \"Alcance máximo\", no habrá caída del daño.",
 
-	warnmalf = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Malfunctions\" are disabled.",
-	warnmalftoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to jam after every shot.",
+	warnmalf = "\n<color=175,175,255>NOTA</color>: No hace nada si \"Atasco\" está desactivado.",
+	warnmalftoohigh = "\n\n<color=255,100,100>AVISO</color>: Si el valor es demasiado alto, puede causar que el arma se atasque en cada disparo.",
 
-	warnheat = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Overheating\" is disabled.",
-	warnheattoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to overheat on every shot.",
-	warnheattoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is too low, it can cause the weapon to overheat on every shot.",
+	warnheat = "\n<color=175,175,255>NOTA</color>: No hace nada si \"Sobrecalentamiento\" está desactivado.",
+	warnheattoohigh = "\n\n<color=255,100,100>AVISO</color>:Si el valor es demasiado alto, puede causar que el arma se sobrecaliente en cada disparo.",
+	warnheattoolow = "\n\n<color=255,100,100>AVISO</color>: Si el valor es demasiado bajo, puede causar que el arma se sobrecaliente en cada disparo.",
 
-	warntrigger = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Trigger Delay\" is disabled.",
-	warntriggerauto = "\n<color=175,175,255>NOTE</color>: Has no noticable effect if the weapon is set to semi-automatic.",
+	warntrigger = "\n<color=175,175,255>NOTA</color>: No hace nada si \"Tiempo de Retraso del Disparo\" está desactivado.",
+	warntriggerauto = "\n<color=175,175,255>NOTA</color>: No tiene un efecto notable si el arma está puesto en semiautomático.",
 
-	warnseekingricochet = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Seeking Ricochet\" is disabled.",
+	warnseekingricochet = "\n<color=175,175,255>NOTA</color>: No hace nada si \"Rebote buscador\" está desactivado.",
 
 }
 
 ///////// Projectiles
-L["unlameifier.folder.projectiles"] = "Projectiles"
-L["unlameifier.folder.projectiles.fixed"] = "Projectiles/Fixed"
-L["unlameifier.folder.projectiles.plus"] = "Projectiles/Add"
-L["unlameifier.folder.projectiles.minus"] = "Projectiles/Subtract"
+L["unlameifier.folder.projectiles"] = "Proyectiles"
+L["unlameifier.folder.projectiles.fixed"] = "Proyectiles/Fijo"
+L["unlameifier.folder.projectiles.plus"] = "Proyectiles/Añadir"
+L["unlameifier.folder.projectiles.minus"] = "Proyectiles/Restar"
 
-L["unlameifier_tuning_projectile_plus1.printname"] = "+1 Projectiles"
-L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 Projectiles"
-L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus1.printname"] = "+1 proyectiles"
+L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 proyectiles"
+L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 1) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus2.printname"] = "+2 Projectiles"
-L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 Projectiles"
-L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus2.printname"] = "+2 proyectiles"
+L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 proyectiles"
+L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 2) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus3.printname"] = "+3 Projectiles"
-L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 Projectiles"
-L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus3.printname"] = "+3 proyectiles"
+L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 proyectiles"
+L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 3) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus4.printname"] = "+4 Projectiles"
-L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 Projectiles"
-L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus4.printname"] = "+4 proyectiles"
+L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 proyectiles"
+L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 4) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus5.printname"] = "+5 Projectiles"
-L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 Projectiles"
-L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_plus5.printname"] = "+5 proyectiles"
+L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 proyectiles"
+L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 5) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_plus6.printname"] = "+6 Projectiles"
-L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 Projectiles"
-L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_plus6.printname"] = "+6 proyectiles"
+L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 proyectiles"
+L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 6) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Projectiles"
-L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Projectiles"
-L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_plus7.printname"] = "+7 proyectiles"
+L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 proyectiles"
+L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 7) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Projectiles"
-L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Projectiles"
-L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus1.printname"] = "-1 proyectiles"
+L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 proyectiles"
+L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 1) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus2.printname"] = "-2 Projectiles"
-L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 Projectiles"
-L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus2.printname"] = "-2 proyectiles"
+L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 proyectiles"
+L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 2) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus3.printname"] = "-3 Projectiles"
-L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 Projectiles"
-L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus3.printname"] = "-3 proyectiles"
+L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 proyectiles"
+L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 3) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus4.printname"] = "-4 Projectiles"
-L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 Projectiles"
-L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus4.printname"] = "-4 proyectiles"
+L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 proyectiles"
+L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 4) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus5.printname"] = "-5 Projectiles"
-L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 Projectiles"
-L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus5.printname"] = "-5 proyectiles"
+L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 proyectiles"
+L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 5) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus6.printname"] = "-6 Projectiles"
-L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 Projectiles"
-L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus6.printname"] = "-6 proyectiles"
+L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 proyectiles"
+L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 6) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Projectiles"
-L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Projectiles"
-L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus7.printname"] = "-7 proyectiles"
+L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 proyectiles"
+L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 7) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
-L["unlameifier_tuning_projectile_force1.compactname"] = "1 Projectiles"
-L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force1.compactname"] = "1 proyectiles"
+L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 1) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force2.printname"] = "2 Projectiles"
-L["unlameifier_tuning_projectile_force2.compactname"] = "2 Projectiles"
-L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force2.printname"] = "2 proyectiles"
+L["unlameifier_tuning_projectile_force2.compactname"] = "2 proyectiles"
+L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 2) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force3.printname"] = "3 Projectiles"
-L["unlameifier_tuning_projectile_force3.compactname"] = "3 Projectiles"
-L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force3.printname"] = "3 proyectiles"
+L["unlameifier_tuning_projectile_force3.compactname"] = "3 proyectiles"
+L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 3) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force4.printname"] = "4 Projectiles"
-L["unlameifier_tuning_projectile_force4.compactname"] = "4 Projectiles"
-L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force4.printname"] = "4 proyectiles"
+L["unlameifier_tuning_projectile_force4.compactname"] = "4 proyectiles"
+L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 4) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force5.printname"] = "5 Projectiles"
-L["unlameifier_tuning_projectile_force5.compactname"] = "5 Projectiles"
-L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force5.printname"] = "5 proyectiles"
+L["unlameifier_tuning_projectile_force5.compactname"] = "5 proyectiles"
+L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 5) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force6.printname"] = "6 Projectiles"
-L["unlameifier_tuning_projectile_force6.compactname"] = "6 Projectiles"
-L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force6.printname"] = "6 proyectiles"
+L["unlameifier_tuning_projectile_force6.compactname"] = "6 proyectiles"
+L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 6) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force7.printname"] = "7 Projectiles"
-L["unlameifier_tuning_projectile_force7.compactname"] = "7 Projectiles"
-L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force7.printname"] = "7 proyectiles"
+L["unlameifier_tuning_projectile_force7.compactname"] = "7 proyectiles"
+L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 7) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force8.printname"] = "8 Projectiles"
-L["unlameifier_tuning_projectile_force8.compactname"] = "8 Projectiles"
-L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Projectile Count", 8) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force8.printname"] = "8 proyectiles"
+L["unlameifier_tuning_projectile_force8.compactname"] = "8 proyectiles"
+L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 8) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
-L["unlameifier.folder.ammopershot"] = "Ammo Per Shot"
-L["unlameifier.folder.ammopershot.fixed"] = "Ammo Per Shot/Fixed"
-L["unlameifier.folder.ammopershot.plus"] = "Ammo Per Shot/Add"
-L["unlameifier.folder.ammopershot.minus"] = "Ammo Per Shot/Subtract"
+L["unlameifier.folder.ammopershot"] = "Muni. x tiro"
+L["unlameifier.folder.ammopershot.fixed"] = "Muni. x tiro/Fijo"
+L["unlameifier.folder.ammopershot.plus"] = "Muni. x tiro/Añadir"
+L["unlameifier.folder.ammopershot.minus"] = "Muni. x tiro/Restar"
 
-L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 1) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 MPD"
+L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 1) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 MPD"
+L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 1) .. "This alters how much ammo is depleted on every shot."
+L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 MPD"
+L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo."
 
-L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 MPD"
+L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 MPD"
+L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 MPD"
+L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 MPD"
+L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 MPD"
+L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 MPD"
+L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 8) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 MPD"
+L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 8) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
 ///////// Maximum Damage
-L["unlameifier.folder.maxdamage"] = "Damage/Max"
-L["unlameifier.folder.maxdamage.fixed"] = "Damage/Max/Fixed"
-L["unlameifier.folder.maxdamage.plus"] = "Damage/Max/Add"
-L["unlameifier.folder.maxdamage.minus"] = "Damage/Max/Subtract"
-L["unlameifier.folder.maxdamage.multiply"] = "Damage/Max/Multiply"
-L["unlameifier.folder.maxdamage.divide"] = "Damage/Max/Divide"
+L["unlameifier.folder.maxdamage"] = "Daño/Máx"
+L["unlameifier.folder.maxdamage.fixed"] = "Daño/Máx/Fijo"
+L["unlameifier.folder.maxdamage.plus"] = "Daño/Máx/Añadir"
+L["unlameifier.folder.maxdamage.minus"] = "Daño/Máx/Restar"
+L["unlameifier.folder.maxdamage.multiply"] = "Daño/Máx/Multiplicar"
+L["unlameifier.folder.maxdamage.divide"] = "Daño/Máx/Dividir"
 
-L["unlameifier_tuning_max_damage_x010.printname"] = "0.1x Maximum Damage"
-L["unlameifier_tuning_max_damage_x010.compactname"] = "0.1x Max DMG"
-L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Maximum Damage", "90%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x010.printname"] = "Daño máximo x0,1"
+L["unlameifier_tuning_max_damage_x010.compactname"] = "Daño máx. x0,1"
+L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Daño Máximo", "90%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x025.printname"] = "0.25x Maximum Damage"
-L["unlameifier_tuning_max_damage_x025.compactname"] = "0.25x Max DMG"
-L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Maximum Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x025.printname"] = "Daño máximo x0,25"
+L["unlameifier_tuning_max_damage_x025.compactname"] = "Daño máx. x0,25"
+L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Daño Máximo", "75%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x050.printname"] = "0.5x Maximum Damage"
-L["unlameifier_tuning_max_damage_x050.compactname"] = "0.5x Max DMG"
-L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Maximum Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x050.printname"] = "Daño máximo x0,5"
+L["unlameifier_tuning_max_damage_x050.compactname"] = "Daño máx. x0,5"
+L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Daño Máximo", "50%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x075.printname"] = "0.75x Maximum Damage"
-L["unlameifier_tuning_max_damage_x075.compactname"] = "0.75x Max DMG"
-L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Maximum Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x075.printname"] = "Daño máximo x0,75"
+L["unlameifier_tuning_max_damage_x075.compactname"] = "Daño máx. x0,75"
+L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Daño Máximo", "25%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x090.printname"] = "0.9x Maximum Damage"
-L["unlameifier_tuning_max_damage_x090.compactname"] = "0.9x Max DMG"
-L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Maximum Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x090.printname"] = "Daño máximo x0,9"
+L["unlameifier_tuning_max_damage_x090.compactname"] = "Daño máx. x0,9"
+L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Daño Máximo", "10%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x110.printname"] = "1.1x Maximum Damage"
-L["unlameifier_tuning_max_damage_x110.compactname"] = "1.1x Max DMG"
-L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Maximum Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x110.printname"] = "Daño máximo x1,1"
+L["unlameifier_tuning_max_damage_x110.compactname"] = "Daño máx. x1,1"
+L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Daño Máximo", "10%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x125.printname"] = "1.25x Maximum Damage"
-L["unlameifier_tuning_max_damage_x125.compactname"] = "1.25x Max DMG"
-L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Maximum Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x125.printname"] = "Daño máximo x1,25"
+L["unlameifier_tuning_max_damage_x125.compactname"] = "Daño máx. x1,25"
+L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Daño Máximo", "25%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x150.printname"] = "1.5x Maximum Damage"
-L["unlameifier_tuning_max_damage_x150.compactname"] = "1.5x Max DMG"
-L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Maximum Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x150.printname"] = "Daño máximo x1,5"
+L["unlameifier_tuning_max_damage_x150.compactname"] = "Daño máx. x1,5"
+L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Daño Máximo", "50%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x175.printname"] = "1.75x Maximum Damage"
-L["unlameifier_tuning_max_damage_x175.compactname"] = "1.75x Max DMG"
-L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Maximum Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x175.printname"] = "Daño máximo x1,75"
+L["unlameifier_tuning_max_damage_x175.compactname"] = "Daño máx. x1,75"
+L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Daño Máximo", "75%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x2.printname"] = "2x Maximum Damage"
-L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Max DMG"
-L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Maximum Damage", "100%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x2.printname"] = "Daño máximo x2"
+L["unlameifier_tuning_max_damage_x2.compactname"] = "Daño máx. x2"
+L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Daño Máximo", "100%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x5.printname"] = "5x Maximum Damage"
-L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Max DMG"
-L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Maximum Damage", "400%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x5.printname"] = "Daño máximo x5"
+L["unlameifier_tuning_max_damage_x5.compactname"] = "Daño máx. x5"
+L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Daño Máximo", "400%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x10.printname"] = "10x Maximum Damage"
-L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Max DMG"
-L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Maximum Damage", "900%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x10.printname"] = "Daño máximo x10"
+L["unlameifier_tuning_max_damage_x10.compactname"] = "Daño máx. x10"
+L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Daño Máximo", "900%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Max DMG"
-L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1.printname"] = "Daño máximo +1"
+L["unlameifier_tuning_max_damage_plus1.compactname"] = "Daño máx. +1"
+L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Max DMG"
-L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus5.printname"] = "Daño máximo +5"
+L["unlameifier_tuning_max_damage_plus5.compactname"] = "Daño máx. +5"
+L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Max DMG"
-L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus10.printname"] = "Daño máximo +10"
+L["unlameifier_tuning_max_damage_plus10.compactname"] = "Daño máx. +10"
+L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Max DMG"
-L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus25.printname"] = "Daño máximo +25"
+L["unlameifier_tuning_max_damage_plus25.compactname"] = "Daño máx. +25"
+L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Max DMG"
-L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus50.printname"] = "Daño máximo +50"
+L["unlameifier_tuning_max_damage_plus50.compactname"] = "Daño máx. +50"
+L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Max DMG"
-L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus75.printname"] = "Daño máximo +75"
+L["unlameifier_tuning_max_damage_plus75.compactname"] = "Daño máx. +75"
+L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Max DMG"
-L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus100.printname"] = "Daño máximo +100"
+L["unlameifier_tuning_max_damage_plus100.compactname"] = "Daño máx. +100"
+L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Max DMG"
-L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Maximum Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus500.printname"] = "Daño máximo +500"
+L["unlameifier_tuning_max_damage_plus500.compactname"] = "Daño máx. +500"
+L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Daño Máximo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Max DMG"
-L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Maximum Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1000.printname"] = "Daño máximo +1000"
+L["unlameifier_tuning_max_damage_plus1000.compactname"] = "Daño máx. +1000"
+L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Daño Máximo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Max DMG"
-L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1.printname"] = "Daño máximo -1"
+L["unlameifier_tuning_max_damage_minus1.compactname"] = "Daño máx. -1"
+L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Max DMG"
-L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus5.printname"] = "Daño máximo -5"
+L["unlameifier_tuning_max_damage_minus5.compactname"] = "Daño máx. -5"
+L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Max DMG"
-L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus10.printname"] = "Daño máximo -10"
+L["unlameifier_tuning_max_damage_minus10.compactname"] = "Daño máx. -10"
+L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Max DMG"
-L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus25.printname"] = "Daño máximo -25"
+L["unlameifier_tuning_max_damage_minus25.compactname"] = "Daño máx. -25"
+L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Max DMG"
-L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus50.printname"] = "Daño máximo -50"
+L["unlameifier_tuning_max_damage_minus50.compactname"] = "Daño máx. -50"
+L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Max DMG"
-L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus75.printname"] = "Daño máximo -75"
+L["unlameifier_tuning_max_damage_minus75.compactname"] = "Daño máx. -75"
+L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Max DMG"
-L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus100.printname"] = "Daño máximo -100"
+L["unlameifier_tuning_max_damage_minus100.compactname"] = "Daño máx. -100"
+L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Max DMG"
-L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Maximum Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus500.printname"] = "Daño máximo -500"
+L["unlameifier_tuning_max_damage_minus500.compactname"] = "Daño máx. -500"
+L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Daño Máximo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Max DMG"
-L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Maximum Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1000.printname"] = "Daño máximo -1000"
+L["unlameifier_tuning_max_damage_minus1000.compactname"] = "Daño máx. -1000"
+L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Daño Máximo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Max DMG"
-L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Maximum Damage", 0) .. "This alters how much damage the weapon can deal at its highest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_0.printname"] = "Daño máximo a 0"
+L["unlameifier_tuning_max_damage_force_0.compactname"] = "Daño máx. 0"
+L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Daño Máximo", 0) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Max DMG"
-L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_1.printname"] = "Daño máximo a 1"
+L["unlameifier_tuning_max_damage_force_1.compactname"] = "Daño máx. 1"
+L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Max DMG"
-L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_5.printname"] = "Daño máximo a 5"
+L["unlameifier_tuning_max_damage_force_5.compactname"] = "Daño máx. 5"
+L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Max DMG"
-L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_10.printname"] = "Daño máximo a 10"
+L["unlameifier_tuning_max_damage_force_10.compactname"] = "Daño máx. 10"
+L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Max DMG"
-L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_25.printname"] = "Daño máximo a 25"
+L["unlameifier_tuning_max_damage_force_25.compactname"] = "Daño máx. 25"
+L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Max DMG"
-L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Maximum Damage", 30) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_30.printname"] = "Daño máximo a 30"
+L["unlameifier_tuning_max_damage_force_30.compactname"] = "Daño máx. 30"
+L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Daño Máximo", 30) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Max DMG"
-L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_50.printname"] = "Daño máximo a 50"
+L["unlameifier_tuning_max_damage_force_50.compactname"] = "Daño máx. 50"
+L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Max DMG"
-L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_75.printname"] = "Daño máximo a 75"
+L["unlameifier_tuning_max_damage_force_75.compactname"] = "Daño máx. 75"
+L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Max DMG"
-L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_100.printname"] = "Daño máximo a 100"
+L["unlameifier_tuning_max_damage_force_100.compactname"] = "Daño máx. 100"
+L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Max DMG"
-L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Maximum Damage", 99999) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_99999.printname"] = "Daño máximo a 99999"
+L["unlameifier_tuning_max_damage_force_99999.compactname"] = "Daño máx. 99999"
+L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Daño Máximo", 99999) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 ///////// Minimum Damage
-L["unlameifier.folder.mindamage"] = "Damage/Min"
-L["unlameifier.folder.mindamage.fixed"] = "Damage/Min/Fixed"
-L["unlameifier.folder.mindamage.plus"] = "Damage/Min/Add"
-L["unlameifier.folder.mindamage.minus"] = "Damage/Min/Subtract"
-L["unlameifier.folder.mindamage.multiply"] = "Damage/Min/Multiply"
-L["unlameifier.folder.mindamage.divide"] = "Damage/Min/Divide"
+L["unlameifier.folder.mindamage"] = "Daño/Min"
+L["unlameifier.folder.mindamage.fixed"] = "Daño/Min/Fixed"
+L["unlameifier.folder.mindamage.plus"] = "Daño/Min/Add"
+L["unlameifier.folder.mindamage.minus"] = "Daño/Min/Subtract"
+L["unlameifier.folder.mindamage.multiply"] = "Daño/Min/Multiply"
+L["unlameifier.folder.mindamage.divide"] = "Daño/Min/Divide"
 
 L["unlameifier_tuning_min_damage_x010.printname"] = "0.1x Minimum Damage"
 L["unlameifier_tuning_min_damage_x010.compactname"] = "0.1x Min DMG"

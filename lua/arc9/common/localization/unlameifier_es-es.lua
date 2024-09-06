@@ -2577,35 +2577,35 @@ L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 munición por dispa
 L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 MPD"
 L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo."
 
-L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 MPD"
 L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 MPD"
 L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 MPD"
 L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 MPD"
 L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 MPD"
 L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 MPD"
 L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 de munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 MPD"
 L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 8) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
@@ -2665,76 +2665,76 @@ L["unlameifier_tuning_max_damage_x10.printname"] = "Daño máximo x10"
 L["unlameifier_tuning_max_damage_x10.compactname"] = "Daño máx. x10"
 L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Daño Máximo", "900%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus1.printname"] = "Daño máximo +1"
-L["unlameifier_tuning_max_damage_plus1.compactname"] = "Daño máx. +1"
+L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Daño máximo"
+L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Daño máx."
 L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus5.printname"] = "Daño máximo +5"
-L["unlameifier_tuning_max_damage_plus5.compactname"] = "Daño máx. +5"
+L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Daño máximo"
+L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Daño máx."
 L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus10.printname"] = "Daño máximo +10"
-L["unlameifier_tuning_max_damage_plus10.compactname"] = "Daño máx. +10"
+L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Daño máximo"
+L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Daño máx."
 L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus25.printname"] = "Daño máximo +25"
-L["unlameifier_tuning_max_damage_plus25.compactname"] = "Daño máx. +25"
+L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Daño máximo"
+L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Daño máx."
 L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus50.printname"] = "Daño máximo +50"
-L["unlameifier_tuning_max_damage_plus50.compactname"] = "Daño máx. +50"
+L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Daño máximo"
+L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Daño máx."
 L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus75.printname"] = "Daño máximo +75"
-L["unlameifier_tuning_max_damage_plus75.compactname"] = "Daño máx. +75"
+L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Daño máximo"
+L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Daño máx."
 L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus100.printname"] = "Daño máximo +100"
-L["unlameifier_tuning_max_damage_plus100.compactname"] = "Daño máx. +100"
+L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Daño máximo"
+L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Daño máx."
 L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus500.printname"] = "Daño máximo +500"
-L["unlameifier_tuning_max_damage_plus500.compactname"] = "Daño máx. +500"
+L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Daño máximo"
+L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Daño máx."
 L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Daño Máximo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus1000.printname"] = "Daño máximo +1000"
-L["unlameifier_tuning_max_damage_plus1000.compactname"] = "Daño máx. +1000"
+L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Daño máximo"
+L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Daño máx."
 L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Daño Máximo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus1.printname"] = "Daño máximo -1"
-L["unlameifier_tuning_max_damage_minus1.compactname"] = "Daño máx. -1"
+L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Daño máximo"
+L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Daño máx."
 L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus5.printname"] = "Daño máximo -5"
-L["unlameifier_tuning_max_damage_minus5.compactname"] = "Daño máx. -5"
+L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Daño máximo"
+L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Daño máx."
 L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus10.printname"] = "Daño máximo -10"
-L["unlameifier_tuning_max_damage_minus10.compactname"] = "Daño máx. -10"
+L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Daño máximo"
+L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Daño máx."
 L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus25.printname"] = "Daño máximo -25"
-L["unlameifier_tuning_max_damage_minus25.compactname"] = "Daño máx. -25"
+L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Daño máximo"
+L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Daño máx."
 L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus50.printname"] = "Daño máximo -50"
-L["unlameifier_tuning_max_damage_minus50.compactname"] = "Daño máx. -50"
+L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Daño máximo"
+L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Daño máx."
 L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus75.printname"] = "Daño máximo -75"
-L["unlameifier_tuning_max_damage_minus75.compactname"] = "Daño máx. -75"
+L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Daño máximo"
+L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Daño máx."
 L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus100.printname"] = "Daño máximo -100"
-L["unlameifier_tuning_max_damage_minus100.compactname"] = "Daño máx. -100"
+L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Daño máximo"
+L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Daño máx."
 L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus500.printname"] = "Daño máximo -500"
-L["unlameifier_tuning_max_damage_minus500.compactname"] = "Daño máx. -500"
+L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Daño máximo"
+L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Daño máx."
 L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Daño Máximo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus1000.printname"] = "Daño máximo -1000"
-L["unlameifier_tuning_max_damage_minus1000.compactname"] = "Daño máx. -1000"
+L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Daño máximo"
+L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Daño máx."
 L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Daño Máximo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_force_0.printname"] = "Daño máximo a 0"
@@ -2785,419 +2785,419 @@ L["unlameifier.folder.mindamage.minus"] = "Daño/Min/Subtract"
 L["unlameifier.folder.mindamage.multiply"] = "Daño/Min/Multiply"
 L["unlameifier.folder.mindamage.divide"] = "Daño/Min/Divide"
 
-L["unlameifier_tuning_min_damage_x010.printname"] = "0.1x Minimum Damage"
-L["unlameifier_tuning_min_damage_x010.compactname"] = "0.1x Min DMG"
-L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Minimum Damage", "90%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x010.printname"] = "Daño mínimo x0,1"
+L["unlameifier_tuning_min_damage_x010.compactname"] = "Daño mín. x0,1"
+L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Daño Mínimo", "90%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x025.printname"] = "0.25x Minimum Damage"
-L["unlameifier_tuning_min_damage_x025.compactname"] = "0.25x Min DMG"
-L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Minimum Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x025.printname"] = "Daño mínimo x0,25"
+L["unlameifier_tuning_min_damage_x025.compactname"] = "Daño mín. x0,25"
+L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Daño Mínimo", "75%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x050.printname"] = "0.5x Minimum Damage"
-L["unlameifier_tuning_min_damage_x050.compactname"] = "0.5x Min DMG"
-L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Minimum Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x050.printname"] = "Daño mínimo x0,5"
+L["unlameifier_tuning_min_damage_x050.compactname"] = "Daño mín. x0,5"
+L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Daño Mínimo", "50%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x075.printname"] = "0.75x Minimum Damage"
-L["unlameifier_tuning_min_damage_x075.compactname"] = "0.75x Min DMG"
-L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Minimum Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x075.printname"] = "Daño mínimo x0,75"
+L["unlameifier_tuning_min_damage_x075.compactname"] = "Daño mín. x0,75"
+L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Daño Mínimo", "25%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x090.printname"] = "0.9x Minimum Damage"
-L["unlameifier_tuning_min_damage_x090.compactname"] = "0.9x Min DMG"
-L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Minimum Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x090.printname"] = "Daño mínimo x0,9"
+L["unlameifier_tuning_min_damage_x090.compactname"] = "Daño mín. x0,9"
+L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Daño Mínimo", "10%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x110.printname"] = "1.1x Minimum Damage"
-L["unlameifier_tuning_min_damage_x110.compactname"] = "1.1x Min DMG"
-L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Minimum Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x110.printname"] = "Daño mínimo x1,1"
+L["unlameifier_tuning_min_damage_x110.compactname"] = "Daño mín. x1,1"
+L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Daño Mínimo", "10%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x125.printname"] = "1.25x Minimum Damage"
-L["unlameifier_tuning_min_damage_x125.compactname"] = "1.25x Min DMG"
-L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Minimum Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x125.printname"] = "Daño mínimo x1,25"
+L["unlameifier_tuning_min_damage_x125.compactname"] = "Daño mín. x1,25"
+L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Daño Mínimo", "25%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x150.printname"] = "1.5x Minimum Damage"
-L["unlameifier_tuning_min_damage_x150.compactname"] = "1.5x Min DMG"
-L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Minimum Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x150.printname"] = "Daño mínimo x1,5"
+L["unlameifier_tuning_min_damage_x150.compactname"] = "Daño mín. x1,5"
+L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Daño Mínimo", "50%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x175.printname"] = "1.75x Minimum Damage"
-L["unlameifier_tuning_min_damage_x175.compactname"] = "1.75x Min DMG"
-L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Minimum Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x175.printname"] = "Daño mínimo x1,75"
+L["unlameifier_tuning_min_damage_x175.compactname"] = "Daño mín. x1,75"
+L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Daño Mínimo", "75%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x2.printname"] = "2x Minimum Damage"
-L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Min DMG"
-L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Minimum Damage", "100%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x2.printname"] = "Daño mínimo x2"
+L["unlameifier_tuning_min_damage_x2.compactname"] = "Daño mín. x2"
+L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Daño Mínimo", "100%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x5.printname"] = "5x Minimum Damage"
-L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Min DMG"
-L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Minimum Damage", "400%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x5.printname"] = "Daño mínimo x5"
+L["unlameifier_tuning_min_damage_x5.compactname"] = "Daño mín. x5"
+L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Daño Mínimo", "400%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x10.printname"] = "10x Minimum Damage"
-L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Min DMG"
-L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Minimum Damage", "900%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x10.printname"] = "Daño mínimo x10"
+L["unlameifier_tuning_min_damage_x10.compactname"] = "Daño mín. x10"
+L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Daño Mínimo", "900%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Min DMG"
-L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Daño mín."
+L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Daño Mínimo", 1) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Min DMG"
-L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Daño mín."
+L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Daño Mínimo", 5) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Min DMG"
-L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Daño mín."
+L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Daño Mínimo", 10) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Min DMG"
-L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Daño mín."
+L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Daño Mínimo", 25) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Min DMG"
-L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Daño mín."
+L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Daño Mínimo", 50) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Min DMG"
-L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Daño mín."
+L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Daño Mínimo", 75) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Min DMG"
-L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Daño mín."
+L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Daño Mínimo", 100) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Min DMG"
-L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Minimum Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Daño mín."
+L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Daño Mínimo", 500) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Min DMG"
-L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Minimum Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Daño mínimo"
+L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Daño mín."
+L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Daño Mínimo", 1000) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Min DMG"
-L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Daño mín."
+L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Daño Mínimo", 1) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Min DMG"
-L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Daño mín."
+L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Daño Mínimo", 5) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Min DMG"
-L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Daño mín."
+L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Daño Mínimo", 10) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Min DMG"
-L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Daño mín."
+L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Daño Mínimo", 25) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Min DMG"
-L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Daño mín."
+L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Daño Mínimo", 50) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Min DMG"
-L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Daño mín."
+L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Daño Mínimo", 75) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Min DMG"
-L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Daño mín."
+L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Daño Mínimo", 100) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Min DMG"
-L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Minimum Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Daño mín."
+L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Daño Mínimo", 500) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Min DMG"
-L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Minimum Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Daño mínimo"
+L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Daño mín."
+L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Daño Mínimo", 1000) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Min DMG"
-L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Minimum Damage", 0) .. "This alters how much damage the weapon can deal at its lowest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_0.printname"] = "Daño mínimo a 0"
+L["unlameifier_tuning_min_damage_force_0.compactname"] = "Daño mín. 0"
+L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 0) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Min DMG"
-L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_1.printname"] = "Daño mínimo a 1"
+L["unlameifier_tuning_min_damage_force_1.compactname"] = "Daño mín. 1"
+L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 1) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Min DMG"
-L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_5.printname"] = "Daño mínimo a 5"
+L["unlameifier_tuning_min_damage_force_5.compactname"] = "Daño mín. 5"
+L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 5) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Min DMG"
-L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_10.printname"] = "Daño mínimo a 10"
+L["unlameifier_tuning_min_damage_force_10.compactname"] = "Daño mín. 10"
+L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 10) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Min DMG"
-L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_25.printname"] = "Daño mínimo a 25"
+L["unlameifier_tuning_min_damage_force_25.compactname"] = "Daño mín. 25"
+L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 25) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Min DMG"
-L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Minimum Damage", 30) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_30.printname"] = "Daño mínimo a 30"
+L["unlameifier_tuning_min_damage_force_30.compactname"] = "Daño mín. 30"
+L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 30) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Min DMG"
-L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_50.printname"] = "Daño mínimo a 50"
+L["unlameifier_tuning_min_damage_force_50.compactname"] = "Daño mín. 50"
+L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 50) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Min DMG"
-L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_75.printname"] = "Daño mínimo a 75"
+L["unlameifier_tuning_min_damage_force_75.compactname"] = "Daño mín. 75"
+L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 75) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Min DMG"
-L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_100.printname"] = "Daño mínimo a 100"
+L["unlameifier_tuning_min_damage_force_100.compactname"] = "Daño mín. 100"
+L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 100) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Min DMG"
-L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Minimum Damage", 99999) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_99999.printname"] = "Daño mínimo a 99999"
+L["unlameifier_tuning_min_damage_force_99999.compactname"] = "Daño mín. 99999"
+L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 99999) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 ///////// Recoil
-L["unlameifier.folder.recoil"] = "Recoil"
-L["unlameifier.folder.recoil.plus"] = "Recoil/Add"
-L["unlameifier.folder.recoil.minus"] = "Recoil/Subtract"
-L["unlameifier.folder.recoil.multiply"] = "Recoil/Multiply"
-L["unlameifier.folder.recoil.divide"] = "Recoil/Divide"
+L["unlameifier.folder.recoil"] = "Retroceso"
+L["unlameifier.folder.recoil.plus"] = "Retroceso/Añadir"
+L["unlameifier.folder.recoil.minus"] = "Retroceso/Retroceso"
+L["unlameifier.folder.recoil.multiply"] = "Retroceso/Multiplicar"
+L["unlameifier.folder.recoil.divide"] = "Retroceso/Dividir"
 
-L["unlameifier_tuning_recoil_x010.printname"] = "0.1x Recoil"
-L["unlameifier_tuning_recoil_x010.compactname"] = "0.1x Recoil"
-L["unlameifier_tuning_recoil_x010.description"] = string.format(statsdesc.minusinv, "Recoil", "90%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x010.printname"] = "Retroceso x0,1"
+L["unlameifier_tuning_recoil_x010.compactname"] = "Retroceso x0,1"
+L["unlameifier_tuning_recoil_x010.description"] = string.format(statsdesc.minusinv, "Retroceso", "90%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x025.printname"] = "0.25x Recoil"
-L["unlameifier_tuning_recoil_x025.compactname"] = "0.25x Recoil"
-L["unlameifier_tuning_recoil_x025.description"] = string.format(statsdesc.minusinv, "Recoil", "75%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x025.printname"] = "Retroceso x0,25"
+L["unlameifier_tuning_recoil_x025.compactname"] = "Retroceso x0,25"
+L["unlameifier_tuning_recoil_x025.description"] = string.format(statsdesc.minusinv, "Retroceso", "75%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x050.printname"] = "0.5x Recoil"
-L["unlameifier_tuning_recoil_x050.compactname"] = "0.5x Recoil"
-L["unlameifier_tuning_recoil_x050.description"] = string.format(statsdesc.minusinv, "Recoil", "50%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x050.printname"] = "Retroceso x0,5"
+L["unlameifier_tuning_recoil_x050.compactname"] = "Retroceso x0,5"
+L["unlameifier_tuning_recoil_x050.description"] = string.format(statsdesc.minusinv, "Retroceso", "50%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x075.printname"] = "0.75x Recoil"
-L["unlameifier_tuning_recoil_x075.compactname"] = "0.75x Recoil"
-L["unlameifier_tuning_recoil_x075.description"] = string.format(statsdesc.minusinv, "Recoil", "25%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x075.printname"] = "Retroceso x0,75"
+L["unlameifier_tuning_recoil_x075.compactname"] = "Retroceso x0,75"
+L["unlameifier_tuning_recoil_x075.description"] = string.format(statsdesc.minusinv, "Retroceso", "25%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x090.printname"] = "0.9x Recoil"
-L["unlameifier_tuning_recoil_x090.compactname"] = "0.9x Recoil"
-L["unlameifier_tuning_recoil_x090.description"] = string.format(statsdesc.minusinv, "Recoil", "10%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x090.printname"] = "Retroceso x0,9"
+L["unlameifier_tuning_recoil_x090.compactname"] = "Retroceso x0,9"
+L["unlameifier_tuning_recoil_x090.description"] = string.format(statsdesc.minusinv, "Retroceso", "10%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x110.printname"] = "1.1x Recoil"
-L["unlameifier_tuning_recoil_x110.compactname"] = "1.1x Recoil"
-L["unlameifier_tuning_recoil_x110.description"] = string.format(statsdesc.plusinv, "Recoil", "10%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x110.printname"] = "Retroceso x1,1"
+L["unlameifier_tuning_recoil_x110.compactname"] = "Retroceso x1,1"
+L["unlameifier_tuning_recoil_x110.description"] = string.format(statsdesc.plusinv, "Retroceso", "10%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x125.printname"] = "1.25x Recoil"
-L["unlameifier_tuning_recoil_x125.compactname"] = "1.25x Recoil"
-L["unlameifier_tuning_recoil_x125.description"] = string.format(statsdesc.plusinv, "Recoil", "25%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x125.printname"] = "Retroceso x1,25"
+L["unlameifier_tuning_recoil_x125.compactname"] = "Retroceso x1,25"
+L["unlameifier_tuning_recoil_x125.description"] = string.format(statsdesc.plusinv, "Retroceso", "25%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x150.printname"] = "1.5x Recoil"
-L["unlameifier_tuning_recoil_x150.compactname"] = "1.5x Recoil"
-L["unlameifier_tuning_recoil_x150.description"] = string.format(statsdesc.plusinv, "Recoil", "50%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x150.printname"] = "Retroceso x1,5"
+L["unlameifier_tuning_recoil_x150.compactname"] = "Retroceso x1,5"
+L["unlameifier_tuning_recoil_x150.description"] = string.format(statsdesc.plusinv, "Retroceso", "50%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x175.printname"] = "1.75x Recoil"
-L["unlameifier_tuning_recoil_x175.compactname"] = "1.75x Recoil"
-L["unlameifier_tuning_recoil_x175.description"] = string.format(statsdesc.plusinv, "Recoil", "75%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x175.printname"] = "Retroceso x1,75"
+L["unlameifier_tuning_recoil_x175.compactname"] = "Retroceso x1,75"
+L["unlameifier_tuning_recoil_x175.description"] = string.format(statsdesc.plusinv, "Retroceso", "75%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x2.printname"] = "2x Recoil"
-L["unlameifier_tuning_recoil_x2.compactname"] = "2x Recoil"
-L["unlameifier_tuning_recoil_x2.description"] = string.format(statsdesc.plusinv, "Recoil", "100%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x2.printname"] = "Retroceso x2"
+L["unlameifier_tuning_recoil_x2.compactname"] = "Retroceso x2"
+L["unlameifier_tuning_recoil_x2.description"] = string.format(statsdesc.plusinv, "Retroceso", "100%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x5.printname"] = "5x Recoil"
-L["unlameifier_tuning_recoil_x5.compactname"] = "5x Recoil"
-L["unlameifier_tuning_recoil_x5.description"] = string.format(statsdesc.plusinv, "Recoil", "400%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x5.printname"] = "Retroceso x5"
+L["unlameifier_tuning_recoil_x5.compactname"] = "Retroceso x5"
+L["unlameifier_tuning_recoil_x5.description"] = string.format(statsdesc.plusinv, "Retroceso", "400%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x10.printname"] = "10x Recoil"
-L["unlameifier_tuning_recoil_x10.compactname"] = "10x Recoil"
-L["unlameifier_tuning_recoil_x10.description"] = string.format(statsdesc.plusinv, "Recoil", "900%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x10.printname"] = "Retroceso x10"
+L["unlameifier_tuning_recoil_x10.compactname"] = "Retroceso x10"
+L["unlameifier_tuning_recoil_x10.description"] = string.format(statsdesc.plusinv, "Retroceso", "900%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus1.printname"] = "+1 Recoil"
-L["unlameifier_tuning_recoil_plus1.compactname"] = "+1 Recoil"
-L["unlameifier_tuning_recoil_plus1.description"] = string.format(statsdesc.plusinv, "Recoil", 1) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus1.printname"] = "+1 Retroceso"
+L["unlameifier_tuning_recoil_plus1.compactname"] = "+1 Retroceso"
+L["unlameifier_tuning_recoil_plus1.description"] = string.format(statsdesc.plusinv, "Retroceso", 1) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus5.printname"] = "+5 Recoil"
-L["unlameifier_tuning_recoil_plus5.compactname"] = "+5 Recoil"
-L["unlameifier_tuning_recoil_plus5.description"] = string.format(statsdesc.plusinv, "Recoil", 5) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus5.printname"] = "+5 Retroceso"
+L["unlameifier_tuning_recoil_plus5.compactname"] = "+5 Retroceso"
+L["unlameifier_tuning_recoil_plus5.description"] = string.format(statsdesc.plusinv, "Retroceso", 5) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus10.printname"] = "+10 Recoil"
-L["unlameifier_tuning_recoil_plus10.compactname"] = "+10 Recoil"
-L["unlameifier_tuning_recoil_plus10.description"] = string.format(statsdesc.plusinv, "Recoil", 10) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus10.printname"] = "+10 Retroceso"
+L["unlameifier_tuning_recoil_plus10.compactname"] = "+10 Retroceso"
+L["unlameifier_tuning_recoil_plus10.description"] = string.format(statsdesc.plusinv, "Retroceso", 10) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus25.printname"] = "+25 Recoil"
-L["unlameifier_tuning_recoil_plus25.compactname"] = "+25 Recoil"
-L["unlameifier_tuning_recoil_plus25.description"] = string.format(statsdesc.plusinv, "Recoil", 25) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus25.printname"] = "+25 Retroceso"
+L["unlameifier_tuning_recoil_plus25.compactname"] = "+25 Retroceso"
+L["unlameifier_tuning_recoil_plus25.description"] = string.format(statsdesc.plusinv, "Retroceso", 25) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus50.printname"] = "+50 Recoil"
-L["unlameifier_tuning_recoil_plus50.compactname"] = "+50 Recoil"
-L["unlameifier_tuning_recoil_plus50.description"] = string.format(statsdesc.plusinv, "Recoil", 50) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus50.printname"] = "+50 Retroceso"
+L["unlameifier_tuning_recoil_plus50.compactname"] = "+50 Retroceso"
+L["unlameifier_tuning_recoil_plus50.description"] = string.format(statsdesc.plusinv, "Retroceso", 50) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus75.printname"] = "+75 Recoil"
-L["unlameifier_tuning_recoil_plus75.compactname"] = "+75 Recoil"
-L["unlameifier_tuning_recoil_plus75.description"] = string.format(statsdesc.plusinv, "Recoil", 75) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus75.printname"] = "+75 Retroceso"
+L["unlameifier_tuning_recoil_plus75.compactname"] = "+75 Retroceso"
+L["unlameifier_tuning_recoil_plus75.description"] = string.format(statsdesc.plusinv, "Retroceso", 75) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus100.printname"] = "+100 Recoil"
-L["unlameifier_tuning_recoil_plus100.compactname"] = "+100 Recoil"
-L["unlameifier_tuning_recoil_plus100.description"] = string.format(statsdesc.plusinv, "Recoil", 100) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus100.printname"] = "+100 Retroceso"
+L["unlameifier_tuning_recoil_plus100.compactname"] = "+100 Retroceso"
+L["unlameifier_tuning_recoil_plus100.description"] = string.format(statsdesc.plusinv, "Retroceso", 100) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus500.printname"] = "+500 Recoil"
-L["unlameifier_tuning_recoil_plus500.compactname"] = "+500 Recoil"
-L["unlameifier_tuning_recoil_plus500.description"] = string.format(statsdesc.plusinv, "Recoil", 500) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus500.printname"] = "+500 Retroceso"
+L["unlameifier_tuning_recoil_plus500.compactname"] = "+500 Retroceso"
+L["unlameifier_tuning_recoil_plus500.description"] = string.format(statsdesc.plusinv, "Retroceso", 500) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus1000.printname"] = "+1000 Recoil"
-L["unlameifier_tuning_recoil_plus1000.compactname"] = "+1000 Recoil"
-L["unlameifier_tuning_recoil_plus1000.description"] = string.format(statsdesc.plusinv, "Recoil", 1000) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus1000.printname"] = "+1000 Retroceso"
+L["unlameifier_tuning_recoil_plus1000.compactname"] = "+1000 Retroceso"
+L["unlameifier_tuning_recoil_plus1000.description"] = string.format(statsdesc.plusinv, "Retroceso", 1000) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_minus1.printname"] = "-1 Recoil"
-L["unlameifier_tuning_recoil_minus1.compactname"] = "-1 Recoil"
-L["unlameifier_tuning_recoil_minus1.description"] = string.format(statsdesc.minusinv, "Recoil", 1) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus1.printname"] = "-1 Retroceso"
+L["unlameifier_tuning_recoil_minus1.compactname"] = "-1 Retroceso"
+L["unlameifier_tuning_recoil_minus1.description"] = string.format(statsdesc.minusinv, "Retroceso", 1) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus5.printname"] = "-5 Recoil"
-L["unlameifier_tuning_recoil_minus5.compactname"] = "-5 Recoil"
-L["unlameifier_tuning_recoil_minus5.description"] = string.format(statsdesc.minusinv, "Recoil", 5) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus5.printname"] = "-5 Retroceso"
+L["unlameifier_tuning_recoil_minus5.compactname"] = "-5 Retroceso"
+L["unlameifier_tuning_recoil_minus5.description"] = string.format(statsdesc.minusinv, "Retroceso", 5) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus10.printname"] = "-10 Recoil"
-L["unlameifier_tuning_recoil_minus10.compactname"] = "-10 Recoil"
-L["unlameifier_tuning_recoil_minus10.description"] = string.format(statsdesc.minusinv, "Recoil", 10) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus10.printname"] = "-10 Retroceso"
+L["unlameifier_tuning_recoil_minus10.compactname"] = "-10 Retroceso"
+L["unlameifier_tuning_recoil_minus10.description"] = string.format(statsdesc.minusinv, "Retroceso", 10) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus25.printname"] = "-25 Recoil"
-L["unlameifier_tuning_recoil_minus25.compactname"] = "-25 Recoil"
-L["unlameifier_tuning_recoil_minus25.description"] = string.format(statsdesc.minusinv, "Recoil", 25) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus25.printname"] = "-25 Retroceso"
+L["unlameifier_tuning_recoil_minus25.compactname"] = "-25 Retroceso"
+L["unlameifier_tuning_recoil_minus25.description"] = string.format(statsdesc.minusinv, "Retroceso", 25) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus50.printname"] = "-50 Recoil"
-L["unlameifier_tuning_recoil_minus50.compactname"] = "-50 Recoil"
-L["unlameifier_tuning_recoil_minus50.description"] = string.format(statsdesc.minusinv, "Recoil", 50) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus50.printname"] = "-50 Retroceso"
+L["unlameifier_tuning_recoil_minus50.compactname"] = "-50 Retroceso"
+L["unlameifier_tuning_recoil_minus50.description"] = string.format(statsdesc.minusinv, "Retroceso", 50) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus75.printname"] = "-75 Recoil"
-L["unlameifier_tuning_recoil_minus75.compactname"] = "-75 Recoil"
-L["unlameifier_tuning_recoil_minus75.description"] = string.format(statsdesc.minusinv, "Recoil", 75) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus75.printname"] = "-75 Retroceso"
+L["unlameifier_tuning_recoil_minus75.compactname"] = "-75 Retroceso"
+L["unlameifier_tuning_recoil_minus75.description"] = string.format(statsdesc.minusinv, "Retroceso", 75) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus100.printname"] = "-100 Recoil"
-L["unlameifier_tuning_recoil_minus100.compactname"] = "-100 Recoil"
-L["unlameifier_tuning_recoil_minus100.description"] = string.format(statsdesc.minusinv, "Recoil", 100) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus100.printname"] = "-100 Retroceso"
+L["unlameifier_tuning_recoil_minus100.compactname"] = "-100 Retroceso"
+L["unlameifier_tuning_recoil_minus100.description"] = string.format(statsdesc.minusinv, "Retroceso", 100) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus500.printname"] = "-500 Recoil"
-L["unlameifier_tuning_recoil_minus500.compactname"] = "-500 Recoil"
-L["unlameifier_tuning_recoil_minus500.description"] = string.format(statsdesc.minusinv, "Recoil", 500) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus500.printname"] = "-500 Retroceso"
+L["unlameifier_tuning_recoil_minus500.compactname"] = "-500 Retroceso"
+L["unlameifier_tuning_recoil_minus500.description"] = string.format(statsdesc.minusinv, "Retroceso", 500) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus1000.printname"] = "-1000 Recoil"
-L["unlameifier_tuning_recoil_minus1000.compactname"] = "-1000 Recoil"
-L["unlameifier_tuning_recoil_minus1000.description"] = string.format(statsdesc.minusinv, "Recoil", 1000) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus1000.printname"] = "-1000 Retroceso"
+L["unlameifier_tuning_recoil_minus1000.compactname"] = "-1000 Retroceso"
+L["unlameifier_tuning_recoil_minus1000.description"] = string.format(statsdesc.minusinv, "Retroceso", 1000) .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoolow
 
 ///////// Visual Recoil
-L["unlameifier.folder.visrecoil"] = "Visual Recoil"
-L["unlameifier.folder.visrecoil.plus"] = "Visual Recoil/Add"
-L["unlameifier.folder.visrecoil.minus"] = "Visual Recoil/Subtract"
-L["unlameifier.folder.visrecoil.multiply"] = "Visual Recoil/Multiply"
-L["unlameifier.folder.visrecoil.divide"] = "Visual Recoil/Divide"
+L["unlameifier.folder.visrecoil"] = "Retroceso visual"
+L["unlameifier.folder.visrecoil.plus"] = "Retroceso visual/Añadir"
+L["unlameifier.folder.visrecoil.minus"] = "Retroceso visual/Restar"
+L["unlameifier.folder.visrecoil.multiply"] = "Retroceso visual/Multiplicar"
+L["unlameifier.folder.visrecoil.divide"] = "Retroceso visual/Dividir"
 
-L["unlameifier_tuning_visrecoil_x010.printname"] = "0.1x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x010.compactname"] = "0.1x VisRecoil"
-L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "90%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x010.printname"] = "Retroceso visual x0,1"
+L["unlameifier_tuning_visrecoil_x010.compactname"] = "Retro. vis. x0,1"
+L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "90%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x025.printname"] = "0.25x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x025.compactname"] = "0.25x VisRecoil"
-L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "75%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x025.printname"] = "Retroceso visual x0,25"
+L["unlameifier_tuning_visrecoil_x025.compactname"] = "Retro. vis. x0,25"
+L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x050.printname"] = "0.5x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x050.compactname"] = "0.5x VisRecoil"
-L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "50%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x050.printname"] = "Retroceso visual x0,5"
+L["unlameifier_tuning_visrecoil_x050.compactname"] = "Retro. vis. x0,5"
+L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x075.printname"] = "0.75x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x075.compactname"] = "0.75x VisRecoil"
-L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "25%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x075.printname"] = "Retroceso visual x0,75"
+L["unlameifier_tuning_visrecoil_x075.compactname"] = "Retro. vis. x0,75"
+L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x090.printname"] = "0.9x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x090.compactname"] = "0.9x VisRecoil"
-L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "10%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x090.printname"] = "Retroceso visual x0,9"
+L["unlameifier_tuning_visrecoil_x090.compactname"] = "Retro. vis. x0,9"
+L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x110.printname"] = "1.1x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x110.compactname"] = "1.1x VisRecoil"
-L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "10%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x110.printname"] = "Retroceso visual x1,1"
+L["unlameifier_tuning_visrecoil_x110.compactname"] = "Retro. vis. x1,1"
+L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x125.printname"] = "1.25x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x125.compactname"] = "1.25x VisRecoil"
-L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "25%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x125.printname"] = "Retroceso visual x1,25"
+L["unlameifier_tuning_visrecoil_x125.compactname"] = "Retro. vis. x1,25"
+L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x150.printname"] = "1.5x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x150.compactname"] = "1.5x VisRecoil"
-L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "50%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x150.printname"] = "Retroceso visual x1,5"
+L["unlameifier_tuning_visrecoil_x150.compactname"] = "Retro. vis. x1,5"
+L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x175.printname"] = "1.75x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x175.compactname"] = "1.75x VisRecoil"
-L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "75%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x175.printname"] = "Retroceso visual x1,75"
+L["unlameifier_tuning_visrecoil_x175.compactname"] = "Retro. vis. x1,75"
+L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x2.compactname"] = "2x VisRecoil"
-L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "100%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x2.printname"] = "Retroceso visual x2"
+L["unlameifier_tuning_visrecoil_x2.compactname"] = "Retro. vis. x2"
+L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "100%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x5.compactname"] = "5x VisRecoil"
-L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "400%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x5.printname"] = "Retroceso visual x5"
+L["unlameifier_tuning_visrecoil_x5.compactname"] = "Retro. vis. x5"
+L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "400%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x10.compactname"] = "10x VisRecoil"
-L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "900%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x10.printname"] = "Retroceso visual x10"
+L["unlameifier_tuning_visrecoil_x10.compactname"] = "Retro. vis. x10"
+L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "900%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 1) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 5) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 10) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 25) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 50) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 75) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 100) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 500) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 1000) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 Retro. vis."
+L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 1) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 5) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 10) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 25) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 50) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 75) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 100) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 500) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 1000) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 Retro. vis."
+L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
 ///////// Reload Time
 L["unlameifier.folder.reloadtime"] = "Reload Time"

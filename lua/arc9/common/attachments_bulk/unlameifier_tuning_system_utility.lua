@@ -97,6 +97,30 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
+ATT.PrintName = "Fire Underwater - Force Enable"
+ATT.CompactName = "+Fire Underwater"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
+
+ATT.CanFireUnderwater = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_underwater_on")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Fire Underwater - Force Disable"
+ATT.CompactName = "-Fire Underwater"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
+
+ATT.CanFireUnderwater = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_force_underwater_off")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
 ATT.PrintName = "HL2 Ammotype Cycle"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.modifiers")
 

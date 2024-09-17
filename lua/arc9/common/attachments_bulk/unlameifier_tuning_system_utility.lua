@@ -98,7 +98,6 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Fire Underwater - Force Enable"
-ATT.CompactName = "+Fire Underwater"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.CanFireUnderwater = true
@@ -110,7 +109,6 @@ ATT = {}
 table.Merge(ATT, sharedcode)
 
 ATT.PrintName = "Fire Underwater - Force Disable"
-ATT.CompactName = "-Fire Underwater"
 ATT.Folder = ARC9:GetPhrase("unlameifier.folder.misc.function")
 
 ATT.CanFireUnderwater = false

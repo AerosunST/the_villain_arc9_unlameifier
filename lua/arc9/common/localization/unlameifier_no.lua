@@ -2342,6 +2342,14 @@ L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Muzzle Flash - Force 
 L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Muzzle Flash"
 L["unlameifier_tuning_force_muzzleflash_off.description"] = "Forcefully disables <color=255,255,100>muzzle flashes</color>."
 
+L["unlameifier_tuning_force_underwater_on.printname"] = "Shoot Underwater - Force Enable"
+L["unlameifier_tuning_force_underwater_on.compactname"] = "+Shoot Underwater"
+L["unlameifier_tuning_force_underwater_on.description"] = "Forcefully enables <color=255,255,100>shooting underwater</color>.\nThe weapon will shoot when you are underwater."
+
+L["unlameifier_tuning_force_underwater_off.printname"] = "Shoot Underwater - Force Disable"
+L["unlameifier_tuning_force_underwater_off.compactname"] = "-Shoot Underwater"
+L["unlameifier_tuning_force_underwater_off.description"] = "Forcefully disables <color=255,255,100>shooting underwater</color>.\nThe weapon will not shoot when you are underwater."
+
 L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Cycling Half-Life 2 Ammo Types"
 L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "HL2 Ammo Cycle"
 L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Allows you to cycle between the Half-Life 2 ammo types using togglestats. Useful for weapon setups that utilize \"Vulture Aid\" or \"Scavenger\" perks from the CoD packs. Not recommended for use with other attachments that utilize togglestats, such as laser sights." .. "\n\n" .. "\"That thing's a gimmick, Sonny.\""

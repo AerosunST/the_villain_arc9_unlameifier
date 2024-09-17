@@ -2333,6 +2333,14 @@ L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Đèn chớp nòng s�
 L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Đèn chớp nòng súng"
 L["unlameifier_tuning_force_muzzleflash_off.description"] = "Buộc vô hiệu hóa <color=255,255,100>Đèn chớp nòng súng es</color>."
 
+L["unlameifier_tuning_force_underwater_on.printname"] = "Shoot Underwater - Force Enable"
+L["unlameifier_tuning_force_underwater_on.compactname"] = "+Shoot Underwater"
+L["unlameifier_tuning_force_underwater_on.description"] = "Forcefully enables <color=255,255,100>shooting underwater</color>.\nThe weapon will shoot when you are underwater."
+
+L["unlameifier_tuning_force_underwater_off.printname"] = "Shoot Underwater - Force Disable"
+L["unlameifier_tuning_force_underwater_off.compactname"] = "-Shoot Underwater"
+L["unlameifier_tuning_force_underwater_off.description"] = "Forcefully disables <color=255,255,100>shooting underwater</color>.\nThe weapon will not shoot when you are underwater."
+
 L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Dùng đạn HL2"
 L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "Đạn HL2"
 L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Cho thím sử dụng các loại đạn khác nhau trong dòng game Half Life 2. Rất hữu dụng cho khác vũ khí sử dụng skill \"Vulture Aid\" hoặc \"Scavenger\" trong bản mod CoD ARC9. Khuyên đừng dùng thêm skill, ví dụ như đèn Laser." .. "\n\n" .. "\"Này pha ke quá cưng ơi.\""

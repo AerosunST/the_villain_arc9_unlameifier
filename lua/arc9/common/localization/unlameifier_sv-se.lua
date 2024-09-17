@@ -2336,6 +2336,14 @@ L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Mynningseld - Tvinga 
 L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Mynningseld"
 L["unlameifier_tuning_force_muzzleflash_off.description"] = "Tvingar AV <color=255,255,100>mynningselden</color>."
 
+L["unlameifier_tuning_force_underwater_on.printname"] = "Skjut Under Vatten - Tvinga PÅ"
+L["unlameifier_tuning_force_underwater_on.compactname"] = "+Skjut Under Vatten"
+L["unlameifier_tuning_force_underwater_on.description"] = "Tvingar PÅ <color=255,255,100>skjutande under vattnet</color>.\nVapnet kommer skjuta när du är under vatten."
+
+L["unlameifier_tuning_force_underwater_off.printname"] = "Skjut Under Vatten - Tvinga AV"
+L["unlameifier_tuning_force_underwater_off.compactname"] = "-Skjut Under Vatten"
+L["unlameifier_tuning_force_underwater_off.description"] = "Tvingar AV <color=255,255,100>skjutande under vattnet</color>.\nVapnet kommer inte skjuta när du är under vatten."
+
 L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Växlande Half-Life 2 Ammunition"
 L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "HL2 Växelammo"
 L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Låter dig växla mellan alla ammunitionstyper från Half-Life 2 via togglestats. Användbar för vapen som använder \"Vulture Aid\"- eller \"Scavenger\"-tillbehören från CoD-tilläggen. Ej rekommenderat med andra tillbehör som använder togglestats, exempelvis lasersikten." .. "\n\n" .. "\"Det där är en leksak, Sonny.\""

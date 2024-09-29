@@ -3925,167 +3925,167 @@ L["unlameifier_tuning_spread_x10.compactname"] = "Dispersión x10"
 L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Dispersión", "900%") .. "Esto altera cuanta precisión tiene el arma."
 
 ///////// Impact Force
-L["unlameifier.folder.impactforce"] = "Impact Force"
-L["unlameifier.folder.impactforce.multiply"] = "Impact Force/Multiply"
-L["unlameifier.folder.impactforce.divide"] = "Impact Force/Divide"
+L["unlameifier.folder.impactforce"] = "Fuerza de impacto"
+L["unlameifier.folder.impactforce.multiply"] = "Fuerza de impacto/Multiplicar"
+L["unlameifier.folder.impactforce.divide"] = "Fuerza de impacto/Dividir"
 
-L["unlameifier_tuning_impact_forcex0.printname"] = "0x Impact Force"
-L["unlameifier_tuning_impact_forcex0.compactname"] = "0x Impact Force"
-L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Impact Force", "100%") .. "This alters how much force is applied to anything you hit." .. "\n\n" .. "Completely <color=100,255,255>disables</color> Impact Force."
+L["unlameifier_tuning_impact_forcex0.printname"] = "Fuerza de impacto x0"
+L["unlameifier_tuning_impact_forcex0.compactname"] = "Fuerza impacto x0"
+L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "100%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes." .. "\n\n" .. "Completely <color=100,255,255>disables</color> Impact Force."
 
-L["unlameifier_tuning_impact_forcex010.printname"] = "0.1x Impact Force"
-L["unlameifier_tuning_impact_forcex010.compactname"] = "0.1x Impact Force"
-L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Impact Force", "90%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex010.printname"] = "Fuerza de impacto x0,1"
+L["unlameifier_tuning_impact_forcex010.compactname"] = "Fuerza impacto x0,1"
+L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "90%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex025.printname"] = "0.25x Impact Force"
-L["unlameifier_tuning_impact_forcex025.compactname"] = "0.25x Impact Force"
-L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Impact Force", "75%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex025.printname"] = "Fuerza de impacto x0,25"
+L["unlameifier_tuning_impact_forcex025.compactname"] = "Fuerza impacto x0,25"
+L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "75%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex050.printname"] = "0.5x Impact Force"
-L["unlameifier_tuning_impact_forcex050.compactname"] = "0.5x Impact Force"
-L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Impact Force", "50%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex050.printname"] = "Fuerza de impacto x0,5"
+L["unlameifier_tuning_impact_forcex050.compactname"] = "Fuerza impacto x0,5"
+L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "50%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex075.printname"] = "0.75x Impact Force"
-L["unlameifier_tuning_impact_forcex075.compactname"] = "0.75x Impact Force"
-L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Impact Force", "25%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex075.printname"] = "Fuerza de impacto x0,75"
+L["unlameifier_tuning_impact_forcex075.compactname"] = "Fuerza impacto x0,75"
+L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "25%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex090.printname"] = "0.9x Impact Force"
-L["unlameifier_tuning_impact_forcex090.compactname"] = "0.9x Impact Force"
-L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Impact Force", "10%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex090.printname"] = "Fuerza de impacto x0,9"
+L["unlameifier_tuning_impact_forcex090.compactname"] = "Fuerza impacto x0,9"
+L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "10%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex110.printname"] = "1.1x Impact Force"
-L["unlameifier_tuning_impact_forcex110.compactname"] = "1.1x Impact Force"
-L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Impact Force", "10%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex110.printname"] = "Fuerza de impacto x1,1"
+L["unlameifier_tuning_impact_forcex110.compactname"] = "Fuerza impacto x1,1"
+L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "10%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex125.printname"] = "1.25x Impact Force"
-L["unlameifier_tuning_impact_forcex125.compactname"] = "1.25x Impact Force"
-L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Impact Force", "25%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex125.printname"] = "Fuerza de impacto x1,25"
+L["unlameifier_tuning_impact_forcex125.compactname"] = "Fuerza impacto x1,25"
+L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "25%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex150.printname"] = "1.5x Impact Force"
-L["unlameifier_tuning_impact_forcex150.compactname"] = "1.5x Impact Force"
-L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Impact Force", "50%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex150.printname"] = "Fuerza de impacto x1,5"
+L["unlameifier_tuning_impact_forcex150.compactname"] = "Fuerza impacto x1,5"
+L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "50%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex175.printname"] = "1.75x Impact Force"
-L["unlameifier_tuning_impact_forcex175.compactname"] = "1.75x Impact Force"
-L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Impact Force", "75%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex175.printname"] = "Fuerza de impacto x1,75"
+L["unlameifier_tuning_impact_forcex175.compactname"] = "Fuerza impacto x1,75"
+L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "75%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex2.printname"] = "2x Impact Force"
-L["unlameifier_tuning_impact_forcex2.compactname"] = "2x Impact Force"
-L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Impact Force", "100%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex2.printname"] = "Fuerza de impacto x2"
+L["unlameifier_tuning_impact_forcex2.compactname"] = "Fuerza impacto x2"
+L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "100%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex5.printname"] = "5x Impact Force"
-L["unlameifier_tuning_impact_forcex5.compactname"] = "5x Impact Force"
-L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Impact Force", "400%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex5.printname"] = "Fuerza de impacto x5"
+L["unlameifier_tuning_impact_forcex5.compactname"] = "Fuerza impacto x5"
+L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "400%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex10.printname"] = "10x Impact Force"
-L["unlameifier_tuning_impact_forcex10.compactname"] = "10x Impact Force"
-L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Impact Force", "900%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex10.printname"] = "Fuerza de impacto x10"
+L["unlameifier_tuning_impact_forcex10.compactname"] = "Fuerza impacto x10"
+L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "900%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
 ///////// Maximum Range
-L["unlameifier.folder.maxrange"] = "Range/Max"
-L["unlameifier.folder.maxrange.multiply"] = "Range/Max/Multiply"
-L["unlameifier.folder.maxrange.divide"] = "Range/Max/Divide"
+L["unlameifier.folder.maxrange"] = "Alcance/Máx"
+L["unlameifier.folder.maxrange.multiply"] = "Alcance/Máx/Multiplicar"
+L["unlameifier.folder.maxrange.divide"] = "Alcance/Máx/Dividir"
 
-L["unlameifier_tuning_max_range_x010.printname"] = "0.1x Maximum Range"
-L["unlameifier_tuning_max_range_x010.compactname"] = "0.1x Max Range"
-L["unlameifier_tuning_max_range_x010.description"] = string.format(statsdesc.minus, "Maximum Range", "90%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x010.printname"] = "Alcance máximo x0,1"
+L["unlameifier_tuning_max_range_x010.compactname"] = "Alcance máx. x0,1"
+L["unlameifier_tuning_max_range_x010.description"] = string.format(statsdesc.minus, "Alcance Máximo", "90%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x025.printname"] = "0.25x Maximum Range"
-L["unlameifier_tuning_max_range_x025.compactname"] = "0.25x Max Range"
-L["unlameifier_tuning_max_range_x025.description"] = string.format(statsdesc.minus, "Maximum Range", "75%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x025.printname"] = "Alcance máximo x0,25"
+L["unlameifier_tuning_max_range_x025.compactname"] = "Alcance máx. x0,25"
+L["unlameifier_tuning_max_range_x025.description"] = string.format(statsdesc.minus, "Alcance Máximo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x050.printname"] = "0.5x Maximum Range"
-L["unlameifier_tuning_max_range_x050.compactname"] = "0.5x Max Range"
-L["unlameifier_tuning_max_range_x050.description"] = string.format(statsdesc.minus, "Maximum Range", "50%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x050.printname"] = "Alcance máximo x0,5"
+L["unlameifier_tuning_max_range_x050.compactname"] = "Alcance máx. x0,5"
+L["unlameifier_tuning_max_range_x050.description"] = string.format(statsdesc.minus, "Alcance Máximo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x075.printname"] = "0.75x Maximum Range"
-L["unlameifier_tuning_max_range_x075.compactname"] = "0.75x Max Range"
-L["unlameifier_tuning_max_range_x075.description"] = string.format(statsdesc.minus, "Maximum Range", "25%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x075.printname"] = "Alcance máximo x0,75"
+L["unlameifier_tuning_max_range_x075.compactname"] = "Alcance máx. x0,75"
+L["unlameifier_tuning_max_range_x075.description"] = string.format(statsdesc.minus, "Alcance Máximo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x090.printname"] = "0.9x Maximum Range"
-L["unlameifier_tuning_max_range_x090.compactname"] = "0.9x Max Range"
-L["unlameifier_tuning_max_range_x090.description"] = string.format(statsdesc.minus, "Maximum Range", "10%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x090.printname"] = "Alcance máximo x0,9"
+L["unlameifier_tuning_max_range_x090.compactname"] = "Alcance máx. x0,9"
+L["unlameifier_tuning_max_range_x090.description"] = string.format(statsdesc.minus, "Alcance Máximo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x110.printname"] = "1.1x Maximum Range"
-L["unlameifier_tuning_max_range_x110.compactname"] = "1.1x Max Range"
-L["unlameifier_tuning_max_range_x110.description"] = string.format(statsdesc.plus, "Maximum Range", "10%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x110.printname"] = "Alcance máximo x1,1"
+L["unlameifier_tuning_max_range_x110.compactname"] = "Alcance máx. x1,1"
+L["unlameifier_tuning_max_range_x110.description"] = string.format(statsdesc.plus, "Alcance Máximo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x125.printname"] = "1.25x Maximum Range"
-L["unlameifier_tuning_max_range_x125.compactname"] = "1.25x Max Range"
-L["unlameifier_tuning_max_range_x125.description"] = string.format(statsdesc.plus, "Maximum Range", "25%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x125.printname"] = "Alcance máximo x1,25"
+L["unlameifier_tuning_max_range_x125.compactname"] = "Alcance máx. x1,25"
+L["unlameifier_tuning_max_range_x125.description"] = string.format(statsdesc.plus, "Alcance Máximo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x150.printname"] = "1.5x Maximum Range"
-L["unlameifier_tuning_max_range_x150.compactname"] = "1.5x Max Range"
-L["unlameifier_tuning_max_range_x150.description"] = string.format(statsdesc.plus, "Maximum Range", "50%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x150.printname"] = "Alcance máximo x1,5"
+L["unlameifier_tuning_max_range_x150.compactname"] = "Alcance máx. x1,5"
+L["unlameifier_tuning_max_range_x150.description"] = string.format(statsdesc.plus, "Alcance Máximo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x175.printname"] = "1.75x Maximum Range"
-L["unlameifier_tuning_max_range_x175.compactname"] = "1.75x Max Range"
-L["unlameifier_tuning_max_range_x175.description"] = string.format(statsdesc.plus, "Maximum Range", "75%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x175.printname"] = "Alcance máximo x1,75"
+L["unlameifier_tuning_max_range_x175.compactname"] = "Alcance máx. x1,75"
+L["unlameifier_tuning_max_range_x175.description"] = string.format(statsdesc.plus, "Alcance Máximo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x2.printname"] = "2x Maximum Range"
-L["unlameifier_tuning_max_range_x2.compactname"] = "2x Max Range"
-L["unlameifier_tuning_max_range_x2.description"] = string.format(statsdesc.plus, "Maximum Range", "100%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x2.printname"] = "Alcance máximo x2"
+L["unlameifier_tuning_max_range_x2.compactname"] = "Alcance máx. x2"
+L["unlameifier_tuning_max_range_x2.description"] = string.format(statsdesc.plus, "Alcance Máximo", "100%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x5.printname"] = "5x Maximum Range"
-L["unlameifier_tuning_max_range_x5.compactname"] = "5x Max Range"
-L["unlameifier_tuning_max_range_x5.description"] = string.format(statsdesc.plus, "Maximum Range", "400%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x5.printname"] = "Alcance máximo x5"
+L["unlameifier_tuning_max_range_x5.compactname"] = "Alcance máx. x5"
+L["unlameifier_tuning_max_range_x5.description"] = string.format(statsdesc.plus, "Alcance Máximo", "400%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x10.printname"] = "10x Maximum Range"
-L["unlameifier_tuning_max_range_x10.compactname"] = "10x Max Range"
-L["unlameifier_tuning_max_range_x10.description"] = string.format(statsdesc.plus, "Maximum Range", "900%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x10.printname"] = "Alcance máximo x10"
+L["unlameifier_tuning_max_range_x10.compactname"] = "Alcance máx. x10"
+L["unlameifier_tuning_max_range_x10.description"] = string.format(statsdesc.plus, "Alcance Máximo", "900%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
 ///////// Minimum Range
-L["unlameifier.folder.minrange"] = "Range/Min"
-L["unlameifier.folder.minrange.multiply"] = "Range/Min/Multiply"
-L["unlameifier.folder.minrange.divide"] = "Range/Min/Divide"
+L["unlameifier.folder.minrange"] = "Alcance/Mín"
+L["unlameifier.folder.minrange.multiply"] = "Alcance/Mín/Multiplicar"
+L["unlameifier.folder.minrange.divide"] = "Alcance/Mín/Dividir"
 
-L["unlameifier_tuning_min_range_x010.printname"] = "0.1x Minimum Range"
-L["unlameifier_tuning_min_range_x010.compactname"] = "0.1x Min Range"
-L["unlameifier_tuning_min_range_x010.description"] = string.format(statsdesc.minus, "Minimum Range", "90%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x010.printname"] = "Alcance mínimo x0.1"
+L["unlameifier_tuning_min_range_x010.compactname"] = "Alcance mín. x0.1"
+L["unlameifier_tuning_min_range_x010.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "90%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x025.printname"] = "0.25x Minimum Range"
-L["unlameifier_tuning_min_range_x025.compactname"] = "0.25x Min Range"
-L["unlameifier_tuning_min_range_x025.description"] = string.format(statsdesc.minus, "Minimum Range", "75%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x025.printname"] = "Alcance mínimo x0.25"
+L["unlameifier_tuning_min_range_x025.compactname"] = "Alcance mín. x0.25"
+L["unlameifier_tuning_min_range_x025.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x050.printname"] = "0.5x Minimum Range"
-L["unlameifier_tuning_min_range_x050.compactname"] = "0.5x Min Range"
-L["unlameifier_tuning_min_range_x050.description"] = string.format(statsdesc.minus, "Minimum Range", "50%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x050.printname"] = "Alcance mínimo x0.5"
+L["unlameifier_tuning_min_range_x050.compactname"] = "Alcance mín. x0.5"
+L["unlameifier_tuning_min_range_x050.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x075.printname"] = "0.75x Minimum Range"
-L["unlameifier_tuning_min_range_x075.compactname"] = "0.75x Min Range"
-L["unlameifier_tuning_min_range_x075.description"] = string.format(statsdesc.minus, "Minimum Range", "25%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x075.printname"] = "Alcance mínimo x0.75"
+L["unlameifier_tuning_min_range_x075.compactname"] = "Alcance mín. x0.75"
+L["unlameifier_tuning_min_range_x075.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x090.printname"] = "0.9x Minimum Range"
-L["unlameifier_tuning_min_range_x090.compactname"] = "0.9x Min Range"
-L["unlameifier_tuning_min_range_x090.description"] = string.format(statsdesc.minus, "Minimum Range", "10%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x090.printname"] = "Alcance mínimo x0.9"
+L["unlameifier_tuning_min_range_x090.compactname"] = "Alcance mín. x0.9"
+L["unlameifier_tuning_min_range_x090.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x110.printname"] = "1.1x Minimum Range"
-L["unlameifier_tuning_min_range_x110.compactname"] = "1.1x Min Range"
-L["unlameifier_tuning_min_range_x110.description"] = string.format(statsdesc.plus, "Minimum Range", "10%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x110.printname"] = "Alcance mínimo x1.1"
+L["unlameifier_tuning_min_range_x110.compactname"] = "Alcance mín. x1.1"
+L["unlameifier_tuning_min_range_x110.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x125.printname"] = "1.25x Minimum Range"
-L["unlameifier_tuning_min_range_x125.compactname"] = "1.25x Min Range"
-L["unlameifier_tuning_min_range_x125.description"] = string.format(statsdesc.plus, "Minimum Range", "25%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x125.printname"] = "Alcance mínimo x1.25"
+L["unlameifier_tuning_min_range_x125.compactname"] = "Alcance mín. x1.25"
+L["unlameifier_tuning_min_range_x125.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x150.printname"] = "1.5x Minimum Range"
-L["unlameifier_tuning_min_range_x150.compactname"] = "1.5x Min Range"
-L["unlameifier_tuning_min_range_x150.description"] = string.format(statsdesc.plus, "Minimum Range", "50%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x150.printname"] = "Alcance mínimo x1.5"
+L["unlameifier_tuning_min_range_x150.compactname"] = "Alcance mín. x1.5"
+L["unlameifier_tuning_min_range_x150.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x175.printname"] = "1.75x Minimum Range"
-L["unlameifier_tuning_min_range_x175.compactname"] = "1.75x Min Range"
-L["unlameifier_tuning_min_range_x175.description"] = string.format(statsdesc.plus, "Minimum Range", "75%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x175.printname"] = "Alcance mínimo x1.75"
+L["unlameifier_tuning_min_range_x175.compactname"] = "Alcance mín. x1.75"
+L["unlameifier_tuning_min_range_x175.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x2.printname"] = "2x Minimum Range"
-L["unlameifier_tuning_min_range_x2.compactname"] = "2x Min Range"
-L["unlameifier_tuning_min_range_x2.description"] = string.format(statsdesc.plus, "Minimum Range", "100%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x2.printname"] = "Alcance mínimo x2"
+L["unlameifier_tuning_min_range_x2.compactname"] = "Alcance mín. x2"
+L["unlameifier_tuning_min_range_x2.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "100%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x5.printname"] = "5x Minimum Range"
-L["unlameifier_tuning_min_range_x5.compactname"] = "5x Min Range"
-L["unlameifier_tuning_min_range_x5.description"] = string.format(statsdesc.plus, "Minimum Range", "400%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x5.printname"] = "Alcance mínimo x5"
+L["unlameifier_tuning_min_range_x5.compactname"] = "Alcance mín. x5"
+L["unlameifier_tuning_min_range_x5.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "400%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x10.printname"] = "10x Minimum Range"
-L["unlameifier_tuning_min_range_x10.compactname"] = "10x Min Range"
-L["unlameifier_tuning_min_range_x10.description"] = string.format(statsdesc.plus, "Minimum Range", "900%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x10.printname"] = "Alcance mínimo x10"
+L["unlameifier_tuning_min_range_x10.compactname"] = "Alcance mín. x10"
+L["unlameifier_tuning_min_range_x10.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "900%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
 ///////// Malfunction
 L["unlameifier.folder.malfunction"] = "Malfunction"

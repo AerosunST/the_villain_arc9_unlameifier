@@ -5577,3 +5577,5 @@ L["unlameifier_tuning_ricochet_chance_90p.description"] = string.format(statsdes
 L["unlameifier_tuning_ricochet_chance_100p.printname"] = "100% Ricochet Chance"
 L["unlameifier_tuning_ricochet_chance_100p.compactname"] = "100% Ricochet Chance"
 L["unlameifier_tuning_ricochet_chance_100p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur." .. "\n\n" .. "Guarantees that the bullet will ricochet."
+
+-- ö

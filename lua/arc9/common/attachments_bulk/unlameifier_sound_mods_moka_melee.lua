@@ -23,20 +23,20 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "3rd_degree_hit_world_01.wav",
-gsp .. "3rd_degree_hit_world_02.wav",
-gsp .. "3rd_degree_hit_world_03.wav",
-gsp .. "3rd_degree_hit_world_04.wav",
+gsp .. "3rd_degree_hit_world_01.ogg",
+gsp .. "3rd_degree_hit_world_02.ogg",
+gsp .. "3rd_degree_hit_world_03.ogg",
+gsp .. "3rd_degree_hit_world_04.ogg",
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "3rd_degree_hit_01.wav",
-gsp .. "3rd_degree_hit_02.wav",
-gsp .. "3rd_degree_hit_03.wav",
-gsp .. "3rd_degree_hit_04.wav",
+gsp .. "3rd_degree_hit_01.ogg",
+gsp .. "3rd_degree_hit_02.ogg",
+gsp .. "3rd_degree_hit_03.ogg",
+gsp .. "3rd_degree_hit_04.ogg",
 }
 
-ATT.InstallSound = gsp .. "3rd_degree_hit_01.wav"
+ATT.InstallSound = gsp .. "3rd_degree_hit_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_thirddegree")
 
@@ -64,12 +64,12 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "axe_hit_flesh1.wav",
-gsp .. "axe_hit_flesh2.wav",
-gsp .. "axe_hit_flesh3.wav",
+gsp .. "axe_hit_flesh1.ogg",
+gsp .. "axe_hit_flesh2.ogg",
+gsp .. "axe_hit_flesh3.ogg",
 }
 
-ATT.InstallSound = gsp .. "axe_hit_flesh1.wav"
+ATT.InstallSound = gsp .. "axe_hit_flesh1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_fireaxe_hit")
 
@@ -97,16 +97,16 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "ball_buster_hit_01.wav",
-gsp .. "ball_buster_hit_02.wav",
+gsp .. "ball_buster_hit_01.ogg",
+gsp .. "ball_buster_hit_02.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "ball_buster_hit_01.wav",
-gsp .. "ball_buster_hit_02.wav",
+gsp .. "ball_buster_hit_01.ogg",
+gsp .. "ball_buster_hit_02.ogg",
 }
 
-ATT.InstallSound = gsp .. "ball_buster_hit_01.wav"
+ATT.InstallSound = gsp .. "ball_buster_hit_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_ballbuster_hit")
 
@@ -134,14 +134,14 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "bat_hit.wav",
+gsp .. "bat_hit.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "bat_hit.wav",
+gsp .. "bat_hit.ogg",
 }
 
-ATT.InstallSound = gsp .. "bat_hit.wav"
+ATT.InstallSound = gsp .. "bat_hit.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bat_hit")
 
@@ -169,16 +169,16 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "batsaber_hit_flesh1.wav",
-gsp .. "batsaber_hit_flesh2.wav",
+gsp .. "batsaber_hit_flesh1.ogg",
+gsp .. "batsaber_hit_flesh2.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "batsaber_hit_world1.wav",
-gsp .. "batsaber_hit_world2.wav",
+gsp .. "batsaber_hit_world1.ogg",
+gsp .. "batsaber_hit_world2.ogg",
 }
 
-ATT.InstallSound = gsp .. "batsaber_hit_world1.wav"
+ATT.InstallSound = gsp .. "batsaber_hit_world1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_bat_hit")
 
@@ -206,19 +206,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "batsaber_swing1.wav",
-gsp .. "batsaber_swing2.wav",
-gsp .. "batsaber_swing3.wav",
-gsp .. "batsaber_swing1.wav",
-gsp .. "batsaber_swing2.wav",
-gsp .. "batsaber_swing3.wav",
-gsp .. "batsaber_swing1.wav",
-gsp .. "batsaber_swing_crit1.wav",
-gsp .. "batsaber_swing_crit2.wav",
-gsp .. "batsaber_swing_crit3.wav",
+gsp .. "batsaber_swing1.ogg",
+gsp .. "batsaber_swing2.ogg",
+gsp .. "batsaber_swing3.ogg",
+gsp .. "batsaber_swing1.ogg",
+gsp .. "batsaber_swing2.ogg",
+gsp .. "batsaber_swing3.ogg",
+gsp .. "batsaber_swing1.ogg",
+gsp .. "batsaber_swing_crit1.ogg",
+gsp .. "batsaber_swing_crit2.ogg",
+gsp .. "batsaber_swing_crit3.ogg",
 }
 
-ATT.InstallSound = gsp .. "batsaber_swing1.wav"
+ATT.InstallSound = gsp .. "batsaber_swing1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_invasion_bat_swing")
 
@@ -246,17 +246,17 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "blade_hit1.wav",
-gsp .. "blade_hit2.wav",
-gsp .. "blade_hit3.wav",
-gsp .. "blade_hit4.wav",
+gsp .. "blade_hit1.ogg",
+gsp .. "blade_hit2.ogg",
+gsp .. "blade_hit3.ogg",
+gsp .. "blade_hit4.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "blade_hitworld.wav",
+gsp .. "blade_hitworld.ogg",
 }
 
-ATT.InstallSound = gsp .. "blade_hit1.wav"
+ATT.InstallSound = gsp .. "blade_hit1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_knife_hit")
 
@@ -284,18 +284,18 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "bottle_broken_hit_flesh1.wav",
-gsp .. "bottle_broken_hit_flesh2.wav",
-gsp .. "bottle_broken_hit_flesh3.wav",
+gsp .. "bottle_broken_hit_flesh1.ogg",
+gsp .. "bottle_broken_hit_flesh2.ogg",
+gsp .. "bottle_broken_hit_flesh3.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "bottle_broken_hit_world1.wav",
-gsp .. "bottle_broken_hit_world2.wav",
-gsp .. "bottle_broken_hit_world3.wav",
+gsp .. "bottle_broken_hit_world1.ogg",
+gsp .. "bottle_broken_hit_world2.ogg",
+gsp .. "bottle_broken_hit_world3.ogg",
 }
 
-ATT.InstallSound = gsp .. "bottle_broken_hit_world1.wav"
+ATT.InstallSound = gsp .. "bottle_broken_hit_world1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bottle_broken_hit")
 
@@ -323,17 +323,17 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "bottle_intact_hit_flesh1.wav",
-gsp .. "bottle_intact_hit_flesh2.wav",
-gsp .. "bottle_intact_hit_flesh3.wav",
+gsp .. "bottle_intact_hit_flesh1.ogg",
+gsp .. "bottle_intact_hit_flesh2.ogg",
+gsp .. "bottle_intact_hit_flesh3.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "bottle_intact_hit_world1.wav",
-gsp .. "bottle_intact_hit_world2.wav",
+gsp .. "bottle_intact_hit_world1.ogg",
+gsp .. "bottle_intact_hit_world2.ogg",
 }
 
-ATT.InstallSound = gsp .. "bottle_intact_hit_world1.wav"
+ATT.InstallSound = gsp .. "bottle_intact_hit_world1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_bottle_hit")
 
@@ -361,17 +361,17 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "blade_slice_2.wav",
-gsp .. "blade_slice_3.wav",
-gsp .. "blade_slice_4.wav",
+gsp .. "blade_slice_2.ogg",
+gsp .. "blade_slice_3.ogg",
+gsp .. "blade_slice_4.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "demo_sword_hit_world1.wav",
-gsp .. "demo_sword_hit_world2.wav",
+gsp .. "demo_sword_hit_world1.ogg",
+gsp .. "demo_sword_hit_world2.ogg",
 }
 
-ATT.InstallSound = gsp .. "blade_slice_2.wav"
+ATT.InstallSound = gsp .. "blade_slice_2.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sword_hit")
 
@@ -399,19 +399,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "demo_sword_swing1.wav",
-gsp .. "demo_sword_swing2.wav",
-gsp .. "demo_sword_swing3.wav",
-gsp .. "demo_sword_swing1.wav",
-gsp .. "demo_sword_swing2.wav",
-gsp .. "demo_sword_swing3.wav",
-gsp .. "demo_sword_swing1.wav",
-gsp .. "demo_sword_swing2.wav",
-gsp .. "demo_sword_swing3.wav",
-gsp .. "demo_sword_swing_crit.wav",
+gsp .. "demo_sword_swing1.ogg",
+gsp .. "demo_sword_swing2.ogg",
+gsp .. "demo_sword_swing3.ogg",
+gsp .. "demo_sword_swing1.ogg",
+gsp .. "demo_sword_swing2.ogg",
+gsp .. "demo_sword_swing3.ogg",
+gsp .. "demo_sword_swing1.ogg",
+gsp .. "demo_sword_swing2.ogg",
+gsp .. "demo_sword_swing3.ogg",
+gsp .. "demo_sword_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "demo_sword_swing1.wav"
+ATT.InstallSound = gsp .. "demo_sword_swing1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sword_swing")
 
@@ -439,23 +439,23 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "discipline_device_impact_01.wav",
-gsp .. "discipline_device_impact_02.wav",
-gsp .. "discipline_device_impact_01.wav",
-gsp .. "discipline_device_impact_02.wav",
-gsp .. "discipline_device_impact_01.wav",
-gsp .. "discipline_device_impact_02.wav",
-gsp .. "discipline_device_impact_01.wav",
-gsp .. "discipline_device_impact_02.wav",
-gsp .. "discipline_device_impact_crit_01.wav",
-gsp .. "discipline_device_impact_crit_02.wav",
+gsp .. "discipline_device_impact_01.ogg",
+gsp .. "discipline_device_impact_02.ogg",
+gsp .. "discipline_device_impact_01.ogg",
+gsp .. "discipline_device_impact_02.ogg",
+gsp .. "discipline_device_impact_01.ogg",
+gsp .. "discipline_device_impact_02.ogg",
+gsp .. "discipline_device_impact_01.ogg",
+gsp .. "discipline_device_impact_02.ogg",
+gsp .. "discipline_device_impact_crit_01.ogg",
+gsp .. "discipline_device_impact_crit_02.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "discipline_device_hit_world.wav",
+gsp .. "discipline_device_hit_world.ogg",
 }
 
-ATT.InstallSound = gsp .. "discipline_device_impact_01.wav"
+ATT.InstallSound = gsp .. "discipline_device_impact_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_disciplinaryaction_hit")
 
@@ -483,11 +483,11 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "discipline_device_woosh_01.wav",
-gsp .. "discipline_device_woosh_02.wav",
+gsp .. "discipline_device_woosh_01.ogg",
+gsp .. "discipline_device_woosh_02.ogg",
 }
 
-ATT.InstallSound = gsp .. "discipline_device_woosh_01.wav"
+ATT.InstallSound = gsp .. "discipline_device_woosh_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_disciplinaryaction_swing")
 
@@ -515,24 +515,24 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "eviction_notice_01.wav",
-gsp .. "eviction_notice_02.wav",
-gsp .. "eviction_notice_03.wav",
-gsp .. "eviction_notice_04.wav",
-gsp .. "eviction_notice_01.wav",
-gsp .. "eviction_notice_02.wav",
-gsp .. "eviction_notice_01_crit.wav",
-gsp .. "eviction_notice_02_crit.wav",
-gsp .. "eviction_notice_03_crit.wav",
-gsp .. "eviction_notice_04_crit.wav",
+gsp .. "eviction_notice_01.ogg",
+gsp .. "eviction_notice_02.ogg",
+gsp .. "eviction_notice_03.ogg",
+gsp .. "eviction_notice_04.ogg",
+gsp .. "eviction_notice_01.ogg",
+gsp .. "eviction_notice_02.ogg",
+gsp .. "eviction_notice_01_crit.ogg",
+gsp .. "eviction_notice_02_crit.ogg",
+gsp .. "eviction_notice_03_crit.ogg",
+gsp .. "eviction_notice_04_crit.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "fist_hit_world1.wav",
-gsp .. "fist_hit_world2.wav",
+gsp .. "fist_hit_world1.ogg",
+gsp .. "fist_hit_world2.ogg",
 }
 
-ATT.InstallSound = gsp .. "eviction_notice_01.wav"
+ATT.InstallSound = gsp .. "eviction_notice_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_evictionnotice_hit")
 
@@ -560,10 +560,10 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "gunslinger_swing.wav",
+gsp .. "gunslinger_swing.ogg",
 }
 
-ATT.InstallSound = gsp .. "gunslinger_swing.wav"
+ATT.InstallSound = gsp .. "gunslinger_swing.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_robot_arm_swing")
 
@@ -591,18 +591,18 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "holy_mackerel1.wav",
-gsp .. "holy_mackerel2.wav",
-gsp .. "holy_mackerel3.wav",
+gsp .. "holy_mackerel1.ogg",
+gsp .. "holy_mackerel2.ogg",
+gsp .. "holy_mackerel3.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "holy_mackerel1.wav",
-gsp .. "holy_mackerel2.wav",
-gsp .. "holy_mackerel3.wav",
+gsp .. "holy_mackerel1.ogg",
+gsp .. "holy_mackerel2.ogg",
+gsp .. "holy_mackerel3.ogg",
 }
 
-ATT.InstallSound = gsp .. "holy_mackerel1.wav"
+ATT.InstallSound = gsp .. "holy_mackerel1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_theholymackerel_hit")
 
@@ -630,19 +630,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "blade_hit1.wav",
-gsp .. "blade_hit2.wav",
-gsp .. "blade_hit3.wav",
-gsp .. "blade_hit4.wav",
+gsp .. "blade_hit1.ogg",
+gsp .. "blade_hit2.ogg",
+gsp .. "blade_hit3.ogg",
+gsp .. "blade_hit4.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "icicle_hit_world_01.wav",
-gsp .. "icicle_hit_world_02.wav",
-gsp .. "icicle_hit_world_03.wav",
+gsp .. "icicle_hit_world_01.ogg",
+gsp .. "icicle_hit_world_02.ogg",
+gsp .. "icicle_hit_world_03.ogg",
 }
 
-ATT.InstallSound = gsp .. "icicle_hit_world_01.wav"
+ATT.InstallSound = gsp .. "icicle_hit_world_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_spycicle_hit")
 
@@ -670,19 +670,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing.wav",
-gsp .. "knife_swing_crit.wav",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing.ogg",
+gsp .. "knife_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "knife_swing.wav"
+ATT.InstallSound = gsp .. "knife_swing.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_knife_swing")
 
@@ -710,19 +710,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing.wav",
-gsp .. "machete_swing_crit.wav",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing.ogg",
+gsp .. "machete_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "machete_swing.wav"
+ATT.InstallSound = gsp .. "machete_swing.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_machete_swing")
 
@@ -750,26 +750,26 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "metal_gloves_hit_flesh1.wav",
-gsp .. "metal_gloves_hit_flesh2.wav",
-gsp .. "metal_gloves_hit_flesh3.wav",
-gsp .. "metal_gloves_hit_flesh4.wav",
-gsp .. "metal_gloves_hit_flesh1.wav",
-gsp .. "metal_gloves_hit_flesh2.wav",
-gsp .. "metal_gloves_hit_crit1.wav",
-gsp .. "metal_gloves_hit_crit2.wav",
-gsp .. "metal_gloves_hit_crit3.wav",
-gsp .. "metal_gloves_hit_crit4.wav",
+gsp .. "metal_gloves_hit_flesh1.ogg",
+gsp .. "metal_gloves_hit_flesh2.ogg",
+gsp .. "metal_gloves_hit_flesh3.ogg",
+gsp .. "metal_gloves_hit_flesh4.ogg",
+gsp .. "metal_gloves_hit_flesh1.ogg",
+gsp .. "metal_gloves_hit_flesh2.ogg",
+gsp .. "metal_gloves_hit_crit1.ogg",
+gsp .. "metal_gloves_hit_crit2.ogg",
+gsp .. "metal_gloves_hit_crit3.ogg",
+gsp .. "metal_gloves_hit_crit4.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "metal_gloves_hit_world1.wav",
-gsp .. "metal_gloves_hit_world2.wav",
-gsp .. "metal_gloves_hit_world3.wav",
-gsp .. "metal_gloves_hit_world4.wav",
+gsp .. "metal_gloves_hit_world1.ogg",
+gsp .. "metal_gloves_hit_world2.ogg",
+gsp .. "metal_gloves_hit_world3.ogg",
+gsp .. "metal_gloves_hit_world4.ogg",
 }
 
-ATT.InstallSound = gsp .. "icicle_hit_world_01.wav"
+ATT.InstallSound = gsp .. "icicle_hit_world_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_fistsofsteel_hit")
 
@@ -797,32 +797,32 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch_crit.wav",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch_crit.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch.wav",
-gsp .. "mittens_punch_crit.wav",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch.ogg",
+gsp .. "mittens_punch_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "mittens_punch.wav"
+ATT.InstallSound = gsp .. "mittens_punch.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_masculinemittens_hit")
 
@@ -850,20 +850,20 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "neon_sign_hit_01.wav",
-gsp .. "neon_sign_hit_02.wav",
-gsp .. "neon_sign_hit_03.wav",
-gsp .. "neon_sign_hit_04.wav",
+gsp .. "neon_sign_hit_01.ogg",
+gsp .. "neon_sign_hit_02.ogg",
+gsp .. "neon_sign_hit_03.ogg",
+gsp .. "neon_sign_hit_04.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "neon_sign_hit_world_01.wav",
-gsp .. "neon_sign_hit_world_02.wav",
-gsp .. "neon_sign_hit_world_03.wav",
-gsp .. "neon_sign_hit_world_04.wav",
+gsp .. "neon_sign_hit_world_01.ogg",
+gsp .. "neon_sign_hit_world_02.ogg",
+gsp .. "neon_sign_hit_world_03.ogg",
+gsp .. "neon_sign_hit_world_04.ogg",
 }
 
-ATT.InstallSound = gsp .. "neon_sign_hit_01.wav"
+ATT.InstallSound = gsp .. "neon_sign_hit_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sd_sign_hit")
 
@@ -891,19 +891,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "pickaxe_swing1.wav",
-gsp .. "pickaxe_swing2.wav",
-gsp .. "pickaxe_swing3.wav",
-gsp .. "pickaxe_swing1.wav",
-gsp .. "pickaxe_swing2.wav",
-gsp .. "pickaxe_swing3.wav",
-gsp .. "pickaxe_swing1.wav",
-gsp .. "pickaxe_swing2.wav",
-gsp .. "pickaxe_swing3.wav",
-gsp .. "pickaxe_swing_crit.wav",
+gsp .. "pickaxe_swing1.ogg",
+gsp .. "pickaxe_swing2.ogg",
+gsp .. "pickaxe_swing3.ogg",
+gsp .. "pickaxe_swing1.ogg",
+gsp .. "pickaxe_swing2.ogg",
+gsp .. "pickaxe_swing3.ogg",
+gsp .. "pickaxe_swing1.ogg",
+gsp .. "pickaxe_swing2.ogg",
+gsp .. "pickaxe_swing3.ogg",
+gsp .. "pickaxe_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "pickaxe_swing1.wav"
+ATT.InstallSound = gsp .. "pickaxe_swing1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_pickaxe_swing")
 
@@ -931,15 +931,15 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "saxxy_impact_gen_03.wav",
-gsp .. "saxxy_impact_gen_06.wav",
+gsp .. "saxxy_impact_gen_03.ogg",
+gsp .. "saxxy_impact_gen_06.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "saxxy_impact_gen_01.wav",
+gsp .. "saxxy_impact_gen_01.ogg",
 }
 
-ATT.InstallSound = gsp .. "saxxy_impact_gen_01.wav"
+ATT.InstallSound = gsp .. "saxxy_impact_gen_01.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_saxxy_hit")
 
@@ -967,19 +967,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing.wav",
-gsp .. "shovel_swing_crit.wav",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing.ogg",
+gsp .. "shovel_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "shovel_swing.wav"
+ATT.InstallSound = gsp .. "shovel_swing.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_shovel_swing")
 
@@ -1007,18 +1007,18 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "slap_hit1.wav",
-gsp .. "slap_hit2.wav",
-gsp .. "slap_hit3.wav",
-gsp .. "slap_hit4.wav",
+gsp .. "slap_hit1.ogg",
+gsp .. "slap_hit2.ogg",
+gsp .. "slap_hit3.ogg",
+gsp .. "slap_hit4.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "slap_hit_world1.wav",
-gsp .. "slap_hit_world2.wav",
+gsp .. "slap_hit_world1.ogg",
+gsp .. "slap_hit_world2.ogg",
 }
 
-ATT.InstallSound = gsp .. "slap_hit1.wav"
+ATT.InstallSound = gsp .. "slap_hit1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_hothand_hit")
 
@@ -1046,19 +1046,19 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing.wav",
-gsp .. "slap_swing_crit.wav",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing.ogg",
+gsp .. "slap_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "slap_swing.wav"
+ATT.InstallSound = gsp .. "slap_swing.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_hothand_swing")
 
@@ -1086,19 +1086,19 @@ ATT.Attachments = {
 }
 
 ATT.BackstabSound = { 
-gsp .. "spy_assassin_knife_bckstb.wav",
+gsp .. "spy_assassin_knife_bckstb.ogg",
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "spy_assassin_knife_impact_01.wav",
-gsp .. "spy_assassin_knife_impact_02.wav",
+gsp .. "spy_assassin_knife_impact_01.ogg",
+gsp .. "spy_assassin_knife_impact_02.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "blade_hitworld.wav",
+gsp .. "blade_hitworld.ogg",
 }
 
-ATT.InstallSound = gsp .. "slap_hit1.wav"
+ATT.InstallSound = gsp .. "slap_hit1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_sharpdresser_hit")
 
@@ -1126,18 +1126,18 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "ubersaw_hit1.wav",
-gsp .. "ubersaw_hit2.wav",
-gsp .. "ubersaw_hit3.wav",
-gsp .. "ubersaw_hit4.wav",
+gsp .. "ubersaw_hit1.ogg",
+gsp .. "ubersaw_hit2.ogg",
+gsp .. "ubersaw_hit3.ogg",
+gsp .. "ubersaw_hit4.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "cbar_hit1.wav",
-gsp .. "cbar_hit2.wav",
+gsp .. "cbar_hit1.ogg",
+gsp .. "cbar_hit2.ogg",
 }
 
-ATT.InstallSound = gsp .. "ubersaw_hit1.wav"
+ATT.InstallSound = gsp .. "ubersaw_hit1.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_achievement_bonesaw_hit")
 
@@ -1165,15 +1165,15 @@ ATT.Attachments = {
 }
 
 ATT.MeleeHitSound = { 
-gsp .. "fist_hit_world1.wav",
-gsp .. "fist_hit_world2.wav",
+gsp .. "fist_hit_world1.ogg",
+gsp .. "fist_hit_world2.ogg",
 }
 
 ATT.MeleeHitWallSound = { 
-gsp .. "wrench_hit_world.wav",
+gsp .. "wrench_hit_world.ogg",
 }
 
-ATT.InstallSound = gsp .. "wrench_hit_world.wav"
+ATT.InstallSound = gsp .. "wrench_hit_world.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_wrench_hit")
 
@@ -1201,18 +1201,18 @@ ATT.Attachments = {
 }
 
 ATT.MeleeSwingSound = { 
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing.wav",
-gsp .. "wrench_swing_crit.wav",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing.ogg",
+gsp .. "wrench_swing_crit.ogg",
 }
 
-ATT.InstallSound = gsp .. "wrench_swing.wav"
+ATT.InstallSound = gsp .. "wrench_swing.ogg"
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_wrench_swing")

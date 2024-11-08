@@ -3079,125 +3079,125 @@ L["unlameifier.folder.visrecoil.minus"] = "Visual Recoil/Restar"
 L["unlameifier.folder.visrecoil.multiply"] = "Visual Recoil/Multiplicar"
 L["unlameifier.folder.visrecoil.divide"] = "Visual Recoil/Dividir"
 
-L["unlameifier_tuning_visrecoil_x010.printname"] = "0.1x Retroceso visual
+L["unlameifier_tuning_visrecoil_x010.printname"] = "0.1x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x010.compactname"] = "0.1x Retro. vis."
-L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "90%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "90%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x025.printname"] = "0.25x Retroceso visual
+L["unlameifier_tuning_visrecoil_x025.printname"] = "0.25x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x025.compactname"] = "0.25x Retro. vis."
-L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x050.printname"] = "0.5x Retroceso visual
+L["unlameifier_tuning_visrecoil_x050.printname"] = "0.5x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x050.compactname"] = "0.5x Retro. vis."
-L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x075.printname"] = "0.75x Retroceso visual
+L["unlameifier_tuning_visrecoil_x075.printname"] = "0.75x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x075.compactname"] = "0.75x Retro. vis."
-L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x090.printname"] = "0.9x Retroceso visual
+L["unlameifier_tuning_visrecoil_x090.printname"] = "0.9x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x090.compactname"] = "0.9x Retro. vis."
-L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x110.printname"] = "1.1x Retroceso visual
+L["unlameifier_tuning_visrecoil_x110.printname"] = "1.1x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x110.compactname"] = "1.1x Retro. vis."
-L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x125.printname"] = "1.25x Retroceso visual
+L["unlameifier_tuning_visrecoil_x125.printname"] = "1.25x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x125.compactname"] = "1.25x Retro. vis."
-L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x150.printname"] = "1.5x Retroceso visual
+L["unlameifier_tuning_visrecoil_x150.printname"] = "1.5x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x150.compactname"] = "1.5x Retro. vis."
-L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x175.printname"] = "1.75x Retroceso visual
+L["unlameifier_tuning_visrecoil_x175.printname"] = "1.75x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x175.compactname"] = "1.75x Retro. vis."
-L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Retroceso visual
+L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x2.compactname"] = "2x Retro. vis."
-L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "100%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "100%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Retroceso visual
+L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x5.compactname"] = "5x Retro. vis."
-L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "400%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "400%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Retroceso visual
+L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Retroceso visual"
 L["unlameifier_tuning_visrecoil_x10.compactname"] = "10x Retro. vis."
-L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "900%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "900%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Retroceso visual
+L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Retroceso visual"
 L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Retroceso visual
+L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Retroceso visual"
 L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
 ///////// Reload Time
 L["unlameifier.folder.reloadtime"] = "Tiem. recarga"

@@ -2427,92 +2427,92 @@ L["unlameifier.folder.projectiles.fixed"] = "Proyectiles/Fijo"
 L["unlameifier.folder.projectiles.plus"] = "Proyectiles/Añadir"
 L["unlameifier.folder.projectiles.minus"] = "Proyectiles/Restar"
 
-L["unlameifier_tuning_projectile_plus1.printname"] = "+1 proyectiles"
-L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 proyectiles"
+L["unlameifier_tuning_projectile_plus1.printname"] = "+1 Proyectiles"
+L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 Proyectiles"
 L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 1) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus2.printname"] = "+2 proyectiles"
-L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 proyectiles"
+L["unlameifier_tuning_projectile_plus2.printname"] = "+2 Proyectiles"
+L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 Proyectiles"
 L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 2) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus3.printname"] = "+3 proyectiles"
-L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 proyectiles"
+L["unlameifier_tuning_projectile_plus3.printname"] = "+3 Proyectiles"
+L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 Proyectiles"
 L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 3) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus4.printname"] = "+4 proyectiles"
-L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 proyectiles"
+L["unlameifier_tuning_projectile_plus4.printname"] = "+4 Proyectiles"
+L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 Proyectiles"
 L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 4) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_plus5.printname"] = "+5 proyectiles"
-L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 proyectiles"
+L["unlameifier_tuning_projectile_plus5.printname"] = "+5 Proyectiles"
+L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 Proyectiles"
 L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 5) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_plus6.printname"] = "+6 proyectiles"
-L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 proyectiles"
+L["unlameifier_tuning_projectile_plus6.printname"] = "+6 Proyectiles"
+L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 Proyectiles"
 L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 6) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_plus7.printname"] = "+7 proyectiles"
-L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 proyectiles"
+L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Proyectiles"
+L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Proyectiles"
 L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Conteo de Proyectiles", 7) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_minus1.printname"] = "-1 proyectiles"
-L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 proyectiles"
+L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Proyectiles"
+L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Proyectiles"
 L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 1) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus2.printname"] = "-2 proyectiles"
-L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 proyectiles"
+L["unlameifier_tuning_projectile_minus2.printname"] = "-2 Proyectiles"
+L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 Proyectiles"
 L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 2) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus3.printname"] = "-3 proyectiles"
-L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 proyectiles"
+L["unlameifier_tuning_projectile_minus3.printname"] = "-3 Proyectiles"
+L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 Proyectiles"
 L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 3) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus4.printname"] = "-4 proyectiles"
-L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 proyectiles"
+L["unlameifier_tuning_projectile_minus4.printname"] = "-4 Proyectiles"
+L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 Proyectiles"
 L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 4) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus5.printname"] = "-5 proyectiles"
-L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 proyectiles"
+L["unlameifier_tuning_projectile_minus5.printname"] = "-5 Proyectiles"
+L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 Proyectiles"
 L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 5) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus6.printname"] = "-6 proyectiles"
-L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 proyectiles"
+L["unlameifier_tuning_projectile_minus6.printname"] = "-6 Proyectiles"
+L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 Proyectiles"
 L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 6) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus7.printname"] = "-7 proyectiles"
-L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 proyectiles"
+L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Proyectiles"
+L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Proyectiles"
 L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Conteo de Proyectiles", 7) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
-L["unlameifier_tuning_projectile_force1.compactname"] = "1 proyectiles"
+L["unlameifier_tuning_projectile_force1.compactname"] = "1 Proyectiles"
 L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 1) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force2.printname"] = "2 proyectiles"
-L["unlameifier_tuning_projectile_force2.compactname"] = "2 proyectiles"
+L["unlameifier_tuning_projectile_force2.printname"] = "2 Proyectiles"
+L["unlameifier_tuning_projectile_force2.compactname"] = "2 Proyectiles"
 L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 2) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force3.printname"] = "3 proyectiles"
-L["unlameifier_tuning_projectile_force3.compactname"] = "3 proyectiles"
+L["unlameifier_tuning_projectile_force3.printname"] = "3 Proyectiles"
+L["unlameifier_tuning_projectile_force3.compactname"] = "3 Proyectiles"
 L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 3) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force4.printname"] = "4 proyectiles"
-L["unlameifier_tuning_projectile_force4.compactname"] = "4 proyectiles"
+L["unlameifier_tuning_projectile_force4.printname"] = "4 Proyectiles"
+L["unlameifier_tuning_projectile_force4.compactname"] = "4 Proyectiles"
 L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 4) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara."
 
-L["unlameifier_tuning_projectile_force5.printname"] = "5 proyectiles"
-L["unlameifier_tuning_projectile_force5.compactname"] = "5 proyectiles"
+L["unlameifier_tuning_projectile_force5.printname"] = "5 Proyectiles"
+L["unlameifier_tuning_projectile_force5.compactname"] = "5 Proyectiles"
 L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 5) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force6.printname"] = "6 proyectiles"
-L["unlameifier_tuning_projectile_force6.compactname"] = "6 proyectiles"
+L["unlameifier_tuning_projectile_force6.printname"] = "6 Proyectiles"
+L["unlameifier_tuning_projectile_force6.compactname"] = "6 Proyectiles"
 L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 6) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force7.printname"] = "7 proyectiles"
-L["unlameifier_tuning_projectile_force7.compactname"] = "7 proyectiles"
+L["unlameifier_tuning_projectile_force7.printname"] = "7 Proyectiles"
+L["unlameifier_tuning_projectile_force7.compactname"] = "7 Proyectiles"
 L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 7) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force8.printname"] = "8 proyectiles"
-L["unlameifier_tuning_projectile_force8.compactname"] = "8 proyectiles"
+L["unlameifier_tuning_projectile_force8.printname"] = "8 Proyectiles"
+L["unlameifier_tuning_projectile_force8.compactname"] = "8 Proyectiles"
 L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Conteo de Proyectiles", 8) .. "Esto altera la cantidad de proyectiles que salen cada vez que el arma dispara." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
@@ -2521,316 +2521,316 @@ L["unlameifier.folder.ammopershot.fixed"] = "Muni. x tiro/Fijo"
 L["unlameifier.folder.ammopershot.plus"] = "Muni. x tiro/Añadir"
 L["unlameifier.folder.ammopershot.minus"] = "Muni. x tiro/Restar"
 
-L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 MPD"
 L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 MPD"
 L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 MPD"
 L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 1) .. "Esto altera cuanta munición se agota en cada disparo."
 
-L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 MPD"
 L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 2) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 MPD"
 L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 3) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 MPD"
 L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 4) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 MPD"
 L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 5) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 MPD"
 L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 6) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 MPD"
 L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 7) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 de munición por disparo"
+L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Munición por disparo"
 L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 MPD"
 L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Munición por Disparo", 8) .. "Esto altera cuanta munición se agota en cada disparo." .. statsdesc.warnammotoohigh
 
 ///////// Maximum Damage
-L["unlameifier.folder.maxdamage"] = "Daño/Máx"
-L["unlameifier.folder.maxdamage.fixed"] = "Daño/Máx/Fijo"
-L["unlameifier.folder.maxdamage.plus"] = "Daño/Máx/Añadir"
-L["unlameifier.folder.maxdamage.minus"] = "Daño/Máx/Restar"
-L["unlameifier.folder.maxdamage.multiply"] = "Daño/Máx/Multiplicar"
-L["unlameifier.folder.maxdamage.divide"] = "Daño/Máx/Dividir"
+L["unlameifier.folder.maxdamage"] = "Daño/Máx."
+L["unlameifier.folder.maxdamage.fixed"] = "Daño/Máx./Fijo"
+L["unlameifier.folder.maxdamage.plus"] = "Daño/Máx./Añadir"
+L["unlameifier.folder.maxdamage.minus"] = "Daño/Máx./Restar"
+L["unlameifier.folder.maxdamage.multiply"] = "Daño/Máx./Multiplicar"
+L["unlameifier.folder.maxdamage.divide"] = "Daño/Máx./Dividir"
 
-L["unlameifier_tuning_max_damage_x010.printname"] = "Daño máximo x0,1"
-L["unlameifier_tuning_max_damage_x010.compactname"] = "Daño máx. x0,1"
-L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Daño Máximo", "90%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x010.printname"] = "0.1x Daño máximo"
+L["unlameifier_tuning_max_damage_x010.compactname"] = "0.1x Daño máx."
+L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Daño Máx.imo", "90%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x025.printname"] = "Daño máximo x0,25"
-L["unlameifier_tuning_max_damage_x025.compactname"] = "Daño máx. x0,25"
-L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Daño Máximo", "75%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x025.printname"] = "0.25x Daño máximo"
+L["unlameifier_tuning_max_damage_x025.compactname"] = "0.25x Daño máx."
+L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Daño Máx.imo", "75%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x050.printname"] = "Daño máximo x0,5"
-L["unlameifier_tuning_max_damage_x050.compactname"] = "Daño máx. x0,5"
-L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Daño Máximo", "50%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x050.printname"] = "0.5x Daño máximo"
+L["unlameifier_tuning_max_damage_x050.compactname"] = "0.5x Daño máx."
+L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Daño Máx.imo", "50%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x075.printname"] = "Daño máximo x0,75"
-L["unlameifier_tuning_max_damage_x075.compactname"] = "Daño máx. x0,75"
-L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Daño Máximo", "25%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x075.printname"] = "0.75x Daño máximo"
+L["unlameifier_tuning_max_damage_x075.compactname"] = "0.75x Daño máx."
+L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Daño Máx.imo", "25%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x090.printname"] = "Daño máximo x0,9"
-L["unlameifier_tuning_max_damage_x090.compactname"] = "Daño máx. x0,9"
-L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Daño Máximo", "10%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x090.printname"] = "0.9x Daño máximo"
+L["unlameifier_tuning_max_damage_x090.compactname"] = "0.9x Daño máx."
+L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Daño Máx.imo", "10%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x110.printname"] = "Daño máximo x1,1"
-L["unlameifier_tuning_max_damage_x110.compactname"] = "Daño máx. x1,1"
-L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Daño Máximo", "10%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x110.printname"] = "1.1x Daño máximo"
+L["unlameifier_tuning_max_damage_x110.compactname"] = "1.1x Daño máx."
+L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "10%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x125.printname"] = "Daño máximo x1,25"
-L["unlameifier_tuning_max_damage_x125.compactname"] = "Daño máx. x1,25"
-L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Daño Máximo", "25%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x125.printname"] = "1.25x Daño máximo"
+L["unlameifier_tuning_max_damage_x125.compactname"] = "1.25x Daño máx."
+L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "25%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x150.printname"] = "Daño máximo x1,5"
-L["unlameifier_tuning_max_damage_x150.compactname"] = "Daño máx. x1,5"
-L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Daño Máximo", "50%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x150.printname"] = "1.5x Daño máximo"
+L["unlameifier_tuning_max_damage_x150.compactname"] = "1.5x Daño máx."
+L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "50%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x175.printname"] = "Daño máximo x1,75"
-L["unlameifier_tuning_max_damage_x175.compactname"] = "Daño máx. x1,75"
-L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Daño Máximo", "75%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x175.printname"] = "1.75x Daño máximo"
+L["unlameifier_tuning_max_damage_x175.compactname"] = "1.75x Daño máx."
+L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "75%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x2.printname"] = "Daño máximo x2"
-L["unlameifier_tuning_max_damage_x2.compactname"] = "Daño máx. x2"
-L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Daño Máximo", "100%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x2.printname"] = "2x Daño máximo"
+L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Daño máx."
+L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "100%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x5.printname"] = "Daño máximo x5"
-L["unlameifier_tuning_max_damage_x5.compactname"] = "Daño máx. x5"
-L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Daño Máximo", "400%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x5.printname"] = "5x Daño máximo"
+L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Daño máx."
+L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "400%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x10.printname"] = "Daño máximo x10"
-L["unlameifier_tuning_max_damage_x10.compactname"] = "Daño máx. x10"
-L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Daño Máximo", "900%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x10.printname"] = "10x Daño máximo"
+L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Daño máx."
+L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Daño Máx.imo", "900%") .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Daño máximo"
 L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Daño máx."
-L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Daño máximo"
 L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Daño máx."
-L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Daño máximo"
 L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Daño máx."
-L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Daño máximo"
 L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Daño máx."
-L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Daño máximo"
 L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Daño máx."
-L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Daño máximo"
 L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Daño máx."
-L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Daño máximo"
 L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Daño máx."
-L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Daño máximo"
 L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Daño máx."
-L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Daño Máximo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Daño máximo"
 L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Daño máx."
-L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Daño Máximo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Daño Máx.imo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Daño máximo"
 L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Daño máx."
-L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Daño máximo"
 L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Daño máx."
-L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Daño máximo"
 L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Daño máx."
-L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Daño máximo"
 L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Daño máx."
-L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Daño máximo"
 L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Daño máx."
-L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Daño máximo"
 L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Daño máx."
-L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Daño máximo"
 L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Daño máx."
-L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Daño máximo"
 L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Daño máx."
-L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Daño Máximo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 500) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Daño máximo"
 L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Daño máx."
-L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Daño Máximo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Daño Máx.imo", 1000) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_0.printname"] = "Daño máximo a 0"
-L["unlameifier_tuning_max_damage_force_0.compactname"] = "Daño máx. 0"
-L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Daño Máximo", 0) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Daño máximo"
+L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Daño máx."
+L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 0) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_1.printname"] = "Daño máximo a 1"
-L["unlameifier_tuning_max_damage_force_1.compactname"] = "Daño máx. 1"
-L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Daño Máximo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Daño máximo"
+L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Daño máx."
+L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 1) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_5.printname"] = "Daño máximo a 5"
-L["unlameifier_tuning_max_damage_force_5.compactname"] = "Daño máx. 5"
-L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Daño Máximo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Daño máximo"
+L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Daño máx."
+L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 5) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_10.printname"] = "Daño máximo a 10"
-L["unlameifier_tuning_max_damage_force_10.compactname"] = "Daño máx. 10"
-L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Daño Máximo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Daño máximo"
+L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Daño máx."
+L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 10) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_25.printname"] = "Daño máximo a 25"
-L["unlameifier_tuning_max_damage_force_25.compactname"] = "Daño máx. 25"
-L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Daño Máximo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Daño máximo"
+L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Daño máx."
+L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 25) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_30.printname"] = "Daño máximo a 30"
-L["unlameifier_tuning_max_damage_force_30.compactname"] = "Daño máx. 30"
-L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Daño Máximo", 30) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Daño máximo"
+L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Daño máx."
+L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 30) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_50.printname"] = "Daño máximo a 50"
-L["unlameifier_tuning_max_damage_force_50.compactname"] = "Daño máx. 50"
-L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Daño Máximo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Daño máximo"
+L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Daño máx."
+L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 50) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_75.printname"] = "Daño máximo a 75"
-L["unlameifier_tuning_max_damage_force_75.compactname"] = "Daño máx. 75"
-L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Daño Máximo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Daño máximo"
+L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Daño máx."
+L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 75) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_100.printname"] = "Daño máximo a 100"
-L["unlameifier_tuning_max_damage_force_100.compactname"] = "Daño máx. 100"
-L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Daño Máximo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Daño máximo"
+L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Daño máx."
+L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 100) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_99999.printname"] = "Daño máximo a 99999"
-L["unlameifier_tuning_max_damage_force_99999.compactname"] = "Daño máx. 99999"
-L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Daño Máximo", 99999) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Daño máximo"
+L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Daño máx."
+L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Daño Máx.imo", 99999) .. "Esto altera la máxima cantidad de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 ///////// Minimum Damage
-L["unlameifier.folder.mindamage"] = "Daño/Min"
-L["unlameifier.folder.mindamage.fixed"] = "Daño/Min/Fixed"
-L["unlameifier.folder.mindamage.plus"] = "Daño/Min/Add"
-L["unlameifier.folder.mindamage.minus"] = "Daño/Min/Subtract"
-L["unlameifier.folder.mindamage.multiply"] = "Daño/Min/Multiply"
-L["unlameifier.folder.mindamage.divide"] = "Daño/Min/Divide"
+L["unlameifier.folder.mindamage"] = "Daño/Mín."
+L["unlameifier.folder.mindamage.fixed"] = "Daño/Mín./Fijo"
+L["unlameifier.folder.mindamage.plus"] = "Daño/Mín./Añadir"
+L["unlameifier.folder.mindamage.minus"] = "Daño/Mín./Restar"
+L["unlameifier.folder.mindamage.multiply"] = "Daño/Mín./Multiplicar"
+L["unlameifier.folder.mindamage.divide"] = "Daño/Mín./Dividir"
 
-L["unlameifier_tuning_min_damage_x010.printname"] = "Daño mínimo x0,1"
-L["unlameifier_tuning_min_damage_x010.compactname"] = "Daño mín. x0,1"
+L["unlameifier_tuning_min_damage_x010.printname"] = "0.1x Daño mínimo"
+L["unlameifier_tuning_min_damage_x010.compactname"] = "0.1x Daño mín."
 L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Daño Mínimo", "90%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x025.printname"] = "Daño mínimo x0,25"
-L["unlameifier_tuning_min_damage_x025.compactname"] = "Daño mín. x0,25"
+L["unlameifier_tuning_min_damage_x025.printname"] = "0.25x Daño mínimo"
+L["unlameifier_tuning_min_damage_x025.compactname"] = "0.25x Daño mín."
 L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Daño Mínimo", "75%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x050.printname"] = "Daño mínimo x0,5"
-L["unlameifier_tuning_min_damage_x050.compactname"] = "Daño mín. x0,5"
+L["unlameifier_tuning_min_damage_x050.printname"] = "0.5x Daño mínimo"
+L["unlameifier_tuning_min_damage_x050.compactname"] = "0.5x Daño mín."
 L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Daño Mínimo", "50%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x075.printname"] = "Daño mínimo x0,75"
-L["unlameifier_tuning_min_damage_x075.compactname"] = "Daño mín. x0,75"
+L["unlameifier_tuning_min_damage_x075.printname"] = "0.75x Daño mínimo"
+L["unlameifier_tuning_min_damage_x075.compactname"] = "0.75x Daño mín."
 L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Daño Mínimo", "25%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x090.printname"] = "Daño mínimo x0,9"
-L["unlameifier_tuning_min_damage_x090.compactname"] = "Daño mín. x0,9"
+L["unlameifier_tuning_min_damage_x090.printname"] = "0.9x Daño mínimo"
+L["unlameifier_tuning_min_damage_x090.compactname"] = "0.9x Daño mín."
 L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Daño Mínimo", "10%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x110.printname"] = "Daño mínimo x1,1"
-L["unlameifier_tuning_min_damage_x110.compactname"] = "Daño mín. x1,1"
+L["unlameifier_tuning_min_damage_x110.printname"] = "1.1x Daño mínimo"
+L["unlameifier_tuning_min_damage_x110.compactname"] = "1.1x Daño mín."
 L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Daño Mínimo", "10%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x125.printname"] = "Daño mínimo x1,25"
-L["unlameifier_tuning_min_damage_x125.compactname"] = "Daño mín. x1,25"
+L["unlameifier_tuning_min_damage_x125.printname"] = "1.25x Daño mínimo"
+L["unlameifier_tuning_min_damage_x125.compactname"] = "1.25x Daño mín."
 L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Daño Mínimo", "25%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x150.printname"] = "Daño mínimo x1,5"
-L["unlameifier_tuning_min_damage_x150.compactname"] = "Daño mín. x1,5"
+L["unlameifier_tuning_min_damage_x150.printname"] = "1.5x Daño mínimo"
+L["unlameifier_tuning_min_damage_x150.compactname"] = "1.5x Daño mín."
 L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Daño Mínimo", "50%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x175.printname"] = "Daño mínimo x1,75"
-L["unlameifier_tuning_min_damage_x175.compactname"] = "Daño mín. x1,75"
+L["unlameifier_tuning_min_damage_x175.printname"] = "1.75x Daño mínimo"
+L["unlameifier_tuning_min_damage_x175.compactname"] = "1.75x Daño mín."
 L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Daño Mínimo", "75%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x2.printname"] = "Daño mínimo x2"
-L["unlameifier_tuning_min_damage_x2.compactname"] = "Daño mín. x2"
+L["unlameifier_tuning_min_damage_x2.printname"] = "2x Daño mínimo"
+L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Daño mín."
 L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Daño Mínimo", "100%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x5.printname"] = "Daño mínimo x5"
-L["unlameifier_tuning_min_damage_x5.compactname"] = "Daño mín. x5"
+L["unlameifier_tuning_min_damage_x5.printname"] = "5x Daño mínimo"
+L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Daño mín."
 L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Daño Mínimo", "400%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x10.printname"] = "Daño mínimo x10"
-L["unlameifier_tuning_min_damage_x10.compactname"] = "Daño mín. x10"
+L["unlameifier_tuning_min_damage_x10.printname"] = "10x Daño mínimo"
+L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Daño mín."
 L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Daño Mínimo", "900%") .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Daño mínimo"
@@ -2905,99 +2905,99 @@ L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Daño mínimo"
 L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Daño mín."
 L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Daño Mínimo", 1000) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_0.printname"] = "Daño mínimo a 0"
-L["unlameifier_tuning_min_damage_force_0.compactname"] = "Daño mín. 0"
+L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Daño mín."
 L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 0) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_1.printname"] = "Daño mínimo a 1"
-L["unlameifier_tuning_min_damage_force_1.compactname"] = "Daño mín. 1"
+L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Daño mín."
 L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 1) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_5.printname"] = "Daño mínimo a 5"
-L["unlameifier_tuning_min_damage_force_5.compactname"] = "Daño mín. 5"
+L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Daño mín."
 L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 5) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_10.printname"] = "Daño mínimo a 10"
-L["unlameifier_tuning_min_damage_force_10.compactname"] = "Daño mín. 10"
+L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Daño mín."
 L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 10) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_25.printname"] = "Daño mínimo a 25"
-L["unlameifier_tuning_min_damage_force_25.compactname"] = "Daño mín. 25"
+L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Daño mín."
 L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 25) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_30.printname"] = "Daño mínimo a 30"
-L["unlameifier_tuning_min_damage_force_30.compactname"] = "Daño mín. 30"
+L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Daño mín."
 L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 30) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_50.printname"] = "Daño mínimo a 50"
-L["unlameifier_tuning_min_damage_force_50.compactname"] = "Daño mín. 50"
+L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Daño mín."
 L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 50) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_75.printname"] = "Daño mínimo a 75"
-L["unlameifier_tuning_min_damage_force_75.compactname"] = "Daño mín. 75"
+L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Daño mín."
 L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 75) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_100.printname"] = "Daño mínimo a 100"
-L["unlameifier_tuning_min_damage_force_100.compactname"] = "Daño mín. 100"
+L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Daño mín."
 L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 100) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_99999.printname"] = "Daño mínimo a 99999"
-L["unlameifier_tuning_min_damage_force_99999.compactname"] = "Daño mín. 99999"
+L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Daño mínimo"
+L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Daño mín."
 L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Daño Mínimo", 99999) .. "Esto altera la cantidad mínima de daño que puede inflingir el arma." .. statsdesc.warndmgeft
 
 ///////// Recoil
-L["unlameifier.folder.recoil"] = "Retroceso"
+L["unlameifier.folder.Retroceso"] = "Retroceso"
 L["unlameifier.folder.recoil.plus"] = "Retroceso/Añadir"
-L["unlameifier.folder.recoil.minus"] = "Retroceso/Retroceso"
+L["unlameifier.folder.recoil.minus"] = "Retroceso/Restar"
 L["unlameifier.folder.recoil.multiply"] = "Retroceso/Multiplicar"
 L["unlameifier.folder.recoil.divide"] = "Retroceso/Dividir"
 
-L["unlameifier_tuning_recoil_x010.printname"] = "Retroceso x0,1"
-L["unlameifier_tuning_recoil_x010.compactname"] = "Retroceso x0,1"
+L["unlameifier_tuning_recoil_x010.printname"] = "0.1x Retroceso"
+L["unlameifier_tuning_recoil_x010.compactname"] = "0.1x Retroceso"
 L["unlameifier_tuning_recoil_x010.description"] = string.format(statsdesc.minusinv, "Retroceso", "90%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x025.printname"] = "Retroceso x0,25"
-L["unlameifier_tuning_recoil_x025.compactname"] = "Retroceso x0,25"
+L["unlameifier_tuning_recoil_x025.printname"] = "0.25x Retroceso"
+L["unlameifier_tuning_recoil_x025.compactname"] = "0.25x Retroceso"
 L["unlameifier_tuning_recoil_x025.description"] = string.format(statsdesc.minusinv, "Retroceso", "75%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x050.printname"] = "Retroceso x0,5"
-L["unlameifier_tuning_recoil_x050.compactname"] = "Retroceso x0,5"
+L["unlameifier_tuning_recoil_x050.printname"] = "0.5x Retroceso"
+L["unlameifier_tuning_recoil_x050.compactname"] = "0.5x Retroceso"
 L["unlameifier_tuning_recoil_x050.description"] = string.format(statsdesc.minusinv, "Retroceso", "50%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x075.printname"] = "Retroceso x0,75"
-L["unlameifier_tuning_recoil_x075.compactname"] = "Retroceso x0,75"
+L["unlameifier_tuning_recoil_x075.printname"] = "0.75x Retroceso"
+L["unlameifier_tuning_recoil_x075.compactname"] = "0.75x Retroceso"
 L["unlameifier_tuning_recoil_x075.description"] = string.format(statsdesc.minusinv, "Retroceso", "25%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x090.printname"] = "Retroceso x0,9"
-L["unlameifier_tuning_recoil_x090.compactname"] = "Retroceso x0,9"
+L["unlameifier_tuning_recoil_x090.printname"] = "0.9x Retroceso"
+L["unlameifier_tuning_recoil_x090.compactname"] = "0.9x Retroceso"
 L["unlameifier_tuning_recoil_x090.description"] = string.format(statsdesc.minusinv, "Retroceso", "10%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x110.printname"] = "Retroceso x1,1"
-L["unlameifier_tuning_recoil_x110.compactname"] = "Retroceso x1,1"
+L["unlameifier_tuning_recoil_x110.printname"] = "1.1x Retroceso"
+L["unlameifier_tuning_recoil_x110.compactname"] = "1.1x Retroceso"
 L["unlameifier_tuning_recoil_x110.description"] = string.format(statsdesc.plusinv, "Retroceso", "10%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x125.printname"] = "Retroceso x1,25"
-L["unlameifier_tuning_recoil_x125.compactname"] = "Retroceso x1,25"
+L["unlameifier_tuning_recoil_x125.printname"] = "1.25x Retroceso"
+L["unlameifier_tuning_recoil_x125.compactname"] = "1.25x Retroceso"
 L["unlameifier_tuning_recoil_x125.description"] = string.format(statsdesc.plusinv, "Retroceso", "25%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar."
 
-L["unlameifier_tuning_recoil_x150.printname"] = "Retroceso x1,5"
-L["unlameifier_tuning_recoil_x150.compactname"] = "Retroceso x1,5"
+L["unlameifier_tuning_recoil_x150.printname"] = "1.5x Retroceso"
+L["unlameifier_tuning_recoil_x150.compactname"] = "1.5x Retroceso"
 L["unlameifier_tuning_recoil_x150.description"] = string.format(statsdesc.plusinv, "Retroceso", "50%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x175.printname"] = "Retroceso x1,75"
-L["unlameifier_tuning_recoil_x175.compactname"] = "Retroceso x1,75"
+L["unlameifier_tuning_recoil_x175.printname"] = "1.75x Retroceso"
+L["unlameifier_tuning_recoil_x175.compactname"] = "1.75x Retroceso"
 L["unlameifier_tuning_recoil_x175.description"] = string.format(statsdesc.plusinv, "Retroceso", "75%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x2.printname"] = "Retroceso x2"
-L["unlameifier_tuning_recoil_x2.compactname"] = "Retroceso x2"
+L["unlameifier_tuning_recoil_x2.printname"] = "2x Retroceso"
+L["unlameifier_tuning_recoil_x2.compactname"] = "2x Retroceso"
 L["unlameifier_tuning_recoil_x2.description"] = string.format(statsdesc.plusinv, "Retroceso", "100%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x5.printname"] = "Retroceso x5"
-L["unlameifier_tuning_recoil_x5.compactname"] = "Retroceso x5"
+L["unlameifier_tuning_recoil_x5.printname"] = "5x Retroceso"
+L["unlameifier_tuning_recoil_x5.compactname"] = "5x Retroceso"
 L["unlameifier_tuning_recoil_x5.description"] = string.format(statsdesc.plusinv, "Retroceso", "400%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x10.printname"] = "Retroceso x10"
-L["unlameifier_tuning_recoil_x10.compactname"] = "Retroceso x10"
+L["unlameifier_tuning_recoil_x10.printname"] = "10x Retroceso"
+L["unlameifier_tuning_recoil_x10.compactname"] = "10x Retroceso"
 L["unlameifier_tuning_recoil_x10.description"] = string.format(statsdesc.plusinv, "Retroceso", "900%") .. "Esto altera cuanto se mueve hacia arriba la cámara al disparar." .. statsdesc.warnrecoiltoohigh
 
 L["unlameifier_tuning_recoil_plus1.printname"] = "+1 Retroceso"
@@ -3074,130 +3074,130 @@ L["unlameifier_tuning_recoil_minus1000.description"] = string.format(statsdesc.m
 
 ///////// Visual Recoil
 L["unlameifier.folder.visrecoil"] = "Retroceso visual"
-L["unlameifier.folder.visrecoil.plus"] = "Retroceso visual/Añadir"
-L["unlameifier.folder.visrecoil.minus"] = "Retroceso visual/Restar"
-L["unlameifier.folder.visrecoil.multiply"] = "Retroceso visual/Multiplicar"
-L["unlameifier.folder.visrecoil.divide"] = "Retroceso visual/Dividir"
+L["unlameifier.folder.visrecoil.plus"] = "Visual Recoil/Añadir"
+L["unlameifier.folder.visrecoil.minus"] = "Visual Recoil/Restar"
+L["unlameifier.folder.visrecoil.multiply"] = "Visual Recoil/Multiplicar"
+L["unlameifier.folder.visrecoil.divide"] = "Visual Recoil/Dividir"
 
-L["unlameifier_tuning_visrecoil_x010.printname"] = "Retroceso visual x0,1"
-L["unlameifier_tuning_visrecoil_x010.compactname"] = "Retro. vis. x0,1"
-L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "90%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x010.printname"] = "0.1x Retroceso visual
+L["unlameifier_tuning_visrecoil_x010.compactname"] = "0.1x Retro. vis."
+L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "90%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x025.printname"] = "Retroceso visual x0,25"
-L["unlameifier_tuning_visrecoil_x025.compactname"] = "Retro. vis. x0,25"
-L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x025.printname"] = "0.25x Retroceso visual
+L["unlameifier_tuning_visrecoil_x025.compactname"] = "0.25x Retro. vis."
+L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x050.printname"] = "Retroceso visual x0,5"
-L["unlameifier_tuning_visrecoil_x050.compactname"] = "Retro. vis. x0,5"
-L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x050.printname"] = "0.5x Retroceso visual
+L["unlameifier_tuning_visrecoil_x050.compactname"] = "0.5x Retro. vis."
+L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x075.printname"] = "Retroceso visual x0,75"
-L["unlameifier_tuning_visrecoil_x075.compactname"] = "Retro. vis. x0,75"
-L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x075.printname"] = "0.75x Retroceso visual
+L["unlameifier_tuning_visrecoil_x075.compactname"] = "0.75x Retro. vis."
+L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x090.printname"] = "Retroceso visual x0,9"
-L["unlameifier_tuning_visrecoil_x090.compactname"] = "Retro. vis. x0,9"
-L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x090.printname"] = "0.9x Retroceso visual
+L["unlameifier_tuning_visrecoil_x090.compactname"] = "0.9x Retro. vis."
+L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, Retroceso Visual, "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x110.printname"] = "Retroceso visual x1,1"
-L["unlameifier_tuning_visrecoil_x110.compactname"] = "Retro. vis. x1,1"
-L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x110.printname"] = "1.1x Retroceso visual
+L["unlameifier_tuning_visrecoil_x110.compactname"] = "1.1x Retro. vis."
+L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "10%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x125.printname"] = "Retroceso visual x1,25"
-L["unlameifier_tuning_visrecoil_x125.compactname"] = "Retro. vis. x1,25"
-L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x125.printname"] = "1.25x Retroceso visual
+L["unlameifier_tuning_visrecoil_x125.compactname"] = "1.25x Retro. vis."
+L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "25%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x150.printname"] = "Retroceso visual x1,5"
-L["unlameifier_tuning_visrecoil_x150.compactname"] = "Retro. vis. x1,5"
-L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x150.printname"] = "1.5x Retroceso visual
+L["unlameifier_tuning_visrecoil_x150.compactname"] = "1.5x Retro. vis."
+L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "50%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x175.printname"] = "Retroceso visual x1,75"
-L["unlameifier_tuning_visrecoil_x175.compactname"] = "Retro. vis. x1,75"
-L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x175.printname"] = "1.75x Retroceso visual
+L["unlameifier_tuning_visrecoil_x175.compactname"] = "1.75x Retro. vis."
+L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "75%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x2.printname"] = "Retroceso visual x2"
-L["unlameifier_tuning_visrecoil_x2.compactname"] = "Retro. vis. x2"
-L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "100%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Retroceso visual
+L["unlameifier_tuning_visrecoil_x2.compactname"] = "2x Retro. vis."
+L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "100%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x5.printname"] = "Retroceso visual x5"
-L["unlameifier_tuning_visrecoil_x5.compactname"] = "Retro. vis. x5"
-L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "400%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Retroceso visual
+L["unlameifier_tuning_visrecoil_x5.compactname"] = "5x Retro. vis."
+L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "400%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x10.printname"] = "Retroceso visual x10"
-L["unlameifier_tuning_visrecoil_x10.compactname"] = "Retro. vis. x10"
-L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", "900%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Retroceso visual
+L["unlameifier_tuning_visrecoil_x10.compactname"] = "10x Retro. vis."
+L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, Retroceso Visual, "900%") .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Retroceso visual"
+L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Retroceso visual
 L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 Retro. vis."
-L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Retroceso Visual", 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, Retroceso Visual, 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 1) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 5) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 10) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 25) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 50) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 75) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 100) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 500) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Retroceso visual"
+L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Retroceso visual
 L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 Retro. vis."
-L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Retroceso Visual", 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, Retroceso Visual, 1000) .. "Esto altera cuando se mueve el punto de mira y el arma hacia arriba al disparar, independientemente de la cámara." .. statsdesc.warnvisrecoiltoolow
 
 ///////// Reload Time
 L["unlameifier.folder.reloadtime"] = "Tiem. recarga"
@@ -3206,230 +3206,230 @@ L["unlameifier.folder.reloadtime.minus"] = "Tiem. recarga/Restar"
 L["unlameifier.folder.reloadtime.multiply"] = "Tiem. recarga/Multiplicar"
 L["unlameifier.folder.reloadtime.divide"] = "Tiem. recarga/Dividir"
 
-L["unlameifier_tuning_reloadtime_x0.printname"] = "Tiempo de recarga x0"
-L["unlameifier_tuning_reloadtime_x0.compactname"] = "Tiem. recarga x0"
-L["unlameifier_tuning_reloadtime_x0.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "100%") .. "Esto altera lo rápido que se recarga el arma." .. "\n\n" .. "This is effectively an <color=255,255,100>instant reload</color> effect."
+L["unlameifier_tuning_reloadtime_x0.printname"] = "0x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x0.compactname"] = "0x Tiem. recarga"
+L["unlameifier_tuning_reloadtime_x0.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "100%") .. "Esto altera lo rápido que se recarga el arma." .. "\n\n" .. "Esto es a efectos prácticos un efecto de <color=255,255,100>recarga instantánea</color>."
 
-L["unlameifier_tuning_reloadtime_x010.printname"] = "Tiempo de recarga x0,1"
-L["unlameifier_tuning_reloadtime_x010.compactname"] = "Tiem. recarga x0,1"
+L["unlameifier_tuning_reloadtime_x010.printname"] = "0.1x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x010.compactname"] = "0.1x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x010.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "90%") .. "Esto altera lo rápido que se recarga el arma." 
 
-L["unlameifier_tuning_reloadtime_x025.printname"] = "Tiempo de recarga x0,25"
-L["unlameifier_tuning_reloadtime_x025.compactname"] = "Tiem. recarga x0,25"
+L["unlameifier_tuning_reloadtime_x025.printname"] = "0.25x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x025.compactname"] = "0.25x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x025.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "75%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x050.printname"] = "Tiempo de recarga x0,5"
-L["unlameifier_tuning_reloadtime_x050.compactname"] = "Tiem. recarga x0,5"
+L["unlameifier_tuning_reloadtime_x050.printname"] = "0.5x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x050.compactname"] = "0.5x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x050.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "50%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x075.printname"] = "Tiempo de recarga x0,75"
-L["unlameifier_tuning_reloadtime_x075.compactname"] = "Tiem. recarga x0,75"
+L["unlameifier_tuning_reloadtime_x075.printname"] = "0.75x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x075.compactname"] = "0.75x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x075.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "25%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x090.printname"] = "Tiempo de recarga x0,9"
-L["unlameifier_tuning_reloadtime_x090.compactname"] = "Tiem. recarga x0,9"
+L["unlameifier_tuning_reloadtime_x090.printname"] = "0.9x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x090.compactname"] = "0.9x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x090.description"] = string.format(statsdesc.minusinv, "Tiempo de Recarga", "10%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x110.printname"] = "Tiempo de recarga x1,1"
-L["unlameifier_tuning_reloadtime_x110.compactname"] = "Tiem. recarga x1,1"
+L["unlameifier_tuning_reloadtime_x110.printname"] = "1.1x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x110.compactname"] = "1.1x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x110.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "10%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x125.printname"] = "Tiempo de recarga x1,25"
-L["unlameifier_tuning_reloadtime_x125.compactname"] = "Tiem. recarga x1,25"
+L["unlameifier_tuning_reloadtime_x125.printname"] = "1.25x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x125.compactname"] = "1.25x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x125.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "25%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x150.printname"] = "Tiempo de recarga x1,5"
-L["unlameifier_tuning_reloadtime_x150.compactname"] = "Tiem. recarga x1,5"
+L["unlameifier_tuning_reloadtime_x150.printname"] = "1.5x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x150.compactname"] = "1.5x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x150.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "50%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x175.printname"] = "Tiempo de recarga x1,75"
-L["unlameifier_tuning_reloadtime_x175.compactname"] = "Tiem. recarga x1,75"
+L["unlameifier_tuning_reloadtime_x175.printname"] = "1.75x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x175.compactname"] = "1.75x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x175.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "75%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x2.printname"] = "Tiempo de recarga x2"
-L["unlameifier_tuning_reloadtime_x2.compactname"] = "Tiem. recarga x2"
+L["unlameifier_tuning_reloadtime_x2.printname"] = "2x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x2.compactname"] = "2x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x2.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "100%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x5.printname"] = "Tiempo de recarga x5"
-L["unlameifier_tuning_reloadtime_x5.compactname"] = "Tiem. recarga x5"
+L["unlameifier_tuning_reloadtime_x5.printname"] = "5x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x5.compactname"] = "5x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x5.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "400%") .. "Esto altera lo rápido que se recarga el arma."
 
-L["unlameifier_tuning_reloadtime_x10.printname"] = "Tiempo de recarga x10"
-L["unlameifier_tuning_reloadtime_x10.compactname"] = "Tiem. recarga x10"
+L["unlameifier_tuning_reloadtime_x10.printname"] = "10x Tiempo de recarga"
+L["unlameifier_tuning_reloadtime_x10.compactname"] = "10x Tiem. recarga"
 L["unlameifier_tuning_reloadtime_x10.description"] = string.format(statsdesc.plusinv, "Tiempo de Recarga", "900%") .. "Esto altera lo rápido que se recarga el arma."
 
 ///////// Deploy Time
 L["unlameifier.folder.deploytime"] = "Tiem. desenfundar"
-L["unlameifier.folder.deploytime.plus"] = "Tiem. desenfundar/Add"
-L["unlameifier.folder.deploytime.minus"] = "Tiem. desenfundar/Subtract"
-L["unlameifier.folder.deploytime.multiply"] = "Tiem. desenfundar/Multiply"
-L["unlameifier.folder.deploytime.divide"] = "Tiem. desenfundar/Divide"
+L["unlameifier.folder.deploytime.plus"] = "Tiem. desenfundar/Añadir"
+L["unlameifier.folder.deploytime.minus"] = "Tiem. desenfundar/Restar"
+L["unlameifier.folder.deploytime.multiply"] = "Tiem. desenfundar/Multiplicar"
+L["unlameifier.folder.deploytime.divide"] = "Tiem. desenfundar/Dividir"
 
-L["unlameifier_tuning_deploytime_x0.printname"] = "Tiempo de desenfundar x0"
-L["unlameifier_tuning_deploytime_x0.compactname"] = "Tiem. desenfundar x0"
-L["unlameifier_tuning_deploytime_x0.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "100%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar." .. "\n\n" .. "Esto es efectivamente un efecto de <color=255,255,100>desenfundado instantáneo</color>."
+L["unlameifier_tuning_deploytime_x0.printname"] = "0x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x0.compactname"] = "0x Tiem. desenfundar"
+L["unlameifier_tuning_deploytime_x0.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "100%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar." .. "\n\n" .. "Esto es a efectos prácticos un efecto de <color=255,255,100>desenfunde instantáneo</color>."
 
-L["unlameifier_tuning_deploytime_x010.printname"] = "Tiempo de desenfundar x0,1"
-L["unlameifier_tuning_deploytime_x010.compactname"] = "Tiem. desenfundar x0,1"
+L["unlameifier_tuning_deploytime_x010.printname"] = "0.1x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x010.compactname"] = "0.1x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x010.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "90%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar." 
 
-L["unlameifier_tuning_deploytime_x025.printname"] = "Tiempo de desenfundar x0,25"
-L["unlameifier_tuning_deploytime_x025.compactname"] = "Tiem. desenfundar x0,25"
+L["unlameifier_tuning_deploytime_x025.printname"] = "0.25x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x025.compactname"] = "0.25x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x025.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "75%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x050.printname"] = "Tiempo de desenfundar x0,5"
-L["unlameifier_tuning_deploytime_x050.compactname"] = "Tiem. desenfundar x0,5"
+L["unlameifier_tuning_deploytime_x050.printname"] = "0.5x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x050.compactname"] = "0.5x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x050.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "50%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x075.printname"] = "Tiempo de desenfundar x0,75"
-L["unlameifier_tuning_deploytime_x075.compactname"] = "Tiem. desenfundar x0,75"
+L["unlameifier_tuning_deploytime_x075.printname"] = "0.75x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x075.compactname"] = "0.75x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x075.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "25%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x090.printname"] = "Tiempo de desenfundar x0,9"
-L["unlameifier_tuning_deploytime_x090.compactname"] = "Tiem. desenfundar x0,9"
+L["unlameifier_tuning_deploytime_x090.printname"] = "0.9x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x090.compactname"] = "0.9x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x090.description"] = string.format(statsdesc.minusinv, "Tiempo de Desenfundar", "10%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x110.printname"] = "Tiempo de desenfundar x1,1"
-L["unlameifier_tuning_deploytime_x110.compactname"] = "Tiem. desenfundar x1,1"
+L["unlameifier_tuning_deploytime_x110.printname"] = "1.1x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x110.compactname"] = "1.1x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x110.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "10%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x125.printname"] = "Tiempo de desenfundar x1,25"
-L["unlameifier_tuning_deploytime_x125.compactname"] = "Tiem. desenfundar x1,25"
+L["unlameifier_tuning_deploytime_x125.printname"] = "1.25x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x125.compactname"] = "1.25x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x125.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "25%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x150.printname"] = "Tiempo de desenfundar x1,5"
-L["unlameifier_tuning_deploytime_x150.compactname"] = "Tiem. desenfundar x1,5"
+L["unlameifier_tuning_deploytime_x150.printname"] = "1.5x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x150.compactname"] = "1.5x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x150.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "50%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x175.printname"] = "Tiempo de desenfundar x1,75"
-L["unlameifier_tuning_deploytime_x175.compactname"] = "Tiem. desenfundar x1,75"
+L["unlameifier_tuning_deploytime_x175.printname"] = "1.75x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x175.compactname"] = "1.75x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x175.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "75%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x2.printname"] = "Tiempo de desenfundar x2"
-L["unlameifier_tuning_deploytime_x2.compactname"] = "Tiem. desenfundar x2"
+L["unlameifier_tuning_deploytime_x2.printname"] = "2x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x2.compactname"] = "2x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x2.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "100%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x5.printname"] = "Tiempo de desenfundar x5"
-L["unlameifier_tuning_deploytime_x5.compactname"] = "Tiem. desenfundar x5"
+L["unlameifier_tuning_deploytime_x5.printname"] = "5x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x5.compactname"] = "5x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x5.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "400%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
-L["unlameifier_tuning_deploytime_x10.printname"] = "Tiempo de desenfundar x10"
-L["unlameifier_tuning_deploytime_x10.compactname"] = "Tiem. desenfundar x10"
+L["unlameifier_tuning_deploytime_x10.printname"] = "10x Tiempo de desenfundar"
+L["unlameifier_tuning_deploytime_x10.compactname"] = "10x Tiem. desenfundar"
 L["unlameifier_tuning_deploytime_x10.description"] = string.format(statsdesc.plusinv, "Tiempo de Desenfundar", "900%") .. "Esto altera lo rápido que el arma se desenfunda y se vuelve a enfundar."
 
 ///////// ADS Time
 L["unlameifier.folder.adstime"] = "Tiem. apuntar"
-L["unlameifier.folder.adstime.plus"] = "Tiem. apuntar/Add"
-L["unlameifier.folder.adstime.minus"] = "Tiem. apuntar/Subtract"
-L["unlameifier.folder.adstime.multiply"] = "Tiem. apuntar/Multiply"
-L["unlameifier.folder.adstime.divide"] = "Tiem. apuntar/Divide"
+L["unlameifier.folder.adstime.plus"] = "Tiem. apuntar/Añadir"
+L["unlameifier.folder.adstime.minus"] = "Tiem. apuntar/Restar"
+L["unlameifier.folder.adstime.multiply"] = "Tiem. apuntar/Multiplicar"
+L["unlameifier.folder.adstime.divide"] = "Tiem. apuntar/Dividir"
 
-L["unlameifier_tuning_adstime_x0.printname"] = "Tiempo para apuntar con mira x0"
-L["unlameifier_tuning_adstime_x0.compactname"] = "Tiem. apuntar x0"
-L["unlameifier_tuning_adstime_x0.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "100%") .. "Esto altera como de rápido se apunta y deja de apuntar." .. "\n\n" .. "Esto es efectivamente un efecto de <color=255,255,100>apuntado instantáneo</color>." .. statsdesc.warnadstoolow
+L["unlameifier_tuning_adstime_x0.printname"] = "0x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x0.compactname"] = "0x Tiem. apuntar"
+L["unlameifier_tuning_adstime_x0.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "100%") .. "Esto altera como de rápido se apunta y deja de apuntar." .. "\n\n" .. "Esto es a efectos prácticos un efecto de <color=255,255,100>apuntado instantáneo</color>." .. statsdesc.warnadstoolow
 
-L["unlameifier_tuning_adstime_x010.printname"] = "Tiempo para apuntar con mira x0,1"
-L["unlameifier_tuning_adstime_x010.compactname"] = "Tiem. apuntar x0.1"
+L["unlameifier_tuning_adstime_x010.printname"] = "0.1x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x010.compactname"] = "0.1x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x010.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "90%") .. "Esto altera como de rápido se apunta y deja de apuntar."  .. statsdesc.warnadstoolow
 
-L["unlameifier_tuning_adstime_x025.printname"] = "Tiempo para apuntar con mira x0,25"
-L["unlameifier_tuning_adstime_x025.compactname"] = "Tiem. apuntar x0.25"
+L["unlameifier_tuning_adstime_x025.printname"] = "0.25x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x025.compactname"] = "0.25x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x025.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "75%") .. "Esto altera como de rápido se apunta y deja de apuntar." .. statsdesc.warnadstoolow
 
-L["unlameifier_tuning_adstime_x050.printname"] = "Tiempo para apuntar con mira x0,5"
-L["unlameifier_tuning_adstime_x050.compactname"] = "Tiem. apuntar x0.5"
+L["unlameifier_tuning_adstime_x050.printname"] = "0.5x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x050.compactname"] = "0.5x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x050.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "50%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x075.printname"] = "Tiempo para apuntar con mira x0,75"
-L["unlameifier_tuning_adstime_x075.compactname"] = "Tiem. apuntar x0.75"
+L["unlameifier_tuning_adstime_x075.printname"] = "0.75x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x075.compactname"] = "0.75x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x075.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "25%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x090.printname"] = "Tiempo para apuntar con mira x0,9"
-L["unlameifier_tuning_adstime_x090.compactname"] = "Tiem. apuntar x0.9"
+L["unlameifier_tuning_adstime_x090.printname"] = "0.9x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x090.compactname"] = "0.9x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x090.description"] = string.format(statsdesc.minusinv, "Tiempo para apuntar con mira", "10%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x110.printname"] = "Tiempo para apuntar con mira x1,1"
-L["unlameifier_tuning_adstime_x110.compactname"] = "Tiem. apuntar x1.1"
+L["unlameifier_tuning_adstime_x110.printname"] = "1.1x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x110.compactname"] = "1.1x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x110.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "10%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x125.printname"] = "Tiempo para apuntar con mira x1,25"
-L["unlameifier_tuning_adstime_x125.compactname"] = "Tiem. apuntar x1.25"
+L["unlameifier_tuning_adstime_x125.printname"] = "1.25x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x125.compactname"] = "1.25x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x125.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "25%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x150.printname"] = "Tiempo para apuntar con mira x1,5"
-L["unlameifier_tuning_adstime_x150.compactname"] = "Tiem. apuntar x1.5"
+L["unlameifier_tuning_adstime_x150.printname"] = "1.5x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x150.compactname"] = "1.5x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x150.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "50%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x175.printname"] = "Tiempo para apuntar con mira x1,75"
-L["unlameifier_tuning_adstime_x175.compactname"] = "Tiem. apuntar x1.75"
+L["unlameifier_tuning_adstime_x175.printname"] = "1.75x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x175.compactname"] = "1.75x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x175.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "75%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x2.printname"] = "Tiempo para apuntar con mira x2"
-L["unlameifier_tuning_adstime_x2.compactname"] = "Tiem. apuntar x2"
+L["unlameifier_tuning_adstime_x2.printname"] = "2x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x2.compactname"] = "2x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x2.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "100%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x5.printname"] = "Tiempo para apuntar con mira x5"
-L["unlameifier_tuning_adstime_x5.compactname"] = "Tiem. apuntar x5"
+L["unlameifier_tuning_adstime_x5.printname"] = "5x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x5.compactname"] = "5x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x5.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "400%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
-L["unlameifier_tuning_adstime_x10.printname"] = "Tiempo para apuntar con mira x10"
-L["unlameifier_tuning_adstime_x10.compactname"] = "Tiem. apuntar x10"
+L["unlameifier_tuning_adstime_x10.printname"] = "10x Tiempo para apuntar con mira"
+L["unlameifier_tuning_adstime_x10.compactname"] = "10x Tiem. apuntar"
 L["unlameifier_tuning_adstime_x10.description"] = string.format(statsdesc.plusinv, "Tiempo para apuntar con mira", "900%") .. "Esto altera como de rápido se apunta y deja de apuntar."
 
 ///////// Magazine Capacity
-L["unlameifier.folder.magcap"] = "Capacidad del cargador"
+L["unlameifier.folder.magcap"] = "Cap. cargador"
 L["unlameifier.folder.magcap.fixed"] = "Cap. cargador/Fijo"
 L["unlameifier.folder.magcap.plus"] = "Cap. cargador/Añadir"
 L["unlameifier.folder.magcap.minus"] = "Cap. cargador/Restar"
 L["unlameifier.folder.magcap.multiply"] = "Cap. cargador/Multiplicar"
 L["unlameifier.folder.magcap.divide"] = "Cap. cargador/Dividir"
 
-L["unlameifier_tuning_mag_capacity_x010.printname"] = "Capacidad del cargador x0,1"
-L["unlameifier_tuning_mag_capacity_x010.compactname"] = "Cap. cargador x0,1"
+L["unlameifier_tuning_mag_capacity_x010.printname"] = "0.1x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x010.compactname"] = "0.1x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x010.description"] = string.format(statsdesc.minus, "Capacidad del cargador", "90%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x025.printname"] = "Capacidad del cargador x0,25"
-L["unlameifier_tuning_mag_capacity_x025.compactname"] = "Cap. cargador x0,25"
+L["unlameifier_tuning_mag_capacity_x025.printname"] = "0.25x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x025.compactname"] = "0.25x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x025.description"] = string.format(statsdesc.minus, "Capacidad del cargador", "75%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x050.printname"] = "Capacidad del cargador x0,5"
-L["unlameifier_tuning_mag_capacity_x050.compactname"] = "Cap. cargador x0,5"
+L["unlameifier_tuning_mag_capacity_x050.printname"] = "0.5x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x050.compactname"] = "0.5x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x050.description"] = string.format(statsdesc.minus, "Capacidad del cargador", "50%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x075.printname"] = "Capacidad del cargador x0,75"
-L["unlameifier_tuning_mag_capacity_x075.compactname"] = "Cap. cargador x0,75"
+L["unlameifier_tuning_mag_capacity_x075.printname"] = "0.75x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x075.compactname"] = "0.75x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x075.description"] = string.format(statsdesc.minus, "Capacidad del cargador", "25%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x090.printname"] = "Capacidad del cargador x0,9"
-L["unlameifier_tuning_mag_capacity_x090.compactname"] = "Cap. cargador x0,9"
+L["unlameifier_tuning_mag_capacity_x090.printname"] = "0.9x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x090.compactname"] = "0.9x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x090.description"] = string.format(statsdesc.minus, "Capacidad del cargador", "10%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x110.printname"] = "Capacidad del cargador x1,1"
-L["unlameifier_tuning_mag_capacity_x110.compactname"] = "Cap. cargador x1,1"
+L["unlameifier_tuning_mag_capacity_x110.printname"] = "1.1x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x110.compactname"] = "1.1x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x110.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "10%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x125.printname"] = "Capacidad del cargador x1,25"
-L["unlameifier_tuning_mag_capacity_x125.compactname"] = "Cap. cargador x1,25"
+L["unlameifier_tuning_mag_capacity_x125.printname"] = "1.25x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x125.compactname"] = "1.25x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x125.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "25%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x150.printname"] = "Capacidad del cargador x1,5"
-L["unlameifier_tuning_mag_capacity_x150.compactname"] = "Cap. cargador x1,5"
+L["unlameifier_tuning_mag_capacity_x150.printname"] = "1.5x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x150.compactname"] = "1.5x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x150.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "50%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x175.printname"] = "Capacidad del cargador x1,75"
-L["unlameifier_tuning_mag_capacity_x175.compactname"] = "Cap. cargador x1,75"
+L["unlameifier_tuning_mag_capacity_x175.printname"] = "1.75x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x175.compactname"] = "1.75x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x175.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "75%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x2.printname"] = "Capacidad del cargador x2"
-L["unlameifier_tuning_mag_capacity_x2.compactname"] = "Cap. cargador x2"
+L["unlameifier_tuning_mag_capacity_x2.printname"] = "2x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x2.compactname"] = "2x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x2.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "100%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x5.printname"] = "Capacidad del cargador x5"
-L["unlameifier_tuning_mag_capacity_x5.compactname"] = "Cap. cargador x5"
+L["unlameifier_tuning_mag_capacity_x5.printname"] = "5x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x5.compactname"] = "5x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x5.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "400%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_x10.printname"] = "Capacidad del cargador x10"
-L["unlameifier_tuning_mag_capacity_x10.compactname"] = "Cap. cargador x10"
+L["unlameifier_tuning_mag_capacity_x10.printname"] = "10x Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_x10.compactname"] = "10x Cap. cargador"
 L["unlameifier_tuning_mag_capacity_x10.description"] = string.format(statsdesc.plus, "Capacidad del cargador", "900%") .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
 L["unlameifier_tuning_mag_capacity_plus1.printname"] = "+1 Capacidad del cargador"
@@ -3504,112 +3504,112 @@ L["unlameifier_tuning_mag_capacity_minus1000.printname"] = "-1000 Capacidad del 
 L["unlameifier_tuning_mag_capacity_minus1000.compactname"] = "-1000 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_minus1000.description"] = string.format(statsdesc.minus, "Capacidad del cargador", 1000) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force1.printname"] = "Capacidad del cargador a 1"
-L["unlameifier_tuning_mag_capacity_force1.compactname"] = "Cap. cargador 1"
+L["unlameifier_tuning_mag_capacity_force1.printname"] = "1 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force1.compactname"] = "1 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force1.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 1) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force5.printname"] = "Capacidad del cargador a 5"
-L["unlameifier_tuning_mag_capacity_force5.compactname"] = "Cap. cargador 5"
+L["unlameifier_tuning_mag_capacity_force5.printname"] = "5 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force5.compactname"] = "5 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force5.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 5) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force10.printname"] = "Capacidad del cargador a 10"
-L["unlameifier_tuning_mag_capacity_force10.compactname"] = "Cap. cargador 10"
+L["unlameifier_tuning_mag_capacity_force10.printname"] = "10 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force10.compactname"] = "10 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force10.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 10) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force15.printname"] = "Capacidad del cargador a 15"
-L["unlameifier_tuning_mag_capacity_force15.compactname"] = "Cap. cargador 15"
+L["unlameifier_tuning_mag_capacity_force15.printname"] = "15 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force15.compactname"] = "15 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force15.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 15) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force17.printname"] = "Capacidad del cargador a 17"
-L["unlameifier_tuning_mag_capacity_force17.compactname"] = "Cap. cargador 17"
+L["unlameifier_tuning_mag_capacity_force17.printname"] = "17 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force17.compactname"] = "17 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force17.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 17) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force20.printname"] = "Capacidad del cargador a 20"
-L["unlameifier_tuning_mag_capacity_force20.compactname"] = "Cap. cargador 20"
+L["unlameifier_tuning_mag_capacity_force20.printname"] = "20 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force20.compactname"] = "20 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force20.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 20) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force25.printname"] = "Capacidad del cargador a 25"
-L["unlameifier_tuning_mag_capacity_force25.compactname"] = "Cap. cargador 25"
+L["unlameifier_tuning_mag_capacity_force25.printname"] = "25 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force25.compactname"] = "25 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force25.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 25) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force30.printname"] = "Capacidad del cargador a 30"
-L["unlameifier_tuning_mag_capacity_force30.compactname"] = "Cap. cargador 30"
+L["unlameifier_tuning_mag_capacity_force30.printname"] = "30 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force30.compactname"] = "30 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force30.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 30) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force50.printname"] = "Capacidad del cargador a 50"
-L["unlameifier_tuning_mag_capacity_force50.compactname"] = "Cap. cargador 50"
+L["unlameifier_tuning_mag_capacity_force50.printname"] = "50 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force50.compactname"] = "50 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force50.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 50) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force75.printname"] = "Capacidad del cargador a 75"
-L["unlameifier_tuning_mag_capacity_force75.compactname"] = "Cap. cargador 75"
+L["unlameifier_tuning_mag_capacity_force75.printname"] = "75 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force75.compactname"] = "75 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force75.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 75) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force100.printname"] = "Capacidad del cargador a 100"
-L["unlameifier_tuning_mag_capacity_force100.compactname"] = "Cap. cargador 100"
+L["unlameifier_tuning_mag_capacity_force100.printname"] = "100 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force100.compactname"] = "100 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force100.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 100) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force500.printname"] = "Capacidad del cargador a 500"
-L["unlameifier_tuning_mag_capacity_force500.compactname"] = "Cap. cargador 500"
+L["unlameifier_tuning_mag_capacity_force500.printname"] = "500 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force500.compactname"] = "500 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force500.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 500) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-L["unlameifier_tuning_mag_capacity_force1000.printname"] = "Capacidad del cargador a 1000"
-L["unlameifier_tuning_mag_capacity_force1000.compactname"] = "Cap. cargador 1000"
+L["unlameifier_tuning_mag_capacity_force1000.printname"] = "1000 Capacidad del cargador"
+L["unlameifier_tuning_mag_capacity_force1000.compactname"] = "1000 Cap. cargador"
 L["unlameifier_tuning_mag_capacity_force1000.description"] = string.format(statsdesc.fixed, "Capacidad del cargador", 1000) .. "Esto altera la cantidad de balas que puede almacenar cada cargador."
 
-///////// Chamber Capacity
-L["unlameifier.folder.chambersize"] = "Capacidad de la recámara"
+///////// Cap. recámaraacity
+L["unlameifier.folder.chambersize"] = "Cap. recámara"
 L["unlameifier.folder.chambersize.fixed"] = "Cap. recámara/Fijo"
 L["unlameifier.folder.chambersize.plus"] = "Cap. recámara/Añadir"
 L["unlameifier.folder.chambersize.minus"] = "Cap. recámara/Restar"
 L["unlameifier.folder.chambersize.multiply"] = "Cap. recámara/Multiplicar"
 L["unlameifier.folder.chambersize.divide"] = "Cap. recámara/Dividir"
 
-L["unlameifier_tuning_chamber_capacity_x010.printname"] = "Capacidad de la recámara x0,1"
-L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "Cap. recámara x0,1"
+L["unlameifier_tuning_chamber_capacity_x010.printname"] = "0.1x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "0.1x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x010.description"] = string.format(statsdesc.minus, "Capacidad de la Cámara", "90%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x025.printname"] = "Capacidad de la recámara x0,25"
-L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "Cap. recámara x0,25"
+L["unlameifier_tuning_chamber_capacity_x025.printname"] = "0.25x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "0.25x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x025.description"] = string.format(statsdesc.minus, "Capacidad de la Cámara", "75%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x050.printname"] = "Capacidad de la recámara x0,5"
-L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "Cap. recámara x0,5"
+L["unlameifier_tuning_chamber_capacity_x050.printname"] = "0.5x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "0.5x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x050.description"] = string.format(statsdesc.minus, "Capacidad de la Cámara", "50%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x075.printname"] = "Capacidad de la recámara x0,75"
-L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "Cap. recámara x0,75"
+L["unlameifier_tuning_chamber_capacity_x075.printname"] = "0.75x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "0.75x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x075.description"] = string.format(statsdesc.minus, "Capacidad de la Cámara", "25%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x090.printname"] = "Capacidad de la recámara x0,9"
-L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "Cap. recámara x0,9"
+L["unlameifier_tuning_chamber_capacity_x090.printname"] = "0.9x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "0.9x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x090.description"] = string.format(statsdesc.minus, "Capacidad de la Cámara", "10%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x110.printname"] = "Capacidad de la recámara x1,1"
-L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "Cap. recámara x1,1"
+L["unlameifier_tuning_chamber_capacity_x110.printname"] = "1.1x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "1.1x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x110.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "10%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x125.printname"] = "Capacidad de la recámara x1,25"
-L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "Cap. recámara x1,25"
+L["unlameifier_tuning_chamber_capacity_x125.printname"] = "1.25x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "1.25x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x125.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "25%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x150.printname"] = "Capacidad de la recámara x1,5"
-L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "Cap. recámara x1,5"
+L["unlameifier_tuning_chamber_capacity_x150.printname"] = "1.5x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "1.5x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x150.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "50%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x175.printname"] = "Capacidad de la recámara x1,75"
-L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "Cap. recámara x1,75"
+L["unlameifier_tuning_chamber_capacity_x175.printname"] = "1.75x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "1.75x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x175.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "75%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x2.printname"] = "Capacidad de la recámara x2"
-L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "Cap. recámara x2"
+L["unlameifier_tuning_chamber_capacity_x2.printname"] = "2x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "2x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x2.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "100%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x5.printname"] = "Capacidad de la recámara x5"
-L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "Cap. recámara x5"
+L["unlameifier_tuning_chamber_capacity_x5.printname"] = "5x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "5x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x5.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "400%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_x10.printname"] = "Capacidad de la recámara x10"
-L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "Cap. recámara x10"
+L["unlameifier_tuning_chamber_capacity_x10.printname"] = "10x Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "10x Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_x10.description"] = string.format(statsdesc.plus, "Capacidad de la Cámara", "900%") .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
 L["unlameifier_tuning_chamber_capacity_plus1.printname"] = "+1 Capacidad de la recámara"
@@ -3684,60 +3684,60 @@ L["unlameifier_tuning_chamber_capacity_minus1000.printname"] = "-1000 Capacidad 
 L["unlameifier_tuning_chamber_capacity_minus1000.compactname"] = "-1000 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_minus1000.description"] = string.format(statsdesc.minus, "Capacidad de la Cámara", 1000) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force0.printname"] = "Capacidad de la recámara a 0"
-L["unlameifier_tuning_chamber_capacity_force0.compactname"] = "Cap. recámara 0"
-L["unlameifier_tuning_chamber_capacity_force0.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 0) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara." .. "\n\n" .. "Essentially disables the ability to have a round in the chamber."
+L["unlameifier_tuning_chamber_capacity_force0.printname"] = "0 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force0.compactname"] = "0 Cap. recámara"
+L["unlameifier_tuning_chamber_capacity_force0.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 0) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara." .. "\n\n" .. "Esencialmente inhabilita la capacidad de tener una bala en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force1.printname"] = "Capacidad de la recámara a 1"
-L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "Cap. recámara 1"
+L["unlameifier_tuning_chamber_capacity_force1.printname"] = "1 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "1 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force1.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 1) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force5.printname"] = "Capacidad de la recámara a 5"
-L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "Cap. recámara 5"
+L["unlameifier_tuning_chamber_capacity_force5.printname"] = "5 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "5 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force5.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 5) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force10.printname"] = "Capacidad de la recámara a 10"
-L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "Cap. recámara 10"
+L["unlameifier_tuning_chamber_capacity_force10.printname"] = "10 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "10 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force10.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 10) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force15.printname"] = "Capacidad de la recámara a 15"
-L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "Cap. recámara 15"
+L["unlameifier_tuning_chamber_capacity_force15.printname"] = "15 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "15 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force15.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 15) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force17.printname"] = "Capacidad de la recámara a 17"
-L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "Cap. recámara 17"
+L["unlameifier_tuning_chamber_capacity_force17.printname"] = "17 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "17 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force17.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 17) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force20.printname"] = "Capacidad de la recámara a 20"
-L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "Cap. recámara 20"
+L["unlameifier_tuning_chamber_capacity_force20.printname"] = "20 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "20 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force20.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 20) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force25.printname"] = "Capacidad de la recámara a 25"
-L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "Cap. recámara 25"
+L["unlameifier_tuning_chamber_capacity_force25.printname"] = "25 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "25 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force25.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 25) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force30.printname"] = "Capacidad de la recámara a 30"
-L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "Cap. recámara 30"
+L["unlameifier_tuning_chamber_capacity_force30.printname"] = "30 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "30 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force30.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 30) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force50.printname"] = "Capacidad de la recámara a 50"
-L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "Cap. recámara 50"
+L["unlameifier_tuning_chamber_capacity_force50.printname"] = "50 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "50 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force50.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 50) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force75.printname"] = "Capacidad de la recámara a 75"
-L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "Cap. recámara 75"
+L["unlameifier_tuning_chamber_capacity_force75.printname"] = "75 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "75 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force75.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 75) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force100.printname"] = "Capacidad de la recámara a 100"
-L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "Cap. recámara 100"
+L["unlameifier_tuning_chamber_capacity_force100.printname"] = "100 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "100 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force100.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 100) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force500.printname"] = "Capacidad de la recámara a 500"
-L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "Cap. recámara 500"
+L["unlameifier_tuning_chamber_capacity_force500.printname"] = "500 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "500 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force500.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 500) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
-L["unlameifier_tuning_chamber_capacity_force1000.printname"] = "Capacidad de la recámara a 1000"
-L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "Cap. recámara 1000"
+L["unlameifier_tuning_chamber_capacity_force1000.printname"] = "1000 Capacidad de la recámara"
+L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "1000 Cap. recámara"
 L["unlameifier_tuning_chamber_capacity_force1000.description"] = string.format(statsdesc.fixed, "Capacidad de la Cámara", 1000) .. "Esto altera la cantidad de balas que pueden ser cargadas en la recámara."
 
 ///////// Penetration
@@ -3747,52 +3747,52 @@ L["unlameifier.folder.penetration.minus"] = "Penetración/Restar"
 L["unlameifier.folder.penetration.multiply"] = "Penetración/Multiplicar"
 L["unlameifier.folder.penetration.divide"] = "Penetración/Dividir"
 
-L["unlameifier_tuning_penetration_x010.printname"] = "Penetración x0,1"
-L["unlameifier_tuning_penetration_x010.compactname"] = "Penetración x0,1"
+L["unlameifier_tuning_penetration_x010.printname"] = "0.1x Penetración"
+L["unlameifier_tuning_penetration_x010.compactname"] = "0.1x Penetración"
 L["unlameifier_tuning_penetration_x010.description"] = string.format(statsdesc.minus, "Penetración de Material", "90%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x025.printname"] = "Penetración x0,25"
-L["unlameifier_tuning_penetration_x025.compactname"] = "Penetración x0,25"
+L["unlameifier_tuning_penetration_x025.printname"] = "0.25x Penetración"
+L["unlameifier_tuning_penetration_x025.compactname"] = "0.25x Penetración"
 L["unlameifier_tuning_penetration_x025.description"] = string.format(statsdesc.minus, "Penetración de Material", "75%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x050.printname"] = "Penetración x0,5"
-L["unlameifier_tuning_penetration_x050.compactname"] = "Penetración x0,5"
+L["unlameifier_tuning_penetration_x050.printname"] = "0.5x Penetración"
+L["unlameifier_tuning_penetration_x050.compactname"] = "0.5x Penetración"
 L["unlameifier_tuning_penetration_x050.description"] = string.format(statsdesc.minus, "Penetración de Material", "50%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x075.printname"] = "Penetración x0,75"
-L["unlameifier_tuning_penetration_x075.compactname"] = "Penetración x0,75"
+L["unlameifier_tuning_penetration_x075.printname"] = "0.75x Penetración"
+L["unlameifier_tuning_penetration_x075.compactname"] = "0.75x Penetración"
 L["unlameifier_tuning_penetration_x075.description"] = string.format(statsdesc.minus, "Penetración de Material", "25%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x090.printname"] = "Penetración x0,9"
-L["unlameifier_tuning_penetration_x090.compactname"] = "Penetración x0,9"
+L["unlameifier_tuning_penetration_x090.printname"] = "0.9x Penetración"
+L["unlameifier_tuning_penetration_x090.compactname"] = "0.9x Penetración"
 L["unlameifier_tuning_penetration_x090.description"] = string.format(statsdesc.minus, "Penetración de Material", "10%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x110.printname"] = "Penetración x1,1"
-L["unlameifier_tuning_penetration_x110.compactname"] = "Penetración x1,1"
+L["unlameifier_tuning_penetration_x110.printname"] = "1.1x Penetración"
+L["unlameifier_tuning_penetration_x110.compactname"] = "1.1x Penetración"
 L["unlameifier_tuning_penetration_x110.description"] = string.format(statsdesc.plus, "Penetración de Material", "10%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x125.printname"] = "Penetración x1,25"
-L["unlameifier_tuning_penetration_x125.compactname"] = "Penetración x1,25"
+L["unlameifier_tuning_penetration_x125.printname"] = "1.25x Penetración"
+L["unlameifier_tuning_penetration_x125.compactname"] = "1.25x Penetración"
 L["unlameifier_tuning_penetration_x125.description"] = string.format(statsdesc.plus, "Penetración de Material", "25%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x150.printname"] = "Penetración x1,5"
-L["unlameifier_tuning_penetration_x150.compactname"] = "Penetración x1,5"
+L["unlameifier_tuning_penetration_x150.printname"] = "1.5x Penetración"
+L["unlameifier_tuning_penetration_x150.compactname"] = "1.5x Penetración"
 L["unlameifier_tuning_penetration_x150.description"] = string.format(statsdesc.plus, "Penetración de Material", "50%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x175.printname"] = "Penetración x1,75"
-L["unlameifier_tuning_penetration_x175.compactname"] = "Penetración x1,75"
+L["unlameifier_tuning_penetration_x175.printname"] = "1.75x Penetración"
+L["unlameifier_tuning_penetration_x175.compactname"] = "1.75x Penetración"
 L["unlameifier_tuning_penetration_x175.description"] = string.format(statsdesc.plus, "Penetración de Material", "75%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x2.printname"] = "Penetración x2"
-L["unlameifier_tuning_penetration_x2.compactname"] = "Penetración x2"
+L["unlameifier_tuning_penetration_x2.printname"] = "2x Penetración"
+L["unlameifier_tuning_penetration_x2.compactname"] = "2x Penetración"
 L["unlameifier_tuning_penetration_x2.description"] = string.format(statsdesc.plus, "Penetración de Material", "100%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x5.printname"] = "Penetración x5"
-L["unlameifier_tuning_penetration_x5.compactname"] = "Penetración x5"
+L["unlameifier_tuning_penetration_x5.printname"] = "5x Penetración"
+L["unlameifier_tuning_penetration_x5.compactname"] = "5x Penetración"
 L["unlameifier_tuning_penetration_x5.description"] = string.format(statsdesc.plus, "Penetración de Material", "400%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
-L["unlameifier_tuning_penetration_x10.printname"] = "Penetración x10"
-L["unlameifier_tuning_penetration_x10.compactname"] = "Penetración x10"
+L["unlameifier_tuning_penetration_x10.printname"] = "10x Penetración"
+L["unlameifier_tuning_penetration_x10.compactname"] = "10x Penetración"
 L["unlameifier_tuning_penetration_x10.description"] = string.format(statsdesc.plus, "Penetración de Material", "900%") .. "Esto altera como de lejos puede una bala penetrar a través de materiales."
 
 L["unlameifier_tuning_penetration_plus1.printname"] = "+1 Penetración"
@@ -3872,1697 +3872,1697 @@ L["unlameifier.folder.spread"] = "Dispersión"
 L["unlameifier.folder.spread.multiply"] = "Dispersión/Multiplicar"
 L["unlameifier.folder.spread.divide"] = "Dispersión/Dividir"
 
-L["unlameifier_tuning_spread_x0.printname"] = "Dispersión x0"
-L["unlameifier_tuning_spread_x0.compactname"] = "Dispersión x0"
-L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Dispersión", "100%") .. "Esto altera cuanta precisión tiene el arma." .. "\n\n" .. "Efectivamente quita <color=100,255,100>toda la dispersión</color>, haciendo que el arma sea <color=100,255,100>perfectamente precisa</color> en todo momento."
+L["unlameifier_tuning_spread_x0.printname"] = "0x Dispersión"
+L["unlameifier_tuning_spread_x0.compactname"] = "0x Dispersión"
+L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Dispersión", "100%") .. "Esto altera cuanta precisión tiene el arma." .. "\n\n" .. "A efectos prácticos elimina <color=100,255,100>toda la dispersión</color>, haciendo que el arma sea <color=100,255,100>perfectamente precisa</color> en todo momento."
 
-L["unlameifier_tuning_spread_x010.printname"] = "Dispersión x0,1"
-L["unlameifier_tuning_spread_x010.compactname"] = "Dispersión x0,1"
+L["unlameifier_tuning_spread_x010.printname"] = "0.1x Dispersión"
+L["unlameifier_tuning_spread_x010.compactname"] = "0.1x Dispersión"
 L["unlameifier_tuning_spread_x010.description"] = string.format(statsdesc.minusinv, "Dispersión", "90%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x025.printname"] = "Dispersión x0,25"
-L["unlameifier_tuning_spread_x025.compactname"] = "Dispersión x0,25"
+L["unlameifier_tuning_spread_x025.printname"] = "0.25x Dispersión"
+L["unlameifier_tuning_spread_x025.compactname"] = "0.25x Dispersión"
 L["unlameifier_tuning_spread_x025.description"] = string.format(statsdesc.minusinv, "Dispersión", "75%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x050.printname"] = "Dispersión x0,5"
-L["unlameifier_tuning_spread_x050.compactname"] = "Dispersión x0,5"
+L["unlameifier_tuning_spread_x050.printname"] = "0.5x Dispersión"
+L["unlameifier_tuning_spread_x050.compactname"] = "0.5x Dispersión"
 L["unlameifier_tuning_spread_x050.description"] = string.format(statsdesc.minusinv, "Dispersión", "50%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x075.printname"] = "Dispersión x0,75"
-L["unlameifier_tuning_spread_x075.compactname"] = "Dispersión x0,75"
+L["unlameifier_tuning_spread_x075.printname"] = "0.75x Dispersión"
+L["unlameifier_tuning_spread_x075.compactname"] = "0.75x Dispersión"
 L["unlameifier_tuning_spread_x075.description"] = string.format(statsdesc.minusinv, "Dispersión", "25%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x090.printname"] = "Dispersión x0,9"
-L["unlameifier_tuning_spread_x090.compactname"] = "Dispersión x0,9"
+L["unlameifier_tuning_spread_x090.printname"] = "0.9x Dispersión"
+L["unlameifier_tuning_spread_x090.compactname"] = "0.9x Dispersión"
 L["unlameifier_tuning_spread_x090.description"] = string.format(statsdesc.minusinv, "Dispersión", "10%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x110.printname"] = "Dispersión x1,1"
-L["unlameifier_tuning_spread_x110.compactname"] = "Dispersión x1,1"
+L["unlameifier_tuning_spread_x110.printname"] = "1.1x Dispersión"
+L["unlameifier_tuning_spread_x110.compactname"] = "1.1x Dispersión"
 L["unlameifier_tuning_spread_x110.description"] = string.format(statsdesc.plusinv, "Dispersión", "10%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x125.printname"] = "Dispersión x1,25"
-L["unlameifier_tuning_spread_x125.compactname"] = "Dispersión x1,25"
+L["unlameifier_tuning_spread_x125.printname"] = "1.25x Dispersión"
+L["unlameifier_tuning_spread_x125.compactname"] = "1.25x Dispersión"
 L["unlameifier_tuning_spread_x125.description"] = string.format(statsdesc.plusinv, "Dispersión", "25%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x150.printname"] = "Dispersión x1,5"
-L["unlameifier_tuning_spread_x150.compactname"] = "Dispersión x1,5"
+L["unlameifier_tuning_spread_x150.printname"] = "1.5x Dispersión"
+L["unlameifier_tuning_spread_x150.compactname"] = "1.5x Dispersión"
 L["unlameifier_tuning_spread_x150.description"] = string.format(statsdesc.plusinv, "Dispersión", "50%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x175.printname"] = "Dispersión x1,75"
-L["unlameifier_tuning_spread_x175.compactname"] = "Dispersión x1,75"
+L["unlameifier_tuning_spread_x175.printname"] = "1.75x Dispersión"
+L["unlameifier_tuning_spread_x175.compactname"] = "1.75x Dispersión"
 L["unlameifier_tuning_spread_x175.description"] = string.format(statsdesc.plusinv, "Dispersión", "75%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x2.printname"] = "Dispersión x2"
-L["unlameifier_tuning_spread_x2.compactname"] = "Dispersión x2"
+L["unlameifier_tuning_spread_x2.printname"] = "2x Dispersión"
+L["unlameifier_tuning_spread_x2.compactname"] = "2x Dispersión"
 L["unlameifier_tuning_spread_x2.description"] = string.format(statsdesc.plusinv, "Dispersión", "100%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x5.printname"] = "Dispersión x5"
-L["unlameifier_tuning_spread_x5.compactname"] = "Dispersión x5"
+L["unlameifier_tuning_spread_x5.printname"] = "5x Dispersión"
+L["unlameifier_tuning_spread_x5.compactname"] = "5x Dispersión"
 L["unlameifier_tuning_spread_x5.description"] = string.format(statsdesc.plusinv, "Dispersión", "400%") .. "Esto altera cuanta precisión tiene el arma."
 
-L["unlameifier_tuning_spread_x10.printname"] = "Dispersión x10"
-L["unlameifier_tuning_spread_x10.compactname"] = "Dispersión x10"
+L["unlameifier_tuning_spread_x10.printname"] = "10x Dispersión"
+L["unlameifier_tuning_spread_x10.compactname"] = "10x Dispersión"
 L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Dispersión", "900%") .. "Esto altera cuanta precisión tiene el arma."
 
 ///////// Impact Force
-L["unlameifier.folder.impactforce"] = "Fuerza de impacto"
-L["unlameifier.folder.impactforce.multiply"] = "Fuerza de impacto/Multiplicar"
-L["unlameifier.folder.impactforce.divide"] = "Fuerza de impacto/Dividir"
+L["unlameifier.folder.impactforce"] = "Fuer. impacto"
+L["unlameifier.folder.impactforce.multiply"] = "Fuer. impacto/Multiplicar"
+L["unlameifier.folder.impactforce.divide"] = "Fuer. impacto/Dividir"
 
-L["unlameifier_tuning_impact_forcex0.printname"] = "Fuerza de impacto x0"
-L["unlameifier_tuning_impact_forcex0.compactname"] = "Fuerza impacto x0"
-L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "100%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes." .. "\n\n" .. "Completely <color=100,255,255>disables</color> Impact Force."
+L["unlameifier_tuning_impact_forcex0.printname"] = "0x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex0.compactname"] = "0x Fuer. impacto"
+L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "100%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes." .. "\n\n" .. "<color=100,255,255>Desactiva</color> por completo la fuerza de impacto."
 
-L["unlameifier_tuning_impact_forcex010.printname"] = "Fuerza de impacto x0,1"
-L["unlameifier_tuning_impact_forcex010.compactname"] = "Fuerza impacto x0,1"
+L["unlameifier_tuning_impact_forcex010.printname"] = "0.1x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex010.compactname"] = "0.1x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "90%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex025.printname"] = "Fuerza de impacto x0,25"
-L["unlameifier_tuning_impact_forcex025.compactname"] = "Fuerza impacto x0,25"
+L["unlameifier_tuning_impact_forcex025.printname"] = "0.25x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex025.compactname"] = "0.25x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "75%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex050.printname"] = "Fuerza de impacto x0,5"
-L["unlameifier_tuning_impact_forcex050.compactname"] = "Fuerza impacto x0,5"
+L["unlameifier_tuning_impact_forcex050.printname"] = "0.5x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex050.compactname"] = "0.5x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "50%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex075.printname"] = "Fuerza de impacto x0,75"
-L["unlameifier_tuning_impact_forcex075.compactname"] = "Fuerza impacto x0,75"
+L["unlameifier_tuning_impact_forcex075.printname"] = "0.75x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex075.compactname"] = "0.75x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "25%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex090.printname"] = "Fuerza de impacto x0,9"
-L["unlameifier_tuning_impact_forcex090.compactname"] = "Fuerza impacto x0,9"
+L["unlameifier_tuning_impact_forcex090.printname"] = "0.9x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex090.compactname"] = "0.9x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Fuerza de impacto", "10%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex110.printname"] = "Fuerza de impacto x1,1"
-L["unlameifier_tuning_impact_forcex110.compactname"] = "Fuerza impacto x1,1"
+L["unlameifier_tuning_impact_forcex110.printname"] = "1.1x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex110.compactname"] = "1.1x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "10%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex125.printname"] = "Fuerza de impacto x1,25"
-L["unlameifier_tuning_impact_forcex125.compactname"] = "Fuerza impacto x1,25"
+L["unlameifier_tuning_impact_forcex125.printname"] = "1.25x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex125.compactname"] = "1.25x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "25%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex150.printname"] = "Fuerza de impacto x1,5"
-L["unlameifier_tuning_impact_forcex150.compactname"] = "Fuerza impacto x1,5"
+L["unlameifier_tuning_impact_forcex150.printname"] = "1.5x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex150.compactname"] = "1.5x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "50%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex175.printname"] = "Fuerza de impacto x1,75"
-L["unlameifier_tuning_impact_forcex175.compactname"] = "Fuerza impacto x1,75"
+L["unlameifier_tuning_impact_forcex175.printname"] = "1.75x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex175.compactname"] = "1.75x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "75%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex2.printname"] = "Fuerza de impacto x2"
-L["unlameifier_tuning_impact_forcex2.compactname"] = "Fuerza impacto x2"
+L["unlameifier_tuning_impact_forcex2.printname"] = "2x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex2.compactname"] = "2x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "100%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex5.printname"] = "Fuerza de impacto x5"
-L["unlameifier_tuning_impact_forcex5.compactname"] = "Fuerza impacto x5"
+L["unlameifier_tuning_impact_forcex5.printname"] = "5x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex5.compactname"] = "5x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "400%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
-L["unlameifier_tuning_impact_forcex10.printname"] = "Fuerza de impacto x10"
-L["unlameifier_tuning_impact_forcex10.compactname"] = "Fuerza impacto x10"
+L["unlameifier_tuning_impact_forcex10.printname"] = "10x Fuerza de impacto"
+L["unlameifier_tuning_impact_forcex10.compactname"] = "10x Fuer. impacto"
 L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Fuerza de impacto", "900%") .. "Esto altera cuanta fuerza se aplica a cualquier cosa que impactes."
 
 ///////// Maximum Range
-L["unlameifier.folder.maxrange"] = "Alcance/Máx"
-L["unlameifier.folder.maxrange.multiply"] = "Alcance/Máx/Multiplicar"
-L["unlameifier.folder.maxrange.divide"] = "Alcance/Máx/Dividir"
+L["unlameifier.folder.maxrange"] = "Alcance/Máx."
+L["unlameifier.folder.maxrange.multiply"] = "Alcance/Máx./Multiplicar"
+L["unlameifier.folder.maxrange.divide"] = "Alcance/Máx./Dividir"
 
-L["unlameifier_tuning_max_range_x010.printname"] = "Alcance máximo x0,1"
-L["unlameifier_tuning_max_range_x010.compactname"] = "Alcance máx. x0,1"
+L["unlameifier_tuning_max_range_x010.printname"] = "0.1x Alcance máximo"
+L["unlameifier_tuning_max_range_x010.compactname"] = "0.1x Alcance máx."
 L["unlameifier_tuning_max_range_x010.description"] = string.format(statsdesc.minus, "Alcance Máximo", "90%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x025.printname"] = "Alcance máximo x0,25"
-L["unlameifier_tuning_max_range_x025.compactname"] = "Alcance máx. x0,25"
+L["unlameifier_tuning_max_range_x025.printname"] = "0.25x Alcance máximo"
+L["unlameifier_tuning_max_range_x025.compactname"] = "0.25x Alcance máx."
 L["unlameifier_tuning_max_range_x025.description"] = string.format(statsdesc.minus, "Alcance Máximo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x050.printname"] = "Alcance máximo x0,5"
-L["unlameifier_tuning_max_range_x050.compactname"] = "Alcance máx. x0,5"
+L["unlameifier_tuning_max_range_x050.printname"] = "0.5x Alcance máximo"
+L["unlameifier_tuning_max_range_x050.compactname"] = "0.5x Alcance máx."
 L["unlameifier_tuning_max_range_x050.description"] = string.format(statsdesc.minus, "Alcance Máximo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x075.printname"] = "Alcance máximo x0,75"
-L["unlameifier_tuning_max_range_x075.compactname"] = "Alcance máx. x0,75"
+L["unlameifier_tuning_max_range_x075.printname"] = "0.75x Alcance máximo"
+L["unlameifier_tuning_max_range_x075.compactname"] = "0.75x Alcance máx."
 L["unlameifier_tuning_max_range_x075.description"] = string.format(statsdesc.minus, "Alcance Máximo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x090.printname"] = "Alcance máximo x0,9"
-L["unlameifier_tuning_max_range_x090.compactname"] = "Alcance máx. x0,9"
+L["unlameifier_tuning_max_range_x090.printname"] = "0.9x Alcance máximo"
+L["unlameifier_tuning_max_range_x090.compactname"] = "0.9x Alcance máx."
 L["unlameifier_tuning_max_range_x090.description"] = string.format(statsdesc.minus, "Alcance Máximo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x110.printname"] = "Alcance máximo x1,1"
-L["unlameifier_tuning_max_range_x110.compactname"] = "Alcance máx. x1,1"
+L["unlameifier_tuning_max_range_x110.printname"] = "1.1x Alcance máximo"
+L["unlameifier_tuning_max_range_x110.compactname"] = "1.1x Alcance máx."
 L["unlameifier_tuning_max_range_x110.description"] = string.format(statsdesc.plus, "Alcance Máximo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x125.printname"] = "Alcance máximo x1,25"
-L["unlameifier_tuning_max_range_x125.compactname"] = "Alcance máx. x1,25"
+L["unlameifier_tuning_max_range_x125.printname"] = "1.25x Alcance máximo"
+L["unlameifier_tuning_max_range_x125.compactname"] = "1.25x Alcance máx."
 L["unlameifier_tuning_max_range_x125.description"] = string.format(statsdesc.plus, "Alcance Máximo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x150.printname"] = "Alcance máximo x1,5"
-L["unlameifier_tuning_max_range_x150.compactname"] = "Alcance máx. x1,5"
+L["unlameifier_tuning_max_range_x150.printname"] = "1.5x Alcance máximo"
+L["unlameifier_tuning_max_range_x150.compactname"] = "1.5x Alcance máx."
 L["unlameifier_tuning_max_range_x150.description"] = string.format(statsdesc.plus, "Alcance Máximo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x175.printname"] = "Alcance máximo x1,75"
-L["unlameifier_tuning_max_range_x175.compactname"] = "Alcance máx. x1,75"
+L["unlameifier_tuning_max_range_x175.printname"] = "1.75x Alcance máximo"
+L["unlameifier_tuning_max_range_x175.compactname"] = "1.75x Alcance máx."
 L["unlameifier_tuning_max_range_x175.description"] = string.format(statsdesc.plus, "Alcance Máximo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x2.printname"] = "Alcance máximo x2"
-L["unlameifier_tuning_max_range_x2.compactname"] = "Alcance máx. x2"
+L["unlameifier_tuning_max_range_x2.printname"] = "2x Alcance máximo"
+L["unlameifier_tuning_max_range_x2.compactname"] = "2x Alcance máx."
 L["unlameifier_tuning_max_range_x2.description"] = string.format(statsdesc.plus, "Alcance Máximo", "100%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x5.printname"] = "Alcance máximo x5"
-L["unlameifier_tuning_max_range_x5.compactname"] = "Alcance máx. x5"
+L["unlameifier_tuning_max_range_x5.printname"] = "5x Alcance máximo"
+L["unlameifier_tuning_max_range_x5.compactname"] = "5x Alcance máx."
 L["unlameifier_tuning_max_range_x5.description"] = string.format(statsdesc.plus, "Alcance Máximo", "400%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
-L["unlameifier_tuning_max_range_x10.printname"] = "Alcance máximo x10"
-L["unlameifier_tuning_max_range_x10.compactname"] = "Alcance máx. x10"
+L["unlameifier_tuning_max_range_x10.printname"] = "10x Alcance máximo"
+L["unlameifier_tuning_max_range_x10.compactname"] = "10x Alcance máx."
 L["unlameifier_tuning_max_range_x10.description"] = string.format(statsdesc.plus, "Alcance Máximo", "900%") .. "Esto altera como de lejos tiene que viajar la bala para acabar inflingiendo su daño mínimo."
 
 ///////// Minimum Range
-L["unlameifier.folder.minrange"] = "Alcance/Mín"
-L["unlameifier.folder.minrange.multiply"] = "Alcance/Mín/Multiplicar"
-L["unlameifier.folder.minrange.divide"] = "Alcance/Mín/Dividir"
+L["unlameifier.folder.minrange"] = "Alcance/Mín."
+L["unlameifier.folder.minrange.multiply"] = "Alcance/Mín./Multiplicar"
+L["unlameifier.folder.minrange.divide"] = "Alcance/Mín./Dividir"
 
-L["unlameifier_tuning_min_range_x010.printname"] = "Alcance mínimo x0.1"
-L["unlameifier_tuning_min_range_x010.compactname"] = "Alcance mín. x0.1"
+L["unlameifier_tuning_min_range_x010.printname"] = "0.1x Alcance mínimo"
+L["unlameifier_tuning_min_range_x010.compactname"] = "0.1x Alcance mín."
 L["unlameifier_tuning_min_range_x010.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "90%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x025.printname"] = "Alcance mínimo x0.25"
-L["unlameifier_tuning_min_range_x025.compactname"] = "Alcance mín. x0.25"
+L["unlameifier_tuning_min_range_x025.printname"] = "0.25x Alcance mínimo"
+L["unlameifier_tuning_min_range_x025.compactname"] = "0.25x Alcance mín."
 L["unlameifier_tuning_min_range_x025.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x050.printname"] = "Alcance mínimo x0.5"
-L["unlameifier_tuning_min_range_x050.compactname"] = "Alcance mín. x0.5"
+L["unlameifier_tuning_min_range_x050.printname"] = "0.5x Alcance mínimo"
+L["unlameifier_tuning_min_range_x050.compactname"] = "0.5x Alcance mín."
 L["unlameifier_tuning_min_range_x050.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x075.printname"] = "Alcance mínimo x0.75"
-L["unlameifier_tuning_min_range_x075.compactname"] = "Alcance mín. x0.75"
+L["unlameifier_tuning_min_range_x075.printname"] = "0.75x Alcance mínimo"
+L["unlameifier_tuning_min_range_x075.compactname"] = "0.75x Alcance mín."
 L["unlameifier_tuning_min_range_x075.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x090.printname"] = "Alcance mínimo x0.9"
-L["unlameifier_tuning_min_range_x090.compactname"] = "Alcance mín. x0.9"
+L["unlameifier_tuning_min_range_x090.printname"] = "0.9x Alcance mínimo"
+L["unlameifier_tuning_min_range_x090.compactname"] = "0.9x Alcance mín."
 L["unlameifier_tuning_min_range_x090.description"] = string.format(statsdesc.minus, "Alcance Mínimo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir."
 
-L["unlameifier_tuning_min_range_x110.printname"] = "Alcance mínimo x1.1"
-L["unlameifier_tuning_min_range_x110.compactname"] = "Alcance mín. x1.1"
+L["unlameifier_tuning_min_range_x110.printname"] = "1.1x Alcance mínimo"
+L["unlameifier_tuning_min_range_x110.compactname"] = "1.1x Alcance mín."
 L["unlameifier_tuning_min_range_x110.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "10%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x125.printname"] = "Alcance mínimo x1.25"
-L["unlameifier_tuning_min_range_x125.compactname"] = "Alcance mín. x1.25"
+L["unlameifier_tuning_min_range_x125.printname"] = "1.25x Alcance mínimo"
+L["unlameifier_tuning_min_range_x125.compactname"] = "1.25x Alcance mín."
 L["unlameifier_tuning_min_range_x125.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "25%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x150.printname"] = "Alcance mínimo x1.5"
-L["unlameifier_tuning_min_range_x150.compactname"] = "Alcance mín. x1.5"
+L["unlameifier_tuning_min_range_x150.printname"] = "1.5x Alcance mínimo"
+L["unlameifier_tuning_min_range_x150.compactname"] = "1.5x Alcance mín."
 L["unlameifier_tuning_min_range_x150.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "50%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x175.printname"] = "Alcance mínimo x1.75"
-L["unlameifier_tuning_min_range_x175.compactname"] = "Alcance mín. x1.75"
+L["unlameifier_tuning_min_range_x175.printname"] = "1.75x Alcance mínimo"
+L["unlameifier_tuning_min_range_x175.compactname"] = "1.75x Alcance mín."
 L["unlameifier_tuning_min_range_x175.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "75%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x2.printname"] = "Alcance mínimo x2"
-L["unlameifier_tuning_min_range_x2.compactname"] = "Alcance mín. x2"
+L["unlameifier_tuning_min_range_x2.printname"] = "2x Alcance mínimo"
+L["unlameifier_tuning_min_range_x2.compactname"] = "2x Alcance mín."
 L["unlameifier_tuning_min_range_x2.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "100%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x5.printname"] = "Alcance mínimo x5"
-L["unlameifier_tuning_min_range_x5.compactname"] = "Alcance mín. x5"
+L["unlameifier_tuning_min_range_x5.printname"] = "5x Alcance mínimo"
+L["unlameifier_tuning_min_range_x5.compactname"] = "5x Alcance mín."
 L["unlameifier_tuning_min_range_x5.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "400%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x10.printname"] = "Alcance mínimo x10"
-L["unlameifier_tuning_min_range_x10.compactname"] = "Alcance mín. x10"
+L["unlameifier_tuning_min_range_x10.printname"] = "10x Alcance mínimo"
+L["unlameifier_tuning_min_range_x10.compactname"] = "10x Alcance mín."
 L["unlameifier_tuning_min_range_x10.description"] = string.format(statsdesc.plus, "Alcance Mínimo", "900%") .. "Esto altera como de lejos tiene que viajar la bala para que su daño empiece a disminuir." .. statsdesc.warnminrange
 
 ///////// Malfunction
-L["unlameifier.folder.malfunction"] = "Malfunction"
-L["unlameifier.folder.malfunction.fixed"] = "Malfunction/Fixed"
-L["unlameifier.folder.malfunction.plus"] = "Malfunction/Add"
-L["unlameifier.folder.malfunction.minus"] = "Malfunction/Subtract"
-L["unlameifier.folder.malfunction.multiply"] = "Malfunction/Multiply"
-L["unlameifier.folder.malfunction.divide"] = "Malfunction/Divide"
+L["unlameifier.folder.malfunction"] = "Fallo"
+L["unlameifier.folder.malfunction.fixed"] = "Fallo/Fijo"
+L["unlameifier.folder.malfunction.plus"] = "Fallo/Añadir"
+L["unlameifier.folder.malfunction.minus"] = "Fallo/Restar"
+L["unlameifier.folder.malfunction.multiply"] = "Fallo/Multiplicar"
+L["unlameifier.folder.malfunction.divide"] = "Fallo/Dividir"
 
-L["unlameifier.folder.malfunction.utility.system"] = "Malfunction/Utility/System"
+L["unlameifier.folder.malfunction.utility.system"] = "Fallo/Utilidades/Sistema"
 
-L["unlameifier_tuning_malfunction_enable.printname"] = "Malfunctions - Force Enable"
-L["unlameifier_tuning_malfunction_enable.compactname"] = "+Malfunction"
-L["unlameifier_tuning_malfunction_enable.description"] = "Forcefully enables <color=255,255,100>weapon malfunctions</color>.\nAllows the weapon to have a chance to malfunction."
+L["unlameifier_tuning_malfunction_enable.printname"] = "Fallos - Activar forzosamente"
+L["unlameifier_tuning_malfunction_enable.compactname"] = "+Fallo"
+L["unlameifier_tuning_malfunction_enable.description"] = "Activa los <color=255,255,100>fallos de arma</color> forzosamente.\nPermite que el arma tenga una probabilidad de que sufrir un fallo."
 
-L["unlameifier_tuning_malfunction_disable.printname"] = "Malfunctions - Force Disable"
-L["unlameifier_tuning_malfunction_disable.compactname"] = "-Malfunction"
-L["unlameifier_tuning_malfunction_disable.description"] = "Forcefully disables <color=255,255,100>weapon malfunctions</color>.\nThe weapon will never have a malfunction."
+L["unlameifier_tuning_malfunction_disable.printname"] = "Fallos - Desactivar forzosamente"
+L["unlameifier_tuning_malfunction_disable.compactname"] = "-Fallo"
+L["unlameifier_tuning_malfunction_disable.description"] = "Desactiva los <color=255,255,100>fallos de arma</color> forzosamente.\nEste arma nunca sufrirá un fallo."
 
-L["unlameifier_tuning_mean_shots_to_fail_x010.printname"] = "0.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x010.compactname"] = "0.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x010.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "90%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x010.printname"] = "0.1x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x010.compactname"] = "0.1x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x010.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", "90%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x025.printname"] = "0.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x025.compactname"] = "0.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x025.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "75%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x025.printname"] = "0.25x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x025.compactname"] = "0.25x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x025.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", "75%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x050.printname"] = "0.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x050.compactname"] = "0.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x050.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "50%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x050.printname"] = "0.5x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x050.compactname"] = "0.5x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x050.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", "50%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x075.printname"] = "0.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x075.compactname"] = "0.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x075.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "25%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x075.printname"] = "0.75x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x075.compactname"] = "0.75x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x075.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", "25%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x090.printname"] = "0.9x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x090.compactname"] = "0.9x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x090.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "10%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x090.printname"] = "0.9x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x090.compactname"] = "0.9x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x090.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", "10%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x110.printname"] = "1.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x110.compactname"] = "1.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x110.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "10%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x110.printname"] = "1.1x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x110.compactname"] = "1.1x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x110.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "10%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x125.printname"] = "1.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x125.compactname"] = "1.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x125.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "25%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x125.printname"] = "1.25x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x125.compactname"] = "1.25x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x125.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "25%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x150.printname"] = "1.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x150.compactname"] = "1.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x150.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "50%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x150.printname"] = "1.5x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x150.compactname"] = "1.5x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x150.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "50%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x175.printname"] = "1.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x175.compactname"] = "1.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x175.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "75%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x175.printname"] = "1.75x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x175.compactname"] = "1.75x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x175.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "75%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x2.printname"] = "2x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x2.compactname"] = "2x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x2.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "100%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x2.printname"] = "2x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x2.compactname"] = "2x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x2.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "100%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x5.printname"] = "5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x5.compactname"] = "5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x5.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "400%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x5.printname"] = "5x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x5.compactname"] = "5x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x5.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "400%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x10.printname"] = "10x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x10.compactname"] = "10x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x10.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "900%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x10.printname"] = "10x Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_x10.compactname"] = "10x Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_x10.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", "900%") .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus1.printname"] = "+1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1.compactname"] = "+1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 1) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus1.printname"] = "+1 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus1.compactname"] = "+1 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus1.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 1) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus5.printname"] = "+5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus5.compactname"] = "+5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus5.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 5) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus5.printname"] = "+5 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus5.compactname"] = "+5 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus5.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 5) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus10.printname"] = "+10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus10.compactname"] = "+10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus10.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 10) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus10.printname"] = "+10 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus10.compactname"] = "+10 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus10.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 10) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus25.printname"] = "+25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus25.compactname"] = "+25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus25.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 25) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus25.printname"] = "+25 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus25.compactname"] = "+25 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus25.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 25) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus50.printname"] = "+50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus50.compactname"] = "+50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus50.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 50) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus50.printname"] = "+50 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus50.compactname"] = "+50 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus50.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 50) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus75.printname"] = "+75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus75.compactname"] = "+75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus75.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 75) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus75.printname"] = "+75 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus75.compactname"] = "+75 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus75.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 75) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus100.printname"] = "+100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus100.compactname"] = "+100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus100.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 100) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus100.printname"] = "+100 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus100.compactname"] = "+100 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus100.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 100) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus500.printname"] = "+500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus500.compactname"] = "+500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus500.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 500) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus500.printname"] = "+500 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus500.compactname"] = "+500 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus500.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 500) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus1000.printname"] = "+1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1000.compactname"] = "+1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1000.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 1000) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.printname"] = "+1000 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.compactname"] = "+1000 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.description"] = string.format(statsdesc.plus, "Media de Disparos para Fallo", 1000) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_minus1.printname"] = "-1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1.compactname"] = "-1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 1) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus1.printname"] = "-1 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus1.compactname"] = "-1 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus1.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 1) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus5.printname"] = "-5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus5.compactname"] = "-5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus5.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 5) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus5.printname"] = "-5 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus5.compactname"] = "-5 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus5.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 5) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus10.printname"] = "-10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus10.compactname"] = "-10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus10.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 10) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus10.printname"] = "-10 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus10.compactname"] = "-10 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus10.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 10) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus25.printname"] = "-25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus25.compactname"] = "-25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus25.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 25) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus25.printname"] = "-25 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus25.compactname"] = "-25 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus25.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 25) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus50.printname"] = "-50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus50.compactname"] = "-50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus50.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 50) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus50.printname"] = "-50 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus50.compactname"] = "-50 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus50.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 50) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus75.printname"] = "-75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus75.compactname"] = "-75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus75.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 75) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus75.printname"] = "-75 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus75.compactname"] = "-75 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus75.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 75) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus100.printname"] = "-100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus100.compactname"] = "-100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus100.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 100) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus100.printname"] = "-100 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus100.compactname"] = "-100 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus100.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 100) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus500.printname"] = "-500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus500.compactname"] = "-500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus500.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 500) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus500.printname"] = "-500 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus500.compactname"] = "-500 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus500.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 500) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus1000.printname"] = "-1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1000.compactname"] = "-1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1000.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 1000) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.printname"] = "-1000 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.compactname"] = "-1000 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.description"] = string.format(statsdesc.minus, "Media de Disparos para Fallo", 1000) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force1.printname"] = "1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1.compactname"] = "1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 1) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force1.printname"] = "1 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force1.compactname"] = "1 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force1.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 1) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force5.printname"] = "5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force5.compactname"] = "5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force5.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 5) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force5.printname"] = "5 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force5.compactname"] = "5 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force5.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 5) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force10.printname"] = "10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force10.compactname"] = "10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force10.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 10) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force10.printname"] = "10 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force10.compactname"] = "10 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force10.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 10) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force15.printname"] = "15 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force15.compactname"] = "15 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force15.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 15) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force15.printname"] = "15 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force15.compactname"] = "15 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force15.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 15) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force17.printname"] = "17 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force17.compactname"] = "17 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force17.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 17) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force17.printname"] = "17 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force17.compactname"] = "17 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force17.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 17) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force20.printname"] = "20 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force20.compactname"] = "20 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force20.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 20) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force20.printname"] = "20 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force20.compactname"] = "20 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force20.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 20) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force25.printname"] = "25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force25.compactname"] = "25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force25.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 25) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force25.printname"] = "25 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force25.compactname"] = "25 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force25.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 25) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force30.printname"] = "30 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force30.compactname"] = "30 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force30.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 30) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force30.printname"] = "30 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force30.compactname"] = "30 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force30.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 30) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force50.printname"] = "50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force50.compactname"] = "50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force50.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 50) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force50.printname"] = "50 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force50.compactname"] = "50 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force50.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 50) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force75.printname"] = "75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force75.compactname"] = "75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force75.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 75) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force75.printname"] = "75 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force75.compactname"] = "75 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force75.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 75) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force100.printname"] = "100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force100.compactname"] = "100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force100.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 100) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force100.printname"] = "100 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force100.compactname"] = "100 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force100.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 100) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force500.printname"] = "500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force500.compactname"] = "500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force500.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 500) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force500.printname"] = "500 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force500.compactname"] = "500 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force500.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 500) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force1000.printname"] = "1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1000.compactname"] = "1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 1000) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force1000.printname"] = "1000 Disparos para fallar"
+L["unlameifier_tuning_mean_shots_to_fail_force1000.compactname"] = "1000 Disp. x fallo"
+L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format(statsdesc.fixed, "Media de Disparos para Fallo", 1000) .. "Esto altera la probabilidad de que se produzca un fallo." .. statsdesc.warnmalf
 
 ///////// Overheating
-L["unlameifier.folder.heat"] = "Heat"
-L["unlameifier.folder.heat.utility.system"] = "Heat/Utility/System"
+L["unlameifier.folder.heat"] = "Calor"
+L["unlameifier.folder.heat.utility.system"] = "Calor/Utilidades/Sistema"
 
-L["unlameifier_tuning_heat_enable.printname"] = "Overheating - Force Enable"
-L["unlameifier_tuning_heat_enable.compactname"] = "+Overheat"
-L["unlameifier_tuning_heat_enable.description"] = "Forcefully enables <color=255,255,100>weapon overheating</color>.\nJams the weapon if fired for too long."
+L["unlameifier_tuning_heat_enable.printname"] = "Sobrecalentamiento - Activar forzosamente"
+L["unlameifier_tuning_heat_enable.compactname"] = "+Sobrecalentamiento"
+L["unlameifier_tuning_heat_enable.description"] = "Activa forzosamente el <color=255,255,100>sobrecalentamiento del arma</color>.\nEncasquilla el arma si se dispara durante demasiado tiempo."
 
-L["unlameifier_tuning_heat_disable.printname"] = "Overheating - Force Disable"
-L["unlameifier_tuning_heat_disable.compactname"] = "-Overheat"
-L["unlameifier_tuning_heat_disable.description"] = "Forcefully disables <color=255,255,100>weapon overheating</color>.\nThe weapon will never overheat."
+L["unlameifier_tuning_heat_disable.printname"] = "Sobrecalentamiento - Desactivar forzosamente"
+L["unlameifier_tuning_heat_disable.compactname"] = "-Sobrecalentamiento"
+L["unlameifier_tuning_heat_disable.description"] = "Desactiva forzosamente el <color=255,255,100>sobrecalentamiento del arma</color>.\nEl arma nunca se sobrecalentará."
 
-L["unlameifier_tuning_heat_lockout_enable.printname"] = "Overheat Lockout - Force Enable"
-L["unlameifier_tuning_heat_lockout_enable.compactname"] = "+Heat Lockout"
-L["unlameifier_tuning_heat_lockout_enable.description"] = "Forcefully enables <color=255,255,100>overheat lockout</color>.\nForces you to wait until the heat is fully gone before firing again." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_lockout_enable.printname"] = "Bloqueo por sobrecalentamiento - Activar forzosamente"
+L["unlameifier_tuning_heat_lockout_enable.compactname"] = "+Bloq. calor"
+L["unlameifier_tuning_heat_lockout_enable.description"] = "Activa forzosamente el <color=255,255,100>bloqueo por sobrecalentamiento</color>.\nTe obliga a esperar hasta que el calor se disipe por completo antes de poder disparar de nuevo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_lockout_disable.printname"] = "Overheat Lockout - Force Disable"
-L["unlameifier_tuning_heat_lockout_disable.compactname"] = "-Heat Lockout"
-L["unlameifier_tuning_heat_lockout_disable.description"] = "Forcefully disables <color=255,255,100>overheat lockout</color>.\nAllows you to shoot the weapon even if the weapon is hot." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_lockout_disable.printname"] = "Bloqueo por sobrecalentamiento - Desactivar forzosamente"
+L["unlameifier_tuning_heat_lockout_disable.compactname"] = "-Bloq. calor"
+L["unlameifier_tuning_heat_lockout_disable.description"] = "Desactiva forzosamente el <color=255,255,100>bloqueo por sobrecalentamiento</color>.\nTe permite disparar el arma aunque esté caliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_fix_enable.printname"] = "Overheat Full Fix - Force Enable"
-L["unlameifier_tuning_heat_fix_enable.compactname"] = "+Heat Full Fix"
-L["unlameifier_tuning_heat_fix_enable.description"] = "Forcefully enables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, all heat is immediately reset." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_fix_enable.printname"] = "Arreglo completo del sobrecalentamiento - Activar forzosamente"
+L["unlameifier_tuning_heat_fix_enable.compactname"] = "+Arreglo calor"
+L["unlameifier_tuning_heat_fix_enable.description"] = "Activa forzosamente el <color=255,255,100>arreglo completo del sobrecalentamiento</color>.\nCuando el arma se encasquille y esté sobrecalentada, todo el calor se reiniciará inmediatamente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_fix_disable.printname"] = "Overheat Full Fix - Force Disable"
-L["unlameifier_tuning_heat_fix_disable.compactname"] = "-Heat Full Fix"
-L["unlameifier_tuning_heat_fix_disable.description"] = "Forcefully disables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, the heat will gradually lower." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_fix_disable.printname"] = "Arreglo completo del sobrecalentamiento - Desactivar forzosamente"
+L["unlameifier_tuning_heat_fix_disable.compactname"] = "-Arreglo calor"
+L["unlameifier_tuning_heat_fix_disable.description"] = "Desactiva forzosamente el <color=255,255,100>arreglo completo del sobrecalentamiento</color>.\nCuando el arma se encasquille y esté sobrecalentada, el calor se disipará gradualmente." .. statsdesc.warnheat
 
 ///////// Overheating Per Shot
-L["unlameifier.folder.heat.pershot.plus"] = "Heat/Per Shot/Add"
-L["unlameifier.folder.heat.pershot.minus"] = "Heat/Per Shot/Subtract"
+L["unlameifier.folder.heat.pershot.plus"] = "Calor/Por tiro/Añadir"
+L["unlameifier.folder.heat.pershot.minus"] = "Heat/Por tiro/Restar"
 
-L["unlameifier_tuning_heat_per_shot_plus025.printname"] = "+0.25 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus025.compactname"] = "+0.25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus025.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 0.25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus025.printname"] = "+0.25 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus025.compactname"] = "+0.25 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus025.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 0.25) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus05.printname"] = "+0.5 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus05.compactname"] = "+0.5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus05.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 0.5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus05.printname"] = "+0.5 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus05.compactname"] = "+0.5 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus05.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 0.5) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus1.printname"] = "+1 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus1.compactname"] = "+1 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 1) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus1.printname"] = "+1 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus1.compactname"] = "+1 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 1) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus5.printname"] = "+5 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus5.compactname"] = "+5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus5.printname"] = "+5 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus5.compactname"] = "+5 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 5) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus10.printname"] = "+10 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus10.compactname"] = "+10 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus10.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 10) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus10.printname"] = "+10 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus10.compactname"] = "+10 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus10.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 10) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus25.printname"] = "+25 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus25.compactname"] = "+25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus25.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus25.printname"] = "+25 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus25.compactname"] = "+25 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus25.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 25) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus50.printname"] = "+50 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus50.compactname"] = "+50 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus50.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 50) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus50.printname"] = "+50 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus50.compactname"] = "+50 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus50.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 50) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus75.printname"] = "+75 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus75.compactname"] = "+75 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus75.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 75) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus75.printname"] = "+75 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus75.compactname"] = "+75 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus75.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 75) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus100.printname"] = "+100 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus100.compactname"] = "+100 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus100.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 100) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus100.printname"] = "+100 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus100.compactname"] = "+100 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus100.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 100) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus500.printname"] = "+500 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus500.compactname"] = "+500 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus500.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 500) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus500.printname"] = "+500 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus500.compactname"] = "+500 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus500.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 500) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_plus1000.printname"] = "+1000 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_plus1000.compactname"] = "+1000 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus1000.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 1000) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus1000.printname"] = "+1000 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_plus1000.compactname"] = "+1000 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_plus1000.description"] = string.format(statsdesc.plusinv, "Calor por Disparo", 1000) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
-L["unlameifier_tuning_heat_per_shot_minus025.printname"] = "-0.25 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus025.compactname"] = "-0.25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus025.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 0.25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus025.printname"] = "-0.25 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus025.compactname"] = "-0.25 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus025.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 0.25) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus05.printname"] = "-0.5 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus05.compactname"] = "-0.5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus05.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 0.5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus05.printname"] = "-0.5 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus05.compactname"] = "-0.5 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus05.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 0.5) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus1.printname"] = "-1 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus1.compactname"] = "-1 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 1) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus1.printname"] = "-1 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus1.compactname"] = "-1 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 1) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus5.printname"] = "-5 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus5.compactname"] = "-5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus5.printname"] = "-5 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus5.compactname"] = "-5 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 5) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus10.printname"] = "-10 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus10.compactname"] = "-10 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus10.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 10) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus10.printname"] = "-10 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus10.compactname"] = "-10 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus10.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 10) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus25.printname"] = "-25 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus25.compactname"] = "-25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus25.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus25.printname"] = "-25 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus25.compactname"] = "-25 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus25.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 25) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus50.printname"] = "-50 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus50.compactname"] = "-50 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus50.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 50) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus50.printname"] = "-50 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus50.compactname"] = "-50 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus50.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 50) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus75.printname"] = "-75 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus75.compactname"] = "-75 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus75.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 75) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus75.printname"] = "-75 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus75.compactname"] = "-75 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus75.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 75) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus100.printname"] = "-100 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus100.compactname"] = "-100 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus100.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 100) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus100.printname"] = "-100 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus100.compactname"] = "-100 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus100.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 100) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus500.printname"] = "-500 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus500.compactname"] = "-500 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus500.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 500) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus500.printname"] = "-500 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus500.compactname"] = "-500 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus500.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 500) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_per_shot_minus1000.printname"] = "-1000 Heat Per Shot"
-L["unlameifier_tuning_heat_per_shot_minus1000.compactname"] = "-1000 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus1000.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 1000) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus1000.printname"] = "-1000 Calor por disparo"
+L["unlameifier_tuning_heat_per_shot_minus1000.compactname"] = "-1000 Calor x tiro"
+L["unlameifier_tuning_heat_per_shot_minus1000.description"] = string.format(statsdesc.minusinv, "Calor por Disparo", 1000) .. "Esto altera el calor que cada disparo añade antes de que el arma se sobrecaliente." .. statsdesc.warnheat
 
 ///////// Overheating Capacity
-L["unlameifier.folder.heat.capacity.fixed"] = "Heat/Capacity/Fixed"
-L["unlameifier.folder.heat.capacity.plus"] = "Heat/Capacity/Add"
-L["unlameifier.folder.heat.capacity.minus"] = "Heat/Capacity/Subtract"
-L["unlameifier.folder.heat.capacity.multiply"] = "Heat/Capacity/Multiply"
-L["unlameifier.folder.heat.capacity.divide"] = "Heat/Capacity/Divide"
+L["unlameifier.folder.heat.capacity.fixed"] = "Calor/Capacidad/Fijo"
+L["unlameifier.folder.heat.capacity.plus"] = "Calor/Capacidad/Añadir"
+L["unlameifier.folder.heat.capacity.minus"] = "Calor/Capacidad/Restar"
+L["unlameifier.folder.heat.capacity.multiply"] = "Calor/Capacidad/Multiplicar"
+L["unlameifier.folder.heat.capacity.divide"] = "Calor/Capacidad/Dividir"
 
-L["unlameifier_tuning_heat_capacity_x010.printname"] = "0.1x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x010.compactname"] = "0.1x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x010.description"] = string.format(statsdesc.minus, "Heat Capacity", "90%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_x010.printname"] = "0.1x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x010.compactname"] = "0.1x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x010.description"] = string.format(statsdesc.minus, "Capacidad de Calor", "90%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_x025.printname"] = "0.25x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x025.compactname"] = "0.25x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x025.description"] = string.format(statsdesc.minus, "Heat Capacity", "75%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_x025.printname"] = "0.25x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x025.compactname"] = "0.25x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x025.description"] = string.format(statsdesc.minus, "Capacidad de Calor", "75%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_x050.printname"] = "0.5x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x050.compactname"] = "0.5x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x050.description"] = string.format(statsdesc.minus, "Heat Capacity", "50%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_x050.printname"] = "0.5x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x050.compactname"] = "0.5x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x050.description"] = string.format(statsdesc.minus, "Capacidad de Calor", "50%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_x075.printname"] = "0.75x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x075.compactname"] = "0.75x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x075.description"] = string.format(statsdesc.minus, "Heat Capacity", "25%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_x075.printname"] = "0.75x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x075.compactname"] = "0.75x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x075.description"] = string.format(statsdesc.minus, "Capacidad de Calor", "25%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_x090.printname"] = "0.9x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x090.compactname"] = "0.9x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x090.description"] = string.format(statsdesc.minus, "Heat Capacity", "10%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_x090.printname"] = "0.9x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x090.compactname"] = "0.9x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x090.description"] = string.format(statsdesc.minus, "Capacidad de Calor", "10%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_x110.printname"] = "1.1x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x110.compactname"] = "1.1x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x110.description"] = string.format(statsdesc.plus, "Heat Capacity", "10%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x110.printname"] = "1.1x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x110.compactname"] = "1.1x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x110.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "10%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_x125.printname"] = "1.25x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x125.compactname"] = "1.25x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x125.description"] = string.format(statsdesc.plus, "Heat Capacity", "25%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x125.printname"] = "1.25x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x125.compactname"] = "1.25x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x125.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "25%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_x150.printname"] = "1.5x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x150.compactname"] = "1.5x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x150.description"] = string.format(statsdesc.plus, "Heat Capacity", "50%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x150.printname"] = "1.5x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x150.compactname"] = "1.5x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x150.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "50%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_x175.printname"] = "1.75x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x175.compactname"] = "1.75x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x175.description"] = string.format(statsdesc.plus, "Heat Capacity", "75%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x175.printname"] = "1.75x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x175.compactname"] = "1.75x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x175.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "75%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_x2.printname"] = "2x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x2.compactname"] = "2x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x2.description"] = string.format(statsdesc.plus, "Heat Capacity", "100%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x2.printname"] = "2x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x2.compactname"] = "2x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x2.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "100%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_x5.printname"] = "5x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x5.compactname"] = "5x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x5.description"] = string.format(statsdesc.plus, "Heat Capacity", "400%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x5.printname"] = "5x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x5.compactname"] = "5x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x5.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "400%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_x10.printname"] = "10x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x10.compactname"] = "10x Heat Capacity"
-L["unlameifier_tuning_heat_capacity_x10.description"] = string.format(statsdesc.plus, "Heat Capacity", "900%") .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_x10.printname"] = "10x Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_x10.compactname"] = "10x Cap. calor"
+L["unlameifier_tuning_heat_capacity_x10.description"] = string.format(statsdesc.plus, "Capacidad de Calor", "900%") .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus025.printname"] = "+0.25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus025.compactname"] = "+0.25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus025.description"] = string.format(statsdesc.plus, "Heat Capacity", 0.25) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus025.printname"] = "+0.25 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus025.compactname"] = "+0.25 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus025.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 0.25) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus05.printname"] = "+0.5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus05.compactname"] = "+0.5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus05.description"] = string.format(statsdesc.plus, "Heat Capacity", 0.5) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus05.printname"] = "+0.5 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus05.compactname"] = "+0.5 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus05.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 0.5) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus1.printname"] = "+1 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus1.compactname"] = "+1 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus1.description"] = string.format(statsdesc.plus, "Heat Capacity", 1) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus1.printname"] = "+1 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus1.compactname"] = "+1 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus1.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 1) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus5.printname"] = "+5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus5.compactname"] = "+5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus5.description"] = string.format(statsdesc.plus, "Heat Capacity", 5) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus5.printname"] = "+5 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus5.compactname"] = "+5 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus5.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 5) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus10.printname"] = "+10 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus10.compactname"] = "+10 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus10.description"] = string.format(statsdesc.plus, "Heat Capacity", 10) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus10.printname"] = "+10 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus10.compactname"] = "+10 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus10.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 10) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus25.printname"] = "+25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus25.compactname"] = "+25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus25.description"] = string.format(statsdesc.plus, "Heat Capacity", 25) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus25.printname"] = "+25 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus25.compactname"] = "+25 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus25.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 25) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus50.printname"] = "+50 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus50.compactname"] = "+50 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus50.description"] = string.format(statsdesc.plus, "Heat Capacity", 50) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus50.printname"] = "+50 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus50.compactname"] = "+50 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus50.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 50) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus75.printname"] = "+75 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus75.compactname"] = "+75 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus75.description"] = string.format(statsdesc.plus, "Heat Capacity", 75) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus75.printname"] = "+75 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus75.compactname"] = "+75 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus75.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 75) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus100.printname"] = "+100 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus100.compactname"] = "+100 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus100.description"] = string.format(statsdesc.plus, "Heat Capacity", 100) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus100.printname"] = "+100 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus100.compactname"] = "+100 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus100.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 100) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus500.printname"] = "+500 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus500.compactname"] = "+500 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus500.description"] = string.format(statsdesc.plus, "Heat Capacity", 500) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus500.printname"] = "+500 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus500.compactname"] = "+500 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus500.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 500) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_plus1000.printname"] = "+1000 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus1000.compactname"] = "+1000 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_plus1000.description"] = string.format(statsdesc.plus, "Heat Capacity", 1000) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_plus1000.printname"] = "+1000 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_plus1000.compactname"] = "+1000 Cap. calor"
+L["unlameifier_tuning_heat_capacity_plus1000.description"] = string.format(statsdesc.plus, "Capacidad de Calor", 1000) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_minus025.printname"] = "-0.25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus025.compactname"] = "-0.25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus025.description"] = string.format(statsdesc.minus, "Heat Capacity", 0.25) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus025.printname"] = "-0.25 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus025.compactname"] = "-0.25 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus025.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 0.25) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus05.printname"] = "-0.5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus05.compactname"] = "-0.5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus05.description"] = string.format(statsdesc.minus, "Heat Capacity", 0.5) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus05.printname"] = "-0.5 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus05.compactname"] = "-0.5 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus05.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 0.5) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus1.printname"] = "-1 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus1.compactname"] = "-1 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus1.description"] = string.format(statsdesc.minus, "Heat Capacity", 1) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus1.printname"] = "-1 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus1.compactname"] = "-1 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus1.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 1) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus5.printname"] = "-5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus5.compactname"] = "-5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus5.description"] = string.format(statsdesc.minus, "Heat Capacity", 5) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus5.printname"] = "-5 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus5.compactname"] = "-5 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus5.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 5) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus10.printname"] = "-10 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus10.compactname"] = "-10 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus10.description"] = string.format(statsdesc.minus, "Heat Capacity", 10) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus10.printname"] = "-10 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus10.compactname"] = "-10 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus10.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 10) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus25.printname"] = "-25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus25.compactname"] = "-25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus25.description"] = string.format(statsdesc.minus, "Heat Capacity", 25) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus25.printname"] = "-25 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus25.compactname"] = "-25 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus25.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 25) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus50.printname"] = "-50 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus50.compactname"] = "-50 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus50.description"] = string.format(statsdesc.minus, "Heat Capacity", 50) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus50.printname"] = "-50 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus50.compactname"] = "-50 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus50.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 50) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus75.printname"] = "-75 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus75.compactname"] = "-75 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus75.description"] = string.format(statsdesc.minus, "Heat Capacity", 75) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus75.printname"] = "-75 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus75.compactname"] = "-75 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus75.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 75) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus100.printname"] = "-100 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus100.compactname"] = "-100 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus100.description"] = string.format(statsdesc.minus, "Heat Capacity", 100) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus100.printname"] = "-100 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus100.compactname"] = "-100 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus100.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 100) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus500.printname"] = "-500 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus500.compactname"] = "-500 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus500.description"] = string.format(statsdesc.minus, "Heat Capacity", 500) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus500.printname"] = "-500 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus500.compactname"] = "-500 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus500.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 500) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_minus1000.printname"] = "-1000 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus1000.compactname"] = "-1000 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_minus1000.description"] = string.format(statsdesc.minus, "Heat Capacity", 1000) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_minus1000.printname"] = "-1000 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_minus1000.compactname"] = "-1000 Cap. calor"
+L["unlameifier_tuning_heat_capacity_minus1000.description"] = string.format(statsdesc.minus, "Capacidad de Calor", 1000) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_force1.printname"] = "1 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force1.compactname"] = "1 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force1.description"] = string.format(statsdesc.fixed, "Heat Capacity", 1) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat .. statsdesc.warnheattoolow
+L["unlameifier_tuning_heat_capacity_force1.printname"] = "1 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force1.compactname"] = "1 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force1.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 1) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat .. statsdesc.warnheattoolow
 
-L["unlameifier_tuning_heat_capacity_force5.printname"] = "5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force5.compactname"] = "5 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force5.description"] = string.format(statsdesc.fixed, "Heat Capacity", 5) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force5.printname"] = "5 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force5.compactname"] = "5 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force5.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 5) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force10.printname"] = "10 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force10.compactname"] = "10 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force10.description"] = string.format(statsdesc.fixed, "Heat Capacity", 10) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force10.printname"] = "10 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force10.compactname"] = "10 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force10.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 10) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force15.printname"] = "15 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force15.compactname"] = "15 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force15.description"] = string.format(statsdesc.fixed, "Heat Capacity", 15) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force15.printname"] = "15 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force15.compactname"] = "15 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force15.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 15) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force17.printname"] = "17 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force17.compactname"] = "17 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force17.description"] = string.format(statsdesc.fixed, "Heat Capacity", 17) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force17.printname"] = "17 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force17.compactname"] = "17 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force17.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 17) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force20.printname"] = "20 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force20.compactname"] = "20 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force20.description"] = string.format(statsdesc.fixed, "Heat Capacity", 20) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force20.printname"] = "20 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force20.compactname"] = "20 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force20.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 20) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force25.printname"] = "25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force25.compactname"] = "25 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force25.description"] = string.format(statsdesc.fixed, "Heat Capacity", 25) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force25.printname"] = "25 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force25.compactname"] = "25 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force25.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 25) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force30.printname"] = "30 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force30.compactname"] = "30 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force30.description"] = string.format(statsdesc.fixed, "Heat Capacity", 30) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force30.printname"] = "30 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force30.compactname"] = "30 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force30.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 30) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force50.printname"] = "50 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force50.compactname"] = "50 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force50.description"] = string.format(statsdesc.fixed, "Heat Capacity", 50) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force50.printname"] = "50 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force50.compactname"] = "50 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force50.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 50) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force75.printname"] = "75 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force75.compactname"] = "75 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force75.description"] = string.format(statsdesc.fixed, "Heat Capacity", 75) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force75.printname"] = "75 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force75.compactname"] = "75 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force75.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 75) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force100.printname"] = "100 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force100.compactname"] = "100 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force100.description"] = string.format(statsdesc.fixed, "Heat Capacity", 100) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force100.printname"] = "100 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force100.compactname"] = "100 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force100.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 100) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force500.printname"] = "500 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force500.compactname"] = "500 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force500.description"] = string.format(statsdesc.fixed, "Heat Capacity", 500) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force500.printname"] = "500 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force500.compactname"] = "500 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force500.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 500) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_capacity_force1000.printname"] = "1000 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force1000.compactname"] = "1000 Heat Capacity"
-L["unlameifier_tuning_heat_capacity_force1000.description"] = string.format(statsdesc.fixed, "Heat Capacity", 1000) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_capacity_force1000.printname"] = "1000 Capacidad calorífica"
+L["unlameifier_tuning_heat_capacity_force1000.compactname"] = "1000 Cap. calor"
+L["unlameifier_tuning_heat_capacity_force1000.description"] = string.format(statsdesc.fixed, "Capacidad de Calor", 1000) .. "Esto altera la cantidad máxima de calor necesário para sobrecalentar el arma." .. statsdesc.warnheat
 
 ///////// Overheat Dissipation
-L["unlameifier.folder.heat.dissipation.fixed"] = "Heat/Dissipation/Fixed"
-L["unlameifier.folder.heat.dissipation.plus"] = "Heat/Dissipation/Add"
-L["unlameifier.folder.heat.dissipation.minus"] = "Heat/Dissipation/Subtract"
-L["unlameifier.folder.heat.dissipation.multiply"] = "Heat/Dissipation/Multiply"
-L["unlameifier.folder.heat.dissipation.divide"] = "Heat/Dissipation/Divide"
+L["unlameifier.folder.heat.dissipation.fixed"] = "Calor/Disipación/Fijo"
+L["unlameifier.folder.heat.dissipation.plus"] = "Calor/Disipación/Añadir"
+L["unlameifier.folder.heat.dissipation.minus"] = "Calor/Disipación/Restar"
+L["unlameifier.folder.heat.dissipation.multiply"] = "Calor/Disipación/Multiplicar"
+L["unlameifier.folder.heat.dissipation.divide"] = "Calor/Disipación/Dividir"
 
-L["unlameifier_tuning_heat_dissipation_x010.printname"] = "0.1x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x010.compactname"] = "0.1x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x010.description"] = string.format(statsdesc.minus, "Heat Dissipation", "90%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x010.printname"] = "0.1x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x010.compactname"] = "0.1x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x010.description"] = string.format(statsdesc.minus, "Disipación de Calor", "90%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x025.printname"] = "0.25x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x025.compactname"] = "0.25x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x025.description"] = string.format(statsdesc.minus, "Heat Dissipation", "75%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x025.printname"] = "0.25x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x025.compactname"] = "0.25x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x025.description"] = string.format(statsdesc.minus, "Disipación de Calor", "75%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x050.printname"] = "0.5x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x050.compactname"] = "0.5x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x050.description"] = string.format(statsdesc.minus, "Heat Dissipation", "50%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x050.printname"] = "0.5x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x050.compactname"] = "0.5x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x050.description"] = string.format(statsdesc.minus, "Disipación de Calor", "50%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x075.printname"] = "0.75x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x075.compactname"] = "0.75x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x075.description"] = string.format(statsdesc.minus, "Heat Dissipation", "25%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x075.printname"] = "0.75x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x075.compactname"] = "0.75x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x075.description"] = string.format(statsdesc.minus, "Disipación de Calor", "25%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x090.printname"] = "0.9x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x090.compactname"] = "0.9x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x090.description"] = string.format(statsdesc.minus, "Heat Dissipation", "10%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x090.printname"] = "0.9x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x090.compactname"] = "0.9x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x090.description"] = string.format(statsdesc.minus, "Disipación de Calor", "10%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x110.printname"] = "1.1x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x110.compactname"] = "1.1x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x110.description"] = string.format(statsdesc.plus, "Heat Dissipation", "10%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x110.printname"] = "1.1x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x110.compactname"] = "1.1x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x110.description"] = string.format(statsdesc.plus, "Disipación de Calor", "10%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x125.printname"] = "1.25x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x125.compactname"] = "1.25x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x125.description"] = string.format(statsdesc.plus, "Heat Dissipation", "25%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x125.printname"] = "1.25x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x125.compactname"] = "1.25x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x125.description"] = string.format(statsdesc.plus, "Disipación de Calor", "25%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x150.printname"] = "1.5x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x150.compactname"] = "1.5x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x150.description"] = string.format(statsdesc.plus, "Heat Dissipation", "50%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x150.printname"] = "1.5x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x150.compactname"] = "1.5x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x150.description"] = string.format(statsdesc.plus, "Disipación de Calor", "50%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x175.printname"] = "1.75x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x175.compactname"] = "1.75x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x175.description"] = string.format(statsdesc.plus, "Heat Dissipation", "75%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x175.printname"] = "1.75x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x175.compactname"] = "1.75x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x175.description"] = string.format(statsdesc.plus, "Disipación de Calor", "75%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x2.printname"] = "2x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x2.compactname"] = "2x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x2.description"] = string.format(statsdesc.plus, "Heat Dissipation", "100%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x2.printname"] = "2x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x2.compactname"] = "2x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x2.description"] = string.format(statsdesc.plus, "Disipación de Calor", "100%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x5.printname"] = "5x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x5.compactname"] = "5x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x5.description"] = string.format(statsdesc.plus, "Heat Dissipation", "400%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x5.printname"] = "5x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x5.compactname"] = "5x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x5.description"] = string.format(statsdesc.plus, "Disipación de Calor", "400%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_x10.printname"] = "10x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x10.compactname"] = "10x Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_x10.description"] = string.format(statsdesc.plus, "Heat Dissipation", "900%") .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_x10.printname"] = "10x Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_x10.compactname"] = "10x Disip. calor"
+L["unlameifier_tuning_heat_dissipation_x10.description"] = string.format(statsdesc.plus, "Disipación de Calor", "900%") .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus025.printname"] = "+0.25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus025.compactname"] = "+0.25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus025.description"] = string.format(statsdesc.plus, "Heat Dissipation", 0.25) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus025.printname"] = "+0.25 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus025.compactname"] = "+0.25 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus025.description"] = string.format(statsdesc.plus, "Disipación de Calor", 0.25) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus05.printname"] = "+0.5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus05.compactname"] = "+0.5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus05.description"] = string.format(statsdesc.plus, "Heat Dissipation", 0.5) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus05.printname"] = "+0.5 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus05.compactname"] = "+0.5 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus05.description"] = string.format(statsdesc.plus, "Disipación de Calor", 0.5) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus1.printname"] = "+1 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus1.compactname"] = "+1 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus1.description"] = string.format(statsdesc.plus, "Heat Dissipation", 1) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus1.printname"] = "+1 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus1.compactname"] = "+1 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus1.description"] = string.format(statsdesc.plus, "Disipación de Calor", 1) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus5.printname"] = "+5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus5.compactname"] = "+5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus5.description"] = string.format(statsdesc.plus, "Heat Dissipation", 5) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus5.printname"] = "+5 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus5.compactname"] = "+5 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus5.description"] = string.format(statsdesc.plus, "Disipación de Calor", 5) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus10.printname"] = "+10 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus10.compactname"] = "+10 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus10.description"] = string.format(statsdesc.plus, "Heat Dissipation", 10) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus10.printname"] = "+10 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus10.compactname"] = "+10 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus10.description"] = string.format(statsdesc.plus, "Disipación de Calor", 10) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus25.printname"] = "+25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus25.compactname"] = "+25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus25.description"] = string.format(statsdesc.plus, "Heat Dissipation", 25) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus25.printname"] = "+25 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus25.compactname"] = "+25 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus25.description"] = string.format(statsdesc.plus, "Disipación de Calor", 25) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus50.printname"] = "+50 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus50.compactname"] = "+50 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus50.description"] = string.format(statsdesc.plus, "Heat Dissipation", 50) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus50.printname"] = "+50 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus50.compactname"] = "+50 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus50.description"] = string.format(statsdesc.plus, "Disipación de Calor", 50) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus75.printname"] = "+75 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus75.compactname"] = "+75 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus75.description"] = string.format(statsdesc.plus, "Heat Dissipation", 75) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus75.printname"] = "+75 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus75.compactname"] = "+75 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus75.description"] = string.format(statsdesc.plus, "Disipación de Calor", 75) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus100.printname"] = "+100 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus100.compactname"] = "+100 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus100.description"] = string.format(statsdesc.plus, "Heat Dissipation", 100) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus100.printname"] = "+100 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus100.compactname"] = "+100 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus100.description"] = string.format(statsdesc.plus, "Disipación de Calor", 100) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus500.printname"] = "+500 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus500.compactname"] = "+500 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus500.description"] = string.format(statsdesc.plus, "Heat Dissipation", 500) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus500.printname"] = "+500 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus500.compactname"] = "+500 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus500.description"] = string.format(statsdesc.plus, "Disipación de Calor", 500) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_plus1000.printname"] = "+1000 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus1000.compactname"] = "+1000 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_plus1000.description"] = string.format(statsdesc.plus, "Heat Dissipation", 1000) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_plus1000.printname"] = "+1000 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_plus1000.compactname"] = "+1000 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_plus1000.description"] = string.format(statsdesc.plus, "Disipación de Calor", 1000) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus025.printname"] = "-0.25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus025.compactname"] = "-0.25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus025.description"] = string.format(statsdesc.minus, "Heat Dissipation", 0.25) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus025.printname"] = "-0.25 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus025.compactname"] = "-0.25 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus025.description"] = string.format(statsdesc.minus, "Disipación de Calor", 0.25) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus05.printname"] = "-0.5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus05.compactname"] = "-0.5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus05.description"] = string.format(statsdesc.minus, "Heat Dissipation", 0.5) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus05.printname"] = "-0.5 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus05.compactname"] = "-0.5 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus05.description"] = string.format(statsdesc.minus, "Disipación de Calor", 0.5) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus1.printname"] = "-1 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus1.compactname"] = "-1 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus1.description"] = string.format(statsdesc.minus, "Heat Dissipation", 1) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus1.printname"] = "-1 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus1.compactname"] = "-1 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus1.description"] = string.format(statsdesc.minus, "Disipación de Calor", 1) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus5.printname"] = "-5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus5.compactname"] = "-5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus5.description"] = string.format(statsdesc.minus, "Heat Dissipation", 5) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus5.printname"] = "-5 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus5.compactname"] = "-5 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus5.description"] = string.format(statsdesc.minus, "Disipación de Calor", 5) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus10.printname"] = "-10 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus10.compactname"] = "-10 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus10.description"] = string.format(statsdesc.minus, "Heat Dissipation", 10) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus10.printname"] = "-10 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus10.compactname"] = "-10 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus10.description"] = string.format(statsdesc.minus, "Disipación de Calor", 10) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus25.printname"] = "-25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus25.compactname"] = "-25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus25.description"] = string.format(statsdesc.minus, "Heat Dissipation", 25) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus25.printname"] = "-25 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus25.compactname"] = "-25 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus25.description"] = string.format(statsdesc.minus, "Disipación de Calor", 25) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus50.printname"] = "-50 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus50.compactname"] = "-50 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus50.description"] = string.format(statsdesc.minus, "Heat Dissipation", 50) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus50.printname"] = "-50 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus50.compactname"] = "-50 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus50.description"] = string.format(statsdesc.minus, "Disipación de Calor", 50) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus75.printname"] = "-75 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus75.compactname"] = "-75 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus75.description"] = string.format(statsdesc.minus, "Heat Dissipation", 75) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus75.printname"] = "-75 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus75.compactname"] = "-75 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus75.description"] = string.format(statsdesc.minus, "Disipación de Calor", 75) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus100.printname"] = "-100 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus100.compactname"] = "-100 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus100.description"] = string.format(statsdesc.minus, "Heat Dissipation", 100) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus100.printname"] = "-100 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus100.compactname"] = "-100 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus100.description"] = string.format(statsdesc.minus, "Disipación de Calor", 100) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus500.printname"] = "-500 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus500.compactname"] = "-500 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus500.description"] = string.format(statsdesc.minus, "Heat Dissipation", 500) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus500.printname"] = "-500 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus500.compactname"] = "-500 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus500.description"] = string.format(statsdesc.minus, "Disipación de Calor", 500) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_minus1000.printname"] = "-1000 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus1000.compactname"] = "-1000 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_minus1000.description"] = string.format(statsdesc.minus, "Heat Dissipation", 1000) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_minus1000.printname"] = "-1000 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_minus1000.compactname"] = "-1000 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_minus1000.description"] = string.format(statsdesc.minus, "Disipación de Calor", 1000) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force1.printname"] = "1 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force1.compactname"] = "1 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force1.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 1) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force1.printname"] = "1 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force1.compactname"] = "1 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force1.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 1) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force5.printname"] = "5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force5.compactname"] = "5 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force5.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 5) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force5.printname"] = "5 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force5.compactname"] = "5 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force5.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 5) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force10.printname"] = "10 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force10.compactname"] = "10 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force10.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 10) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force10.printname"] = "10 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force10.compactname"] = "10 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force10.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 10) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force15.printname"] = "15 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force15.compactname"] = "15 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force15.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 15) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force15.printname"] = "15 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force15.compactname"] = "15 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force15.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 15) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force17.printname"] = "17 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force17.compactname"] = "17 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force17.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 17) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force17.printname"] = "17 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force17.compactname"] = "17 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force17.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 17) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force20.printname"] = "20 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force20.compactname"] = "20 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force20.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 20) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force20.printname"] = "20 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force20.compactname"] = "20 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force20.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 20) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force25.printname"] = "25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force25.compactname"] = "25 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force25.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 25) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force25.printname"] = "25 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force25.compactname"] = "25 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force25.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 25) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force30.printname"] = "30 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force30.compactname"] = "30 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force30.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 30) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force30.printname"] = "30 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force30.compactname"] = "30 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force30.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 30) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force50.printname"] = "50 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force50.compactname"] = "50 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force50.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 50) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force50.printname"] = "50 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force50.compactname"] = "50 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force50.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 50) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force75.printname"] = "75 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force75.compactname"] = "75 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force75.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 75) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force75.printname"] = "75 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force75.compactname"] = "75 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force75.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 75) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force100.printname"] = "100 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force100.compactname"] = "100 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force100.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 100) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force100.printname"] = "100 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force100.compactname"] = "100 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force100.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 100) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force500.printname"] = "500 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force500.compactname"] = "500 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force500.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 500) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force500.printname"] = "500 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force500.compactname"] = "500 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force500.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 500) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_dissipation_force1000.printname"] = "1000 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force1000.compactname"] = "1000 Heat Dissipation"
-L["unlameifier_tuning_heat_dissipation_force1000.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 1000) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_dissipation_force1000.printname"] = "1000 Disipación de calor"
+L["unlameifier_tuning_heat_dissipation_force1000.compactname"] = "1000 Disip. calor"
+L["unlameifier_tuning_heat_dissipation_force1000.description"] = string.format(statsdesc.fixed, "Disipación de Calor", 1000) .. "Esto altera lo rápido que se disipa el calor con el tiempo." .. statsdesc.warnheat
 
 ///////// Overheat Delay
-L["unlameifier.folder.heat.delay.fixed"] = "Heat/Delay/Fixed"
+L["unlameifier.folder.heat.delay.fixed"] = "Calor/Retraso/Fijo"
 
-L["unlameifier_tuning_heat_delay_force0.printname"] = "Heat Dissipation Delay - 0 Seconds"
-L["unlameifier_tuning_heat_delay_force0.compactname"] = "0s Heat Delay"
-L["unlameifier_tuning_heat_delay_force0.description"] = string.format(statsdesc.fixedsec, "Heat Delay", 0) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force0.printname"] = "Retraso en la disipación del calor - 0 segundos"
+L["unlameifier_tuning_heat_delay_force0.compactname"] = "0s Retraso calor"
+L["unlameifier_tuning_heat_delay_force0.description"] = string.format(statsdesc.fixedsec, "Retraso del calor", 0) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force05.printname"] = "Heat Dissipation Delay - 0.5 Seconds"
-L["unlameifier_tuning_heat_delay_force05.compactname"] = "0.5s Heat Delay"
-L["unlameifier_tuning_heat_delay_force05.description"] = string.format(statsdesc.fixedsec, "Heat Delay", 0.5) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force05.printname"] = "Retraso en la disipación del calor - 0.5 segundos"
+L["unlameifier_tuning_heat_delay_force05.compactname"] = "0.5s Retraso calor"
+L["unlameifier_tuning_heat_delay_force05.description"] = string.format(statsdesc.fixedsec, "Retraso del calor", 0.5) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force1.printname"] = "Heat Dissipation Delay - 1 Second"
-L["unlameifier_tuning_heat_delay_force1.compactname"] = "1s Heat Delay"
-L["unlameifier_tuning_heat_delay_force1.description"] = string.format(statsdesc.fixedsec, "Heat Delay", 1) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force1.printname"] = "Retraso en la disipación del calor - 1 segundo"
+L["unlameifier_tuning_heat_delay_force1.compactname"] = "1s Retraso calor"
+L["unlameifier_tuning_heat_delay_force1.description"] = string.format(statsdesc.fixedsec, "Retraso del calor", 1) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force3.printname"] = "Heat Dissipation Delay - 3 Seconds"
-L["unlameifier_tuning_heat_delay_force3.compactname"] = "3s Heat Delay"
-L["unlameifier_tuning_heat_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Heat Delay", 3) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force3.printname"] = "Retraso en la disipación del calor - 3 segundos"
+L["unlameifier_tuning_heat_delay_force3.compactname"] = "3s Retraso calor"
+L["unlameifier_tuning_heat_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Retraso del calor", 3) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force5.printname"] = "Heat Dissipation Delay - 5 Seconds"
-L["unlameifier_tuning_heat_delay_force5.compactname"] = "5s Heat Delay"
-L["unlameifier_tuning_heat_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Heat Delay", 5) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force5.printname"] = "Retraso en la disipación del calor - 5 segundos"
+L["unlameifier_tuning_heat_delay_force5.compactname"] = "5s Retraso calor"
+L["unlameifier_tuning_heat_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Retraso del calor", 5) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force10.printname"] = "Heat Dissipation Delay - 10 Seconds"
-L["unlameifier_tuning_heat_delay_force10.compactname"] = "10s Heat Delay"
-L["unlameifier_tuning_heat_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Heat Delay", 10) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force10.printname"] = "Retraso en la disipación del calor - 10 segundos"
+L["unlameifier_tuning_heat_delay_force10.compactname"] = "10s Retraso calor"
+L["unlameifier_tuning_heat_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Retraso del calor", 10) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force30.printname"] = "Heat Dissipation Delay - 30 Seconds"
-L["unlameifier_tuning_heat_delay_force30.compactname"] = "30s Heat Delay"
-L["unlameifier_tuning_heat_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Heat Delay", 30) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force30.printname"] = "Retraso en la disipación del calor - 30 segundos"
+L["unlameifier_tuning_heat_delay_force30.compactname"] = "30s Retraso calor"
+L["unlameifier_tuning_heat_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Retraso del calor", 30) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_delay_force60.printname"] = "Heat Dissipation Delay - 60 Seconds"
-L["unlameifier_tuning_heat_delay_force60.compactname"] = "60s Heat Delay"
-L["unlameifier_tuning_heat_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Heat Delay", 60) .. "This alters the delay for when the heat should automatically dissipate over time." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_delay_force60.printname"] = "Retraso en la disipación del calor - 60 segundos"
+L["unlameifier_tuning_heat_delay_force60.compactname"] = "60s Retraso calor"
+L["unlameifier_tuning_heat_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Retraso del calor", 60) .. "Esto altera el retraso que debe esperarse para que el calor se disipe automáticamente con el tiempo." .. statsdesc.warnheat
 
 ///////// Trigger Delay
-L["unlameifier.folder.triggerdelay"] = "Trigger Delay"
-L["unlameifier.folder.triggerdelay.utility.system"] = "Trigger Delay/Utility/System"
+L["unlameifier.folder.triggerdelay"] = "Retra. gatillo"
+L["unlameifier.folder.triggerdelay.utility.system"] = "Retra. gatillo/Utilidades/Sistema"
 
-L["unlameifier_tuning_triggerdelay_enable.printname"] = "Trigger Delay - Force Enable"
-L["unlameifier_tuning_triggerdelay_enable.compactname"] = "+TrigDelay"
-L["unlameifier_tuning_triggerdelay_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay</color>.\nThe weapon will have a delay before firing after you press the fire button."
+L["unlameifier_tuning_triggerdelay_enable.printname"] = "Retraso del gatillo - Activar forzosamente"
+L["unlameifier_tuning_triggerdelay_enable.compactname"] = "+Retra. gatillo"
+L["unlameifier_tuning_triggerdelay_enable.description"] = "Activa forzosamente el <color=255,255,100>retraso del gatillo</color>.\nEl arma tendrá un retraso antes de disparar tras apretar el botón de disparar."
 
-L["unlameifier_tuning_triggerdelay_disable.printname"] = "Trigger Delay - Force Disable"
-L["unlameifier_tuning_triggerdelay_disable.compactname"] = "-TrigDelay"
-L["unlameifier_tuning_triggerdelay_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay</color>.\nThe weapon will immediately fire when pressing the firing button."
+L["unlameifier_tuning_triggerdelay_disable.printname"] = "Retraso del gatillo - Desactivar forzosamente"
+L["unlameifier_tuning_triggerdelay_disable.compactname"] = "-Retra. gatillo"
+L["unlameifier_tuning_triggerdelay_disable.description"] = "Desactiva forzosamente el <color=255,255,100>retraso del gatillo</color>.\nEl arma disparará inmediatamente tras apretar el botón de disparar."
 
-L["unlameifier_tuning_triggerdelaycancellable_enable.printname"] = "Trigger Delay Cancelling - Force Enable"
-L["unlameifier_tuning_triggerdelaycancellable_enable.compactname"] = "+TrigDelay Cancel"
-L["unlameifier_tuning_triggerdelaycancellable_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay cancelling</color>.\nIf you release the firing button before the weapon fire, you'll not fire." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelaycancellable_enable.printname"] = "Cancelación del retraso del gatillo - Activar forzosamente"
+L["unlameifier_tuning_triggerdelaycancellable_enable.compactname"] = "+Cancel r. gatillo"
+L["unlameifier_tuning_triggerdelaycancellable_enable.description"] = "Activa forzosamente la <color=255,255,100>cancelación del retraso del gatillo</color>.\nSi sueltas el botón de disparar antes de que el arma dispare, no disparará." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelaycancellable_disable.printname"] = "Trigger Delay Cancelling - Force Disable"
-L["unlameifier_tuning_triggerdelaycancellable_disable.compactname"] = "-TrigDelay Cancel"
-L["unlameifier_tuning_triggerdelaycancellable_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay cancelling</color>.\nThe weapon will always fire after you press the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelaycancellable_disable.printname"] = "Cancelación del retraso del gatillo - Desactivar forzosamente"
+L["unlameifier_tuning_triggerdelaycancellable_disable.compactname"] = "-Cancel r. gatillo"
+L["unlameifier_tuning_triggerdelaycancellable_disable.description"] = "Desactiva forzosamente la <color=255,255,100>cancelación del retraso del gatillo</color>.\nEl arma siempre disparará tras apretar el botón de disparo." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelayrelease2fire_enable.printname"] = "Trigger Delay \"Release to Fire\" - Force Enable"
-L["unlameifier_tuning_triggerdelayrelease2fire_enable.compactname"] = "+ReleaseToFire"
-L["unlameifier_tuning_triggerdelayrelease2fire_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you release the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.printname"] = "Retraso del gatillo \"soltar para disparar\" - Activar forzosamente"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.compactname"] = "+Tiro al soltar"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.description"] = "Activa forzosamente el <color=255,255,100>retraso del gatillo \"soltar para disparar\"</color>.\nEl arma disparará cuando sueltes el botón de disparar." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelayrelease2fire_disable.printname"] = "Trigger Delay \"Release to Fire\" - Force Disable"
-L["unlameifier_tuning_triggerdelayrelease2fire_disable.compactname"] = "-ReleaseToFire"
-L["unlameifier_tuning_triggerdelayrelease2fire_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you press (and/or hold) the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.printname"] = "Retraso del gatillo \"soltar para disparar\" - Force Disable"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.compactname"] = "-Tiro al soltar"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.description"] = "Desactiva forzosamente el <color=255,255,100>retraso del gatillo \"soltar para disparar\"</color>.\nEl arma disparará cuando pulses (y/o mantengas) el botón de disparar." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerstartfireanim_enable.printname"] = "Trigger Delay Animation - Force Enable"
-L["unlameifier_tuning_triggerstartfireanim_enable.compactname"] = "+TrigDelayAnim"
-L["unlameifier_tuning_triggerstartfireanim_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay animation</color>.\nThe weapon will play the \"trigger\" animation (if one exists) when you press and hold the firing button before firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerstartfireanim_enable.printname"] = "Animación del retraso del gatillo - Activar forzosamente"
+L["unlameifier_tuning_triggerstartfireanim_enable.compactname"] = "+Anim. ret. gatillo"
+L["unlameifier_tuning_triggerstartfireanim_enable.description"] = "Activa forzosamente la <color=255,255,100>animación del retraso del gatillo</color>.\nEl arma reproducirá la animación de \"gatillo\" (si existe) cuando pulses y mantengas el botón de disparar antes de disparar." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerstartfireanim_disable.printname"] = "Trigger Delay Animation - Force Disable"
-L["unlameifier_tuning_triggerstartfireanim_disable.compactname"] = "-TrigDelayAnim"
-L["unlameifier_tuning_triggerstartfireanim_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay animation</color>.\nThe weapon will not play the \"trigger\" animation when you press and hold the firing button before firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerstartfireanim_disable.printname"] = "Animación del retraso del gatillo - Desactivar forzosamente"
+L["unlameifier_tuning_triggerstartfireanim_disable.compactname"] = "-Anim. ret. gatillo"
+L["unlameifier_tuning_triggerstartfireanim_disable.description"] = "Desactiva forzosamente la <color=255,255,100>animación del retraso del gatillo</color>.\nEl arma no reproducirá la animación de \"gatillo\" cuando pulses y mantengas el botón de disparar antes de disparar." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelayrepeat_enable.printname"] = "Trigger Delay Repeat - Force Enable"
-L["unlameifier_tuning_triggerdelayrepeat_enable.compactname"] = "+TrigDelayRepeat"
-L["unlameifier_tuning_triggerdelayrepeat_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur every time the weapon fires." .. statsdesc.warntrigger .. statsdesc.warntriggerauto
+L["unlameifier_tuning_triggerdelayrepeat_enable.printname"] = "Repetición del retraso del gatillo - Activar forzosamente"
+L["unlameifier_tuning_triggerdelayrepeat_enable.compactname"] = "+Rep. ret. gatillo"
+L["unlameifier_tuning_triggerdelayrepeat_enable.description"] = "Activar forzosamente la <color=255,255,100>repetición del retraso del gatillo</color>.\nEl retraso del gatillo ocurrirá cada vez que el arma dispara." .. statsdesc.warntrigger .. statsdesc.warntriggerauto
 
-L["unlameifier_tuning_triggerdelayrepeat_disable.printname"] = "Trigger Delay Repeat - Force Disable"
-L["unlameifier_tuning_triggerdelayrepeat_disable.compactname"] = "-TrigDelayRepeat"
-L["unlameifier_tuning_triggerdelayrepeat_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur only when you first press the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelayrepeat_disable.printname"] = "Repetición del retraso del gatillo - Desactivar forzosamente"
+L["unlameifier_tuning_triggerdelayrepeat_disable.compactname"] = "-Rep. ret. gatillo"
+L["unlameifier_tuning_triggerdelayrepeat_disable.description"] = "Desactiva forzosamente la <color=255,255,100>repetición del retraso del gatillo</color>.\nEl retraso del gatillo solamente ocurrirá la primera vez que pulses el botón de disparar." .. statsdesc.warntrigger
 
 ///////// Trigger Delay Times
-L["unlameifier.folder.triggerdelay.fixed"] = "Trigger Delay/Fixed"
+L["unlameifier.folder.triggerdelay.fixed"] = "Retraso del gatillo/Fijo"
 
-L["unlameifier_tuning_trigger_delay_force0.printname"] = "Trigger Delay - 0 Seconds"
+L["unlameifier_tuning_trigger_delay_force0.printname"] = "Retraso del gatillo - 0 segundos"
 L["unlameifier_tuning_trigger_delay_force0.compactname"] = "0s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force0.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force0.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 0) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force01.printname"] = "Trigger Delay - 0.1 Seconds"
+L["unlameifier_tuning_trigger_delay_force01.printname"] = "Retraso del gatillo - 0.1 segundos"
 L["unlameifier_tuning_trigger_delay_force01.compactname"] = "0.1s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force01.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.1) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force01.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 0.1) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force02.printname"] = "Trigger Delay - 0.2 Seconds"
+L["unlameifier_tuning_trigger_delay_force02.printname"] = "Retraso del gatillo - 0.2 segundos"
 L["unlameifier_tuning_trigger_delay_force02.compactname"] = "0.2s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force02.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.2) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force02.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 0.2) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force03.printname"] = "Trigger Delay - 0.3 Seconds"
+L["unlameifier_tuning_trigger_delay_force03.printname"] = "Retraso del gatillo - 0.3 segundos"
 L["unlameifier_tuning_trigger_delay_force03.compactname"] = "0.3s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force03.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.3) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force03.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 0.3) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force04.printname"] = "Trigger Delay - 0.4 Seconds"
+L["unlameifier_tuning_trigger_delay_force04.printname"] = "Retraso del gatillo - 0.4 segundos"
 L["unlameifier_tuning_trigger_delay_force04.compactname"] = "0.4s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force04.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.4) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force04.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 0.4) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force05.printname"] = "Trigger Delay - 0.5 Seconds"
+L["unlameifier_tuning_trigger_delay_force05.printname"] = "Retraso del gatillo - 0.5 segundos"
 L["unlameifier_tuning_trigger_delay_force05.compactname"] = "0.5s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force05.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 0.5) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force05.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 0.5) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force1.printname"] = "Trigger Delay - 1 Second"
+L["unlameifier_tuning_trigger_delay_force1.printname"] = "Retraso del gatillo - 1 segundo"
 L["unlameifier_tuning_trigger_delay_force1.compactname"] = "1s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force1.description"] = string.format(statsdesc.fixedsec, "Trigger Delay", 1) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force1.description"] = string.format(statsdesc.fixedsec, "Tiempo de Retraso del Disparo", 1) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force3.printname"] = "Trigger Delay - 3 Seconds"
+L["unlameifier_tuning_trigger_delay_force3.printname"] = "Retraso del gatillo - 3 segundos"
 L["unlameifier_tuning_trigger_delay_force3.compactname"] = "3s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 3) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force3.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 3) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force5.printname"] = "Trigger Delay - 5 Seconds"
+L["unlameifier_tuning_trigger_delay_force5.printname"] = "Retraso del gatillo - 5 segundos"
 L["unlameifier_tuning_trigger_delay_force5.compactname"] = "5s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 5) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force5.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 5) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force10.printname"] = "Trigger Delay - 10 Seconds"
+L["unlameifier_tuning_trigger_delay_force10.printname"] = "Retraso del gatillo - 10 segundos"
 L["unlameifier_tuning_trigger_delay_force10.compactname"] = "10s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 10) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force10.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 10) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force30.printname"] = "Trigger Delay - 30 Seconds"
+L["unlameifier_tuning_trigger_delay_force30.printname"] = "Retraso del gatillo - 30 segundos"
 L["unlameifier_tuning_trigger_delay_force30.compactname"] = "30s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 30) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force30.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 30) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_trigger_delay_force60.printname"] = "Trigger Delay - 60 Seconds"
+L["unlameifier_tuning_trigger_delay_force60.printname"] = "Retraso del gatillo - 60 segundos"
 L["unlameifier_tuning_trigger_delay_force60.compactname"] = "60s TrigDelay"
-L["unlameifier_tuning_trigger_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 60) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_trigger_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Tiempo de Retraso del Disparo", 60) .. "Esto altera el retraso entre la pulsación del botón de disparo y el disparo del arma." .. statsdesc.warntrigger
 
 ///////// EFT Ergonomics
-L["unlameifier.folder.ergonomics.fixed"] = "Ergonomics/Fixed"
-L["unlameifier.folder.ergonomics.plus"] = "Ergonomics/Add"
-L["unlameifier.folder.ergonomics.minus"] = "Ergonomics/Subtract"
-L["unlameifier.folder.ergonomics.multiply"] = "Ergonomics/Multiply"
-L["unlameifier.folder.ergonomics.divide"] = "Ergonomics/Divide"
+L["unlameifier.folder.ergonomics.fixed"] = "Ergonomía/Fijo"
+L["unlameifier.folder.ergonomics.plus"] = "Ergonomía/Añadir"
+L["unlameifier.folder.ergonomics.minus"] = "Ergonomía/Restar"
+L["unlameifier.folder.ergonomics.multiply"] = "Ergonomía/Multiplicar"
+L["unlameifier.folder.ergonomics.divide"] = "Ergonomía/Dividir"
 
-requireseft = "\n\n<color=255,100,100>WARNING</color>: Equipping on a weapon not from \"Escape from Tarkov\" causes this to not do anything."
+requireseft = "\n\n<color=255,100,100>AVISO</color>: Esto no hará nada si se equipa en un arma que no sea de \"Escape from Tarkov\"."
 
-L["unlameifier_tuning_ergonomics_x010.printname"] = "0.1x Ergonomics"
-L["unlameifier_tuning_ergonomics_x010.compactname"] = "0.1x Ergonomics"
-L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomics", "90%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x010.printname"] = "0.1x Ergonomía"
+L["unlameifier_tuning_ergonomics_x010.compactname"] = "0.1x Ergonomía"
+L["unlameifier_tuning_ergonomics_x010.description"] = string.format(statsdesc.minus, "Ergonomía", "90%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x025.printname"] = "0.25x Ergonomics"
-L["unlameifier_tuning_ergonomics_x025.compactname"] = "0.25x Ergonomics"
-L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomics", "75%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x025.printname"] = "0.25x Ergonomía"
+L["unlameifier_tuning_ergonomics_x025.compactname"] = "0.25x Ergonomía"
+L["unlameifier_tuning_ergonomics_x025.description"] = string.format(statsdesc.minus, "Ergonomía", "75%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x050.printname"] = "0.5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x050.compactname"] = "0.5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomics", "50%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x050.printname"] = "0.5x Ergonomía"
+L["unlameifier_tuning_ergonomics_x050.compactname"] = "0.5x Ergonomía"
+L["unlameifier_tuning_ergonomics_x050.description"] = string.format(statsdesc.minus, "Ergonomía", "50%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x075.printname"] = "0.75x Ergonomics"
-L["unlameifier_tuning_ergonomics_x075.compactname"] = "0.75x Ergonomics"
-L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomics", "25%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x075.printname"] = "0.75x Ergonomía"
+L["unlameifier_tuning_ergonomics_x075.compactname"] = "0.75x Ergonomía"
+L["unlameifier_tuning_ergonomics_x075.description"] = string.format(statsdesc.minus, "Ergonomía", "25%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x090.printname"] = "0.9x Ergonomics"
-L["unlameifier_tuning_ergonomics_x090.compactname"] = "0.9x Ergonomics"
-L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomics", "10%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x090.printname"] = "0.9x Ergonomía"
+L["unlameifier_tuning_ergonomics_x090.compactname"] = "0.9x Ergonomía"
+L["unlameifier_tuning_ergonomics_x090.description"] = string.format(statsdesc.minus, "Ergonomía", "10%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x110.printname"] = "1.1x Ergonomics"
-L["unlameifier_tuning_ergonomics_x110.compactname"] = "1.1x Ergonomics"
-L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomics", "10%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x110.printname"] = "1.1x Ergonomía"
+L["unlameifier_tuning_ergonomics_x110.compactname"] = "1.1x Ergonomía"
+L["unlameifier_tuning_ergonomics_x110.description"] = string.format(statsdesc.plus, "Ergonomía", "10%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x125.printname"] = "1.25x Ergonomics"
-L["unlameifier_tuning_ergonomics_x125.compactname"] = "1.25x Ergonomics"
-L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomics", "25%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x125.printname"] = "1.25x Ergonomía"
+L["unlameifier_tuning_ergonomics_x125.compactname"] = "1.25x Ergonomía"
+L["unlameifier_tuning_ergonomics_x125.description"] = string.format(statsdesc.plus, "Ergonomía", "25%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x150.printname"] = "1.5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x150.compactname"] = "1.5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomics", "50%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x150.printname"] = "1.5x Ergonomía"
+L["unlameifier_tuning_ergonomics_x150.compactname"] = "1.5x Ergonomía"
+L["unlameifier_tuning_ergonomics_x150.description"] = string.format(statsdesc.plus, "Ergonomía", "50%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x175.printname"] = "1.75x Ergonomics"
-L["unlameifier_tuning_ergonomics_x175.compactname"] = "1.75x Ergonomics"
-L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomics", "75%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x175.printname"] = "1.75x Ergonomía"
+L["unlameifier_tuning_ergonomics_x175.compactname"] = "1.75x Ergonomía"
+L["unlameifier_tuning_ergonomics_x175.description"] = string.format(statsdesc.plus, "Ergonomía", "75%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x2.printname"] = "2x Ergonomics"
-L["unlameifier_tuning_ergonomics_x2.compactname"] = "2x Ergonomics"
-L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomics", "100%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x2.printname"] = "2x Ergonomía"
+L["unlameifier_tuning_ergonomics_x2.compactname"] = "2x Ergonomía"
+L["unlameifier_tuning_ergonomics_x2.description"] = string.format(statsdesc.plus, "Ergonomía", "100%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x5.printname"] = "5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x5.compactname"] = "5x Ergonomics"
-L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomics", "400%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x5.printname"] = "5x Ergonomía"
+L["unlameifier_tuning_ergonomics_x5.compactname"] = "5x Ergonomía"
+L["unlameifier_tuning_ergonomics_x5.description"] = string.format(statsdesc.plus, "Ergonomía", "400%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_x10.printname"] = "10x Ergonomics"
-L["unlameifier_tuning_ergonomics_x10.compactname"] = "10x Ergonomics"
-L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomics", "900%") .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_x10.printname"] = "10x Ergonomía"
+L["unlameifier_tuning_ergonomics_x10.compactname"] = "10x Ergonomía"
+L["unlameifier_tuning_ergonomics_x10.description"] = string.format(statsdesc.plus, "Ergonomía", "900%") .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus1.printname"] = "+1 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus1.compactname"] = "+1 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomics", 1) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus1.printname"] = "+1 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus1.compactname"] = "+1 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus1.description"] = string.format(statsdesc.plus, "Ergonomía", 1) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus5.printname"] = "+5 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus5.compactname"] = "+5 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomics", 5) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus5.printname"] = "+5 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus5.compactname"] = "+5 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus5.description"] = string.format(statsdesc.plus, "Ergonomía", 5) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus10.printname"] = "+10 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus10.compactname"] = "+10 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomics", 10) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus10.printname"] = "+10 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus10.compactname"] = "+10 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus10.description"] = string.format(statsdesc.plus, "Ergonomía", 10) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus25.printname"] = "+25 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus25.compactname"] = "+25 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomics", 25) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus25.printname"] = "+25 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus25.compactname"] = "+25 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus25.description"] = string.format(statsdesc.plus, "Ergonomía", 25) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus50.printname"] = "+50 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus50.compactname"] = "+50 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomics", 50) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus50.printname"] = "+50 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus50.compactname"] = "+50 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus50.description"] = string.format(statsdesc.plus, "Ergonomía", 50) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus75.printname"] = "+75 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus75.compactname"] = "+75 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomics", 75) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus75.printname"] = "+75 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus75.compactname"] = "+75 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus75.description"] = string.format(statsdesc.plus, "Ergonomía", 75) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus100.printname"] = "+100 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus100.compactname"] = "+100 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomics", 100) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus100.printname"] = "+100 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus100.compactname"] = "+100 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus100.description"] = string.format(statsdesc.plus, "Ergonomía", 100) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus500.printname"] = "+500 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus500.compactname"] = "+500 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomics", 500) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus500.printname"] = "+500 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus500.compactname"] = "+500 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus500.description"] = string.format(statsdesc.plus, "Ergonomía", 500) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_plus1000.printname"] = "+1000 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus1000.compactname"] = "+1000 Ergonomics"
-L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomics", 1000) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_plus1000.printname"] = "+1000 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus1000.compactname"] = "+1000 Ergonomía"
+L["unlameifier_tuning_ergonomics_plus1000.description"] = string.format(statsdesc.plus, "Ergonomía", 1000) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus1.printname"] = "-1 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus1.compactname"] = "-1 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomics", 1) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus1.printname"] = "-1 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus1.compactname"] = "-1 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus1.description"] = string.format(statsdesc.minus, "Ergonomía", 1) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus5.printname"] = "-5 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus5.compactname"] = "-5 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomics", 5) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus5.printname"] = "-5 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus5.compactname"] = "-5 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus5.description"] = string.format(statsdesc.minus, "Ergonomía", 5) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus10.printname"] = "-10 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus10.compactname"] = "-10 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomics", 10) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus10.printname"] = "-10 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus10.compactname"] = "-10 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus10.description"] = string.format(statsdesc.minus, "Ergonomía", 10) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus25.printname"] = "-25 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus25.compactname"] = "-25 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomics", 25) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus25.printname"] = "-25 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus25.compactname"] = "-25 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus25.description"] = string.format(statsdesc.minus, "Ergonomía", 25) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus50.printname"] = "-50 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus50.compactname"] = "-50 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomics", 50) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus50.printname"] = "-50 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus50.compactname"] = "-50 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus50.description"] = string.format(statsdesc.minus, "Ergonomía", 50) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus75.printname"] = "-75 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus75.compactname"] = "-75 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomics", 75) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus75.printname"] = "-75 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus75.compactname"] = "-75 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus75.description"] = string.format(statsdesc.minus, "Ergonomía", 75) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus100.printname"] = "-100 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus100.compactname"] = "-100 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomics", 100) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus100.printname"] = "-100 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus100.compactname"] = "-100 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus100.description"] = string.format(statsdesc.minus, "Ergonomía", 100) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus500.printname"] = "-500 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus500.compactname"] = "-500 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomics", 500) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus500.printname"] = "-500 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus500.compactname"] = "-500 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus500.description"] = string.format(statsdesc.minus, "Ergonomía", 500) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
-L["unlameifier_tuning_ergonomics_minus1000.printname"] = "-1000 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus1000.compactname"] = "-1000 Ergonomics"
-L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomics", 1000) .. "This alters how quickly you enter and exit ADS, how long you can hold your breath when steadying your weapon, and how much sound you make when aiming." .. requireseft
+L["unlameifier_tuning_ergonomics_minus1000.printname"] = "-1000 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus1000.compactname"] = "-1000 Ergonomía"
+L["unlameifier_tuning_ergonomics_minus1000.description"] = string.format(statsdesc.minus, "Ergonomía", 1000) .. "Esto altera lo rápido que apuntas y dejas de apuntar, el tiempo que puedes mantener la respiración al estabilizar tu arma, y el ruido que haces apuntando." .. requireseft
 
 ///////// Ammo Override
-L["unlameifier.folder.ammooverride"] = "Ammo Override"
-L["unlameifier.folder.ammooverride.hl1"] = "Ammo Override/HL:S"
-L["unlameifier.folder.ammooverride.hl2"] = "Ammo Override/HL2"
+L["unlameifier.folder.ammooverride"] = "Substituir muni."
+L["unlameifier.folder.ammooverride.hl1"] = "Substituir muni./HL:S"
+L["unlameifier.folder.ammooverride.hl2"] = "Substituir muni./HL2"
 
-local ammoset = "Overrides the weapon ammo to <color=255,255,100>%s</color>."
-local ammosetfrom = "Overrides the weapon ammo to <color=255,255,100>%s</color> from the %s."
+local ammoset = "Substituye la munición del arma por <color=255,255,100>%s</color>."
+local ammosetfrom = "Substituye la munición del arma por <color=255,255,100>%s</color> de %s."
 
-local warnammoarccw = "\n\n<color=175,175,255>NOTE</color>: When using ArcCW's \"Custom Ammo Names\" function, this will instead appear as <color=255,255,100>%s</color>."
+local warnammoarccw = "\n\n<color=175,175,255>NOTE</color>: Al usar la función \"nombres de munición personalizados\" de ArcCW, hará que esto aparezca como <color=255,255,100>%s</color>."
 
 ///// Half-Life 2
-L["unlameifier_tuning_ammo_override_ar2_hl2.printname"] = "Ammo Override - ar2"
+L["unlameifier_tuning_ammo_override_ar2_hl2.printname"] = "Substituir munición - ar2"
 L["unlameifier_tuning_ammo_override_ar2_hl2.compactname"] = "ar2"
-L["unlameifier_tuning_ammo_override_ar2_hl2.description"] = string.format(ammosetfrom, "Pulse Ammo", "Overwatch Standard Issue (Pulse-Rifle)") .. string.format(warnammoarccw, "Rifle Ammo")
+L["unlameifier_tuning_ammo_override_ar2_hl2.description"] = string.format(ammosetfrom, "Munición de pulsos", "Reglamentario de vigilancia (Rifle de pulsos)") .. string.format(warnammoarccw, "Rifle Ammo")
 
-L["unlameifier_tuning_ammo_override_ar2altfire_hl2.printname"] = "Ammo Override - ar2altfire"
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.printname"] = "Substituir munición - ar2altfire"
 L["unlameifier_tuning_ammo_override_ar2altfire_hl2.compactname"] = "ar2altfire"
-L["unlameifier_tuning_ammo_override_ar2altfire_hl2.description"] = string.format(ammosetfrom, "Combine's Balls", "Overwatch Standard Issue (Pulse-Rifle)")
+L["unlameifier_tuning_ammo_override_ar2altfire_hl2.description"] = string.format(ammosetfrom, "Bolas Combine", "Reglamentario de vigilancia (Rifle de pulsos)")
 
-L["unlameifier_tuning_ammo_override_pistol_hl2.printname"] = "Ammo Override - pistol"
+L["unlameifier_tuning_ammo_override_pistol_hl2.printname"] = "Substituir munición - pistol"
 L["unlameifier_tuning_ammo_override_pistol_hl2.compactname"] = "pistol"
-L["unlameifier_tuning_ammo_override_pistol_hl2.description"] = string.format(ammosetfrom, "Pistol Ammo", "9mm Pistol")
+L["unlameifier_tuning_ammo_override_pistol_hl2.description"] = string.format(ammosetfrom, "Munición de pistola", "Pistola 9mm")
 
-L["unlameifier_tuning_ammo_override_smg1_hl2.printname"] = "Ammo Override - smg1"
+L["unlameifier_tuning_ammo_override_smg1_hl2.printname"] = "Substituir munición - smg1"
 L["unlameifier_tuning_ammo_override_smg1_hl2.compactname"] = "smg1"
-L["unlameifier_tuning_ammo_override_smg1_hl2.description"] = string.format(ammosetfrom, "SMG Ammo", "SMG (Submachine Gun)")  .. string.format(warnammoarccw, "Carbine Ammo")
+L["unlameifier_tuning_ammo_override_smg1_hl2.description"] = string.format(ammosetfrom, "Munición de subfusil", "SMG (Metralleta)")  .. string.format(warnammoarccw, "Munición de carabina")
 
-L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.printname"] = "Ammo Override - smg1_grenade"
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.printname"] = "Substituir munición - smg1_grenade"
 L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.compactname"] = "smg1_grenade"
-L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.description"] = string.format(ammosetfrom, "SMG Grenades", "SMG (Submachine Gun)") 
+L["unlameifier_tuning_ammo_override_smg1_grenade_hl2.description"] = string.format(ammosetfrom, "Granadas dedl subfusil", "SMG (Metralleta)") 
 
-L["unlameifier_tuning_ammo_override_357_hl2.printname"] = "Ammo Override - 357"
+L["unlameifier_tuning_ammo_override_357_hl2.printname"] = "Substituir munición - 357"
 L["unlameifier_tuning_ammo_override_357_hl2.compactname"] = "357"
-L["unlameifier_tuning_ammo_override_357_hl2.description"] = string.format(ammosetfrom, ".357 Ammo",  ".357 Magnum")  .. string.format(warnammoarccw, "Magnum Ammo")
+L["unlameifier_tuning_ammo_override_357_hl2.description"] = string.format(ammosetfrom, "Munición del .357",  "Magnum .357")  .. string.format(warnammoarccw, "Munición Magnum")
 
-L["unlameifier_tuning_ammo_override_xbowbolt_hl2.printname"] = "Ammo Override - xbowbolt"
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.printname"] = "Substituir munición - xbowbolt"
 L["unlameifier_tuning_ammo_override_xbowbolt_hl2.compactname"] = "xbowbolt"
-L["unlameifier_tuning_ammo_override_xbowbolt_hl2.description"] = string.format(ammosetfrom, "Crossbow Bolts", "Crossbow") 
+L["unlameifier_tuning_ammo_override_xbowbolt_hl2.description"] = string.format(ammosetfrom, "Virotes de ballesta", "Ballesta") 
 
-L["unlameifier_tuning_ammo_override_buckshot_hl2.printname"] = "Ammo Override - buckshot"
+L["unlameifier_tuning_ammo_override_buckshot_hl2.printname"] = "Substituir munición - buckshot"
 L["unlameifier_tuning_ammo_override_buckshot_hl2.compactname"] = "buckshot"
-L["unlameifier_tuning_ammo_override_buckshot_hl2.description"] = string.format(ammosetfrom, "Shotgun Ammo", "Shotgun") 
+L["unlameifier_tuning_ammo_override_buckshot_hl2.description"] = string.format(ammosetfrom, "Munición de escopeta", "Escopeta") 
 
-L["unlameifier_tuning_ammo_override_rpg_round_hl2.printname"] = "Ammo Override - rpg_round"
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.printname"] = "Substituir munición - rpg_round"
 L["unlameifier_tuning_ammo_override_rpg_round_hl2.compactname"] = "rpg_round"
-L["unlameifier_tuning_ammo_override_rpg_round_hl2.description"] = string.format(ammosetfrom, "RPG Round", "RPG (Rocket Propelled Grenade)") 
+L["unlameifier_tuning_ammo_override_rpg_round_hl2.description"] = string.format(ammosetfrom, "Cohete", "RPG (Granada Impulsada por Cohetes)") 
 
-L["unlameifier_tuning_ammo_override_grenade_hl2.printname"] = "Ammo Override - grenade"
+L["unlameifier_tuning_ammo_override_grenade_hl2.printname"] = "Substituir munición - grenade"
 L["unlameifier_tuning_ammo_override_grenade_hl2.compactname"] = "grenade"
-L["unlameifier_tuning_ammo_override_grenade_hl2.description"] = string.format(ammosetfrom, "Grenades", "Grenade") 
+L["unlameifier_tuning_ammo_override_grenade_hl2.description"] = string.format(ammosetfrom, "Granadas", "Granada") 
 
-L["unlameifier_tuning_ammo_override_slam_hl2.printname"] = "Ammo Override - slam"
+L["unlameifier_tuning_ammo_override_slam_hl2.printname"] = "Substituir munición - slam"
 L["unlameifier_tuning_ammo_override_slam_hl2.compactname"] = "slam"
-L["unlameifier_tuning_ammo_override_slam_hl2.description"] = string.format(ammosetfrom, "SLAM Ammo", "S.L.A.M") 
+L["unlameifier_tuning_ammo_override_slam_hl2.description"] = string.format(ammosetfrom, "Munición de SLAM", "S.L.A.M") 
 
-L["unlameifier_tuning_ammo_override_alyxgun_hl2.printname"] = "Ammo Override - alyxgun"
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.printname"] = "Substituir munición - alyxgun"
 L["unlameifier_tuning_ammo_override_alyxgun_hl2.compactname"] = "alyxgun"
-L["unlameifier_tuning_ammo_override_alyxgun_hl2.description"] = string.format(ammoset, "Alyx Gun") 
+L["unlameifier_tuning_ammo_override_alyxgun_hl2.description"] = string.format(ammoset, "Pistola de Alyx") 
 
-L["unlameifier_tuning_ammo_override_sniperround_hl2.printname"] = "Ammo Override - sniperround"
+L["unlameifier_tuning_ammo_override_sniperround_hl2.printname"] = "Substituir munición - sniperround"
 L["unlameifier_tuning_ammo_override_sniperround_hl2.compactname"] = "sniperround"
-L["unlameifier_tuning_ammo_override_sniperround_hl2.description"] = string.format(ammoset, "sniperround") .. string.format(warnammoarccw, "Sniper Ammo")
+L["unlameifier_tuning_ammo_override_sniperround_hl2.description"] = string.format(ammoset, "sniperround") .. string.format(warnammoarccw, "Munición de francotirador")
 
-L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.printname"] = "Ammo Override - sniperpenetratedround"
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.printname"] = "Substituir munición - sniperpenetratedround"
 L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.compactname"] = "sniperpenetratedround"
-L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.description"] = string.format(ammoset, "sniperpenetratedround") .. string.format(warnammoarccw, "Sniper Ammo")
+L["unlameifier_tuning_ammo_override_sniperpenetratedround_hl2.description"] = string.format(ammoset, "sniperpenetratedround") .. string.format(warnammoarccw, "Munición de francotirador")
 
 ///// Half-Life 1
-L["unlameifier_tuning_ammo_override_9mmround_hls.printname"] = "Ammo Override - 9mmround"
+L["unlameifier_tuning_ammo_override_9mmround_hls.printname"] = "Substituir munición - 9mmround"
 L["unlameifier_tuning_ammo_override_9mmround_hls.compactname"] = "9mmround"
-L["unlameifier_tuning_ammo_override_9mmround_hls.description"] = string.format(ammosetfrom, "9mm Ammo", "Pistol & MP5")
+L["unlameifier_tuning_ammo_override_9mmround_hls.description"] = string.format(ammosetfrom, "Munición de 9mm", "Pistola & MP5")
 
-L["unlameifier_tuning_ammo_override_357round_hls.printname"] = "Ammo Override - 357round"
+L["unlameifier_tuning_ammo_override_357round_hls.printname"] = "Substituir munición - 357round"
 L["unlameifier_tuning_ammo_override_357round_hls.compactname"] = "357round"
-L["unlameifier_tuning_ammo_override_357round_hls.description"] = string.format(ammosetfrom, "357 Ammo", ".357 Magnum")
+L["unlameifier_tuning_ammo_override_357round_hls.description"] = string.format(ammosetfrom, "Munición del .357", "Magnum .357")
 
-L["unlameifier_tuning_ammo_override_buckshot_hls.printname"] = "Ammo Override - buckshothl1"
+L["unlameifier_tuning_ammo_override_buckshot_hls.printname"] = "Substituir munición - buckshothl1"
 L["unlameifier_tuning_ammo_override_buckshot_hls.compactname"] = "buckshothl1"
-L["unlameifier_tuning_ammo_override_buckshot_hls.description"] = string.format(ammosetfrom, "Shotgun Ammo", "Shotgun")
+L["unlameifier_tuning_ammo_override_buckshot_hls.description"] = string.format(ammosetfrom, "Munición de escopeta", "Escopeta")
 
-L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.printname"] = "Ammo Override - xbowbolthl1"
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.printname"] = "Substituir munición - xbowbolthl1"
 L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.compactname"] = "xbowbolthl1"
-L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.description"] = string.format(ammosetfrom, "Crossbow Bolts", "Crossbow")
+L["unlameifier_tuning_ammo_override_xbowbolthl1_hls.description"] = string.format(ammosetfrom, "Virotes de ballesta", "Ballesta")
 
-L["unlameifier_tuning_ammo_override_mp5_grenade_hls.printname"] = "Ammo Override - mp5_grenade"
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.printname"] = "Substituir munición - mp5_grenade"
 L["unlameifier_tuning_ammo_override_mp5_grenade_hls.compactname"] = "mp5_grenade"
-L["unlameifier_tuning_ammo_override_mp5_grenade_hls.description"] = string.format(ammosetfrom, "MP5 Grenades", "SMG")
+L["unlameifier_tuning_ammo_override_mp5_grenade_hls.description"] = string.format(ammosetfrom, "Granadas de la MP5", "SMG")
 
-L["unlameifier_tuning_ammo_override_rpg_rocket_hls.printname"] = "Ammo Override - rpg_rocket"
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.printname"] = "Substituir munición - rpg_rocket"
 L["unlameifier_tuning_ammo_override_rpg_rocket_hls.compactname"] = "rpg_rocket"
-L["unlameifier_tuning_ammo_override_rpg_rocket_hls.description"] = string.format(ammosetfrom, "RPG Rockets", "RPG")
+L["unlameifier_tuning_ammo_override_rpg_rocket_hls.description"] = string.format(ammosetfrom, "Cohetes del RPG", "RPG")
 
-L["unlameifier_tuning_ammo_override_uranium_hls.printname"] = "Ammo Override - uranium"
+L["unlameifier_tuning_ammo_override_uranium_hls.printname"] = "Substituir munición - uranium"
 L["unlameifier_tuning_ammo_override_uranium_hls.compactname"] = "uranium"
-L["unlameifier_tuning_ammo_override_uranium_hls.description"] = string.format(ammosetfrom, "Uranium", "Tau Cannon")
+L["unlameifier_tuning_ammo_override_uranium_hls.description"] = string.format(ammosetfrom, "Uranio", "Cañón Tau")
 
-L["unlameifier_tuning_ammo_override_grenadehl1_hls.printname"] = "Ammo Override - grenadehl1"
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.printname"] = "Substituir munición - grenadehl1"
 L["unlameifier_tuning_ammo_override_grenadehl1_hls.compactname"] = "grenadehl1"
-L["unlameifier_tuning_ammo_override_grenadehl1_hls.description"] = string.format(ammosetfrom, "Grenades", "Grenade")
+L["unlameifier_tuning_ammo_override_grenadehl1_hls.description"] = string.format(ammosetfrom, "Granadas", "Granada")
 
-L["unlameifier_tuning_ammo_override_hornet_hls.printname"] = "Ammo Override - hornet"
+L["unlameifier_tuning_ammo_override_hornet_hls.printname"] = "Substituir munición - hornet"
 L["unlameifier_tuning_ammo_override_hornet_hls.compactname"] = "hornet"
-L["unlameifier_tuning_ammo_override_hornet_hls.description"] = string.format(ammosetfrom, "Hornets", "Hornet Gun")
+L["unlameifier_tuning_ammo_override_hornet_hls.description"] = string.format(ammosetfrom, "Abejorros", "Arma de abejorros")
 
-L["unlameifier_tuning_ammo_override_snark_hls.printname"] = "Ammo Override - snark"
+L["unlameifier_tuning_ammo_override_snark_hls.printname"] = "Substituir munición - snark"
 L["unlameifier_tuning_ammo_override_snark_hls.compactname"] = "snark"
 L["unlameifier_tuning_ammo_override_snark_hls.description"] = string.format(ammoset, "Snarks")
 
-L["unlameifier_tuning_ammo_override_tripmine_hls.printname"] = "Ammo Override - tripmine"
+L["unlameifier_tuning_ammo_override_tripmine_hls.printname"] = "Substituir munición - tripmine"
 L["unlameifier_tuning_ammo_override_tripmine_hls.compactname"] = "tripmine"
-L["unlameifier_tuning_ammo_override_tripmine_hls.description"] = string.format(ammoset, "Tripmines")
+L["unlameifier_tuning_ammo_override_tripmine_hls.description"] = string.format(ammoset, "Minas láser")
 
-L["unlameifier_tuning_ammo_override_satchel_hls.printname"] = "Ammo Override - satchel"
+L["unlameifier_tuning_ammo_override_satchel_hls.printname"] = "Substituir munición - satchel"
 L["unlameifier_tuning_ammo_override_satchel_hls.compactname"] = "satchel"
-L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(ammoset, "Satchel Charges")
+L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(ammoset, "Cargas explosivas")
 
 ///////// Ricochet
-L["unlameifier.folder.ricochet"] = "Ricochet"
-L["unlameifier.folder.ricochet.utility.system"] = "Ricochet/Utility/System"
+L["unlameifier.folder.ricochet"] = "Rebote"
+L["unlameifier.folder.ricochet.utility.system"] = "Rebote/Utilidades/Sistema"
 
-L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Seeking Ricochet - Force Enable"
-L["unlameifier_tuning_ricochet_seeking_enable.compactname"] = "+SeekingRicochet"
-L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Forcefully enables <color=255,255,100>target seeking ricochet</color>.\nBullets that ricochet will seek towards the closest available target."
+L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Rebote buscador - Activar forzosamente"
+L["unlameifier_tuning_ricochet_seeking_enable.compactname"] = "+Reb. buscador"
+L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Activa forzosamente el <color=255,255,100>rebote buscador de objetivos</color>.\nBalas que al rebotar irán al objetivo disponible más cercano."
 
-L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Seeking Ricochet - Force Disable"
-L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-SeekingRicochet"
-L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Forcefully disables <color=255,255,100>target seeking ricochet</color>.\nBullets will ricochet normally."
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Rebote buscador - Desactivar forzosamente"
+L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-Reb. buscador"
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Desactiva forzosamente el <color=255,255,100>rebote buscador de objetivos</color>.\nBalas que rebotarán de manera normal."
 
 ///////// Ricochet Angles
-L["unlameifier.folder.ricochet.fixed"] = "Ricochet/Angle/Fixed"
-L["unlameifier.folder.ricochet.plus"] = "Ricochet/Angle/Add"
-L["unlameifier.folder.ricochet.minus"] = "Ricochet/Angle/Subtract"
-L["unlameifier.folder.ricochet.multiply"] = "Ricochet/Angle/Multiply"
-L["unlameifier.folder.ricochet.divide"] = "Ricochet/Angle/Divide"
+L["unlameifier.folder.ricochet.fixed"] = "Rebote/Ángulo/Fijo"
+L["unlameifier.folder.ricochet.plus"] = "Rebote/Ángulo/Añadir"
+L["unlameifier.folder.ricochet.minus"] = "Rebote/Ángulo/Restar"
+L["unlameifier.folder.ricochet.multiply"] = "Rebote/Ángulo/Multiplicar"
+L["unlameifier.folder.ricochet.divide"] = "Rebote/Ángulo/Dividir"
 
-L["unlameifier_tuning_ricochet_max_angle_plus1.printname"] = "+1° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus1.compactname"] = "+1° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus1.description"] = string.format(statsdesc.plus, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus1.printname"] = "+1° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus1.compactname"] = "+1° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus1.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 1) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus5.printname"] = "+5° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus5.compactname"] = "+5° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus5.description"] = string.format(statsdesc.plus, "Ricochet Angle", 5) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus5.printname"] = "+5° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus5.compactname"] = "+5° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus5.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 5) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus15.printname"] = "+15° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus15.compactname"] = "+15° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus15.description"] = string.format(statsdesc.plus, "Ricochet Angle", 15) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus15.printname"] = "+15° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus15.compactname"] = "+15° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus15.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 15) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus30.printname"] = "+30° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus30.compactname"] = "+30° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus30.description"] = string.format(statsdesc.plus, "Ricochet Angle", 30) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus30.printname"] = "+30° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus30.compactname"] = "+30° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus30.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 30) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus45.printname"] = "+45° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus45.compactname"] = "+45° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus45.description"] = string.format(statsdesc.plus, "Ricochet Angle", 45) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus45.printname"] = "+45° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus45.compactname"] = "+45° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus45.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 45) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus60.printname"] = "+60° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus60.compactname"] = "+60° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus60.description"] = string.format(statsdesc.plus, "Ricochet Angle", 60) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus60.printname"] = "+60° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus60.compactname"] = "+60° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus60.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 60) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus75.printname"] = "+75° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus75.compactname"] = "+75° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus75.description"] = string.format(statsdesc.plus, "Ricochet Angle", 75) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus75.printname"] = "+75° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus75.compactname"] = "+75° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus75.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 75) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_plus90.printname"] = "+90° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus90.compactname"] = "+90° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_plus90.description"] = string.format(statsdesc.plus, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_plus90.printname"] = "+90° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus90.compactname"] = "+90° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_plus90.description"] = string.format(statsdesc.plus, "Ángulo de Rebote", 90) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus1.printname"] = "-1° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus1.compactname"] = "-1° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus1.description"] = string.format(statsdesc.minus, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus1.printname"] = "-1° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus1.compactname"] = "-1° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus1.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 1) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus5.printname"] = "-5° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus5.compactname"] = "-5° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus5.description"] = string.format(statsdesc.minus, "Ricochet Angle", 5) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus5.printname"] = "-5° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus5.compactname"] = "-5° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus5.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 5) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus15.printname"] = "-15° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus15.compactname"] = "-15° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus15.description"] = string.format(statsdesc.minus, "Ricochet Angle", 15) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus15.printname"] = "-15° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus15.compactname"] = "-15° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus15.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 15) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus30.printname"] = "-30° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus30.compactname"] = "-30° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus30.description"] = string.format(statsdesc.minus, "Ricochet Angle", 30) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus30.printname"] = "-30° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus30.compactname"] = "-30° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus30.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 30) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus45.printname"] = "-45° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus45.compactname"] = "-45° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus45.description"] = string.format(statsdesc.minus, "Ricochet Angle", 45) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus45.printname"] = "-45° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus45.compactname"] = "-45° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus45.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 45) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus60.printname"] = "-60° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus60.compactname"] = "-60° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus60.description"] = string.format(statsdesc.minus, "Ricochet Angle", 60) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus60.printname"] = "-60° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus60.compactname"] = "-60° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus60.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 60) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus75.printname"] = "-75° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus75.compactname"] = "-75° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus75.description"] = string.format(statsdesc.minus, "Ricochet Angle", 75) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus75.printname"] = "-75° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus75.compactname"] = "-75° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus75.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 75) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_minus90.printname"] = "-90° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus90.compactname"] = "-90° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_minus90.description"] = string.format(statsdesc.minus, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_minus90.printname"] = "-90° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus90.compactname"] = "-90° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_minus90.description"] = string.format(statsdesc.minus, "Ángulo de Rebote", 90) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_0.printname"] = "0° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_0.compactname"] = "0° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_0.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur." .. "\n\n" .. "Essentially disables ricochet."
+L["unlameifier_tuning_ricochet_max_angle_0.printname"] = "0° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_0.compactname"] = "0° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_0.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 1) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote." .. "\n\n" .. "Essentially disables ricochet."
 
-L["unlameifier_tuning_ricochet_max_angle_1.printname"] = "1° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_1.compactname"] = "1° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_1.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 1) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_1.printname"] = "1° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_1.compactname"] = "1° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_1.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 1) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_5.printname"] = "5° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_5.compactname"] = "5° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_5.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 5) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_5.printname"] = "5° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_5.compactname"] = "5° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_5.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 5) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_15.printname"] = "15° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_15.compactname"] = "15° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_15.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 15) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_15.printname"] = "15° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_15.compactname"] = "15° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_15.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 15) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_30.printname"] = "30° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_30.compactname"] = "30° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_30.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 30) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_30.printname"] = "30° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_30.compactname"] = "30° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_30.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 30) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_45.printname"] = "45° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_45.compactname"] = "45° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_45.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 45) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_45.printname"] = "45° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_45.compactname"] = "45° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_45.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 45) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_60.printname"] = "60° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_60.compactname"] = "60° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_60.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 60) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_60.printname"] = "60° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_60.compactname"] = "60° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_60.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 60) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_75.printname"] = "75° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_75.compactname"] = "75° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_75.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 75) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
+L["unlameifier_tuning_ricochet_max_angle_75.printname"] = "75° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_75.compactname"] = "75° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_75.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 75) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
-L["unlameifier_tuning_ricochet_max_angle_90.printname"] = "90° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_90.compactname"] = "90° Ricochet"
-L["unlameifier_tuning_ricochet_max_angle_90.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
-
-///////// Seeking Ricochet Angles
-L["unlameifier.folder.ricochet.seeking.fixed"] = "Ricochet/Seek Angle/Fixed"
-L["unlameifier.folder.ricochet.seeking.plus"] = "Ricochet/Seek Angle/Add"
-L["unlameifier.folder.ricochet.seeking.minus"] = "Ricochet/Seek Angle/Subtract"
-L["unlameifier.folder.ricochet.seeking.multiply"] = "Ricochet/Seek Angle/Multiply"
-L["unlameifier.folder.ricochet.seeking.divide"] = "Ricochet/Seek Angle/Divide"
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus1.printname"] = "+1° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus1.compactname"] = "+1° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus1.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus5.printname"] = "+5° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus5.compactname"] = "+5° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus5.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 5) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus15.printname"] = "+15° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus15.compactname"] = "+15° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus15.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 15) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus30.printname"] = "+30° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus30.compactname"] = "+30° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus30.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 30) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus45.printname"] = "+45° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus45.compactname"] = "+45° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus45.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 45) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus60.printname"] = "+60° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus60.compactname"] = "+60° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus60.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 60) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus75.printname"] = "+75° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus75.compactname"] = "+75° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus75.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 75) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_plus90.printname"] = "+90° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus90.compactname"] = "+90° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_plus90.description"] = string.format(statsdesc.plus, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus1.printname"] = "-1° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus1.compactname"] = "-1° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus1.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus5.printname"] = "-5° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus5.compactname"] = "-5° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus5.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 5) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus15.printname"] = "-15° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus15.compactname"] = "-15° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus15.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 15) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus30.printname"] = "-30° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus30.compactname"] = "-30° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus30.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 30) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus45.printname"] = "-45° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus45.compactname"] = "-45° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus45.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 45) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus60.printname"] = "-60° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus60.compactname"] = "-60° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus60.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 60) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus75.printname"] = "-75° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus75.compactname"] = "-75° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus75.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 75) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_minus90.printname"] = "-90° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus90.compactname"] = "-90° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_minus90.description"] = string.format(statsdesc.minus, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_0.printname"] = "0° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_0.compactname"] = "0° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_0.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet .. "\n\n" .. "Essentially disables seeking ricochet."
-
-L["unlameifier_tuning_ricochet_seeking_angle_1.printname"] = "1° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_1.compactname"] = "1° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_1.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 1) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_5.printname"] = "5° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_5.compactname"] = "5° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_5.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 5) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_15.printname"] = "15° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_15.compactname"] = "15° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_15.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 15) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_30.printname"] = "30° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_30.compactname"] = "30° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_30.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 30) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_45.printname"] = "45° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_45.compactname"] = "45° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_45.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 45) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_60.printname"] = "60° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_60.compactname"] = "60° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_60.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 60) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_75.printname"] = "75° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_75.compactname"] = "75° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_75.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 75) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
-
-L["unlameifier_tuning_ricochet_seeking_angle_90.printname"] = "90° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_90.compactname"] = "90° Seeking Ricochet"
-L["unlameifier_tuning_ricochet_seeking_angle_90.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
+L["unlameifier_tuning_ricochet_max_angle_90.printname"] = "90° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_90.compactname"] = "90° Rebote"
+L["unlameifier_tuning_ricochet_max_angle_90.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote", 90) .. "Esto altera el ángulo máximo (en grados) en el cual puede ocurrir un rebote."
 
 ///////// Seeking Ricochet Angles
-L["unlameifier.folder.ricochet.chance.fixed"] = "Ricochet/Chance/Fixed"
-L["unlameifier.folder.ricochet.chance.plus"] = "Ricochet/Chance/Add"
-L["unlameifier.folder.ricochet.chance.minus"] = "Ricochet/Chance/Subtract"
-L["unlameifier.folder.ricochet.chance.multiply"] = "Ricochet/Chance/Multiply"
-L["unlameifier.folder.ricochet.chance.divide"] = "Ricochet/Chance/Divide"
+L["unlameifier.folder.ricochet.seeking.fixed"] = "Rebote/Ángulo búsqueda/Fijo"
+L["unlameifier.folder.ricochet.seeking.plus"] = "Rebote/Ángulo búsqueda/Añadir"
+L["unlameifier.folder.ricochet.seeking.minus"] = "Rebote/Ángulo búsqueda/Restar"
+L["unlameifier.folder.ricochet.seeking.multiply"] = "Rebote/Ángulo búsqueda/Multiplicar"
+L["unlameifier.folder.ricochet.seeking.divide"] = "Rebote/Ángulo búsqueda/Dividir"
 
-L["unlameifier_tuning_ricochet_chance_plus1p.printname"] = "+1% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus1p.compactname"] = "+1% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus1p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.01") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.printname"] = "+1° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.compactname"] = "+1° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus1.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 1) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus5p.printname"] = "+5% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus5p.compactname"] = "+5% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus5p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.05") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.printname"] = "+5° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.compactname"] = "+5° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus5.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 5) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus10p.printname"] = "+10% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus10p.compactname"] = "+10% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus10p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.1") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.printname"] = "+15° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.compactname"] = "+15° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus15.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 15) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus20p.printname"] = "+20% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus20p.compactname"] = "+20% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus20p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.2") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.printname"] = "+30° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.compactname"] = "+30° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus30.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 30) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus25p.printname"] = "+25% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus25p.compactname"] = "+25% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus25p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.25") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.printname"] = "+45° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.compactname"] = "+45° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus45.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 45) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus30p.printname"] = "+30% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus30p.compactname"] = "+30% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus30p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.3") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.printname"] = "+60° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.compactname"] = "+60° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus60.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 60) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus40p.printname"] = "+40% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus40p.compactname"] = "+40% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus40p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.4") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.printname"] = "+75° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.compactname"] = "+75° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus75.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 75) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus50p.printname"] = "+50% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus50p.compactname"] = "+50% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus50p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.5") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.printname"] = "+90° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.compactname"] = "+90° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_plus90.description"] = string.format(statsdesc.plus, "Ángulo de Rebote Buscador", 90) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus60p.printname"] = "+60% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus60p.compactname"] = "+60% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus60p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.6") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.printname"] = "-1° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.compactname"] = "-1° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus1.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 1) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus70p.printname"] = "+70% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus70p.compactname"] = "+70% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus70p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.7") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.printname"] = "-5° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.compactname"] = "-5° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus5.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 5) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus75p.printname"] = "+75% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus75p.compactname"] = "+75% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus75p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.75") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.printname"] = "-15° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.compactname"] = "-15° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus15.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 15) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus80p.printname"] = "+80% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus80p.compactname"] = "+80% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus80p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.8") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.printname"] = "-30° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.compactname"] = "-30° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus30.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 30) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus90p.printname"] = "+90% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus90p.compactname"] = "+90% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus90p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "0.9") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.printname"] = "-45° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.compactname"] = "-45° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus45.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 45) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_plus100p.printname"] = "+100% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus100p.compactname"] = "+100% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_plus100p.description"] = string.format(statsdesc.plus, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.printname"] = "-60° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.compactname"] = "-60° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus60.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 60) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus1p.printname"] = "-1% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus1p.compactname"] = "-1% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus1p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.01") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.printname"] = "-75° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.compactname"] = "-75° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus75.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 75) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus5p.printname"] = "-5% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus5p.compactname"] = "-5% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus5p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.05") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.printname"] = "-90° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.compactname"] = "-90° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_minus90.description"] = string.format(statsdesc.minus, "Ángulo de Rebote Buscador", 90) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus10p.printname"] = "-10% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus10p.compactname"] = "-10% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus10p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.1") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_0.printname"] = "0° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_0.compactname"] = "0° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_0.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 1) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet .. "\n\n" .. "Essentially disables seeking ricochet."
 
-L["unlameifier_tuning_ricochet_chance_minus20p.printname"] = "-20% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus20p.compactname"] = "-20% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus20p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.2") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_1.printname"] = "1° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_1.compactname"] = "1° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_1.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 1) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus25p.printname"] = "-25% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus25p.compactname"] = "-25% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus25p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.25") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_5.printname"] = "5° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_5.compactname"] = "5° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_5.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 5) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus30p.printname"] = "-30% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus30p.compactname"] = "-30% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus30p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.3") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_15.printname"] = "15° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_15.compactname"] = "15° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_15.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 15) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus40p.printname"] = "-40% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus40p.compactname"] = "-40% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus40p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.4") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_30.printname"] = "30° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_30.compactname"] = "30° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_30.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 30) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus50p.printname"] = "-50% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus50p.compactname"] = "-50% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus50p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.5") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_45.printname"] = "45° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_45.compactname"] = "45° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_45.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 45) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus60p.printname"] = "-60% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus60p.compactname"] = "-60% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus60p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.6") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_60.printname"] = "60° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_60.compactname"] = "60° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_60.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 60) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus70p.printname"] = "-70% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus70p.compactname"] = "-70% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus70p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.7") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_75.printname"] = "75° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_75.compactname"] = "75° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_75.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 75) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus75p.printname"] = "-75% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus75p.compactname"] = "-75% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus75p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.75") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_seeking_angle_90.printname"] = "90° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_90.compactname"] = "90° Rebote buscador"
+L["unlameifier_tuning_ricochet_seeking_angle_90.description"] = string.format(statsdesc.fixed, "Ángulo de Rebote Buscador", 90) .. "Esto altera el ángulo necesario (en grados) para que un rebote empiece a buscar a un objetivo." .. statsdesc.warnseekingricochet
 
-L["unlameifier_tuning_ricochet_chance_minus80p.printname"] = "-80% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus80p.compactname"] = "-80% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus80p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.8") .. "This alters how likely a ricochet can occur."
+///////// Seeking Ricochet Angles
+L["unlameifier.folder.ricochet.chance.fixed"] = "Rebote/Probabilidad/Fijo"
+L["unlameifier.folder.ricochet.chance.plus"] = "Rebote/Probabilidad/Añadir"
+L["unlameifier.folder.ricochet.chance.minus"] = "Rebote/Probabilidad/Restar"
+L["unlameifier.folder.ricochet.chance.multiply"] = "Rebote/Probabilidad/Multiplicar"
+L["unlameifier.folder.ricochet.chance.divide"] = "Rebote/Probabilidad/Dividir"
 
-L["unlameifier_tuning_ricochet_chance_minus90p.printname"] = "-90% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus90p.compactname"] = "-90% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus90p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "0.9") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus1p.printname"] = "+1% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus1p.compactname"] = "+1% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus1p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.01") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_minus100p.printname"] = "-100% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus100p.compactname"] = "-100% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_minus100p.description"] = string.format(statsdesc.minus, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus5p.printname"] = "+5% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus5p.compactname"] = "+5% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus5p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.05") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_0.printname"] = "0% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_0.compactname"] = "0% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_0.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0") .. "This alters how likely a ricochet can occur." .. "\n\n" .. "Completely disables the ability to ricochet."
+L["unlameifier_tuning_ricochet_chance_plus10p.printname"] = "+10% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus10p.compactname"] = "+10% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus10p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.1") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_1p.printname"] = "1% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_1p.compactname"] = "1% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_1p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.01") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus20p.printname"] = "+20% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus20p.compactname"] = "+20% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus20p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.2") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_5p.printname"] = "5% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_5p.compactname"] = "5% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_5p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.05") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus25p.printname"] = "+25% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus25p.compactname"] = "+25% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus25p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.25") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_10p.printname"] = "10% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_10p.compactname"] = "10% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_10p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.1") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus30p.printname"] = "+30% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus30p.compactname"] = "+30% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus30p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.3") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_20p.printname"] = "20% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_20p.compactname"] = "20% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_20p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.2") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus40p.printname"] = "+40% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus40p.compactname"] = "+40% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus40p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.4") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_25p.printname"] = "25% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_25p.compactname"] = "25% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_25p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.25") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus50p.printname"] = "+50% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus50p.compactname"] = "+50% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus50p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.5") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_30p.printname"] = "30% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_30p.compactname"] = "30% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_30p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.3") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus60p.printname"] = "+60% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus60p.compactname"] = "+60% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus60p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.6") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_40p.printname"] = "40% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_40p.compactname"] = "40% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_40p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.4") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus70p.printname"] = "+70% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus70p.compactname"] = "+70% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus70p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.7") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_50p.printname"] = "50% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_50p.compactname"] = "50% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_50p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.5") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus75p.printname"] = "+75% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus75p.compactname"] = "+75% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus75p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.75") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_60p.printname"] = "60% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_60p.compactname"] = "60% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_60p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.6") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus80p.printname"] = "+80% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus80p.compactname"] = "+80% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus80p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.8") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_70p.printname"] = "70% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_70p.compactname"] = "70% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_70p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.7") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus90p.printname"] = "+90% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus90p.compactname"] = "+90% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus90p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "0.9") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_75p.printname"] = "75% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_75p.compactname"] = "75% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_75p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.75") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_plus100p.printname"] = "+100% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_plus100p.compactname"] = "+100% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_plus100p.description"] = string.format(statsdesc.plus, "Probabilidad de Rebote", "1") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_80p.printname"] = "80% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_80p.compactname"] = "80% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_80p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.8") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_minus1p.printname"] = "-1% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus1p.compactname"] = "-1% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus1p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.01") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_90p.printname"] = "90% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_90p.compactname"] = "90% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_90p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "0.9") .. "This alters how likely a ricochet can occur."
+L["unlameifier_tuning_ricochet_chance_minus5p.printname"] = "-5% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus5p.compactname"] = "-5% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus5p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.05") .. "Esto altera como de probable es que ocurra un rebote."
 
-L["unlameifier_tuning_ricochet_chance_100p.printname"] = "100% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_100p.compactname"] = "100% Ricochet Chance"
-L["unlameifier_tuning_ricochet_chance_100p.description"] = string.format(statsdesc.fixed, "Ricochet Chance", "1") .. "This alters how likely a ricochet can occur." .. "\n\n" .. "Guarantees that the bullet will ricochet."
+L["unlameifier_tuning_ricochet_chance_minus10p.printname"] = "-10% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus10p.compactname"] = "-10% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus10p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.1") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus20p.printname"] = "-20% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus20p.compactname"] = "-20% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus20p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.2") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus25p.printname"] = "-25% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus25p.compactname"] = "-25% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus25p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.25") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus30p.printname"] = "-30% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus30p.compactname"] = "-30% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus30p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.3") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus40p.printname"] = "-40% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus40p.compactname"] = "-40% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus40p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.4") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus50p.printname"] = "-50% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus50p.compactname"] = "-50% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus50p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.5") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus60p.printname"] = "-60% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus60p.compactname"] = "-60% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus60p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.6") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus70p.printname"] = "-70% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus70p.compactname"] = "-70% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus70p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.7") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus75p.printname"] = "-75% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus75p.compactname"] = "-75% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus75p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.75") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus80p.printname"] = "-80% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus80p.compactname"] = "-80% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus80p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.8") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus90p.printname"] = "-90% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus90p.compactname"] = "-90% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus90p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "0.9") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_minus100p.printname"] = "-100% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_minus100p.compactname"] = "-100% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_minus100p.description"] = string.format(statsdesc.minus, "Probabilidad de Rebote", "1") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_0.printname"] = "0% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_0.compactname"] = "0% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_0.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0") .. "Esto altera como de probable es que ocurra un rebote." .. "\n\n" .. "Desactiva por completo la habilidad de rebotar."
+
+L["unlameifier_tuning_ricochet_chance_1p.printname"] = "1% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_1p.compactname"] = "1% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_1p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.01") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_5p.printname"] = "5% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_5p.compactname"] = "5% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_5p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.05") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_10p.printname"] = "10% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_10p.compactname"] = "10% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_10p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.1") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_20p.printname"] = "20% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_20p.compactname"] = "20% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_20p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.2") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_25p.printname"] = "25% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_25p.compactname"] = "25% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_25p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.25") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_30p.printname"] = "30% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_30p.compactname"] = "30% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_30p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.3") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_40p.printname"] = "40% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_40p.compactname"] = "40% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_40p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.4") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_50p.printname"] = "50% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_50p.compactname"] = "50% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_50p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.5") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_60p.printname"] = "60% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_60p.compactname"] = "60% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_60p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.6") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_70p.printname"] = "70% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_70p.compactname"] = "70% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_70p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.7") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_75p.printname"] = "75% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_75p.compactname"] = "75% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_75p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.75") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_80p.printname"] = "80% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_80p.compactname"] = "80% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_80p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.8") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_90p.printname"] = "90% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_90p.compactname"] = "90% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_90p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "0.9") .. "Esto altera como de probable es que ocurra un rebote."
+
+L["unlameifier_tuning_ricochet_chance_100p.printname"] = "100% Probabilidad de rebote"
+L["unlameifier_tuning_ricochet_chance_100p.compactname"] = "100% Probabil. rebote"
+L["unlameifier_tuning_ricochet_chance_100p.description"] = string.format(statsdesc.fixed, "Probabilidad de Rebote", "1") .. "Esto altera como de probable es que ocurra un rebote." .. "\n\n" .. "Garantiza que la bala rebote."

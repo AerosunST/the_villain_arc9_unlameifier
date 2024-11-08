@@ -2302,2100 +2302,2108 @@ If you have any questions, contact Moka.
 ]]--
 
 //////////////// Utility
-L["unlameifier.folder.misc"] = "Мisc."
-L["unlameifier.folder.misc.function"] = "Мisc./Function"
-L["unlameifier.folder.misc.effects"] = "Мisc./Effects"
-L["unlameifier.folder.misc.modifiers"] = "Мisc./Modifiers"
+L["unlameifier.folder.misc"] = "Linh tinh."
+L["unlameifier.folder.misc.function"] = "Linh tinh./Chức năng"
+L["unlameifier.folder.misc.effects"] = "Linh tinh./Hiệu ứng"
+L["unlameifier.folder.misc.modifiers"] = "Linh tinh./Điều chỉnh"
 
-local requireseft = "\n\n<color=255,100,100>WARNING</color>: Requires the \"Escape from Tarkov\" weapons in order to properly function."
+local requireseft = "\n\n<color=255,100,100>CẢNH BÁO</color>: Cần có mod vũ khí \"Escape from Tarkov\" để Unlameifier hoạt động được nhe."
 
-L["unlameifier_tuning_force_suppressor_off.printname"] = "Silencer - Force Disable"
-L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Silencer"
-L["unlameifier_tuning_force_suppressor_off.description"] = "Forcefully disables <color=255,255,100>suppressors</color>. Useful if you wish for non-suppressed firing sounds despite using a suppressor."
+L["unlameifier_tuning_force_suppressor_off.printname"] = "Giảm thanh - Buộc vô hiệu hóa"
+L["unlameifier_tuning_force_suppressor_off.compactname"] = "-Giảm thanh"
+L["unlameifier_tuning_force_suppressor_off.description"] = "Buộc vô hiệu hóa <color=255,255,100>nòng giảm thanh</color>. Dùng này nếu thím không muốn có tiếng giảm thanh dù đang dùng nòng giảm thanh."
 
-L["unlameifier_tuning_force_suppressor_on.printname"] = "Silencer - Force Enable"
-L["unlameifier_tuning_force_suppressor_on.compactname"] = "+Silencer"
-L["unlameifier_tuning_force_suppressor_on.description"] = "Forcefully enables <color=255,255,100>suppressors</color>. Useful if you wish for suppressed firing sounds without using a suppressor."
+L["unlameifier_tuning_force_suppressor_on.printname"] = "Giảm thanh - Buộc có hiệu hóa"
+L["unlameifier_tuning_force_suppressor_on.compactname"] = "+Giảm thanh"
+L["unlameifier_tuning_force_suppressor_on.description"] = "Buộc làm có hiệu hóa <color=255,255,100>nòng giảm thanh</color>. Dùng này nếu thím muốn có tiếng giảm thanh dù không có nòng giảm thanh."
 
-L["unlameifier_tuning_force_muzzleflash_light_on.printname"] = "Muzzle Flash Light - Force Enable"
-L["unlameifier_tuning_force_muzzleflash_light_on.compactname"] = "+Muzzle Light"
-L["unlameifier_tuning_force_muzzleflash_light_on.description"] = "Forcefully enables <color=255,255,100>muzzle flash light effect</color>, even when using a suppressor or muzzle device."
+L["unlameifier_tuning_force_muzzleflash_light_on.printname"] = "Ánh sáng chớp nòng súng - Buộc có hiệu hóa"
+L["unlameifier_tuning_force_muzzleflash_light_on.compactname"] = "+Ánh sáng chớp nòng súng"
+L["unlameifier_tuning_force_muzzleflash_light_on.description"] = "Buộc làm có hiệu hóa <color=255,255,100>Ánh sáng chớp nòng súng effect</color>, kể cả khi dùng nòng giảm thanh hoặc dùng thiết bị chống lóa chớp nòng súng."
 
-L["unlameifier_tuning_force_muzzleflash_light_off.printname"] = "Muzzle Flash Light - Force Disable"
-L["unlameifier_tuning_force_muzzleflash_light_off.compactname"] = "-Muzzle Light"
-L["unlameifier_tuning_force_muzzleflash_light_off.description"] = "Forcefully disables <color=255,255,100>muzzle flash light effect</color>."
+L["unlameifier_tuning_force_muzzleflash_light_off.printname"] = "Ánh sáng chớp nòng súng - Buộc vô hiệu hóa"
+L["unlameifier_tuning_force_muzzleflash_light_off.compactname"] = "-Ánh sáng chớp nòng súng"
+L["unlameifier_tuning_force_muzzleflash_light_off.description"] = "Buộc vô hiệu hóa <color=255,255,100>Ánh sáng chớp nòng súng effect</color>."
 
-L["unlameifier_tuning_force_muzzleflash_on.printname"] = "Muzzle Flash - Force Enable"
-L["unlameifier_tuning_force_muzzleflash_on.compactname"] = "+Muzzle Flash"
-L["unlameifier_tuning_force_muzzleflash_on.description"] = "Forcefully enables <color=255,255,100>muzzle flashes</color>, even when using a suppressor or muzzle device."
+L["unlameifier_tuning_force_muzzleflash_on.printname"] = "Đèn chớp nòng súng - Buộc có hiệu hóa"
+L["unlameifier_tuning_force_muzzleflash_on.compactname"] = "+Đèn chớp nòng súng"
+L["unlameifier_tuning_force_muzzleflash_on.description"] = "Buộc làm có hiệu hóa <color=255,255,100>Đèn chớp nòng súng es</color>, kể cả khi dùng nòng giảm thanh hoặc dùng thiết bị chống lóa chớp nòng súng."
 
-L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Muzzle Flash - Force Disable"
-L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Muzzle Flash"
-L["unlameifier_tuning_force_muzzleflash_off.description"] = "Forcefully disables <color=255,255,100>muzzle flashes</color>."
+L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Đèn chớp nòng súng - Buộc vô hiệu hóa"
+L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Đèn chớp nòng súng"
+L["unlameifier_tuning_force_muzzleflash_off.description"] = "Buộc vô hiệu hóa <color=255,255,100>Đèn chớp nòng súng es</color>."
 
-L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Cycling Half-Life 2 Ammo Types"
-L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "HL2 Ammo Cycle"
-L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Allows you to cycle between the Half-Life 2 ammo types using togglestats. Useful for weapon setups that utilize \"Vulture Aid\" or \"Scavenger\" perks from the CoD packs. Not recommended for use with other attachments that utilize togglestats, such as laser sights." .. "\n\n" .. "\"That thing's a gimmick, Sonny.\""
+L["unlameifier_tuning_force_underwater_on.printname"] = "Shoot Underwater - Force Enable"
+L["unlameifier_tuning_force_underwater_on.compactname"] = "+Shoot Underwater"
+L["unlameifier_tuning_force_underwater_on.description"] = "Forcefully enables <color=255,255,100>shooting underwater</color>.\nThe weapon will shoot when you are underwater."
 
-L["unlameifier_tuning_incendiary_ammo.printname"] = "\"Escape from Tarkov\" Incendiary Ammo"
-L["unlameifier_tuning_incendiary_ammo.compactname"] = "Incendiary"
-L["unlameifier_tuning_incendiary_ammo.description"] = "Forcefully enables <color=100,255,100>incendiary ammunition</color>." .. requireseft
+L["unlameifier_tuning_force_underwater_off.printname"] = "Shoot Underwater - Force Disable"
+L["unlameifier_tuning_force_underwater_off.compactname"] = "-Shoot Underwater"
+L["unlameifier_tuning_force_underwater_off.description"] = "Forcefully disables <color=255,255,100>shooting underwater</color>.\nThe weapon will not shoot when you are underwater."
 
-L["unlameifier_tuning_infinite_ammo.printname"] = "Infinite Ammo"
-L["unlameifier_tuning_infinite_ammo.compactname"] = "InfAmmo"
-L["unlameifier_tuning_infinite_ammo.description"] = "Enables <color=100,255,100>Infinite Ammo</color>.\nReloading does not utilize ammunition from reserves."
+L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Dùng đạn HL2"
+L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "Đạn HL2"
+L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Cho thím sử dụng các loại đạn khác nhau trong dòng game Half Life 2. Rất hữu dụng cho khác vũ khí sử dụng skill \"Vulture Aid\" hoặc \"Scavenger\" trong bản mod CoD ARC9. Khuyên đừng dùng thêm skill, ví dụ như đèn Laser." .. "\n\n" .. "\"Này pha ke quá cưng ơi.\""
 
-L["unlameifier_tuning_bottomless_clip.printname"] = "Bottomless Clip"
-L["unlameifier_tuning_bottomless_clip.compactname"] = "Bottomless Clip"
-L["unlameifier_tuning_bottomless_clip.description"] = "Enables <color=100,255,100>Bottomless Clip</color>.\nFiring does not consume ammunition.\n\nFor the record, these so called \"clips\" are actually magazines. This is the internal name. Arctic wrote the function, despite also knowing full well that \"magazine\" is the correct term. \"Bottomless Clip\" is an expression that has just become slang among developers- whether they actually know the correct term or not."
+L["unlameifier_tuning_incendiary_ammo.printname"] = "Đạn lửa \"Escape from Tarkov\" "
+L["unlameifier_tuning_incendiary_ammo.compactname"] = "Đạn lửa"
+L["unlameifier_tuning_incendiary_ammo.description"] = "Buộc làm có hiệu hóa <color=100,255,100>Đạn lửa</color>." .. requireseft
 
-L["unlameifier_tuning_explosive_ammo.printname"] = "High-Explosive Ammo"
-L["unlameifier_tuning_explosive_ammo.compactname"] = "HE Ammo"
-L["unlameifier_tuning_explosive_ammo.description"] = "Bullets <color=100,255,100>explode on contact</color>." .. requireseft
+L["unlameifier_tuning_infinite_ammo.printname"] = "Đạn vô tận"
+L["unlameifier_tuning_infinite_ammo.compactname"] = "Đạn vô tận"
+L["unlameifier_tuning_infinite_ammo.description"] = "Cho phép <color=100,255,100>Đạn vô tận</color>.\nKhi nạp đạn thì vũ khí sẽ không lấy đạn dữ trữ nhé."
 
-L["unlameifier_tuning_nuke_ammo.printname"] = "Tactical Nuke Ammo"
-L["unlameifier_tuning_nuke_ammo.compactname"] = "Nuke Ammo"
-L["unlameifier_tuning_nuke_ammo.description"] = "Bullets <color=100,255,100>explode on contact</color>, but you got a <color=255,255,100>25 Killstreak</color>." .. requireseft
+L["unlameifier_tuning_bottomless_clip.printname"] = "Băng đạn không đáy"
+L["unlameifier_tuning_bottomless_clip.compactname"] = "Băng không đáy"
+L["unlameifier_tuning_bottomless_clip.description"] = "Cho phép <color=100,255,100>Băng đạn không đáy</color>.\nVũ khí khi bắn sẽ không dùng đạn\n\nCái \"đồ nạp đạn\" ở đây thực ra là băng đạn . Đó là tên trong hệ thống mod. Arctic là người đã viết code, mặc dù ổng biết rằng \"Băng đạn\" mới là cụm từ đúng. \"Đồ nạp đạn\" chỉ là 1 cụm từ được dùng cho nhanh mà thôi- còn thằng dev biết về súng ống hay không thì tùy."
+
+L["unlameifier_tuning_explosive_ammo.printname"] = "Đạn nổ"
+L["unlameifier_tuning_explosive_ammo.compactname"] = "Đạn HE"
+L["unlameifier_tuning_explosive_ammo.description"] = "Những viên đạn này <color=100,255,100>sẽ phát nổ nếu tiếp xúc</color>." .. requireseft
+
+L["unlameifier_tuning_nuke_ammo.printname"] = "Đạn hạt nhân chiến thuật"
+L["unlameifier_tuning_nuke_ammo.compactname"] = "Đạn hạt nhân"
+L["unlameifier_tuning_nuke_ammo.description"] = "Bullets <color=100,255,100>sẽ phát nổ nếu tiếp xúc</color>, nhưng thím sẽ có bảng <color=255,255,100>25 Killstreak</color>." .. requireseft
 
 //////////////// Stats
-L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
+L["unlameifier.folder.experimental"] = "Unlameifier/Thử nghiệm"
 
-L["unlameifier_tuning_system.printname"] = "Enable Tuning"
-L["unlameifier_tuning_system.compactname"] = "Tuning"
-L["unlameifier_tuning_system.description"] = [[Allows the user to <color=255,255,100>fine-tune the statistics of the weapon</color> by equipping various stat-altering attachments. Can be equipped in any order. For the sake of not causing clutter, the subslots will <color=255,255,100>NOT</color> appear in the 3D Interface.
+L["unlameifier_tuning_system.printname"] = "Bật chế độ chỉnh sửa"
+L["unlameifier_tuning_system.compactname"] = "Chỉnh sửa"
+L["unlameifier_tuning_system.description"] = [[Cho phép người dùng <color=255,255,100>chỉnh sửa thống kê hiệu năng của vũ khí</color> bằng cách sử dụng các skill có khả năng biến đổi hiệu năng với thứ tự bất kì. Để tránh tình trạng quá tải logo slot, chúng sẽ <color=255,255,100>KHÔNG</color> hiện trong bảng menu 3D.
 
-<color=255,100,100>WARNING</color>: This can be used to create super-ultra powerful cheat-like weapons. There are no restrictions on what this can create, so if you are a server owner, ensure that this attachment is disabled, unless you want players to utilize this. While ARC9 does have a function that disables attachments to everyone but admins, Unlameifier was never made with Multiplayer in mind, and therefore will not have this restriction.
+<color=255,100,100>CẢNH BÁO</color>: Cái này có thể tạo ra 1 vũ khí siêu tối thượng. Không ai cản thím tạo ra 1 con dao có thể hạ nguyên cả máy bay cả. Nếu thím là chủ server multi, nhớ tắt skill này đi trừ khi thím muốn nguyên server loạn tùng xèo hết lên. Mặc dù ARC9 có chức năng tắt skill đối với mọi người ngoài admin ra, Bản mod Unlameifier này ban đầu không dành cho Multiplayer nên nó sẽ không bị giới hạn đâu nhé.
 
-If you use ARC9 or Unlameifier on DarkRP, please uninstall Garry's Mod and go touch grass. Thanks.
+Nếu thím dùng ARC9 và Unlameifier cho server DarkRP thì đi ra ngoài chạm cỏ dùm bố. Đa tạ.
 
-<color=255,255,100>Admins/Server Owners</color>: If you wish to disable this attachment, then blacklist "unlameifier_tuning_system".]]
+<color=255,255,100>Admin/Chủ server</color>: Nếu thím muốn tắt này đi thì dùng bảng blacklist rồi thêm "unlameifier_tuning_system" vào là oke.]]
 
 local statsdesc = {
-	plus = "Increases the \"%s\" value by <color=100,255,100>+%s</color>.\n",
-	minus = "Reduces the \"%s\" value by <color=255,100,100>-%s</color>.\n",
-	fixed = "Sets the \"%s\" value to a fixed value of <color=255,255,100>%s</color>.\n",
+	plus = "Tăng \"%s\" <color=100,255,100>+%s</color>.\n",
+	minus = "Giảm \"%s\" <color=255,100,100>-%s</color>.\n",
+	fixed = "\"%s\" <color=255,255,100>%s</color>.\n",
 	
-	plusinv = "Increases the \"%s\" value by <color=255,100,100>+%s</color>.\n",
-	minusinv = "Reduces the \"%s\" value by <color=100,255,100>-%s</color>.\n",
+	plusinv = "Tăng \"%s\" <color=255,100,100>+%s</color>.\n",
+	minusinv = "Giảm \"%s\" <color=100,255,100>-%s</color>.\n",
 	
-	fixedsec = "Sets the \"%s\" value to <color=255,255,100>%s</color> second.\n",
-	fixedsecs = "Sets the \"%s\" value to <color=255,255,100>%s</color> seconds.\n",
+	fixedsec = "\"%s\" trong <color=255,255,100>%s</color> second.\n",
+	fixedsecs = "\"%s\" trong <color=255,255,100>%s</color> seconds.\n",
 
-	warntoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is set too low, it might cause the weapon to no longer function.",
-	warntoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is set too high, it might cause severe performance issues.",
+	warntoolow = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu số liệu chỉnh sửa bị để quá thấp, nó có thể khiến vũ khí không hoạt động được nữa.",
+	warntoohigh = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu số liệu chỉnh sửa bị để quá cao, nó có thể khiến hiệu năng bị giảm trầm trọng.",
 
-	warnammotoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is set higher than the available ammo in the gun, it will not fire.",
-	warnammotoolow = "\n\n<color=255,100,100>WARNING</color>: If the value equals the default value, it will no longer require ammo when firing, essentially giving it the <color=255,255,100>Bottomless Clip</color> effect. If the value is lower than default, it will <color=100,255,100>GAIN</color> ammo in the magazine.",
+	warnammotoohigh = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu số liệu chỉnh sửa bị để cao hơn số đạn còn trong vũ khí, nó sẽ không bắn được.",
+	warnammotoolow = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị bằng giá trị ban đầu, nó sẽ không cần đạn khi bắn nữa, nói cách khác thì nó sẽ được trang bị <color=255,255,100>Băng đạn không đáy</color>. Nếu giá trị thấp hơn giá trị mặc định, nó sẽ <color=100,255,100>THÊM</color> đạn trong băng đạn.",
 
-	warndmgtoolow = "\n\n<color=175,175,255>NOTE</color>: If the value reaches a negative one, it will deal 0 damage.",
-	warndmgeft = "\n\n<color=175,175,255>NOTE</color>: If used on an \"Escape from Tarkov\" weapon, <color=255,255,100>Force-Disable Damage Lookup Tables</color> (found in \"Custom Slot/Unlameifier/Utilities\") also needs to be equipped in order for this to have any effect.",
+	warndmgtoolow = "\n\n<color=175,175,255>LƯU Ý</color>: Nếu giá trị đạt số âm, nó sẽ không gây dmg nào cả.",
+	warndmgeft = "\n\n<color=175,175,255>LƯU Ý</color>: Nếu dùng nó trên vũ khí của \"Escape from Tarkov\", skill <color=255,255,100>Tắt luôn bảng ghi lại dmg</color> (có thể tìm thấy ở \"Slot custom/Unlameifier/Các tiện ích\") cũng cần phải được bật để nguyên đống này hoạt động được.",
 
-	warnrecoiltoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, minor or severe visual glitches can occur.",
-	warnrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will move the camera down instead of up. If set too high, minor or severe visual glitches can occur.",
+	warnrecoiltoohigh = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị is quá cao, các lỗi về đồ họa có thể xảy ra, nhẹ hoặc nặng.",
+	warnrecoiltoolow = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị đạt số âm, nó sẽ đưa camera đi xuống thay vì đi lên. Nếu đặt giá trị quá cao, các lỗi về đồ họa có thể xảy ra, nhẹ hoặc nặng.",
 
-	warnvisrecoiltoolow = "\n\n<color=255,100,100>WARNING</color>: If the value reaches a negative one, it will push the weapon forward instead of backwards. If set too high, minor or severe visual glitches can occur.",
+	warnvisrecoiltoolow = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị đạt số âm, nó sẽ đẩy vũ khí sang phía trước thay vì phía sau. Nếu đặt giá trị quá cao, các lỗi về đồ họa có thể xảy ra, nhẹ hoặc nặng.",
 
-	warnadstoolow = "\n\n<color=175,175,255>NOTE</color>: If the value is set to or close to 0, the weapon will not immediately visually snap to the center of your screen.",
+	warnadstoolow = "\n\n<color=175,175,255>LƯU Ý</color>: Nếu số liệu chỉnh sửa bị để sang hoặc gần 0, vũ khí của thím sẽ không ngắm vào điểm tâm của màn hình ngay lập tức được.",
 
-	warnmaxrange = "\n\n<color=255,100,100>WARNING</color>: If the value goes below the \"Minimum Range\" value, there will be zero damage drop-off.",
-	warnminrange = "\n\n<color=255,100,100>WARNING</color>: If the value goes over the \"Maximum Range\" value, there will be zero damage drop-off.",
+	warnmaxrange = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị quá thấp so với giá trị của \"Quãng đường hiệu quả đạn ngắn nhất\", đạn sẽ không bao giờ thất tốc và rơi.",
+	warnminrange = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị quá cao so với giá trị của \"Quãng đường hiệu quả đạn dài nhất\", đạn sẽ không bao giờ thất tốc và rơi.",
 
-	warnmalf = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Malfunctions\" are disabled.",
-	warnmalftoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to jam after every shot.",
+	warnmalf = "\n<color=175,175,255>LƯU Ý</color>: Sẽ không làm gì cả nếu \"Kẹt súng\" đã tắt.",
+	warnmalftoohigh = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị quá cao, nó có thể khiến súng bị kẹt đạn sau mỗi lần bắn.",
 
-	warnheat = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Overheating\" is disabled.",
-	warnheattoohigh = "\n\n<color=255,100,100>WARNING</color>: If the value is too high, it can cause the weapon to overheat on every shot.",
-	warnheattoolow = "\n\n<color=255,100,100>WARNING</color>: If the value is too low, it can cause the weapon to overheat on every shot.",
+	warnheat = "\n<color=175,175,255>LƯU Ý</color>: Sẽ không làm gì cả nếu \"Quá nhiệt\" đã tắt.",
+	warnheattoohigh = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị quá cao, nó có thể khiến súng bị quá nhiệt sau mỗi lần bắn.",
+	warnheattoolow = "\n\n<color=255,100,100>CẢNH BÁO</color>: Nếu giá trị quá thấp, nó có thể khiến súng bị quá nhiệt sau mỗi lần bắn.",
 
-	warntrigger = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Trigger Delay\" is disabled.",
-	warntriggerauto = "\n<color=175,175,255>NOTE</color>: Has no noticable effect if the weapon is set to semi-automatic.",
+	warntrigger = "\n<color=175,175,255>LƯU Ý</color>: Sẽ không làm gì cả nếu \"Còi súng bật trễ\" đã tắt.",
+	warntriggerauto = "\n<color=175,175,255>LƯU Ý</color>: Không có hiệu ứng gì đáng kể nếu vũ khí đó đang ở chế độ bắn đơn.",
 
-	warnseekingricochet = "\n<color=175,175,255>NOTE</color>: Does nothing if \"Seeking Ricochet\" is disabled.",
+	warnseekingricochet = "\n<color=175,175,255>LƯU Ý</color>: Sẽ không làm gì cả nếu \"Nảy đạn hằng nhiệt\" đã tắt.",
 
 }
 
 ///////// Projectiles
-L["unlameifier.folder.projectiles"] = "Projectiles"
-L["unlameifier.folder.projectiles.fixed"] = "Projectiles/Fixed"
-L["unlameifier.folder.projectiles.plus"] = "Projectiles/Add"
-L["unlameifier.folder.projectiles.minus"] = "Projectiles/Subtract"
+L["unlameifier.folder.projectiles"] = "Đạn bắn ra"
+L["unlameifier.folder.projectiles.fixed"] = "Đạn bắn ra/Đặt giá trị"
+L["unlameifier.folder.projectiles.plus"] = "Đạn bắn ra/Cộng"
+L["unlameifier.folder.projectiles.minus"] = "Đạn bắn ra/Trừ"
 
-L["unlameifier_tuning_projectile_plus1.printname"] = "+1 Projectiles"
-L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 Projectiles"
-L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus1.printname"] = "+1 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus1.compactname"] = "+1 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus1.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 1) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_plus2.printname"] = "+2 Projectiles"
-L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 Projectiles"
-L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus2.printname"] = "+2 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus2.compactname"] = "+2 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus2.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 2) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_plus3.printname"] = "+3 Projectiles"
-L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 Projectiles"
-L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus3.printname"] = "+3 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus3.compactname"] = "+3 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus3.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 3) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_plus4.printname"] = "+4 Projectiles"
-L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 Projectiles"
-L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_plus4.printname"] = "+4 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus4.compactname"] = "+4 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus4.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 4) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_plus5.printname"] = "+5 Projectiles"
-L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 Projectiles"
-L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_plus5.printname"] = "+5 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus5.compactname"] = "+5 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus5.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 5) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_plus6.printname"] = "+6 Projectiles"
-L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 Projectiles"
-L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_plus6.printname"] = "+6 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus6.compactname"] = "+6 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus6.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 6) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Projectiles"
-L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Projectiles"
-L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 7) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Projectiles"
-L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Projectiles"
-L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 1) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus2.printname"] = "-2 Projectiles"
-L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 Projectiles"
-L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus2.printname"] = "-2 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus2.compactname"] = "-2 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus2.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 2) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus3.printname"] = "-3 Projectiles"
-L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 Projectiles"
-L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus3.printname"] = "-3 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus3.compactname"] = "-3 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus3.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 3) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus4.printname"] = "-4 Projectiles"
-L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 Projectiles"
-L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus4.printname"] = "-4 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus4.compactname"] = "-4 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus4.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 4) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus5.printname"] = "-5 Projectiles"
-L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 Projectiles"
-L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus5.printname"] = "-5 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus5.compactname"] = "-5 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus5.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 5) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus6.printname"] = "-6 Projectiles"
-L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 Projectiles"
-L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus6.printname"] = "-6 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus6.compactname"] = "-6 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 6) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Projectiles"
-L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Projectiles"
-L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 7) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
-L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
-L["unlameifier_tuning_projectile_force1.compactname"] = "1 Projectiles"
-L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force1.printname"] = "1 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force1.compactname"] = "1 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force1.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 1) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_force2.printname"] = "2 Projectiles"
-L["unlameifier_tuning_projectile_force2.compactname"] = "2 Projectiles"
-L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Projectile Count", 2) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force2.printname"] = "2 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force2.compactname"] = "2 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force2.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 2) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_force3.printname"] = "3 Projectiles"
-L["unlameifier_tuning_projectile_force3.compactname"] = "3 Projectiles"
-L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Projectile Count", 3) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force3.printname"] = "3 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force3.compactname"] = "3 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force3.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 3) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_force4.printname"] = "4 Projectiles"
-L["unlameifier_tuning_projectile_force4.compactname"] = "4 Projectiles"
-L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Projectile Count", 4) .. "This alters the amount of projectiles that are fired every time the weapon shoots."
+L["unlameifier_tuning_projectile_force4.printname"] = "4 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force4.compactname"] = "4 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force4.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 4) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_projectile_force5.printname"] = "5 Projectiles"
-L["unlameifier_tuning_projectile_force5.compactname"] = "5 Projectiles"
-L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Projectile Count", 5) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force5.printname"] = "5 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force5.compactname"] = "5 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force5.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 5) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force6.printname"] = "6 Projectiles"
-L["unlameifier_tuning_projectile_force6.compactname"] = "6 Projectiles"
-L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Projectile Count", 6) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force6.printname"] = "6 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force6.compactname"] = "6 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force6.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 6) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force7.printname"] = "7 Projectiles"
-L["unlameifier_tuning_projectile_force7.compactname"] = "7 Projectiles"
-L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force7.printname"] = "7 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force7.compactname"] = "7 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 7) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
-L["unlameifier_tuning_projectile_force8.printname"] = "8 Projectiles"
-L["unlameifier_tuning_projectile_force8.compactname"] = "8 Projectiles"
-L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Projectile Count", 8) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+L["unlameifier_tuning_projectile_force8.printname"] = "8 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force8.compactname"] = "8 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 8) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
-L["unlameifier.folder.ammopershot"] = "Ammo Per Shot"
-L["unlameifier.folder.ammopershot.fixed"] = "Ammo Per Shot/Fixed"
-L["unlameifier.folder.ammopershot.plus"] = "Ammo Per Shot/Add"
-L["unlameifier.folder.ammopershot.minus"] = "Ammo Per Shot/Subtract"
+L["unlameifier.folder.ammopershot"] = "Viên đạn từng lần bắn"
+L["unlameifier.folder.ammopershot.fixed"] = "Viên đạn từng lần bắn/Đặt giá trị"
+L["unlameifier.folder.ammopershot.plus"] = "Viên đạn từng lần bắn/Cộng"
+L["unlameifier.folder.ammopershot.minus"] = "Viên đạn từng lần bắn/Trừ"
 
-L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 1) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus1.printname"] = "+1 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus1.compactname"] = "+1 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 1) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus2.printname"] = "+2 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus2.compactname"] = "+2 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus2.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 2) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus3.printname"] = "+3 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus3.compactname"] = "+3 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus3.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 3) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus4.printname"] = "+4 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus4.compactname"] = "+4 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus4.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 4) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus5.printname"] = "+5 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus5.compactname"] = "+5 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 5) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus6.printname"] = "+6 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus6.compactname"] = "+6 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus6.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 6) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Ammo Per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_plus7.printname"] = "+7 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_plus7.compactname"] = "+7 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_plus7.description"] = string.format(statsdesc.plusinv, "Viên đạn từng lần bắn", 7) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 1) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus1.printname"] = "-1 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus1.compactname"] = "-1 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 1) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus2.printname"] = "-2 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus2.compactname"] = "-2 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus2.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 2) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus3.printname"] = "-3 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus3.compactname"] = "-3 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus3.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 3) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus4.printname"] = "-4 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus4.compactname"] = "-4 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus4.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 4) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus5.printname"] = "-5 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus5.compactname"] = "-5 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 5) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus6.printname"] = "-6 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus6.compactname"] = "-6 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus6.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 6) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Ammo Per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoolow
+L["unlameifier_tuning_ammo_per_shot_minus7.printname"] = "-7 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_minus7.compactname"] = "-7 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_minus7.description"] = string.format(statsdesc.minusinv, "Viên đạn từng lần bắn", 7) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoolow
 
-L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 1) .. "This alters how much ammo is depleted on every shot."
+L["unlameifier_tuning_ammo_per_shot_force1.printname"] = "1 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force1.compactname"] = "1 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force1.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 1) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn."
 
-L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 2) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force2.printname"] = "2 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force2.compactname"] = "2 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force2.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 2) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 3) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force3.printname"] = "3 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force3.compactname"] = "3 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force3.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 3) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 4) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force4.printname"] = "4 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force4.compactname"] = "4 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force4.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 4) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 5) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force5.printname"] = "5 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force5.compactname"] = "5 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force5.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 5) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 6) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force6.printname"] = "6 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force6.compactname"] = "6 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force6.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 6) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 7) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force7.printname"] = "7 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force7.compactname"] = "7 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force7.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 7) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
-L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Ammo Per Shot"
-L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 Ammo PS"
-L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Ammo Per Shot", 8) .. "This alters how much ammo is depleted on every shot." .. statsdesc.warnammotoohigh
+L["unlameifier_tuning_ammo_per_shot_force8.printname"] = "8 Viên đạn từng lần bắn"
+L["unlameifier_tuning_ammo_per_shot_force8.compactname"] = "8 Viên/lần"
+L["unlameifier_tuning_ammo_per_shot_force8.description"] = string.format(statsdesc.fixed, "Viên đạn từng lần bắn", 8) .. "Cái này sẽ điều chỉnh số đạn bị thải ra sau mỗi lần bắn." .. statsdesc.warnammotoohigh
 
 ///////// Maximum Damage
-L["unlameifier.folder.maxdamage"] = "Damage/Max"
-L["unlameifier.folder.maxdamage.fixed"] = "Damage/Max/Fixed"
-L["unlameifier.folder.maxdamage.plus"] = "Damage/Max/Add"
-L["unlameifier.folder.maxdamage.minus"] = "Damage/Max/Subtract"
-L["unlameifier.folder.maxdamage.multiply"] = "Damage/Max/Multiply"
-L["unlameifier.folder.maxdamage.divide"] = "Damage/Max/Divide"
+L["unlameifier.folder.maxdamage"] = "Sát thương/Tối đa"
+L["unlameifier.folder.maxdamage.fixed"] = "Sát thương/Tối đa/Đặt giá trị"
+L["unlameifier.folder.maxdamage.plus"] = "Sát thương/Tối đa/Cộng"
+L["unlameifier.folder.maxdamage.minus"] = "Sát thương/Tối đa/Trừ"
+L["unlameifier.folder.maxdamage.multiply"] = "Sát thương/Tối đa/Nhân"
+L["unlameifier.folder.maxdamage.divide"] = "Sát thương/Tối đa/Chia"
 
-L["unlameifier_tuning_max_damage_x010.printname"] = "0.1x Maximum Damage"
-L["unlameifier_tuning_max_damage_x010.compactname"] = "0.1x Max DMG"
-L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Maximum Damage", "90%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x010.printname"] = "0.1x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x010.compactname"] = "0.1x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x010.description"] = string.format(statsdesc.minus, "Sát thương tối đa", "90%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x025.printname"] = "0.25x Maximum Damage"
-L["unlameifier_tuning_max_damage_x025.compactname"] = "0.25x Max DMG"
-L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Maximum Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x025.printname"] = "0.25x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x025.compactname"] = "0.25x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x025.description"] = string.format(statsdesc.minus, "Sát thương tối đa", "75%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x050.printname"] = "0.5x Maximum Damage"
-L["unlameifier_tuning_max_damage_x050.compactname"] = "0.5x Max DMG"
-L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Maximum Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x050.printname"] = "0.5x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x050.compactname"] = "0.5x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x050.description"] = string.format(statsdesc.minus, "Sát thương tối đa", "50%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x075.printname"] = "0.75x Maximum Damage"
-L["unlameifier_tuning_max_damage_x075.compactname"] = "0.75x Max DMG"
-L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Maximum Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x075.printname"] = "0.75x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x075.compactname"] = "0.75x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x075.description"] = string.format(statsdesc.minus, "Sát thương tối đa", "25%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x090.printname"] = "0.9x Maximum Damage"
-L["unlameifier_tuning_max_damage_x090.compactname"] = "0.9x Max DMG"
-L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Maximum Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x090.printname"] = "0.9x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x090.compactname"] = "0.9x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x090.description"] = string.format(statsdesc.minus, "Sát thương tối đa", "10%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x110.printname"] = "1.1x Maximum Damage"
-L["unlameifier_tuning_max_damage_x110.compactname"] = "1.1x Max DMG"
-L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Maximum Damage", "10%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x110.printname"] = "1.1x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x110.compactname"] = "1.1x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x110.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "10%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x125.printname"] = "1.25x Maximum Damage"
-L["unlameifier_tuning_max_damage_x125.compactname"] = "1.25x Max DMG"
-L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Maximum Damage", "25%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x125.printname"] = "1.25x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x125.compactname"] = "1.25x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x125.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "25%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x150.printname"] = "1.5x Maximum Damage"
-L["unlameifier_tuning_max_damage_x150.compactname"] = "1.5x Max DMG"
-L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Maximum Damage", "50%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x150.printname"] = "1.5x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x150.compactname"] = "1.5x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x150.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "50%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x175.printname"] = "1.75x Maximum Damage"
-L["unlameifier_tuning_max_damage_x175.compactname"] = "1.75x Max DMG"
-L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Maximum Damage", "75%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x175.printname"] = "1.75x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x175.compactname"] = "1.75x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x175.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "75%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x2.printname"] = "2x Maximum Damage"
-L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Max DMG"
-L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Maximum Damage", "100%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x2.printname"] = "2x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x2.compactname"] = "2x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x2.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "100%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x5.printname"] = "5x Maximum Damage"
-L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Max DMG"
-L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Maximum Damage", "400%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x5.printname"] = "5x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x5.compactname"] = "5x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x5.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "400%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_x10.printname"] = "10x Maximum Damage"
-L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Max DMG"
-L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Maximum Damage", "900%") .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_x10.printname"] = "10x Sát thương tối đa"
+L["unlameifier_tuning_max_damage_x10.compactname"] = "10x Dmg tối đa"
+L["unlameifier_tuning_max_damage_x10.description"] = string.format(statsdesc.plus, "Sát thương tối đa", "900%") .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Max DMG"
-L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1.printname"] = "+1 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus1.compactname"] = "+1 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus1.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 1) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Max DMG"
-L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus5.printname"] = "+5 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus5.compactname"] = "+5 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus5.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 5) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Max DMG"
-L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus10.printname"] = "+10 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus10.compactname"] = "+10 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus10.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 10) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Max DMG"
-L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus25.printname"] = "+25 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus25.compactname"] = "+25 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus25.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 25) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Max DMG"
-L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus50.printname"] = "+50 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus50.compactname"] = "+50 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus50.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 50) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Max DMG"
-L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus75.printname"] = "+75 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus75.compactname"] = "+75 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus75.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 75) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Max DMG"
-L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus100.printname"] = "+100 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus100.compactname"] = "+100 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus100.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 100) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Max DMG"
-L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Maximum Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus500.printname"] = "+500 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus500.compactname"] = "+500 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus500.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 500) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Maximum Damage"
-L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Max DMG"
-L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Maximum Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_plus1000.printname"] = "+1000 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_plus1000.compactname"] = "+1000 Dmg tối đa"
+L["unlameifier_tuning_max_damage_plus1000.description"] = string.format(statsdesc.plus, "Sát thương tối đa", 1000) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Max DMG"
-L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1.printname"] = "-1 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus1.compactname"] = "-1 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus1.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 1) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Max DMG"
-L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus5.printname"] = "-5 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus5.compactname"] = "-5 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus5.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 5) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Max DMG"
-L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus10.printname"] = "-10 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus10.compactname"] = "-10 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus10.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 10) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Max DMG"
-L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus25.printname"] = "-25 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus25.compactname"] = "-25 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus25.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 25) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Max DMG"
-L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus50.printname"] = "-50 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus50.compactname"] = "-50 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus50.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 50) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Max DMG"
-L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus75.printname"] = "-75 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus75.compactname"] = "-75 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus75.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 75) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Max DMG"
-L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus100.printname"] = "-100 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus100.compactname"] = "-100 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus100.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 100) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Max DMG"
-L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Maximum Damage", 500) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus500.printname"] = "-500 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus500.compactname"] = "-500 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus500.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 500) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Maximum Damage"
-L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Max DMG"
-L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Maximum Damage", 1000) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_minus1000.printname"] = "-1000 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_minus1000.compactname"] = "-1000 Dmg tối đa"
+L["unlameifier_tuning_max_damage_minus1000.description"] = string.format(statsdesc.minus, "Sát thương tối đa", 1000) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Max DMG"
-L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Maximum Damage", 0) .. "This alters how much damage the weapon can deal at its highest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_0.printname"] = "0 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_0.compactname"] = "0 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_0.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 0) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. "\n\n<color=255,100,100>CẢNH BÁO</color>: Vẫn có thể gây sát thương tùy vào bộ phận mà thím gây ảnh hưởng lên." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Max DMG"
-L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Maximum Damage", 1) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_1.printname"] = "1 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_1.compactname"] = "1 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_1.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 1) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Max DMG"
-L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Maximum Damage", 5) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_5.printname"] = "5 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_5.compactname"] = "5 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_5.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 5) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Max DMG"
-L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Maximum Damage", 10) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_10.printname"] = "10 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_10.compactname"] = "10 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_10.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 10) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Max DMG"
-L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Maximum Damage", 25) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_25.printname"] = "25 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_25.compactname"] = "25 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_25.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 25) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Max DMG"
-L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Maximum Damage", 30) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_30.printname"] = "30 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_30.compactname"] = "30 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_30.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 30) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Max DMG"
-L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Maximum Damage", 50) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_50.printname"] = "50 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_50.compactname"] = "50 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_50.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 50) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Max DMG"
-L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Maximum Damage", 75) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_75.printname"] = "75 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_75.compactname"] = "75 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_75.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 75) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Max DMG"
-L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Maximum Damage", 100) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_100.printname"] = "100 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_100.compactname"] = "100 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_100.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 100) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Maximum Damage"
-L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Max DMG"
-L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Maximum Damage", 99999) .. "This alters how much damage the weapon can deal at its highest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_max_damage_force_99999.printname"] = "99999 Sát thương tối đa"
+L["unlameifier_tuning_max_damage_force_99999.compactname"] = "99999 Dmg tối đa"
+L["unlameifier_tuning_max_damage_force_99999.description"] = string.format(statsdesc.fixed, "Sát thương tối đa", 99999) .. "Cái này sẽ điều chỉnh sát thương tối đa mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
 ///////// Minimum Damage
-L["unlameifier.folder.mindamage"] = "Damage/Min"
-L["unlameifier.folder.mindamage.fixed"] = "Damage/Min/Fixed"
-L["unlameifier.folder.mindamage.plus"] = "Damage/Min/Add"
-L["unlameifier.folder.mindamage.minus"] = "Damage/Min/Subtract"
-L["unlameifier.folder.mindamage.multiply"] = "Damage/Min/Multiply"
-L["unlameifier.folder.mindamage.divide"] = "Damage/Min/Divide"
+L["unlameifier.folder.mindamage"] = "Damage/Nhỏ nhất"
+L["unlameifier.folder.mindamage.fixed"] = "Damage/Nhỏ nhất/Số mặt định"
+L["unlameifier.folder.mindamage.plus"] = "Damage/Nhỏ nhất/Cộng"
+L["unlameifier.folder.mindamage.minus"] = "Damage/Nhỏ nhất/Trừ"
+L["unlameifier.folder.mindamage.multiply"] = "Damage/Nhỏ nhất/Nhân"
+L["unlameifier.folder.mindamage.divide"] = "Damage/Nhỏ nhất/Chia"
 
-L["unlameifier_tuning_min_damage_x010.printname"] = "0.1x Minimum Damage"
-L["unlameifier_tuning_min_damage_x010.compactname"] = "0.1x Min DMG"
-L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Minimum Damage", "90%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x010.printname"] = "0.1x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x010.compactname"] = "0.1x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x010.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", "90%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x025.printname"] = "0.25x Minimum Damage"
-L["unlameifier_tuning_min_damage_x025.compactname"] = "0.25x Min DMG"
-L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Minimum Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x025.printname"] = "0.25x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x025.compactname"] = "0.25x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x025.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", "75%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x050.printname"] = "0.5x Minimum Damage"
-L["unlameifier_tuning_min_damage_x050.compactname"] = "0.5x Min DMG"
-L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Minimum Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x050.printname"] = "0.5x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x050.compactname"] = "0.5x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x050.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", "50%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x075.printname"] = "0.75x Minimum Damage"
-L["unlameifier_tuning_min_damage_x075.compactname"] = "0.75x Min DMG"
-L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Minimum Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x075.printname"] = "0.75x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x075.compactname"] = "0.75x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x075.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", "25%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x090.printname"] = "0.9x Minimum Damage"
-L["unlameifier_tuning_min_damage_x090.compactname"] = "0.9x Min DMG"
-L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Minimum Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x090.printname"] = "0.9x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x090.compactname"] = "0.9x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x090.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", "10%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x110.printname"] = "1.1x Minimum Damage"
-L["unlameifier_tuning_min_damage_x110.compactname"] = "1.1x Min DMG"
-L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Minimum Damage", "10%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x110.printname"] = "1.1x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x110.compactname"] = "1.1x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x110.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "10%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x125.printname"] = "1.25x Minimum Damage"
-L["unlameifier_tuning_min_damage_x125.compactname"] = "1.25x Min DMG"
-L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Minimum Damage", "25%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x125.printname"] = "1.25x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x125.compactname"] = "1.25x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x125.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "25%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x150.printname"] = "1.5x Minimum Damage"
-L["unlameifier_tuning_min_damage_x150.compactname"] = "1.5x Min DMG"
-L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Minimum Damage", "50%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x150.printname"] = "1.5x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x150.compactname"] = "1.5x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x150.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "50%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x175.printname"] = "1.75x Minimum Damage"
-L["unlameifier_tuning_min_damage_x175.compactname"] = "1.75x Min DMG"
-L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Minimum Damage", "75%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x175.printname"] = "1.75x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x175.compactname"] = "1.75x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x175.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "75%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x2.printname"] = "2x Minimum Damage"
-L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Min DMG"
-L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Minimum Damage", "100%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x2.printname"] = "2x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x2.compactname"] = "2x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x2.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "100%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x5.printname"] = "5x Minimum Damage"
-L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Min DMG"
-L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Minimum Damage", "400%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x5.printname"] = "5x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x5.compactname"] = "5x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x5.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "400%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_x10.printname"] = "10x Minimum Damage"
-L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Min DMG"
-L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Minimum Damage", "900%") .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_x10.printname"] = "10x Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_x10.compactname"] = "10x Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_x10.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", "900%") .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Min DMG"
-L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1.printname"] = "+1 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus1.compactname"] = "+1 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus1.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 1) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Min DMG"
-L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus5.printname"] = "+5 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus5.compactname"] = "+5 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus5.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 5) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Min DMG"
-L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus10.printname"] = "+10 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus10.compactname"] = "+10 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus10.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 10) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Min DMG"
-L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus25.printname"] = "+25 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus25.compactname"] = "+25 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus25.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 25) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Min DMG"
-L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus50.printname"] = "+50 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus50.compactname"] = "+50 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus50.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 50) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Min DMG"
-L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus75.printname"] = "+75 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus75.compactname"] = "+75 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus75.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 75) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Min DMG"
-L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus100.printname"] = "+100 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus100.compactname"] = "+100 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus100.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 100) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Min DMG"
-L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Minimum Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus500.printname"] = "+500 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus500.compactname"] = "+500 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus500.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 500) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Minimum Damage"
-L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Min DMG"
-L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Minimum Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_plus1000.printname"] = "+1000 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_plus1000.compactname"] = "+1000 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_plus1000.description"] = string.format(statsdesc.plus, "Sát thương tối thiểu", 1000) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Min DMG"
-L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1.printname"] = "-1 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus1.compactname"] = "-1 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus1.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 1) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Min DMG"
-L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus5.printname"] = "-5 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus5.compactname"] = "-5 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus5.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 5) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Min DMG"
-L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus10.printname"] = "-10 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus10.compactname"] = "-10 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus10.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 10) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Min DMG"
-L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus25.printname"] = "-25 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus25.compactname"] = "-25 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus25.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 25) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Min DMG"
-L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus50.printname"] = "-50 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus50.compactname"] = "-50 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus50.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 50) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Min DMG"
-L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus75.printname"] = "-75 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus75.compactname"] = "-75 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus75.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 75) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Min DMG"
-L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus100.printname"] = "-100 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus100.compactname"] = "-100 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus100.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 100) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Min DMG"
-L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Minimum Damage", 500) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus500.printname"] = "-500 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus500.compactname"] = "-500 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus500.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 500) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Minimum Damage"
-L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Min DMG"
-L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Minimum Damage", 1000) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_minus1000.printname"] = "-1000 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_minus1000.compactname"] = "-1000 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_minus1000.description"] = string.format(statsdesc.minus, "Sát thương tối thiểu", 1000) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgtoolow .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Min DMG"
-L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Minimum Damage", 0) .. "This alters how much damage the weapon can deal at its lowest." .. "\n\n<color=255,100,100>WARNING</color>: Might still deal damage depending on where you hit a target." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_0.printname"] = "0 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_0.compactname"] = "0 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_0.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 0) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. "\n\n<color=255,100,100>CẢNH BÁO</color>: Vẫn có thể gây sát thương tùy vào bộ phận mà thím gây ảnh hưởng lên." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Min DMG"
-L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Minimum Damage", 1) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_1.printname"] = "1 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_1.compactname"] = "1 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_1.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 1) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Min DMG"
-L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Minimum Damage", 5) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_5.printname"] = "5 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_5.compactname"] = "5 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_5.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 5) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Min DMG"
-L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Minimum Damage", 10) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_10.printname"] = "10 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_10.compactname"] = "10 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_10.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 10) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Min DMG"
-L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Minimum Damage", 25) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_25.printname"] = "25 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_25.compactname"] = "25 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_25.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 25) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Min DMG"
-L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Minimum Damage", 30) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_30.printname"] = "30 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_30.compactname"] = "30 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_30.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 30) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Min DMG"
-L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Minimum Damage", 50) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_50.printname"] = "50 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_50.compactname"] = "50 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_50.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 50) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Min DMG"
-L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Minimum Damage", 75) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_75.printname"] = "75 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_75.compactname"] = "75 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_75.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 75) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Min DMG"
-L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Minimum Damage", 100) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_100.printname"] = "100 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_100.compactname"] = "100 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_100.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 100) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
-L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Minimum Damage"
-L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Min DMG"
-L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Minimum Damage", 99999) .. "This alters how much damage the weapon can deal at its lowest." .. statsdesc.warndmgeft
+L["unlameifier_tuning_min_damage_force_99999.printname"] = "99999 Sát thương tối thiểu"
+L["unlameifier_tuning_min_damage_force_99999.compactname"] = "99999 Dmg tối thiểu"
+L["unlameifier_tuning_min_damage_force_99999.description"] = string.format(statsdesc.fixed, "Sát thương tối thiểu", 99999) .. "Cái này sẽ điều chỉnh sát thương tối thiểu mà vũ khí có thể gây ra." .. statsdesc.warndmgeft
 
 ///////// Recoil
-L["unlameifier.folder.recoil"] = "Recoil"
-L["unlameifier.folder.recoil.plus"] = "Recoil/Add"
-L["unlameifier.folder.recoil.minus"] = "Recoil/Subtract"
-L["unlameifier.folder.recoil.multiply"] = "Recoil/Multiply"
-L["unlameifier.folder.recoil.divide"] = "Recoil/Divide"
+L["unlameifier.folder.recoil"] = "Độ giật camera"
+L["unlameifier.folder.recoil.plus"] = "Độ giật camera/Cộng"
+L["unlameifier.folder.recoil.minus"] = "Độ giật camera/Trừ"
+L["unlameifier.folder.recoil.multiply"] = "Độ giật camera/Nhân"
+L["unlameifier.folder.recoil.divide"] = "Độ giật camera/Chia"
 
-L["unlameifier_tuning_recoil_x010.printname"] = "0.1x Recoil"
-L["unlameifier_tuning_recoil_x010.compactname"] = "0.1x Recoil"
-L["unlameifier_tuning_recoil_x010.description"] = string.format(statsdesc.minusinv, "Recoil", "90%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x010.printname"] = "0.1x Độ giật camera"
+L["unlameifier_tuning_recoil_x010.compactname"] = "0.1x Độ giật camera"
+L["unlameifier_tuning_recoil_x010.description"] = string.format(statsdesc.minusinv, "Độ giật camera", "90%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x025.printname"] = "0.25x Recoil"
-L["unlameifier_tuning_recoil_x025.compactname"] = "0.25x Recoil"
-L["unlameifier_tuning_recoil_x025.description"] = string.format(statsdesc.minusinv, "Recoil", "75%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x025.printname"] = "0.25x Độ giật camera"
+L["unlameifier_tuning_recoil_x025.compactname"] = "0.25x Độ giật camera"
+L["unlameifier_tuning_recoil_x025.description"] = string.format(statsdesc.minusinv, "Độ giật camera", "75%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x050.printname"] = "0.5x Recoil"
-L["unlameifier_tuning_recoil_x050.compactname"] = "0.5x Recoil"
-L["unlameifier_tuning_recoil_x050.description"] = string.format(statsdesc.minusinv, "Recoil", "50%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x050.printname"] = "0.5x Độ giật camera"
+L["unlameifier_tuning_recoil_x050.compactname"] = "0.5x Độ giật camera"
+L["unlameifier_tuning_recoil_x050.description"] = string.format(statsdesc.minusinv, "Độ giật camera", "50%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x075.printname"] = "0.75x Recoil"
-L["unlameifier_tuning_recoil_x075.compactname"] = "0.75x Recoil"
-L["unlameifier_tuning_recoil_x075.description"] = string.format(statsdesc.minusinv, "Recoil", "25%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x075.printname"] = "0.75x Độ giật camera"
+L["unlameifier_tuning_recoil_x075.compactname"] = "0.75x Độ giật camera"
+L["unlameifier_tuning_recoil_x075.description"] = string.format(statsdesc.minusinv, "Độ giật camera", "25%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x090.printname"] = "0.9x Recoil"
-L["unlameifier_tuning_recoil_x090.compactname"] = "0.9x Recoil"
-L["unlameifier_tuning_recoil_x090.description"] = string.format(statsdesc.minusinv, "Recoil", "10%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x090.printname"] = "0.9x Độ giật camera"
+L["unlameifier_tuning_recoil_x090.compactname"] = "0.9x Độ giật camera"
+L["unlameifier_tuning_recoil_x090.description"] = string.format(statsdesc.minusinv, "Độ giật camera", "10%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x110.printname"] = "1.1x Recoil"
-L["unlameifier_tuning_recoil_x110.compactname"] = "1.1x Recoil"
-L["unlameifier_tuning_recoil_x110.description"] = string.format(statsdesc.plusinv, "Recoil", "10%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x110.printname"] = "1.1x Độ giật camera"
+L["unlameifier_tuning_recoil_x110.compactname"] = "1.1x Độ giật camera"
+L["unlameifier_tuning_recoil_x110.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "10%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x125.printname"] = "1.25x Recoil"
-L["unlameifier_tuning_recoil_x125.compactname"] = "1.25x Recoil"
-L["unlameifier_tuning_recoil_x125.description"] = string.format(statsdesc.plusinv, "Recoil", "25%") .. "This alters how much the camera moves upwards when shooting."
+L["unlameifier_tuning_recoil_x125.printname"] = "1.25x Độ giật camera"
+L["unlameifier_tuning_recoil_x125.compactname"] = "1.25x Độ giật camera"
+L["unlameifier_tuning_recoil_x125.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "25%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng."
 
-L["unlameifier_tuning_recoil_x150.printname"] = "1.5x Recoil"
-L["unlameifier_tuning_recoil_x150.compactname"] = "1.5x Recoil"
-L["unlameifier_tuning_recoil_x150.description"] = string.format(statsdesc.plusinv, "Recoil", "50%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x150.printname"] = "1.5x Độ giật camera"
+L["unlameifier_tuning_recoil_x150.compactname"] = "1.5x Độ giật camera"
+L["unlameifier_tuning_recoil_x150.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "50%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x175.printname"] = "1.75x Recoil"
-L["unlameifier_tuning_recoil_x175.compactname"] = "1.75x Recoil"
-L["unlameifier_tuning_recoil_x175.description"] = string.format(statsdesc.plusinv, "Recoil", "75%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x175.printname"] = "1.75x Độ giật camera"
+L["unlameifier_tuning_recoil_x175.compactname"] = "1.75x Độ giật camera"
+L["unlameifier_tuning_recoil_x175.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "75%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x2.printname"] = "2x Recoil"
-L["unlameifier_tuning_recoil_x2.compactname"] = "2x Recoil"
-L["unlameifier_tuning_recoil_x2.description"] = string.format(statsdesc.plusinv, "Recoil", "100%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x2.printname"] = "2x Độ giật camera"
+L["unlameifier_tuning_recoil_x2.compactname"] = "2x Độ giật camera"
+L["unlameifier_tuning_recoil_x2.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "100%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x5.printname"] = "5x Recoil"
-L["unlameifier_tuning_recoil_x5.compactname"] = "5x Recoil"
-L["unlameifier_tuning_recoil_x5.description"] = string.format(statsdesc.plusinv, "Recoil", "400%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x5.printname"] = "5x Độ giật camera"
+L["unlameifier_tuning_recoil_x5.compactname"] = "5x Độ giật camera"
+L["unlameifier_tuning_recoil_x5.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "400%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_x10.printname"] = "10x Recoil"
-L["unlameifier_tuning_recoil_x10.compactname"] = "10x Recoil"
-L["unlameifier_tuning_recoil_x10.description"] = string.format(statsdesc.plusinv, "Recoil", "900%") .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_x10.printname"] = "10x Độ giật camera"
+L["unlameifier_tuning_recoil_x10.compactname"] = "10x Độ giật camera"
+L["unlameifier_tuning_recoil_x10.description"] = string.format(statsdesc.plusinv, "Độ giật camera", "900%") .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus1.printname"] = "+1 Recoil"
-L["unlameifier_tuning_recoil_plus1.compactname"] = "+1 Recoil"
-L["unlameifier_tuning_recoil_plus1.description"] = string.format(statsdesc.plusinv, "Recoil", 1) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus1.printname"] = "+1 Độ giật camera"
+L["unlameifier_tuning_recoil_plus1.compactname"] = "+1 Độ giật camera"
+L["unlameifier_tuning_recoil_plus1.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 1) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus5.printname"] = "+5 Recoil"
-L["unlameifier_tuning_recoil_plus5.compactname"] = "+5 Recoil"
-L["unlameifier_tuning_recoil_plus5.description"] = string.format(statsdesc.plusinv, "Recoil", 5) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus5.printname"] = "+5 Độ giật camera"
+L["unlameifier_tuning_recoil_plus5.compactname"] = "+5 Độ giật camera"
+L["unlameifier_tuning_recoil_plus5.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 5) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus10.printname"] = "+10 Recoil"
-L["unlameifier_tuning_recoil_plus10.compactname"] = "+10 Recoil"
-L["unlameifier_tuning_recoil_plus10.description"] = string.format(statsdesc.plusinv, "Recoil", 10) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus10.printname"] = "+10 Độ giật camera"
+L["unlameifier_tuning_recoil_plus10.compactname"] = "+10 Độ giật camera"
+L["unlameifier_tuning_recoil_plus10.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 10) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus25.printname"] = "+25 Recoil"
-L["unlameifier_tuning_recoil_plus25.compactname"] = "+25 Recoil"
-L["unlameifier_tuning_recoil_plus25.description"] = string.format(statsdesc.plusinv, "Recoil", 25) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus25.printname"] = "+25 Độ giật camera"
+L["unlameifier_tuning_recoil_plus25.compactname"] = "+25 Độ giật camera"
+L["unlameifier_tuning_recoil_plus25.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 25) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus50.printname"] = "+50 Recoil"
-L["unlameifier_tuning_recoil_plus50.compactname"] = "+50 Recoil"
-L["unlameifier_tuning_recoil_plus50.description"] = string.format(statsdesc.plusinv, "Recoil", 50) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus50.printname"] = "+50 Độ giật camera"
+L["unlameifier_tuning_recoil_plus50.compactname"] = "+50 Độ giật camera"
+L["unlameifier_tuning_recoil_plus50.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 50) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus75.printname"] = "+75 Recoil"
-L["unlameifier_tuning_recoil_plus75.compactname"] = "+75 Recoil"
-L["unlameifier_tuning_recoil_plus75.description"] = string.format(statsdesc.plusinv, "Recoil", 75) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus75.printname"] = "+75 Độ giật camera"
+L["unlameifier_tuning_recoil_plus75.compactname"] = "+75 Độ giật camera"
+L["unlameifier_tuning_recoil_plus75.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 75) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus100.printname"] = "+100 Recoil"
-L["unlameifier_tuning_recoil_plus100.compactname"] = "+100 Recoil"
-L["unlameifier_tuning_recoil_plus100.description"] = string.format(statsdesc.plusinv, "Recoil", 100) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus100.printname"] = "+100 Độ giật camera"
+L["unlameifier_tuning_recoil_plus100.compactname"] = "+100 Độ giật camera"
+L["unlameifier_tuning_recoil_plus100.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 100) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus500.printname"] = "+500 Recoil"
-L["unlameifier_tuning_recoil_plus500.compactname"] = "+500 Recoil"
-L["unlameifier_tuning_recoil_plus500.description"] = string.format(statsdesc.plusinv, "Recoil", 500) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus500.printname"] = "+500 Độ giật camera"
+L["unlameifier_tuning_recoil_plus500.compactname"] = "+500 Độ giật camera"
+L["unlameifier_tuning_recoil_plus500.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 500) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_plus1000.printname"] = "+1000 Recoil"
-L["unlameifier_tuning_recoil_plus1000.compactname"] = "+1000 Recoil"
-L["unlameifier_tuning_recoil_plus1000.description"] = string.format(statsdesc.plusinv, "Recoil", 1000) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoohigh
+L["unlameifier_tuning_recoil_plus1000.printname"] = "+1000 Độ giật camera"
+L["unlameifier_tuning_recoil_plus1000.compactname"] = "+1000 Độ giật camera"
+L["unlameifier_tuning_recoil_plus1000.description"] = string.format(statsdesc.plusinv, "Độ giật camera", 1000) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoohigh
 
-L["unlameifier_tuning_recoil_minus1.printname"] = "-1 Recoil"
-L["unlameifier_tuning_recoil_minus1.compactname"] = "-1 Recoil"
-L["unlameifier_tuning_recoil_minus1.description"] = string.format(statsdesc.minusinv, "Recoil", 1) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus1.printname"] = "-1 Độ giật camera"
+L["unlameifier_tuning_recoil_minus1.compactname"] = "-1 Độ giật camera"
+L["unlameifier_tuning_recoil_minus1.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 1) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus5.printname"] = "-5 Recoil"
-L["unlameifier_tuning_recoil_minus5.compactname"] = "-5 Recoil"
-L["unlameifier_tuning_recoil_minus5.description"] = string.format(statsdesc.minusinv, "Recoil", 5) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus5.printname"] = "-5 Độ giật camera"
+L["unlameifier_tuning_recoil_minus5.compactname"] = "-5 Độ giật camera"
+L["unlameifier_tuning_recoil_minus5.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 5) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus10.printname"] = "-10 Recoil"
-L["unlameifier_tuning_recoil_minus10.compactname"] = "-10 Recoil"
-L["unlameifier_tuning_recoil_minus10.description"] = string.format(statsdesc.minusinv, "Recoil", 10) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus10.printname"] = "-10 Độ giật camera"
+L["unlameifier_tuning_recoil_minus10.compactname"] = "-10 Độ giật camera"
+L["unlameifier_tuning_recoil_minus10.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 10) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus25.printname"] = "-25 Recoil"
-L["unlameifier_tuning_recoil_minus25.compactname"] = "-25 Recoil"
-L["unlameifier_tuning_recoil_minus25.description"] = string.format(statsdesc.minusinv, "Recoil", 25) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus25.printname"] = "-25 Độ giật camera"
+L["unlameifier_tuning_recoil_minus25.compactname"] = "-25 Độ giật camera"
+L["unlameifier_tuning_recoil_minus25.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 25) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus50.printname"] = "-50 Recoil"
-L["unlameifier_tuning_recoil_minus50.compactname"] = "-50 Recoil"
-L["unlameifier_tuning_recoil_minus50.description"] = string.format(statsdesc.minusinv, "Recoil", 50) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus50.printname"] = "-50 Độ giật camera"
+L["unlameifier_tuning_recoil_minus50.compactname"] = "-50 Độ giật camera"
+L["unlameifier_tuning_recoil_minus50.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 50) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus75.printname"] = "-75 Recoil"
-L["unlameifier_tuning_recoil_minus75.compactname"] = "-75 Recoil"
-L["unlameifier_tuning_recoil_minus75.description"] = string.format(statsdesc.minusinv, "Recoil", 75) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus75.printname"] = "-75 Độ giật camera"
+L["unlameifier_tuning_recoil_minus75.compactname"] = "-75 Độ giật camera"
+L["unlameifier_tuning_recoil_minus75.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 75) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus100.printname"] = "-100 Recoil"
-L["unlameifier_tuning_recoil_minus100.compactname"] = "-100 Recoil"
-L["unlameifier_tuning_recoil_minus100.description"] = string.format(statsdesc.minusinv, "Recoil", 100) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus100.printname"] = "-100 Độ giật camera"
+L["unlameifier_tuning_recoil_minus100.compactname"] = "-100 Độ giật camera"
+L["unlameifier_tuning_recoil_minus100.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 100) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus500.printname"] = "-500 Recoil"
-L["unlameifier_tuning_recoil_minus500.compactname"] = "-500 Recoil"
-L["unlameifier_tuning_recoil_minus500.description"] = string.format(statsdesc.minusinv, "Recoil", 500) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus500.printname"] = "-500 Độ giật camera"
+L["unlameifier_tuning_recoil_minus500.compactname"] = "-500 Độ giật camera"
+L["unlameifier_tuning_recoil_minus500.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 500) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
-L["unlameifier_tuning_recoil_minus1000.printname"] = "-1000 Recoil"
-L["unlameifier_tuning_recoil_minus1000.compactname"] = "-1000 Recoil"
-L["unlameifier_tuning_recoil_minus1000.description"] = string.format(statsdesc.minusinv, "Recoil", 1000) .. "This alters how much the camera moves upwards when shooting." .. statsdesc.warnrecoiltoolow
+L["unlameifier_tuning_recoil_minus1000.printname"] = "-1000 Độ giật camera"
+L["unlameifier_tuning_recoil_minus1000.compactname"] = "-1000 Độ giật camera"
+L["unlameifier_tuning_recoil_minus1000.description"] = string.format(statsdesc.minusinv, "Độ giật camera", 1000) .. "Cái này điều chỉnh độ đi lên của camera khi bắn súng." .. statsdesc.warnrecoiltoolow
 
 ///////// Visual Recoil
-L["unlameifier.folder.visrecoil"] = "Visual Recoil"
-L["unlameifier.folder.visrecoil.plus"] = "Visual Recoil/Add"
-L["unlameifier.folder.visrecoil.minus"] = "Visual Recoil/Subtract"
-L["unlameifier.folder.visrecoil.multiply"] = "Visual Recoil/Multiply"
-L["unlameifier.folder.visrecoil.divide"] = "Visual Recoil/Divide"
+L["unlameifier.folder.visrecoil"] = "Độ giật vũ khí"
+L["unlameifier.folder.visrecoil.plus"] = "Độ giật vũ khí/Cộng"
+L["unlameifier.folder.visrecoil.minus"] = "Độ giật vũ khí/Trừ"
+L["unlameifier.folder.visrecoil.multiply"] = "Độ giật vũ khí/Nhân"
+L["unlameifier.folder.visrecoil.divide"] = "Độ giật vũ khí/Chia"
 
-L["unlameifier_tuning_visrecoil_x010.printname"] = "0.1x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x010.compactname"] = "0.1x VisRecoil"
-L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "90%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x010.printname"] = "0.1x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x010.compactname"] = "0.1x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x010.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", "90%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x025.printname"] = "0.25x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x025.compactname"] = "0.25x VisRecoil"
-L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "75%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x025.printname"] = "0.25x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x025.compactname"] = "0.25x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x025.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", "75%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x050.printname"] = "0.5x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x050.compactname"] = "0.5x VisRecoil"
-L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "50%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x050.printname"] = "0.5x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x050.compactname"] = "0.5x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x050.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", "50%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x075.printname"] = "0.75x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x075.compactname"] = "0.75x VisRecoil"
-L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "25%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x075.printname"] = "0.75x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x075.compactname"] = "0.75x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x075.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", "25%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x090.printname"] = "0.9x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x090.compactname"] = "0.9x VisRecoil"
-L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Visual Recoil", "10%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x090.printname"] = "0.9x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x090.compactname"] = "0.9x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x090.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", "10%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x110.printname"] = "1.1x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x110.compactname"] = "1.1x VisRecoil"
-L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "10%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x110.printname"] = "1.1x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x110.compactname"] = "1.1x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x110.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "10%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x125.printname"] = "1.25x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x125.compactname"] = "1.25x VisRecoil"
-L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "25%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x125.printname"] = "1.25x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x125.compactname"] = "1.25x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x125.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "25%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x150.printname"] = "1.5x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x150.compactname"] = "1.5x VisRecoil"
-L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "50%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x150.printname"] = "1.5x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x150.compactname"] = "1.5x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x150.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "50%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x175.printname"] = "1.75x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x175.compactname"] = "1.75x VisRecoil"
-L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "75%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x175.printname"] = "1.75x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x175.compactname"] = "1.75x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x175.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "75%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x2.compactname"] = "2x VisRecoil"
-L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "100%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x2.printname"] = "2x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x2.compactname"] = "2x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x2.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "100%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x5.compactname"] = "5x VisRecoil"
-L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "400%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x5.printname"] = "5x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x5.compactname"] = "5x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x5.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "400%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Visual Recoil"
-L["unlameifier_tuning_visrecoil_x10.compactname"] = "10x VisRecoil"
-L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Visual Recoil", "900%") .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_x10.printname"] = "10x Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_x10.compactname"] = "10x Giật vũ khí"
+L["unlameifier_tuning_visrecoil_x10.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", "900%") .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 1) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1.printname"] = "+1 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus1.compactname"] = "+1 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus1.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 1) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 5) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus5.printname"] = "+5 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus5.compactname"] = "+5 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus5.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 5) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 10) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus10.printname"] = "+10 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus10.compactname"] = "+10 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus10.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 10) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 25) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus25.printname"] = "+25 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus25.compactname"] = "+25 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus25.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 25) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 50) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus50.printname"] = "+50 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus50.compactname"] = "+50 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus50.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 50) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 75) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus75.printname"] = "+75 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus75.compactname"] = "+75 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus75.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 75) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 100) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus100.printname"] = "+100 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus100.compactname"] = "+100 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus100.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 100) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 500) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus500.printname"] = "+500 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus500.compactname"] = "+500 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus500.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 500) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Visual Recoil"
-L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 VisRecoil"
-L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Visual Recoil", 1000) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_plus1000.printname"] = "+1000 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus1000.compactname"] = "+1000 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_plus1000.description"] = string.format(statsdesc.plusinv, "Độ giật vũ khí", 1000) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 1) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1.printname"] = "-1 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus1.compactname"] = "-1 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus1.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 1) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 5) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus5.printname"] = "-5 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus5.compactname"] = "-5 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus5.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 5) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 10) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus10.printname"] = "-10 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus10.compactname"] = "-10 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus10.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 10) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 25) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus25.printname"] = "-25 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus25.compactname"] = "-25 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus25.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 25) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 50) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus50.printname"] = "-50 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus50.compactname"] = "-50 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus50.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 50) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 75) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus75.printname"] = "-75 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus75.compactname"] = "-75 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus75.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 75) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 100) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus100.printname"] = "-100 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus100.compactname"] = "-100 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus100.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 100) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 500) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus500.printname"] = "-500 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus500.compactname"] = "-500 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus500.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 500) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
-L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Visual Recoil"
-L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 VisRecoil"
-L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Visual Recoil", 1000) .. "This alters how much the crosshair and weapon move upwards when shooting, independant from the camera." .. statsdesc.warnvisrecoiltoolow
+L["unlameifier_tuning_visrecoil_minus1000.printname"] = "-1000 Độ giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus1000.compactname"] = "-1000 Giật vũ khí"
+L["unlameifier_tuning_visrecoil_minus1000.description"] = string.format(statsdesc.minusinv, "Độ giật vũ khí", 1000) .. "Cái này điều chỉnh độ đi lên của tâm ngắm và vị trí của vũ khí, không liên quan gì đến độ giật của camera." .. statsdesc.warnvisrecoiltoolow
 
 ///////// Reload Time
-L["unlameifier.folder.reloadtime"] = "Reload Time"
-L["unlameifier.folder.reloadtime.plus"] = "Reload Time/Add"
-L["unlameifier.folder.reloadtime.minus"] = "Reload Time/Subtract"
-L["unlameifier.folder.reloadtime.multiply"] = "Reload Time/Multiply"
-L["unlameifier.folder.reloadtime.divide"] = "Reload Time/Divide"
+L["unlameifier.folder.reloadtime"] = "Thời gian nạp đạn"
+L["unlameifier.folder.reloadtime.plus"] = "Thời gian nạp đạn/Cộng"
+L["unlameifier.folder.reloadtime.minus"] = "Thời gian nạp đạn/Trừ"
+L["unlameifier.folder.reloadtime.multiply"] = "Thời gian nạp đạn/Nhân"
+L["unlameifier.folder.reloadtime.divide"] = "Thời gian nạp đạn/Chia"
 
-L["unlameifier_tuning_reloadtime_x0.printname"] = "0x Reload Time"
-L["unlameifier_tuning_reloadtime_x0.compactname"] = "0x Reload Time"
-L["unlameifier_tuning_reloadtime_x0.description"] = string.format(statsdesc.minusinv, "Reload Time", "100%") .. "This alters how quickly the weapon gets reloaded." .. "\n\n" .. "This is effectively an <color=255,255,100>instant reload</color> effect."
+L["unlameifier_tuning_reloadtime_x0.printname"] = "0x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x0.compactname"] = "0x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x0.description"] = string.format(statsdesc.minusinv, "Thời gian nạp đạn", "100%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím." .. "\n\n" .. "Cái này thực chất là nạp đạn <color=255,255,100>ngay tức thì</color> luôn nhé."
 
-L["unlameifier_tuning_reloadtime_x010.printname"] = "0.1x Reload Time"
-L["unlameifier_tuning_reloadtime_x010.compactname"] = "0.1x Reload Time"
-L["unlameifier_tuning_reloadtime_x010.description"] = string.format(statsdesc.minusinv, "Reload Time", "90%") .. "This alters how quickly the weapon gets reloaded." 
+L["unlameifier_tuning_reloadtime_x010.printname"] = "0.1x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x010.compactname"] = "0.1x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x010.description"] = string.format(statsdesc.minusinv, "Thời gian nạp đạn", "90%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím." 
 
-L["unlameifier_tuning_reloadtime_x025.printname"] = "0.25x Reload Time"
-L["unlameifier_tuning_reloadtime_x025.compactname"] = "0.25x Reload Time"
-L["unlameifier_tuning_reloadtime_x025.description"] = string.format(statsdesc.minusinv, "Reload Time", "75%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x025.printname"] = "0.25x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x025.compactname"] = "0.25x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x025.description"] = string.format(statsdesc.minusinv, "Thời gian nạp đạn", "75%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x050.printname"] = "0.5x Reload Time"
-L["unlameifier_tuning_reloadtime_x050.compactname"] = "0.5x Reload Time"
-L["unlameifier_tuning_reloadtime_x050.description"] = string.format(statsdesc.minusinv, "Reload Time", "50%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x050.printname"] = "0.5x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x050.compactname"] = "0.5x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x050.description"] = string.format(statsdesc.minusinv, "Thời gian nạp đạn", "50%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x075.printname"] = "0.75x Reload Time"
-L["unlameifier_tuning_reloadtime_x075.compactname"] = "0.75x Reload Time"
-L["unlameifier_tuning_reloadtime_x075.description"] = string.format(statsdesc.minusinv, "Reload Time", "25%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x075.printname"] = "0.75x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x075.compactname"] = "0.75x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x075.description"] = string.format(statsdesc.minusinv, "Thời gian nạp đạn", "25%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x090.printname"] = "0.9x Reload Time"
-L["unlameifier_tuning_reloadtime_x090.compactname"] = "0.9x Reload Time"
-L["unlameifier_tuning_reloadtime_x090.description"] = string.format(statsdesc.minusinv, "Reload Time", "10%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x090.printname"] = "0.9x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x090.compactname"] = "0.9x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x090.description"] = string.format(statsdesc.minusinv, "Thời gian nạp đạn", "10%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x110.printname"] = "1.1x Reload Time"
-L["unlameifier_tuning_reloadtime_x110.compactname"] = "1.1x Reload Time"
-L["unlameifier_tuning_reloadtime_x110.description"] = string.format(statsdesc.plusinv, "Reload Time", "10%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x110.printname"] = "1.1x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x110.compactname"] = "1.1x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x110.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "10%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x125.printname"] = "1.25x Reload Time"
-L["unlameifier_tuning_reloadtime_x125.compactname"] = "1.25x Reload Time"
-L["unlameifier_tuning_reloadtime_x125.description"] = string.format(statsdesc.plusinv, "Reload Time", "25%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x125.printname"] = "1.25x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x125.compactname"] = "1.25x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x125.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "25%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x150.printname"] = "1.5x Reload Time"
-L["unlameifier_tuning_reloadtime_x150.compactname"] = "1.5x Reload Time"
-L["unlameifier_tuning_reloadtime_x150.description"] = string.format(statsdesc.plusinv, "Reload Time", "50%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x150.printname"] = "1.5x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x150.compactname"] = "1.5x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x150.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "50%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x175.printname"] = "1.75x Reload Time"
-L["unlameifier_tuning_reloadtime_x175.compactname"] = "1.75x Reload Time"
-L["unlameifier_tuning_reloadtime_x175.description"] = string.format(statsdesc.plusinv, "Reload Time", "75%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x175.printname"] = "1.75x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x175.compactname"] = "1.75x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x175.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "75%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x2.printname"] = "2x Reload Time"
-L["unlameifier_tuning_reloadtime_x2.compactname"] = "2x Reload Time"
-L["unlameifier_tuning_reloadtime_x2.description"] = string.format(statsdesc.plusinv, "Reload Time", "100%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x2.printname"] = "2x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x2.compactname"] = "2x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x2.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "100%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x5.printname"] = "5x Reload Time"
-L["unlameifier_tuning_reloadtime_x5.compactname"] = "5x Reload Time"
-L["unlameifier_tuning_reloadtime_x5.description"] = string.format(statsdesc.plusinv, "Reload Time", "400%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x5.printname"] = "5x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x5.compactname"] = "5x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x5.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "400%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
-L["unlameifier_tuning_reloadtime_x10.printname"] = "10x Reload Time"
-L["unlameifier_tuning_reloadtime_x10.compactname"] = "10x Reload Time"
-L["unlameifier_tuning_reloadtime_x10.description"] = string.format(statsdesc.plusinv, "Reload Time", "900%") .. "This alters how quickly the weapon gets reloaded."
+L["unlameifier_tuning_reloadtime_x10.printname"] = "10x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x10.compactname"] = "10x Thời gian nạp đạn"
+L["unlameifier_tuning_reloadtime_x10.description"] = string.format(statsdesc.plusinv, "Thời gian nạp đạn", "900%") .. "Cái này sẽ điều chỉnh tốc độ nạp đạn của thím."
 
 ///////// Deploy Time
-L["unlameifier.folder.deploytime"] = "Deploy Time"
-L["unlameifier.folder.deploytime.plus"] = "Deploy Time/Add"
-L["unlameifier.folder.deploytime.minus"] = "Deploy Time/Subtract"
-L["unlameifier.folder.deploytime.multiply"] = "Deploy Time/Multiply"
-L["unlameifier.folder.deploytime.divide"] = "Deploy Time/Divide"
+L["unlameifier.folder.deploytime"] = "Thời gian rút vũ khí ra"
+L["unlameifier.folder.deploytime.plus"] = "Thời gian rút vũ khí ra/Cộng"
+L["unlameifier.folder.deploytime.minus"] = "Thời gian rút vũ khí ra/Trừ"
+L["unlameifier.folder.deploytime.multiply"] = "Thời gian rút vũ khí ra/Nhân"
+L["unlameifier.folder.deploytime.divide"] = "Thời gian rút vũ khí ra/Chia"
 
-L["unlameifier_tuning_deploytime_x0.printname"] = "0x Deploy Time"
-L["unlameifier_tuning_deploytime_x0.compactname"] = "0x Deploy Time"
-L["unlameifier_tuning_deploytime_x0.description"] = string.format(statsdesc.minusinv, "Draw Time", "100%") .. "This alters how quickly the weapon is pulled out and put away." .. "\n\n" .. "This is effectively an <color=255,255,100>instant deploy</color> effect."
+L["unlameifier_tuning_deploytime_x0.printname"] = "0x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x0.compactname"] = "0x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x0.description"] = string.format(statsdesc.minusinv, "Thời gian rút ra", "100%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí" .. "\n\n" .. "Cái này thực chất là rút vũ khí ra 1 cách <color=255,255,100>tức thì luôn nhé</color> effect."
 
-L["unlameifier_tuning_deploytime_x010.printname"] = "0.1x Deploy Time"
-L["unlameifier_tuning_deploytime_x010.compactname"] = "0.1x Deploy Time"
-L["unlameifier_tuning_deploytime_x010.description"] = string.format(statsdesc.minusinv, "Draw Time", "90%") .. "This alters how quickly the weapon is pulled out and put away." 
+L["unlameifier_tuning_deploytime_x010.printname"] = "0.1x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x010.compactname"] = "0.1x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x010.description"] = string.format(statsdesc.minusinv, "Thời gian rút ra", "90%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí." 
 
-L["unlameifier_tuning_deploytime_x025.printname"] = "0.25x Deploy Time"
-L["unlameifier_tuning_deploytime_x025.compactname"] = "0.25x Deploy Time"
-L["unlameifier_tuning_deploytime_x025.description"] = string.format(statsdesc.minusinv, "Draw Time", "75%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x025.printname"] = "0.25x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x025.compactname"] = "0.25x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x025.description"] = string.format(statsdesc.minusinv, "Thời gian rút ra", "75%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x050.printname"] = "0.5x Deploy Time"
-L["unlameifier_tuning_deploytime_x050.compactname"] = "0.5x Deploy Time"
-L["unlameifier_tuning_deploytime_x050.description"] = string.format(statsdesc.minusinv, "Draw Time", "50%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x050.printname"] = "0.5x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x050.compactname"] = "0.5x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x050.description"] = string.format(statsdesc.minusinv, "Thời gian rút ra", "50%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x075.printname"] = "0.75x Deploy Time"
-L["unlameifier_tuning_deploytime_x075.compactname"] = "0.75x Deploy Time"
-L["unlameifier_tuning_deploytime_x075.description"] = string.format(statsdesc.minusinv, "Draw Time", "25%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x075.printname"] = "0.75x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x075.compactname"] = "0.75x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x075.description"] = string.format(statsdesc.minusinv, "Thời gian rút ra", "25%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x090.printname"] = "0.9x Deploy Time"
-L["unlameifier_tuning_deploytime_x090.compactname"] = "0.9x Deploy Time"
-L["unlameifier_tuning_deploytime_x090.description"] = string.format(statsdesc.minusinv, "Draw Time", "10%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x090.printname"] = "0.9x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x090.compactname"] = "0.9x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x090.description"] = string.format(statsdesc.minusinv, "Thời gian rút ra", "10%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x110.printname"] = "1.1x Deploy Time"
-L["unlameifier_tuning_deploytime_x110.compactname"] = "1.1x Deploy Time"
-L["unlameifier_tuning_deploytime_x110.description"] = string.format(statsdesc.plusinv, "Draw Time", "10%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x110.printname"] = "1.1x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x110.compactname"] = "1.1x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x110.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "10%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x125.printname"] = "1.25x Deploy Time"
-L["unlameifier_tuning_deploytime_x125.compactname"] = "1.25x Deploy Time"
-L["unlameifier_tuning_deploytime_x125.description"] = string.format(statsdesc.plusinv, "Draw Time", "25%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x125.printname"] = "1.25x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x125.compactname"] = "1.25x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x125.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "25%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x150.printname"] = "1.5x Deploy Time"
-L["unlameifier_tuning_deploytime_x150.compactname"] = "1.5x Deploy Time"
-L["unlameifier_tuning_deploytime_x150.description"] = string.format(statsdesc.plusinv, "Draw Time", "50%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x150.printname"] = "1.5x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x150.compactname"] = "1.5x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x150.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "50%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x175.printname"] = "1.75x Deploy Time"
-L["unlameifier_tuning_deploytime_x175.compactname"] = "1.75x Deploy Time"
-L["unlameifier_tuning_deploytime_x175.description"] = string.format(statsdesc.plusinv, "Draw Time", "75%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x175.printname"] = "1.75x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x175.compactname"] = "1.75x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x175.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "75%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x2.printname"] = "2x Deploy Time"
-L["unlameifier_tuning_deploytime_x2.compactname"] = "2x Deploy Time"
-L["unlameifier_tuning_deploytime_x2.description"] = string.format(statsdesc.plusinv, "Draw Time", "100%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x2.printname"] = "2x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x2.compactname"] = "2x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x2.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "100%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x5.printname"] = "5x Deploy Time"
-L["unlameifier_tuning_deploytime_x5.compactname"] = "5x Deploy Time"
-L["unlameifier_tuning_deploytime_x5.description"] = string.format(statsdesc.plusinv, "Draw Time", "400%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x5.printname"] = "5x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x5.compactname"] = "5x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x5.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "400%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
-L["unlameifier_tuning_deploytime_x10.printname"] = "10x Deploy Time"
-L["unlameifier_tuning_deploytime_x10.compactname"] = "10x Deploy Time"
-L["unlameifier_tuning_deploytime_x10.description"] = string.format(statsdesc.plusinv, "Draw Time", "900%") .. "This alters how quickly the weapon is pulled out and put away."
+L["unlameifier_tuning_deploytime_x10.printname"] = "10x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x10.compactname"] = "10x Thời gian rút vũ khí ra"
+L["unlameifier_tuning_deploytime_x10.description"] = string.format(statsdesc.plusinv, "Thời gian rút ra", "900%") .. "Cái này sẽ điều chỉnh tốc độ rút ra và đút vào của vũ khí."
 
 ///////// ADS Time
-L["unlameifier.folder.adstime"] = "ADS Time"
-L["unlameifier.folder.adstime.plus"] = "ADS Time/Add"
-L["unlameifier.folder.adstime.minus"] = "ADS Time/Subtract"
-L["unlameifier.folder.adstime.multiply"] = "ADS Time/Multiply"
-L["unlameifier.folder.adstime.divide"] = "ADS Time/Divide"
+L["unlameifier.folder.adstime"] = "Tốc độ ngắm"
+L["unlameifier.folder.adstime.plus"] = "Tốc độ ngắm/Cộng"
+L["unlameifier.folder.adstime.minus"] = "Tốc độ ngắm/Trừ"
+L["unlameifier.folder.adstime.multiply"] = "Tốc độ ngắm/Nhân"
+L["unlameifier.folder.adstime.divide"] = "Tốc độ ngắm/Chia"
 
-L["unlameifier_tuning_adstime_x0.printname"] = "0x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x0.compactname"] = "0x ADS Time"
-L["unlameifier_tuning_adstime_x0.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "100%") .. "This alters how quickly the weapon enters and exits ADS." .. "\n\n" .. "This is effectively an <color=255,255,100>instant ADS</color> effect." .. statsdesc.warnadstoolow
+L["unlameifier_tuning_adstime_x0.printname"] = "0x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x0.compactname"] = "0x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x0.description"] = string.format(statsdesc.minusinv, "Tốc độ ngắm", "100%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí." .. "\n\n" .. "Cái này thực chất là tốc đọ ngắm bắn <color=255,255,100>tức thì</color> luôn nhé." .. statsdesc.warnadstoolow
 
-L["unlameifier_tuning_adstime_x010.printname"] = "0.1x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x010.compactname"] = "0.1x ADS Time"
-L["unlameifier_tuning_adstime_x010.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "90%") .. "This alters how quickly the weapon enters and exits ADS."  .. statsdesc.warnadstoolow
+L["unlameifier_tuning_adstime_x010.printname"] = "0.1x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x010.compactname"] = "0.1x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x010.description"] = string.format(statsdesc.minusinv, "Tốc độ ngắm", "90%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."  .. statsdesc.warnadstoolow
 
-L["unlameifier_tuning_adstime_x025.printname"] = "0.25x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x025.compactname"] = "0.25x ADS Time"
-L["unlameifier_tuning_adstime_x025.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "75%") .. "This alters how quickly the weapon enters and exits ADS." .. statsdesc.warnadstoolow
+L["unlameifier_tuning_adstime_x025.printname"] = "0.25x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x025.compactname"] = "0.25x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x025.description"] = string.format(statsdesc.minusinv, "Tốc độ ngắm", "75%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí." .. statsdesc.warnadstoolow
 
-L["unlameifier_tuning_adstime_x050.printname"] = "0.5x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x050.compactname"] = "0.5x ADS Time"
-L["unlameifier_tuning_adstime_x050.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "50%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x050.printname"] = "0.5x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x050.compactname"] = "0.5x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x050.description"] = string.format(statsdesc.minusinv, "Tốc độ ngắm", "50%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x075.printname"] = "0.75x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x075.compactname"] = "0.75x ADS Time"
-L["unlameifier_tuning_adstime_x075.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "25%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x075.printname"] = "0.75x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x075.compactname"] = "0.75x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x075.description"] = string.format(statsdesc.minusinv, "Tốc độ ngắm", "25%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x090.printname"] = "0.9x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x090.compactname"] = "0.9x ADS Time"
-L["unlameifier_tuning_adstime_x090.description"] = string.format(statsdesc.minusinv, "Aim Down Sights Time", "10%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x090.printname"] = "0.9x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x090.compactname"] = "0.9x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x090.description"] = string.format(statsdesc.minusinv, "Tốc độ ngắm", "10%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x110.printname"] = "1.1x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x110.compactname"] = "1.1x ADS Time"
-L["unlameifier_tuning_adstime_x110.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "10%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x110.printname"] = "1.1x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x110.compactname"] = "1.1x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x110.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "10%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x125.printname"] = "1.25x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x125.compactname"] = "1.25x ADS Time"
-L["unlameifier_tuning_adstime_x125.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "25%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x125.printname"] = "1.25x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x125.compactname"] = "1.25x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x125.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "25%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x150.printname"] = "1.5x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x150.compactname"] = "1.5x ADS Time"
-L["unlameifier_tuning_adstime_x150.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "50%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x150.printname"] = "1.5x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x150.compactname"] = "1.5x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x150.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "50%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x175.printname"] = "1.75x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x175.compactname"] = "1.75x ADS Time"
-L["unlameifier_tuning_adstime_x175.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "75%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x175.printname"] = "1.75x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x175.compactname"] = "1.75x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x175.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "75%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x2.printname"] = "2x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x2.compactname"] = "2x ADS Time"
-L["unlameifier_tuning_adstime_x2.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "100%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x2.printname"] = "2x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x2.compactname"] = "2x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x2.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "100%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x5.printname"] = "5x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x5.compactname"] = "5x ADS Time"
-L["unlameifier_tuning_adstime_x5.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "400%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x5.printname"] = "5x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x5.compactname"] = "5x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x5.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "400%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
-L["unlameifier_tuning_adstime_x10.printname"] = "10x Aim Down Sights Time"
-L["unlameifier_tuning_adstime_x10.compactname"] = "10x ADS Time"
-L["unlameifier_tuning_adstime_x10.description"] = string.format(statsdesc.plusinv, "Aim Down Sights Time", "900%") .. "This alters how quickly the weapon enters and exits ADS."
+L["unlameifier_tuning_adstime_x10.printname"] = "10x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x10.compactname"] = "10x Tốc độ ngắm"
+L["unlameifier_tuning_adstime_x10.description"] = string.format(statsdesc.plusinv, "Tốc độ ngắm", "900%") .. "Cái này sẽ điều chỉnh tốc độ vào và thoát khỏi chế độ ngắm bắn vũ khí."
 
 ///////// Magazine Capacity
-L["unlameifier.folder.magcap"] = "Mag Capacity"
-L["unlameifier.folder.magcap.fixed"] = "Mag Capacity/Fixed"
-L["unlameifier.folder.magcap.plus"] = "Mag Capacity/Add"
-L["unlameifier.folder.magcap.minus"] = "Mag Capacity/Subtract"
-L["unlameifier.folder.magcap.multiply"] = "Mag Capacity/Multiply"
-L["unlameifier.folder.magcap.divide"] = "Mag Capacity/Divide"
+L["unlameifier.folder.magcap"] = "Dung tích chứa đạn"
+L["unlameifier.folder.magcap.fixed"] = "Dung tích chứa đạn/Đặt giá trị"
+L["unlameifier.folder.magcap.plus"] = "Dung tích chứa đạn/Cộng"
+L["unlameifier.folder.magcap.minus"] = "Dung tích chứa đạn/Trừ"
+L["unlameifier.folder.magcap.multiply"] = "Dung tích chứa đạn/Nhân"
+L["unlameifier.folder.magcap.divide"] = "Dung tích chứa đạn/Chia"
 
-L["unlameifier_tuning_mag_capacity_x010.printname"] = "0.1x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x010.printname"] = "0.1x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x010.compactname"] = "0.1x MagCap"
-L["unlameifier_tuning_mag_capacity_x010.description"] = string.format(statsdesc.minus, "Magazine Capacity", "90%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x010.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", "90%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x025.printname"] = "0.25x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x025.printname"] = "0.25x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x025.compactname"] = "0.25x MagCap"
-L["unlameifier_tuning_mag_capacity_x025.description"] = string.format(statsdesc.minus, "Magazine Capacity", "75%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x025.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", "75%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x050.printname"] = "0.5x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x050.printname"] = "0.5x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x050.compactname"] = "0.5x MagCap"
-L["unlameifier_tuning_mag_capacity_x050.description"] = string.format(statsdesc.minus, "Magazine Capacity", "50%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x050.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", "50%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x075.printname"] = "0.75x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x075.printname"] = "0.75x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x075.compactname"] = "0.75x MagCap"
-L["unlameifier_tuning_mag_capacity_x075.description"] = string.format(statsdesc.minus, "Magazine Capacity", "25%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x075.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", "25%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x090.printname"] = "0.9x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x090.printname"] = "0.9x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x090.compactname"] = "0.9x MagCap"
-L["unlameifier_tuning_mag_capacity_x090.description"] = string.format(statsdesc.minus, "Magazine Capacity", "10%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x090.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", "10%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x110.printname"] = "1.1x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x110.printname"] = "1.1x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x110.compactname"] = "1.1x MagCap"
-L["unlameifier_tuning_mag_capacity_x110.description"] = string.format(statsdesc.plus, "Magazine Capacity", "10%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x110.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "10%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x125.printname"] = "1.25x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x125.printname"] = "1.25x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x125.compactname"] = "1.25x MagCap"
-L["unlameifier_tuning_mag_capacity_x125.description"] = string.format(statsdesc.plus, "Magazine Capacity", "25%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x125.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "25%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x150.printname"] = "1.5x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x150.printname"] = "1.5x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x150.compactname"] = "1.5x MagCap"
-L["unlameifier_tuning_mag_capacity_x150.description"] = string.format(statsdesc.plus, "Magazine Capacity", "50%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x150.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "50%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x175.printname"] = "1.75x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x175.printname"] = "1.75x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x175.compactname"] = "1.75x MagCap"
-L["unlameifier_tuning_mag_capacity_x175.description"] = string.format(statsdesc.plus, "Magazine Capacity", "75%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x175.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "75%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x2.printname"] = "2x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x2.printname"] = "2x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x2.compactname"] = "2x MagCap"
-L["unlameifier_tuning_mag_capacity_x2.description"] = string.format(statsdesc.plus, "Magazine Capacity", "100%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x2.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "100%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x5.printname"] = "5x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x5.printname"] = "5x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x5.compactname"] = "5x MagCap"
-L["unlameifier_tuning_mag_capacity_x5.description"] = string.format(statsdesc.plus, "Magazine Capacity", "400%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x5.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "400%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_x10.printname"] = "10x Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_x10.printname"] = "10x Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_x10.compactname"] = "10x MagCap"
-L["unlameifier_tuning_mag_capacity_x10.description"] = string.format(statsdesc.plus, "Magazine Capacity", "900%") .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_x10.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", "900%") .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus1.printname"] = "+1 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus1.printname"] = "+1 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus1.compactname"] = "+1 MagCap"
-L["unlameifier_tuning_mag_capacity_plus1.description"] = string.format(statsdesc.plus, "Magazine Capacity", 1) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus1.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 1) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus5.printname"] = "+5 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus5.printname"] = "+5 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus5.compactname"] = "+5 MagCap"
-L["unlameifier_tuning_mag_capacity_plus5.description"] = string.format(statsdesc.plus, "Magazine Capacity", 5) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus5.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 5) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus10.printname"] = "+10 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus10.printname"] = "+10 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus10.compactname"] = "+10 MagCap"
-L["unlameifier_tuning_mag_capacity_plus10.description"] = string.format(statsdesc.plus, "Magazine Capacity", 10) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus10.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 10) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus25.printname"] = "+25 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus25.printname"] = "+25 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus25.compactname"] = "+25 MagCap"
-L["unlameifier_tuning_mag_capacity_plus25.description"] = string.format(statsdesc.plus, "Magazine Capacity", 25) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus25.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 25) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus50.printname"] = "+50 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus50.printname"] = "+50 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus50.compactname"] = "+50 MagCap"
-L["unlameifier_tuning_mag_capacity_plus50.description"] = string.format(statsdesc.plus, "Magazine Capacity", 50) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus50.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 50) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus75.printname"] = "+75 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus75.printname"] = "+75 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus75.compactname"] = "+75 MagCap"
-L["unlameifier_tuning_mag_capacity_plus75.description"] = string.format(statsdesc.plus, "Magazine Capacity", 75) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus75.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 75) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus100.printname"] = "+100 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus100.printname"] = "+100 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus100.compactname"] = "+100 MagCap"
-L["unlameifier_tuning_mag_capacity_plus100.description"] = string.format(statsdesc.plus, "Magazine Capacity", 100) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus100.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 100) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus500.printname"] = "+500 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus500.printname"] = "+500 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus500.compactname"] = "+500 MagCap"
-L["unlameifier_tuning_mag_capacity_plus500.description"] = string.format(statsdesc.plus, "Magazine Capacity", 500) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus500.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 500) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_plus1000.printname"] = "+1000 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_plus1000.printname"] = "+1000 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_plus1000.compactname"] = "+1000 MagCap"
-L["unlameifier_tuning_mag_capacity_plus1000.description"] = string.format(statsdesc.plus, "Magazine Capacity", 1000) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_plus1000.description"] = string.format(statsdesc.plus, "Dung tích chứa đạn", 1000) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus1.printname"] = "-1 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus1.printname"] = "-1 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus1.compactname"] = "-1 MagCap"
-L["unlameifier_tuning_mag_capacity_minus1.description"] = string.format(statsdesc.minus, "Magazine Capacity", 1) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus1.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 1) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus5.printname"] = "-5 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus5.printname"] = "-5 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus5.compactname"] = "-5 MagCap"
-L["unlameifier_tuning_mag_capacity_minus5.description"] = string.format(statsdesc.minus, "Magazine Capacity", 5) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus5.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 5) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus10.printname"] = "-10 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus10.printname"] = "-10 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus10.compactname"] = "-10 MagCap"
-L["unlameifier_tuning_mag_capacity_minus10.description"] = string.format(statsdesc.minus, "Magazine Capacity", 10) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus10.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 10) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus25.printname"] = "-25 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus25.printname"] = "-25 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus25.compactname"] = "-25 MagCap"
-L["unlameifier_tuning_mag_capacity_minus25.description"] = string.format(statsdesc.minus, "Magazine Capacity", 25) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus25.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 25) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus50.printname"] = "-50 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus50.printname"] = "-50 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus50.compactname"] = "-50 MagCap"
-L["unlameifier_tuning_mag_capacity_minus50.description"] = string.format(statsdesc.minus, "Magazine Capacity", 50) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus50.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 50) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus75.printname"] = "-75 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus75.printname"] = "-75 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus75.compactname"] = "-75 MagCap"
-L["unlameifier_tuning_mag_capacity_minus75.description"] = string.format(statsdesc.minus, "Magazine Capacity", 75) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus75.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 75) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus100.printname"] = "-100 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus100.printname"] = "-100 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus100.compactname"] = "-100 MagCap"
-L["unlameifier_tuning_mag_capacity_minus100.description"] = string.format(statsdesc.minus, "Magazine Capacity", 100) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus100.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 100) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus500.printname"] = "-500 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus500.printname"] = "-500 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus500.compactname"] = "-500 MagCap"
-L["unlameifier_tuning_mag_capacity_minus500.description"] = string.format(statsdesc.minus, "Magazine Capacity", 500) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus500.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 500) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_minus1000.printname"] = "-1000 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_minus1000.printname"] = "-1000 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_minus1000.compactname"] = "-1000 MagCap"
-L["unlameifier_tuning_mag_capacity_minus1000.description"] = string.format(statsdesc.minus, "Magazine Capacity", 1000) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_minus1000.description"] = string.format(statsdesc.minus, "Dung tích chứa đạn", 1000) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force1.printname"] = "1 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force1.printname"] = "1 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force1.compactname"] = "1 MagCap"
-L["unlameifier_tuning_mag_capacity_force1.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 1) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force1.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 1) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force5.printname"] = "5 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force5.printname"] = "5 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force5.compactname"] = "5 MagCap"
-L["unlameifier_tuning_mag_capacity_force5.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 5) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force5.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 5) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force10.printname"] = "10 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force10.printname"] = "10 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force10.compactname"] = "10 MagCap"
-L["unlameifier_tuning_mag_capacity_force10.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 10) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force10.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 10) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force15.printname"] = "15 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force15.printname"] = "15 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force15.compactname"] = "15 MagCap"
-L["unlameifier_tuning_mag_capacity_force15.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 15) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force15.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 15) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force17.printname"] = "17 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force17.printname"] = "17 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force17.compactname"] = "17 MagCap"
-L["unlameifier_tuning_mag_capacity_force17.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 17) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force17.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 17) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force20.printname"] = "20 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force20.printname"] = "20 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force20.compactname"] = "20 MagCap"
-L["unlameifier_tuning_mag_capacity_force20.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 20) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force20.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 20) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force25.printname"] = "25 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force25.printname"] = "25 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force25.compactname"] = "25 MagCap"
-L["unlameifier_tuning_mag_capacity_force25.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 25) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force25.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 25) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force30.printname"] = "30 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force30.printname"] = "30 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force30.compactname"] = "30 MagCap"
-L["unlameifier_tuning_mag_capacity_force30.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 30) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force30.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 30) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force50.printname"] = "50 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force50.printname"] = "50 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force50.compactname"] = "50 MagCap"
-L["unlameifier_tuning_mag_capacity_force50.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 50) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force50.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 50) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force75.printname"] = "75 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force75.printname"] = "75 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force75.compactname"] = "75 MagCap"
-L["unlameifier_tuning_mag_capacity_force75.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 75) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force75.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 75) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force100.printname"] = "100 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force100.printname"] = "100 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force100.compactname"] = "100 MagCap"
-L["unlameifier_tuning_mag_capacity_force100.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 100) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force100.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 100) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force500.printname"] = "500 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force500.printname"] = "500 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force500.compactname"] = "500 MagCap"
-L["unlameifier_tuning_mag_capacity_force500.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 500) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force500.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 500) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-L["unlameifier_tuning_mag_capacity_force1000.printname"] = "1000 Magazine Capacity"
+L["unlameifier_tuning_mag_capacity_force1000.printname"] = "1000 Dung tích chứa đạn"
 L["unlameifier_tuning_mag_capacity_force1000.compactname"] = "1000 MagCap"
-L["unlameifier_tuning_mag_capacity_force1000.description"] = string.format(statsdesc.fixed, "Magazine Capacity", 1000) .. "This alters the amount of bullets each magazine can hold."
+L["unlameifier_tuning_mag_capacity_force1000.description"] = string.format(statsdesc.fixed, "Dung tích chứa đạn", 1000) .. "Cái này sẽ điều chỉnh số đạn mà 1 băng đạn có thể chứa."
 
-///////// Chamber Capacity
-L["unlameifier.folder.chambersize"] = "Chamber Capacity"
-L["unlameifier.folder.chambersize.fixed"] = "Chamber Capacity/Fixed"
-L["unlameifier.folder.chambersize.plus"] = "Chamber Capacity/Add"
-L["unlameifier.folder.chambersize.minus"] = "Chamber Capacity/Subtract"
-L["unlameifier.folder.chambersize.multiply"] = "Chamber Capacity/Multiply"
-L["unlameifier.folder.chambersize.divide"] = "Chamber Capacity/Divide"
+///////// Cap acity
+L["unlameifier.folder.chambersize"] = "Đạn trong nòng"
+L["unlameifier.folder.chambersize.fixed"] = "Đạn trong nòng/Đặt giá trị"
+L["unlameifier.folder.chambersize.plus"] = "Đạn trong nòng/Cộng"
+L["unlameifier.folder.chambersize.minus"] = "Đạn trong nòng/Trừ"
+L["unlameifier.folder.chambersize.multiply"] = "Đạn trong nòng/Nhân"
+L["unlameifier.folder.chambersize.divide"] = "Đạn trong nòng/Chia"
 
-L["unlameifier_tuning_chamber_capacity_x010.printname"] = "0.1x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "0.1x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x010.description"] = string.format(statsdesc.minus, "Chamber Capacity", "90%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x010.printname"] = "0.1x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x010.compactname"] = "0.1x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x010.description"] = string.format(statsdesc.minus, "Đạn trong nòng", "90%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x025.printname"] = "0.25x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "0.25x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x025.description"] = string.format(statsdesc.minus, "Chamber Capacity", "75%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x025.printname"] = "0.25x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x025.compactname"] = "0.25x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x025.description"] = string.format(statsdesc.minus, "Đạn trong nòng", "75%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x050.printname"] = "0.5x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "0.5x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x050.description"] = string.format(statsdesc.minus, "Chamber Capacity", "50%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x050.printname"] = "0.5x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x050.compactname"] = "0.5x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x050.description"] = string.format(statsdesc.minus, "Đạn trong nòng", "50%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x075.printname"] = "0.75x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "0.75x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x075.description"] = string.format(statsdesc.minus, "Chamber Capacity", "25%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x075.printname"] = "0.75x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x075.compactname"] = "0.75x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x075.description"] = string.format(statsdesc.minus, "Đạn trong nòng", "25%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x090.printname"] = "0.9x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "0.9x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x090.description"] = string.format(statsdesc.minus, "Chamber Capacity", "10%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x090.printname"] = "0.9x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x090.compactname"] = "0.9x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x090.description"] = string.format(statsdesc.minus, "Đạn trong nòng", "10%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x110.printname"] = "1.1x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "1.1x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x110.description"] = string.format(statsdesc.plus, "Chamber Capacity", "10%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x110.printname"] = "1.1x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x110.compactname"] = "1.1x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x110.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "10%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x125.printname"] = "1.25x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "1.25x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x125.description"] = string.format(statsdesc.plus, "Chamber Capacity", "25%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x125.printname"] = "1.25x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x125.compactname"] = "1.25x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x125.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "25%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x150.printname"] = "1.5x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "1.5x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x150.description"] = string.format(statsdesc.plus, "Chamber Capacity", "50%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x150.printname"] = "1.5x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x150.compactname"] = "1.5x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x150.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "50%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x175.printname"] = "1.75x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "1.75x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x175.description"] = string.format(statsdesc.plus, "Chamber Capacity", "75%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x175.printname"] = "1.75x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x175.compactname"] = "1.75x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x175.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "75%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x2.printname"] = "2x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "2x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x2.description"] = string.format(statsdesc.plus, "Chamber Capacity", "100%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x2.printname"] = "2x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x2.compactname"] = "2x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x2.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "100%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x5.printname"] = "5x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "5x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x5.description"] = string.format(statsdesc.plus, "Chamber Capacity", "400%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x5.printname"] = "5x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x5.compactname"] = "5x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x5.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "400%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_x10.printname"] = "10x Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "10x Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_x10.description"] = string.format(statsdesc.plus, "Chamber Capacity", "900%") .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_x10.printname"] = "10x Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_x10.compactname"] = "10x Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_x10.description"] = string.format(statsdesc.plus, "Đạn trong nòng", "900%") .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus1.printname"] = "+1 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus1.compactname"] = "+1 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus1.description"] = string.format(statsdesc.plus, "Chamber Capacity", 1) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus1.printname"] = "+1 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus1.compactname"] = "+1 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus1.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 1) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus5.printname"] = "+5 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus5.compactname"] = "+5 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus5.description"] = string.format(statsdesc.plus, "Chamber Capacity", 5) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus5.printname"] = "+5 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus5.compactname"] = "+5 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus5.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 5) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus10.printname"] = "+10 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus10.compactname"] = "+10 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus10.description"] = string.format(statsdesc.plus, "Chamber Capacity", 10) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus10.printname"] = "+10 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus10.compactname"] = "+10 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus10.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 10) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus25.printname"] = "+25 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus25.compactname"] = "+25 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus25.description"] = string.format(statsdesc.plus, "Chamber Capacity", 25) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus25.printname"] = "+25 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus25.compactname"] = "+25 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus25.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 25) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus50.printname"] = "+50 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus50.compactname"] = "+50 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus50.description"] = string.format(statsdesc.plus, "Chamber Capacity", 50) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus50.printname"] = "+50 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus50.compactname"] = "+50 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus50.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 50) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus75.printname"] = "+75 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus75.compactname"] = "+75 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus75.description"] = string.format(statsdesc.plus, "Chamber Capacity", 75) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus75.printname"] = "+75 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus75.compactname"] = "+75 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus75.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 75) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus100.printname"] = "+100 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus100.compactname"] = "+100 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus100.description"] = string.format(statsdesc.plus, "Chamber Capacity", 100) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus100.printname"] = "+100 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus100.compactname"] = "+100 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus100.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 100) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus500.printname"] = "+500 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus500.compactname"] = "+500 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus500.description"] = string.format(statsdesc.plus, "Chamber Capacity", 500) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus500.printname"] = "+500 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus500.compactname"] = "+500 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus500.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 500) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_plus1000.printname"] = "+1000 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_plus1000.compactname"] = "+1000 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_plus1000.description"] = string.format(statsdesc.plus, "Chamber Capacity", 1000) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_plus1000.printname"] = "+1000 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_plus1000.compactname"] = "+1000 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_plus1000.description"] = string.format(statsdesc.plus, "Đạn trong nòng", 1000) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus1.printname"] = "-1 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus1.compactname"] = "-1 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus1.description"] = string.format(statsdesc.minus, "Chamber Capacity", 1) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus1.printname"] = "-1 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus1.compactname"] = "-1 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus1.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 1) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus5.printname"] = "-5 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus5.compactname"] = "-5 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus5.description"] = string.format(statsdesc.minus, "Chamber Capacity", 5) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus5.printname"] = "-5 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus5.compactname"] = "-5 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus5.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 5) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus10.printname"] = "-10 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus10.compactname"] = "-10 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus10.description"] = string.format(statsdesc.minus, "Chamber Capacity", 10) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus10.printname"] = "-10 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus10.compactname"] = "-10 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus10.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 10) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus25.printname"] = "-25 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus25.compactname"] = "-25 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus25.description"] = string.format(statsdesc.minus, "Chamber Capacity", 25) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus25.printname"] = "-25 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus25.compactname"] = "-25 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus25.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 25) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus50.printname"] = "-50 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus50.compactname"] = "-50 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus50.description"] = string.format(statsdesc.minus, "Chamber Capacity", 50) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus50.printname"] = "-50 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus50.compactname"] = "-50 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus50.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 50) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus75.printname"] = "-75 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus75.compactname"] = "-75 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus75.description"] = string.format(statsdesc.minus, "Chamber Capacity", 75) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus75.printname"] = "-75 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus75.compactname"] = "-75 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus75.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 75) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus100.printname"] = "-100 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus100.compactname"] = "-100 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus100.description"] = string.format(statsdesc.minus, "Chamber Capacity", 100) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus100.printname"] = "-100 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus100.compactname"] = "-100 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus100.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 100) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus500.printname"] = "-500 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus500.compactname"] = "-500 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus500.description"] = string.format(statsdesc.minus, "Chamber Capacity", 500) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus500.printname"] = "-500 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus500.compactname"] = "-500 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus500.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 500) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_minus1000.printname"] = "-1000 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_minus1000.compactname"] = "-1000 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_minus1000.description"] = string.format(statsdesc.minus, "Chamber Capacity", 1000) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_minus1000.printname"] = "-1000 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_minus1000.compactname"] = "-1000 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_minus1000.description"] = string.format(statsdesc.minus, "Đạn trong nòng", 1000) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force0.printname"] = "0 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force0.compactname"] = "0 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force0.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 0) .. "This alters the amount of bullets can be loaded into the chamber." .. "\n\n" .. "Essentially disables the ability to have a round in the chamber."
+L["unlameifier_tuning_chamber_capacity_force0.printname"] = "0 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force0.compactname"] = "0 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force0.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 0) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng." .. "\n\n" .. "Cái này sẽ vô hiệu hóa tính năng nạp đạn +1 vào súng nhé."
 
-L["unlameifier_tuning_chamber_capacity_force1.printname"] = "1 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "1 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force1.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 1) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force1.printname"] = "1 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force1.compactname"] = "1 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force1.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 1) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force5.printname"] = "5 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "5 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force5.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 5) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force5.printname"] = "5 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force5.compactname"] = "5 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force5.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 5) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force10.printname"] = "10 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "10 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force10.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 10) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force10.printname"] = "10 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force10.compactname"] = "10 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force10.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 10) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force15.printname"] = "15 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "15 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force15.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 15) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force15.printname"] = "15 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force15.compactname"] = "15 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force15.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 15) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force17.printname"] = "17 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "17 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force17.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 17) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force17.printname"] = "17 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force17.compactname"] = "17 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force17.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 17) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force20.printname"] = "20 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "20 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force20.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 20) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force20.printname"] = "20 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force20.compactname"] = "20 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force20.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 20) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force25.printname"] = "25 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "25 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force25.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 25) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force25.printname"] = "25 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force25.compactname"] = "25 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force25.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 25) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force30.printname"] = "30 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "30 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force30.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 30) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force30.printname"] = "30 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force30.compactname"] = "30 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force30.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 30) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force50.printname"] = "50 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "50 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force50.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 50) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force50.printname"] = "50 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force50.compactname"] = "50 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force50.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 50) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force75.printname"] = "75 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "75 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force75.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 75) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force75.printname"] = "75 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force75.compactname"] = "75 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force75.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 75) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force100.printname"] = "100 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "100 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force100.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 100) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force100.printname"] = "100 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force100.compactname"] = "100 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force100.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 100) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force500.printname"] = "500 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "500 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force500.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 500) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force500.printname"] = "500 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force500.compactname"] = "500 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force500.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 500) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
-L["unlameifier_tuning_chamber_capacity_force1000.printname"] = "1000 Chamber Capacity"
-L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "1000 Chamber Cap"
-L["unlameifier_tuning_chamber_capacity_force1000.description"] = string.format(statsdesc.fixed, "Chamber Capacity", 1000) .. "This alters the amount of bullets can be loaded into the chamber."
+L["unlameifier_tuning_chamber_capacity_force1000.printname"] = "1000 Đạn trong nòng"
+L["unlameifier_tuning_chamber_capacity_force1000.compactname"] = "1000 Đạn nòng "
+L["unlameifier_tuning_chamber_capacity_force1000.description"] = string.format(statsdesc.fixed, "Đạn trong nòng", 1000) .. "Cái này sẽ điều chỉnh số đạn có thể vào được trong nòng súng."
 
 ///////// Penetration
-L["unlameifier.folder.penetration"] = "Penetration"
-L["unlameifier.folder.penetration.plus"] = "Penetration/Add"
-L["unlameifier.folder.penetration.minus"] = "Penetration/Subtract"
-L["unlameifier.folder.penetration.multiply"] = "Penetration/Multiply"
-L["unlameifier.folder.penetration.divide"] = "Penetration/Divide"
+L["unlameifier.folder.penetration"] = "Xuyên thủng"
+L["unlameifier.folder.penetration.plus"] = "Xuyên thủng/Cộng"
+L["unlameifier.folder.penetration.minus"] = "Xuyên thủng/Trừ"
+L["unlameifier.folder.penetration.multiply"] = "Xuyên thủng/Nhân"
+L["unlameifier.folder.penetration.divide"] = "Xuyên thủng/Chia"
 
-L["unlameifier_tuning_penetration_x010.printname"] = "0.1x Penetration"
-L["unlameifier_tuning_penetration_x010.compactname"] = "0.1x Penetration"
-L["unlameifier_tuning_penetration_x010.description"] = string.format(statsdesc.minus, "Material Penetration", "90%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x010.printname"] = "0.1x Xuyên thủng"
+L["unlameifier_tuning_penetration_x010.compactname"] = "0.1x Xuyên thủng"
+L["unlameifier_tuning_penetration_x010.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", "90%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x025.printname"] = "0.25x Penetration"
-L["unlameifier_tuning_penetration_x025.compactname"] = "0.25x Penetration"
-L["unlameifier_tuning_penetration_x025.description"] = string.format(statsdesc.minus, "Material Penetration", "75%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x025.printname"] = "0.25x Xuyên thủng"
+L["unlameifier_tuning_penetration_x025.compactname"] = "0.25x Xuyên thủng"
+L["unlameifier_tuning_penetration_x025.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", "75%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x050.printname"] = "0.5x Penetration"
-L["unlameifier_tuning_penetration_x050.compactname"] = "0.5x Penetration"
-L["unlameifier_tuning_penetration_x050.description"] = string.format(statsdesc.minus, "Material Penetration", "50%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x050.printname"] = "0.5x Xuyên thủng"
+L["unlameifier_tuning_penetration_x050.compactname"] = "0.5x Xuyên thủng"
+L["unlameifier_tuning_penetration_x050.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", "50%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x075.printname"] = "0.75x Penetration"
-L["unlameifier_tuning_penetration_x075.compactname"] = "0.75x Penetration"
-L["unlameifier_tuning_penetration_x075.description"] = string.format(statsdesc.minus, "Material Penetration", "25%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x075.printname"] = "0.75x Xuyên thủng"
+L["unlameifier_tuning_penetration_x075.compactname"] = "0.75x Xuyên thủng"
+L["unlameifier_tuning_penetration_x075.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", "25%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x090.printname"] = "0.9x Penetration"
-L["unlameifier_tuning_penetration_x090.compactname"] = "0.9x Penetration"
-L["unlameifier_tuning_penetration_x090.description"] = string.format(statsdesc.minus, "Material Penetration", "10%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x090.printname"] = "0.9x Xuyên thủng"
+L["unlameifier_tuning_penetration_x090.compactname"] = "0.9x Xuyên thủng"
+L["unlameifier_tuning_penetration_x090.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", "10%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x110.printname"] = "1.1x Penetration"
-L["unlameifier_tuning_penetration_x110.compactname"] = "1.1x Penetration"
-L["unlameifier_tuning_penetration_x110.description"] = string.format(statsdesc.plus, "Material Penetration", "10%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x110.printname"] = "1.1x Xuyên thủng"
+L["unlameifier_tuning_penetration_x110.compactname"] = "1.1x Xuyên thủng"
+L["unlameifier_tuning_penetration_x110.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "10%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x125.printname"] = "1.25x Penetration"
-L["unlameifier_tuning_penetration_x125.compactname"] = "1.25x Penetration"
-L["unlameifier_tuning_penetration_x125.description"] = string.format(statsdesc.plus, "Material Penetration", "25%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x125.printname"] = "1.25x Xuyên thủng"
+L["unlameifier_tuning_penetration_x125.compactname"] = "1.25x Xuyên thủng"
+L["unlameifier_tuning_penetration_x125.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "25%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x150.printname"] = "1.5x Penetration"
-L["unlameifier_tuning_penetration_x150.compactname"] = "1.5x Penetration"
-L["unlameifier_tuning_penetration_x150.description"] = string.format(statsdesc.plus, "Material Penetration", "50%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x150.printname"] = "1.5x Xuyên thủng"
+L["unlameifier_tuning_penetration_x150.compactname"] = "1.5x Xuyên thủng"
+L["unlameifier_tuning_penetration_x150.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "50%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x175.printname"] = "1.75x Penetration"
-L["unlameifier_tuning_penetration_x175.compactname"] = "1.75x Penetration"
-L["unlameifier_tuning_penetration_x175.description"] = string.format(statsdesc.plus, "Material Penetration", "75%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x175.printname"] = "1.75x Xuyên thủng"
+L["unlameifier_tuning_penetration_x175.compactname"] = "1.75x Xuyên thủng"
+L["unlameifier_tuning_penetration_x175.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "75%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x2.printname"] = "2x Penetration"
-L["unlameifier_tuning_penetration_x2.compactname"] = "2x Penetration"
-L["unlameifier_tuning_penetration_x2.description"] = string.format(statsdesc.plus, "Material Penetration", "100%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x2.printname"] = "2x Xuyên thủng"
+L["unlameifier_tuning_penetration_x2.compactname"] = "2x Xuyên thủng"
+L["unlameifier_tuning_penetration_x2.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "100%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x5.printname"] = "5x Penetration"
-L["unlameifier_tuning_penetration_x5.compactname"] = "5x Penetration"
-L["unlameifier_tuning_penetration_x5.description"] = string.format(statsdesc.plus, "Material Penetration", "400%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x5.printname"] = "5x Xuyên thủng"
+L["unlameifier_tuning_penetration_x5.compactname"] = "5x Xuyên thủng"
+L["unlameifier_tuning_penetration_x5.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "400%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_x10.printname"] = "10x Penetration"
-L["unlameifier_tuning_penetration_x10.compactname"] = "10x Penetration"
-L["unlameifier_tuning_penetration_x10.description"] = string.format(statsdesc.plus, "Material Penetration", "900%") .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_x10.printname"] = "10x Xuyên thủng"
+L["unlameifier_tuning_penetration_x10.compactname"] = "10x Xuyên thủng"
+L["unlameifier_tuning_penetration_x10.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", "900%") .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus1.printname"] = "+1 Penetration"
-L["unlameifier_tuning_penetration_plus1.compactname"] = "+1 Penetration"
-L["unlameifier_tuning_penetration_plus1.description"] = string.format(statsdesc.plus, "Material Penetration", 1) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus1.printname"] = "+1 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus1.compactname"] = "+1 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus1.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 1) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus5.printname"] = "+5 Penetration"
-L["unlameifier_tuning_penetration_plus5.compactname"] = "+5 Penetration"
-L["unlameifier_tuning_penetration_plus5.description"] = string.format(statsdesc.plus, "Material Penetration", 5) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus5.printname"] = "+5 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus5.compactname"] = "+5 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus5.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 5) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus10.printname"] = "+10 Penetration"
-L["unlameifier_tuning_penetration_plus10.compactname"] = "+10 Penetration"
-L["unlameifier_tuning_penetration_plus10.description"] = string.format(statsdesc.plus, "Material Penetration", 10) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus10.printname"] = "+10 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus10.compactname"] = "+10 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus10.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 10) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus25.printname"] = "+25 Penetration"
-L["unlameifier_tuning_penetration_plus25.compactname"] = "+25 Penetration"
-L["unlameifier_tuning_penetration_plus25.description"] = string.format(statsdesc.plus, "Material Penetration", 25) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus25.printname"] = "+25 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus25.compactname"] = "+25 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus25.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 25) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus50.printname"] = "+50 Penetration"
-L["unlameifier_tuning_penetration_plus50.compactname"] = "+50 Penetration"
-L["unlameifier_tuning_penetration_plus50.description"] = string.format(statsdesc.plus, "Material Penetration", 50) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus50.printname"] = "+50 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus50.compactname"] = "+50 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus50.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 50) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus75.printname"] = "+75 Penetration"
-L["unlameifier_tuning_penetration_plus75.compactname"] = "+75 Penetration"
-L["unlameifier_tuning_penetration_plus75.description"] = string.format(statsdesc.plus, "Material Penetration", 75) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus75.printname"] = "+75 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus75.compactname"] = "+75 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus75.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 75) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus100.printname"] = "+100 Penetration"
-L["unlameifier_tuning_penetration_plus100.compactname"] = "+100 Penetration"
-L["unlameifier_tuning_penetration_plus100.description"] = string.format(statsdesc.plus, "Material Penetration", 100) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus100.printname"] = "+100 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus100.compactname"] = "+100 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus100.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 100) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus500.printname"] = "+500 Penetration"
-L["unlameifier_tuning_penetration_plus500.compactname"] = "+500 Penetration"
-L["unlameifier_tuning_penetration_plus500.description"] = string.format(statsdesc.plus, "Material Penetration", 500) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus500.printname"] = "+500 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus500.compactname"] = "+500 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus500.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 500) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_plus1000.printname"] = "+1000 Penetration"
-L["unlameifier_tuning_penetration_plus1000.compactname"] = "+1000 Penetration"
-L["unlameifier_tuning_penetration_plus1000.description"] = string.format(statsdesc.plus, "Material Penetration", 1000) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_plus1000.printname"] = "+1000 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus1000.compactname"] = "+1000 Xuyên thủng"
+L["unlameifier_tuning_penetration_plus1000.description"] = string.format(statsdesc.plus, "Độ xuyên thủng vật liệu", 1000) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus1.printname"] = "-1 Penetration"
-L["unlameifier_tuning_penetration_minus1.compactname"] = "-1 Penetration"
-L["unlameifier_tuning_penetration_minus1.description"] = string.format(statsdesc.minus, "Material Penetration", 1) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus1.printname"] = "-1 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus1.compactname"] = "-1 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus1.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 1) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus5.printname"] = "-5 Penetration"
-L["unlameifier_tuning_penetration_minus5.compactname"] = "-5 Penetration"
-L["unlameifier_tuning_penetration_minus5.description"] = string.format(statsdesc.minus, "Material Penetration", 5) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus5.printname"] = "-5 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus5.compactname"] = "-5 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus5.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 5) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus10.printname"] = "-10 Penetration"
-L["unlameifier_tuning_penetration_minus10.compactname"] = "-10 Penetration"
-L["unlameifier_tuning_penetration_minus10.description"] = string.format(statsdesc.minus, "Material Penetration", 10) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus10.printname"] = "-10 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus10.compactname"] = "-10 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus10.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 10) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus25.printname"] = "-25 Penetration"
-L["unlameifier_tuning_penetration_minus25.compactname"] = "-25 Penetration"
-L["unlameifier_tuning_penetration_minus25.description"] = string.format(statsdesc.minus, "Material Penetration", 25) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus25.printname"] = "-25 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus25.compactname"] = "-25 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus25.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 25) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus50.printname"] = "-50 Penetration"
-L["unlameifier_tuning_penetration_minus50.compactname"] = "-50 Penetration"
-L["unlameifier_tuning_penetration_minus50.description"] = string.format(statsdesc.minus, "Material Penetration", 50) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus50.printname"] = "-50 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus50.compactname"] = "-50 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus50.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 50) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus75.printname"] = "-75 Penetration"
-L["unlameifier_tuning_penetration_minus75.compactname"] = "-75 Penetration"
-L["unlameifier_tuning_penetration_minus75.description"] = string.format(statsdesc.minus, "Material Penetration", 75) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus75.printname"] = "-75 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus75.compactname"] = "-75 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus75.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 75) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus100.printname"] = "-100 Penetration"
-L["unlameifier_tuning_penetration_minus100.compactname"] = "-100 Penetration"
-L["unlameifier_tuning_penetration_minus100.description"] = string.format(statsdesc.minus, "Material Penetration", 100) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus100.printname"] = "-100 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus100.compactname"] = "-100 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus100.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 100) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus500.printname"] = "-500 Penetration"
-L["unlameifier_tuning_penetration_minus500.compactname"] = "-500 Penetration"
-L["unlameifier_tuning_penetration_minus500.description"] = string.format(statsdesc.minus, "Material Penetration", 500) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus500.printname"] = "-500 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus500.compactname"] = "-500 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus500.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 500) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
-L["unlameifier_tuning_penetration_minus1000.printname"] = "-1000 Penetration"
-L["unlameifier_tuning_penetration_minus1000.compactname"] = "-1000 Penetration"
-L["unlameifier_tuning_penetration_minus1000.description"] = string.format(statsdesc.minus, "Material Penetration", 1000) .. "This alters how far a bullet can penetrate through materials."
+L["unlameifier_tuning_penetration_minus1000.printname"] = "-1000 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus1000.compactname"] = "-1000 Xuyên thủng"
+L["unlameifier_tuning_penetration_minus1000.description"] = string.format(statsdesc.minus, "Độ xuyên thủng vật liệu", 1000) .. "Cái này có thể điều chỉnh độ sâu xuyên thủng của đạn."
 
 ///////// Spread
-L["unlameifier.folder.spread"] = "Spread"
-L["unlameifier.folder.spread.multiply"] = "Spread/Multiply"
-L["unlameifier.folder.spread.divide"] = "Spread/Divide"
+L["unlameifier.folder.spread"] = "Độ tán xạ"
+L["unlameifier.folder.spread.multiply"] = "Độ tán xạ/Nhân"
+L["unlameifier.folder.spread.divide"] = "Độ tán xạ/Chia"
 
-L["unlameifier_tuning_spread_x0.printname"] = "0x Spread"
-L["unlameifier_tuning_spread_x0.compactname"] = "0x Spread"
-L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Spread", "100%") .. "This alters how much accuracy the weapon has." .. "\n\n" .. "Effectively removes <color=100,255,100>all spread</color>, making the weapon <color=100,255,100>perfectly accurate</color> at all times."
+L["unlameifier_tuning_spread_x0.printname"] = "0x Độ tán xạ"
+L["unlameifier_tuning_spread_x0.compactname"] = "0x Độ tán xạ"
+L["unlameifier_tuning_spread_x0.description"] = string.format(statsdesc.minusinv, "Độ tán xạ", "100%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí." .. "\n\n" .. "Nhờ này mà vũ khí sẽ có độ chính xác <color=100,255,100>tuyệt đối</color>, khiến vũ khí của thím lúc nào cũng <color=100,255,100>trúng mục tiêu 1 cách hoàn hảo</color> mọi lúc luôn nhé."
 
-L["unlameifier_tuning_spread_x010.printname"] = "0.1x Spread"
-L["unlameifier_tuning_spread_x010.compactname"] = "0.1x Spread"
-L["unlameifier_tuning_spread_x010.description"] = string.format(statsdesc.minusinv, "Spread", "90%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x010.printname"] = "0.1x Độ tán xạ"
+L["unlameifier_tuning_spread_x010.compactname"] = "0.1x Độ tán xạ"
+L["unlameifier_tuning_spread_x010.description"] = string.format(statsdesc.minusinv, "Độ tán xạ", "90%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x025.printname"] = "0.25x Spread"
-L["unlameifier_tuning_spread_x025.compactname"] = "0.25x Spread"
-L["unlameifier_tuning_spread_x025.description"] = string.format(statsdesc.minusinv, "Spread", "75%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x025.printname"] = "0.25x Độ tán xạ"
+L["unlameifier_tuning_spread_x025.compactname"] = "0.25x Độ tán xạ"
+L["unlameifier_tuning_spread_x025.description"] = string.format(statsdesc.minusinv, "Độ tán xạ", "75%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x050.printname"] = "0.5x Spread"
-L["unlameifier_tuning_spread_x050.compactname"] = "0.5x Spread"
-L["unlameifier_tuning_spread_x050.description"] = string.format(statsdesc.minusinv, "Spread", "50%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x050.printname"] = "0.5x Độ tán xạ"
+L["unlameifier_tuning_spread_x050.compactname"] = "0.5x Độ tán xạ"
+L["unlameifier_tuning_spread_x050.description"] = string.format(statsdesc.minusinv, "Độ tán xạ", "50%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x075.printname"] = "0.75x Spread"
-L["unlameifier_tuning_spread_x075.compactname"] = "0.75x Spread"
-L["unlameifier_tuning_spread_x075.description"] = string.format(statsdesc.minusinv, "Spread", "25%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x075.printname"] = "0.75x Độ tán xạ"
+L["unlameifier_tuning_spread_x075.compactname"] = "0.75x Độ tán xạ"
+L["unlameifier_tuning_spread_x075.description"] = string.format(statsdesc.minusinv, "Độ tán xạ", "25%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x090.printname"] = "0.9x Spread"
-L["unlameifier_tuning_spread_x090.compactname"] = "0.9x Spread"
-L["unlameifier_tuning_spread_x090.description"] = string.format(statsdesc.minusinv, "Spread", "10%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x090.printname"] = "0.9x Độ tán xạ"
+L["unlameifier_tuning_spread_x090.compactname"] = "0.9x Độ tán xạ"
+L["unlameifier_tuning_spread_x090.description"] = string.format(statsdesc.minusinv, "Độ tán xạ", "10%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x110.printname"] = "1.1x Spread"
-L["unlameifier_tuning_spread_x110.compactname"] = "1.1x Spread"
-L["unlameifier_tuning_spread_x110.description"] = string.format(statsdesc.plusinv, "Spread", "10%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x110.printname"] = "1.1x Độ tán xạ"
+L["unlameifier_tuning_spread_x110.compactname"] = "1.1x Độ tán xạ"
+L["unlameifier_tuning_spread_x110.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "10%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x125.printname"] = "1.25x Spread"
-L["unlameifier_tuning_spread_x125.compactname"] = "1.25x Spread"
-L["unlameifier_tuning_spread_x125.description"] = string.format(statsdesc.plusinv, "Spread", "25%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x125.printname"] = "1.25x Độ tán xạ"
+L["unlameifier_tuning_spread_x125.compactname"] = "1.25x Độ tán xạ"
+L["unlameifier_tuning_spread_x125.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "25%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x150.printname"] = "1.5x Spread"
-L["unlameifier_tuning_spread_x150.compactname"] = "1.5x Spread"
-L["unlameifier_tuning_spread_x150.description"] = string.format(statsdesc.plusinv, "Spread", "50%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x150.printname"] = "1.5x Độ tán xạ"
+L["unlameifier_tuning_spread_x150.compactname"] = "1.5x Độ tán xạ"
+L["unlameifier_tuning_spread_x150.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "50%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x175.printname"] = "1.75x Spread"
-L["unlameifier_tuning_spread_x175.compactname"] = "1.75x Spread"
-L["unlameifier_tuning_spread_x175.description"] = string.format(statsdesc.plusinv, "Spread", "75%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x175.printname"] = "1.75x Độ tán xạ"
+L["unlameifier_tuning_spread_x175.compactname"] = "1.75x Độ tán xạ"
+L["unlameifier_tuning_spread_x175.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "75%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x2.printname"] = "2x Spread"
-L["unlameifier_tuning_spread_x2.compactname"] = "2x Spread"
-L["unlameifier_tuning_spread_x2.description"] = string.format(statsdesc.plusinv, "Spread", "100%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x2.printname"] = "2x Độ tán xạ"
+L["unlameifier_tuning_spread_x2.compactname"] = "2x Độ tán xạ"
+L["unlameifier_tuning_spread_x2.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "100%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x5.printname"] = "5x Spread"
-L["unlameifier_tuning_spread_x5.compactname"] = "5x Spread"
-L["unlameifier_tuning_spread_x5.description"] = string.format(statsdesc.plusinv, "Spread", "400%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x5.printname"] = "5x Độ tán xạ"
+L["unlameifier_tuning_spread_x5.compactname"] = "5x Độ tán xạ"
+L["unlameifier_tuning_spread_x5.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "400%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
-L["unlameifier_tuning_spread_x10.printname"] = "10x Spread"
-L["unlameifier_tuning_spread_x10.compactname"] = "10x Spread"
-L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Spread", "900%") .. "This alters how much accuracy the weapon has."
+L["unlameifier_tuning_spread_x10.printname"] = "10x Độ tán xạ"
+L["unlameifier_tuning_spread_x10.compactname"] = "10x Độ tán xạ"
+L["unlameifier_tuning_spread_x10.description"] = string.format(statsdesc.plusinv, "Độ tán xạ", "900%") .. "Cái này sẽ điều chỉnh độ chính xác của vũ khí."
 
 ///////// Impact Force
-L["unlameifier.folder.impactforce"] = "Impact Force"
-L["unlameifier.folder.impactforce.multiply"] = "Impact Force/Multiply"
-L["unlameifier.folder.impactforce.divide"] = "Impact Force/Divide"
+L["unlameifier.folder.impactforce"] = "Lực tiếp xúc"
+L["unlameifier.folder.impactforce.multiply"] = "Lực tiếp xúc/Nhân"
+L["unlameifier.folder.impactforce.divide"] = "Lực tiếp xúc/Chia"
 
-L["unlameifier_tuning_impact_forcex0.printname"] = "0x Impact Force"
-L["unlameifier_tuning_impact_forcex0.compactname"] = "0x Impact Force"
-L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Impact Force", "100%") .. "This alters how much force is applied to anything you hit." .. "\n\n" .. "Completely <color=100,255,255>disables</color> Impact Force."
+L["unlameifier_tuning_impact_forcex0.printname"] = "0x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex0.compactname"] = "0x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex0.description"] = string.format(statsdesc.minus, "Lực tiếp xúc", "100%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên." .. "\n\n" .. "Hoàn toàn <color=100,255,255>vô hiệu hóa</color> Lực tiếp xúc."
 
-L["unlameifier_tuning_impact_forcex010.printname"] = "0.1x Impact Force"
-L["unlameifier_tuning_impact_forcex010.compactname"] = "0.1x Impact Force"
-L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Impact Force", "90%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex010.printname"] = "0.1x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex010.compactname"] = "0.1x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex010.description"] = string.format(statsdesc.minus, "Lực tiếp xúc", "90%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex025.printname"] = "0.25x Impact Force"
-L["unlameifier_tuning_impact_forcex025.compactname"] = "0.25x Impact Force"
-L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Impact Force", "75%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex025.printname"] = "0.25x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex025.compactname"] = "0.25x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex025.description"] = string.format(statsdesc.minus, "Lực tiếp xúc", "75%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex050.printname"] = "0.5x Impact Force"
-L["unlameifier_tuning_impact_forcex050.compactname"] = "0.5x Impact Force"
-L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Impact Force", "50%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex050.printname"] = "0.5x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex050.compactname"] = "0.5x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex050.description"] = string.format(statsdesc.minus, "Lực tiếp xúc", "50%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex075.printname"] = "0.75x Impact Force"
-L["unlameifier_tuning_impact_forcex075.compactname"] = "0.75x Impact Force"
-L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Impact Force", "25%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex075.printname"] = "0.75x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex075.compactname"] = "0.75x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex075.description"] = string.format(statsdesc.minus, "Lực tiếp xúc", "25%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex090.printname"] = "0.9x Impact Force"
-L["unlameifier_tuning_impact_forcex090.compactname"] = "0.9x Impact Force"
-L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Impact Force", "10%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex090.printname"] = "0.9x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex090.compactname"] = "0.9x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex090.description"] = string.format(statsdesc.minus, "Lực tiếp xúc", "10%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex110.printname"] = "1.1x Impact Force"
-L["unlameifier_tuning_impact_forcex110.compactname"] = "1.1x Impact Force"
-L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Impact Force", "10%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex110.printname"] = "1.1x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex110.compactname"] = "1.1x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex110.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "10%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex125.printname"] = "1.25x Impact Force"
-L["unlameifier_tuning_impact_forcex125.compactname"] = "1.25x Impact Force"
-L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Impact Force", "25%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex125.printname"] = "1.25x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex125.compactname"] = "1.25x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex125.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "25%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex150.printname"] = "1.5x Impact Force"
-L["unlameifier_tuning_impact_forcex150.compactname"] = "1.5x Impact Force"
-L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Impact Force", "50%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex150.printname"] = "1.5x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex150.compactname"] = "1.5x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex150.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "50%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex175.printname"] = "1.75x Impact Force"
-L["unlameifier_tuning_impact_forcex175.compactname"] = "1.75x Impact Force"
-L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Impact Force", "75%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex175.printname"] = "1.75x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex175.compactname"] = "1.75x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex175.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "75%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex2.printname"] = "2x Impact Force"
-L["unlameifier_tuning_impact_forcex2.compactname"] = "2x Impact Force"
-L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Impact Force", "100%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex2.printname"] = "2x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex2.compactname"] = "2x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex2.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "100%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex5.printname"] = "5x Impact Force"
-L["unlameifier_tuning_impact_forcex5.compactname"] = "5x Impact Force"
-L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Impact Force", "400%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex5.printname"] = "5x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex5.compactname"] = "5x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex5.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "400%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
-L["unlameifier_tuning_impact_forcex10.printname"] = "10x Impact Force"
-L["unlameifier_tuning_impact_forcex10.compactname"] = "10x Impact Force"
-L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Impact Force", "900%") .. "This alters how much force is applied to anything you hit."
+L["unlameifier_tuning_impact_forcex10.printname"] = "10x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex10.compactname"] = "10x Lực tiếp xúc"
+L["unlameifier_tuning_impact_forcex10.description"] = string.format(statsdesc.plus, "Lực tiếp xúc", "900%") .. "Cái này sẽ điều chỉnh lực tác động lên bất kỳ thứ gì mà đạn tiếp xúc lên."
 
 ///////// Maximum Range
-L["unlameifier.folder.maxrange"] = "Range/Max"
-L["unlameifier.folder.maxrange.multiply"] = "Range/Max/Multiply"
-L["unlameifier.folder.maxrange.divide"] = "Range/Max/Divide"
+L["unlameifier.folder.maxrange"] = "Quãng đường bắn được/Max"
+L["unlameifier.folder.maxrange.multiply"] = "Quãng đường bắn được/Max/Nhân"
+L["unlameifier.folder.maxrange.divide"] = "Quãng đường bắn được/Max/Chia"
 
-L["unlameifier_tuning_max_range_x010.printname"] = "0.1x Maximum Range"
-L["unlameifier_tuning_max_range_x010.compactname"] = "0.1x Max Range"
-L["unlameifier_tuning_max_range_x010.description"] = string.format(statsdesc.minus, "Maximum Range", "90%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x010.printname"] = "0.1x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x010.compactname"] = "0.1x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x010.description"] = string.format(statsdesc.minus, "Quãng đường bắn được dài nhất", "90%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x025.printname"] = "0.25x Maximum Range"
-L["unlameifier_tuning_max_range_x025.compactname"] = "0.25x Max Range"
-L["unlameifier_tuning_max_range_x025.description"] = string.format(statsdesc.minus, "Maximum Range", "75%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x025.printname"] = "0.25x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x025.compactname"] = "0.25x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x025.description"] = string.format(statsdesc.minus, "Quãng đường bắn được dài nhất", "75%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x050.printname"] = "0.5x Maximum Range"
-L["unlameifier_tuning_max_range_x050.compactname"] = "0.5x Max Range"
-L["unlameifier_tuning_max_range_x050.description"] = string.format(statsdesc.minus, "Maximum Range", "50%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x050.printname"] = "0.5x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x050.compactname"] = "0.5x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x050.description"] = string.format(statsdesc.minus, "Quãng đường bắn được dài nhất", "50%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x075.printname"] = "0.75x Maximum Range"
-L["unlameifier_tuning_max_range_x075.compactname"] = "0.75x Max Range"
-L["unlameifier_tuning_max_range_x075.description"] = string.format(statsdesc.minus, "Maximum Range", "25%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x075.printname"] = "0.75x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x075.compactname"] = "0.75x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x075.description"] = string.format(statsdesc.minus, "Quãng đường bắn được dài nhất", "25%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x090.printname"] = "0.9x Maximum Range"
-L["unlameifier_tuning_max_range_x090.compactname"] = "0.9x Max Range"
-L["unlameifier_tuning_max_range_x090.description"] = string.format(statsdesc.minus, "Maximum Range", "10%") .. "This alters how far the bullet has to travel before it deals its lowest damage." .. statsdesc.warnmaxrange
+L["unlameifier_tuning_max_range_x090.printname"] = "0.9x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x090.compactname"] = "0.9x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x090.description"] = string.format(statsdesc.minus, "Quãng đường bắn được dài nhất", "10%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay." .. statsdesc.warnmaxrange
 
-L["unlameifier_tuning_max_range_x110.printname"] = "1.1x Maximum Range"
-L["unlameifier_tuning_max_range_x110.compactname"] = "1.1x Max Range"
-L["unlameifier_tuning_max_range_x110.description"] = string.format(statsdesc.plus, "Maximum Range", "10%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x110.printname"] = "1.1x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x110.compactname"] = "1.1x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x110.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "10%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_max_range_x125.printname"] = "1.25x Maximum Range"
-L["unlameifier_tuning_max_range_x125.compactname"] = "1.25x Max Range"
-L["unlameifier_tuning_max_range_x125.description"] = string.format(statsdesc.plus, "Maximum Range", "25%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x125.printname"] = "1.25x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x125.compactname"] = "1.25x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x125.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "25%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_max_range_x150.printname"] = "1.5x Maximum Range"
-L["unlameifier_tuning_max_range_x150.compactname"] = "1.5x Max Range"
-L["unlameifier_tuning_max_range_x150.description"] = string.format(statsdesc.plus, "Maximum Range", "50%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x150.printname"] = "1.5x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x150.compactname"] = "1.5x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x150.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "50%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_max_range_x175.printname"] = "1.75x Maximum Range"
-L["unlameifier_tuning_max_range_x175.compactname"] = "1.75x Max Range"
-L["unlameifier_tuning_max_range_x175.description"] = string.format(statsdesc.plus, "Maximum Range", "75%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x175.printname"] = "1.75x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x175.compactname"] = "1.75x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x175.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "75%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_max_range_x2.printname"] = "2x Maximum Range"
-L["unlameifier_tuning_max_range_x2.compactname"] = "2x Max Range"
-L["unlameifier_tuning_max_range_x2.description"] = string.format(statsdesc.plus, "Maximum Range", "100%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x2.printname"] = "2x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x2.compactname"] = "2x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x2.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "100%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_max_range_x5.printname"] = "5x Maximum Range"
-L["unlameifier_tuning_max_range_x5.compactname"] = "5x Max Range"
-L["unlameifier_tuning_max_range_x5.description"] = string.format(statsdesc.plus, "Maximum Range", "400%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x5.printname"] = "5x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x5.compactname"] = "5x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x5.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "400%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_max_range_x10.printname"] = "10x Maximum Range"
-L["unlameifier_tuning_max_range_x10.compactname"] = "10x Max Range"
-L["unlameifier_tuning_max_range_x10.description"] = string.format(statsdesc.plus, "Maximum Range", "900%") .. "This alters how far the bullet has to travel before it deals its lowest damage."
+L["unlameifier_tuning_max_range_x10.printname"] = "10x Quãng đường bắn được dài nhất"
+L["unlameifier_tuning_max_range_x10.compactname"] = "10x Max Quãng đường bắn được"
+L["unlameifier_tuning_max_range_x10.description"] = string.format(statsdesc.plus, "Quãng đường bắn được dài nhất", "900%") .. "Cái này sẽ điều chỉnh quãng đường dài nhất mà đạn có thể bay."
 
 ///////// Minimum Range
-L["unlameifier.folder.minrange"] = "Range/Min"
-L["unlameifier.folder.minrange.multiply"] = "Range/Min/Multiply"
-L["unlameifier.folder.minrange.divide"] = "Range/Min/Divide"
+L["unlameifier.folder.minrange"] = "Quãng đường bắn được/Nhỏ nhất"
+L["unlameifier.folder.minrange.multiply"] = "Quãng đường bắn được/Nhỏ nhất/Nhân"
+L["unlameifier.folder.minrange.divide"] = "Quãng đường bắn được/Nhỏ nhất/Chia"
 
-L["unlameifier_tuning_min_range_x010.printname"] = "0.1x Minimum Range"
-L["unlameifier_tuning_min_range_x010.compactname"] = "0.1x Min Range"
-L["unlameifier_tuning_min_range_x010.description"] = string.format(statsdesc.minus, "Minimum Range", "90%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x010.printname"] = "0.1x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x010.compactname"] = "0.1x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x010.description"] = string.format(statsdesc.minus, "Quãng đường bắn được ngắn nhất", "90%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_min_range_x025.printname"] = "0.25x Minimum Range"
-L["unlameifier_tuning_min_range_x025.compactname"] = "0.25x Min Range"
-L["unlameifier_tuning_min_range_x025.description"] = string.format(statsdesc.minus, "Minimum Range", "75%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x025.printname"] = "0.25x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x025.compactname"] = "0.25x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x025.description"] = string.format(statsdesc.minus, "Quãng đường bắn được ngắn nhất", "75%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_min_range_x050.printname"] = "0.5x Minimum Range"
-L["unlameifier_tuning_min_range_x050.compactname"] = "0.5x Min Range"
-L["unlameifier_tuning_min_range_x050.description"] = string.format(statsdesc.minus, "Minimum Range", "50%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x050.printname"] = "0.5x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x050.compactname"] = "0.5x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x050.description"] = string.format(statsdesc.minus, "Quãng đường bắn được ngắn nhất", "50%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_min_range_x075.printname"] = "0.75x Minimum Range"
-L["unlameifier_tuning_min_range_x075.compactname"] = "0.75x Min Range"
-L["unlameifier_tuning_min_range_x075.description"] = string.format(statsdesc.minus, "Minimum Range", "25%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x075.printname"] = "0.75x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x075.compactname"] = "0.75x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x075.description"] = string.format(statsdesc.minus, "Quãng đường bắn được ngắn nhất", "25%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_min_range_x090.printname"] = "0.9x Minimum Range"
-L["unlameifier_tuning_min_range_x090.compactname"] = "0.9x Min Range"
-L["unlameifier_tuning_min_range_x090.description"] = string.format(statsdesc.minus, "Minimum Range", "10%") .. "This alters how far the bullet has to travel before it starts to lower its damage."
+L["unlameifier_tuning_min_range_x090.printname"] = "0.9x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x090.compactname"] = "0.9x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x090.description"] = string.format(statsdesc.minus, "Quãng đường bắn được ngắn nhất", "10%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay."
 
-L["unlameifier_tuning_min_range_x110.printname"] = "1.1x Minimum Range"
-L["unlameifier_tuning_min_range_x110.compactname"] = "1.1x Min Range"
-L["unlameifier_tuning_min_range_x110.description"] = string.format(statsdesc.plus, "Minimum Range", "10%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x110.printname"] = "1.1x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x110.compactname"] = "1.1x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x110.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "10%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x125.printname"] = "1.25x Minimum Range"
-L["unlameifier_tuning_min_range_x125.compactname"] = "1.25x Min Range"
-L["unlameifier_tuning_min_range_x125.description"] = string.format(statsdesc.plus, "Minimum Range", "25%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x125.printname"] = "1.25x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x125.compactname"] = "1.25x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x125.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "25%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x150.printname"] = "1.5x Minimum Range"
-L["unlameifier_tuning_min_range_x150.compactname"] = "1.5x Min Range"
-L["unlameifier_tuning_min_range_x150.description"] = string.format(statsdesc.plus, "Minimum Range", "50%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x150.printname"] = "1.5x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x150.compactname"] = "1.5x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x150.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "50%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x175.printname"] = "1.75x Minimum Range"
-L["unlameifier_tuning_min_range_x175.compactname"] = "1.75x Min Range"
-L["unlameifier_tuning_min_range_x175.description"] = string.format(statsdesc.plus, "Minimum Range", "75%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x175.printname"] = "1.75x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x175.compactname"] = "1.75x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x175.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "75%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x2.printname"] = "2x Minimum Range"
-L["unlameifier_tuning_min_range_x2.compactname"] = "2x Min Range"
-L["unlameifier_tuning_min_range_x2.description"] = string.format(statsdesc.plus, "Minimum Range", "100%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x2.printname"] = "2x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x2.compactname"] = "2x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x2.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "100%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x5.printname"] = "5x Minimum Range"
-L["unlameifier_tuning_min_range_x5.compactname"] = "5x Min Range"
-L["unlameifier_tuning_min_range_x5.description"] = string.format(statsdesc.plus, "Minimum Range", "400%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x5.printname"] = "5x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x5.compactname"] = "5x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x5.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "400%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-L["unlameifier_tuning_min_range_x10.printname"] = "10x Minimum Range"
-L["unlameifier_tuning_min_range_x10.compactname"] = "10x Min Range"
-L["unlameifier_tuning_min_range_x10.description"] = string.format(statsdesc.plus, "Minimum Range", "900%") .. "This alters how far the bullet has to travel before it starts to lower its damage." .. statsdesc.warnminrange
+L["unlameifier_tuning_min_range_x10.printname"] = "10x Quãng đường bắn được ngắn nhất"
+L["unlameifier_tuning_min_range_x10.compactname"] = "10x Nhỏ nhất Quãng đường bắn được"
+L["unlameifier_tuning_min_range_x10.description"] = string.format(statsdesc.plus, "Quãng đường bắn được ngắn nhất", "900%") .. "Cái này sẽ điều chỉnh quãng đường ngắn nhất mà đạn có thể bay." .. statsdesc.warnminrange
 
-///////// Malfunction
-L["unlameifier.folder.malfunction"] = "Malfunction"
-L["unlameifier.folder.malfunction.fixed"] = "Malfunction/Fixed"
-L["unlameifier.folder.malfunction.plus"] = "Malfunction/Add"
-L["unlameifier.folder.malfunction.minus"] = "Malfunction/Subtract"
-L["unlameifier.folder.malfunction.multiply"] = "Malfunction/Multiply"
-L["unlameifier.folder.malfunction.divide"] = "Malfunction/Divide"
+///////// Malfunctions
+L["unlameifier.folder.malfunction"] = "Kẹt đạn"
+L["unlameifier.folder.malfunction.fixed"] = "Kẹt đạn/Đặt giá trị"
+L["unlameifier.folder.malfunction.plus"] = "Kẹt đạn/Cộng"
+L["unlameifier.folder.malfunction.minus"] = "Kẹt đạn/Trừ"
+L["unlameifier.folder.malfunction.multiply"] = "Kẹt đạn/Nhân"
+L["unlameifier.folder.malfunction.divide"] = "Kẹt đạn/Chia"
 
-L["unlameifier.folder.malfunction.utility.system"] = "Malfunction/Utility/System"
+L["unlameifier.folder.malfunction.utility.system"] = "Kẹt đạn/Linh tinh/Hệ thống"
 
-L["unlameifier_tuning_malfunction_enable.printname"] = "Malfunctions - Force Enable"
-L["unlameifier_tuning_malfunction_enable.compactname"] = "+Malfunction"
-L["unlameifier_tuning_malfunction_enable.description"] = "Forcefully enables <color=255,255,100>weapon malfunctions</color>.\nAllows the weapon to have a chance to malfunction."
+L["unlameifier_tuning_malfunction_enable.printname"] = "Malfunctions - Buộc có hiệu hóa"
+L["unlameifier_tuning_malfunction_enable.compactname"] = "+Kẹt đạn"
+L["unlameifier_tuning_malfunction_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>vũ khí bị hỏng hoặc kẹt đạns</color>.\nVũ khí sẽ có cơ hội bị kẹt dạn hoặc hỏng"
 
-L["unlameifier_tuning_malfunction_disable.printname"] = "Malfunctions - Force Disable"
-L["unlameifier_tuning_malfunction_disable.compactname"] = "-Malfunction"
-L["unlameifier_tuning_malfunction_disable.description"] = "Forcefully disables <color=255,255,100>weapon malfunctions</color>.\nThe weapon will never have a malfunction."
+L["unlameifier_tuning_malfunction_disable.printname"] = "Malfunctions - Buộc vô hiệu hóa"
+L["unlameifier_tuning_malfunction_disable.compactname"] = "-Kẹt đạn"
+L["unlameifier_tuning_malfunction_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>vũ khí bị hỏng hoặc kẹt đạns</color>.\nBiến vũ khí bạn lúc nào cũng mới toanh sau mỗi lần bắn."
 
-L["unlameifier_tuning_mean_shots_to_fail_x010.printname"] = "0.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x010.compactname"] = "0.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x010.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "90%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x010.printname"] = "0.1x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x010.compactname"] = "0.1x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x010.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", "90%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x025.printname"] = "0.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x025.compactname"] = "0.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x025.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "75%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x025.printname"] = "0.25x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x025.compactname"] = "0.25x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x025.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", "75%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x050.printname"] = "0.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x050.compactname"] = "0.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x050.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "50%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x050.printname"] = "0.5x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x050.compactname"] = "0.5x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x050.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", "50%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x075.printname"] = "0.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x075.compactname"] = "0.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x075.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "25%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x075.printname"] = "0.75x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x075.compactname"] = "0.75x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x075.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", "25%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x090.printname"] = "0.9x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x090.compactname"] = "0.9x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x090.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", "10%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_x090.printname"] = "0.9x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x090.compactname"] = "0.9x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x090.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", "10%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_x110.printname"] = "1.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x110.compactname"] = "1.1x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x110.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "10%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x110.printname"] = "1.1x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x110.compactname"] = "1.1x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x110.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "10%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x125.printname"] = "1.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x125.compactname"] = "1.25x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x125.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "25%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x125.printname"] = "1.25x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x125.compactname"] = "1.25x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x125.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "25%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x150.printname"] = "1.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x150.compactname"] = "1.5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x150.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "50%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x150.printname"] = "1.5x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x150.compactname"] = "1.5x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x150.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "50%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x175.printname"] = "1.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x175.compactname"] = "1.75x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x175.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "75%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x175.printname"] = "1.75x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x175.compactname"] = "1.75x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x175.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "75%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x2.printname"] = "2x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x2.compactname"] = "2x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x2.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "100%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x2.printname"] = "2x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x2.compactname"] = "2x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x2.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "100%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x5.printname"] = "5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x5.compactname"] = "5x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x5.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "400%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x5.printname"] = "5x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x5.compactname"] = "5x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x5.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "400%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_x10.printname"] = "10x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x10.compactname"] = "10x Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_x10.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", "900%") .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_x10.printname"] = "10x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x10.compactname"] = "10x Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_x10.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", "900%") .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus1.printname"] = "+1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1.compactname"] = "+1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 1) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus1.printname"] = "+1 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus1.compactname"] = "+1 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus1.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 1) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus5.printname"] = "+5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus5.compactname"] = "+5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus5.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 5) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus5.printname"] = "+5 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus5.compactname"] = "+5 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus5.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 5) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus10.printname"] = "+10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus10.compactname"] = "+10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus10.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 10) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus10.printname"] = "+10 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus10.compactname"] = "+10 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus10.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 10) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus25.printname"] = "+25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus25.compactname"] = "+25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus25.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 25) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus25.printname"] = "+25 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus25.compactname"] = "+25 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus25.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 25) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus50.printname"] = "+50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus50.compactname"] = "+50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus50.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 50) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus50.printname"] = "+50 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus50.compactname"] = "+50 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus50.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 50) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus75.printname"] = "+75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus75.compactname"] = "+75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus75.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 75) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus75.printname"] = "+75 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus75.compactname"] = "+75 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus75.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 75) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus100.printname"] = "+100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus100.compactname"] = "+100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus100.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 100) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus100.printname"] = "+100 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus100.compactname"] = "+100 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus100.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 100) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus500.printname"] = "+500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus500.compactname"] = "+500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus500.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 500) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus500.printname"] = "+500 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus500.compactname"] = "+500 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus500.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 500) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_plus1000.printname"] = "+1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1000.compactname"] = "+1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_plus1000.description"] = string.format(statsdesc.plus, "Mean Shots Between Failures", 1000) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.printname"] = "+1000 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.compactname"] = "+1000 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_plus1000.description"] = string.format(statsdesc.plus, "Số lần bắn giữa các lúc bị kẹt đạn", 1000) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf .. statsdesc.warnmalftoohigh
 
-L["unlameifier_tuning_mean_shots_to_fail_minus1.printname"] = "-1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1.compactname"] = "-1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 1) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus1.printname"] = "-1 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus1.compactname"] = "-1 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus1.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 1) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus5.printname"] = "-5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus5.compactname"] = "-5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus5.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 5) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus5.printname"] = "-5 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus5.compactname"] = "-5 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus5.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 5) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus10.printname"] = "-10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus10.compactname"] = "-10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus10.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 10) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus10.printname"] = "-10 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus10.compactname"] = "-10 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus10.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 10) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus25.printname"] = "-25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus25.compactname"] = "-25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus25.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 25) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus25.printname"] = "-25 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus25.compactname"] = "-25 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus25.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 25) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus50.printname"] = "-50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus50.compactname"] = "-50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus50.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 50) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus50.printname"] = "-50 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus50.compactname"] = "-50 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus50.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 50) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus75.printname"] = "-75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus75.compactname"] = "-75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus75.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 75) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus75.printname"] = "-75 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus75.compactname"] = "-75 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus75.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 75) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus100.printname"] = "-100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus100.compactname"] = "-100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus100.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 100) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus100.printname"] = "-100 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus100.compactname"] = "-100 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus100.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 100) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus500.printname"] = "-500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus500.compactname"] = "-500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus500.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 500) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus500.printname"] = "-500 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus500.compactname"] = "-500 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus500.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 500) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_minus1000.printname"] = "-1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1000.compactname"] = "-1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_minus1000.description"] = string.format(statsdesc.minus, "Mean Shots Between Failures", 1000) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.printname"] = "-1000 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.compactname"] = "-1000 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_minus1000.description"] = string.format(statsdesc.minus, "Số lần bắn giữa các lúc bị kẹt đạn", 1000) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force1.printname"] = "1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1.compactname"] = "1 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 1) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force1.printname"] = "1 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force1.compactname"] = "1 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force1.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 1) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force5.printname"] = "5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force5.compactname"] = "5 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force5.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 5) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force5.printname"] = "5 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force5.compactname"] = "5 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force5.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 5) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force10.printname"] = "10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force10.compactname"] = "10 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force10.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 10) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force10.printname"] = "10 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force10.compactname"] = "10 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force10.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 10) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force15.printname"] = "15 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force15.compactname"] = "15 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force15.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 15) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force15.printname"] = "15 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force15.compactname"] = "15 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force15.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 15) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force17.printname"] = "17 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force17.compactname"] = "17 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force17.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 17) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force17.printname"] = "17 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force17.compactname"] = "17 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force17.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 17) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force20.printname"] = "20 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force20.compactname"] = "20 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force20.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 20) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force20.printname"] = "20 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force20.compactname"] = "20 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force20.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 20) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force25.printname"] = "25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force25.compactname"] = "25 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force25.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 25) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force25.printname"] = "25 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force25.compactname"] = "25 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force25.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 25) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force30.printname"] = "30 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force30.compactname"] = "30 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force30.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 30) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force30.printname"] = "30 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force30.compactname"] = "30 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force30.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 30) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force50.printname"] = "50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force50.compactname"] = "50 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force50.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 50) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force50.printname"] = "50 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force50.compactname"] = "50 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force50.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 50) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force75.printname"] = "75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force75.compactname"] = "75 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force75.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 75) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force75.printname"] = "75 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force75.compactname"] = "75 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force75.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 75) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force100.printname"] = "100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force100.compactname"] = "100 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force100.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 100) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force100.printname"] = "100 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force100.compactname"] = "100 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force100.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 100) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force500.printname"] = "500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force500.compactname"] = "500 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force500.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 500) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force500.printname"] = "500 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force500.compactname"] = "500 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force500.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 500) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
-L["unlameifier_tuning_mean_shots_to_fail_force1000.printname"] = "1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1000.compactname"] = "1000 Shots to Fail"
-L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format(statsdesc.fixed, "Mean Shots Between Failures", 1000) .. "This alters how likely a malfunction can occur." .. statsdesc.warnmalf
+L["unlameifier_tuning_mean_shots_to_fail_force1000.printname"] = "1000 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force1000.compactname"] = "1000 Lần bắn để kẹt đạn"
+L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format(statsdesc.fixed, "Số lần bắn giữa các lúc bị kẹt đạn", 1000) .. "Cái này sẽ điều chỉnh % cơ hội vũ khí bị kẹt đạn." .. statsdesc.warnmalf
 
 ///////// Overheating
 L["unlameifier.folder.heat"] = "Heat"
 L["unlameifier.folder.heat.utility.system"] = "Heat/Utility/System"
 
-L["unlameifier_tuning_heat_enable.printname"] = "Overheating - Force Enable"
+L["unlameifier_tuning_heat_enable.printname"] = "Overheating - Buộc có hiệu hóa"
 L["unlameifier_tuning_heat_enable.compactname"] = "+Overheat"
-L["unlameifier_tuning_heat_enable.description"] = "Forcefully enables <color=255,255,100>weapon overheating</color>.\nJams the weapon if fired for too long."
+L["unlameifier_tuning_heat_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>weapon overheating</color>.\nJams the weapon if fired for too long."
 
-L["unlameifier_tuning_heat_disable.printname"] = "Overheating - Force Disable"
+L["unlameifier_tuning_heat_disable.printname"] = "Overheating - Buộc vô hiệu hóa"
 L["unlameifier_tuning_heat_disable.compactname"] = "-Overheat"
-L["unlameifier_tuning_heat_disable.description"] = "Forcefully disables <color=255,255,100>weapon overheating</color>.\nThe weapon will never overheat."
+L["unlameifier_tuning_heat_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>weapon overheating</color>.\nThe weapon will never overheat."
 
-L["unlameifier_tuning_heat_lockout_enable.printname"] = "Overheat Lockout - Force Enable"
+L["unlameifier_tuning_heat_lockout_enable.printname"] = "Overheat Lockout - Buộc có hiệu hóa"
 L["unlameifier_tuning_heat_lockout_enable.compactname"] = "+Heat Lockout"
-L["unlameifier_tuning_heat_lockout_enable.description"] = "Forcefully enables <color=255,255,100>overheat lockout</color>.\nForces you to wait until the heat is fully gone before firing again." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_lockout_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>overheat lockout</color>.\nForces you to wait until the heat is fully gone before firing again." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_lockout_disable.printname"] = "Overheat Lockout - Force Disable"
+L["unlameifier_tuning_heat_lockout_disable.printname"] = "Overheat Lockout - Buộc vô hiệu hóa"
 L["unlameifier_tuning_heat_lockout_disable.compactname"] = "-Heat Lockout"
-L["unlameifier_tuning_heat_lockout_disable.description"] = "Forcefully disables <color=255,255,100>overheat lockout</color>.\nAllows you to shoot the weapon even if the weapon is hot." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_lockout_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>overheat lockout</color>.\nAllows you to shoot the weapon even if the weapon is hot." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_fix_enable.printname"] = "Overheat Full Fix - Force Enable"
+L["unlameifier_tuning_heat_fix_enable.printname"] = "Overheat Full Fix - Buộc có hiệu hóa"
 L["unlameifier_tuning_heat_fix_enable.compactname"] = "+Heat Full Fix"
-L["unlameifier_tuning_heat_fix_enable.description"] = "Forcefully enables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, all heat is immediately reset." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_fix_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, all heat is immediately reset." .. statsdesc.warnheat
 
-L["unlameifier_tuning_heat_fix_disable.printname"] = "Overheat Full Fix - Force Disable"
+L["unlameifier_tuning_heat_fix_disable.printname"] = "Overheat Full Fix - Buộc vô hiệu hóa"
 L["unlameifier_tuning_heat_fix_disable.compactname"] = "-Heat Full Fix"
-L["unlameifier_tuning_heat_fix_disable.description"] = "Forcefully disables <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, the heat will gradually lower." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_fix_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>overheat full fix</color>.\nWhen the weapon jams and is overheated, the heat will gradually lower." .. statsdesc.warnheat
 
 ///////// Overheating Per Shot
-L["unlameifier.folder.heat.pershot.plus"] = "Heat/Per Shot/Add"
-L["unlameifier.folder.heat.pershot.minus"] = "Heat/Per Shot/Subtract"
+L["unlameifier.folder.heat.pershot.plus"] = "Heat/Per Shot/Cộng"
+L["unlameifier.folder.heat.pershot.minus"] = "Heat/Per Shot/Trừ"
 
 L["unlameifier_tuning_heat_per_shot_plus025.printname"] = "+0.25 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus025.compactname"] = "+0.25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus025.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 0.25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus025.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 0.25) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus05.printname"] = "+0.5 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus05.compactname"] = "+0.5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus05.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 0.5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus05.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 0.5) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus1.printname"] = "+1 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus1.compactname"] = "+1 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 1) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus1.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 1) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus5.printname"] = "+5 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus5.compactname"] = "+5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus5.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 5) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus10.printname"] = "+10 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus10.compactname"] = "+10 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus10.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 10) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus10.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 10) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus25.printname"] = "+25 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus25.compactname"] = "+25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus25.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus25.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 25) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus50.printname"] = "+50 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus50.compactname"] = "+50 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus50.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 50) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus50.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 50) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus75.printname"] = "+75 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus75.compactname"] = "+75 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus75.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 75) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus75.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 75) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus100.printname"] = "+100 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus100.compactname"] = "+100 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus100.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 100) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus100.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 100) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus500.printname"] = "+500 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus500.compactname"] = "+500 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus500.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 500) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus500.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 500) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_plus1000.printname"] = "+1000 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_plus1000.compactname"] = "+1000 Heat PS"
-L["unlameifier_tuning_heat_per_shot_plus1000.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 1000) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
+L["unlameifier_tuning_heat_per_shot_plus1000.description"] = string.format(statsdesc.plusinv, "Heat Per Shot", 1000) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat .. statsdesc.warnheattoohigh
 
 L["unlameifier_tuning_heat_per_shot_minus025.printname"] = "-0.25 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus025.compactname"] = "-0.25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus025.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 0.25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus025.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 0.25) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus05.printname"] = "-0.5 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus05.compactname"] = "-0.5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus05.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 0.5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus05.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 0.5) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus1.printname"] = "-1 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus1.compactname"] = "-1 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 1) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus1.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 1) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus5.printname"] = "-5 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus5.compactname"] = "-5 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 5) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus5.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 5) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus10.printname"] = "-10 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus10.compactname"] = "-10 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus10.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 10) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus10.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 10) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus25.printname"] = "-25 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus25.compactname"] = "-25 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus25.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 25) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus25.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 25) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus50.printname"] = "-50 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus50.compactname"] = "-50 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus50.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 50) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus50.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 50) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus75.printname"] = "-75 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus75.compactname"] = "-75 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus75.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 75) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus75.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 75) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus100.printname"] = "-100 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus100.compactname"] = "-100 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus100.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 100) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus100.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 100) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus500.printname"] = "-500 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus500.compactname"] = "-500 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus500.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 500) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus500.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 500) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 L["unlameifier_tuning_heat_per_shot_minus1000.printname"] = "-1000 Heat Per Shot"
 L["unlameifier_tuning_heat_per_shot_minus1000.compactname"] = "-1000 Heat PS"
-L["unlameifier_tuning_heat_per_shot_minus1000.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 1000) .. "This alters how much heat every shot adds before the gun overheats." .. statsdesc.warnheat
+L["unlameifier_tuning_heat_per_shot_minus1000.description"] = string.format(statsdesc.minusinv, "Heat Per Shot", 1000) .. "This alters how much heat every shot Cộngs before the gun overheats." .. statsdesc.warnheat
 
 ///////// Overheating Capacity
-L["unlameifier.folder.heat.capacity.fixed"] = "Heat/Capacity/Fixed"
-L["unlameifier.folder.heat.capacity.plus"] = "Heat/Capacity/Add"
-L["unlameifier.folder.heat.capacity.minus"] = "Heat/Capacity/Subtract"
-L["unlameifier.folder.heat.capacity.multiply"] = "Heat/Capacity/Multiply"
-L["unlameifier.folder.heat.capacity.divide"] = "Heat/Capacity/Divide"
+L["unlameifier.folder.heat.capacity.fixed"] = "Heat/Capacity/Đặt giá trị"
+L["unlameifier.folder.heat.capacity.plus"] = "Heat/Capacity/Cộng"
+L["unlameifier.folder.heat.capacity.minus"] = "Heat/Capacity/Trừ"
+L["unlameifier.folder.heat.capacity.multiply"] = "Heat/Capacity/Nhân"
+L["unlameifier.folder.heat.capacity.divide"] = "Heat/Capacity/Chia"
 
 L["unlameifier_tuning_heat_capacity_x010.printname"] = "0.1x Heat Capacity"
 L["unlameifier_tuning_heat_capacity_x010.compactname"] = "0.1x Heat Capacity"
@@ -4586,11 +4594,11 @@ L["unlameifier_tuning_heat_capacity_force1000.compactname"] = "1000 Heat Capacit
 L["unlameifier_tuning_heat_capacity_force1000.description"] = string.format(statsdesc.fixed, "Heat Capacity", 1000) .. "This alters the maximum amount of heat required for the weapon to overheat." .. statsdesc.warnheat
 
 ///////// Overheat Dissipation
-L["unlameifier.folder.heat.dissipation.fixed"] = "Heat/Dissipation/Fixed"
-L["unlameifier.folder.heat.dissipation.plus"] = "Heat/Dissipation/Add"
-L["unlameifier.folder.heat.dissipation.minus"] = "Heat/Dissipation/Subtract"
-L["unlameifier.folder.heat.dissipation.multiply"] = "Heat/Dissipation/Multiply"
-L["unlameifier.folder.heat.dissipation.divide"] = "Heat/Dissipation/Divide"
+L["unlameifier.folder.heat.dissipation.fixed"] = "Heat/Dissipation/Đặt giá trị"
+L["unlameifier.folder.heat.dissipation.plus"] = "Heat/Dissipation/Cộng"
+L["unlameifier.folder.heat.dissipation.minus"] = "Heat/Dissipation/Trừ"
+L["unlameifier.folder.heat.dissipation.multiply"] = "Heat/Dissipation/Nhân"
+L["unlameifier.folder.heat.dissipation.divide"] = "Heat/Dissipation/Chia"
 
 L["unlameifier_tuning_heat_dissipation_x010.printname"] = "0.1x Heat Dissipation"
 L["unlameifier_tuning_heat_dissipation_x010.compactname"] = "0.1x Heat Dissipation"
@@ -4781,7 +4789,7 @@ L["unlameifier_tuning_heat_dissipation_force1000.compactname"] = "1000 Heat Diss
 L["unlameifier_tuning_heat_dissipation_force1000.description"] = string.format(statsdesc.fixed, "Heat Dissipation", 1000) .. "This alters how quickly the heat dissipates over time." .. statsdesc.warnheat
 
 ///////// Overheat Delay
-L["unlameifier.folder.heat.delay.fixed"] = "Heat/Delay/Fixed"
+L["unlameifier.folder.heat.delay.fixed"] = "Heat/Delay/Đặt giá trị"
 
 L["unlameifier_tuning_heat_delay_force0.printname"] = "Heat Dissipation Delay - 0 Seconds"
 L["unlameifier_tuning_heat_delay_force0.compactname"] = "0s Heat Delay"
@@ -4819,48 +4827,48 @@ L["unlameifier_tuning_heat_delay_force60.description"] = string.format(statsdesc
 L["unlameifier.folder.triggerdelay"] = "Trigger Delay"
 L["unlameifier.folder.triggerdelay.utility.system"] = "Trigger Delay/Utility/System"
 
-L["unlameifier_tuning_triggerdelay_enable.printname"] = "Trigger Delay - Force Enable"
+L["unlameifier_tuning_triggerdelay_enable.printname"] = "Trigger Delay - Buộc có hiệu hóa"
 L["unlameifier_tuning_triggerdelay_enable.compactname"] = "+TrigDelay"
-L["unlameifier_tuning_triggerdelay_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay</color>.\nThe weapon will have a delay before firing after you press the fire button."
+L["unlameifier_tuning_triggerdelay_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>trigger delay</color>.\nThe weapon will have a delay before firing after you press the fire button."
 
-L["unlameifier_tuning_triggerdelay_disable.printname"] = "Trigger Delay - Force Disable"
+L["unlameifier_tuning_triggerdelay_disable.printname"] = "Trigger Delay - Buộc vô hiệu hóa"
 L["unlameifier_tuning_triggerdelay_disable.compactname"] = "-TrigDelay"
-L["unlameifier_tuning_triggerdelay_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay</color>.\nThe weapon will immediately fire when pressing the firing button."
+L["unlameifier_tuning_triggerdelay_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>trigger delay</color>.\nThe weapon will immediately fire when pressing the firing button."
 
-L["unlameifier_tuning_triggerdelaycancellable_enable.printname"] = "Trigger Delay Cancelling - Force Enable"
+L["unlameifier_tuning_triggerdelaycancellable_enable.printname"] = "Trigger Delay Cancelling - Buộc có hiệu hóa"
 L["unlameifier_tuning_triggerdelaycancellable_enable.compactname"] = "+TrigDelay Cancel"
-L["unlameifier_tuning_triggerdelaycancellable_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay cancelling</color>.\nIf you release the firing button before the weapon fire, you'll not fire." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelaycancellable_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>trigger delay cancelling</color>.\nIf you release the firing button before the weapon fire, you'll not fire." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelaycancellable_disable.printname"] = "Trigger Delay Cancelling - Force Disable"
+L["unlameifier_tuning_triggerdelaycancellable_disable.printname"] = "Trigger Delay Cancelling - Buộc vô hiệu hóa"
 L["unlameifier_tuning_triggerdelaycancellable_disable.compactname"] = "-TrigDelay Cancel"
-L["unlameifier_tuning_triggerdelaycancellable_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay cancelling</color>.\nThe weapon will always fire after you press the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelaycancellable_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>trigger delay cancelling</color>.\nThe weapon will always fire after you press the firing button." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelayrelease2fire_enable.printname"] = "Trigger Delay \"Release to Fire\" - Force Enable"
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.printname"] = "Trigger Delay \"Release to Fire\" - Buộc có hiệu hóa"
 L["unlameifier_tuning_triggerdelayrelease2fire_enable.compactname"] = "+ReleaseToFire"
-L["unlameifier_tuning_triggerdelayrelease2fire_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you release the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelayrelease2fire_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you release the firing button." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelayrelease2fire_disable.printname"] = "Trigger Delay \"Release to Fire\" - Force Disable"
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.printname"] = "Trigger Delay \"Release to Fire\" - Buộc vô hiệu hóa"
 L["unlameifier_tuning_triggerdelayrelease2fire_disable.compactname"] = "-ReleaseToFire"
-L["unlameifier_tuning_triggerdelayrelease2fire_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you press (and/or hold) the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelayrelease2fire_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>trigger delay \"release to fire\"</color>.\nThe weapon will fire when you press (and/or hold) the firing button." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerstartfireanim_enable.printname"] = "Trigger Delay Animation - Force Enable"
+L["unlameifier_tuning_triggerstartfireanim_enable.printname"] = "Trigger Delay Animation - Buộc có hiệu hóa"
 L["unlameifier_tuning_triggerstartfireanim_enable.compactname"] = "+TrigDelayAnim"
-L["unlameifier_tuning_triggerstartfireanim_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay animation</color>.\nThe weapon will play the \"trigger\" animation (if one exists) when you press and hold the firing button before firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerstartfireanim_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>trigger delay animation</color>.\nThe weapon will play the \"trigger\" animation (if one exists) when you press and hold the firing button before firing." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerstartfireanim_disable.printname"] = "Trigger Delay Animation - Force Disable"
+L["unlameifier_tuning_triggerstartfireanim_disable.printname"] = "Trigger Delay Animation - Buộc vô hiệu hóa"
 L["unlameifier_tuning_triggerstartfireanim_disable.compactname"] = "-TrigDelayAnim"
-L["unlameifier_tuning_triggerstartfireanim_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay animation</color>.\nThe weapon will not play the \"trigger\" animation when you press and hold the firing button before firing." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerstartfireanim_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>trigger delay animation</color>.\nThe weapon will not play the \"trigger\" animation when you press and hold the firing button before firing." .. statsdesc.warntrigger
 
-L["unlameifier_tuning_triggerdelayrepeat_enable.printname"] = "Trigger Delay Repeat - Force Enable"
+L["unlameifier_tuning_triggerdelayrepeat_enable.printname"] = "Trigger Delay Repeat - Buộc có hiệu hóa"
 L["unlameifier_tuning_triggerdelayrepeat_enable.compactname"] = "+TrigDelayRepeat"
-L["unlameifier_tuning_triggerdelayrepeat_enable.description"] = "Forcefully enables <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur every time the weapon fires." .. statsdesc.warntrigger .. statsdesc.warntriggerauto
+L["unlameifier_tuning_triggerdelayrepeat_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur every time the weapon fires." .. statsdesc.warntrigger .. statsdesc.warntriggerauto
 
-L["unlameifier_tuning_triggerdelayrepeat_disable.printname"] = "Trigger Delay Repeat - Force Disable"
+L["unlameifier_tuning_triggerdelayrepeat_disable.printname"] = "Trigger Delay Repeat - Buộc vô hiệu hóa"
 L["unlameifier_tuning_triggerdelayrepeat_disable.compactname"] = "-TrigDelayRepeat"
-L["unlameifier_tuning_triggerdelayrepeat_disable.description"] = "Forcefully disables <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur only when you first press the firing button." .. statsdesc.warntrigger
+L["unlameifier_tuning_triggerdelayrepeat_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>trigger delay repeating</color>.\nThe trigger delay will occur only when you first press the firing button." .. statsdesc.warntrigger
 
 ///////// Trigger Delay Times
-L["unlameifier.folder.triggerdelay.fixed"] = "Trigger Delay/Fixed"
+L["unlameifier.folder.triggerdelay.fixed"] = "Trigger Delay/Đặt giá trị"
 
 L["unlameifier_tuning_trigger_delay_force0.printname"] = "Trigger Delay - 0 Seconds"
 L["unlameifier_tuning_trigger_delay_force0.compactname"] = "0s TrigDelay"
@@ -4911,13 +4919,13 @@ L["unlameifier_tuning_trigger_delay_force60.compactname"] = "60s TrigDelay"
 L["unlameifier_tuning_trigger_delay_force60.description"] = string.format(statsdesc.fixedsecs, "Trigger Delay", 60) .. "This alters the delay between the firing button being pressed and the weapon firing." .. statsdesc.warntrigger
 
 ///////// EFT Ergonomics
-L["unlameifier.folder.ergonomics.fixed"] = "Ergonomics/Fixed"
-L["unlameifier.folder.ergonomics.plus"] = "Ergonomics/Add"
-L["unlameifier.folder.ergonomics.minus"] = "Ergonomics/Subtract"
-L["unlameifier.folder.ergonomics.multiply"] = "Ergonomics/Multiply"
-L["unlameifier.folder.ergonomics.divide"] = "Ergonomics/Divide"
+L["unlameifier.folder.ergonomics.fixed"] = "Ergonomics/Đặt giá trị"
+L["unlameifier.folder.ergonomics.plus"] = "Ergonomics/Cộng"
+L["unlameifier.folder.ergonomics.minus"] = "Ergonomics/Trừ"
+L["unlameifier.folder.ergonomics.multiply"] = "Ergonomics/Nhân"
+L["unlameifier.folder.ergonomics.divide"] = "Ergonomics/Chia"
 
-requireseft = "\n\n<color=255,100,100>WARNING</color>: Equipping on a weapon not from \"Escape from Tarkov\" causes this to not do anything."
+requireseft = "\n\n<color=255,100,100>CẢNH BÁO</color>: Equipping on a weapon not from \"Escape from Tarkov\" causes this to not do anything."
 
 L["unlameifier_tuning_ergonomics_x010.printname"] = "0.1x Ergonomics"
 L["unlameifier_tuning_ergonomics_x010.compactname"] = "0.1x Ergonomics"
@@ -5047,7 +5055,7 @@ L["unlameifier.folder.ammooverride.hl2"] = "Ammo Override/HL2"
 local ammoset = "Overrides the weapon ammo to <color=255,255,100>%s</color>."
 local ammosetfrom = "Overrides the weapon ammo to <color=255,255,100>%s</color> from the %s."
 
-local warnammoarccw = "\n\n<color=175,175,255>NOTE</color>: When using ArcCW's \"Custom Ammo Names\" function, this will instead appear as <color=255,255,100>%s</color>."
+local warnammoarccw = "\n\n<color=175,175,255>LƯU Ý</color>: When using ArcCW's \"Custom Ammo Names\" function, this will instead appear as <color=255,255,100>%s</color>."
 
 ///// Half-Life 2
 L["unlameifier_tuning_ammo_override_ar2_hl2.printname"] = "Ammo Override - ar2"
@@ -5159,20 +5167,20 @@ L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(am
 L["unlameifier.folder.ricochet"] = "Ricochet"
 L["unlameifier.folder.ricochet.utility.system"] = "Ricochet/Utility/System"
 
-L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Seeking Ricochet - Force Enable"
+L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Seeking Ricochet - Buộc có hiệu hóa"
 L["unlameifier_tuning_ricochet_seeking_enable.compactname"] = "+SeekingRicochet"
-L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Forcefully enables <color=255,255,100>target seeking ricochet</color>.\nBullets that ricochet will seek towards the closest available target."
+L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>target seeking ricochet</color>.\nBullets that ricochet will seek towards the closest available target."
 
-L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Seeking Ricochet - Force Disable"
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Seeking Ricochet - Buộc vô hiệu hóa"
 L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-SeekingRicochet"
-L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Forcefully disables <color=255,255,100>target seeking ricochet</color>.\nBullets will ricochet normally."
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>target seeking ricochet</color>.\nBullets will ricochet normally."
 
 ///////// Ricochet Angles
-L["unlameifier.folder.ricochet.fixed"] = "Ricochet/Angle/Fixed"
-L["unlameifier.folder.ricochet.plus"] = "Ricochet/Angle/Add"
-L["unlameifier.folder.ricochet.minus"] = "Ricochet/Angle/Subtract"
-L["unlameifier.folder.ricochet.multiply"] = "Ricochet/Angle/Multiply"
-L["unlameifier.folder.ricochet.divide"] = "Ricochet/Angle/Divide"
+L["unlameifier.folder.ricochet.fixed"] = "Ricochet/Angle/Đặt giá trị"
+L["unlameifier.folder.ricochet.plus"] = "Ricochet/Angle/Cộng"
+L["unlameifier.folder.ricochet.minus"] = "Ricochet/Angle/Trừ"
+L["unlameifier.folder.ricochet.multiply"] = "Ricochet/Angle/Nhân"
+L["unlameifier.folder.ricochet.divide"] = "Ricochet/Angle/Chia"
 
 L["unlameifier_tuning_ricochet_max_angle_plus1.printname"] = "+1° Ricochet"
 L["unlameifier_tuning_ricochet_max_angle_plus1.compactname"] = "+1° Ricochet"
@@ -5275,11 +5283,11 @@ L["unlameifier_tuning_ricochet_max_angle_90.compactname"] = "90° Ricochet"
 L["unlameifier_tuning_ricochet_max_angle_90.description"] = string.format(statsdesc.fixed, "Ricochet Angle", 90) .. "This alters the maximum angle (in degrees) in which a ricochet can occur."
 
 ///////// Seeking Ricochet Angles
-L["unlameifier.folder.ricochet.seeking.fixed"] = "Ricochet/Seek Angle/Fixed"
-L["unlameifier.folder.ricochet.seeking.plus"] = "Ricochet/Seek Angle/Add"
-L["unlameifier.folder.ricochet.seeking.minus"] = "Ricochet/Seek Angle/Subtract"
-L["unlameifier.folder.ricochet.seeking.multiply"] = "Ricochet/Seek Angle/Multiply"
-L["unlameifier.folder.ricochet.seeking.divide"] = "Ricochet/Seek Angle/Divide"
+L["unlameifier.folder.ricochet.seeking.fixed"] = "Ricochet/Seek Angle/Đặt giá trị"
+L["unlameifier.folder.ricochet.seeking.plus"] = "Ricochet/Seek Angle/Cộng"
+L["unlameifier.folder.ricochet.seeking.minus"] = "Ricochet/Seek Angle/Trừ"
+L["unlameifier.folder.ricochet.seeking.multiply"] = "Ricochet/Seek Angle/Nhân"
+L["unlameifier.folder.ricochet.seeking.divide"] = "Ricochet/Seek Angle/Chia"
 
 L["unlameifier_tuning_ricochet_seeking_angle_plus1.printname"] = "+1° Seeking Ricochet"
 L["unlameifier_tuning_ricochet_seeking_angle_plus1.compactname"] = "+1° Seeking Ricochet"
@@ -5382,11 +5390,11 @@ L["unlameifier_tuning_ricochet_seeking_angle_90.compactname"] = "90° Seeking Ri
 L["unlameifier_tuning_ricochet_seeking_angle_90.description"] = string.format(statsdesc.fixed, "Seeking Ricochet Angle", 90) .. "This alters the required angle (in degrees) for a ricochet to start seeking a target." .. statsdesc.warnseekingricochet
 
 ///////// Seeking Ricochet Angles
-L["unlameifier.folder.ricochet.chance.fixed"] = "Ricochet/Chance/Fixed"
-L["unlameifier.folder.ricochet.chance.plus"] = "Ricochet/Chance/Add"
-L["unlameifier.folder.ricochet.chance.minus"] = "Ricochet/Chance/Subtract"
-L["unlameifier.folder.ricochet.chance.multiply"] = "Ricochet/Chance/Multiply"
-L["unlameifier.folder.ricochet.chance.divide"] = "Ricochet/Chance/Divide"
+L["unlameifier.folder.ricochet.chance.fixed"] = "Ricochet/Chance/Đặt giá trị"
+L["unlameifier.folder.ricochet.chance.plus"] = "Ricochet/Chance/Cộng"
+L["unlameifier.folder.ricochet.chance.minus"] = "Ricochet/Chance/Trừ"
+L["unlameifier.folder.ricochet.chance.multiply"] = "Ricochet/Chance/Nhân"
+L["unlameifier.folder.ricochet.chance.divide"] = "Ricochet/Chance/Chia"
 
 L["unlameifier_tuning_ricochet_chance_plus1p.printname"] = "+1% Ricochet Chance"
 L["unlameifier_tuning_ricochet_chance_plus1p.compactname"] = "+1% Ricochet Chance"

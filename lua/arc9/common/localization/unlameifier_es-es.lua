@@ -2340,6 +2340,15 @@ L["unlameifier_tuning_force_muzzleflash_off.printname"] = "Fogonazo - Forzar des
 L["unlameifier_tuning_force_muzzleflash_off.compactname"] = "-Fogonazo"
 L["unlameifier_tuning_force_muzzleflash_off.description"] = "Desactiva forzosamente los <color=255,255,100>fogonazos</color>."
 
+
+L["unlameifier_tuning_force_underwater_on.printname"] = "Disparar bajo el agua - Activar forzosamente"
+L["unlameifier_tuning_force_underwater_on.compactname"] = "+Disp. bajo agua"
+L["unlameifier_tuning_force_underwater_on.description"] = "Activa forzosamente la capacidad de <color=255,255,100>disparar debajo del agua</color>.\nEl arma disparará cuando estés bajo el agua."
+
+L["unlameifier_tuning_force_underwater_off.printname"] = "Disparar bajo el agua - Desactivar forzosamente"
+L["unlameifier_tuning_force_underwater_off.compactname"] = "-Disp. bajo agua"
+L["unlameifier_tuning_force_underwater_off.description"] = "Desactiva forzosamente la capacidad de <color=255,255,100>disparar debajo del agua</color>.\nEl arma no disparará cuando estés bajo el agua."
+
 L["unlameifier_tuning_hl2_ammotype_cycle.printname"] = "Ciclo de tipos de munición de Half-Life 2"
 L["unlameifier_tuning_hl2_ammotype_cycle.compactname"] = "Ciclo muni. HL2"
 L["unlameifier_tuning_hl2_ammotype_cycle.description"] = "Permite alternar entre los tipos de munición de Half-Life 2 usando togglestats. Resulta útil para configuraciones de armas que utilizan las ventajas \"Buitre ácido\" o \"Carroñero\" de los paquetes de CoD. No se recomienda para usarlo con otros accesorios que empleen togglestats, como miras laser." .. "\n\n" .. "\"Esa cosa es solo un engañabobos, hijo.\""

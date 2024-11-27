@@ -2064,6 +2064,261 @@ L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert (Karabiner)"
 L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Changes the firing sound of the weapon to the Lambert Carbine from Battlefield 2142." .. bf2nosupp
 
+//////////////////////////////// unlameifier_sound_mods_mw19
+//////////////// Modern Warfare 2019
+L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/ARs"
+L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/SMGs"
+L["unlameifier.folder.sounds.mw19.shotgun"] = "Unlameifier/Sound Mods/MW19/SHGs"
+L["unlameifier.folder.sounds.mw19.lmg"] = "Unlameifier/Sound Mods/MW19/LMGs"
+L["unlameifier.folder.sounds.mw19.marksman"] = "Unlameifier/Sound Mods/MW19/MMs"
+L["unlameifier.folder.sounds.mw19.sniper"] = "Unlameifier/Sound Mods/MW19/SRs"
+L["unlameifier.folder.sounds.mw19.handgun"] = "Unlameifier/Sound Mods/MW19/HGs"
+L["unlameifier.folder.sounds.mw19.launcher"] = "Unlameifier/Sound Mods/MW19/Launcher"
+
+-- Assault Rifles
+L["unlameifier_sound_mw19_kilo141.printname"] = "Kilo 141"
+L["unlameifier_sound_mw19_kilo141.compactname"] = "Kilo 141"
+L["unlameifier_sound_mw19_kilo141.description"] = "Changes the firing sound of the weapon to the Kilo 141 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_fal.printname"] = "FAL"
+L["unlameifier_sound_mw19_fal.compactname"] = "FAL"
+L["unlameifier_sound_mw19_fal.description"] = "Changes the firing sound of the weapon to the FAL from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m4a1.printname"] = "M4A1"
+L["unlameifier_sound_mw19_m4a1.compactname"] = "M4A1"
+L["unlameifier_sound_mw19_m4a1.description"] = "Changes the firing sound of the weapon to the M4A1 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_fr556.printname"] = "FR 5,56"
+L["unlameifier_sound_mw19_fr556.compactname"] = "FR 5,56"
+L["unlameifier_sound_mw19_fr556.description"] = "Changes the firing sound of the weapon to the FR 5,56 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_oden.printname"] = "Oden"
+L["unlameifier_sound_mw19_oden.compactname"] = "Oden"
+L["unlameifier_sound_mw19_oden.description"] = "Changes the firing sound of the weapon to the Oden from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m13.printname"] = "M13"
+L["unlameifier_sound_mw19_m13.compactname"] = "M13"
+L["unlameifier_sound_mw19_m13.description"] = "Changes the firing sound of the weapon to the M13 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_scar.printname"] = "FN Scar 17"
+L["unlameifier_sound_mw19_scar.compactname"] = "Scar 17"
+L["unlameifier_sound_mw19_scar.description"] = "Changes the firing sound of the weapon to the FN Scar 17 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_ak47.printname"] = "AK-47"
+L["unlameifier_sound_mw19_ak47.compactname"] = "AK-47"
+L["unlameifier_sound_mw19_ak47.description"] = "Changes the firing sound of the weapon to the AK-47 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_ram7.printname"] = "RAM-7"
+L["unlameifier_sound_mw19_ram7.compactname"] = "RAM-7"
+L["unlameifier_sound_mw19_ram7.description"] = "Changes the firing sound of the weapon to the RAM-7 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_grau.printname"] = "Grau 5,56"
+L["unlameifier_sound_mw19_grau.compactname"] = "Grau 5,56"
+L["unlameifier_sound_mw19_grau.description"] = "Changes the firing sound of the weapon to the Grau 5,56 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_cr56.printname"] = "CR-56 AMAX"
+L["unlameifier_sound_mw19_cr56.compactname"] = "CR-56"
+L["unlameifier_sound_mw19_cr56.description"] = "Changes the firing sound of the weapon to the CR-56 AMAX from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_an94.printname"] = "AN-94"
+L["unlameifier_sound_mw19_an94.compactname"] = "AN-94"
+L["unlameifier_sound_mw19_an94.description"] = "Changes the firing sound of the weapon to the AN-94 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_asval.printname"] = "AS VAL"
+L["unlameifier_sound_mw19_asval.compactname"] = "AS VAL"
+L["unlameifier_sound_mw19_asval.description"] = "Changes the firing sound of the weapon to the AS VAL from Call of Duty: Modern Warfare 2019."
+
+-- SMGs
+L["unlameifier_sound_mw19_aug.printname"] = "AUG"
+L["unlameifier_sound_mw19_aug.compactname"] = "AUG"
+L["unlameifier_sound_mw19_aug.description"] = "Changes the firing sound of the weapon to the AUG from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_p90.printname"] = "P90"
+L["unlameifier_sound_mw19_p90.compactname"] = "P90"
+L["unlameifier_sound_mw19_p90.description"] = "Changes the firing sound of the weapon to the P90 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mp5.printname"] = "MP5"
+L["unlameifier_sound_mw19_mp5.compactname"] = "MP5"
+L["unlameifier_sound_mw19_mp5.description"] = "Changes the firing sound of the weapon to the MP5 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_uzi.printname"] = "Uzi"
+L["unlameifier_sound_mw19_uzi.compactname"] = "Uzi"
+L["unlameifier_sound_mw19_uzi.description"] = "Changes the firing sound of the weapon to the Uzi from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_pp19.printname"] = "PP19 Bizon"
+L["unlameifier_sound_mw19_pp19.compactname"] = "PP19"
+L["unlameifier_sound_mw19_pp19.description"] = "Changes the firing sound of the weapon to the PP19 Bizon from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mp7.printname"] = "MP7"
+L["unlameifier_sound_mw19_mp7.compactname"] = "MP7"
+L["unlameifier_sound_mw19_mp7.description"] = "Changes the firing sound of the weapon to the MP7 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_striker.printname"] = "Striker 45"
+L["unlameifier_sound_mw19_striker.compactname"] = "Striker 45"
+L["unlameifier_sound_mw19_striker.description"] = "Changes the firing sound of the weapon to the Striker 45 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_fennec.printname"] = "Fennec"
+L["unlameifier_sound_mw19_fennec.compactname"] = "Fennec"
+L["unlameifier_sound_mw19_fennec.description"] = "Changes the firing sound of the weapon to the Fennec from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_iso.printname"] = "ISO"
+L["unlameifier_sound_mw19_iso.compactname"] = "ISO"
+L["unlameifier_sound_mw19_iso.description"] = "Changes the firing sound of the weapon to the ISO from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_cx9.printname"] = "CX-9"
+L["unlameifier_sound_mw19_cx9.compactname"] = "CX-9"
+L["unlameifier_sound_mw19_cx9.description"] = "Changes the firing sound of the weapon to the CX-9 from Call of Duty: Modern Warfare 2019."
+
+-- Shotguns
+L["unlameifier_sound_mw19_m680.printname"] = "Model 680"
+L["unlameifier_sound_mw19_m680.compactname"] = "Model 680"
+L["unlameifier_sound_mw19_m680.description"] = "Changes the firing sound of the weapon to the Model 680 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_r90.printname"] = "R9-0"
+L["unlameifier_sound_mw19_r90.compactname"] = "R9-0"
+L["unlameifier_sound_mw19_r90.description"] = "Changes the firing sound of the weapon to the R9-0 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_725.printname"] = "725"
+L["unlameifier_sound_mw19_725.compactname"] = "725"
+L["unlameifier_sound_mw19_725.description"] = "Changes the firing sound of the weapon to the 725 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_origin12.printname"] = "Origin 12"
+L["unlameifier_sound_mw19_origin12.compactname"] = "Origin 12"
+L["unlameifier_sound_mw19_origin12.description"] = "Changes the firing sound of the weapon to the Origin 12 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_vlk.printname"] = "VLK Rogue"
+L["unlameifier_sound_mw19_vlk.compactname"] = "VLK Rogue"
+L["unlameifier_sound_mw19_vlk.description"] = "Changes the firing sound of the weapon to the VLK Rogue from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_aa12.printname"] = "JAK-12"
+L["unlameifier_sound_mw19_aa12.compactname"] = "JAK-12"
+L["unlameifier_sound_mw19_aa12.description"] = "Changes the firing sound of the weapon to the JAK-12 from Call of Duty: Modern Warfare 2019."
+
+-- LMGs
+L["unlameifier_sound_mw19_pkm.printname"] = "PKM"
+L["unlameifier_sound_mw19_pkm.compactname"] = "PKM"
+L["unlameifier_sound_mw19_pkm.description"] = "Changes the firing sound of the weapon to the PKM from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_sa87.printname"] = "SAR-87"
+L["unlameifier_sound_mw19_sa87.compactname"] = "SAR-87"
+L["unlameifier_sound_mw19_sa87.description"] = "Changes the firing sound of the weapon to the SAR-87 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m91.printname"] = "M91"
+L["unlameifier_sound_mw19_m91.compactname"] = "M91"
+L["unlameifier_sound_mw19_m91.description"] = "Changes the firing sound of the weapon to the M91 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mg34.printname"] = "MG34"
+L["unlameifier_sound_mw19_mg34.compactname"] = "MG34"
+L["unlameifier_sound_mw19_mg34.description"] = "Changes the firing sound of the weapon to the MG34 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_holger.printname"] = "Holger-26"
+L["unlameifier_sound_mw19_holger.compactname"] = "Holger-26"
+L["unlameifier_sound_mw19_holger.description"] = "Changes the firing sound of the weapon to the Holger-26 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_bruen.printname"] = "Bruen Mk9"
+L["unlameifier_sound_mw19_bruen.compactname"] = "Bruen"
+L["unlameifier_sound_mw19_bruen.description"] = "Changes the firing sound of the weapon to the Bruen Mk9 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_finn.printname"] = "FiNN LMG"
+L["unlameifier_sound_mw19_finn.compactname"] = "FiNN"
+L["unlameifier_sound_mw19_finn.description"] = "Changes the firing sound of the weapon to the FiNN LMG from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_raal.printname"] = "LAHS MG"
+L["unlameifier_sound_mw19_raal.compactname"] = "LAHS"
+L["unlameifier_sound_mw19_raal.description"] = "Changes the firing sound of the weapon to the LAHS MG from Call of Duty: Modern Warfare 2019."
+
+-- Marksman Rifles
+L["unlameifier_sound_mw19_ebr.printname"] = "EBR-14"
+L["unlameifier_sound_mw19_ebr.compactname"] = "EBR-14"
+L["unlameifier_sound_mw19_ebr.description"] = "Changes the firing sound of the weapon to the EBR-14 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mk2.printname"] = "MK2 Karabiner"
+L["unlameifier_sound_mw19_mk2.compactname"] = "MK2 Karabiner"
+L["unlameifier_sound_mw19_mk2.description"] = "Changes the firing sound of the weapon to the MK2 Karabiner from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_kar98.printname"] = "Kar 98k"
+L["unlameifier_sound_mw19_kar98.compactname"] = "Kar 98k"
+L["unlameifier_sound_mw19_kar98.description"] = "Changes the firing sound of the weapon to the Kar 98k from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_crossbow.printname"] = "Armbrust"
+L["unlameifier_sound_mw19_crossbow.compactname"] = "Armbrust"
+L["unlameifier_sound_mw19_crossbow.description"] = "Changes the firing sound of the weapon to the Armbrust from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_sks.printname"] = "SKS"
+L["unlameifier_sound_mw19_sks.compactname"] = "SKS"
+L["unlameifier_sound_mw19_sks.description"] = "Changes the firing sound of the weapon to the SKS from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_spr.printname"] = "SP-R 208"
+L["unlameifier_sound_mw19_spr.compactname"] = "SP-R 208"
+L["unlameifier_sound_mw19_spr.description"] = "Changes the firing sound of the weapon to the SP-R 208 from Call of Duty: Modern Warfare 2019."
+
+-- Sniper Rifles
+L["unlameifier_sound_mw19_dragunov.printname"] = "Dragunow"
+L["unlameifier_sound_mw19_dragunov.compactname"] = "Dragunow"
+L["unlameifier_sound_mw19_dragunov.description"] = "Changes the firing sound of the weapon to the Dragunow from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_hdr.printname"] = "HDR"
+L["unlameifier_sound_mw19_hdr.compactname"] = "HDR"
+L["unlameifier_sound_mw19_hdr.description"] = "Changes the firing sound of the weapon to the HDR from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_ax50.printname"] = "AX-50"
+L["unlameifier_sound_mw19_ax50.compactname"] = "AX-50"
+L["unlameifier_sound_mw19_ax50.description"] = "Changes the firing sound of the weapon to the AX-50 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_rytec.printname"] = "Rytec AMR"
+L["unlameifier_sound_mw19_rytec.compactname"] = "Rytec AMR"
+L["unlameifier_sound_mw19_rytec.description"] = "Changes the firing sound of the weapon to the Rytec AMR from Call of Duty: Modern Warfare 2019."
+
+-- Handguns
+L["unlameifier_sound_mw19_glock.printname"] = "X16"
+L["unlameifier_sound_mw19_glock.compactname"] = "X16"
+L["unlameifier_sound_mw19_glock.description"] = "Changes the firing sound of the weapon to the X16 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_1911.printname"] = "1911"
+L["unlameifier_sound_mw19_1911.compactname"] = "1911"
+L["unlameifier_sound_mw19_1911.description"] = "Changes the firing sound of the weapon to the 1911 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_357.printname"] = ".357"
+L["unlameifier_sound_mw19_357.compactname"] = ".357"
+L["unlameifier_sound_mw19_357.description"] = "Changes the firing sound of the weapon to the .357 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m19.printname"] = "M19"
+L["unlameifier_sound_mw19_m19.compactname"] = "M19"
+L["unlameifier_sound_mw19_m19.description"] = "Changes the firing sound of the weapon to the M19 from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_deagle.printname"] = ".50 GS"
+L["unlameifier_sound_mw19_deagle.compactname"] = ".50 GS"
+L["unlameifier_sound_mw19_deagle.description"] = "Changes the firing sound of the weapon to the .50 GS from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m9.printname"] = "Renetti"
+L["unlameifier_sound_mw19_m9.compactname"] = "Renetti"
+L["unlameifier_sound_mw19_m9.description"] = "Changes the firing sound of the weapon to the Renetti from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_makarov.printname"] = "Sykov"
+L["unlameifier_sound_mw19_makarov.compactname"] = "Sykov"
+L["unlameifier_sound_mw19_makarov.description"] = "Changes the firing sound of the weapon to the Sykov from Call of Duty: Modern Warfare 2019."
+
+-- Launchers
+L["unlameifier_sound_mw19_pila.printname"] = "PILA"
+L["unlameifier_sound_mw19_pila.compactname"] = "PILA"
+L["unlameifier_sound_mw19_pila.description"] = "Changes the firing sound of the weapon to the PILA from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_strela.printname"] = "Strela-P"
+L["unlameifier_sound_mw19_strela.compactname"] = "Strela-P"
+L["unlameifier_sound_mw19_strela.description"] = "Changes the firing sound of the weapon to the Strela-P from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_javelin.printname"] = "JOKR"
+L["unlameifier_sound_mw19_javelin.compactname"] = "JOKR"
+L["unlameifier_sound_mw19_javelin.description"] = "Changes the firing sound of the weapon to the JOKR from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_rpg.printname"] = "Raketenwerfer"
+L["unlameifier_sound_mw19_rpg.compactname"] = "Raketen."
+L["unlameifier_sound_mw19_rpg.description"] = "Changes the firing sound of the weapon to the Raketenwerfer from Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mgl.printname"] = "MGL-32"
+L["unlameifier_sound_mw19_mgl.compactname"] = "MGL-32"
+L["unlameifier_sound_mw19_mgl.description"] = "Changes the firing sound of the weapon to the MGL-32 from Call of Duty: Modern Warfare 2019."
+
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"

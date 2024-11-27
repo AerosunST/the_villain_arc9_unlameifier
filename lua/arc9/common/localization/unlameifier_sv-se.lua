@@ -2068,6 +2068,261 @@ L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert-karbin"
 L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Ersätter skottljuden med dem från Lambert-karbinen från Battlefield 2142." .. bf2nosupp
 
+//////////////////////////////// unlameifier_sound_mods_mw19
+//////////////// Modern Warfare 2019
+L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/AK:n"
+L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/KPist."
+L["unlameifier.folder.sounds.mw19.shotgun"] = "Unlameifier/Sound Mods/MW19/Hagel"
+L["unlameifier.folder.sounds.mw19.lmg"] = "Unlameifier/Sound Mods/MW19/KSP"
+L["unlameifier.folder.sounds.mw19.marksman"] = "Unlameifier/Sound Mods/MW19/Marksman"
+L["unlameifier.folder.sounds.mw19.sniper"] = "Unlameifier/Sound Mods/MW19/PSG"
+L["unlameifier.folder.sounds.mw19.handgun"] = "Unlameifier/Sound Mods/MW19/Sidovapen"
+L["unlameifier.folder.sounds.mw19.launcher"] = "Unlameifier/Sound Mods/MW19/Kastare"
+
+-- Assault Rifles
+L["unlameifier_sound_mw19_kilo141.printname"] = "Kilo 141"
+L["unlameifier_sound_mw19_kilo141.compactname"] = "Kilo 141"
+L["unlameifier_sound_mw19_kilo141.description"] = "Ersätter skottljuden med dem från Kilo 141 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_fal.printname"] = "FAL"
+L["unlameifier_sound_mw19_fal.compactname"] = "FAL"
+L["unlameifier_sound_mw19_fal.description"] = "Ersätter skottljuden med dem från FAL från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m4a1.printname"] = "M4A1"
+L["unlameifier_sound_mw19_m4a1.compactname"] = "M4A1"
+L["unlameifier_sound_mw19_m4a1.description"] = "Ersätter skottljuden med dem från M4A1 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_fr556.printname"] = "FR 5,56"
+L["unlameifier_sound_mw19_fr556.compactname"] = "FR 5,56"
+L["unlameifier_sound_mw19_fr556.description"] = "Ersätter skottljuden med dem från FR 5,56 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_oden.printname"] = "Oden"
+L["unlameifier_sound_mw19_oden.compactname"] = "Oden"
+L["unlameifier_sound_mw19_oden.description"] = "Ersätter skottljuden med dem från Oden från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m13.printname"] = "M13"
+L["unlameifier_sound_mw19_m13.compactname"] = "M13"
+L["unlameifier_sound_mw19_m13.description"] = "Ersätter skottljuden med dem från M13 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_scar.printname"] = "FN Scar 17"
+L["unlameifier_sound_mw19_scar.compactname"] = "Scar 17"
+L["unlameifier_sound_mw19_scar.description"] = "Ersätter skottljuden med dem från FN Scar 17 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_ak47.printname"] = "AK-47"
+L["unlameifier_sound_mw19_ak47.compactname"] = "AK-47"
+L["unlameifier_sound_mw19_ak47.description"] = "Ersätter skottljuden med dem från AK-47 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_ram7.printname"] = "RAM-7"
+L["unlameifier_sound_mw19_ram7.compactname"] = "RAM-7"
+L["unlameifier_sound_mw19_ram7.description"] = "Ersätter skottljuden med dem från RAM-7 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_grau.printname"] = "Grau 5,56"
+L["unlameifier_sound_mw19_grau.compactname"] = "Grau 5,56"
+L["unlameifier_sound_mw19_grau.description"] = "Ersätter skottljuden med dem från Grau 5,56 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_cr56.printname"] = "CR-56 AMAX"
+L["unlameifier_sound_mw19_cr56.compactname"] = "CR-56"
+L["unlameifier_sound_mw19_cr56.description"] = "Ersätter skottljuden med dem från CR-56 AMAX från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_an94.printname"] = "AN-94"
+L["unlameifier_sound_mw19_an94.compactname"] = "AN-94"
+L["unlameifier_sound_mw19_an94.description"] = "Ersätter skottljuden med dem från AN-94 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_asval.printname"] = "AS VAL"
+L["unlameifier_sound_mw19_asval.compactname"] = "AS VAL"
+L["unlameifier_sound_mw19_asval.description"] = "Ersätter skottljuden med dem från AS VAL från Call of Duty: Modern Warfare 2019."
+
+-- SMGs
+L["unlameifier_sound_mw19_aug.printname"] = "AUG"
+L["unlameifier_sound_mw19_aug.compactname"] = "AUG"
+L["unlameifier_sound_mw19_aug.description"] = "Ersätter skottljuden med dem från AUG från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_p90.printname"] = "P90"
+L["unlameifier_sound_mw19_p90.compactname"] = "P90"
+L["unlameifier_sound_mw19_p90.description"] = "Ersätter skottljuden med dem från P90 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mp5.printname"] = "MP5"
+L["unlameifier_sound_mw19_mp5.compactname"] = "MP5"
+L["unlameifier_sound_mw19_mp5.description"] = "Ersätter skottljuden med dem från MP5 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_uzi.printname"] = "Uzi"
+L["unlameifier_sound_mw19_uzi.compactname"] = "Uzi"
+L["unlameifier_sound_mw19_uzi.description"] = "Ersätter skottljuden med dem från Uzi från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_pp19.printname"] = "PP19 Bizon"
+L["unlameifier_sound_mw19_pp19.compactname"] = "PP19"
+L["unlameifier_sound_mw19_pp19.description"] = "Ersätter skottljuden med dem från PP19 Bizon från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mp7.printname"] = "MP7"
+L["unlameifier_sound_mw19_mp7.compactname"] = "MP7"
+L["unlameifier_sound_mw19_mp7.description"] = "Ersätter skottljuden med dem från MP7 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_striker.printname"] = "Striker 45"
+L["unlameifier_sound_mw19_striker.compactname"] = "Striker 45"
+L["unlameifier_sound_mw19_striker.description"] = "Ersätter skottljuden med dem från Striker 45 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_fennec.printname"] = "Fennec"
+L["unlameifier_sound_mw19_fennec.compactname"] = "Fennec"
+L["unlameifier_sound_mw19_fennec.description"] = "Ersätter skottljuden med dem från Fennec från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_iso.printname"] = "ISO"
+L["unlameifier_sound_mw19_iso.compactname"] = "ISO"
+L["unlameifier_sound_mw19_iso.description"] = "Ersätter skottljuden med dem från ISO från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_cx9.printname"] = "CX-9"
+L["unlameifier_sound_mw19_cx9.compactname"] = "CX-9"
+L["unlameifier_sound_mw19_cx9.description"] = "Ersätter skottljuden med dem från CX-9 från Call of Duty: Modern Warfare 2019."
+
+-- Shotguns
+L["unlameifier_sound_mw19_m680.printname"] = "Modell 680"
+L["unlameifier_sound_mw19_m680.compactname"] = "Modell 680"
+L["unlameifier_sound_mw19_m680.description"] = "Ersätter skottljuden med dem från Modell 680 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_r90.printname"] = "R9-0"
+L["unlameifier_sound_mw19_r90.compactname"] = "R9-0"
+L["unlameifier_sound_mw19_r90.description"] = "Ersätter skottljuden med dem från R9-0 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_725.printname"] = "725"
+L["unlameifier_sound_mw19_725.compactname"] = "725"
+L["unlameifier_sound_mw19_725.description"] = "Ersätter skottljuden med dem från 725 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_origin12.printname"] = "Hagelbössa Origin 12"
+L["unlameifier_sound_mw19_origin12.compactname"] = "Origin 12"
+L["unlameifier_sound_mw19_origin12.description"] = "Ersätter skottljuden med dem från hagelbössan Origin 12 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_vlk.printname"] = "VLK Rogue"
+L["unlameifier_sound_mw19_vlk.compactname"] = "VLK Rogue"
+L["unlameifier_sound_mw19_vlk.description"] = "Ersätter skottljuden med dem från VLK Rogue från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_aa12.printname"] = "JAK-12"
+L["unlameifier_sound_mw19_aa12.compactname"] = "JAK-12"
+L["unlameifier_sound_mw19_aa12.description"] = "Ersätter skottljuden med dem från JAK-12 från Call of Duty: Modern Warfare 2019."
+
+-- LMGs
+L["unlameifier_sound_mw19_pkm.printname"] = "PKM"
+L["unlameifier_sound_mw19_pkm.compactname"] = "PKM"
+L["unlameifier_sound_mw19_pkm.description"] = "Ersätter skottljuden med dem från PKM från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_sa87.printname"] = "SA87"
+L["unlameifier_sound_mw19_sa87.compactname"] = "SA87"
+L["unlameifier_sound_mw19_sa87.description"] = "Ersätter skottljuden med dem från SA87 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m91.printname"] = "M91"
+L["unlameifier_sound_mw19_m91.compactname"] = "M91"
+L["unlameifier_sound_mw19_m91.description"] = "Ersätter skottljuden med dem från M91 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mg34.printname"] = "MG34"
+L["unlameifier_sound_mw19_mg34.compactname"] = "MG34"
+L["unlameifier_sound_mw19_mg34.description"] = "Ersätter skottljuden med dem från MG34 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_holger.printname"] = "Holger-26"
+L["unlameifier_sound_mw19_holger.compactname"] = "Holger-26"
+L["unlameifier_sound_mw19_holger.description"] = "Ersätter skottljuden med dem från Holger-26 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_bruen.printname"] = "Bruen Mk9"
+L["unlameifier_sound_mw19_bruen.compactname"] = "Bruen"
+L["unlameifier_sound_mw19_bruen.description"] = "Ersätter skottljuden med dem från Bruen Mk9 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_finn.printname"] = "FiNN LMG"
+L["unlameifier_sound_mw19_finn.compactname"] = "FiNN"
+L["unlameifier_sound_mw19_finn.description"] = "Ersätter skottljuden med dem från FiNN LMG från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_raal.printname"] = "KSP RAAL"
+L["unlameifier_sound_mw19_raal.compactname"] = "RAAL"
+L["unlameifier_sound_mw19_raal.description"] = "Ersätter skottljuden med dem från KSP RAAL från Call of Duty: Modern Warfare 2019."
+
+-- Marksman Rifles
+L["unlameifier_sound_mw19_ebr.printname"] = "EBR-14"
+L["unlameifier_sound_mw19_ebr.compactname"] = "EBR-14"
+L["unlameifier_sound_mw19_ebr.description"] = "Ersätter skottljuden med dem från EBR-14 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mk2.printname"] = "MK2 Karbin"
+L["unlameifier_sound_mw19_mk2.compactname"] = "MK2 Karbin"
+L["unlameifier_sound_mw19_mk2.description"] = "Ersätter skottljuden med dem från MK2 Karbinen från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_kar98.printname"] = "Kar98k"
+L["unlameifier_sound_mw19_kar98.compactname"] = "Kar98k"
+L["unlameifier_sound_mw19_kar98.description"] = "Ersätter skottljuden med dem från Kar98k från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_crossbow.printname"] = "Armborst"
+L["unlameifier_sound_mw19_crossbow.compactname"] = "Armborst"
+L["unlameifier_sound_mw19_crossbow.description"] = "Ersätter skottljuden med dem från Armborsten från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_sks.printname"] = "SKS"
+L["unlameifier_sound_mw19_sks.compactname"] = "SKS"
+L["unlameifier_sound_mw19_sks.description"] = "Ersätter skottljuden med dem från SKS från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_spr.printname"] = "SP-R 208"
+L["unlameifier_sound_mw19_spr.compactname"] = "SP-R 208"
+L["unlameifier_sound_mw19_spr.description"] = "Ersätter skottljuden med dem från SP-R 208 från Call of Duty: Modern Warfare 2019."
+
+-- Sniper Rifles
+L["unlameifier_sound_mw19_dragunov.printname"] = "Dragunov"
+L["unlameifier_sound_mw19_dragunov.compactname"] = "Dragunov"
+L["unlameifier_sound_mw19_dragunov.description"] = "Ersätter skottljuden med dem från Dragunov från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_hdr.printname"] = "HDR"
+L["unlameifier_sound_mw19_hdr.compactname"] = "HDR"
+L["unlameifier_sound_mw19_hdr.description"] = "Ersätter skottljuden med dem från HDR från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_ax50.printname"] = "AX-50"
+L["unlameifier_sound_mw19_ax50.compactname"] = "AX-50"
+L["unlameifier_sound_mw19_ax50.description"] = "Ersätter skottljuden med dem från AX-50 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_rytec.printname"] = "Rytec AMR"
+L["unlameifier_sound_mw19_rytec.compactname"] = "Rytec AMR"
+L["unlameifier_sound_mw19_rytec.description"] = "Ersätter skottljuden med dem från Rytec AMR från Call of Duty: Modern Warfare 2019."
+
+-- Handguns
+L["unlameifier_sound_mw19_glock.printname"] = "X16"
+L["unlameifier_sound_mw19_glock.compactname"] = "X16"
+L["unlameifier_sound_mw19_glock.description"] = "Ersätter skottljuden med dem från X16 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_1911.printname"] = "1911"
+L["unlameifier_sound_mw19_1911.compactname"] = "1911"
+L["unlameifier_sound_mw19_1911.description"] = "Ersätter skottljuden med dem från 1911 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_357.printname"] = ".357"
+L["unlameifier_sound_mw19_357.compactname"] = ".357"
+L["unlameifier_sound_mw19_357.description"] = "Ersätter skottljuden med dem från .357 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m19.printname"] = "M19"
+L["unlameifier_sound_mw19_m19.compactname"] = "M19"
+L["unlameifier_sound_mw19_m19.description"] = "Ersätter skottljuden med dem från M19 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_deagle.printname"] = ".50 GS"
+L["unlameifier_sound_mw19_deagle.compactname"] = ".50 GS"
+L["unlameifier_sound_mw19_deagle.description"] = "Ersätter skottljuden med dem från .50 GS från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_m9.printname"] = "Renetti"
+L["unlameifier_sound_mw19_m9.compactname"] = "Renetti"
+L["unlameifier_sound_mw19_m9.description"] = "Ersätter skottljuden med dem från Renetti från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_makarov.printname"] = "Sykov"
+L["unlameifier_sound_mw19_makarov.compactname"] = "Sykov"
+L["unlameifier_sound_mw19_makarov.description"] = "Ersätter skottljuden med dem från Sykov från Call of Duty: Modern Warfare 2019."
+
+-- Launchers
+L["unlameifier_sound_mw19_pila.printname"] = "PILA"
+L["unlameifier_sound_mw19_pila.compactname"] = "PILA"
+L["unlameifier_sound_mw19_pila.description"] = "Ersätter skottljuden med dem från PILA från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_strela.printname"] = "Strela-P"
+L["unlameifier_sound_mw19_strela.compactname"] = "Strela-P"
+L["unlameifier_sound_mw19_strela.description"] = "Ersätter skottljuden med dem från Strela-P från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_javelin.printname"] = "JOKR"
+L["unlameifier_sound_mw19_javelin.compactname"] = "JOKR"
+L["unlameifier_sound_mw19_javelin.description"] = "Ersätter skottljuden med dem från JOKR från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_rpg.printname"] = "RPG-7"
+L["unlameifier_sound_mw19_rpg.compactname"] = "RPG-7"
+L["unlameifier_sound_mw19_rpg.description"] = "Ersätter skottljuden med dem från RPG-7 från Call of Duty: Modern Warfare 2019."
+
+L["unlameifier_sound_mw19_mgl.printname"] = "MGL-32"
+L["unlameifier_sound_mw19_mgl.compactname"] = "MGL-32"
+L["unlameifier_sound_mw19_mgl.description"] = "Ersätter skottljuden med dem från MGL-32 från Call of Duty: Modern Warfare 2019."
+
 //////////////////////////////// unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"

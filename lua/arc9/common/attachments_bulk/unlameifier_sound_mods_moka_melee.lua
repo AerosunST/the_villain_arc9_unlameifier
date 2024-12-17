@@ -15,7 +15,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -56,7 +56,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -89,7 +89,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -126,7 +126,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -161,7 +161,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -198,7 +198,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -238,7 +238,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -276,7 +276,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -315,7 +315,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -353,7 +353,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -391,7 +391,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -431,7 +431,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -475,7 +475,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -507,7 +507,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -552,7 +552,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -583,7 +583,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -622,7 +622,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -662,7 +662,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -702,7 +702,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -742,7 +742,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -789,7 +789,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -842,7 +842,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -883,7 +883,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -923,7 +923,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -959,7 +959,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -999,7 +999,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -1038,7 +1038,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -1078,7 +1078,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -1118,7 +1118,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -1157,7 +1157,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -1193,7 +1193,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Category = {"eft_custom_slot_melee"}
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},

@@ -1,3 +1,5 @@
+This file is only for those who know what they are looking for. Currently, the languages FO76 supports already have their strings done.
+
 41CE5 Black Powder Pistol
 3E874 The Dragon
 41003342 Black Powder Rifle

@@ -23,6 +23,232 @@ Text in Line 2 ]]
 
 --]]
 
+//////////////////////////////// unlameifier_attpack_eft
+L["unlameifier.folder.eftatts"] = "Tillbehör/EFT"
+L["unlameifier.folder.eftatts.optics"] = "Tillbehör/EFT/Sikten"
+L["unlameifier.folder.eftatts.optics.irons"] = "Tillbehör/EFT/Sikten/JärnKorn"
+
+L["unlameifier.folder.eftatts.grips"] = "Tillbehör/EFT/Grepp"
+
+L["unlameifier.folder.eftatts.mounts"] = "Tillbehör/EFT/Montering"
+
+L["unlameifier.folder.eftatts.muzzles"] = "Tillbehör/EFT/Mynning"
+
+L["unlameifier.folder.eftatts.bespoke.ar15"] = "Tillbehör/EFT/Skräddarsydd/AR-15"
+
+L["unlameifier.folder.eftatts.caliber.pistol"] = "Tillbehör/EFT/Kaliber/Pistol"
+L["unlameifier.folder.eftatts.caliber.magnum"] = "Tillbehör/EFT/Kaliber/Magnum"
+L["unlameifier.folder.eftatts.caliber.intermediate"] = "Tillbehör/EFT/Kaliber/Standard"
+L["unlameifier.folder.eftatts.caliber.heavy"] = "Tillbehör/EFT/Kaliber/Tung"
+L["unlameifier.folder.eftatts.caliber.shotgun"] = "Tillbehör/EFT/Kaliber/Hagelskott"
+L["unlameifier.folder.eftatts.caliber.ordnance"] = "Tillbehör/EFT/Kaliber/Spräng"
+
+L["unlameifier.attname.eftatts.optics"] = "EFT-Sikten"
+L["unlameifier.attname.eftatts.irons.front"] = "EFT J&K (F)"
+L["unlameifier.attname.eftatts.irons.rear"] = "EFT J&K (B)"
+
+L["unlameifier.attname.eftatts.grips"] = "EFT Grepp"
+L["unlameifier.attname.eftatts.grips.mlok"] = "EFT MLOK-Grepp"
+
+L["unlameifier.attname.eftatts.mounts.mlok"] = "EFT MLOK-Montering"
+L["unlameifier.attname.eftatts.mounts.keymod"] = "EFT KeyMod-Montering"
+
+L["unlameifier.folder.eftatts.gear"] = "Tillbehör/EFT/Rustning"
+L["unlameifier.attname.eftatts.tacticals"] = "EFT Taktiskt"
+
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Mynningar"
+L["unlameifier.attname.eftatts.muzzles.ar10"] = "EFT AR-10 Mynningar"
+L["unlameifier.attname.eftatts.muzzles.akm"] = "EFT AKM Mynningar"
+L["unlameifier.attname.eftatts.muzzles.ak74"] = "EFT AK-74 Mynningar"
+L["unlameifier.attname.eftatts.muzzles.9mm"] = "EFT 9mm Mynningar"
+L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT K12 Mynningar"
+L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Mynningar"
+
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Grepp"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Pipor"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Handskydd"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Bufferrör"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Kolvar"
+
+L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
+
+local githubwarn = "<color=255,100,100>GITHUB-NOTIS</color>: När den släpps på workshop så kommer dessa tillbehör vara ett separat tillägg (\"ARC9 Unlameifier - EFT-Tillägg\"). Den är endast inkluderad här för bekvämlighetens skull.\n\n"
+
+L["unlameifier_atts_eft_optics_general.printname"] = "Escape from Tarkov - Generella Sikten"
+L["unlameifier_atts_eft_optics_general.compactname"] = "EFT Sikten"
+L["unlameifier_atts_eft_optics_general.description"] = githubwarn .. "Tillåter monteringen av generella sikten från Escape from Tarkov."
+
+L["unlameifier_atts_eft_optics_dovetail.printname"] = "Escape from Tarkov - Laxstjärt-Sikten"
+L["unlameifier_atts_eft_optics_dovetail.compactname"] = "EFT Laxstjärt"
+L["unlameifier_atts_eft_optics_dovetail.description"] = githubwarn .. "Tillåter monteringen av laxstjärt-monterade sikten från Escape from Tarkov.\nDessa finns oftast på AK-plattformen."
+
+L["unlameifier_atts_eft_optics_lp.printname"] = "Escape from Tarkov - Låg Profil Sikten"
+L["unlameifier_atts_eft_optics_lp.compactname"] = "EFT LP-Sikten"
+L["unlameifier_atts_eft_optics_lp.description"] = githubwarn .. "Tillåter monteringen av låg profil sikten från Escape from Tarkov. Dessa sikten är utan monteringsplattor, i fall du vill montera dem på egna plattor, eller takti-limma dem där dem inte borde vara.\n\nVänligen pinga Neosun på Diamond Doves-servern om några är glömda. Ha det så bra."
+
+L["unlameifier_atts_eft_optics_pic_irons_front.printname"] = "Escape from Tarkov - Picatinny Framkorn"
+L["unlameifier_atts_eft_optics_pic_irons_front.compactname"] = "EFT Framkorn"
+L["unlameifier_atts_eft_optics_pic_irons_front.description"] = githubwarn .. "Tillåter monteringen av picatinny-monterade framkorn från Escape from Tarkov."
+
+L["unlameifier_atts_eft_optics_pic_irons_rear.printname"] = "Escape from Tarkov - Picatinny Bakre Sikten"
+L["unlameifier_atts_eft_optics_pic_irons_rear.compactname"] = "EFT Bakre Sikte"
+L["unlameifier_atts_eft_optics_pic_irons_rear.description"] = githubwarn .. "Tillåter monteringen av picatinny-monterade bakre sikten från Escape from Tarkov."
+
+L["unlameifier_atts_eft_foregrips_pic.printname"] = "Escape from Tarkov - Picatinny Framgrepp"
+L["unlameifier_atts_eft_foregrips_pic.compactname"] = "EFT Grepp"
+L["unlameifier_atts_eft_foregrips_pic.description"] = githubwarn .. "Tillåter monteringen av picatinny-monterade framgrepp från Escape from Tarkov."
+
+L["unlameifier_atts_eft_foregrips_mlok.printname"] = "Escape from Tarkov - MLOK-Framgrepp"
+L["unlameifier_atts_eft_foregrips_mlok.compactname"] = "EFT Grepp (MLOK)"
+L["unlameifier_atts_eft_foregrips_mlok.description"] = githubwarn .. "Tillåter monteringen av MLOK-framgrepp från Escape from Tarkov."
+
+L["unlameifier_atts_eft_mounts_mlok.printname"] = "Escape from Tarkov - MLOK-Skenamontering"
+L["unlameifier_atts_eft_mounts_mlok.compactname"] = "EFT Montering (MLOK)"
+L["unlameifier_atts_eft_mounts_mlok.description"] = githubwarn .. "Tillåter monteringen av MLOK-monteringar från Escape from Tarkov."
+
+L["unlameifier_atts_eft_mounts_keymod.printname"] = "Escape from Tarkov - KeyMod-Skenamontering"
+L["unlameifier_atts_eft_mounts_keymod.compactname"] = "EFT Montering (KeyMod)"
+L["unlameifier_atts_eft_mounts_keymod.description"] = githubwarn .. "Tillåter monteringen av KeyMod-monteringar från Escape from Tarkov."
+
+L["unlameifier_atts_eft_tacticals.printname"] = "Escape from Tarkov - Taktiskt"
+L["unlameifier_atts_eft_tacticals.compactname"] = "EFT Taktiskt"
+L["unlameifier_atts_eft_tacticals.description"] = githubwarn .. "Tillåter monteringen av taktiska enheter, exempelvis ficklampor och lasersikten, från Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_ar15.printname"] = "Escape from Tarkov - AR-15 Mynningar"
+L["unlameifier_atts_eft_muzzles_ar15.compactname"] = "EFT AR-15 Mynningar"
+L["unlameifier_atts_eft_muzzles_ar15.description"] = githubwarn .. "Tillåter monteringen av AR-15-mynningstillbehör från Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_ar10.printname"] = "Escape from Tarkov - AR-10 Mynningar"
+L["unlameifier_atts_eft_muzzles_ar10.compactname"] = "EFT AR-10 Mynningar"
+L["unlameifier_atts_eft_muzzles_ar10.description"] = githubwarn .. "Tillåter monteringen av AR-10-mynningstillbehör från Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_akm.printname"] = "Escape from Tarkov - AKM Mynningar"
+L["unlameifier_atts_eft_muzzles_akm.compactname"] = "EFT AKM Mynningar"
+L["unlameifier_atts_eft_muzzles_akm.description"] = githubwarn .. "Tillåter monteringen av AKM-mynningstillbehör från Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_ak74.printname"] = "Escape from Tarkov - AK-74 Mynningar"
+L["unlameifier_atts_eft_muzzles_ak74.compactname"] = "EFT AK-74 Mynningar"
+L["unlameifier_atts_eft_muzzles_ak74.description"] = githubwarn .. "Tillåter monteringen av AK-74-mynningstillbehör från Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_9mm.printname"] = "Escape from Tarkov - 9 mm Mynningar"
+L["unlameifier_atts_eft_muzzles_9mm.compactname"] = "EFT 9 mm Mynningar"
+L["unlameifier_atts_eft_muzzles_9mm.description"] = githubwarn .. "Tillåter monteringen av små mynningstillbehör i pistolstorlek från Escape from Tarkov.\n\nFinns oftast på sidovapen och eldvapen med mindre kaliber."
+
+L["unlameifier_atts_eft_muzzles_12g.printname"] = "Escape from Tarkov - Kaliber 12 Mynningar"
+L["unlameifier_atts_eft_muzzles_12g.compactname"] = "EFT K12 Mynningar"
+L["unlameifier_atts_eft_muzzles_12g.description"] = githubwarn .. "Tillåter monteringen av kaliber 12 mynningstillbehör från Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_45acp.printname"] = "Escape from Tarkov - .45 ACP Mynningar"
+L["unlameifier_atts_eft_muzzles_45acp.compactname"] = "EFT .45 Mynningar"
+L["unlameifier_atts_eft_muzzles_45acp.description"] = githubwarn .. "Tillåter monteringen av små mynningstillbehör i PDW-storlek från Escape from Tarkov.\n\nFinns oftast på sidovapen och eldvapen med mindre kaliber."
+
+L["unlameifier_atts_eft_ar15_grips.printname"] = "Escape from Tarkov - AR-15 Grepp"
+L["unlameifier_atts_eft_ar15_grips.compactname"] = "EFT AR-15 Grepp"
+L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Tillåter monteringen av AR-15 pistolgrepp från Escape from Tarkov.\nBorde utrustas på platser som använder AR-15 pistolgrepp. Förvänta annars <color=255,150,150>visuella fel</color>."
+
+L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Pipor"
+L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Pipor"
+L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. "Tillåter monteringen av AR-15 pipor från Escape from Tarkov.\nBorde utrustas på platser för pipor.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta ett handskydd ;)"
+
+L["unlameifier_atts_eft_ar15_handguards.printname"] = "Escape from Tarkov - AR-15 Handguards"
+L["unlameifier_atts_eft_ar15_handguards.compactname"] = "EFT AR-15 Handguards"
+L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. "Tillåter monteringen av AR-15 handskydd från Escape from Tarkov.\nBorde utrustas på platser för handskydd.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta en AR-15 pipa ;)"
+
+L["unlameifier_atts_eft_ar15_buffertubes.printname"] = "Escape from Tarkov - AR-15 Bufferrör"
+L["unlameifier_atts_eft_ar15_buffertubes.compactname"] = "EFT AR-15 Bufferrör"
+L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. "Tillåter monteringen av AR-15 bufferrör från Escape from Tarkov.\nBorde utrustas på platser som <color=255,255,100>BORDE</color> vara för kolvar.\nErbjuder automatiskt kolv alternativ om den utrustas."
+
+L["unlameifier_atts_eft_ar15_stocks.printname"] = "Escape from Tarkov - AR-15 Kolvar"
+L["unlameifier_atts_eft_ar15_stocks.compactname"] = "EFT AR-15 Kolvar"
+L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. "Tillåter monteringen av AR-15 kolvar från Escape from Tarkov.\nKommer <color=255,100,100>EJ</color> med ett bufferrör. Kom ihåg detta när du sätter på den."
+
+-- Calibers
+local soundmodstip = "\nTips: Om du har Ljudmodd modulen utrustat så kan du ändra vapnets ljud så den låter mer lämplig."
+
+L["unlameifier_atts_eft_caliber_45acp.printname"] = "Escape from Tarkov - .45 ACP"
+L["unlameifier_atts_eft_caliber_45acp.compactname"] = ".45 ACP"
+L["unlameifier_atts_eft_caliber_45acp.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>.45 ACP</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av H&K USP, H&K UMP, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x18mm.printname"] = "Escape from Tarkov - 9 × 18 mm Makarov"
+L["unlameifier_atts_eft_caliber_9x18mm.compactname"] = "9 × 18 mm"
+L["unlameifier_atts_eft_caliber_9x18mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>9 × 18 mm Makarov</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av PM, APS, PP-9 Klin, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x19mm.printname"] = "Escape from Tarkov - 9 × 19 mm Parabellum"
+L["unlameifier_atts_eft_caliber_9x19mm.compactname"] = "9 × 19 mm"
+L["unlameifier_atts_eft_caliber_9x19mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>9 × 19 mm Parabellum</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av Glock:er, MP5:an, UZI, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x21mm.printname"] = "Escape from Tarkov - 9 × 21 mm Gyurza"
+L["unlameifier_atts_eft_caliber_9x21mm.compactname"] = "9 × 21 mm"
+L["unlameifier_atts_eft_caliber_9x21mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>9 × 21 mm Gyurza</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av SR-1MP och SR-2M." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_50ae.printname"] = "Escape from Tarkov - .50 Action Express"
+L["unlameifier_atts_eft_caliber_50ae.compactname"] = ".50 AE"
+L["unlameifier_atts_eft_caliber_50ae.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>.50 Action Express</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av Desert Eagle." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_357.printname"] = "Escape from Tarkov - .357 Magnum"
+L["unlameifier_atts_eft_caliber_357.compactname"] = ".357"
+L["unlameifier_atts_eft_caliber_357.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>.357 Magnum</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av Desert Eagle L5 .357 och CR 50DS." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_127x55mm.printname"] = "Escape from Tarkov - 12,7 × 55 mm"
+L["unlameifier_atts_eft_caliber_127x55mm.compactname"] = "12,7 × 55 mm"
+L["unlameifier_atts_eft_caliber_127x55mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>12,7 × 55 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av RSh-12 och ASh-12." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_556x45mm.printname"] = "Escape from Tarkov - 5,56 × 45 mm NATO"
+L["unlameifier_atts_eft_caliber_556x45mm.compactname"] = "5,56 × 45 mm"
+L["unlameifier_atts_eft_caliber_556x45mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>5,56 × 45 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av AR-15, AUG, G36, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_46x30mm.printname"] = "Escape from Tarkov - 4,6 × 30 mm HK"
+L["unlameifier_atts_eft_caliber_46x30mm.compactname"] = "4,6 × 30 mm"
+L["unlameifier_atts_eft_caliber_46x30mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>4,6 × 30 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av MP7." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_300blk.printname"] = "Escape from Tarkov - .300 Blackout"
+L["unlameifier_atts_eft_caliber_300blk.compactname"] = ".300BLK"
+L["unlameifier_atts_eft_caliber_300blk.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>.300 Blackout</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av MCX." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_57x28mm.printname"] = "Escape from Tarkov - 5,7 × 28 mm FN"
+L["unlameifier_atts_eft_caliber_57x28mm.compactname"] = "5,7 × 28 mm"
+L["unlameifier_atts_eft_caliber_57x28mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>5,7 × 28 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av FN 5-7 och P90." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_762x39mm.printname"] = "Escape from Tarkov - 7,62 × 39 mm"
+L["unlameifier_atts_eft_caliber_762x39mm.compactname"] = "7,62 × 39 mm"
+L["unlameifier_atts_eft_caliber_762x39mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>7,62 × 39 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av AKM, Mk47, RPD, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x39mm.printname"] = "Escape from Tarkov - 9 × 39 mm"
+L["unlameifier_atts_eft_caliber_9x39mm.compactname"] = "9 × 39 mm"
+L["unlameifier_atts_eft_caliber_9x39mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>9 × 39 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av 9A-91, AS VAL, VSS, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_762x51mm.printname"] = "Escape from Tarkov - 7,62 × 51 mm NATO"
+L["unlameifier_atts_eft_caliber_762x51mm.compactname"] = "7,62 × 51 mm"
+L["unlameifier_atts_eft_caliber_762x51mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>7,62 × 51 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av SCAR-H, SR-25, M60, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_762x54mmr.printname"] = "Escape from Tarkov - 7,62 × 54mmR"
+L["unlameifier_atts_eft_caliber_762x54mmr.compactname"] = "7,62 × 54mmR"
+L["unlameifier_atts_eft_caliber_762x54mmr.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>7,62 × 54mmR</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av SVT-40, Mosin, PKM, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_68x51mm.printname"] = "Escape from Tarkov - 6.8 × 51 mm"
+L["unlameifier_atts_eft_caliber_68x51mm.compactname"] = "6.8 × 51 mm"
+L["unlameifier_atts_eft_caliber_68x51mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>6.8 × 51 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av MCX-SPEAR." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_338lapua.printname"] = "Escape from Tarkov - .338 Lapua Magnum"
+L["unlameifier_atts_eft_caliber_338lapua.compactname"] = ".338 Lapua"
+L["unlameifier_atts_eft_caliber_338lapua.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>.338 Lapua Magnum</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av AXMC och Mk-18." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_12x70.printname"] = "Escape from Tarkov - 12/70"
+L["unlameifier_atts_eft_caliber_12x70.compactname"] = "12/70"
+L["unlameifier_atts_eft_caliber_12x70.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>12/70</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av AA-12, M870, MP-155, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_20x70.printname"] = "Escape from Tarkov - 20/70"
+L["unlameifier_atts_eft_caliber_20x70.compactname"] = "20/70"
+L["unlameifier_atts_eft_caliber_20x70.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>20/70</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av TOZ-106." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_23x75mm.printname"] = "Escape from Tarkov - 23 × 75 mmR"
+L["unlameifier_atts_eft_caliber_23x75mm.compactname"] = "23 × 75 mmR"
+L["unlameifier_atts_eft_caliber_23x75mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>23 × 75 mmR</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av KS-23M." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_40x46.printname"] = "Escape from Tarkov - 40 × 46 mm"
+L["unlameifier_atts_eft_caliber_40x46.compactname"] = "40 × 46 mm"
+L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>40 × 46 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av FN40GL, M203 och M32A1." .. soundmodstip
+
 //////////////////////////////// unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Adapter för Smycken (Uppe)"
 L["unlameifier_eft_charm_up.compactname"] = "Smycke (U)"
@@ -373,14 +599,14 @@ L["unlameifier.folder.tracers"] = "Spårljus"
 L["unlameifier.folder.toys.impactdecals"] = "Leksaker/Träffdekaler"
 L["unlameifier.folder.tracers.modifiers"] = "Spårljus/Modifierare"
 
-L["unlameifier_attname_frontsight"] = "Främre Korn"
-L["unlameifier_attname_rearsight"] = "Bakre Sikte"
-L["unlameifier_attname_customslot"] = "Anpassad Plats"
+L["unlameifier.attname.frontsight"] = "Främre Korn"
+L["unlameifier.attname.rearsight"] = "Bakre Sikte"
+L["unlameifier.attname.customslot"] = "Anpassad Plats"
 
-L["unlameifier_attname_g17_slide"] = "Glock 17 Munstycke"
-L["unlameifier_attname_g17_slide"] = "Glock 17 Pipa"
-L["unlameifier_attname_g17_frontsight"] = "Glock 17 Framkorn"
-L["unlameifier_attname_g17_rearsight"] = "Glock 17 Baksikte"
+L["unlameifier.attname.g17_slide"] = "Glock 17 Munstycke"
+L["unlameifier.attname.g17_slide"] = "Glock 17 Pipa"
+L["unlameifier.attname.g17_frontsight"] = "Glock 17 Framkorn"
+L["unlameifier.attname.g17_rearsight"] = "Glock 17 Baksikte"
 
 L["unlameifier_eft_videogame_shotguns_custompro"] = "Bättre spridning"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Avaktivera när du använder brenneke"

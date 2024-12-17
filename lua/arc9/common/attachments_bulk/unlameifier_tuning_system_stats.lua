@@ -16,7 +16,7 @@ ATT.Folder = "Unlameifier/Experiments"
 
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier_attname_customslot"),
+        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
         Pos = Vector(50, 50, 50),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},

@@ -12,6 +12,34 @@ If this is a localization file for anything but English (i.e. Spanish), then tho
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
 
+Full list of languages;
+bg > Bulgarian
+cs > Czech
+da > Danish
+de > German
+el > Greek
+en > English
+es-es > Spanish
+fi > Finnish
+fr > French
+hu > Hungarian
+it > Italian
+ja > Japanese
+ko > Korean
+nl > Dutch
+no > Norwegian
+pl > Polish
+pt-br > Brazilian Portuguese
+pt-pt > Portuguese
+ru > Russian
+sv-se > Swedish
+th > Thai
+tr > Turkish
+uk > Ukrainian
+vi > Vietnamese
+zh-cn > Traditional Chinese
+zh-tw > Simplified Chinese
+
 If a localization has multiple lines, you have two choices:
 One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
 Note: If you wish to use quotation marks, you'll need to write it as < \" >
@@ -22,6 +50,232 @@ Two: Use square brackets at the start and end. Example further down.
 Text in Line 2 ]]
 
 --]]
+
+//////////////////////////////// unlameifier_attpack_eft
+L["unlameifier.folder.eftatts"] = "Attachments/EFT"
+L["unlameifier.folder.eftatts.optics"] = "Attachments/EFT/Optics"
+L["unlameifier.folder.eftatts.optics.irons"] = "Attachments/EFT/Optics/Irons"
+
+L["unlameifier.folder.eftatts.grips"] = "Attachments/EFT/Grips"
+
+L["unlameifier.folder.eftatts.mounts"] = "Attachments/EFT/Mounts"
+
+L["unlameifier.folder.eftatts.muzzles"] = "Attachments/EFT/Muzzles"
+
+L["unlameifier.folder.eftatts.bespoke.ar15"] = "Attachments/EFT/Bespoke/AR-15"
+
+L["unlameifier.folder.eftatts.caliber.pistol"] = "Attachments/EFT/Caliber/Pistol"
+L["unlameifier.folder.eftatts.caliber.magnum"] = "Attachments/EFT/Caliber/Magnum"
+L["unlameifier.folder.eftatts.caliber.intermediate"] = "Attachments/EFT/Caliber/Intermediate"
+L["unlameifier.folder.eftatts.caliber.heavy"] = "Attachments/EFT/Caliber/Heavy"
+L["unlameifier.folder.eftatts.caliber.shotgun"] = "Attachments/EFT/Caliber/Shotgun"
+L["unlameifier.folder.eftatts.caliber.ordnance"] = "Attachments/EFT/Caliber/Ordnance"
+
+L["unlameifier.attname.eftatts.optics"] = "EFT Optics"
+L["unlameifier.attname.eftatts.irons.front"] = "EFT Irons (F)"
+L["unlameifier.attname.eftatts.irons.rear"] = "EFT Irons (R)"
+
+L["unlameifier.attname.eftatts.grips"] = "EFT Grips"
+L["unlameifier.attname.eftatts.grips.mlok"] = "EFT MLOK Grips"
+
+L["unlameifier.attname.eftatts.mounts.mlok"] = "EFT MLOK Mounts"
+L["unlameifier.attname.eftatts.mounts.keymod"] = "EFT KeyMod Mounts"
+
+L["unlameifier.folder.eftatts.gear"] = "Attachments/EFT/Gear"
+L["unlameifier.attname.eftatts.tacticals"] = "EFT Tacticals"
+
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Muzzles"
+L["unlameifier.attname.eftatts.muzzles.ar10"] = "EFT AR-10 Muzzles"
+L["unlameifier.attname.eftatts.muzzles.akm"] = "EFT AKM Muzzles"
+L["unlameifier.attname.eftatts.muzzles.ak74"] = "EFT AK-74 Muzzles"
+L["unlameifier.attname.eftatts.muzzles.9mm"] = "EFT 9mm Muzzles"
+L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT 12G Muzzles"
+L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Muzzles"
+
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Grips"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Barrels"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Handguards"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Buffer Tubes"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Stocks"
+
+L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
+
+local githubwarn = "<color=255,100,100>GITHUB NOTICE</color>: When released onto the workshop, these attachments will be a separate addon (\"ARC9 Unlameifier - EFT Extension\"). It is only included here for convenience.\n\n"
+
+L["unlameifier_atts_eft_optics_general.printname"] = "Escape from Tarkov - General Optics"
+L["unlameifier_atts_eft_optics_general.compactname"] = "EFT Optics"
+L["unlameifier_atts_eft_optics_general.description"] = githubwarn .. "Allows the installation of general optics from Escape from Tarkov."
+
+L["unlameifier_atts_eft_optics_dovetail.printname"] = "Escape from Tarkov - Dovetail Optics"
+L["unlameifier_atts_eft_optics_dovetail.compactname"] = "EFT Dovetail"
+L["unlameifier_atts_eft_optics_dovetail.description"] = githubwarn .. "Allows the installation of dovetail-mounted optics from Escape from Tarkov.\nThese are typically found on AK-platform weapons."
+
+L["unlameifier_atts_eft_optics_lp.printname"] = "Escape from Tarkov - Low Profile Optics"
+L["unlameifier_atts_eft_optics_lp.compactname"] = "EFT LP Optics"
+L["unlameifier_atts_eft_optics_lp.description"] = githubwarn .. "Allows the installation of low profile optics from Escape from Tarkov. These are optics without mounting plates, in case you wish to mount them on custom plates, or tacti-glue them where they do not belong.\n\nPlease ping Neosun on the Diamond Doves server if any are forgotten. Kind regards."
+
+L["unlameifier_atts_eft_optics_pic_irons_front.printname"] = "Escape from Tarkov - Picatinny Front Iron Sights"
+L["unlameifier_atts_eft_optics_pic_irons_front.compactname"] = "EFT Irons (F)"
+L["unlameifier_atts_eft_optics_pic_irons_front.description"] = githubwarn .. "Allows the installation of picatinny-mounted front iron sights from Escape from Tarkov."
+
+L["unlameifier_atts_eft_optics_pic_irons_rear.printname"] = "Escape from Tarkov - Picatinny Rear Iron Sights"
+L["unlameifier_atts_eft_optics_pic_irons_rear.compactname"] = "EFT Irons (R)"
+L["unlameifier_atts_eft_optics_pic_irons_rear.description"] = githubwarn .. "Allows the installation of picatinny-mounted rear iron sights from Escape from Tarkov."
+
+L["unlameifier_atts_eft_foregrips_pic.printname"] = "Escape from Tarkov - Picatinny Foregrips"
+L["unlameifier_atts_eft_foregrips_pic.compactname"] = "EFT Grips"
+L["unlameifier_atts_eft_foregrips_pic.description"] = githubwarn .. "Allows the installation of picatinny-mounted foregrips from Escape from Tarkov."
+
+L["unlameifier_atts_eft_foregrips_mlok.printname"] = "Escape from Tarkov - MLOK Foregrips"
+L["unlameifier_atts_eft_foregrips_mlok.compactname"] = "EFT Grips (MLOK)"
+L["unlameifier_atts_eft_foregrips_mlok.description"] = githubwarn .. "Allows the installation of MLOK foregrips from Escape from Tarkov."
+
+L["unlameifier_atts_eft_mounts_mlok.printname"] = "Escape from Tarkov - MLOK Rail Mounts"
+L["unlameifier_atts_eft_mounts_mlok.compactname"] = "EFT Mounts (MLOK)"
+L["unlameifier_atts_eft_mounts_mlok.description"] = githubwarn .. "Allows the installation of MLOK mounts from Escape from Tarkov."
+
+L["unlameifier_atts_eft_mounts_keymod.printname"] = "Escape from Tarkov - KeyMod Rail Mounts"
+L["unlameifier_atts_eft_mounts_keymod.compactname"] = "EFT Mounts (KeyMod)"
+L["unlameifier_atts_eft_mounts_keymod.description"] = githubwarn .. "Allows the installation of KeyMod mounts from Escape from Tarkov."
+
+L["unlameifier_atts_eft_tacticals.printname"] = "Escape from Tarkov - Tacticals"
+L["unlameifier_atts_eft_tacticals.compactname"] = "EFT Tacticals"
+L["unlameifier_atts_eft_tacticals.description"] = githubwarn .. "Allows the installation of tactical devices, such as flashlights and laser sights, from Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_ar15.printname"] = "Escape from Tarkov - AR-15 Muzzles"
+L["unlameifier_atts_eft_muzzles_ar15.compactname"] = "EFT AR-15 Muzzles"
+L["unlameifier_atts_eft_muzzles_ar15.description"] = githubwarn .. "Allows the installation of AR-15 muzzle attachments from Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_ar10.printname"] = "Escape from Tarkov - AR-10 Muzzles"
+L["unlameifier_atts_eft_muzzles_ar10.compactname"] = "EFT AR-10 Muzzles"
+L["unlameifier_atts_eft_muzzles_ar10.description"] = githubwarn .. "Allows the installation of AR-10 muzzle attachments from Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_akm.printname"] = "Escape from Tarkov - AKM Muzzles"
+L["unlameifier_atts_eft_muzzles_akm.compactname"] = "EFT AKM Muzzles"
+L["unlameifier_atts_eft_muzzles_akm.description"] = githubwarn .. "Allows the installation of AKM muzzle attachments from Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_ak74.printname"] = "Escape from Tarkov - AK-74 Muzzles"
+L["unlameifier_atts_eft_muzzles_ak74.compactname"] = "EFT AK-74 Muzzles"
+L["unlameifier_atts_eft_muzzles_ak74.description"] = githubwarn .. "Allows the installation of AK-74 muzzle attachments from Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_9mm.printname"] = "Escape from Tarkov - 9mm Muzzles"
+L["unlameifier_atts_eft_muzzles_9mm.compactname"] = "EFT 9mm Muzzles"
+L["unlameifier_atts_eft_muzzles_9mm.description"] = githubwarn .. "Allows the installation of small, pistol-size muzzle attachments from Escape from Tarkov.\n\nTypically found on handguns and smaller caliber firearms."
+
+L["unlameifier_atts_eft_muzzles_12g.printname"] = "Escape from Tarkov - 12 Gauge Muzzles"
+L["unlameifier_atts_eft_muzzles_12g.compactname"] = "EFT 12G Muzzles"
+L["unlameifier_atts_eft_muzzles_12g.description"] = githubwarn .. "Allows the installation of 12 Gauge muzzle attachments from Escape from Tarkov."
+
+L["unlameifier_atts_eft_muzzles_45acp.printname"] = "Escape from Tarkov - .45 ACP Muzzles"
+L["unlameifier_atts_eft_muzzles_45acp.compactname"] = "EFT .45 Muzzles"
+L["unlameifier_atts_eft_muzzles_45acp.description"] = githubwarn .. "Allows the installation of small, PDW-size muzzle attachments from Escape from Tarkov.\n\nTypically found on handguns and smaller caliber firearms."
+
+L["unlameifier_atts_eft_ar15_grips.printname"] = "Escape from Tarkov - AR-15 Grips"
+L["unlameifier_atts_eft_ar15_grips.compactname"] = "EFT AR-15 Grips"
+L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Allows the installation of AR-15 pistol grips from Escape from Tarkov.\nShould be equipped on slots that use AR-15 grips. Otherwise, expect <color=255,150,150>visual errors</color>."
+
+L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Barrels"
+L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Barrels"
+L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. "Allows the installation of AR-15 barrels from Escape from Tarkov.\nShould be equipped on barrel slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping a handguard ;)"
+
+L["unlameifier_atts_eft_ar15_handguards.printname"] = "Escape from Tarkov - AR-15 Handguards"
+L["unlameifier_atts_eft_ar15_handguards.compactname"] = "EFT AR-15 Handguards"
+L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. "Allows the installation of AR-15 handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping an AR-15 barrel ;)"
+
+L["unlameifier_atts_eft_ar15_buffertubes.printname"] = "Escape from Tarkov - AR-15 Buffer Tubes"
+L["unlameifier_atts_eft_ar15_buffertubes.compactname"] = "EFT AR-15 Buffer Tubes"
+L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. "Allows the installation of AR-15 buffer tubes from Escape from Tarkov.\nShould be equipped on slots that <color=255,255,100>COULD</color> be for stocks.\nAutomatically provides stock options if equipped."
+
+L["unlameifier_atts_eft_ar15_stocks.printname"] = "Escape from Tarkov - AR-15 Stocks"
+L["unlameifier_atts_eft_ar15_stocks.compactname"] = "EFT AR-15 Stocks"
+L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. "Allows the installation of AR-15 stocks from Escape from Tarkov.\nDoes <color=255,100,100>NOT</color> come with a buffer tube. Keep this in mind when equipping."
+
+-- Calibers
+local soundmodstip = "\nTip: If you have the Sound Mods module equipped, you can change the sound of the weapon to make it sound more appropriate."
+
+L["unlameifier_atts_eft_caliber_45acp.printname"] = "Escape from Tarkov - .45 ACP"
+L["unlameifier_atts_eft_caliber_45acp.compactname"] = ".45 ACP"
+L["unlameifier_atts_eft_caliber_45acp.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.45 ACP</color> used in the Escape from Tarkov weapon packs.\nUsed by the H&K USP, H&K UMP, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x18mm.printname"] = "Escape from Tarkov - 9×18mm Makarov"
+L["unlameifier_atts_eft_caliber_9x18mm.compactname"] = "9×18mm"
+L["unlameifier_atts_eft_caliber_9x18mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×18mm Makarov</color> used in the Escape from Tarkov weapon packs.\nUsed by the PM, APS, PP-9 Klin, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x19mm.printname"] = "Escape from Tarkov - 9×19mm Parabellum"
+L["unlameifier_atts_eft_caliber_9x19mm.compactname"] = "9×19mm"
+L["unlameifier_atts_eft_caliber_9x19mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×19mm Parabellum</color> used in the Escape from Tarkov weapon packs.\nUsed by Glocks, the MP5, UZI, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x21mm.printname"] = "Escape from Tarkov - 9×21mm Gyurza"
+L["unlameifier_atts_eft_caliber_9x21mm.compactname"] = "9×21mm"
+L["unlameifier_atts_eft_caliber_9x21mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×21mm Gyurza</color> used in the Escape from Tarkov weapon packs.\nUsed by the SR-1MP and SR-2M." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_50ae.printname"] = "Escape from Tarkov - .50 Action Express"
+L["unlameifier_atts_eft_caliber_50ae.compactname"] = ".50 AE"
+L["unlameifier_atts_eft_caliber_50ae.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.50 Action Express</color> used in the Escape from Tarkov weapon packs.\nUsed by the Desert Eagle." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_357.printname"] = "Escape from Tarkov - .357 Magnum"
+L["unlameifier_atts_eft_caliber_357.compactname"] = ".357"
+L["unlameifier_atts_eft_caliber_357.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.357 Magnum</color> used in the Escape from Tarkov weapon packs.\nUsed by the Desert Eagle L5 .357 and CR 50DS." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_127x55mm.printname"] = "Escape from Tarkov - 12.7×55mm"
+L["unlameifier_atts_eft_caliber_127x55mm.compactname"] = "12.7×55mm"
+L["unlameifier_atts_eft_caliber_127x55mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>12.7×55mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the RSh-12 and ASh-12." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_556x45mm.printname"] = "Escape from Tarkov - 5.56×45mm NATO"
+L["unlameifier_atts_eft_caliber_556x45mm.compactname"] = "5.56×45mm"
+L["unlameifier_atts_eft_caliber_556x45mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>5.56×45mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the AR-15, AUG, G36, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_46x30mm.printname"] = "Escape from Tarkov - 4.6×30mm HK"
+L["unlameifier_atts_eft_caliber_46x30mm.compactname"] = "4.6×30mm"
+L["unlameifier_atts_eft_caliber_46x30mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>4.6×30mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the MP7." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_300blk.printname"] = "Escape from Tarkov - .300 Blackout"
+L["unlameifier_atts_eft_caliber_300blk.compactname"] = ".300BLK"
+L["unlameifier_atts_eft_caliber_300blk.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.300 Blackout</color> used in the Escape from Tarkov weapon packs.\nUsed by the MCX." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_57x28mm.printname"] = "Escape from Tarkov - 5.7×28mm FN"
+L["unlameifier_atts_eft_caliber_57x28mm.compactname"] = "5.7×28mm"
+L["unlameifier_atts_eft_caliber_57x28mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>5.7×28mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the FN 5-7 and P90." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_762x39mm.printname"] = "Escape from Tarkov - 7.62×39mm"
+L["unlameifier_atts_eft_caliber_762x39mm.compactname"] = "7.62×39mm"
+L["unlameifier_atts_eft_caliber_762x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the AKM, Mk47, RPD, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_9x39mm.printname"] = "Escape from Tarkov - 9×39mm"
+L["unlameifier_atts_eft_caliber_9x39mm.compactname"] = "9×39mm"
+L["unlameifier_atts_eft_caliber_9x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the 9A-91, AS VAL, VSS, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_762x51mm.printname"] = "Escape from Tarkov - 7.62×51mm NATO"
+L["unlameifier_atts_eft_caliber_762x51mm.compactname"] = "7.62×51mm"
+L["unlameifier_atts_eft_caliber_762x51mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×51mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the SCAR-H, SR-25, M60, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_762x54mmr.printname"] = "Escape from Tarkov - 7.62×54mmR"
+L["unlameifier_atts_eft_caliber_762x54mmr.compactname"] = "7.62×54mmR"
+L["unlameifier_atts_eft_caliber_762x54mmr.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×54mmR</color> used in the Escape from Tarkov weapon packs.\nUsed by the SVT-40, Mosin, PKM, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_68x51mm.printname"] = "Escape from Tarkov - 6.8×51mm"
+L["unlameifier_atts_eft_caliber_68x51mm.compactname"] = "6.8×51mm"
+L["unlameifier_atts_eft_caliber_68x51mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>6.8×51mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the MCX-SPEAR." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_338lapua.printname"] = "Escape from Tarkov - .338 Lapua Magnum"
+L["unlameifier_atts_eft_caliber_338lapua.compactname"] = ".338 Lapua"
+L["unlameifier_atts_eft_caliber_338lapua.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.338 Lapua Magnum</color> used in the Escape from Tarkov weapon packs.\nUsed by the AXMC and Mk-18." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_12x70.printname"] = "Escape from Tarkov - 12/70"
+L["unlameifier_atts_eft_caliber_12x70.compactname"] = "12/70"
+L["unlameifier_atts_eft_caliber_12x70.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>12/70</color> used in the Escape from Tarkov weapon packs.\nUsed by the AA-12, M870, MP-155, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_20x70.printname"] = "Escape from Tarkov - 20/70"
+L["unlameifier_atts_eft_caliber_20x70.compactname"] = "20/70"
+L["unlameifier_atts_eft_caliber_20x70.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>20/70</color> used in the Escape from Tarkov weapon packs.\nUsed by the TOZ-106." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_23x75mm.printname"] = "Escape from Tarkov - 23×75mmR"
+L["unlameifier_atts_eft_caliber_23x75mm.compactname"] = "23×75mmR"
+L["unlameifier_atts_eft_caliber_23x75mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>23×75mmR</color> used in the Escape from Tarkov weapon packs.\nUsed by the KS-23M." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_40x46.printname"] = "Escape from Tarkov - 40×46mm"
+L["unlameifier_atts_eft_caliber_40x46.compactname"] = "40×46mm"
+L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>40×46mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the FN40GL, M203 and M32A1." .. soundmodstip
 
 //////////////////////////////// unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
@@ -374,14 +628,14 @@ L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
 L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
 L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Tracers/Modifiers"
 
-L["unlameifier_attname_frontsight"] = "Front Sight"
-L["unlameifier_attname_rearsight"] = "Rear Sight"
-L["unlameifier_attname_customslot"] = "Custom Slot"
+L["unlameifier.attname.frontsight"] = "Front Sight"
+L["unlameifier.attname.rearsight"] = "Rear Sight"
+L["unlameifier.attname.customslot"] = "Custom Slot"
 
-L["unlameifier_attname_g17_slide"] = "Glock 17 Slide"
-L["unlameifier_attname_g17_slide"] = "Glock 17 Barrel"
-L["unlameifier_attname_g17_frontsight"] = "Glock 17 Front Sight"
-L["unlameifier_attname_g17_rearsight"] = "Glock 17 Rear Sight"
+L["unlameifier.attname.g17_slide"] = "Glock 17 Slide"
+L["unlameifier.attname.g17_slide"] = "Glock 17 Barrel"
+L["unlameifier.attname.g17_frontsight"] = "Glock 17 Front Sight"
+L["unlameifier.attname.g17_rearsight"] = "Glock 17 Rear Sight"
 
 L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"

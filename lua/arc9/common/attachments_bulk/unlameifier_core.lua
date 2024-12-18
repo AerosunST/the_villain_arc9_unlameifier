@@ -33,7 +33,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_injector")
 
-///////////////////////////////////////      CORE RETURN (moka_pls_localize)
+///////////////////////////////////////      BLANK ATTACHMENT (moka_pls_localize)
 
 
 ATT = {}
@@ -41,14 +41,14 @@ ATT = {}
 ATT.PrintName = "Blank Attachment"
 ATT.CompactName = "Blank"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Folder = "Unlameifier/Patches/General"
+ATT.Folder = "Patches/General/!Debugging"
 ATT.Free = true
 ATT.Description = [[This attachment acts as a bandaid solution to let you soft-remove an attachment without removing the attachments that are connected to this slot. Good for reference, testing, and quickly fixing issues but it is good practice to not use these wastefully as you can only attach up to 100 attachments on one weapon in ARC9 by default.
 
 Tip: The maximum number of attachments you can have equipped on a weapon can be raised up to 200 in the settings menu. It can be raised further via its associated console command, but beware that there is a point where the Source Engine will crash if you equip too many.]]
 ATT.SortOrder = 1
 
-ATT.Category = "unlameifier_core"
+ATT.Category = "unlameifier_attachments"
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
 ATT.Attachments = {

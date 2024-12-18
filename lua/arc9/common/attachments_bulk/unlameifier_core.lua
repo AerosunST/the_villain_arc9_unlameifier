@@ -38,28 +38,30 @@ ARC9.LoadAttachment(ATT, "unlameifier_core_injector")
 
 ATT = {}
 
-ATT.PrintName = "Return to Unlameifier Core"
-ATT.CompactName = "Return to Core"
+ATT.PrintName = "Blank Attachment"
+ATT.CompactName = "Blank"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Folder = "Unlameifier/Core"
+ATT.Folder = "Unlameifier/Patches/General"
 ATT.Free = true
-ATT.Description = [[Go back to the Unlameifier Core on this slot without removing anything attached to it. Functionally the same as the Core Slot Injector. More of a failsafe, should that not work.]]
+ATT.Description = [[This attachment acts as a bandaid solution to let you soft-remove an attachment without removing the attachments that are connected to this slot. Good for reference, testing, and quickly fixing issues but it is good practice to not use these wastefully as you can only attach up to 100 attachments on one weapon in ARC9 by default.
+
+Tip: The maximum number of attachments you can have equipped on a weapon can be raised up to 200 in the settings menu. It can be raised further via its associated console command, but beware that there is a point where the Source Engine will crash if you equip too many.]]
 ATT.SortOrder = 1
 
-ATT.Category = "unlameifier_attachments"
+ATT.Category = "unlameifier_core"
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
 ATT.Attachments = {
     {
-        PrintName = "Unlameifier",
+        PrintName = "[UL-BLNK] Attachments",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Category = {"unlameifier_core"},
+        Category = {"unlameifier_attachments"},
 		Icon_Offset = Vector(0, 0, 1),
     },
 }
 
-ARC9.LoadAttachment(ATT, "unlameifier_core_return")
+ARC9.LoadAttachment(ATT, "unlameifier_patch_general_blank")
 
 ///////////////////////////////////////      UPWARDS/A POSITION (moka_pls_localize)
 
@@ -541,7 +543,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus5_horizontal")
 
-///////////////////////////////////////      (UTILITY) +7 HORIZONTAL POSITION (moka_pls_localize)
+///////////////////////////////////////      (UTILITY) +6 HORIZONTAL POSITION (moka_pls_localize)
 
 
 ATT = {}
@@ -691,6 +693,36 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus10_horizontal")
 
+///////////////////////////////////////      (UTILITY) 0 HORIZONTAL POSITION (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Move Attachment 0 Degrees Horizontally"
+ATT.CompactName = "0H"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Horizontal"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments 0 Degrees Horizontally.
+
+NOTE: Used largely for reference. Can also be used as a through-attachment to effectively nullify this slot without unattaching the attachments connected to this slot. Read the Blank Attachment's description in the patches folder for more information on attachments like these.]]
+ATT.SortOrder = 999
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0H] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_0_horizontal")
+
 ///////////////////////////////////////      (UTILITY) -1 HORIZONTAL POSITION (moka_pls_localize)
 
 
@@ -704,7 +736,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -1 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1009
+ATT.SortOrder = 998
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -734,7 +766,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -2 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1008
+ATT.SortOrder = 997
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -764,7 +796,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -3 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1007
+ATT.SortOrder = 996
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -794,7 +826,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -4 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1006
+ATT.SortOrder = 995
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -824,7 +856,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -5 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1005
+ATT.SortOrder = 994
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -841,7 +873,7 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus5_horizontal")
 
-///////////////////////////////////////      (UTILITY) -7 HORIZONTAL POSITION (moka_pls_localize)
+///////////////////////////////////////      (UTILITY) -6 HORIZONTAL POSITION (moka_pls_localize)
 
 
 ATT = {}
@@ -854,7 +886,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -6 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1004
+ATT.SortOrder = 993
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -884,7 +916,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -7 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1003
+ATT.SortOrder = 992
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -914,7 +946,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -8 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1002
+ATT.SortOrder = 991
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -944,7 +976,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -9 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1001
+ATT.SortOrder = 990
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -974,7 +1006,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -10 Degrees Horizontally.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
-ATT.SortOrder = 1000
+ATT.SortOrder = 989
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1291,6 +1323,36 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus10_vertical")
 
+///////////////////////////////////////      (UTILITY) 0 VERTICAL POSITION (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Move Attachment 0 Degrees Vertically"
+ATT.CompactName = "0V"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Vertical"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments to 0 Degrees Vertically.
+
+NOTE: Used largely for reference. Can also be used as a through-attachment to effectively nullify this slot without unattaching the attachments connected to this slot. Read the Blank Attachment's description in the patches folder for more information on attachments like these.]]
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0V] Attachments",
+        Pos = Vector(0, 0, 10),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_0_vertical")
+
 ///////////////////////////////////////      (UTILITY) -1 VERTICAL POSITION (moka_pls_localize)
 
 
@@ -1304,7 +1366,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -1 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1009
+ATT.SortOrder = 999
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1334,7 +1396,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -2 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1008
+ATT.SortOrder = 998
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1364,7 +1426,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -3 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1007
+ATT.SortOrder = 997
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1394,7 +1456,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -4 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1006
+ATT.SortOrder = 996
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1424,7 +1486,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -5 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1005
+ATT.SortOrder = 995
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1454,7 +1516,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -6 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1004
+ATT.SortOrder = 994
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1484,7 +1546,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -7 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1003
+ATT.SortOrder = 993
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1514,7 +1576,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -8 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1002
+ATT.SortOrder = 992
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1544,7 +1606,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -9 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1001
+ATT.SortOrder = 991
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1574,7 +1636,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -10 Degrees Vertically.
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1000
+ATT.SortOrder = 990
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1891,6 +1953,36 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus10_sideways")
 
+///////////////////////////////////////      (UTILITY) 0 SIDEWAYS POSITION (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Move Attachment 0 Degrees Sideways"
+ATT.CompactName = "0S"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Sideways"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments by 0 Degrees Sideways.
+
+NOTE: Used largely for reference. Can also be used as a through-attachment to effectively nullify this slot without unattaching the attachments connected to this slot. Read the Blank Attachment's description in the patches folder for more information on attachments like these.]]
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0S] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_0_sideways")
+
 ///////////////////////////////////////      (UTILITY) -1 SIDEWAYS POSITION (moka_pls_localize)
 
 
@@ -1904,7 +1996,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -1 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1009
+ATT.SortOrder = 999
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1934,7 +2026,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -2 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1008
+ATT.SortOrder = 998
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1964,7 +2056,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -3 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1007
+ATT.SortOrder = 997
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -1994,7 +2086,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -4 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1006
+ATT.SortOrder = 996
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2024,7 +2116,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -5 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1005
+ATT.SortOrder = 995
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2054,7 +2146,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -6 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1004
+ATT.SortOrder = 994
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2084,7 +2176,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -7 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1003
+ATT.SortOrder = 993
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2114,7 +2206,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -8 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1002
+ATT.SortOrder = 992
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2144,7 +2236,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -9 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1001
+ATT.SortOrder = 991
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2174,7 +2266,7 @@ ATT.Free = true
 ATT.Description = [[Moves any physical attachments -10 Degrees Sideways (Relative to Darsu's EFT AR-15).
 
 NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
-ATT.SortOrder = 1000
+ATT.SortOrder = 990
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
@@ -2190,3 +2282,936 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus10_sideways")
+
+///////////////////////////////////////      (UTILITY) -1 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-1 Angle"
+ATT.CompactName = "-1A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -1 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 998
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M1A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-1, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus1")
+
+///////////////////////////////////////      (UTILITY) -2 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-2 Angle"
+ATT.CompactName = "-2A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -2 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 997
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M2A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-2, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus2")
+
+///////////////////////////////////////      (UTILITY) -3 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-3 Angle"
+ATT.CompactName = "-3A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -3 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 996
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M3A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-3, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus3")
+
+///////////////////////////////////////      (UTILITY) -4 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-4 Angle"
+ATT.CompactName = "-4A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -4 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 995
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M4A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-4, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus4")
+
+///////////////////////////////////////      (UTILITY) -5 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-5 Angle"
+ATT.CompactName = "-5A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -5 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 994
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M5A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-5, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus5")
+
+///////////////////////////////////////      (UTILITY) -6 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-6 Angle"
+ATT.CompactName = "-6A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -6 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 993
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M6A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-6, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus6")
+
+///////////////////////////////////////      (UTILITY) -7 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-7 Angle"
+ATT.CompactName = "-7A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -7 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 992
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M7A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-7, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus7")
+
+///////////////////////////////////////      (UTILITY) -8 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-8 Angle"
+ATT.CompactName = "-8A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -8 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 991
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M8A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-8, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus8")
+
+///////////////////////////////////////      (UTILITY) -9 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-9 Angle"
+ATT.CompactName = "-9A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -9 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 990
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M9A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-9, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus9")
+
+///////////////////////////////////////      (UTILITY) -10 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-10 Angle"
+ATT.CompactName = "-10A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -10 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 989
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M10A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-10, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus10")
+
+///////////////////////////////////////      (UTILITY) -15 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-15 Angle"
+ATT.CompactName = "-15A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -15 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 980
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M15A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-15, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus15")
+
+
+
+///////////////////////////////////////      (UTILITY) -45 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-45 Angle"
+ATT.CompactName = "-45A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -45 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 945
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M45A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-45, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus45")
+
+///////////////////////////////////////      (UTILITY) -90 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-90 Angle"
+ATT.CompactName = "-90A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -90 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 944
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M90A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-90, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus90")
+
+///////////////////////////////////////      (UTILITY) -180 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-180 Angle"
+ATT.CompactName = "-180A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -180 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 943
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M180A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-180, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus180")
+
+///////////////////////////////////////      (UTILITY) -270 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "-270 Angle"
+ATT.CompactName = "-270A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments -270 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 942
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M270A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(-270, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_minus270")
+
+///////////////////////////////////////      (UTILITY) 0 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "0 Angle"
+ATT.CompactName = "0A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments to 0 Degrees.
+
+NOTE: Used largely for reference. Can also be used as a through-attachment to effectively nullify this slot without unattaching the attachments connected to this slot. Read the Blank Attachment's description in the patches folder for more information on attachments like these.]]
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_0")
+
+///////////////////////////////////////      (UTILITY) +1 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+1 Angle"
+ATT.CompactName = "+1A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +1 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1001
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P1A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(1, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus1")
+
+///////////////////////////////////////      (UTILITY) +2 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+2 Angle"
+ATT.CompactName = "+2A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +2 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1002
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P2A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(2, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus2")
+
+///////////////////////////////////////      (UTILITY) +3 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+3 Angle"
+ATT.CompactName = "+3A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +3 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1003
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P3A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(3, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus3")
+
+///////////////////////////////////////      (UTILITY) +4 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+4 Angle"
+ATT.CompactName = "+4A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +4 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1004
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P4A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(4, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus4")
+
+///////////////////////////////////////      (UTILITY) +5 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+5 Angle"
+ATT.CompactName = "+5A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +5 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1005
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P5A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(5, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus5")
+
+///////////////////////////////////////      (UTILITY) +6 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+6 Angle"
+ATT.CompactName = "+6A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +6 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1006
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P6A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(6, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus6")
+
+///////////////////////////////////////      (UTILITY) +7 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+7 Angle"
+ATT.CompactName = "+7A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +7 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1007
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P7A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(7, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus7")
+
+///////////////////////////////////////      (UTILITY) +8 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+8 Angle"
+ATT.CompactName = "+8A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +8 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1008
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P8A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(8, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus8")
+
+///////////////////////////////////////      (UTILITY) +9 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+9 Angle"
+ATT.CompactName = "+9A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +9 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1009
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P9A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(9, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus9")
+
+///////////////////////////////////////      (UTILITY) +10 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+10 Angle"
+ATT.CompactName = "+10A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +10 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1010
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P10A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(10, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus10")
+
+///////////////////////////////////////      (UTILITY) +15 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+15 Angle"
+ATT.CompactName = "+15A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +15 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1015
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P15A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(15, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus15")
+
+
+///////////////////////////////////////      (UTILITY) +45 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+45 Angle"
+ATT.CompactName = "+45A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +45 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1045
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P45A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(45, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus45")
+
+///////////////////////////////////////      (UTILITY) +90 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+90 Angle"
+ATT.CompactName = "+90A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +90 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1090
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P90A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(90, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus90")
+
+///////////////////////////////////////      (UTILITY) +180 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+180 Angle"
+ATT.CompactName = "+180A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +180 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1180
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P180A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(180, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus180")
+
+///////////////////////////////////////      (UTILITY) +270 ANGLE (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "+270 Angle"
+ATT.CompactName = "+270A"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Angle"
+ATT.Free = true
+ATT.Description = [[Angles any physical attachments +270 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is angled incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 1270
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P270A] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(270, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_angle_plus270")

@@ -468,7 +468,7 @@ ATT.Attachments = {
         PrintName = "EFT AKM Muzzles",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_akm_muzzle", "eft_ak103_muzzle", "eft_dthybrid"},
+        Category = {"eft_akm_muzzle", "eft_ak103_muzzle", "eft_dthybrid", "eft_ak_ttak"},
 		Icon_Offset = Vector(0, 0, 3),
     },
     {
@@ -505,7 +505,7 @@ ATT.Attachments = {
         PrintName = "EFT AK-74 Muzzles",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_ak74_muzzle", "eft_dthybrid"},
+        Category = {"eft_ak74_muzzle", "eft_dthybrid", "eft_rpk16_muzzle"},
 		Icon_Offset = Vector(0, 0, 3),
     },
     {
@@ -814,6 +814,230 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_stocks")
+
+///////////////////////////////////////      AK GRIPS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AK Grips"
+ATT.CompactName = "EFT AK Grips"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK pistol grips from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that which use an AK grip. Expect visual oddities otherwise.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK Grips",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak_grip",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_grips")
+
+///////////////////////////////////////      AK GAS TUBES (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AK Gas Tubes"
+ATT.CompactName = "EFT AK Gas Tubes"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK gas tubes from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that which use an AK gas tube. After attaching a gas tube, an option for handguards will show.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK Gas Tubes",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak_gasblock", "eft_aksu_gasblock", "eft_sag545_gasblock", "eft_vityaz_gasblock"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_gas_tubes")
+
+///////////////////////////////////////      AK HANDGUARDS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AK Handguards"
+ATT.CompactName = "EFT AK Handguards"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK handguards from Darsu's Escape from Tarkov weapon packs on this slot. This version does <color=255,0,0>NOT</color> include a gas tube. This is ideal for attachments that have their own gas tube.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ActivateElements = {"gasblock", "gasblock_vdmcs"}
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK Handguards",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak_handguard", "eft_vityaz_handguard", "eft_ak_handguard_custom", "eft_aksu_handguard", "eft_rpk16_handguard", "eft_sag545_handguard",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_handguards")
+
+///////////////////////////////////////      AK STOCKS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov Stocks"
+ATT.CompactName = "EFT AK Stocks"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK stocks from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that which use an AK stock. Expect visual oddities otherwise.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK Stocks",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak74m_stock", "eft_vityaz_stock", "eft_akm_stock", "eft_akms_stock", "eft_aks_stock", "eft_rpk16_stock", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_stocks")
+
+///////////////////////////////////////      AK CHARGING HANDDLE COVERS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov Charging Handle Covers"
+ATT.CompactName = "EFT AK CH Covers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK charging handle covers from Darsu's Escape from Tarkov weapon packs on this slot. Extremely niche, but your imagination is the limit with what you can do with these.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK CH Covers",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak_charge"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_ch_covers")
+
+///////////////////////////////////////      AK UBGLS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AK UBGLs"
+ATT.CompactName = "EFT AK UBGLs"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK UBGLs from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on underbarrel slots. Expect visual oddities otherwise.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK UBGLs",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak_gp34", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_ubgls")
 
 ///////////////////////////////////////      CALIBERS (.45 ACP) (moka_pls_localize)
 
@@ -1271,6 +1495,82 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_762x39mm")
 
+///////////////////////////////////////      CALIBERS (5.45x39mm) (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "5.45x39mm"
+ATT.CompactName = "5.45x39mm"
+ATT.Icon = Material("entities/eft_attachments/ammo/545/fmj.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Calibers/Intermediate"
+ATT.Free = true
+ATT.Description = [[Changes the ammo your weapon fires to 5.45x39mm rounds from Darsu's Escape from Tarkov weapon packs. If you have the Sound Mods module installed, you can change the sound of your weapon to make it sound more appropriate for what you are shooting out of it.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience. You also have the Sound Mods module pre-installed with the Github version.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Ammo = "ar2"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT 5.45x39mm",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ammo_545"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_545x39mm")
+
+///////////////////////////////////////      CALIBERS (.366 TKM) (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = ".366 TKM"
+ATT.CompactName = ".366 TKM"
+ATT.Icon = Material("entities/eft_attachments/ammo/366/fmj.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Calibers/Intermediate"
+ATT.Free = true
+ATT.Description = [[Changes the ammo your weapon fires to .366 TKM rounds from Darsu's Escape from Tarkov weapon packs. If you have the Sound Mods module installed, you can change the sound of your weapon to make it sound more appropriate for what you are shooting out of it.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience. You also have the Sound Mods module pre-installed with the Github version.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Ammo = "ar2"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT .366 TKM",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ammo_366"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_366tkm")
+
 ///////////////////////////////////////      CALIBERS (7.62x39mm) (moka_pls_localize)
 
 
@@ -1617,3 +1917,53 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_40x46")
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// PATCHES 
+
+///////////////////////////////////////      (PATCH) IGNORE WARNINGS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Ignore Warnings"
+ATT.CompactName = "Ignore Warnings"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/General"
+ATT.Free = true
+ATT.Description = [[Forces all critical parts to be set to true, thus bypassing the "Missing Critical Parts!" warning.
+
+NOTE: Only needs to be equipped once to apply to all attachments. Also does not need to be equipped in any particular order; it can be applied retroactively.]]
+ATT.SortOrder = 1
+
+ATT.HasBolt = true
+ATT.HasBarrel = true
+ATT.HasAmmoooooooo = true
+ATT.HasSlide = true
+ATT.HasGas = true
+ATT.HasGrip = true
+ATT.HasHG = true
+ATT.HasMag = true
+ATT.HasBufferTube = true
+ATT.HasStock = true
+ATT.HasHandguard = true
+ATT.HasReceiver = true
+ATT.HasReciever = true -- fuck
+ATT.HasChassis = true
+ATT.HasHammer = true
+ATT.HasLock = true
+ATT.HasTrigger = true
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_patch_eft_ignore_warnings")

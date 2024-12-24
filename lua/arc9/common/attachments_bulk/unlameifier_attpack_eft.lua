@@ -1512,7 +1512,7 @@ ATT.SortOrder = 1000
 
 ATT.Category = {"unlameifier_attachments"}
 ATT.MenuCategory = "ARC9 - Unlameifier"
-ATT.Ammo = "ar2"
+ATT.Ammo = "smg1"
 
 ATT.Attachments = {
     {

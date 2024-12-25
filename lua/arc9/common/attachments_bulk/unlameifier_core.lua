@@ -1704,7 +1704,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 ATT.Attachments = {
     {
         PrintName = "[UL-P0V] Attachments",
-        Pos = Vector(0, 0, 10),
+        Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Category = {"unlameifier_attachments"},
 		Icon_Offset = Vector(0, 0, 2),

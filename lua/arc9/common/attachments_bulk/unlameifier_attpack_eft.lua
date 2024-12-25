@@ -667,6 +667,43 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_grips")
 
+///////////////////////////////////////      AR-15 CHARGING HANDLES (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AR-15 Charging Handles"
+ATT.CompactName = "EFT AR C. Handles"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AR-15"
+ATT.Free = true
+ATT.Description = [[Equip AR-15 charging handles from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that which use an AR-15 charging handle. Expect visual oddities otherwise.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AR-15 C. Handles",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ar15_charge",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_charging_handles")
+
 ///////////////////////////////////////      AR-15 BARRELS (moka_pls_localize)
 
 
@@ -814,6 +851,191 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_stocks")
+
+///////////////////////////////////////      AR-10 HANDGUARDS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AR-10 Handguards"
+ATT.CompactName = "EFT AR-10 Handguards"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AR-10"
+ATT.Free = true
+ATT.Description = [[Equip AR-10 handguards from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that use a handguard. Requires RSASS/SR-25 Pack. Please note: Both the RSASS and SR-25's barrels are bodygrouped to their respective weapon models. It is not possible to add them here.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AR-10 Handguards",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ar10_hg", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar10_handguards")
+
+///////////////////////////////////////      MPX BARRELS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov MPX Barrels"
+ATT.CompactName = "EFT MPX Barrels"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/MPX+MCX"
+ATT.Free = true
+ATT.Description = [[Equip MPX barrels from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that use a barrel. Requires MCX/MPX/P226/SPEAR pack. Also, pro-tip: There's a reason why you get an extra Unlameifier Core attachment layered on top of this one... Try equipping a handguard on it :)
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT MPX Barrels",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_mpx_barrel", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mpx_barrels")
+
+///////////////////////////////////////      MPX HANDGUARDS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov MPX Handguards"
+ATT.CompactName = "EFT MPX Handguards"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/MPX+MCX"
+ATT.Free = true
+ATT.Description = [[Equip MPX handguards from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that use a handguard. Requires MCX/MPX/P226/SPEAR Pack. Also, pro-tip: There's a reason why you get an extra Unlameifier Core attachment layered on top of this one... Try equipping an MPX barrel on it :)
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT MPX Handguards",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_mpx_hguard", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mpx_handguards")
+
+///////////////////////////////////////      MPX HANDGUARDS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov MCX Handguards"
+ATT.CompactName = "EFT MCX Handguards"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/MPX+MCX"
+ATT.Free = true
+ATT.Description = [[Equip MCX handguards from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that use a handguard. Requires MCX/MPX/P226/SPEAR Pack. Please note: It is currently not possible to add MCX barrels due to them being bodygrouped to the MCX weapon model itself.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT MCX Handguards",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_mcx_hguard", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mcx_handguards")
+
+///////////////////////////////////////      MCX STOCKS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov MCX Stocks"
+ATT.CompactName = "EFT MCX Stocks"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/MPX+MCX"
+ATT.Free = true
+ATT.Description = [[Equip MCX stocks from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that use their own form of buffer tube. Requires MCX/MPX/P226/SPEAR Pack.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT MCX Stocks",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_mcx_stock",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mcx_stocks")
 
 ///////////////////////////////////////      AK GRIPS (moka_pls_localize)
 

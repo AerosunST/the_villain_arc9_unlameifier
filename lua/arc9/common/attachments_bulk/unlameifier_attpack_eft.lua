@@ -1192,7 +1192,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_stocks")
 
 ATT = {}
 
-ATT.PrintName = "Escape from Tarkov Charging Handle Covers"
+ATT.PrintName = "Escape from Tarkov AK Charging Handle Covers"
 ATT.CompactName = "EFT AK CH Covers"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
 ATT.Folder = "Attachments/EFT/Bespoke/AK"

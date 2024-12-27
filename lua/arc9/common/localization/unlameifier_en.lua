@@ -12,6 +12,34 @@ If this is a localization file for anything but English (i.e. Spanish), then tho
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
 
+Full list of languages;
+bg > Bulgarian
+cs > Czech
+da > Danish
+de > German
+el > Greek
+en > English
+es-es > Spanish
+fi > Finnish
+fr > French
+hu > Hungarian
+it > Italian
+ja > Japanese
+ko > Korean
+nl > Dutch
+no > Norwegian
+pl > Polish
+pt-br > Brazilian Portuguese
+pt-pt > Portuguese
+ru > Russian
+sv-se > Swedish
+th > Thai
+tr > Turkish
+uk > Ukrainian
+vi > Vietnamese
+zh-cn > Traditional Chinese
+zh-tw > Simplified Chinese
+
 If a localization has multiple lines, you have two choices:
 One: Use quotations at the start and end, for example "Text" with '\n' in place of line skips, for example "Text\nText2".
 Note: If you wish to use quotation marks, you'll need to write it as < \" >
@@ -35,6 +63,9 @@ L["unlameifier.folder.eftatts.mounts"] = "Attachments/EFT/Mounts"
 L["unlameifier.folder.eftatts.muzzles"] = "Attachments/EFT/Muzzles"
 
 L["unlameifier.folder.eftatts.bespoke.ar15"] = "Attachments/EFT/Bespoke/AR-15"
+L["unlameifier.folder.eftatts.bespoke.ar10"] = "Attachments/EFT/Bespoke/AR-10"
+L["unlameifier.folder.eftatts.bespoke.ak"] = "Attachments/EFT/Bespoke/AK"
+L["unlameifier.folder.eftatts.bespoke.mpxmcx"] = "Attachments/EFT/Bespoke/MPX+MCX"
 
 L["unlameifier.folder.eftatts.caliber.pistol"] = "Attachments/EFT/Caliber/Pistol"
 L["unlameifier.folder.eftatts.caliber.magnum"] = "Attachments/EFT/Caliber/Magnum"
@@ -42,6 +73,8 @@ L["unlameifier.folder.eftatts.caliber.intermediate"] = "Attachments/EFT/Caliber/
 L["unlameifier.folder.eftatts.caliber.heavy"] = "Attachments/EFT/Caliber/Heavy"
 L["unlameifier.folder.eftatts.caliber.shotgun"] = "Attachments/EFT/Caliber/Shotgun"
 L["unlameifier.folder.eftatts.caliber.ordnance"] = "Attachments/EFT/Caliber/Ordnance"
+
+L["unlameifier.folder.patches.eft.general"] = "Patches/EFT/General"
 
 L["unlameifier.attname.eftatts.optics"] = "EFT Optics"
 L["unlameifier.attname.eftatts.irons.front"] = "EFT Irons (F)"
@@ -64,15 +97,75 @@ L["unlameifier.attname.eftatts.muzzles.9mm"] = "EFT 9mm Muzzles"
 L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT 12G Muzzles"
 L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Muzzles"
 
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Grips"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Barrels"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Handguards"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Buffer Tubes"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Stocks"
+L["unlameifier.attname.eftatts.grips.ar15"] = "EFT AR-15 Grips"
+L["unlameifier.attname.eftatts.chandles.ar15"] = "EFT AR-15 C. Handles"
+L["unlameifier.attname.eftatts.barrels.ar15"] = "EFT AR-15 Barrels"
+L["unlameifier.attname.eftatts.handguards.ar15"] = "EFT AR-15 Handguards"
+L["unlameifier.attname.eftatts.buffertubes.ar15"] = "EFT AR-15 Buffer Tubes"
+L["unlameifier.attname.eftatts.stocks.ar15"] = "EFT AR-15 Stocks"
+
+L["unlameifier.attname.eftatts.handguards.ar10"] = "EFT AR-10 Handguards"
+
+L["unlameifier.attname.eftatts.barrels.mpx"] = "EFT MPX Barrels"
+L["unlameifier.attname.eftatts.handguards.mpx"] = "EFT MPX Handguards"
+
+L["unlameifier.attname.eftatts.handguards.mcx"] = "EFT MCX Handguards"
+L["unlameifier.attname.eftatts.stocks.mcx"] = "EFT MCX Stocks"
+
+L["unlameifier.attname.eftatts.grips.ak"] = "EFT AK Grips"
+L["unlameifier.attname.eftatts.barrels.ak"] = "EFT AK Gas Tubes"
+L["unlameifier.attname.eftatts.handguards.ak"] = "EFT AK Handguards"
+L["unlameifier.attname.eftatts.stocks.ak"] = "EFT AK Stocks"
+L["unlameifier.attname.eftatts.chcover.ak"] = "EFT AK C.H. Covers"
+L["unlameifier.attname.eftatts.ubgl.ak"] = "EFT AK UBGL"
 
 L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
 
 local githubwarn = "<color=255,100,100>GITHUB NOTICE</color>: When released onto the workshop, these attachments will be a separate addon (\"ARC9 Unlameifier - EFT Extension\"). It is only included here for convenience.\n\n"
+
+local eftrequire = {
+	shared = "[ <color=255,255,100>Requires EFT SHARED</color> ]\n",
+	p90 = "[ <color=255,255,100>Requires EFT P90 + Five-seveN</color> ]\n",
+	glock = "[ <color=255,255,100>Requires EFT Glock 17/18C/19X</color> ]\n",
+	toz = "[ <color=255,255,100>Requires EFT TOZ-106 + MP-18</color> ]\n",
+	axmc = "[ <color=255,255,100>Requires EFT AI AXMC .338/.308</color> ]\n",
+	ash12 = "[ <color=255,255,100>Requires EFT ASh-12 + RSh-12</color> ]\n",
+	ak = "[ <color=255,255,100>Requires EFT AK Platform</color> ]\n",
+	extras = "[ <color=255,255,100>Requires EFT Extras</color> ]\n",
+	ar15 = "[ <color=255,255,100>Requires EFT AR15 + HK416</color> ]\n",
+	m3 = "[ <color=255,255,100>Requires EFT M3 S90 + M9A3</color> ]\n",
+	veresk = "[ <color=255,255,100>Requires EFT Veresk + Gyurza</color> ]\n",
+	usp = "[ <color=255,255,100>Requires EFT HK USP + UMP</color> ]\n",
+	grenades = "[ <color=255,255,100>Requires EFT Grenades</color> ]\n",
+	melee = "[ <color=255,255,100>Requires EFT Melee</color> ]\n",
+	ks23 = "[ <color=255,255,100>Requires EFT KS-23M + Mosin</color> ]\n",
+	pkm = "[ <color=255,255,100>Requires EFT PKM + PKP</color> ]\n",
+	m870 = "[ <color=255,255,100>Requires EFT M870 + FN40GL</color> ]\n",
+	svds = "[ <color=255,255,100>Requires EFT SVDS</color> ]\n",
+	scar = "[ <color=255,255,100>Requires EFT SCAR + SA-58</color> ]\n",
+	rpd = "[ <color=255,255,100>Requires EFT RPD + PPSH + TT</color> ]\n",
+	mr43 = "[ <color=255,255,100>Requires EFT MR-43 + PM + PB</color> ]\n",
+	sks = "[ <color=255,255,100>Requires EFT SKS + SVT + AVT</color> ]\n",
+	rsass = "[ <color=255,255,100>Requires EFT RSASS + Mutant + SR-25</color> ]\n",
+	mp7 = "[ <color=255,255,100>Requires EFT H&K MP7 + B&T MP9</color> ]\n",
+	mcx = "[ <color=255,255,100>Requires EFT SIG MCX + Spear + MPX + P226R</color> ]\n",
+	rsass = "[ <color=255,255,100>Requires EFT RSASS + Mutant + SR-25</color> ]\n",
+	pp91 = "[ <color=255,255,100>Requires EFT PP-91 + SV-98</color> ]\n",
+	aug = "[ <color=255,255,100>Requires EFT Steyr AUG A1 + A3</color> ]\n",
+	asval = "[ <color=255,255,100>Requires EFT AS VAL + VSS Vintorez + 9A-91 + VSK-94</color> ]\n",
+	deagle = "[ <color=255,255,100>Requires EFT Desert Eagle L5/L6/XIX</color> ]\n",
+	kriss = "[ <color=255,255,100>Requires EFT KRISS Vector Gen.2</color> ]\n",
+	pl15 = "[ <color=255,255,100>Requires EFT PL-15 + Stechkin APS/APB</color> ]\n",
+	g36 = "[ <color=255,255,100>Requires EFT H&K G36 + G28</color> ]\n",
+	mk18 = "[ <color=255,255,100>Requires EFT Mk-18 Mjölnir .338</color> ]\n",
+	mp5 = "[ <color=255,255,100>Requires EFT MP5 + M1911/M45</color> ]\n",
+	m60 = "[ <color=255,255,100>Requires EFT M60 + M32A1</color> ]\n",
+	m1a = "[ <color=255,255,100>Requires EFT M1A + M590A1</color> ]\n",
+	aa12 = "[ <color=255,255,100>Requires EFT AA-12</color> ]\n",
+	mp133 = "[ <color=255,255,100>Requires EFT MP-133/153/155 + Ultima</color> ]\n",
+	m700 = "[ <color=255,255,100>Requires EFT M700 + T-5000</color> ]\n",
+	uzi = "[ <color=255,255,100>Requires EFT UZI + UZI PRO</color> ]\n",
+}
 
 L["unlameifier_atts_eft_optics_general.printname"] = "Escape from Tarkov - General Optics"
 L["unlameifier_atts_eft_optics_general.compactname"] = "EFT Optics"
@@ -144,23 +237,71 @@ L["unlameifier_atts_eft_muzzles_45acp.description"] = githubwarn .. "Allows the 
 
 L["unlameifier_atts_eft_ar15_grips.printname"] = "Escape from Tarkov - AR-15 Grips"
 L["unlameifier_atts_eft_ar15_grips.compactname"] = "EFT AR-15 Grips"
-L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Allows the installation of AR-15 pistol grips from Escape from Tarkov.\nShould be equipped on slots that use AR-15 grips. Otherwise, expect <color=255,150,150>visual errors</color>."
+L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Allows the installation of AR-15 pistol grips from Escape from Tarkov.\nShould be equipped on slots that use AR-15 grips. Expect <color=255,150,150>visual errors</color> otherwise."
+
+L["unlameifier_atts_eft_ar15_charging_handles.printname"] = "Escape from Tarkov - AR-15 Charging Handles"
+L["unlameifier_atts_eft_ar15_charging_handles.compactname"] = "EFT AR-15 C. Handles"
+L["unlameifier_atts_eft_ar15_charging_handles.description"] = githubwarn .. "Allows the installation of AR-15 charging handles from Escape from Tarkov.\nShould be equipped on slots that use AR-15 charging handles. Expect <color=255,150,150>visual errors</color> otherwise."
 
 L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Barrels"
 L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Barrels"
-L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. "Allows the installation of AR-15 barrels from Escape from Tarkov.\nShould be equipped on barrel slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping a handguard ;)"
+L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. eftrequire.ar15 .. "Allows the installation of AR-15 barrels from Escape from Tarkov.\nShould be equipped on barrel slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping a handguard ;)"
 
 L["unlameifier_atts_eft_ar15_handguards.printname"] = "Escape from Tarkov - AR-15 Handguards"
 L["unlameifier_atts_eft_ar15_handguards.compactname"] = "EFT AR-15 Handguards"
-L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. "Allows the installation of AR-15 handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping an AR-15 barrel ;)"
+L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. eftrequire.ar15 .. "Allows the installation of AR-15 handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping an AR-15 barrel ;)"
 
 L["unlameifier_atts_eft_ar15_buffertubes.printname"] = "Escape from Tarkov - AR-15 Buffer Tubes"
 L["unlameifier_atts_eft_ar15_buffertubes.compactname"] = "EFT AR-15 Buffer Tubes"
-L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. "Allows the installation of AR-15 buffer tubes from Escape from Tarkov.\nShould be equipped on slots that <color=255,255,100>COULD</color> be for stocks.\nAutomatically provides stock options if equipped."
+L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. eftrequire.ar15 .. "Allows the installation of AR-15 buffer tubes from Escape from Tarkov.\nShould be equipped on slots that <color=255,255,100>COULD</color> be for stocks.\nAutomatically provides stock options if equipped."
 
 L["unlameifier_atts_eft_ar15_stocks.printname"] = "Escape from Tarkov - AR-15 Stocks"
 L["unlameifier_atts_eft_ar15_stocks.compactname"] = "EFT AR-15 Stocks"
-L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. "Allows the installation of AR-15 stocks from Escape from Tarkov.\nDoes <color=255,100,100>NOT</color> come with a buffer tube. Keep this in mind when equipping."
+L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. eftrequire.ar15 .. "Allows the installation of AR-15 stocks from Escape from Tarkov.\nDoes <color=255,100,100>NOT</color> come with a buffer tube. Keep this in mind when equipping."
+
+L["unlameifier_atts_eft_ar10_handguards.printname"] = "Escape from Tarkov - AR-10 Handguards"
+L["unlameifier_atts_eft_ar10_handguards.compactname"] = "EFT AR-10 Handguards"
+L["unlameifier_atts_eft_ar10_handguards.description"] = githubwarn .. eftrequire.rsass .. "Allows the installation of AR-10 handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping an AR-15 barrel ;)"
+
+L["unlameifier_atts_eft_mpx_barrels.printname"] = "Escape from Tarkov - MPX Barrels"
+L["unlameifier_atts_eft_mpx_barrels.compactname"] = "EFT MPX Barrels"
+L["unlameifier_atts_eft_mpx_barrels.description"] = githubwarn .. eftrequire.mcx .. "Allows the installation of MPX barrels from Escape from Tarkov.\nShould be equipped on barrel slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping a handguard ;)"
+
+L["unlameifier_atts_eft_mpx_handguards.printname"] = "Escape from Tarkov - MPX Handguards"
+L["unlameifier_atts_eft_mpx_handguards.compactname"] = "EFT MPX Handguards"
+L["unlameifier_atts_eft_mpx_handguards.description"] = githubwarn .. eftrequire.mcx .. "Allows the installation of MPX handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping an MPX barrel ;)"
+
+L["unlameifier_atts_eft_mcx_handguards.printname"] = "Escape from Tarkov - MCX Handguards"
+L["unlameifier_atts_eft_mcx_handguards.compactname"] = "EFT MCX Handguards"
+L["unlameifier_atts_eft_mcx_handguards.description"] = githubwarn .. eftrequire.mcx .. "Allows the installation of MCX handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\n<color=255,100,100>NOTE</color>: MCX barrels are bodygroups on the MCX weapon, and can therefore not be used on Unlameifier."
+
+L["unlameifier_atts_eft_mcx_stocks.printname"] = "Escape from Tarkov - MCX Stocks"
+L["unlameifier_atts_eft_mcx_stocks.compactname"] = "EFT MCX Stocks"
+L["unlameifier_atts_eft_mcx_stocks.description"] = githubwarn .. eftrequire.mcx .. "Allows the installation of MCX stocks from Escape from Tarkov.\nDoes <color=255,100,100>NOT</color> come with a buffer tube. Keep this in mind when equipping."
+
+L["unlameifier_atts_eft_ak_grips.printname"] = "Escape from Tarkov - AK Grips"
+L["unlameifier_atts_eft_ak_grips.compactname"] = "EFT AK Grips"
+L["unlameifier_atts_eft_ak_grips.description"] = githubwarn .. "Allows the installation of AK pistol grips from Escape from Tarkov.\nShould be equipped on slots that use AK grips. Expect <color=255,150,150>visual errors</color> otherwise."
+
+L["unlameifier_atts_eft_ak_gas_tubes.printname"] = "Escape from Tarkov - AK Gas Tubes"
+L["unlameifier_atts_eft_ak_gas_tubes.compactname"] = "EFT AK Gas Tubes"
+L["unlameifier_atts_eft_ak_gas_tubes.description"] = githubwarn .. "Allows the installation of AK gas tubes from Escape from Tarkov.\nShould be equipped on slots that use AK gas tubes. Expect <color=255,150,150>visual errors</color> otherwise.\nEnables a <color=255,255,100>Handguard</color> category when one is equipped."
+
+L["unlameifier_atts_eft_ak_handguards.printname"] = "Escape from Tarkov - AK Handguards"
+L["unlameifier_atts_eft_ak_handguards.compactname"] = "EFT AK Handguards"
+L["unlameifier_atts_eft_ak_handguards.description"] = githubwarn .. "Allows the installation of AK handguards from Escape from Tarkov.\nShould be equipped on slots that use AK handguards.\nDoes <color=255,100,100>NOT</color> come with a gas tube. Keep this in mind when equipping."
+
+L["unlameifier_atts_eft_ak_stocks.printname"] = "Escape from Tarkov - AK Stocks"
+L["unlameifier_atts_eft_ak_stocks.compactname"] = "EFT AK Stocks"
+L["unlameifier_atts_eft_ak_stocks.description"] = githubwarn .. "Allows the installation of AK stocks from Escape from Tarkov.\nShould be equipped on slots that use AK stocks. Expect <color=255,150,150>visual errors</color> otherwise."
+
+L["unlameifier_atts_eft_ak_ch_covers.printname"] = "Escape from Tarkov - AK Charging Handle Covers"
+L["unlameifier_atts_eft_ak_ch_covers.compactname"] = "EFT AK C. H. Cover"
+L["unlameifier_atts_eft_ak_ch_covers.description"] = githubwarn .. "Allows the installation of AK charging handle covers from Escape from Tarkov.\nExtremely niche, but your imagination is the only restriction on finding a use for these."
+
+L["unlameifier_atts_eft_ak_ubgls.printname"] = "Escape from Tarkov - AK Undermounted Grenade Launchers"
+L["unlameifier_atts_eft_ak_ubgls.compactname"] = "EFT AK UBGLs"
+L["unlameifier_atts_eft_ak_ubgls.description"] = githubwarn .. "Allows the installation of AK undermounted grenade launchers from Escape from Tarkov.\nShould be equipped on underbarrel slots. Expect <color=255,150,150>visual errors</color> otherwise."
 
 -- Calibers
 local soundmodstip = "\nTip: If you have the Sound Mods module equipped, you can change the sound of the weapon to make it sound more appropriate."
@@ -213,6 +354,14 @@ L["unlameifier_atts_eft_caliber_762x39mm.printname"] = "Escape from Tarkov - 7.6
 L["unlameifier_atts_eft_caliber_762x39mm.compactname"] = "7.62×39mm"
 L["unlameifier_atts_eft_caliber_762x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the AKM, Mk47, RPD, among others." .. soundmodstip
 
+L["unlameifier_atts_eft_caliber_545x39mm.printname"] = "Escape from Tarkov - 5.45×39mm"
+L["unlameifier_atts_eft_caliber_545x39mm.compactname"] = "5.45×39mm"
+L["unlameifier_atts_eft_caliber_545x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>5.45×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the AK-74, AK-12, RPK-16, among others." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_366tkm.printname"] = "Escape from Tarkov - .366 TKM"
+L["unlameifier_atts_eft_caliber_366tkm.compactname"] = ".366 TKM"
+L["unlameifier_atts_eft_caliber_366tkm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.366 TKM</color> used in the Escape from Tarkov weapon packs.\nUsed by the VPO-209 and VPO-215." .. soundmodstip
+
 L["unlameifier_atts_eft_caliber_9x39mm.printname"] = "Escape from Tarkov - 9×39mm"
 L["unlameifier_atts_eft_caliber_9x39mm.compactname"] = "9×39mm"
 L["unlameifier_atts_eft_caliber_9x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the 9A-91, AS VAL, VSS, among others." .. soundmodstip
@@ -248,6 +397,11 @@ L["unlameifier_atts_eft_caliber_23x75mm.description"] = githubwarn .. "Changes t
 L["unlameifier_atts_eft_caliber_40x46.printname"] = "Escape from Tarkov - 40×46mm"
 L["unlameifier_atts_eft_caliber_40x46.compactname"] = "40×46mm"
 L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>40×46mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the FN40GL, M203 and M32A1." .. soundmodstip
+
+-- Patches
+L["unlameifier_patch_eft_ignore_warnings.printname"] = "Critical Parts Bypass"
+L["unlameifier_patch_eft_ignore_warnings.compactname"] = "Critical Bypass"
+L["unlameifier_patch_eft_ignore_warnings.description"] = githubwarn .. "Forces all critical parts to be set to true, bypassing the \"<color=255,100,100>Missing Critical Parts!</color>\" warning.\n\n<color=255,255,100>NOTE</color>: Only needs to be equipped once, and can be equipped anywhere."
 
 //////////////////////////////// unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
@@ -2870,6 +3024,18 @@ L["unlameifier_sound_mw19_rpg.description"] = "Changes the firing sound of the w
 L["unlameifier_sound_mw19_mgl.printname"] = "MGL-32"
 L["unlameifier_sound_mw19_mgl.compactname"] = "MGL-32"
 L["unlameifier_sound_mw19_mgl.description"] = "Changes the firing sound of the weapon to the MGL-32 from Call of Duty: Modern Warfare 2019."
+
+//////////////// Warface
+L["unlameifier.folder.sounds.warface"] = "Unlameifier/Sound Mods/Warface"
+L["unlameifier.folder.sounds.warface.rifleman"] = "Unlameifier/Sound Mods/Warface/Rifleman"
+L["unlameifier.folder.sounds.warface.engineer"] = "Unlameifier/Sound Mods/Warface/Engineer"
+L["unlameifier.folder.sounds.warface.medic"] = "Unlameifier/Sound Mods/Warface/Medic"
+L["unlameifier.folder.sounds.warface.sniper"] = "Unlameifier/Sound Mods/Warface/Sniper"
+L["unlameifier.folder.sounds.warface.pistols"] = "Unlameifier/Sound Mods/Warface/Pistols"
+
+L["unlameifier_sound_warface_ar01.printname"] = "Tavor TAR-21"
+L["unlameifier_sound_warface_ar01.compactname"] = "TAR-21"
+L["unlameifier_sound_warface_ar01.description"] = "Changes the firing sound of the weapon to the Tavor TAR-21 from Warface."
 
 //////////////////////////////// unlameifier_toys_charms
 

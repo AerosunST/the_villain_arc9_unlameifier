@@ -9,7 +9,7 @@ Includes localizations for every accessory and outright weird attachment part of
 If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
 If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
 
-If you wish to translate to another language, you can copy+paste this file and replace "_en"  with the codename for your own language.
+If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
 
 If a localization has multiple lines, you have two choices:
@@ -35,6 +35,9 @@ L["unlameifier.folder.eftatts.mounts"] = "Tillbehör/EFT/Montering"
 L["unlameifier.folder.eftatts.muzzles"] = "Tillbehör/EFT/Mynning"
 
 L["unlameifier.folder.eftatts.bespoke.ar15"] = "Tillbehör/EFT/Skräddarsydd/AR-15"
+L["unlameifier.folder.eftatts.bespoke.ar10"] = "Attachments/EFT/Skräddarsydd/AR-10"
+L["unlameifier.folder.eftatts.bespoke.ak"] = "Attachments/EFT/Skräddarsydd/AK"
+L["unlameifier.folder.eftatts.bespoke.mpxmcx"] = "Attachments/EFT/Skräddarsydd/MPX+MCX"
 
 L["unlameifier.folder.eftatts.caliber.pistol"] = "Tillbehör/EFT/Kaliber/Pistol"
 L["unlameifier.folder.eftatts.caliber.magnum"] = "Tillbehör/EFT/Kaliber/Magnum"
@@ -42,6 +45,8 @@ L["unlameifier.folder.eftatts.caliber.intermediate"] = "Tillbehör/EFT/Kaliber/S
 L["unlameifier.folder.eftatts.caliber.heavy"] = "Tillbehör/EFT/Kaliber/Tung"
 L["unlameifier.folder.eftatts.caliber.shotgun"] = "Tillbehör/EFT/Kaliber/Hagelskott"
 L["unlameifier.folder.eftatts.caliber.ordnance"] = "Tillbehör/EFT/Kaliber/Spräng"
+
+L["unlameifier.folder.patches.eft.general"] = "Lappar/EFT/Generellt"
 
 L["unlameifier.attname.eftatts.optics"] = "EFT-Sikten"
 L["unlameifier.attname.eftatts.irons.front"] = "EFT J&K (F)"
@@ -64,15 +69,74 @@ L["unlameifier.attname.eftatts.muzzles.9mm"] = "EFT 9mm Mynningar"
 L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT K12 Mynningar"
 L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Mynningar"
 
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Grepp"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Pipor"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Handskydd"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Bufferrör"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Kolvar"
+L["unlameifier.attname.eftatts.grips.ar15"] = "EFT AR-15 Grepp"
+L["unlameifier.attname.eftatts.barrels.ar15"] = "EFT AR-15 Pipor"
+L["unlameifier.attname.eftatts.handguards.ar15"] = "EFT AR-15 Handskydd"
+L["unlameifier.attname.eftatts.buffertubes.ar15"] = "EFT AR-15 Bufferrör"
+L["unlameifier.attname.eftatts.stocks.ar15"] = "EFT AR-15 Kolvar"
+
+L["unlameifier.attname.eftatts.handguards.ar10"] = "EFT AR-10 Handskydd"
+
+L["unlameifier.attname.eftatts.barrels.mpx"] = "EFT MPX Pipor"
+L["unlameifier.attname.eftatts.handguards.mpx"] = "EFT MPX Handskydd"
+
+L["unlameifier.attname.eftatts.handguards.mcx"] = "EFT MCX Handskydd"
+L["unlameifier.attname.eftatts.stocks.mcx"] = "EFT MCX Kolvar"
+
+L["unlameifier.attname.eftatts.grips.ak"] = "EFT AK Grepp"
+L["unlameifier.attname.eftatts.barrels.ak"] = "EFT AK Gaspipa"
+L["unlameifier.attname.eftatts.handguards.ak"] = "EFT AK Handskydd"
+L["unlameifier.attname.eftatts.stocks.ak"] = "EFT AK Kolvar"
+L["unlameifier.attname.eftatts.chcover.ak"] = "EFT AK LH. Skydd"
+L["unlameifier.attname.eftatts.ubgl.ak"] = "EFT AK Granattillsats"
 
 L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
 
 local githubwarn = "<color=255,100,100>GITHUB-NOTIS</color>: När den släpps på workshop så kommer dessa tillbehör vara ett separat tillägg (\"ARC9 Unlameifier - EFT-Tillägg\"). Den är endast inkluderad här för bekvämlighetens skull.\n\n"
+
+local eftrequire = {
+	shared = "[ <color=255,255,100>Kräver EFT SHARED</color> ]\n",
+	p90 = "[ <color=255,255,100>Kräver EFT P90 + Five-seveN</color> ]\n",
+	glock = "[ <color=255,255,100>Kräver EFT Glock 17/18C/19X</color> ]\n",
+	toz = "[ <color=255,255,100>Kräver EFT TOZ-106 + MP-18</color> ]\n",
+	axmc = "[ <color=255,255,100>Kräver EFT AI AXMC .338/.308</color> ]\n",
+	ash12 = "[ <color=255,255,100>Kräver EFT ASh-12 + RSh-12</color> ]\n",
+	ak = "[ <color=255,255,100>Kräver EFT AK Platform</color> ]\n",
+	extras = "[ <color=255,255,100>Kräver EFT Extras</color> ]\n",
+	ar15 = "[ <color=255,255,100>Kräver EFT AR15 + HK416</color> ]\n",
+	m3 = "[ <color=255,255,100>Kräver EFT M3 S90 + M9A3</color> ]\n",
+	veresk = "[ <color=255,255,100>Kräver EFT Veresk + Gyurza</color> ]\n",
+	usp = "[ <color=255,255,100>Kräver EFT HK USP + UMP</color> ]\n",
+	grenades = "[ <color=255,255,100>Kräver EFT Grenades</color> ]\n",
+	melee = "[ <color=255,255,100>Kräver EFT Melee</color> ]\n",
+	ks23 = "[ <color=255,255,100>Kräver EFT KS-23M + Mosin</color> ]\n",
+	pkm = "[ <color=255,255,100>Kräver EFT PKM + PKP</color> ]\n",
+	m870 = "[ <color=255,255,100>Kräver EFT M870 + FN40GL</color> ]\n",
+	svds = "[ <color=255,255,100>Kräver EFT SVDS</color> ]\n",
+	scar = "[ <color=255,255,100>Kräver EFT SCAR + SA-58</color> ]\n",
+	rpd = "[ <color=255,255,100>Kräver EFT RPD + PPSH + TT</color> ]\n",
+	mr43 = "[ <color=255,255,100>Kräver EFT MR-43 + PM + PB</color> ]\n",
+	sks = "[ <color=255,255,100>Kräver EFT SKS + SVT + AVT</color> ]\n",
+	rsass = "[ <color=255,255,100>Kräver EFT RSASS + Mutant + SR-25</color> ]\n",
+	mp7 = "[ <color=255,255,100>Kräver EFT H&K MP7 + B&T MP9</color> ]\n",
+	mcx = "[ <color=255,255,100>Kräver EFT SIG MCX + Spear + MPX + P226R</color> ]\n",
+	rsass = "[ <color=255,255,100>Kräver EFT RSASS + Mutant + SR-25</color> ]\n",
+	pp91 = "[ <color=255,255,100>Kräver EFT PP-91 + SV-98</color> ]\n",
+	aug = "[ <color=255,255,100>Kräver EFT Steyr AUG A1 + A3</color> ]\n",
+	asval = "[ <color=255,255,100>Kräver EFT AS VAL + VSS Vintorez + 9A-91 + VSK-94</color> ]\n",
+	deagle = "[ <color=255,255,100>Kräver EFT Desert Eagle L5/L6/XIX</color> ]\n",
+	kriss = "[ <color=255,255,100>Kräver EFT KRISS Vector Gen.2</color> ]\n",
+	pl15 = "[ <color=255,255,100>Kräver EFT PL-15 + Stechkin APS/APB</color> ]\n",
+	g36 = "[ <color=255,255,100>Kräver EFT H&K G36 + G28</color> ]\n",
+	mk18 = "[ <color=255,255,100>Kräver EFT Mk-18 Mjölnir .338</color> ]\n",
+	mp5 = "[ <color=255,255,100>Kräver EFT MP5 + M1911/M45</color> ]\n",
+	m60 = "[ <color=255,255,100>Kräver EFT M60 + M32A1</color> ]\n",
+	m1a = "[ <color=255,255,100>Kräver EFT M1A + M590A1</color> ]\n",
+	aa12 = "[ <color=255,255,100>Kräver EFT AA-12</color> ]\n",
+	mp133 = "[ <color=255,255,100>Kräver EFT MP-133/153/155 + Ultima</color> ]\n",
+	m700 = "[ <color=255,255,100>Kräver EFT M700 + T-5000</color> ]\n",
+	uzi = "[ <color=255,255,100>Kräver EFT UZI + UZI PRO</color> ]\n",
+}
 
 L["unlameifier_atts_eft_optics_general.printname"] = "Escape from Tarkov - Generella Sikten"
 L["unlameifier_atts_eft_optics_general.compactname"] = "EFT Sikten"
@@ -146,21 +210,69 @@ L["unlameifier_atts_eft_ar15_grips.printname"] = "Escape from Tarkov - AR-15 Gre
 L["unlameifier_atts_eft_ar15_grips.compactname"] = "EFT AR-15 Grepp"
 L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Tillåter monteringen av AR-15 pistolgrepp från Escape from Tarkov.\nBorde utrustas på platser som använder AR-15 pistolgrepp. Förvänta annars <color=255,150,150>visuella fel</color>."
 
+L["unlameifier_atts_eft_ar15_charging_handles.printname"] = "Escape from Tarkov - AR-15 Laddhandtag"
+L["unlameifier_atts_eft_ar15_charging_handles.compactname"] = "EFT AR-15 Laddhandtag"
+L["unlameifier_atts_eft_ar15_charging_handles.description"] = githubwarn .. "Tillåter monteringen av AR-15 laddhandtag från Escape from Tarkov.\nBorde utrustas på platser som använder AR-15 laddhandtag. Förvänta annars <color=255,150,150>visuella fel</color>."
+
 L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Pipor"
 L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Pipor"
-L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. "Tillåter monteringen av AR-15 pipor från Escape from Tarkov.\nBorde utrustas på platser för pipor.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta ett handskydd ;)"
+L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. eftrequire.ar15 .. "Tillåter monteringen av AR-15 pipor från Escape from Tarkov.\nBorde utrustas på platser för pipor.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta ett handskydd ;)"
 
-L["unlameifier_atts_eft_ar15_handguards.printname"] = "Escape from Tarkov - AR-15 Handguards"
-L["unlameifier_atts_eft_ar15_handguards.compactname"] = "EFT AR-15 Handguards"
-L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. "Tillåter monteringen av AR-15 handskydd från Escape from Tarkov.\nBorde utrustas på platser för handskydd.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta en AR-15 pipa ;)"
+L["unlameifier_atts_eft_ar15_handguards.printname"] = "Escape from Tarkov - AR-15 Handskydd"
+L["unlameifier_atts_eft_ar15_handguards.compactname"] = "EFT AR-15 Handskydd"
+L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. eftrequire.ar15 .. "Tillåter monteringen av AR-15 handskydd från Escape from Tarkov.\nBorde utrustas på platser för handskydd.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta en AR-15 pipa ;)"
 
 L["unlameifier_atts_eft_ar15_buffertubes.printname"] = "Escape from Tarkov - AR-15 Bufferrör"
 L["unlameifier_atts_eft_ar15_buffertubes.compactname"] = "EFT AR-15 Bufferrör"
-L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. "Tillåter monteringen av AR-15 bufferrör från Escape from Tarkov.\nBorde utrustas på platser som <color=255,255,100>BORDE</color> vara för kolvar.\nErbjuder automatiskt kolv alternativ om den utrustas."
+L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. eftrequire.ar15 .. "Tillåter monteringen av AR-15 bufferrör från Escape from Tarkov.\nBorde utrustas på platser som <color=255,255,100>BORDE</color> vara för kolvar.\nErbjuder automatiskt kolv alternativ om den utrustas."
 
 L["unlameifier_atts_eft_ar15_stocks.printname"] = "Escape from Tarkov - AR-15 Kolvar"
 L["unlameifier_atts_eft_ar15_stocks.compactname"] = "EFT AR-15 Kolvar"
-L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. "Tillåter monteringen av AR-15 kolvar från Escape from Tarkov.\nKommer <color=255,100,100>EJ</color> med ett bufferrör. Kom ihåg detta när du sätter på den."
+L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. eftrequire.ar15 .. "Tillåter monteringen av AR-15 kolvar från Escape from Tarkov.\nKommer <color=255,100,100>EJ</color> med ett bufferrör. Kom ihåg detta när du sätter på den."
+
+L["unlameifier_atts_eft_ar10_handguards.printname"] = "Escape from Tarkov - AR-10 Handskydd"
+L["unlameifier_atts_eft_ar10_handguards.compactname"] = "EFT AR-10 Handskydd"
+L["unlameifier_atts_eft_ar10_handguards.description"] = githubwarn .. eftrequire.rsass .. "Tillåter monteringen av AR-10 handskydd från Escape from Tarkov.\nBorde utrustas på platser för handskydd.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta en AR-15 pipa ;)"
+
+L["unlameifier_atts_eft_mpx_barrels.printname"] = "Escape from Tarkov - MPX Pipor"
+L["unlameifier_atts_eft_mpx_barrels.compactname"] = "EFT MPX Pipor"
+L["unlameifier_atts_eft_mpx_barrels.description"] = githubwarn .. eftrequire.mcx .. "Tillåter monteringen av MPX pipor från Escape from Tarkov.\nBorde utrustas på platser för pipor.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta ett handskydd ;)"
+
+L["unlameifier_atts_eft_mpx_handguards.printname"] = "Escape from Tarkov - MPX Handskydd"
+L["unlameifier_atts_eft_mpx_handguards.compactname"] = "EFT MPX Handskydd"
+L["unlameifier_atts_eft_mpx_handguards.description"] = githubwarn .. eftrequire.mcx .. "Tillåter monteringen av MPX handskydd från Escape from Tarkov.\nBorde utrustas på platser för handskydd.\nTips from proffsen: Unlameifier Core erbjuder en extra tillbehörsplats ovanpå denna... pröva att utrusta en MPX pipa ;)"
+
+L["unlameifier_atts_eft_mcx_handguards.printname"] = "Escape from Tarkov - MCX Handskydd"
+L["unlameifier_atts_eft_mcx_handguards.compactname"] = "EFT MCX Handskydd"
+L["unlameifier_atts_eft_mcx_handguards.description"] = githubwarn .. eftrequire.mcx .. "Tillåter monteringen av MCX handskydd från Escape from Tarkov.\nBorde utrustas på platser för handskydd.\n<color=255,100,100>NOTIS</color>: MCX pipor är \"bodygroups\" på MCX-vapnet och kan därför inte användas på Unlameifier."
+
+L["unlameifier_atts_eft_mcx_stocks.printname"] = "Escape from Tarkov - MCX Kolvar"
+L["unlameifier_atts_eft_mcx_stocks.compactname"] = "EFT MCX Kolvar"
+L["unlameifier_atts_eft_mcx_stocks.description"] = githubwarn .. eftrequire.mcx .. "Tillåter monteringen av MCX kolvar från Escape from Tarkov.\nKommer <color=255,100,100>EJ</color> med ett bufferrör. Kom ihåg detta när du sätter på den."
+
+L["unlameifier_atts_eft_ak_grips.printname"] = "Escape from Tarkov - AK Grepp"
+L["unlameifier_atts_eft_ak_grips.compactname"] = "EFT AK Grepp"
+L["unlameifier_atts_eft_ak_grips.description"] = githubwarn .. "Tillåter monteringen av AK pistolgrepp från Escape from Tarkov.\nBorde utrustas på platser för that use AK grepp. Förvänta annars <color=255,150,150>visuella fel</color>."
+
+L["unlameifier_atts_eft_ak_gas_tubes.printname"] = "Escape from Tarkov - AK Gaspipa"
+L["unlameifier_atts_eft_ak_gas_tubes.compactname"] = "EFT AK Gaspipa"
+L["unlameifier_atts_eft_ak_gas_tubes.description"] = githubwarn .. "Tillåter monteringen av AK gaspipor från Escape from Tarkov.\nBorde utrustas på platser som använder AK gaspipor. Förvänta annars <color=255,150,150>visuella fel</color>.\nAktiverar en <color=255,255,100>Handskydd</color> kategori när en är monterad."
+
+L["unlameifier_atts_eft_ak_handguards.printname"] = "Escape from Tarkov - AK Handskydd"
+L["unlameifier_atts_eft_ak_handguards.compactname"] = "EFT AK Handskydd"
+L["unlameifier_atts_eft_ak_handguards.description"] = githubwarn .. "Tillåter monteringen av AK handskydd från Escape from Tarkov.\nBorde utrustas på platser för that use AK handskydd.\nKommer <color=255,100,100>EJ</color> med en gaspipa. Kom ihåg detta när du sätter på den."
+
+L["unlameifier_atts_eft_ak_stocks.printname"] = "Escape from Tarkov - AK Kolvar"
+L["unlameifier_atts_eft_ak_stocks.compactname"] = "EFT AK Kolvar"
+L["unlameifier_atts_eft_ak_stocks.description"] = githubwarn .. "Tillåter monteringen av AK kolvar från Escape from Tarkov.\nBorde utrustas på platser för that use AK kolvar. Förvänta annars <color=255,150,150>visuella fel</color>."
+
+L["unlameifier_atts_eft_ak_ch_covers.printname"] = "Escape from Tarkov - AK Laddhandtag Skydd"
+L["unlameifier_atts_eft_ak_ch_covers.compactname"] = "EFT AK LH. Skydd"
+L["unlameifier_atts_eft_ak_ch_covers.description"] = githubwarn .. "Tillåter monteringen av AK laddhandtag skydd från Escape from Tarkov.\nExtremt nisch men din fantasi är den enda begränsningen när det gäller att hitta en användning av dessa."
+
+L["unlameifier_atts_eft_ak_ubgls.printname"] = "Escape from Tarkov - AK Undermonterade Granattillsatser"
+L["unlameifier_atts_eft_ak_ubgls.compactname"] = "EFT AK UMG."
+L["unlameifier_atts_eft_ak_ubgls.description"] = githubwarn .. "Tillåter monteringen av AK undermounted grenade launchers från Escape from Tarkov.\nBorde utrustas på platser för underbarrel. Förvänta annars <color=255,150,150>visuella fel</color>."
 
 -- Calibers
 local soundmodstip = "\nTips: Om du har Ljudmodd modulen utrustat så kan du ändra vapnets ljud så den låter mer lämplig."
@@ -213,6 +325,14 @@ L["unlameifier_atts_eft_caliber_762x39mm.printname"] = "Escape from Tarkov - 7,6
 L["unlameifier_atts_eft_caliber_762x39mm.compactname"] = "7,62 × 39 mm"
 L["unlameifier_atts_eft_caliber_762x39mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>7,62 × 39 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av AKM, Mk47, RPD, bland andra." .. soundmodstip
 
+L["unlameifier_atts_eft_caliber_545x39mm.printname"] = "Escape from Tarkov - 5,45 × 39 mm"
+L["unlameifier_atts_eft_caliber_545x39mm.compactname"] = "5,45 × 39 mm"
+L["unlameifier_atts_eft_caliber_545x39mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>5,45 × 39 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av AK-74, AK-12, RPK-16, bland andra." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_366tkm.printname"] = "Escape from Tarkov - .366 TKM"
+L["unlameifier_atts_eft_caliber_366tkm.compactname"] = ".366 TKM"
+L["unlameifier_atts_eft_caliber_366tkm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>.366 TKM</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av VPO-209 och VPO-215." .. soundmodstip
+
 L["unlameifier_atts_eft_caliber_9x39mm.printname"] = "Escape from Tarkov - 9 × 39 mm"
 L["unlameifier_atts_eft_caliber_9x39mm.compactname"] = "9 × 39 mm"
 L["unlameifier_atts_eft_caliber_9x39mm.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>9 × 39 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av 9A-91, AS VAL, VSS, bland andra." .. soundmodstip
@@ -248,6 +368,11 @@ L["unlameifier_atts_eft_caliber_23x75mm.description"] = githubwarn .. "Byter vap
 L["unlameifier_atts_eft_caliber_40x46.printname"] = "Escape from Tarkov - 40 × 46 mm"
 L["unlameifier_atts_eft_caliber_40x46.compactname"] = "40 × 46 mm"
 L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Byter vapnets ammo typ till <color=255,255,100>40 × 46 mm</color> som används i Escape from Tarkov-vapenpaketen.\nAnvänds av FN40GL, M203 och M32A1." .. soundmodstip
+
+-- Patches
+L["unlameifier_patch_eft_ignore_warnings.printname"] = "Förbigång av Kritiska Delar"
+L["unlameifier_patch_eft_ignore_warnings.compactname"] = "Kritisk Förbigång"
+L["unlameifier_patch_eft_ignore_warnings.description"] = githubwarn .. "Tvingar att alla kritiska delar sätts till 'true' vilket förbigår \"<color=255,100,100>Missing Critical Parts!</color>\" varningen.\n\n<color=255,255,100>NOTIS</color>: Behöver endast utrustas en gång och kan utrustas vart som helst."
 
 //////////////////////////////// unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Adapter för Smycken (Uppe)"
@@ -2549,9 +2674,21 @@ L["unlameifier_sound_mw19_mgl.printname"] = "MGL-32"
 L["unlameifier_sound_mw19_mgl.compactname"] = "MGL-32"
 L["unlameifier_sound_mw19_mgl.description"] = "Ersätter skottljuden med dem från MGL-32 från Call of Duty: Modern Warfare 2019."
 
+//////////////// Warface
+L["unlameifier.folder.sounds.warface"] = "Unlameifier/Ljudmodd/Warface"
+L["unlameifier.folder.sounds.warface.rifleman"] = "Unlameifier/Ljudmodd/Warface/Skyttesoldat"
+L["unlameifier.folder.sounds.warface.engineer"] = "Unlameifier/Ljudmodd/Warface/Ingenjör"
+L["unlameifier.folder.sounds.warface.medic"] = "Unlameifier/Ljudmodd/Warface/Sjukvårdare"
+L["unlameifier.folder.sounds.warface.sniper"] = "Unlameifier/Ljudmodd/Warface/Krypskytt"
+L["unlameifier.folder.sounds.warface.pistols"] = "Unlameifier/Ljudmodd/Warface/Pistoler"
+
+L["unlameifier_sound_warface_ar01.printname"] = "Tavor TAR-21"
+L["unlameifier_sound_warface_ar01.compactname"] = "TAR-21"
+L["unlameifier_sound_warface_ar01.description"] = "Ersätter skottljuden med dem från Tavor TAR-21 från Warface."
+
 //////////////////////////////// unlameifier_toys_charms
 
-local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
+local ulcharm = "\n\nSmycke inkluderat i <color=175,175,255>Unlameifier</color>"
 
 //////////////// HL2
 L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"

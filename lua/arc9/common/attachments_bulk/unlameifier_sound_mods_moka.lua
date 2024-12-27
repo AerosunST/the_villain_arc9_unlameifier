@@ -2771,7 +2771,7 @@ ATT.InstallSound = gsp .. "winger_shoot.ogg",
 ARC9.LoadAttachment(ATT, "unlameifier_sound_tf2_winger")
 
 // ////////// Battlefield 2, Handheld //////////
-local gsp = "arc9/unlameifier/soundmods/bf2/"
+gsp = "arc9/unlameifier/soundmods/bf2/"
 
 ATT = {}
 
@@ -2780,8 +2780,8 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "92fs_fire_1p_outdoor.ogg"
-local gssfs = gsp .. "uspis_92fs_silencer_1p_fire.ogg"
+gssf = gsp .. "92fs_fire_1p_outdoor.ogg"
+gssfs = gsp .. "uspis_92fs_silencer_1p_fire.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3648,7 +3648,7 @@ ATT.InstallSound = gssf
 ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2_type95")
 
 // ////////// Battlefield 2142, Handheld //////////
-local gsp = "arc9/unlameifier/soundmods/bf2142/"
+gsp = "arc9/unlameifier/soundmods/bf2142/"
 
 ATT = {}
 
@@ -3657,7 +3657,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "as_ar_rifle_fire_1p.ogg"
+gssf = gsp .. "as_ar_rifle_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3676,7 +3676,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "as_ar_rifle_fire_1p.ogg"
+gssf = gsp .. "as_ar_rifle_fire_1p.ogg"
 
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
@@ -3703,7 +3703,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "as_smg_fire_1p.ogg"
+gssf = gsp .. "as_smg_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3722,7 +3722,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "as_sniper_1p.ogg"
+gssf = gsp .. "as_sniper_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3741,7 +3741,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "AS_Pistol_1p.ogg"
+gssf = gsp .. "AS_Pistol_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3759,7 +3759,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "eu_assault_rifle_fire_1p.ogg"
+gssf = gsp .. "eu_assault_rifle_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3778,7 +3778,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "eu_ar_rifle_fire_1p.ogg"
+gssf = gsp .. "eu_ar_rifle_fire_1p.ogg"
 
 ATT.ShootSound = "null"
 ATT.ShootSoundIndoor = "null"
@@ -3805,7 +3805,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "eu_smg_fire_1p.ogg"
+gssf = gsp .. "eu_smg_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3824,7 +3824,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "eu_sniper_1p.ogg"
+gssf = gsp .. "eu_sniper_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3843,7 +3843,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "eu_Pistol_1p.ogg"
+gssf = gsp .. "eu_Pistol_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3862,7 +3862,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "unl_adv_sniper_fire_1p.ogg"
+gssf = gsp .. "unl_adv_sniper_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3881,7 +3881,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "shotgun_fire_1p.ogg"
+gssf = gsp .. "shotgun_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3900,7 +3900,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.bf2142")
 
 table.Merge(ATT, sharedcode)
 
-local gssf = gsp .. "unl_carbine_fire_1p.ogg"
+gssf = gsp .. "unl_carbine_fire_1p.ogg"
 
 ATT.ShootSound = gssf
 ATT.ShootSoundIndoor = gssf
@@ -3909,3 +3909,40 @@ ATT.ShootSoundSilencedIndoor = gssf
 ATT.InstallSound = gssf
 
 ARC9.LoadAttachment(ATT, "unlameifier_sound_bf2142_unl_carbine")
+
+// ////////// Warface //////////
+gsp = "arc9/unlameifier/soundmods/warface/"
+
+ATT = {}
+
+ATT.PrintName = "Tavor TAR-21"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.warface.rifleman")
+
+table.Merge(ATT, sharedcode)
+
+ATT.ShootSound = "null"
+ATT.ShootSoundIndoor = "null"
+ATT.ShootSoundSilenced = "null"
+ATT.ShootSoundSilencedIndoor = "null"
+
+ATT.LayerSound = "null"
+ATT.DistantShootSound = "null"
+ATT.LayerSoundIndoor = "null"
+ATT.DistantShootSoundIndoor = "null"
+
+ATT.LayerSoundSilenced = "null"
+ATT.DistantShootSoundSilenced = "null"
+ATT.LayerSoundSilencedIndoor = "null"
+ATT.DistantShootSoundSilencedIndoor = "null"
+
+ATT.ShootSoundLooping = gsp .. "rifleman/ar01/loop.wav"
+ATT.ShootSoundWindDown = gsp .. "rifleman/ar01/tail.ogg"
+ATT.ShootSoundWindDownIndoor = gsp .. "rifleman/ar01/tail_indoor.ogg"
+
+ATT.ShootSoundLoopingSilenced = gsp .. "rifleman/ar01/loop_sil.wav"
+ATT.ShootSoundWindDownSilenced = gsp .. "rifleman/ar01/tail_indoor.ogg"
+ATT.ShootSoundWindDownIndoorSilenced = gsp .. "rifleman/ar01/tail_indoor.ogg"
+
+ARC9.LoadAttachment(ATT, "unlameifier_sound_warface_ar01")
+
+-------------------

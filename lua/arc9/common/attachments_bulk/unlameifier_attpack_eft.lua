@@ -172,7 +172,7 @@ ATT.Attachments = {
         PrintName = "EFT Pic. Rear Sights",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_rearsight"},
+        Category = {"eft_rearsight", "eft_ar_rearsight"},
 		Icon_Offset = Vector(0, 0, 3),
     },
     {
@@ -703,6 +703,117 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_charging_handles")
+
+///////////////////////////////////////      AR-15 UPPER RECEIVERS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AR-15 Upper Receivers"
+ATT.CompactName = "EFT AR Uppers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AR-15"
+ATT.Free = true
+ATT.Description = [[Equip AR-15 upper receivers from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that which use an AR-15 upper receiver. Expect visual oddities otherwise.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AR-15 Uppers",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_m4a1_upper", "eft_hk416_upper",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_upper_receivers")
+
+///////////////////////////////////////      AR-15 UPPER RECEIVERS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AR-15 Gas Blocks"
+ATT.CompactName = "EFT AR Uppers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AR-15"
+ATT.Free = true
+ATT.Description = [[Equip AR-15 Gas Blocks from Darsu's Escape from Tarkov weapon packs on this slot. These are to be used on slots that which use an AR-15 gas block. Expect visual oddities otherwise.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AR-15 Gas Blocks",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ar15_gasblock", "eft_hk416_gasblock",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_gas_blocks")
+
+///////////////////////////////////////      AR-15 M203 (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AR-15 M203"
+ATT.CompactName = "EFT AR M203"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AR-15"
+ATT.Free = true
+ATT.Description = [[Equip the AR-15 M203 from Darsu's Escape from Tarkov weapon packs on this slot. This is different from the standalone picatinny M203.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AR-15 M203",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_m4a1_m203",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_m203")
 
 ///////////////////////////////////////      AR-15 BARRELS (moka_pls_localize)
 
@@ -1412,6 +1523,44 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_9x21mm")
+
+///////////////////////////////////////      CALIBERS (7.62x25mm) (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x25mm"
+ATT.CompactName = "7.62x25mm"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x25/fmj.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Calibers/Pistol"
+ATT.Free = true
+ATT.Description = [[Changes the ammo your weapon fires to 7.62x25mm rounds from Darsu's Escape from Tarkov weapon packs. If you have the Sound Mods module installed, you can change the sound of your weapon to make it sound more appropriate for what you are shooting out of it.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience. You also have the Sound Mods module pre-installed with the Github version.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Ammo = "pistol"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT 7.62x25mm",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ammo_762x25tt"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_7.62x25mm")
 
 ///////////////////////////////////////      CALIBERS (.50 AE) (moka_pls_localize)
 

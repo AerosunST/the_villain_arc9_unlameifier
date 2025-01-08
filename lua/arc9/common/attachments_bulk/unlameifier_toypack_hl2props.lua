@@ -2995,3 +2995,37 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_combineenergyball")
+
+///////////////////////////////////////      Medvial (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Medvial"
+ATT.CompactName = "Medvial"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Combine"
+ATT.Free = true
+ATT.Description = [[Equips the Medvial prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/healthvial.mdl"
+ATT.Scale = 0.3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_medvial")

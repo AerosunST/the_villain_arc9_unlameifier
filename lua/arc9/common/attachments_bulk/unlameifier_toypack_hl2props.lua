@@ -2109,6 +2109,74 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_carbattery")
 
+///////////////////////////////////////      Gray Pipe (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Gray Pipe"
+ATT.CompactName = "Gray Pipe"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Junk"
+ATT.Free = true
+ATT.Description = [[Equips the Gray Pipe prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_pipes/pipecluster08d_extender64.mdl"
+ATT.Scale = 0.1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_graypipe")
+
+///////////////////////////////////////      Rusty Pipe (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rusty Pipe"
+ATT.CompactName = "Rusty Pipe"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Junk"
+ATT.Free = true
+ATT.Description = [[Equips the Rusty Pipe prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_pipes/pipeset32d_256_001a.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rustypipe")
+
 ///////////////////////////////////////      Shield Door A (moka_pls_localize)
 
 ATT = {}
@@ -3029,3 +3097,1373 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_medvial")
+
+///////////////////////////////////////      Long Tree (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Long Tree"
+ATT.CompactName = "Long Tree"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Long Tree prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/tree_pine_large.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_longtree")
+
+///////////////////////////////////////      Long Tree (Bare) (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Long Tree (Bare)"
+ATT.CompactName = "Long Tree (Bare)"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Long Tree (Bare) prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/tree_dry01.mdl"
+ATT.Scale = 0.035
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_longtreebare")
+
+///////////////////////////////////////      Bush 1 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Bush 1"
+ATT.CompactName = "Bush 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Bush 1 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/bush2.mdl"
+ATT.Scale = 0.1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_bush1")
+
+///////////////////////////////////////      Bush 2 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Bush 2"
+ATT.CompactName = "Bush 2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Bush 2 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/shrub_small.mdl"
+ATT.Scale = 0.05
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_bush2")
+
+///////////////////////////////////////      Bush 3 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Bush 3"
+ATT.CompactName = "Bush 3"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Bush 3 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/bramble001a.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_bush3")
+
+///////////////////////////////////////      Bush 4 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Bush 4"
+ATT.CompactName = "Bush 4"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Bush 4 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/tree_deciduous_03b.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_bush4")
+
+///////////////////////////////////////      Log (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Log"
+ATT.CompactName = "Log"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Log prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/tree_slice02.mdl"
+ATT.Scale = 0.05
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_log")
+
+///////////////////////////////////////      Rock 1 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rock 1"
+ATT.CompactName = "Rock 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Rock 1 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/rock_forest03.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rock1")
+
+///////////////////////////////////////      Rock 2 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rock 2"
+ATT.CompactName = "Rock 2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Rock 2 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/rock_forest04.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rock2")
+
+///////////////////////////////////////      Rock 3 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rock 3"
+ATT.CompactName = "Rock 3"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Rock 3 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/rock_coast02h.mdl"
+ATT.Scale = 0.015
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rock3")
+
+///////////////////////////////////////      Rock 3 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rock 4"
+ATT.CompactName = "Rock 4"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Rock 4 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/rock_coast02g.mdl"
+ATT.Scale = 0.01
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rock4")
+
+///////////////////////////////////////      Vines 1 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Vines 1"
+ATT.CompactName = "Vines 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Vines 1 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/vine_wall1.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_vines1")
+
+///////////////////////////////////////      Vines 2 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Vines 2"
+ATT.CompactName = "Vines 2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Vines 2 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/vine_wall2.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_vines2")
+
+///////////////////////////////////////      Ivy Vines (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Ivy Vines"
+ATT.CompactName = "Ivy Vines"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Ivy Vines prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/ivy_01.mdl"
+ATT.Scale = 0.025
+ATT.ModelOffset = Vector(0, 1.5, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_ivyvines")
+
+///////////////////////////////////////      Cliff Tree (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Cliff Tree"
+ATT.CompactName = "Cliff Tree"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Cliff Tree prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/tree_cliff_02a.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_clifftree")
+
+///////////////////////////////////////      Long Log 1 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Long Log 1"
+ATT.CompactName = "Long Log 1"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Long Log 1 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/driftwood_02a.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_longlog1")
+
+///////////////////////////////////////      Long Log 2 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Long Log 2"
+ATT.CompactName = "Long Log 2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Foliage"
+ATT.Free = true
+ATT.Description = [[Equips the Long Log 2 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/props_foliage/driftwood_01a.mdl"
+ATT.Scale = 0.025
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_longlog2")
+
+///////////////////////////////////////      Stunbaton (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Stunbaton"
+ATT.CompactName = "Stunbaton"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Stunbaton prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_stunbaton.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(2, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_stunbaton")
+
+///////////////////////////////////////      .357 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = ".357"
+ATT.CompactName = ".357"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the .357 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_357.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(-5, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_357")
+
+///////////////////////////////////////      Alyx Gun (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Alyx Gun"
+ATT.CompactName = "Alyx Gun"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Alyx Gun prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_alyx_gun.mdl"
+ATT.Scale = 0.2
+ATT.ModelOffset = Angle(0, -0.05, 0.7)
+ATT.ModelAngleOffset = Angle(-5, -13, 12)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_alyxgun")
+
+///////////////////////////////////////      Annabelle (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Annabelle"
+ATT.CompactName = "Annabelle"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Annabelle prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_annabelle.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(-6, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_annabelle")
+
+///////////////////////////////////////      Bug Bait (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Bug Bait"
+ATT.CompactName = "Bug Bait"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Bug Bait prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_bugbait.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_bugbait")
+
+///////////////////////////////////////      Combine Sniper (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Combine Sniper"
+ATT.CompactName = "Combine Sniper"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Combine Sniper prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_combine_sniper.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_combinesniper")
+
+///////////////////////////////////////      Crossbow (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Crossbow"
+ATT.CompactName = "Crossbow"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Crossbow prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_crossbow.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_crossbow")
+
+///////////////////////////////////////      Crowbar (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Crowbar"
+ATT.CompactName = "Crowbar"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Crowbar prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_crowbar.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(0, 0, -34)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_crowbar")
+
+///////////////////////////////////////      Grenade (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Grenade"
+ATT.CompactName = "Grenade"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Grenade prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_grenade.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_grenade")
+
+///////////////////////////////////////      AR2 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "AR2"
+ATT.CompactName = "AR2"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the AR2 prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_irifle.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_ar2")
+
+///////////////////////////////////////      Magnusson Device (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Magnusson Device"
+ATT.CompactName = "Magnusson Device"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Magnusson Device prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_magnade.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_magnussondevice")
+
+///////////////////////////////////////      Rocket (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rocket"
+ATT.CompactName = "Rocket"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Rocket prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_missile_closed.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rocket")
+
+///////////////////////////////////////      Gravity Gun (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Gravity Gun"
+ATT.CompactName = "Gravity Gun"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Gravity Gun prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_physics.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_gravitygun")
+
+///////////////////////////////////////      Pistol (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Pistol"
+ATT.CompactName = "Pistol"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Pistol prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_pistol.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(1, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_pistol")
+
+///////////////////////////////////////      Rocket Launcher (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Rocket Launcher"
+ATT.CompactName = "Rocket Launcher"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Rocket Launcher prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_rocket_launcher.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_rocketlauncher")
+
+///////////////////////////////////////      Shotgun (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Shotgun"
+ATT.CompactName = "Shotgun"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Shotgun prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_shotgun.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(-6, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_shotgun")
+
+///////////////////////////////////////      SLAM (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "SLAM"
+ATT.CompactName = "SLAM"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the SLAM prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_slam.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_slam")
+
+///////////////////////////////////////      SMG (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "SMG"
+ATT.CompactName = "SMG"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the SMG prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/w_smg1.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_smg")
+
+///////////////////////////////////////      SMG Grenade (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "SMG Grenade"
+ATT.CompactName = "SMG Grenade"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the SMG Grenade prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/ar2_grenade.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_smggrenade")
+
+///////////////////////////////////////      Flechette (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Flechette"
+ATT.CompactName = "Flechette"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Flechette prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/hunter_flechette.mdl"
+ATT.Scale = 0.2
+ATT.ModelAngleOffset = Angle(7, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_flechette")
+
+///////////////////////////////////////      Empty Rifle Shell (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Empty Rifle Shell"
+ATT.CompactName = "Empty Rifle Shell"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Empty Rifle Shell prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/rifleshell.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_emptyrifleshell")
+
+///////////////////////////////////////      Empty Pistol Shell (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Empty Pistol Shell"
+ATT.CompactName = "Empty Pistol Shell"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Empty Pistol Shell prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/shell.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_emptypistolshell")
+
+///////////////////////////////////////      Shotgun Shell (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Shotgun Shell"
+ATT.CompactName = "Shotgun Shell"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Props/Half-Life 2/Weapons"
+ATT.Free = true
+ATT.Description = [[Equips the Shotgun Shell prop from Half-Life 2. Keep in mind that manual repositioning and scaling is required. It would be a good idea to give yourself a couple blank patches before equipping this so then you have some room to work with.
+
+<color=255,0,0>Half-Life 2 and its Episodes may be required to be mounted in order for these props to work.</color>
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release, "Half-Life 2 Unlameifier Props". It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 0
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Model = "models/weapons/shotgun_shell.mdl"
+ATT.Scale = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_toy_hl2prop_shotgunshell")

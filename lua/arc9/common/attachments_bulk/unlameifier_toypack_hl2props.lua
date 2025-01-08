@@ -3698,7 +3698,7 @@ ATT.MenuCategory = "ARC9 - Unlameifier"
 
 ATT.Model = "models/weapons/w_stunbaton.mdl"
 ATT.Scale = 0.2
-ATT.ModelAngleOffset = Angle(2, 6, 0)
+ATT.ModelAngleOffset = Angle(4, 6, 0)
 
 ATT.Attachments = {
     {

@@ -1,13 +1,14 @@
 L = {} -- Vietnamese by annesting
 
 //////////////////////////////////////////////////////////////////////
-//////////////////////////////// Notes
+//////////////////////////////// Start of Notes
 
 --[[
 
 Includes localizations for every accessory and outright weird attachment part of Unlameifier.
 If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
 If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
+Note that there is a chance that not all localizations are up-to-date, and there might be missing some, or some might exist for removed accessories.
 
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
@@ -23,233 +24,7 @@ Text in Line 2 ]]
 
 --]]
 
-//////////////////////////////// unlameifier_attpack_eft
-L["unlameifier.folder.eftatts"] = "Attachments/EFT"
-L["unlameifier.folder.eftatts.optics"] = "Attachments/EFT/Optics"
-L["unlameifier.folder.eftatts.optics.irons"] = "Attachments/EFT/Optics/Irons"
-
-L["unlameifier.folder.eftatts.grips"] = "Attachments/EFT/Grips"
-
-L["unlameifier.folder.eftatts.mounts"] = "Attachments/EFT/Mounts"
-
-L["unlameifier.folder.eftatts.muzzles"] = "Attachments/EFT/Muzzles"
-
-L["unlameifier.folder.eftatts.bespoke.ar15"] = "Attachments/EFT/Bespoke/AR-15"
-
-L["unlameifier.folder.eftatts.caliber.pistol"] = "Attachments/EFT/Caliber/Pistol"
-L["unlameifier.folder.eftatts.caliber.magnum"] = "Attachments/EFT/Caliber/Magnum"
-L["unlameifier.folder.eftatts.caliber.intermediate"] = "Attachments/EFT/Caliber/Intermediate"
-L["unlameifier.folder.eftatts.caliber.heavy"] = "Attachments/EFT/Caliber/Heavy"
-L["unlameifier.folder.eftatts.caliber.shotgun"] = "Attachments/EFT/Caliber/Shotgun"
-L["unlameifier.folder.eftatts.caliber.ordnance"] = "Attachments/EFT/Caliber/Ordnance"
-
-L["unlameifier.attname.eftatts.optics"] = "EFT Optics"
-L["unlameifier.attname.eftatts.irons.front"] = "EFT Irons (F)"
-L["unlameifier.attname.eftatts.irons.rear"] = "EFT Irons (R)"
-
-L["unlameifier.attname.eftatts.grips"] = "EFT Grips"
-L["unlameifier.attname.eftatts.grips.mlok"] = "EFT MLOK Grips"
-
-L["unlameifier.attname.eftatts.mounts.mlok"] = "EFT MLOK Mounts"
-L["unlameifier.attname.eftatts.mounts.keymod"] = "EFT KeyMod Mounts"
-
-L["unlameifier.folder.eftatts.gear"] = "Attachments/EFT/Gear"
-L["unlameifier.attname.eftatts.tacticals"] = "EFT Tacticals"
-
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Muzzles"
-L["unlameifier.attname.eftatts.muzzles.ar10"] = "EFT AR-10 Muzzles"
-L["unlameifier.attname.eftatts.muzzles.akm"] = "EFT AKM Muzzles"
-L["unlameifier.attname.eftatts.muzzles.ak74"] = "EFT AK-74 Muzzles"
-L["unlameifier.attname.eftatts.muzzles.9mm"] = "EFT 9mm Muzzles"
-L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT 12G Muzzles"
-L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Muzzles"
-
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Grips"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Barrels"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Handguards"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Buffer Tubes"
-L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Stocks"
-
-L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
-
-local githubwarn = "<color=255,100,100>GITHUB NOTICE</color>: When released onto the workshop, these attachments will be a separate addon (\"ARC9 Unlameifier - EFT Extension\"). It is only included here for convenience.\n\n"
-
-L["unlameifier_atts_eft_optics_general.printname"] = "Escape from Tarkov - General Optics"
-L["unlameifier_atts_eft_optics_general.compactname"] = "EFT Optics"
-L["unlameifier_atts_eft_optics_general.description"] = githubwarn .. "Allows the installation of general optics from Escape from Tarkov."
-
-L["unlameifier_atts_eft_optics_dovetail.printname"] = "Escape from Tarkov - Dovetail Optics"
-L["unlameifier_atts_eft_optics_dovetail.compactname"] = "EFT Dovetail"
-L["unlameifier_atts_eft_optics_dovetail.description"] = githubwarn .. "Allows the installation of dovetail-mounted optics from Escape from Tarkov.\nThese are typically found on AK-platform weapons."
-
-L["unlameifier_atts_eft_optics_lp.printname"] = "Escape from Tarkov - Low Profile Optics"
-L["unlameifier_atts_eft_optics_lp.compactname"] = "EFT LP Optics"
-L["unlameifier_atts_eft_optics_lp.description"] = githubwarn .. "Allows the installation of low profile optics from Escape from Tarkov. These are optics without mounting plates, in case you wish to mount them on custom plates, or tacti-glue them where they do not belong.\n\nPlease ping Neosun on the Diamond Doves server if any are forgotten. Kind regards."
-
-L["unlameifier_atts_eft_optics_pic_irons_front.printname"] = "Escape from Tarkov - Picatinny Front Iron Sights"
-L["unlameifier_atts_eft_optics_pic_irons_front.compactname"] = "EFT Irons (F)"
-L["unlameifier_atts_eft_optics_pic_irons_front.description"] = githubwarn .. "Allows the installation of picatinny-mounted front iron sights from Escape from Tarkov."
-
-L["unlameifier_atts_eft_optics_pic_irons_rear.printname"] = "Escape from Tarkov - Picatinny Rear Iron Sights"
-L["unlameifier_atts_eft_optics_pic_irons_rear.compactname"] = "EFT Irons (R)"
-L["unlameifier_atts_eft_optics_pic_irons_rear.description"] = githubwarn .. "Allows the installation of picatinny-mounted rear iron sights from Escape from Tarkov."
-
-L["unlameifier_atts_eft_foregrips_pic.printname"] = "Escape from Tarkov - Picatinny Foregrips"
-L["unlameifier_atts_eft_foregrips_pic.compactname"] = "EFT Grips"
-L["unlameifier_atts_eft_foregrips_pic.description"] = githubwarn .. "Allows the installation of picatinny-mounted foregrips from Escape from Tarkov."
-
-L["unlameifier_atts_eft_foregrips_mlok.printname"] = "Escape from Tarkov - MLOK Foregrips"
-L["unlameifier_atts_eft_foregrips_mlok.compactname"] = "EFT Grips (MLOK)"
-L["unlameifier_atts_eft_foregrips_mlok.description"] = githubwarn .. "Allows the installation of MLOK foregrips from Escape from Tarkov."
-
-L["unlameifier_atts_eft_mounts_mlok.printname"] = "Escape from Tarkov - MLOK Rail Mounts"
-L["unlameifier_atts_eft_mounts_mlok.compactname"] = "EFT Mounts (MLOK)"
-L["unlameifier_atts_eft_mounts_mlok.description"] = githubwarn .. "Allows the installation of MLOK mounts from Escape from Tarkov."
-
-L["unlameifier_atts_eft_mounts_keymod.printname"] = "Escape from Tarkov - KeyMod Rail Mounts"
-L["unlameifier_atts_eft_mounts_keymod.compactname"] = "EFT Mounts (KeyMod)"
-L["unlameifier_atts_eft_mounts_keymod.description"] = githubwarn .. "Allows the installation of KeyMod mounts from Escape from Tarkov."
-
-L["unlameifier_atts_eft_tacticals.printname"] = "Escape from Tarkov - Tacticals"
-L["unlameifier_atts_eft_tacticals.compactname"] = "EFT Tacticals"
-L["unlameifier_atts_eft_tacticals.description"] = githubwarn .. "Allows the installation of tactical devices, such as flashlights and laser sights, from Escape from Tarkov."
-
-L["unlameifier_atts_eft_muzzles_ar15.printname"] = "Escape from Tarkov - AR-15 Muzzles"
-L["unlameifier_atts_eft_muzzles_ar15.compactname"] = "EFT AR-15 Muzzles"
-L["unlameifier_atts_eft_muzzles_ar15.description"] = githubwarn .. "Allows the installation of AR-15 muzzle attachments from Escape from Tarkov."
-
-L["unlameifier_atts_eft_muzzles_ar10.printname"] = "Escape from Tarkov - AR-10 Muzzles"
-L["unlameifier_atts_eft_muzzles_ar10.compactname"] = "EFT AR-10 Muzzles"
-L["unlameifier_atts_eft_muzzles_ar10.description"] = githubwarn .. "Allows the installation of AR-10 muzzle attachments from Escape from Tarkov."
-
-L["unlameifier_atts_eft_muzzles_akm.printname"] = "Escape from Tarkov - AKM Muzzles"
-L["unlameifier_atts_eft_muzzles_akm.compactname"] = "EFT AKM Muzzles"
-L["unlameifier_atts_eft_muzzles_akm.description"] = githubwarn .. "Allows the installation of AKM muzzle attachments from Escape from Tarkov."
-
-L["unlameifier_atts_eft_muzzles_ak74.printname"] = "Escape from Tarkov - AK-74 Muzzles"
-L["unlameifier_atts_eft_muzzles_ak74.compactname"] = "EFT AK-74 Muzzles"
-L["unlameifier_atts_eft_muzzles_ak74.description"] = githubwarn .. "Allows the installation of AK-74 muzzle attachments from Escape from Tarkov."
-
-L["unlameifier_atts_eft_muzzles_9mm.printname"] = "Escape from Tarkov - 9mm Muzzles"
-L["unlameifier_atts_eft_muzzles_9mm.compactname"] = "EFT 9mm Muzzles"
-L["unlameifier_atts_eft_muzzles_9mm.description"] = githubwarn .. "Allows the installation of small, pistol-size muzzle attachments from Escape from Tarkov.\n\nTypically found on handguns and smaller caliber firearms."
-
-L["unlameifier_atts_eft_muzzles_12g.printname"] = "Escape from Tarkov - 12 Gauge Muzzles"
-L["unlameifier_atts_eft_muzzles_12g.compactname"] = "EFT 12G Muzzles"
-L["unlameifier_atts_eft_muzzles_12g.description"] = githubwarn .. "Allows the installation of 12 Gauge muzzle attachments from Escape from Tarkov."
-
-L["unlameifier_atts_eft_muzzles_45acp.printname"] = "Escape from Tarkov - .45 ACP Muzzles"
-L["unlameifier_atts_eft_muzzles_45acp.compactname"] = "EFT .45 Muzzles"
-L["unlameifier_atts_eft_muzzles_45acp.description"] = githubwarn .. "Allows the installation of small, PDW-size muzzle attachments from Escape from Tarkov.\n\nTypically found on handguns and smaller caliber firearms."
-
-L["unlameifier_atts_eft_ar15_grips.printname"] = "Escape from Tarkov - AR-15 Grips"
-L["unlameifier_atts_eft_ar15_grips.compactname"] = "EFT AR-15 Grips"
-L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Allows the installation of AR-15 pistol grips from Escape from Tarkov.\nShould be equipped on slots that use AR-15 grips. Otherwise, expect <color=255,150,150>visual errors</color>."
-
-L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Barrels"
-L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Barrels"
-L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. "Allows the installation of AR-15 barrels from Escape from Tarkov.\nShould be equipped on barrel slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping a handguard ;)"
-
-L["unlameifier_atts_eft_ar15_handguards.printname"] = "Escape from Tarkov - AR-15 Handguards"
-L["unlameifier_atts_eft_ar15_handguards.compactname"] = "EFT AR-15 Handguards"
-L["unlameifier_atts_eft_ar15_handguards.description"] = githubwarn .. "Allows the installation of AR-15 handguards from Escape from Tarkov.\nShould be equipped on handguard slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping an AR-15 barrel ;)"
-
-L["unlameifier_atts_eft_ar15_buffertubes.printname"] = "Escape from Tarkov - AR-15 Buffer Tubes"
-L["unlameifier_atts_eft_ar15_buffertubes.compactname"] = "EFT AR-15 Buffer Tubes"
-L["unlameifier_atts_eft_ar15_buffertubes.description"] = githubwarn .. "Allows the installation of AR-15 buffer tubes from Escape from Tarkov.\nShould be equipped on slots that <color=255,255,100>COULD</color> be for stocks.\nAutomatically provides stock options if equipped."
-
-L["unlameifier_atts_eft_ar15_stocks.printname"] = "Escape from Tarkov - AR-15 Stocks"
-L["unlameifier_atts_eft_ar15_stocks.compactname"] = "EFT AR-15 Stocks"
-L["unlameifier_atts_eft_ar15_stocks.description"] = githubwarn .. "Allows the installation of AR-15 stocks from Escape from Tarkov.\nDoes <color=255,100,100>NOT</color> come with a buffer tube. Keep this in mind when equipping."
-
--- Calibers
-local soundmodstip = "\nTip: If you have the Sound Mods module equipped, you can change the sound of the weapon to make it sound more appropriate."
-
-L["unlameifier_atts_eft_caliber_45acp.printname"] = "Escape from Tarkov - .45 ACP"
-L["unlameifier_atts_eft_caliber_45acp.compactname"] = ".45 ACP"
-L["unlameifier_atts_eft_caliber_45acp.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.45 ACP</color> used in the Escape from Tarkov weapon packs.\nUsed by the H&K USP, H&K UMP, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_9x18mm.printname"] = "Escape from Tarkov - 9×18mm Makarov"
-L["unlameifier_atts_eft_caliber_9x18mm.compactname"] = "9×18mm"
-L["unlameifier_atts_eft_caliber_9x18mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×18mm Makarov</color> used in the Escape from Tarkov weapon packs.\nUsed by the PM, APS, PP-9 Klin, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_9x19mm.printname"] = "Escape from Tarkov - 9×19mm Parabellum"
-L["unlameifier_atts_eft_caliber_9x19mm.compactname"] = "9×19mm"
-L["unlameifier_atts_eft_caliber_9x19mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×19mm Parabellum</color> used in the Escape from Tarkov weapon packs.\nUsed by Glocks, the MP5, UZI, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_9x21mm.printname"] = "Escape from Tarkov - 9×21mm Gyurza"
-L["unlameifier_atts_eft_caliber_9x21mm.compactname"] = "9×21mm"
-L["unlameifier_atts_eft_caliber_9x21mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×21mm Gyurza</color> used in the Escape from Tarkov weapon packs.\nUsed by the SR-1MP and SR-2M." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_50ae.printname"] = "Escape from Tarkov - .50 Action Express"
-L["unlameifier_atts_eft_caliber_50ae.compactname"] = ".50 AE"
-L["unlameifier_atts_eft_caliber_50ae.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.50 Action Express</color> used in the Escape from Tarkov weapon packs.\nUsed by the Desert Eagle." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_357.printname"] = "Escape from Tarkov - .357 Magnum"
-L["unlameifier_atts_eft_caliber_357.compactname"] = ".357"
-L["unlameifier_atts_eft_caliber_357.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.357 Magnum</color> used in the Escape from Tarkov weapon packs.\nUsed by the Desert Eagle L5 .357 and CR 50DS." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_127x55mm.printname"] = "Escape from Tarkov - 12.7×55mm"
-L["unlameifier_atts_eft_caliber_127x55mm.compactname"] = "12.7×55mm"
-L["unlameifier_atts_eft_caliber_127x55mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>12.7×55mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the RSh-12 and ASh-12." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_556x45mm.printname"] = "Escape from Tarkov - 5.56×45mm NATO"
-L["unlameifier_atts_eft_caliber_556x45mm.compactname"] = "5.56×45mm"
-L["unlameifier_atts_eft_caliber_556x45mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>5.56×45mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the AR-15, AUG, G36, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_46x30mm.printname"] = "Escape from Tarkov - 4.6×30mm HK"
-L["unlameifier_atts_eft_caliber_46x30mm.compactname"] = "4.6×30mm"
-L["unlameifier_atts_eft_caliber_46x30mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>4.6×30mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the MP7." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_300blk.printname"] = "Escape from Tarkov - .300 Blackout"
-L["unlameifier_atts_eft_caliber_300blk.compactname"] = ".300BLK"
-L["unlameifier_atts_eft_caliber_300blk.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.300 Blackout</color> used in the Escape from Tarkov weapon packs.\nUsed by the MCX." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_57x28mm.printname"] = "Escape from Tarkov - 5.7×28mm FN"
-L["unlameifier_atts_eft_caliber_57x28mm.compactname"] = "5.7×28mm"
-L["unlameifier_atts_eft_caliber_57x28mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>5.7×28mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the FN 5-7 and P90." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_762x39mm.printname"] = "Escape from Tarkov - 7.62×39mm"
-L["unlameifier_atts_eft_caliber_762x39mm.compactname"] = "7.62×39mm"
-L["unlameifier_atts_eft_caliber_762x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the AKM, Mk47, RPD, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_9x39mm.printname"] = "Escape from Tarkov - 9×39mm"
-L["unlameifier_atts_eft_caliber_9x39mm.compactname"] = "9×39mm"
-L["unlameifier_atts_eft_caliber_9x39mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×39mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the 9A-91, AS VAL, VSS, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_762x51mm.printname"] = "Escape from Tarkov - 7.62×51mm NATO"
-L["unlameifier_atts_eft_caliber_762x51mm.compactname"] = "7.62×51mm"
-L["unlameifier_atts_eft_caliber_762x51mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×51mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the SCAR-H, SR-25, M60, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_762x54mmr.printname"] = "Escape from Tarkov - 7.62×54mmR"
-L["unlameifier_atts_eft_caliber_762x54mmr.compactname"] = "7.62×54mmR"
-L["unlameifier_atts_eft_caliber_762x54mmr.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×54mmR</color> used in the Escape from Tarkov weapon packs.\nUsed by the SVT-40, Mosin, PKM, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_68x51mm.printname"] = "Escape from Tarkov - 6.8×51mm"
-L["unlameifier_atts_eft_caliber_68x51mm.compactname"] = "6.8×51mm"
-L["unlameifier_atts_eft_caliber_68x51mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>6.8×51mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the MCX-SPEAR." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_338lapua.printname"] = "Escape from Tarkov - .338 Lapua Magnum"
-L["unlameifier_atts_eft_caliber_338lapua.compactname"] = ".338 Lapua"
-L["unlameifier_atts_eft_caliber_338lapua.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>.338 Lapua Magnum</color> used in the Escape from Tarkov weapon packs.\nUsed by the AXMC and Mk-18." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_12x70.printname"] = "Escape from Tarkov - 12/70"
-L["unlameifier_atts_eft_caliber_12x70.compactname"] = "12/70"
-L["unlameifier_atts_eft_caliber_12x70.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>12/70</color> used in the Escape from Tarkov weapon packs.\nUsed by the AA-12, M870, MP-155, among others." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_20x70.printname"] = "Escape from Tarkov - 20/70"
-L["unlameifier_atts_eft_caliber_20x70.compactname"] = "20/70"
-L["unlameifier_atts_eft_caliber_20x70.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>20/70</color> used in the Escape from Tarkov weapon packs.\nUsed by the TOZ-106." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_23x75mm.printname"] = "Escape from Tarkov - 23×75mmR"
-L["unlameifier_atts_eft_caliber_23x75mm.compactname"] = "23×75mmR"
-L["unlameifier_atts_eft_caliber_23x75mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>23×75mmR</color> used in the Escape from Tarkov weapon packs.\nUsed by the KS-23M." .. soundmodstip
-
-L["unlameifier_atts_eft_caliber_40x46.printname"] = "Escape from Tarkov - 40×46mm"
-L["unlameifier_atts_eft_caliber_40x46.compactname"] = "40×46mm"
-L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>40×46mm</color> used in the Escape from Tarkov weapon packs.\nUsed by the FN40GL, M203 and M32A1." .. soundmodstip
-
-//////////////////////////////// unlameifier_eft_charms
+//////////////////////////////// Start of unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Lắp móc khóa (Ở trên)"
 L["unlameifier_eft_charm_up.compactname"] = "Móc khóa (Trên)"
 L["unlameifier_eft_charm_up.description"] = [[Một tính năng thử nghiệm xiu xíu để coi nếu chúng tui có thể làm 1 khung gắn móc có thể dùng chung cho mọi vũ khi được hay không. Tốt nhất dùng này để gắn ở khung trên để có kết quả ưng mắt nhất.
@@ -273,7 +48,7 @@ L["unlameifier_eft_charm_right.compactname"] = "Móc khóa (Phải)"
 L["unlameifier_eft_charm_right.description"] = [[Một tính năng thử nghiệm xiu xíu để coi nếu chúng tui có thể làm 1 khung gắn móc có thể dùng chung cho mọi vũ khi được hay không. Tốt nhất dùng này để gắn ở khung bên phải để có kết quả ưng mắt nhất.
 
 Dùng này với bảng stat okela lắm nha. Stickers hiện tại không dùng được. Hong biết cách để bật được lệnh ForceNoCosmetics = true.]]
-//////////////////////////////// unlameifier_eft_extras
+//////////////////////////////// Start of unlameifier_eft_extras
 //////////////// MP7-specific
 L["eft_frontsight_mp7_fold.printname"] = "Bộ phận ngắm trước đã gập lại của H&K MP7"
 L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
@@ -587,7 +362,7 @@ L["eft_unlameifier_gangsta_hold.description"] = [[Cầm vũ khí theo kiểu gia
 
 Lạy cụ cụ đừng có làm mấy bài rap rồi đăng trên Soundcloud nữa, nghe nhảm cak rồi mà còn đòi làm giang hồ xóm chợ...]]
 
-//////////////////////////////// unlameifier_eft_extras custom strings
+//////////////////////////////// Start of unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Các tiện ích"
 L["unlameifier.folder.toys"] = "Unlameifier/Giải trí dui dui"
 L["unlameifier.folder.tracers"] = "Unlameifier/Đường đạn"
@@ -607,7 +382,7 @@ L["unlameifier.attname.g17_rearsight"] = "Bộ phận ngắm sau G17"
 L["unlameifier_eft_videogame_shotguns_custompro"] = "Đường kính trúng đạn được cải thiện"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Tắt khi dùng đạn Slug (Đạn bắn chim)"
 
-//////////////////////////////// unlameifier_sound_mods
+//////////////////////////////// Start of unlameifier_sound_mods
 //////////////// DOOM 1993
 L["unlameifier.folder.sounds.doom"] = "Unlameifier/Tiếng/DOOM"
 
@@ -1167,6 +942,9 @@ L["unlameifier_sound_melee_jojo_impact.printname"] = "Nấm đấm của Stand"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Đổi tiếng melee sang tiếng đấm của Stand từ JoJo's Bizarre Adventure."
 
+//////////////////////////////// End of unlameifier_sound_mods
+
+//////////////////////////////// Start of unlameifier_sound_mods_moka
 //////////////// Day of Defeat: Source
 L["unlameifier.folder.sounds.dods"] = "Unlameifier/Tiếng/DoD:S"
 
@@ -2279,262 +2057,9 @@ L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Súng carbine Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Đổi tiếng súng hiện tại sang tiếng Súng carbine Lambert từ Battlefield 2142." .. bf2nosupp
 
-//////////////////////////////// unlameifier_sound_mods_mw19
-//////////////// Modern Warfare 2019
-L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/ARs"
-L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/SMGs"
-L["unlameifier.folder.sounds.mw19.shotgun"] = "Unlameifier/Sound Mods/MW19/SHGs"
-L["unlameifier.folder.sounds.mw19.lmg"] = "Unlameifier/Sound Mods/MW19/LMGs"
-L["unlameifier.folder.sounds.mw19.marksman"] = "Unlameifier/Sound Mods/MW19/MMs"
-L["unlameifier.folder.sounds.mw19.sniper"] = "Unlameifier/Sound Mods/MW19/SRs"
-L["unlameifier.folder.sounds.mw19.handgun"] = "Unlameifier/Sound Mods/MW19/HGs"
-L["unlameifier.folder.sounds.mw19.launcher"] = "Unlameifier/Sound Mods/MW19/Launcher"
+//////////////////////////////// End of unlameifier_sound_mods_moka
 
--- Assault Rifles
-L["unlameifier_sound_mw19_kilo141.printname"] = "Kilo 141"
-L["unlameifier_sound_mw19_kilo141.compactname"] = "Kilo 141"
-L["unlameifier_sound_mw19_kilo141.description"] = "Changes the firing sound of the weapon to the Kilo 141 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_fal.printname"] = "FAL"
-L["unlameifier_sound_mw19_fal.compactname"] = "FAL"
-L["unlameifier_sound_mw19_fal.description"] = "Changes the firing sound of the weapon to the FAL from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_m4a1.printname"] = "M4A1"
-L["unlameifier_sound_mw19_m4a1.compactname"] = "M4A1"
-L["unlameifier_sound_mw19_m4a1.description"] = "Changes the firing sound of the weapon to the M4A1 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_fr556.printname"] = "FR 5.56"
-L["unlameifier_sound_mw19_fr556.compactname"] = "FR 5.56"
-L["unlameifier_sound_mw19_fr556.description"] = "Changes the firing sound of the weapon to the FR 5.56 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_oden.printname"] = "Oden"
-L["unlameifier_sound_mw19_oden.compactname"] = "Oden"
-L["unlameifier_sound_mw19_oden.description"] = "Changes the firing sound of the weapon to the Oden from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_m13.printname"] = "M13"
-L["unlameifier_sound_mw19_m13.compactname"] = "M13"
-L["unlameifier_sound_mw19_m13.description"] = "Changes the firing sound of the weapon to the M13 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_scar.printname"] = "FN Scar 17"
-L["unlameifier_sound_mw19_scar.compactname"] = "Scar 17"
-L["unlameifier_sound_mw19_scar.description"] = "Changes the firing sound of the weapon to the FN Scar 17 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_ak47.printname"] = "AK-47"
-L["unlameifier_sound_mw19_ak47.compactname"] = "AK-47"
-L["unlameifier_sound_mw19_ak47.description"] = "Changes the firing sound of the weapon to the AK-47 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_ram7.printname"] = "RAM-7"
-L["unlameifier_sound_mw19_ram7.compactname"] = "RAM-7"
-L["unlameifier_sound_mw19_ram7.description"] = "Changes the firing sound of the weapon to the RAM-7 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_grau.printname"] = "Grau 5.56"
-L["unlameifier_sound_mw19_grau.compactname"] = "Grau 5.56"
-L["unlameifier_sound_mw19_grau.description"] = "Changes the firing sound of the weapon to the Grau 5.56 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_cr56.printname"] = "CR-56 AMAX"
-L["unlameifier_sound_mw19_cr56.compactname"] = "CR-56"
-L["unlameifier_sound_mw19_cr56.description"] = "Changes the firing sound of the weapon to the CR-56 AMAX from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_an94.printname"] = "AN-94"
-L["unlameifier_sound_mw19_an94.compactname"] = "AN-94"
-L["unlameifier_sound_mw19_an94.description"] = "Changes the firing sound of the weapon to the AN-94 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_asval.printname"] = "AS VAL"
-L["unlameifier_sound_mw19_asval.compactname"] = "AS VAL"
-L["unlameifier_sound_mw19_asval.description"] = "Changes the firing sound of the weapon to the AS VAL from Call of Duty: Modern Warfare 2019."
-
--- SMGs
-L["unlameifier_sound_mw19_aug.printname"] = "AUG"
-L["unlameifier_sound_mw19_aug.compactname"] = "AUG"
-L["unlameifier_sound_mw19_aug.description"] = "Changes the firing sound of the weapon to the AUG from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_p90.printname"] = "P90"
-L["unlameifier_sound_mw19_p90.compactname"] = "P90"
-L["unlameifier_sound_mw19_p90.description"] = "Changes the firing sound of the weapon to the P90 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_mp5.printname"] = "MP5"
-L["unlameifier_sound_mw19_mp5.compactname"] = "MP5"
-L["unlameifier_sound_mw19_mp5.description"] = "Changes the firing sound of the weapon to the MP5 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_uzi.printname"] = "Uzi"
-L["unlameifier_sound_mw19_uzi.compactname"] = "Uzi"
-L["unlameifier_sound_mw19_uzi.description"] = "Changes the firing sound of the weapon to the Uzi from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_pp19.printname"] = "PP19 Bizon"
-L["unlameifier_sound_mw19_pp19.compactname"] = "PP19"
-L["unlameifier_sound_mw19_pp19.description"] = "Changes the firing sound of the weapon to the PP19 Bizon from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_mp7.printname"] = "MP7"
-L["unlameifier_sound_mw19_mp7.compactname"] = "MP7"
-L["unlameifier_sound_mw19_mp7.description"] = "Changes the firing sound of the weapon to the MP7 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_striker.printname"] = "Striker 45"
-L["unlameifier_sound_mw19_striker.compactname"] = "Striker 45"
-L["unlameifier_sound_mw19_striker.description"] = "Changes the firing sound of the weapon to the Striker 45 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_fennec.printname"] = "Fennec"
-L["unlameifier_sound_mw19_fennec.compactname"] = "Fennec"
-L["unlameifier_sound_mw19_fennec.description"] = "Changes the firing sound of the weapon to the Fennec from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_iso.printname"] = "ISO"
-L["unlameifier_sound_mw19_iso.compactname"] = "ISO"
-L["unlameifier_sound_mw19_iso.description"] = "Changes the firing sound of the weapon to the ISO from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_cx9.printname"] = "CX-9"
-L["unlameifier_sound_mw19_cx9.compactname"] = "CX-9"
-L["unlameifier_sound_mw19_cx9.description"] = "Changes the firing sound of the weapon to the CX-9 from Call of Duty: Modern Warfare 2019."
-
--- Shotguns
-L["unlameifier_sound_mw19_m680.printname"] = "Model 680"
-L["unlameifier_sound_mw19_m680.compactname"] = "Model 680"
-L["unlameifier_sound_mw19_m680.description"] = "Changes the firing sound of the weapon to the Model 680 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_r90.printname"] = "R9-0 Shotgun"
-L["unlameifier_sound_mw19_r90.compactname"] = "R9-0"
-L["unlameifier_sound_mw19_r90.description"] = "Changes the firing sound of the weapon to the R9-0 Shotgun from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_725.printname"] = "725"
-L["unlameifier_sound_mw19_725.compactname"] = "725"
-L["unlameifier_sound_mw19_725.description"] = "Changes the firing sound of the weapon to the 725 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_origin12.printname"] = "Origin 12 Shotgun"
-L["unlameifier_sound_mw19_origin12.compactname"] = "Origin 12"
-L["unlameifier_sound_mw19_origin12.description"] = "Changes the firing sound of the weapon to the Origin 12 Shotgun from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_vlk.printname"] = "VLK Rogue"
-L["unlameifier_sound_mw19_vlk.compactname"] = "VLK Rogue"
-L["unlameifier_sound_mw19_vlk.description"] = "Changes the firing sound of the weapon to the VLK Rogue from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_aa12.printname"] = "JAK-12"
-L["unlameifier_sound_mw19_aa12.compactname"] = "JAK-12"
-L["unlameifier_sound_mw19_aa12.description"] = "Changes the firing sound of the weapon to the JAK-12 from Call of Duty: Modern Warfare 2019."
-
--- LMGs
-L["unlameifier_sound_mw19_pkm.printname"] = "PKM"
-L["unlameifier_sound_mw19_pkm.compactname"] = "PKM"
-L["unlameifier_sound_mw19_pkm.description"] = "Changes the firing sound of the weapon to the PKM from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_sa87.printname"] = "SA87"
-L["unlameifier_sound_mw19_sa87.compactname"] = "SA87"
-L["unlameifier_sound_mw19_sa87.description"] = "Changes the firing sound of the weapon to the SA87 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_m91.printname"] = "M91"
-L["unlameifier_sound_mw19_m91.compactname"] = "M91"
-L["unlameifier_sound_mw19_m91.description"] = "Changes the firing sound of the weapon to the M91 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_mg34.printname"] = "MG34"
-L["unlameifier_sound_mw19_mg34.compactname"] = "MG34"
-L["unlameifier_sound_mw19_mg34.description"] = "Changes the firing sound of the weapon to the MG34 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_holger.printname"] = "Holger-26"
-L["unlameifier_sound_mw19_holger.compactname"] = "Holger-26"
-L["unlameifier_sound_mw19_holger.description"] = "Changes the firing sound of the weapon to the Holger-26 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_bruen.printname"] = "Bruen Mk9"
-L["unlameifier_sound_mw19_bruen.compactname"] = "Bruen"
-L["unlameifier_sound_mw19_bruen.description"] = "Changes the firing sound of the weapon to the Bruen Mk9 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_finn.printname"] = "FiNN LMG"
-L["unlameifier_sound_mw19_finn.compactname"] = "FiNN"
-L["unlameifier_sound_mw19_finn.description"] = "Changes the firing sound of the weapon to the FiNN LMG from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_raal.printname"] = "RAAL MG"
-L["unlameifier_sound_mw19_raal.compactname"] = "RAAL"
-L["unlameifier_sound_mw19_raal.description"] = "Changes the firing sound of the weapon to the RAAL MG from Call of Duty: Modern Warfare 2019."
-
--- Marksman Rifles
-L["unlameifier_sound_mw19_ebr.printname"] = "EBR-14"
-L["unlameifier_sound_mw19_ebr.compactname"] = "EBR-14"
-L["unlameifier_sound_mw19_ebr.description"] = "Changes the firing sound of the weapon to the EBR-14 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_mk2.printname"] = "MK2 Carbine"
-L["unlameifier_sound_mw19_mk2.compactname"] = "MK2 Carbine"
-L["unlameifier_sound_mw19_mk2.description"] = "Changes the firing sound of the weapon to the MK2 Carbine from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_kar98.printname"] = "Kar98k"
-L["unlameifier_sound_mw19_kar98.compactname"] = "Kar98k"
-L["unlameifier_sound_mw19_kar98.description"] = "Changes the firing sound of the weapon to the Kar98k from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_crossbow.printname"] = "Crossbow"
-L["unlameifier_sound_mw19_crossbow.compactname"] = "Crossbow"
-L["unlameifier_sound_mw19_crossbow.description"] = "Changes the firing sound of the weapon to the Crossbow from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_sks.printname"] = "SKS"
-L["unlameifier_sound_mw19_sks.compactname"] = "SKS"
-L["unlameifier_sound_mw19_sks.description"] = "Changes the firing sound of the weapon to the SKS from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_spr.printname"] = "SP-R 208"
-L["unlameifier_sound_mw19_spr.compactname"] = "SP-R 208"
-L["unlameifier_sound_mw19_spr.description"] = "Changes the firing sound of the weapon to the SP-R 208 from Call of Duty: Modern Warfare 2019."
-
--- Sniper Rifles
-L["unlameifier_sound_mw19_dragunov.printname"] = "Dragunov"
-L["unlameifier_sound_mw19_dragunov.compactname"] = "Dragunov"
-L["unlameifier_sound_mw19_dragunov.description"] = "Changes the firing sound of the weapon to the Dragunov from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_hdr.printname"] = "HDR"
-L["unlameifier_sound_mw19_hdr.compactname"] = "HDR"
-L["unlameifier_sound_mw19_hdr.description"] = "Changes the firing sound of the weapon to the HDR from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_ax50.printname"] = "AX-50"
-L["unlameifier_sound_mw19_ax50.compactname"] = "AX-50"
-L["unlameifier_sound_mw19_ax50.description"] = "Changes the firing sound of the weapon to the AX-50 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_rytec.printname"] = "Rytec AMR"
-L["unlameifier_sound_mw19_rytec.compactname"] = "Rytec AMR"
-L["unlameifier_sound_mw19_rytec.description"] = "Changes the firing sound of the weapon to the Rytec AMR from Call of Duty: Modern Warfare 2019."
-
--- Handguns
-L["unlameifier_sound_mw19_glock.printname"] = "X16"
-L["unlameifier_sound_mw19_glock.compactname"] = "X16"
-L["unlameifier_sound_mw19_glock.description"] = "Changes the firing sound of the weapon to the X16 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_1911.printname"] = "1911"
-L["unlameifier_sound_mw19_1911.compactname"] = "1911"
-L["unlameifier_sound_mw19_1911.description"] = "Changes the firing sound of the weapon to the 1911 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_357.printname"] = ".357"
-L["unlameifier_sound_mw19_357.compactname"] = ".357"
-L["unlameifier_sound_mw19_357.description"] = "Changes the firing sound of the weapon to the .357 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_m19.printname"] = "M19"
-L["unlameifier_sound_mw19_m19.compactname"] = "M19"
-L["unlameifier_sound_mw19_m19.description"] = "Changes the firing sound of the weapon to the M19 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_deagle.printname"] = ".50 GS"
-L["unlameifier_sound_mw19_deagle.compactname"] = ".50 GS"
-L["unlameifier_sound_mw19_deagle.description"] = "Changes the firing sound of the weapon to the .50 GS from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_m9.printname"] = "Renetti"
-L["unlameifier_sound_mw19_m9.compactname"] = "Renetti"
-L["unlameifier_sound_mw19_m9.description"] = "Changes the firing sound of the weapon to the Renetti from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_makarov.printname"] = "Sykov"
-L["unlameifier_sound_mw19_makarov.compactname"] = "Sykov"
-L["unlameifier_sound_mw19_makarov.description"] = "Changes the firing sound of the weapon to the Sykov from Call of Duty: Modern Warfare 2019."
-
--- Launchers
-L["unlameifier_sound_mw19_pila.printname"] = "PILA"
-L["unlameifier_sound_mw19_pila.compactname"] = "PILA"
-L["unlameifier_sound_mw19_pila.description"] = "Changes the firing sound of the weapon to the PILA from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_strela.printname"] = "Strela-P"
-L["unlameifier_sound_mw19_strela.compactname"] = "Strela-P"
-L["unlameifier_sound_mw19_strela.description"] = "Changes the firing sound of the weapon to the Strela-P from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_javelin.printname"] = "JOKR"
-L["unlameifier_sound_mw19_javelin.compactname"] = "JOKR"
-L["unlameifier_sound_mw19_javelin.description"] = "Changes the firing sound of the weapon to the JOKR from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_rpg.printname"] = "RPG-7"
-L["unlameifier_sound_mw19_rpg.compactname"] = "RPG-7"
-L["unlameifier_sound_mw19_rpg.description"] = "Changes the firing sound of the weapon to the RPG-7 from Call of Duty: Modern Warfare 2019."
-
-L["unlameifier_sound_mw19_mgl.printname"] = "MGL-32"
-L["unlameifier_sound_mw19_mgl.compactname"] = "MGL-32"
-L["unlameifier_sound_mw19_mgl.description"] = "Changes the firing sound of the weapon to the MGL-32 from Call of Duty: Modern Warfare 2019."
-
-//////////////////////////////// unlameifier_toys_charms
+//////////////////////////////// Start of unlameifier_toys_charms
 
 local ulcharm = "\n\nMóc khóa đi kèm trong bản mod <color=175,175,255>Unlameifier</color>"
 
@@ -2769,7 +2294,7 @@ L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
 L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
 L["unlameifier_charms_tf2_jackolantern.description"] = "Jack là 1 thằng chuyên lừa gạt, nhiều đến nổi kể cả quỷ Satan bị lừa bởi Jack đến nhiều lần."
 
-//////////////////////////////// unlameifier_tuning_system
+//////////////////////////////// Start of unlameifier_tuning_system
 //////////////// TRANSLATOR NOTES - PLEASE READ BEFORE TRANSLATING FURTHER
 
 --[[

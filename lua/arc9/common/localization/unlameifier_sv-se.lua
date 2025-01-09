@@ -1,13 +1,14 @@
 L = {} -- Swedish by Moka
 
 //////////////////////////////////////////////////////////////////////
-//////////////////////////////// Notes
+//////////////////////////////// Start of Notes
 
 --[[
 
 Includes localizations for every accessory and outright weird attachment part of Unlameifier.
 If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
 If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
+Note that there is a chance that not all localizations are up-to-date, and there might be missing some, or some might exist for removed accessories.
 
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
@@ -23,7 +24,7 @@ Text in Line 2 ]]
 
 --]]
 
-//////////////////////////////// unlameifier_attpack_eft
+//////////////////////////////// Start of unlameifier_attpack_eft
 L["unlameifier.folder.eftatts"] = "Tillbehör/EFT"
 L["unlameifier.folder.eftatts.optics"] = "Tillbehör/EFT/Sikten"
 L["unlameifier.folder.eftatts.optics.irons"] = "Tillbehör/EFT/Sikten/JärnKorn"
@@ -70,6 +71,9 @@ L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT K12 Mynningar"
 L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Mynningar"
 
 L["unlameifier.attname.eftatts.grips.ar15"] = "EFT AR-15 Grepp"
+L["unlameifier.attname.eftatts.chandles.ar15"] = "EFT AR-15 Laddhand."
+L["unlameifier.attname.eftatts.uppers.ar15"] = "EFT AR-15 Övre Låda"
+L["unlameifier.attname.eftatts.gasblocks.ar15"] = "EFT AR-15 Gasreg."
 L["unlameifier.attname.eftatts.barrels.ar15"] = "EFT AR-15 Pipor"
 L["unlameifier.attname.eftatts.handguards.ar15"] = "EFT AR-15 Handskydd"
 L["unlameifier.attname.eftatts.buffertubes.ar15"] = "EFT AR-15 Bufferrör"
@@ -213,6 +217,18 @@ L["unlameifier_atts_eft_ar15_grips.description"] = githubwarn .. "Tillåter mont
 L["unlameifier_atts_eft_ar15_charging_handles.printname"] = "Escape from Tarkov - AR-15 Laddhandtag"
 L["unlameifier_atts_eft_ar15_charging_handles.compactname"] = "EFT AR-15 Laddhandtag"
 L["unlameifier_atts_eft_ar15_charging_handles.description"] = githubwarn .. "Tillåter monteringen av AR-15 laddhandtag från Escape from Tarkov.\nBorde utrustas på platser som använder AR-15 laddhandtag. Förvänta annars <color=255,150,150>visuella fel</color>."
+
+L["unlameifier_atts_eft_ar15_upper_receivers.printname"] = "Escape from Tarkov - AR-15 Övre Lådor"
+L["unlameifier_atts_eft_ar15_upper_receivers.compactname"] = "EFT AR-15 Övre Låd."
+L["unlameifier_atts_eft_ar15_upper_receivers.description"] = githubwarn .. "Tillåter monteringen av övre AR-15-lådor från Escape from Tarkov.\nBorde utrustas på platser som använder övre AR-15-lådor. Förvänta annars <color=255,150,150>visuella fel</color>."
+
+L["unlameifier_atts_eft_ar15_gas_blocks.printname"] = "Escape from Tarkov - AR-15 Gasregulatorer"
+L["unlameifier_atts_eft_ar15_gas_blocks.compactname"] = "EFT AR-15 Gasreg."
+L["unlameifier_atts_eft_ar15_gas_blocks.description"] = githubwarn .. "Tillåter monteringen av AR-15 gas blocks från Escape from Tarkov.\nBorde utrustas på platser som använder AR-15 gasregulatorer. Förvänta annars <color=255,150,150>visuella fel</color>."
+
+L["unlameifier_atts_eft_ar15_m203.printname"] = "Escape from Tarkov - AR-15 M203"
+L["unlameifier_atts_eft_ar15_m203.compactname"] = "EFT AR-15 Gas Blocks"
+L["unlameifier_atts_eft_ar15_m203.description"] = githubwarn .. "Tillåter monteringen av AR-15 M203-granattillsatsen från Escape from Tarkov.\nNotera att denna är annorlunda från den enskilda picatinny-monterade M203:an."
 
 L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Pipor"
 L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Pipor"
@@ -374,7 +390,7 @@ L["unlameifier_patch_eft_ignore_warnings.printname"] = "Förbigång av Kritiska 
 L["unlameifier_patch_eft_ignore_warnings.compactname"] = "Kritisk Förbigång"
 L["unlameifier_patch_eft_ignore_warnings.description"] = githubwarn .. "Tvingar att alla kritiska delar sätts till 'true' vilket förbigår \"<color=255,100,100>Missing Critical Parts!</color>\" varningen.\n\n<color=255,255,100>NOTIS</color>: Behöver endast utrustas en gång och kan utrustas vart som helst."
 
-//////////////////////////////// unlameifier_eft_charms
+//////////////////////////////// Start of unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Adapter för Smycken (Uppe)"
 L["unlameifier_eft_charm_up.compactname"] = "Smycke (U)"
 L["unlameifier_eft_charm_up.description"] = [[Super-duper experimentellt test för att se om man kan göra an universal skena till smycken. Optimalt, och för bästa resultat, använd den på toppmonterade skenor.
@@ -399,7 +415,7 @@ L["unlameifier_eft_charm_right.description"] = [[Super-duper experimentellt test
 
 Används bäst för statistik skärmar. Klistermärken stöds ännu ej. Inget sätt att tvinga på ForceNoCosmetics = true.]]
 
-//////////////////////////////// unlameifier_eft_extras
+//////////////////////////////// Start of unlameifier_eft_extras
 //////////////// MP7-specific
 L["eft_frontsight_mp7_fold.printname"] = "Vikt H&K MP7 Främre Vikbart Sikte"
 L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
@@ -716,7 +732,7 @@ L["eft_unlameifier_gangsta_hold.description"] = [[Håll vapnet sidovägs med en 
 
 Bara så du vet så är din soundcloud-musik skit. Snälla, sluta försöka. Du kommer inte ut ur ghettot med dem.]]
 
-//////////////////////////////// unlameifier_eft_extras custom strings
+//////////////////////////////// Start of unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Verktyg"
 L["unlameifier.folder.toys"] = "Unlameifier/Leksaker"
 L["unlameifier.folder.tracers"] = "Spårljus"
@@ -736,7 +752,7 @@ L["unlameifier.attname.g17_rearsight"] = "Glock 17 Baksikte"
 L["unlameifier_eft_videogame_shotguns_custompro"] = "Bättre spridning"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Avaktivera när du använder brenneke"
 
-//////////////////////////////// unlameifier_sound_mods
+//////////////////////////////// Start of unlameifier_sound_mods
 //////////////// DOOM 1993
 L["unlameifier.folder.sounds.doom"] = "Unlameifier/Ljudmodd/DOOM"
 
@@ -1303,6 +1319,9 @@ L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Ändrar träffljudet med närstridsvapen med Stand Punch-ljudeffekten från JoJo's Bizarre Adventure."
 
+//////////////////////////////// End of unlameifier_sound_mods
+
+//////////////////////////////// Start of unlameifier_sound_mods_moka
 //////////////// Day of Defeat: Source
 L["unlameifier.folder.sounds.dods"] = "Unlameifier/Ljudmodd/DoD:S"
 
@@ -1511,9 +1530,9 @@ L["unlameifier_sound_dod_thompson.description"] = [[Ändrar vapnets skottljud ti
 
 "Thompsons lätta rekyl betyder att denna klass kan träffa måltavlor snabbt och träffsäkert.. Klassen är ideal för kortare räckvidd strider inne i städer."]]
 
-L["unlameifier_sound_dod_webley.printname"] = "Webley Revolver"
-L["unlameifier_sound_dod_webley.compactname"] = "Webley Revolver"
-L["unlameifier_sound_dod_webley.description"] = "Ändrar vapnets skottljud till Webley Revolvern från Day of Defeat."
+L["unlameifier_sound_dod_webley.printname"] = "Webley-Revolver"
+L["unlameifier_sound_dod_webley.compactname"] = "Webley-Revolver"
+L["unlameifier_sound_dod_webley.description"] = "Ändrar vapnets skottljud till Webley-Revolvern från Day of Defeat."
 
 //////////////// Team Fortress 2
 L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Ljudmodd/TF2"
@@ -2419,7 +2438,6 @@ L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert-karbin"
 L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Ersätter skottljuden med dem från Lambert-karbinen från Battlefield 2142." .. bf2nosupp
 
-//////////////////////////////// unlameifier_sound_mods_mw19
 //////////////// Modern Warfare 2019
 L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/AK:n"
 L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/KPist."
@@ -2686,7 +2704,9 @@ L["unlameifier_sound_warface_ar01.printname"] = "Tavor TAR-21"
 L["unlameifier_sound_warface_ar01.compactname"] = "TAR-21"
 L["unlameifier_sound_warface_ar01.description"] = "Ersätter skottljuden med dem från Tavor TAR-21 från Warface."
 
-//////////////////////////////// unlameifier_toys_charms
+//////////////////////////////// End of unlameifier_sound_mods_moka
+
+//////////////////////////////// Start of unlameifier_toys_charms
 
 local ulcharm = "\n\nSmycke inkluderat i <color=175,175,255>Unlameifier</color>"
 
@@ -2921,7 +2941,7 @@ L["unlameifier_charms_tf2_jackolantern.printname"] = "Halloweenpumpa"
 L["unlameifier_charms_tf2_jackolantern.compactname"] = "Halloween."
 L["unlameifier_charms_tf2_jackolantern.description"] = "Jack kunde luras så väl att djävulen själv inte bara blev lurad av Jack en gång, men två gånger."
 
-//////////////////////////////// unlameifier_tuning_system
+//////////////////////////////// Start of unlameifier_tuning_system
 //////////////// Utility
 L["unlameifier.folder.misc"] = "Annat"
 L["unlameifier.folder.misc.function"] = "Annat/Funktion"

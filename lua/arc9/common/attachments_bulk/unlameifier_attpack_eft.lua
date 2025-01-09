@@ -747,7 +747,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ar15_upper_receivers")
 ATT = {}
 
 ATT.PrintName = "Escape from Tarkov AR-15 Gas Blocks"
-ATT.CompactName = "EFT AR Uppers"
+ATT.CompactName = "EFT AR Gas Blocks"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
 ATT.Folder = "Attachments/EFT/Bespoke/AR-15"
 ATT.Free = true

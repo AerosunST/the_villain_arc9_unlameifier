@@ -1,13 +1,14 @@
 L = {} -- English by Moka & Neosun
 
 //////////////////////////////////////////////////////////////////////
-//////////////////////////////// Notes
+//////////////////////////////// Start of Notes
 
 --[[
 
 Includes localizations for every accessory and outright weird attachment part of Unlameifier.
 If a localization uses "ARC9:GetPhrase(TEXT)" in any line, it means it uses a string previously made in the file.
 If this is a localization file for anything but English (i.e. Spanish), then those can be safely removed or commented out.
+Note that there is a chance that not all localizations are up-to-date, and there might be missing some, or some might exist for removed accessories.
 
 If you wish to translate to another language, you can copy+paste this file and replace "_en" with the codename for your own language.
 For example, Spanish is "_es-es" and Russian is "_ru".
@@ -51,7 +52,7 @@ Text in Line 2 ]]
 
 --]]
 
-//////////////////////////////// unlameifier_attpack_eft
+//////////////////////////////// Start of unlameifier_attpack_eft
 L["unlameifier.folder.eftatts"] = "Attachments/EFT"
 L["unlameifier.folder.eftatts.optics"] = "Attachments/EFT/Optics"
 L["unlameifier.folder.eftatts.optics.irons"] = "Attachments/EFT/Optics/Irons"
@@ -99,6 +100,8 @@ L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Muzzles"
 
 L["unlameifier.attname.eftatts.grips.ar15"] = "EFT AR-15 Grips"
 L["unlameifier.attname.eftatts.chandles.ar15"] = "EFT AR-15 C. Handles"
+L["unlameifier.attname.eftatts.uppers.ar15"] = "EFT AR-15 Uppers"
+L["unlameifier.attname.eftatts.gasblocks.ar15"] = "EFT AR-15 Gas Blocks"
 L["unlameifier.attname.eftatts.barrels.ar15"] = "EFT AR-15 Barrels"
 L["unlameifier.attname.eftatts.handguards.ar15"] = "EFT AR-15 Handguards"
 L["unlameifier.attname.eftatts.buffertubes.ar15"] = "EFT AR-15 Buffer Tubes"
@@ -243,6 +246,18 @@ L["unlameifier_atts_eft_ar15_charging_handles.printname"] = "Escape from Tarkov 
 L["unlameifier_atts_eft_ar15_charging_handles.compactname"] = "EFT AR-15 C. Handles"
 L["unlameifier_atts_eft_ar15_charging_handles.description"] = githubwarn .. "Allows the installation of AR-15 charging handles from Escape from Tarkov.\nShould be equipped on slots that use AR-15 charging handles. Expect <color=255,150,150>visual errors</color> otherwise."
 
+L["unlameifier_atts_eft_ar15_upper_receivers.printname"] = "Escape from Tarkov - AR-15 Upper Receivers"
+L["unlameifier_atts_eft_ar15_upper_receivers.compactname"] = "EFT AR-15 Uppers"
+L["unlameifier_atts_eft_ar15_upper_receivers.description"] = githubwarn .. "Allows the installation of AR-15 upper receivers from Escape from Tarkov.\nShould be equipped on slots that use AR-15 upper receivers. Expect <color=255,150,150>visual errors</color> otherwise."
+
+L["unlameifier_atts_eft_ar15_gas_blocks.printname"] = "Escape from Tarkov - AR-15 Gas Blocks"
+L["unlameifier_atts_eft_ar15_gas_blocks.compactname"] = "EFT AR-15 Gas Blocks"
+L["unlameifier_atts_eft_ar15_gas_blocks.description"] = githubwarn .. "Allows the installation of AR-15 gas blocks from Escape from Tarkov.\nShould be equipped on slots that use AR-15 gas blocks. Expect <color=255,150,150>visual errors</color> otherwise."
+
+L["unlameifier_atts_eft_ar15_m203.printname"] = "Escape from Tarkov - AR-15 M203"
+L["unlameifier_atts_eft_ar15_m203.compactname"] = "EFT AR-15 M203"
+L["unlameifier_atts_eft_ar15_m203.description"] = githubwarn .. "Allows the installation of the AR-15 M203 grenade launcher from Escape from Tarkov.\nNote that this is different from the standalone picatinny-mounted M203."
+
 L["unlameifier_atts_eft_ar15_barrels.printname"] = "Escape from Tarkov - AR-15 Barrels"
 L["unlameifier_atts_eft_ar15_barrels.compactname"] = "EFT AR-15 Barrels"
 L["unlameifier_atts_eft_ar15_barrels.description"] = githubwarn .. eftrequire.ar15 .. "Allows the installation of AR-15 barrels from Escape from Tarkov.\nShould be equipped on barrel slots.\nPro tip: Unlameifier Core provides an extra attachment slot layered on top... try equipping a handguard ;)"
@@ -321,6 +336,10 @@ L["unlameifier_atts_eft_caliber_9x19mm.description"] = githubwarn .. "Changes th
 L["unlameifier_atts_eft_caliber_9x21mm.printname"] = "Escape from Tarkov - 9×21mm Gyurza"
 L["unlameifier_atts_eft_caliber_9x21mm.compactname"] = "9×21mm"
 L["unlameifier_atts_eft_caliber_9x21mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>9×21mm Gyurza</color> used in the Escape from Tarkov weapon packs.\nUsed by the SR-1MP and SR-2M." .. soundmodstip
+
+L["unlameifier_atts_eft_caliber_7.62x25mm.printname"] = "Escape from Tarkov - 7.62×25mm Tokarev"
+L["unlameifier_atts_eft_caliber_7.62x25mm.compactname"] = "7.62×25mm"
+L["unlameifier_atts_eft_caliber_7.62x25mm.description"] = githubwarn .. "Changes the weapon ammo type to <color=255,255,100>7.62×25mm Tokarev</color> used in the Escape from Tarkov weapon packs.\nUsed by the TT and PPSh-41." .. soundmodstip
 
 L["unlameifier_atts_eft_caliber_50ae.printname"] = "Escape from Tarkov - .50 Action Express"
 L["unlameifier_atts_eft_caliber_50ae.compactname"] = ".50 AE"
@@ -403,7 +422,9 @@ L["unlameifier_patch_eft_ignore_warnings.printname"] = "Critical Parts Bypass"
 L["unlameifier_patch_eft_ignore_warnings.compactname"] = "Critical Bypass"
 L["unlameifier_patch_eft_ignore_warnings.description"] = githubwarn .. "Forces all critical parts to be set to true, bypassing the \"<color=255,100,100>Missing Critical Parts!</color>\" warning.\n\n<color=255,255,100>NOTE</color>: Only needs to be equipped once, and can be equipped anywhere."
 
-//////////////////////////////// unlameifier_eft_charms
+//////////////////////////////// End of unlameifier_attpack_eft
+
+//////////////////////////////// Start of unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Charms Adapter (Up)"
 L["unlameifier_eft_charm_up.compactname"] = "Charms (U)"
 L["unlameifier_eft_charm_up.description"] = [[Super-duper experimental test to see if we can make a universal charm rail. Optimally, use it on top-mounted rails for best results.
@@ -428,7 +449,9 @@ L["unlameifier_eft_charm_right.description"] = [[Super-duper experimental test t
 
 Best used with stat screens. Stickers currently does not work. No way to force ForceNoCosmetics = true.]]
 
-//////////////////////////////// unlameifier_eft_extras
+//////////////////////////////// End of unlameifier_eft_charms
+
+//////////////////////////////// Start of unlameifier_eft_extras
 //////////////// MP7-specific
 L["eft_frontsight_mp7_fold.printname"] = "Folded H&K MP7 Front Flip-Up Sight"
 L["eft_frontsight_mp7_fold.compactname"] = "MP7 FS"
@@ -755,7 +778,9 @@ L["eft_unlameifier_gangsta_hold.description"] = [[Holds the weapon sideways with
 
 For the record, your soundcloud tracks are ass. Stop trying, please. You are not getting out of the hood with any of those.]]
 
-//////////////////////////////// unlameifier_eft_extras custom strings
+//////////////////////////////// End of unlameifier_eft_extras
+
+//////////////////////////////// Start of unlameifier_eft_extras custom strings
 L["unlameifier.folder.utilities"] = "Unlameifier/Unlameifier/Utilities"
 
 L["unlameifier.folder.toys"] = "Unlameifier/Unlameifier/Toys"
@@ -776,7 +801,9 @@ L["unlameifier.attname.g17_rearsight"] = "Glock 17 Rear Sight"
 L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
 L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"
 
-//////////////////////////////// unlameifier_sound_mods
+//////////////////////////////// End of unlameifier_eft_extras custom strings
+
+//////////////////////////////// Start of unlameifier_sound_mods
 //////////////// DOOM 1993
 L["unlameifier.folder.sounds.doom"] = "Unlameifier/Sound Mods/DOOM"
 
@@ -1343,6 +1370,9 @@ L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.description"] = "Changes the melee hit sound with a Stand Punch SFX from JoJo's Bizarre Adventure."
 
+//////////////////////////////// End of unlameifier_sound_mods
+
+//////////////////////////////// Start of unlameifier_sound_mods_moka
 //////////////// Day of Defeat: Source
 L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sound Mods/DoD:S"
 
@@ -2770,7 +2800,6 @@ L["unlameifier_sound_bf2142_unl_carbine.printname"] = "Lambert Carbine"
 L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Changes the firing sound of the weapon to the Lambert Carbine from Battlefield 2142." .. bf2nosupp
 
-//////////////////////////////// unlameifier_sound_mods_mw19
 //////////////// Modern Warfare 2019
 L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/ARs"
 L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/SMGs"
@@ -3037,7 +3066,9 @@ L["unlameifier_sound_warface_ar01.printname"] = "Tavor TAR-21"
 L["unlameifier_sound_warface_ar01.compactname"] = "TAR-21"
 L["unlameifier_sound_warface_ar01.description"] = "Changes the firing sound of the weapon to the Tavor TAR-21 from Warface."
 
-//////////////////////////////// unlameifier_toys_charms
+//////////////////////////////// End of unlameifier_sound_mods_moka
+
+//////////////////////////////// Start of unlameifier_toys_charms
 
 local ulcharm = "\n\nCharm included in <color=175,175,255>Unlameifier</color>"
 
@@ -3272,7 +3303,9 @@ L["unlameifier_charms_tf2_jackolantern.printname"] = "Jack-o'-Lantern"
 L["unlameifier_charms_tf2_jackolantern.compactname"] = "J-o'-L"
 L["unlameifier_charms_tf2_jackolantern.description"] = "Jack was an incredible trickster, so much so that the devil himself was fooled by ol' Jack more than once."
 
-//////////////////////////////// unlameifier_tuning_system
+//////////////////////////////// End of unlameifier_toys_charms
+
+//////////////////////////////// Start of unlameifier_tuning_system
 //////////////// TRANSLATOR NOTES - PLEASE READ BEFORE TRANSLATING FURTHER
 
 --[[

@@ -4,22 +4,22 @@ local ATT = {}
 
 ATT = {}
 
-ATT.PrintName = "Enable Tuning"
+ATT.PrintName = "Tuning System Injector"
 ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
 ATT.Description = "This is not localized!\nEnables tuning on weapons."
-ATT.SortOrder = -1
+ATT.SortOrder = 1
 ATT.AttNotForNPCs = true
 
 ATT.Category = "*"
 ATT.MenuCategory = "ARC9 - Unlameifier"
-ATT.Folder = "Unlameifier/Experiments"
+ATT.Folder = "Unlameifier/Core"
 
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
+        PrintName = "Unlameifier",
         Pos = Vector(50, 50, 50),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot"},
+        Category = {"unlameifier_core"},
     },
 	{
         PrintName = "Tuning",
@@ -131,6 +131,39 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.plus")
 ATT.NumAdd = 7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus7")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+8 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.plus")
+
+ATT.NumAdd = 8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus8")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+9 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.plus")
+
+ATT.NumAdd = 9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus9")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.plus")
+ATT.SortOrder = 10
+ATT.NumAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_plus10")
 
 //////////////////// Minus
 ATT = {}
@@ -209,6 +242,41 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.minus")
 ATT.NumAdd = -7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_minus7")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-8 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.minus")
+
+ATT.NumAdd = -8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_minus8")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-9 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.minus")
+
+ATT.NumAdd = -9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_minus9")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.minus")
+
+ATT.NumAdd = -10
+ATT.SortOrder = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_minus10")
+
 
 //////////////////// Fixed
 ATT = {}
@@ -299,6 +367,72 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.fixed")
 ATT.NumOverride = 8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_force8")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "9 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.fixed")
+
+ATT.NumOverride = 9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_force9")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.fixed")
+ATT.SortOrder = 10
+
+ATT.NumOverride = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_force10")
+//////////////////// Distribute Projectile Number Damage (Utility)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Enable Damage Distribution"
+ATT.CompactName = "Enable Damage Dist."
+ATT.Description = [[Makes it so damage is distributed evenly across every projectile.
+
+For reference, this is typically how actual shotgun damage is expected to work. This is NOT the default option when changing the projectile count on a weapon that fires only one projectile.]]
+ATT.Folder = "Projectiles/Utility"
+
+ATT.DistributeDamage = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_damage_dist_enable")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+ATT.Description = [[Makes it so every projectile does the full amount of damage per individual projectile, not distributing them.
+
+For reference, this will MULTIPLY your total damage PER projectile. This is the default option when changing the projectile count on a weapon that fires only one projectile.]]
+
+ATT.PrintName = "Disable Damage Distribution"
+ATT.CompactName = "Disable Damage Dist."
+ATT.Folder = "Projectiles/Utility"
+
+ATT.DistributeDamage = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_damage_dist_disable")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Projectile"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.fixed")
+ATT.SortOrder = 10
+
+ATT.NumOverride = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_force10")
 
 ///////////////////////////////////////     "AmmoPerShot" (Ammo per Shot)
 //////////////////// Plus

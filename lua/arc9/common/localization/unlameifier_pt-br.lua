@@ -378,7 +378,7 @@ L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Traçantes/Modificadore
 
 L["unlameifier.attname.frontsight"] = "Massa de Mira"
 L["unlameifier.attname.rearsight"] = "Alça de Mira"
-L["unlameifier.attname.customslot"] = "Slot Customizado"
+L["unlameifier.attname.customslot"] = "Unlameifier"
 
 L["unlameifier.attname.g17_slide"] = "Ferrolho da Glock 17"
 L["unlameifier.attname.g17_slide"] = "Cano Glock 17"
@@ -390,7 +390,7 @@ L["unlameifier_eft_videogame_shotguns_customcon"] = "Desativado quando usar Slug
 
 //////////////////////////////// Start of unlameifier_sound_mods
 //////////////// DOOM 1993
-L["unlameifier.folder.sounds.doom"] = "Unlameifier/Sons Diferenciados/DOOM"
+L["unlameifier.folder.sounds.doom"] = "Toys/Sounds/Gunfire/DOOM"
 
 L["unlameifier_sound_doom_pistol.printname"] = "Pistola"
 L["unlameifier_sound_doom_pistol.compactname"] = "Pistola"
@@ -413,7 +413,7 @@ L["unlameifier_sound_doom_rocket.compactname"] = "míssil"
 L["unlameifier_sound_doom_rocket.description"] = "Muda o som do tiro para o som do Lança-Míssil de DOOM (1993)."
 
 //////////////// Half-Life 2
-L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Sons Diferenciados/HL2"
+L["unlameifier.folder.sounds.hl2"] = "Toys/Sounds/Gunfire/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "Pistola 9mm"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistola"
@@ -476,7 +476,7 @@ L["unlameifier_sound_hl2_airboat2.description"] = [[Muda o som do tiro para o so
 Não atira dinamite extremamente rápido.]]
 
 //////////////// Half-Life 1
-L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Sons Diferenciados/HL1"
+L["unlameifier.folder.sounds.hl1"] = "Toys/Sounds/Gunfire/HL1"
 
 L["unlameifier_sound_hl1_pistol.printname"] = "Pistola"
 L["unlameifier_sound_hl1_pistol.compactname"] = "Pistola"
@@ -551,7 +551,7 @@ L["unlameifier_sound_hl1_xbow.description"] = [[Muda o som do tiro para o som da
 Pra ser sincero, tem coisas mais estranhas pra mudar o som da suas armas. Mas cada um é cada um.]]
 
 //////////////// Counter-Strike: Source
-L["unlameifier.folder.sounds.css"] = "Unlameifier/Sons Diferenciados/CSS"
+L["unlameifier.folder.sounds.css"] = "Toys/Sounds/Gunfire/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "Pistola 9x19mm"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
@@ -734,7 +734,7 @@ Quando <color=100,255,100>Silenciada</color>: Usa o som da M4A1.
 <color=150,150,255>Fato Engraçado</color>: No Source, a M249 não tem uma coronha.]]
 
 //////////////// Neosun Mouth
-L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Sons Diferenciados/Neosun"
+L["unlameifier.folder.sounds.neosun"] = "Toys/Sounds/Gunfire/Neosun"
 
 L["unlameifier_sound_neosun_pew.printname"] = "Piu"
 L["unlameifier_sound_neosun_pew.compactname"] = "Piu"
@@ -755,7 +755,7 @@ L["unlameifier_sound_neosun_gunshot.description"] = [[Dublador Profissional Neos
 Esse é um "Tiro".]]
 
 //////////////// Misc.
-L["unlameifier.folder.sounds.misc"] = "Unlameifier/Sons Diferenciados/Misc."
+L["unlameifier.folder.sounds.misc"] = "Toys/Sounds/Gunfire/Misc."
 
 L["unlameifier_sound_misc_sussy.printname"] = "Loucura Sem Sentido"
 L["unlameifier_sound_misc_sussy.compactname"] = "Insanidade"
@@ -817,7 +817,7 @@ Diferente do original, essa Versão adiciona uma águia quando se para de atirar
 <color=255,150,150>EUA</color>! EUA! <color=150,150,255>EUA</color>! <color=255,150,150>USA</color>! EUA! <color=150,150,255>EUA</color>! ]]
 
 //////////////// Call of Duty: Modern Warfare 2 (2009)
-L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Sons Diferenciados/MW2"
+L["unlameifier.folder.sounds.mw2"] = "Toys/Sounds/Gunfire/MW2"
 
 L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
 L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
@@ -826,7 +826,7 @@ L["unlameifier_sound_codmw2_intervention.description"] = [[Muda o som do tiro pa
 Valeu, Palindrone, por me deixar roubar do seu mod de armas do Call of Duty. Vai lá dar uma conferida, ta muito foda!]]
 
 //////////////// Roblox
-L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Sons Diferenciados/Roblox"
+L["unlameifier.folder.sounds.roblox"] = "Toys/Sounds/Gunfire/Roblox"
 
 L["unlameifier_sound_roblox_paintball.printname"] = "Arma de Paintball"
 L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
@@ -859,7 +859,7 @@ L["unlameifier_sound_roblox_guitar.description"] = [[Muda o som do tiro para o s
 Dá até pra tocar uma música com ela!]]
 
 //////////////// Music
-L["unlameifier.folder.sounds.music"] = "Unlameifier/Sons Diferenciados/Música"
+L["unlameifier.folder.sounds.music"] = "Toys/Sounds/Gunfire/Música"
 
 L["unlameifier_sound_music_usa1.printname"] = "O Hino Americano"
 L["unlameifier_sound_music_usa1.compactname"] = "Hino EUA"
@@ -888,7 +888,7 @@ L["unlameifier_sound_music_usa4.description"] = [[NADA MAIS AMERICANO DO QUE TOR
 DEUS ABENÇOE A <color=255,100,100>AM</color>ÉR<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 //////////////// KindredFlame
-L["unlameifier.folder.sounds.ws"] = "Unlameifier/Sons Diferenciados/KindredFlame"
+L["unlameifier.folder.sounds.ws"] = "Toys/Sounds/Gunfire/KindredFlame"
 
 L["unlameifier_sound_ws_m16a4.printname"] = "M16A4 do KindredFlame"
 L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
@@ -897,7 +897,7 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Muda o som do tiro para o som da
 Lendas nunca morrem...]]
 
 //////////////// Misc. (Ricochet)
-L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Sons Diferenciados/Misc./Ricochet" -- NEW
+L["unlameifier.folder.sounds.misc.ricochet"] = "Toys/Sounds/Gunfire/Misc./Ricochet" -- NEW
 
 L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball Sounds" -- NEW
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball" -- NEW
@@ -906,7 +906,7 @@ L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Makes the ricochets
 Combine with "100% Ricochet Chance", "90° Ricochet", "+Seeking Ricochet" and "90° Seeking Ricochet" in the Tuning System for a more realistic pinball experience.]] -- NEW
 
 //////////////// Misc. (Impact)
-L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Sons Diferenciados/Misc./Impacto"
+L["unlameifier.folder.sounds.misc.impact"] = "Toys/Sounds/Gunfire/Misc./Impacto"
 
 L["unlameifier_sound_impact_misc_discord.printname"] = "Discord Notification" -- NEW
 L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord" -- NEW
@@ -921,7 +921,7 @@ L["unlameifier_sound_impact_misc_discord60s.description"] = [[Replaces the bulle
 Calm down, Satan.]] -- NEW
 
 //////////////// Melee Sounds Misc (Impact)
-L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Sons Diferenciados/Impacto/Misc."
+L["unlameifier.folder.sounds.melee.bonk"] = "Toys/Sounds/Melee/Impacto/Misc."
 
 L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
@@ -932,7 +932,7 @@ L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
 L["unlameifier_sound_melee_whipcrack_impact.description"] = "Agora *whipcrack* você *whipcrack* pode *whipcrack* se *whipcrack* parecer *whipcrack* igual *whipcrack* o *whipcrack* seu *whipcrack* personagem *whipcrack* favorito *whipcrack*, Johnny *whipcrack* Test *whipcrack*  *whipcrack* *whipcrack* *whipcrack*  *whipcrack*."
 
 //////////////// Melee Sounds JJBA (Swing)
-L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sons Diferenciados/Swing/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Toys/Sounds/Melee/Swing/JJBA"
 
 L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
 L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
@@ -949,7 +949,7 @@ MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA
 (meio bosta pq som de corpo-a-corpo não faz loop- culpa o arctic)]]
 
 //////////////// Melee Sounds JJBA (Impact)
-L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Sons Diferenciados/Impacto/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Toys/Sounds/Melee/Impacto/JJBA"
 
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Soco de Stand"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Soco Stand"
@@ -959,7 +959,7 @@ L["unlameifier_sound_melee_jojo_impact.description"] = "Muda o som do corpo-a-co
 
 //////////////////////////////// Start of unlameifier_sound_mods_moka
 //////////////// Day of Defeat: Source
-L["unlameifier.folder.sounds.dods"] = "Unlameifier/Sons Diferenciados/DoD:S"
+L["unlameifier.folder.sounds.dods"] = "Toys/Sounds/Gunfire/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = "Calibre .30"
 L["unlameifier_sound_dods_30cal.compactname"] = ".30 Cal"
@@ -1030,7 +1030,7 @@ L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Muda o som do tiro para o som da Thompson do Day of Defeat: Source."
 
 //////////////// Day of Defeat
-L["unlameifier.folder.sounds.dod"] = "Unlameifier/Sons Diferenciados/DoD"
+L["unlameifier.folder.sounds.dod"] = "Toys/Sounds/Gunfire/DoD"
 
 L["unlameifier_sound_dod_30cal.printname"] = "Calibre .30"
 L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
@@ -1171,9 +1171,9 @@ L["unlameifier_sound_dod_webley.compactname"] = "Revólver Webley"
 L["unlameifier_sound_dod_webley.description"] = "Muda o som do tiro para o som do Revólver Webley do Day of Defeat."
 
 //////////////// Team Fortress 2
-L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Sons Diferenciados/TF2"
-L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Sons Diferenciados/Swing/TF2"
-L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Sons Diferenciados/Impact/TF2"
+L["unlameifier.folder.sounds.tf2"] = "Toys/Sounds/Gunfire/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Toys/Sounds/Melee/Swing/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Toys/Sounds/Melee/Impact/TF2"
 
 L["unlameifier_tf2_scout"] = "/Scout"
 L["unlameifier_tf2_soldier"] = "/Soldier"
@@ -1575,14 +1575,14 @@ L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "
 L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "Chave Inglesa") .. string.format(tf2desc.crit, 10)
 
 //////////////// Fallout 4 & 76
-L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Sons Diferenciados/Fallout 4"
-L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Sons Diferenciados/Fallout 76"
-L["unlameifier.folder.sounds.fo76.auto"] = "Unlameifier/Sons Diferenciados/Fallout 76/Auto"
-L["unlameifier.folder.sounds.fo76.auto.420"] = "Unlameifier/Sons Diferenciados/Fallout 76/Auto/420RPM"
-L["unlameifier.folder.sounds.fo76.auto.540"] = "Unlameifier/Sons Diferenciados/Fallout 76/Auto/540RPM"
-L["unlameifier.folder.sounds.fo76.auto.660"] = "Unlameifier/Sons Diferenciados/Fallout 76/Auto/660RPM"
-L["unlameifier.folder.sounds.fo76.auto.780"] = "Unlameifier/Sons Diferenciados/Fallout 76/Auto/780RPM"
-L["unlameifier.folder.sounds.fo76.auto.900"] = "Unlameifier/Sons Diferenciados/Fallout 76/Auto/900RPM"
+L["unlameifier.folder.sounds.fo4"] = "Toys/Sounds/Gunfire/Fallout 4"
+L["unlameifier.folder.sounds.fo76"] = "Toys/Sounds/Gunfire/Fallout 76"
+L["unlameifier.folder.sounds.fo76.auto"] = "Toys/Sounds/Gunfire/Fallout 76/Auto"
+L["unlameifier.folder.sounds.fo76.auto.420"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/420RPM"
+L["unlameifier.folder.sounds.fo76.auto.540"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/540RPM"
+L["unlameifier.folder.sounds.fo76.auto.660"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/660RPM"
+L["unlameifier.folder.sounds.fo76.auto.780"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/780RPM"
+L["unlameifier.folder.sounds.fo76.auto.900"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/900RPM"
 
 local fo76nosupp = "\n\n<color=255,150,150>Aviso</color>: Não possui sons silenciados."
 
@@ -1821,11 +1821,11 @@ L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
 //////////////// Battlefield 2
-L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Sound Mods/BF2"
-L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Sound Mods/BF2/Vehicle"
-L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Sound Mods/BF2/Stationary"
+L["unlameifier.folder.sounds.bf2"] = "Toys/Sounds/Gunfire/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Toys/Sounds/Gunfire/BF2/Vehicle"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Toys/Sounds/Gunfire/BF2/Stationary"
 
-L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Sound Mods/Swing/BF2"
+L["unlameifier.folder.sounds.melee.bf2"] = "Toys/Sounds/Melee/Swing/BF2"
 
 local bf2nosupp = "\n\n<color=255,150,150>Note</color>: Does not have suppressed sounds."
 
@@ -2014,7 +2014,7 @@ L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.description"] = "Changes the firing sound of the weapon to the QBZ-97 from Battlefield 2." .. bf2nosupp
 
 //////////////// Battlefield 2142
-L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Sound Mods/BF2142"
+L["unlameifier.folder.sounds.bf2142"] = "Toys/Sounds/Gunfire/BF2142"
 
 local bf2looping = "\n<color=255,150,150>Note</color>: Looping sound effect."
 
@@ -2071,14 +2071,14 @@ L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Changes the firing sound of the weapon to the Lambert Carbine from Battlefield 2142." .. bf2nosupp
 
 //////////////// Modern Warfare 2019
-L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/ARs"
-L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/SMGs"
-L["unlameifier.folder.sounds.mw19.shotgun"] = "Unlameifier/Sound Mods/MW19/SHGs"
-L["unlameifier.folder.sounds.mw19.lmg"] = "Unlameifier/Sound Mods/MW19/LMGs"
-L["unlameifier.folder.sounds.mw19.marksman"] = "Unlameifier/Sound Mods/MW19/MMs"
-L["unlameifier.folder.sounds.mw19.sniper"] = "Unlameifier/Sound Mods/MW19/SRs"
-L["unlameifier.folder.sounds.mw19.handgun"] = "Unlameifier/Sound Mods/MW19/HGs"
-L["unlameifier.folder.sounds.mw19.launcher"] = "Unlameifier/Sound Mods/MW19/Launcher"
+L["unlameifier.folder.sounds.mw19.ar"] = "Toys/Sounds/Gunfire/MW19/ARs"
+L["unlameifier.folder.sounds.mw19.smg"] = "Toys/Sounds/Gunfire/MW19/SMGs"
+L["unlameifier.folder.sounds.mw19.shotgun"] = "Toys/Sounds/Gunfire/MW19/SHGs"
+L["unlameifier.folder.sounds.mw19.lmg"] = "Toys/Sounds/Gunfire/MW19/LMGs"
+L["unlameifier.folder.sounds.mw19.marksman"] = "Toys/Sounds/Gunfire/MW19/MMs"
+L["unlameifier.folder.sounds.mw19.sniper"] = "Toys/Sounds/Gunfire/MW19/SRs"
+L["unlameifier.folder.sounds.mw19.handgun"] = "Toys/Sounds/Gunfire/MW19/HGs"
+L["unlameifier.folder.sounds.mw19.launcher"] = "Toys/Sounds/Gunfire/MW19/Launcher"
 
 -- Assault Rifles
 L["unlameifier_sound_mw19_kilo141.printname"] = "Kilo 141"

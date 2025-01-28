@@ -742,7 +742,8 @@ L["unlameifier.folder.tracers.modifiers"] = "Spårljus/Modifierare"
 
 L["unlameifier.attname.frontsight"] = "Främre Korn"
 L["unlameifier.attname.rearsight"] = "Bakre Sikte"
-L["unlameifier.attname.customslot"] = "Anpassad Plats"
+L["unlameifier.attname.customslot"] = "Unlameifier"
+L["unlameifier.attname.tuning"] = "Anpassning"
 
 L["unlameifier.attname.g17_slide"] = "Glock 17 Munstycke"
 L["unlameifier.attname.g17_slide"] = "Glock 17 Pipa"
@@ -754,7 +755,7 @@ L["unlameifier_eft_videogame_shotguns_customcon"] = "Avaktivera när du använde
 
 //////////////////////////////// Start of unlameifier_sound_mods
 //////////////// DOOM 1993
-L["unlameifier.folder.sounds.doom"] = "Unlameifier/Ljudmodd/DOOM"
+L["unlameifier.folder.sounds.doom"] = "Leksaker/Ljud/Vapeneld/DOOM"
 
 L["unlameifier_sound_doom_pistol.printname"] = "Pistol"
 L["unlameifier_sound_doom_pistol.compactname"] = "Pistol"
@@ -777,7 +778,7 @@ L["unlameifier_sound_doom_rocket.compactname"] = "Raketgevär"
 L["unlameifier_sound_doom_rocket.description"] = "Ändrar vapnets skottljud till Raketgeväret från DOOM (1993)."
 
 //////////////// Half-Life 2
-L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Ljudmodd/HL2"
+L["unlameifier.folder.sounds.hl2"] = "Leksaker/Ljud/Vapeneld/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "9 mm Pistol"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Pistol"
@@ -840,7 +841,7 @@ L["unlameifier_sound_hl2_airboat2.description"] = [[Ändrar vapnets skottljud ti
 Spammar egentligen ej dynamit.]]
 
 //////////////// Half-Life 1
-L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Ljudmodd/HL1"
+L["unlameifier.folder.sounds.hl1"] = "Leksaker/Ljud/Vapeneld/HL1"
 
 L["unlameifier_sound_hl1_pistol.printname"] = "Pistol"
 L["unlameifier_sound_hl1_pistol.compactname"] = "Pistol"
@@ -915,7 +916,7 @@ L["unlameifier_sound_hl1_xbow.description"] = [[Ändrar vapnets skottljud till A
 Det finns faktiskt konstigare grejer i Unlameifier att ändra vapnets skottljud till. Men helt och hållet upp till dig.]]
 
 //////////////// Counter-Strike: Source
-L["unlameifier.folder.sounds.css"] = "Unlameifier/Ljudmodd/CSS"
+L["unlameifier.folder.sounds.css"] = "Leksaker/Ljud/Vapeneld/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "9X19 mm sidovapen"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
@@ -1098,7 +1099,7 @@ Om <color=100,255,100>Ljuddämpad</color>: Använder ljud från M4A1.
 <color=150,150,255>Rolig Fakta</color>: I Source så har M249 ingen kolv.]]
 
 //////////////// Neosun Mouth
-L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Ljudmodd/Neosun"
+L["unlameifier.folder.sounds.neosun"] = "Leksaker/Ljud/Vapeneld/Neosun"
 
 L["unlameifier_sound_neosun_pew.printname"] = "Pew"
 L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
@@ -1119,7 +1120,7 @@ L["unlameifier_sound_neosun_gunshot.description"] = [[Professionella röstskåde
 Denna är "skottljud".]]
 
 //////////////// Misc.
-L["unlameifier.folder.sounds.misc"] = "Unlameifier/Ljudmodd/Annat"
+L["unlameifier.folder.sounds.misc"] = "Leksaker/Ljud/Vapeneld/Annat"
 
 L["unlameifier_sound_misc_sussy.printname"] = "Rubbat Galenskap"
 L["unlameifier_sound_misc_sussy.compactname"] = "Galenskap"
@@ -1181,7 +1182,7 @@ Till skillnad från originalet så lägger denna endast till ett skryl från en 
 <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
 //////////////// Call of Duty: Modern Warfare 2 (2009)
-L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Ljudmodd/MW2"
+L["unlameifier.folder.sounds.mw2"] = "Leksaker/Ljud/Vapeneld/MW2"
 
 L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
 L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
@@ -1190,7 +1191,7 @@ L["unlameifier_sound_codmw2_intervention.description"] = [[Ändrar vapnets skott
 Thanks, Palindrone, for letting me lift sounds from your CoD Packs. Make sure to check them out, they're awesome!]]
 
 //////////////// Roblox
-L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Ljudmodd/Roblox"
+L["unlameifier.folder.sounds.roblox"] = "Leksaker/Ljud/Vapeneld/Roblox"
 
 L["unlameifier_sound_roblox_paintball.printname"] = "Paintball-Vapnet"
 L["unlameifier_sound_roblox_paintball.compactname"] = "Paintball"
@@ -1223,7 +1224,7 @@ L["unlameifier_sound_roblox_guitar.description"] = [[Ändrar vapnets skottljud t
 Du kanske kan spela en låt med den!]]
 
 //////////////// Music
-L["unlameifier.folder.sounds.music"] = "Unlameifier/Ljudmodd/Music"
+L["unlameifier.folder.sounds.music"] = "Leksaker/Ljud/Vapeneld/Music"
 
 L["unlameifier_sound_music_usa1.printname"] = "\"The Star-Spangled Banner\""
 L["unlameifier_sound_music_usa1.compactname"] = "USA Nationalsång"
@@ -1252,7 +1253,7 @@ L["unlameifier_sound_music_usa4.description"] = [[INGET ÄR MER AMERIKANSKT ÄN 
 GOD BLESS <color=255,100,100>AM</color>ER<color=100,100,255>ICA</color>.]]  -- "AMERICA" but in colour
 
 //////////////// KindredFlame
-L["unlameifier.folder.sounds.ws"] = "Unlameifier/Ljudmodd/KindredFlame"
+L["unlameifier.folder.sounds.ws"] = "Leksaker/Ljud/Vapeneld/KindredFlame"
 
 L["unlameifier_sound_ws_m16a4.printname"] = "KindredFlame M16A4"
 L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
@@ -1261,7 +1262,7 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Ljud tagna från KindredFlame/Wh
 Legenden dör aldrig...]]
 
 //////////////// Misc. (Ricochet)
-L["unlameifier.folder.sounds.misc.Rikoschett"] = "Unlameifier/Ljudmodd/Annat/Rikoschett"
+L["unlameifier.folder.sounds.misc.Rikoschett"] = "Leksaker/Ljud/Vapeneld/Annat/Rikoschett"
 
 L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball-Ljud"
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball"
@@ -1270,7 +1271,7 @@ L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Gör att ljuden fr�
 Kombinera med "100% Rikoschett Chans", "90° Rikoschett", "+Rikoschett Sök." och "90° Rikoschett Sök." i Tuningsystemet för en mer realistisk pinball-upplevelse.]]
 
 //////////////// Misc. (Impact)
-L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Ljudmodd/Annat/Träffar"
+L["unlameifier.folder.sounds.misc.impact"] = "Leksaker/Ljud/Vapeneld/Annat/Träffar"
 
 L["unlameifier_sound_impact_misc_discord.printname"] = "Discord-Notis"
 L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord"
@@ -1285,7 +1286,7 @@ L["unlameifier_sound_impact_misc_discord60s.description"] = [[Ersätter skotträ
 Lugna ner sig, djävulen.]]
 
 //////////////// Melee Sounds Misc (Impact)
-L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Ljudmodd/Träffar/Annat"
+L["unlameifier.folder.sounds.melee.bonk"] = "Leksaker/Ljud/Närstrid/Träffar/Annat"
 
 L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
@@ -1296,7 +1297,7 @@ L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Whip"
 L["unlameifier_sound_melee_whipcrack_impact.description"] = "Nu *piskslag* kan *piskslag* du *piskslag* låta *piskslag* precis *piskslag* som *piskslag* din *piskslag* favorit *piskslag* tecknade *piskslag* figur, *piskslag* Johnny *piskslag* Test *piskslag* *piskslag* *piskslag*."
 
 //////////////// Melee Sounds JJBA (Swing)
-L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Ljudmodd/Swing/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Leksaker/Ljud/Närstrid/Swing/JJBA"
 
 L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
 L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
@@ -1313,7 +1314,7 @@ MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA
 (låter illa då närstridsvapen inte har slingande ljud- skyll på arctic)]]
 
 //////////////// Melee Sounds JJBA (Impact)
-L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Ljudmodd/Impact/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Leksaker/Ljud/Vapeneld/Impact/JJBA"
 
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Stand Punch"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand Punch"
@@ -1323,7 +1324,7 @@ L["unlameifier_sound_melee_jojo_impact.description"] = "Ändrar träffljudet med
 
 //////////////////////////////// Start of unlameifier_sound_mods_moka
 //////////////// Day of Defeat: Source
-L["unlameifier.folder.sounds.dods"] = "Unlameifier/Ljudmodd/DoD:S"
+L["unlameifier.folder.sounds.dods"] = "Leksaker/Ljud/Vapeneld/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = ".30-kaliber"
 L["unlameifier_sound_dods_30cal.compactname"] = ".30-kaliber"
@@ -1394,7 +1395,7 @@ L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Ändrar vapnets skottljud till Thompson från Day of Defeat: Source."
 
 //////////////// Day of Defeat
-L["unlameifier.folder.sounds.dod"] = "Unlameifier/Ljudmodd/DoD"
+L["unlameifier.folder.sounds.dod"] = "Leksaker/Ljud/Vapeneld/DoD"
 
 L["unlameifier_sound_dod_30cal.printname"] = ".30 Cal"
 L["unlameifier_sound_dod_30cal.compactname"] = ".30 Cal"
@@ -1535,9 +1536,9 @@ L["unlameifier_sound_dod_webley.compactname"] = "Webley-Revolver"
 L["unlameifier_sound_dod_webley.description"] = "Ändrar vapnets skottljud till Webley-Revolvern från Day of Defeat."
 
 //////////////// Team Fortress 2
-L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Ljudmodd/TF2"
-L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Ljudmodd/Swing/TF2"
-L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Ljudmodd/Träffar/TF2"
+L["unlameifier.folder.sounds.tf2"] = "Leksaker/Ljud/Vapeneld/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Leksaker/Ljud/Närstrid/Swing/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Leksaker/Ljud/Närstrid/Träffar/TF2"
 
 L["unlameifier_tf2_scout"] = "/Spanare"
 L["unlameifier_tf2_soldier"] = "/Soldat"
@@ -1943,14 +1944,14 @@ L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "
 L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "Skiftnyckeln") .. string.format(tf2desc.crit, 10)
 
 //////////////// Fallout 4 & 76
-L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Ljudmodd/Fallout 4"
-L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Ljudmodd/Fallout 76"
-L["unlameifier.folder.sounds.fo76.auto"] = "Unlameifier/Ljudmodd/Fallout 76/Auto"
-L["unlameifier.folder.sounds.fo76.auto.420"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/420RPM"
-L["unlameifier.folder.sounds.fo76.auto.540"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/540RPM"
-L["unlameifier.folder.sounds.fo76.auto.660"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/660RPM"
-L["unlameifier.folder.sounds.fo76.auto.780"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/780RPM"
-L["unlameifier.folder.sounds.fo76.auto.900"] = "Unlameifier/Ljudmodd/Fallout 76/Auto/900RPM"
+L["unlameifier.folder.sounds.fo4"] = "Leksaker/Ljud/Vapeneld/Fallout 4"
+L["unlameifier.folder.sounds.fo76"] = "Leksaker/Ljud/Vapeneld/Fallout 76"
+L["unlameifier.folder.sounds.fo76.auto"] = "Leksaker/Ljud/Vapeneld/Fallout 76/Auto"
+L["unlameifier.folder.sounds.fo76.auto.420"] = "Leksaker/Ljud/Vapeneld/Fallout 76/Auto/420RPM"
+L["unlameifier.folder.sounds.fo76.auto.540"] = "Leksaker/Ljud/Vapeneld/Fallout 76/Auto/540RPM"
+L["unlameifier.folder.sounds.fo76.auto.660"] = "Leksaker/Ljud/Vapeneld/Fallout 76/Auto/660RPM"
+L["unlameifier.folder.sounds.fo76.auto.780"] = "Leksaker/Ljud/Vapeneld/Fallout 76/Auto/780RPM"
+L["unlameifier.folder.sounds.fo76.auto.900"] = "Leksaker/Ljud/Vapeneld/Fallout 76/Auto/900RPM"
 
 local fo76nosupp = "\n\n<color=255,150,150>Notera</color>: Har ej ljuddämpade ljud."
 
@@ -2189,11 +2190,11 @@ L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
 //////////////// Battlefield 2
-L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Ljudmodd/BF2"
-L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Ljudmodd/BF2/Fordon"
-L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Ljudmodd/BF2/Stationär"
+L["unlameifier.folder.sounds.bf2"] = "Leksaker/Ljud/Vapeneld/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Leksaker/Ljud/Vapeneld/BF2/Fordon"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Leksaker/Ljud/Vapeneld/BF2/Stationär"
 
-L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Ljudmodd/Swing/BF2"
+L["unlameifier.folder.sounds.melee.bf2"] = "Leksaker/Ljud/Närstrid/Swing/BF2"
 
 local bf2nosupp = "\n\n<color=255,150,150>Notera</color>: Har ej ljuddämpade ljud."
 
@@ -2382,7 +2383,7 @@ L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.description"] = "Ersätter skottljuden med dem från QBZ-97 från Battlefield 2." .. bf2nosupp
 
 //////////////// Battlefield 2142
-L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Ljudmodd/BF2142"
+L["unlameifier.folder.sounds.bf2142"] = "Leksaker/Ljud/Vapeneld/BF2142"
 
 local bf2looping = "\n<color=255,150,150>Notera</color>: Slingande ljudeffekt."
 
@@ -2439,14 +2440,14 @@ L["unlameifier_sound_bf2142_unl_carbine.compactname"] = "Lambert"
 L["unlameifier_sound_bf2142_unl_carbine.description"] = "Ersätter skottljuden med dem från Lambert-karbinen från Battlefield 2142." .. bf2nosupp
 
 //////////////// Modern Warfare 2019
-L["unlameifier.folder.sounds.mw19.ar"] = "Unlameifier/Sound Mods/MW19/AK:n"
-L["unlameifier.folder.sounds.mw19.smg"] = "Unlameifier/Sound Mods/MW19/KPist."
-L["unlameifier.folder.sounds.mw19.shotgun"] = "Unlameifier/Sound Mods/MW19/Hagel"
-L["unlameifier.folder.sounds.mw19.lmg"] = "Unlameifier/Sound Mods/MW19/KSP"
-L["unlameifier.folder.sounds.mw19.marksman"] = "Unlameifier/Sound Mods/MW19/Marksman"
-L["unlameifier.folder.sounds.mw19.sniper"] = "Unlameifier/Sound Mods/MW19/PSG"
-L["unlameifier.folder.sounds.mw19.handgun"] = "Unlameifier/Sound Mods/MW19/Sidovapen"
-L["unlameifier.folder.sounds.mw19.launcher"] = "Unlameifier/Sound Mods/MW19/Kastare"
+L["unlameifier.folder.sounds.mw19.ar"] = "Toys/Sounds/Gunfire/MW19/AK:n"
+L["unlameifier.folder.sounds.mw19.smg"] = "Toys/Sounds/Gunfire/MW19/KPist."
+L["unlameifier.folder.sounds.mw19.shotgun"] = "Toys/Sounds/Gunfire/MW19/Hagel"
+L["unlameifier.folder.sounds.mw19.lmg"] = "Toys/Sounds/Gunfire/MW19/KSP"
+L["unlameifier.folder.sounds.mw19.marksman"] = "Toys/Sounds/Gunfire/MW19/Marksman"
+L["unlameifier.folder.sounds.mw19.sniper"] = "Toys/Sounds/Gunfire/MW19/PSG"
+L["unlameifier.folder.sounds.mw19.handgun"] = "Toys/Sounds/Gunfire/MW19/Sidovapen"
+L["unlameifier.folder.sounds.mw19.launcher"] = "Toys/Sounds/Gunfire/MW19/Kastare"
 
 -- Assault Rifles
 L["unlameifier_sound_mw19_kilo141.printname"] = "Kilo 141"
@@ -2693,12 +2694,12 @@ L["unlameifier_sound_mw19_mgl.compactname"] = "MGL-32"
 L["unlameifier_sound_mw19_mgl.description"] = "Ersätter skottljuden med dem från MGL-32 från Call of Duty: Modern Warfare 2019."
 
 //////////////// Warface
-L["unlameifier.folder.sounds.warface"] = "Unlameifier/Ljudmodd/Warface"
-L["unlameifier.folder.sounds.warface.rifleman"] = "Unlameifier/Ljudmodd/Warface/Skyttesoldat"
-L["unlameifier.folder.sounds.warface.engineer"] = "Unlameifier/Ljudmodd/Warface/Ingenjör"
-L["unlameifier.folder.sounds.warface.medic"] = "Unlameifier/Ljudmodd/Warface/Sjukvårdare"
-L["unlameifier.folder.sounds.warface.sniper"] = "Unlameifier/Ljudmodd/Warface/Krypskytt"
-L["unlameifier.folder.sounds.warface.pistols"] = "Unlameifier/Ljudmodd/Warface/Pistoler"
+L["unlameifier.folder.sounds.warface"] = "Leksaker/Ljud/Vapeneld/Warface"
+L["unlameifier.folder.sounds.warface.rifleman"] = "Leksaker/Ljud/Vapeneld/Warface/Skyttesoldat"
+L["unlameifier.folder.sounds.warface.engineer"] = "Leksaker/Ljud/Vapeneld/Warface/Ingenjör"
+L["unlameifier.folder.sounds.warface.medic"] = "Leksaker/Ljud/Vapeneld/Warface/Sjukvårdare"
+L["unlameifier.folder.sounds.warface.sniper"] = "Leksaker/Ljud/Vapeneld/Warface/Krypskytt"
+L["unlameifier.folder.sounds.warface.pistols"] = "Leksaker/Ljud/Vapeneld/Warface/Pistoler"
 
 L["unlameifier_sound_warface_ar01.printname"] = "Tavor TAR-21"
 L["unlameifier_sound_warface_ar01.compactname"] = "TAR-21"
@@ -3009,7 +3010,7 @@ L["unlameifier_tuning_nuke_ammo.description"] = "Skott <color=100,255,100>explod
 //////////////// Stats
 L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
-L["unlameifier_tuning_system.printname"] = "Aktivera Anpassning"
+L["unlameifier_tuning_system.printname"] = "Inmatning av Anpassningssystem"
 L["unlameifier_tuning_system.compactname"] = "Anpassning"
 L["unlameifier_tuning_system.description"] = [[Tillåter användaren att <color=255,255,100>finjustera statistiken på vapnet</color> genom att utrusta diverse statistikändrande tillbehör. Kan utrustas i vilken ordning som helst. För att inte orsaka röra så kommer underplatserna <color=255,255,100>INTE</color> visas i 3D-gränssnittet.
 
@@ -3097,6 +3098,18 @@ L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Projektiler"
 L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Projektiler"
 L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Projektilantal", 7) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
 
+L["unlameifier_tuning_projectile_plus8.printname"] = "+8 Projektiler"
+L["unlameifier_tuning_projectile_plus8.compactname"] = "+8 Projektiler"
+L["unlameifier_tuning_projectile_plus8.description"] = string.format(statsdesc.plus, "Projektilantal", 8) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus9.printname"] = "+9 Projektiler"
+L["unlameifier_tuning_projectile_plus9.compactname"] = "+9 Projektiler"
+L["unlameifier_tuning_projectile_plus9.description"] = string.format(statsdesc.plus, "Projektilantal", 9) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus10.printname"] = "+10 Projektiler"
+L["unlameifier_tuning_projectile_plus10.compactname"] = "+10 Projektiler"
+L["unlameifier_tuning_projectile_plus10.description"] = string.format(statsdesc.plus, "Projektilantal", 10) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
 L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Projektiler"
 L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Projektiler"
 L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Projektilantal", 1) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
@@ -3124,6 +3137,18 @@ L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.
 L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Projektiler"
 L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Projektiler"
 L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Projektilantal", 7) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus8.printname"] = "-8 Projektiler"
+L["unlameifier_tuning_projectile_minus8.compactname"] = "-8 Projektiler"
+L["unlameifier_tuning_projectile_minus8.description"] = string.format(statsdesc.minus, "Projektilantal", 8) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus9.printname"] = "-9 Projektiler"
+L["unlameifier_tuning_projectile_minus9.compactname"] = "-9 Projektiler"
+L["unlameifier_tuning_projectile_minus9.description"] = string.format(statsdesc.minus, "Projektilantal", 9) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus10.printname"] = "-10 Projektiler"
+L["unlameifier_tuning_projectile_minus10.compactname"] = "-10 Projektiler"
+L["unlameifier_tuning_projectile_minus10.description"] = string.format(statsdesc.minus, "Projektilantal", 10) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
 L["unlameifier_tuning_projectile_force1.compactname"] = "1 Projektiler"
@@ -3156,6 +3181,14 @@ L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.
 L["unlameifier_tuning_projectile_force8.printname"] = "8 Projektiler"
 L["unlameifier_tuning_projectile_force8.compactname"] = "8 Projektiler"
 L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Projektilantal", 8) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force9.printname"] = "9 Projektiler"
+L["unlameifier_tuning_projectile_force9.compactname"] = "9 Projektiler"
+L["unlameifier_tuning_projectile_force9.description"] = string.format(statsdesc.fixed, "Projektilantal", 9) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force10.printname"] = "10 Projektiler"
+L["unlameifier_tuning_projectile_force10.compactname"] = "10 Projektiler"
+L["unlameifier_tuning_projectile_force10.description"] = string.format(statsdesc.fixed, "Projektilantal", 10) .. "Detta ändrar antalet projektiler som skjuts iväg varje gång vapnet skjuts." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
 L["unlameifier.folder.ammopershot"] = "Ammo Per Skott"
@@ -4737,7 +4770,7 @@ L["unlameifier.folder.malfunction.minus"] = "Felfunktion/Ta bort"
 L["unlameifier.folder.malfunction.multiply"] = "Felfunktion/Multiplicera"
 L["unlameifier.folder.malfunction.divide"] = "Felfunktion/Dela"
 
-L["unlameifier.folder.malfunction.utility.system"] = "Felfunktion/Utility/System"
+L["unlameifier.folder.malfunction.utility.system"] = "Felfunktion/Användning/System"
 
 L["unlameifier_tuning_malfunction_enable.printname"] = "Felfunktions - Tvinga PÅ"
 L["unlameifier_tuning_malfunction_enable.compactname"] = "+Felfunktion"
@@ -4921,7 +4954,7 @@ L["unlameifier_tuning_mean_shots_to_fail_force1000.description"] = string.format
 
 ///////// Overheating
 L["unlameifier.folder.heat"] = "Hetta"
-L["unlameifier.folder.heat.utility.system"] = "Hetta/Utility/System"
+L["unlameifier.folder.heat.utility.system"] = "Hetta/Användning/System"
 
 L["unlameifier_tuning_heat_enable.printname"] = "Överhettande - Tvinga PÅ"
 L["unlameifier_tuning_heat_enable.compactname"] = "+Överhet"
@@ -5466,7 +5499,7 @@ L["unlameifier_tuning_heat_delay_force60.description"] = string.format(statsdesc
 
 ///////// Trigger Delay
 L["unlameifier.folder.triggerdelay"] = "Avtryckare Fördröjning"
-L["unlameifier.folder.triggerdelay.utility.system"] = "Avtryckare Fördröjning/Utility/System"
+L["unlameifier.folder.triggerdelay.utility.system"] = "Avtryckare Fördröjning/Användning/System"
 
 L["unlameifier_tuning_triggerdelay_enable.printname"] = "Avtryckare Fördröjning - Tvinga PÅ"
 L["unlameifier_tuning_triggerdelay_enable.compactname"] = "+AvtryckFördröj."
@@ -5804,7 +5837,7 @@ L["unlameifier_tuning_ammo_override_satchel_hls.description"] = string.format(am
 
 ///////// Ricochet
 L["unlameifier.folder.ricoschet"] = "Rikoschett"
-L["unlameifier.folder.ricochet.utility.system"] = "Rikoschett/Utility/System"
+L["unlameifier.folder.ricochet.utility.system"] = "Rikoschett/Användning/System"
 
 L["unlameifier_tuning_ricochet_seeking_enable.printname"] = "Sökande Rikoschett - Tvinga PÅ"
 L["unlameifier_tuning_ricochet_seeking_enable.compactname"] = "+RikoschettSök."
@@ -5813,6 +5846,17 @@ L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Tvingar PÅ <colo
 L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Sökande Rikoschett - Tvinga AV"
 L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-RikoschettSök."
 L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Tvingar AV <color=255,255,100>målsökande rikoschett</color>.\nSkott kommer rikoschetta normalt."
+
+///////// Damage Distribution
+L["unlameifier.folder.projectiles.utility"] = "Projektiler/Användning"
+
+L["unlameifier_tuning_projectile_damage_dist_enable.printname"] = "Skadefördelning - Tvinga PÅ"
+L["unlameifier_tuning_projectile_damage_dist_enable.compactname"] = "+Skadefördelning"
+L["unlameifier_tuning_projectile_damage_dist_enable.description"] = "Tvingar PÅ <color=255,255,100>skadefördelning</color>.\nVapnets totala skada fördelas jämt bland alla projektiler.\nExempelvis med ett vapen med 30 Skada med 3 Projektiler så gör varje projektil 10 Skada."
+
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Skadefördelning - Tvinga AV"
+L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-Skadefördelning"
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Tvingar AV <color=255,255,100>skadefördelning</color>.\nVapnets totala skada tillämpas till varje projektil."
 
 ///////// Ricochet Angles
 L["unlameifier.folder.ricochet.fixed"] = "Rikoschett/Vinkel/Fast"

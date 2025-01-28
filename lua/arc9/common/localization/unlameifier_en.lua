@@ -792,6 +792,7 @@ L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Tracers/Modifiers"
 L["unlameifier.attname.frontsight"] = "Front Sight"
 L["unlameifier.attname.rearsight"] = "Rear Sight"
 L["unlameifier.attname.customslot"] = "Unlameifier"
+L["unlameifier.attname.tuning"] = "Tuning"
 
 L["unlameifier.attname.g17_slide"] = "Glock 17 Slide"
 L["unlameifier.attname.g17_slide"] = "Glock 17 Barrel"
@@ -3383,7 +3384,7 @@ L["unlameifier_tuning_nuke_ammo.description"] = "Bullets <color=100,255,100>expl
 //////////////// Stats
 L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
 
-L["unlameifier_tuning_system.printname"] = "Enable Tuning"
+L["unlameifier_tuning_system.printname"] = "Tuning System Injector"
 L["unlameifier_tuning_system.compactname"] = "Tuning"
 L["unlameifier_tuning_system.description"] = [[Allows the user to <color=255,255,100>fine-tune the statistics of the weapon</color> by equipping various stat-altering attachments. Can be equipped in any order. For the sake of not causing clutter, the subslots will <color=255,255,100>NOT</color> appear in the 3D Interface.
 
@@ -3471,6 +3472,18 @@ L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Projectiles"
 L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Projectiles"
 L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
+L["unlameifier_tuning_projectile_plus8.printname"] = "+8 Projectiles"
+L["unlameifier_tuning_projectile_plus8.compactname"] = "+8 Projectiles"
+L["unlameifier_tuning_projectile_plus8.description"] = string.format(statsdesc.plus, "Projectile Count", 8) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus9.printname"] = "+9 Projectiles"
+L["unlameifier_tuning_projectile_plus9.compactname"] = "+9 Projectiles"
+L["unlameifier_tuning_projectile_plus9.description"] = string.format(statsdesc.plus, "Projectile Count", 9) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus10.printname"] = "+10 Projectiles"
+L["unlameifier_tuning_projectile_plus10.compactname"] = "+10 Projectiles"
+L["unlameifier_tuning_projectile_plus10.description"] = string.format(statsdesc.plus, "Projectile Count", 10) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+
 L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Projectiles"
 L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Projectiles"
 L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Projectile Count", 1) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
@@ -3498,6 +3511,18 @@ L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.
 L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Projectiles"
 L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Projectiles"
 L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Projectile Count", 7) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus8.printname"] = "-8 Projectiles"
+L["unlameifier_tuning_projectile_minus8.compactname"] = "-8 Projectiles"
+L["unlameifier_tuning_projectile_minus8.description"] = string.format(statsdesc.minus, "Projectile Count", 8) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus9.printname"] = "-9 Projectiles"
+L["unlameifier_tuning_projectile_minus9.compactname"] = "-9 Projectiles"
+L["unlameifier_tuning_projectile_minus9.description"] = string.format(statsdesc.minus, "Projectile Count", 9) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus10.printname"] = "-10 Projectiles"
+L["unlameifier_tuning_projectile_minus10.compactname"] = "-10 Projectiles"
+L["unlameifier_tuning_projectile_minus10.description"] = string.format(statsdesc.minus, "Projectile Count", 10) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_force1.printname"] = "1 Projectile"
 L["unlameifier_tuning_projectile_force1.compactname"] = "1 Projectiles"
@@ -3530,6 +3555,14 @@ L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.
 L["unlameifier_tuning_projectile_force8.printname"] = "8 Projectiles"
 L["unlameifier_tuning_projectile_force8.compactname"] = "8 Projectiles"
 L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Projectile Count", 8) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force9.printname"] = "9 Projectiles"
+L["unlameifier_tuning_projectile_force9.compactname"] = "9 Projectiles"
+L["unlameifier_tuning_projectile_force9.description"] = string.format(statsdesc.fixed, "Projectile Count", 9) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force10.printname"] = "10 Projectiles"
+L["unlameifier_tuning_projectile_force10.compactname"] = "10 Projectiles"
+L["unlameifier_tuning_projectile_force10.description"] = string.format(statsdesc.fixed, "Projectile Count", 10) .. "This alters the amount of projectiles that are fired every time the weapon shoots." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
 L["unlameifier.folder.ammopershot"] = "Ammo Per Shot"
@@ -6189,6 +6222,17 @@ L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Forcefully enable
 L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Seeking Ricochet - Force Disable"
 L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-SeekingRicochet"
 L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Forcefully disables <color=255,255,100>target seeking ricochet</color>.\nBullets will ricochet normally."
+
+///////// Damage Distribution
+L["unlameifier.folder.projectiles.utility"] = "Projectiles/Utility"
+
+L["unlameifier_tuning_projectile_damage_dist_enable.printname"] = "Damage Distribution - Force Enable"
+L["unlameifier_tuning_projectile_damage_dist_enable.compactname"] = "+DMG Distribution"
+L["unlameifier_tuning_projectile_damage_dist_enable.description"] = "Forcefully enables <color=255,255,100>damage distrubiton</color>.\nThe weapon's total damage is distributed evenly across every projectile.\nFor example, 30 Damage with 3 Projectiles is 10 Damage per projectile."
+
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Damage Distribution - Force Disable"
+L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-DMG Distribution"
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Forcefully disables <color=255,255,100>damage distrubiton</color>.\nThe weapon's total damage is applied to every projectile."
 
 ///////// Ricochet Angles
 L["unlameifier.folder.ricochet.fixed"] = "Ricochet/Angle/Fixed"

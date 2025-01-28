@@ -372,7 +372,8 @@ L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Đường đạn/Đồ 
 
 L["unlameifier.attname.frontsight"] = "Bộ phận ngắm trước"
 L["unlameifier.attname.rearsight"] = "Bộ phận ngắm sau"
-L["unlameifier.attname.customslot"] = "Slot custom"
+L["unlameifier.attname.customslot"] = "Unlameifier"
+-- L["unlameifier.attname.tuning"] = "Tuning"
 
 L["unlameifier.attname.g17_slide"] = "Thanh trượt G17"
 L["unlameifier.attname.g17_slide"] = "Nòng G17"
@@ -384,7 +385,7 @@ L["unlameifier_eft_videogame_shotguns_customcon"] = "Tắt khi dùng đạn Slug
 
 //////////////////////////////// Start of unlameifier_sound_mods
 //////////////// DOOM 1993
-L["unlameifier.folder.sounds.doom"] = "Unlameifier/Tiếng/DOOM"
+L["unlameifier.folder.sounds.doom"] = "Toys/Sounds/Gunfire/DOOM"
 
 L["unlameifier_sound_doom_pistol.printname"] = "Súng lục"
 L["unlameifier_sound_doom_pistol.compactname"] = "Súng lục"
@@ -407,7 +408,7 @@ L["unlameifier_sound_doom_rocket.compactname"] = "Súng phóng tên lửa"
 L["unlameifier_sound_doom_rocket.description"] = "Đổi tiếng hiện tại sang tiếng Súng phóng tên lửa từ DOOM (1993)."
 
 //////////////// Half-Life 2
-L["unlameifier.folder.sounds.hl2"] = "Unlameifier/Tiếng/HL2"
+L["unlameifier.folder.sounds.hl2"] = "Toys/Sounds/Gunfire/HL2"
 
 L["unlameifier_sound_hl2_pistol.printname"] = "Súng lục 9mm"
 L["unlameifier_sound_hl2_pistol.compactname"] = "Súng lục"
@@ -470,7 +471,7 @@ L["unlameifier_sound_hl2_airboat2.description"] = [[Đổi Tiếng hiện tại 
 Nó không khiến vũ khí thím bắn bom liên tiếp được đâu]]
 
 //////////////// Half-Life 1
-L["unlameifier.folder.sounds.hl1"] = "Unlameifier/Tiếng/HL1"
+L["unlameifier.folder.sounds.hl1"] = "Toys/Sounds/Gunfire/HL1"
 
 L["unlameifier_sound_hl1_pistol.printname"] = "Súng lục"
 L["unlameifier_sound_hl1_pistol.compactname"] = "Súng lục"
@@ -545,7 +546,7 @@ L["unlameifier_sound_hl1_xbow.description"] = [[Đổi Tiếng hiện tại sang
 Nói thiệt thì còn nhiều thứ lạ quắc hơn là cái này á. Thím thích gì thì không ai cản đâu nhé :3]]
 
 //////////////// Counter-Strike: Source
-L["unlameifier.folder.sounds.css"] = "Unlameifier/Tiếng/CSS"
+L["unlameifier.folder.sounds.css"] = "Toys/Sounds/Gunfire/CSS"
 
 L["unlameifier_sound_css_glock18.printname"] = "Súng ngắn 9x19"
 L["unlameifier_sound_css_glock18.compactname"] = "Glock"
@@ -728,7 +729,7 @@ Khi dùng <color=100,255,100>Sgiảm thanh</color>: Dùng tiếng từ súng M4A
 <color=150,150,255>Có thể thím chưa biết</color>: Trong Source, khẩu M249 không có báng (wth không có thì giật chắc bay mất xác luôn)]]
 
 //////////////// Neosun Mouth
-L["unlameifier.folder.sounds.neosun"] = "Unlameifier/Tiếng/Neosun"
+L["unlameifier.folder.sounds.neosun"] = "Toys/Sounds/Gunfire/Neosun"
 
 L["unlameifier_sound_neosun_pew.printname"] = "Pew"
 L["unlameifier_sound_neosun_pew.compactname"] = "Pew"
@@ -743,7 +744,7 @@ L["unlameifier_sound_neosun_gunshot.compactname"] = "Tiếng súng"
 L["unlameifier_sound_neosun_gunshot.description"] = [[Diễn viên lồng tiếng Neosun được giao việc phục vụ cho các thím trải nghiệm âm thanh sống cmn động nhất :)). Cái này là tiếng "tiếng súng".]]
 
 //////////////// Misc.
-L["unlameifier.folder.sounds.misc"] = "Unlameifier/Tiếng/Linh tinh"
+L["unlameifier.folder.sounds.misc"] = "Toys/Sounds/Gunfire/Linh tinh"
 
 L["unlameifier_sound_misc_sussy.printname"] = "Siêu chó điên"
 L["unlameifier_sound_misc_sussy.compactname"] = "Khùng"
@@ -804,7 +805,7 @@ Khác với bản gốc, cái này sẽ thêm tiếng đại bàng réo lên khi
 <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! <color=255,150,150>USA</color>! USA! <color=150,150,255>USA</color>! ]]
 
 //////////////// Call of Duty: Modern Warfare 2 (2009)
-L["unlameifier.folder.sounds.mw2"] = "Unlameifier/Tiếng/MW2"
+L["unlameifier.folder.sounds.mw2"] = "Toys/Sounds/Gunfire/MW2"
 
 L["unlameifier_sound_codmw2_intervention.printname"] = "Intervention"
 L["unlameifier_sound_codmw2_intervention.compactname"] = "Intervention"
@@ -813,7 +814,7 @@ L["unlameifier_sound_codmw2_intervention.description"] = [[Đổi Tiếng hiện
 Cảm ơn Palindrome rất nhiều vì đã cho tui mượn tiếng từ bản mod của anh. Có gì mấy thím ghé sang mod của ảnh dùng thử nhen!]]
 
 //////////////// Roblox
-L["unlameifier.folder.sounds.roblox"] = "Unlameifier/Tiếng/Roblox"
+L["unlameifier.folder.sounds.roblox"] = "Toys/Sounds/Gunfire/Roblox"
 
 L["unlameifier_sound_roblox_paintball.printname"] = "Súng bắn sơn"
 L["unlameifier_sound_roblox_paintball.compactname"] = "Súng sơn"
@@ -846,7 +847,7 @@ L["unlameifier_sound_roblox_guitar.description"] = [[Đổi Tiếng hiện tại
 Bạn có thể chơi 1 bài bằng này được á]]
 
 //////////////// Music
-L["unlameifier.folder.sounds.music"] = "Unlameifier/Tiếng/Nhạc"
+L["unlameifier.folder.sounds.music"] = "Toys/Sounds/Gunfire/Nhạc"
 
 L["unlameifier_sound_music_usa1.printname"] = "Quốc ca Mỹ"
 L["unlameifier_sound_music_usa1.compactname"] = "Mỹ"
@@ -875,7 +876,7 @@ L["unlameifier_sound_music_usa4.description"] = [[KHÔNG CÓ GÌ TỰ DO HƠN L�
 CHÚA BAN PHƯƠC <color=255,100,100>NỨ</color>ỚC<color=100,100,255>MỸ</color>.]]  -- "AMERICA" but in colour
 
 //////////////// KindredFlame
-L["unlameifier.folder.sounds.ws"] = "Unlameifier/Tiếng/KindredFlame"
+L["unlameifier.folder.sounds.ws"] = "Toys/Sounds/Gunfire/KindredFlame"
 
 L["unlameifier_sound_ws_m16a4.printname"] = "M16A4 của KindredFlame"
 L["unlameifier_sound_ws_m16a4.compactname"] = "M16A4"
@@ -884,7 +885,7 @@ L["unlameifier_sound_ws_m16a4.description"] = [[Tiếng súng lấy từ bản m
 Sống dai thành huyền thoại...]]
 
 //////////////// Misc. (Nảy đạn)
-L["unlameifier.folder.sounds.misc.ricochet"] = "Unlameifier/Tiếng/Misc./Nảy" -- NEW
+L["unlameifier.folder.sounds.misc.ricochet"] = "Toys/Sounds/Gunfire/Misc./Nảy" -- NEW
 
 L["unlameifier_sound_ricochet_misc_pinball.printname"] = "Pinball" -- NEW
 L["unlameifier_sound_ricochet_misc_pinball.compactname"] = "Pinball" -- NEW
@@ -893,7 +894,7 @@ L["unlameifier_sound_ricochet_misc_pinball.description"] = [[Đổi tiếng đ�
 Kết hợp với "Cơ hội nảy 100%", "Nảy 90 độ", "+Ngắm đạn nảy" and "Ngắm đạn nảy 90 độ" trong mục Chỉnh sửa để có trải nghiệm chơi pinball chân thật nhất.]] -- NEW
 
 //////////////// Misc. (Impact)
-L["unlameifier.folder.sounds.misc.impact"] = "Unlameifier/Tiếng/Misc./Va chạm" -- NEW
+L["unlameifier.folder.sounds.misc.impact"] = "Toys/Sounds/Gunfire/Misc./Va chạm" -- NEW
 
 L["unlameifier_sound_impact_misc_discord.printname"] = "Tiếng chuông thông báo Discord" -- NEW
 L["unlameifier_sound_impact_misc_discord.compactname"] = "Discord" -- NEW
@@ -908,7 +909,7 @@ L["unlameifier_sound_impact_misc_discord60s.description"] = [[Đổi tiếng va 
 Bình tĩnh nào, Satan.]] -- NEW
 
 //////////////// Melee Sounds Misc (Impact)
-L["unlameifier.folder.sounds.melee_bonk"] = "Unlameifier/Tiếng/Tác động/Linh tinh."
+L["unlameifier.folder.sounds.melee.bonk"] = "Toys/Sounds/Melee/Tác động/Linh tinh."
 
 L["unlameifier_sound_melee_bonk_impact.printname"] = "Bonk"
 L["unlameifier_sound_melee_bonk_impact.compactname"] = "Bonk"
@@ -919,7 +920,7 @@ L["unlameifier_sound_melee_whipcrack_impact.compactname"] = "Roi"
 L["unlameifier_sound_melee_whipcrack_impact.description"] = "Bây *Bạch* giờ *Bạch* bạn  *Bạch* có *Bạch* thể *Bạch* trở *Bạch* thành *Bạch* một *Bạch* nhân *Bạch* vật *Bạch* trong *Bạch* bộ *Bạch* phim *Bạch* hoạt *Bạch* hình *Bạch* Johnny *Bạch* Test *Bạch*."
 
 //////////////// Melee Sounds JJBA
-L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Tiếng/Vung tay/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Toys/Sounds/Melee/Vung tay/JJBA"
 
 L["unlameifier_sound_melee_jojo_jotaro_swing.printname"] = "Ora (Jotaro)"
 L["unlameifier_sound_melee_jojo_jotaro_swing.compactname"] = "Ora"
@@ -936,7 +937,7 @@ MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA
 (tiếng hơi cùi bởi vì cơ chế melee không có lặp tiếng - này nói với arctic á)]]
 
 //////////////// Melee Sounds JJBA (Impact)
-L["unlameifier.folder.sounds.melee_jojo"] = "Unlameifier/Tiếng/Va đập/JJBA"
+L["unlameifier.folder.sounds.melee_jojo"] = "Toys/Sounds/Gunfire/Va đập/JJBA"
 
 L["unlameifier_sound_melee_jojo_impact.printname"] = "Nấm đấm của Stand"
 L["unlameifier_sound_melee_jojo_impact.compactname"] = "Stand"
@@ -946,7 +947,7 @@ L["unlameifier_sound_melee_jojo_impact.description"] = "Đổi tiếng melee san
 
 //////////////////////////////// Start of unlameifier_sound_mods_moka
 //////////////// Day of Defeat: Source
-L["unlameifier.folder.sounds.dods"] = "Unlameifier/Tiếng/DoD:S"
+L["unlameifier.folder.sounds.dods"] = "Toys/Sounds/Gunfire/DoD:S"
 
 L["unlameifier_sound_dods_30cal.printname"] = "Súng .30"
 L["unlameifier_sound_dods_30cal.compactname"] = "Súng .30"
@@ -1017,7 +1018,7 @@ L["unlameifier_sound_dods_thompson.compactname"] = "Thompson"
 L["unlameifier_sound_dods_thompson.description"] = "Đổi Tiếng hiện tại sang tiếng Súng tiểu liên Thompson từ Day of Defeat: Source."
 
 //////////////// Day of Defeat
-L["unlameifier.folder.sounds.dod"] = "Unlameifier/Tiếng/DoD"
+L["unlameifier.folder.sounds.dod"] = "Toys/Sounds/Gunfire/DoD"
 
 L["unlameifier_sound_dod_30cal.printname"] = "Súng .30"
 L["unlameifier_sound_dod_30cal.compactname"] = "Súng .30"
@@ -1158,9 +1159,9 @@ L["unlameifier_sound_dod_webley.compactname"] = "Webley"
 L["unlameifier_sound_dod_webley.description"] = "Đổi Tiếng hiện tại sang tiếng Súng ổ quay Webley từ Day of Defeat."
 
 //////////////// Team Fortress 2
-L["unlameifier.folder.sounds.tf2"] = "Unlameifier/Tiếng/TF2"
-L["unlameifier.folder.sounds.tf2.swing"] = "Unlameifier/Tiếng/Vung tay/TF2"
-L["unlameifier.folder.sounds.tf2.impact"] = "Unlameifier/Tiếng/Tác động/TF2"
+L["unlameifier.folder.sounds.tf2"] = "Toys/Sounds/Gunfire/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Toys/Sounds/Melee/Vung tay/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Toys/Sounds/Melee/Tác động/TF2"
 
 L["unlameifier_tf2_scout"] = "/Scout"
 L["unlameifier_tf2_soldier"] = "/Soldier"
@@ -1562,14 +1563,14 @@ L["unlameifier_sound_tf2_wrench_hit.description"] = string.format(tf2desc.hit, "
 L["unlameifier_sound_tf2_wrench_swing.description"] = string.format(tf2desc.swing, "Cờ lê") .. string.format(tf2desc.crit, 10)
 
 //////////////// Fallout 4 & 76
-L["unlameifier.folder.sounds.fo4"] = "Unlameifier/Tiếng/Fallout 4"
-L["unlameifier.folder.sounds.fo76"] = "Unlameifier/Tiếng/Fallout 76"
-L["unlameifier.folder.sounds.fo76.auto"] = "Unlameifier/Tiếng/Fallout 76/Auto"
-L["unlameifier.folder.sounds.fo76.auto.420"] = "Unlameifier/Tiếng/Fallout 76/Auto/420RPM"
-L["unlameifier.folder.sounds.fo76.auto.540"] = "Unlameifier/Tiếng/Fallout 76/Auto/540RPM"
-L["unlameifier.folder.sounds.fo76.auto.660"] = "Unlameifier/Tiếng/Fallout 76/Auto/660RPM"
-L["unlameifier.folder.sounds.fo76.auto.780"] = "Unlameifier/Tiếng/Fallout 76/Auto/780RPM"
-L["unlameifier.folder.sounds.fo76.auto.900"] = "Unlameifier/Tiếng/Fallout 76/Auto/900RPM"
+L["unlameifier.folder.sounds.fo4"] = "Toys/Sounds/Gunfire/Fallout 4"
+L["unlameifier.folder.sounds.fo76"] = "Toys/Sounds/Gunfire/Fallout 76"
+L["unlameifier.folder.sounds.fo76.auto"] = "Toys/Sounds/Gunfire/Fallout 76/Auto"
+L["unlameifier.folder.sounds.fo76.auto.420"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/420RPM"
+L["unlameifier.folder.sounds.fo76.auto.540"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/540RPM"
+L["unlameifier.folder.sounds.fo76.auto.660"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/660RPM"
+L["unlameifier.folder.sounds.fo76.auto.780"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/780RPM"
+L["unlameifier.folder.sounds.fo76.auto.900"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/900RPM"
 
 local fo76nosupp = "\n\n<color=255,150,150>LƯU Ý</color>: Does not have suppressed sounds."
 
@@ -1808,11 +1809,11 @@ L["unlameifier.fo76.rpm.780"] = string.format(fo76loop, 780)
 L["unlameifier.fo76.rpm.900"] = string.format(fo76loop, 900)
 
 //////////////// Battlefield 2
-L["unlameifier.folder.sounds.bf2"] = "Unlameifier/Tiếng/BF2"
-L["unlameifier.folder.sounds.bf2.vehicle"] = "Unlameifier/Tiếng/BF2/Xe cộ"
-L["unlameifier.folder.sounds.bf2.stationary"] = "Unlameifier/Tiếng/BF2/Vật tĩnh"
+L["unlameifier.folder.sounds.bf2"] = "Toys/Sounds/Gunfire/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Toys/Sounds/Gunfire/BF2/Xe cộ"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Toys/Sounds/Gunfire/BF2/Vật tĩnh"
 
-L["unlameifier.folder.sounds.melee.bf2"] = "Unlameifier/Tiếng/Vung/BF2"
+L["unlameifier.folder.sounds.melee.bf2"] = "Toys/Sounds/Gunfire/Vung/BF2"
 
 local bf2nosupp = "\n\n<color=255,150,150>LƯU Ý</color>: Không có tiếng giảm thanh"
 
@@ -2001,7 +2002,7 @@ L["unlameifier_sound_bf2_type95.compactname"] = "QBZ-97"
 L["unlameifier_sound_bf2_type95.description"] = "Đổi tiếng súng hiện tại sang tiếng Súng trường tấn công QBZ-97 từ Battlefield 2." .. bf2nosupp
 
 //////////////// Battlefield 2142
-L["unlameifier.folder.sounds.bf2142"] = "Unlameifier/Tiếng/BF2142"
+L["unlameifier.folder.sounds.bf2142"] = "Toys/Sounds/Gunfire/BF2142"
 
 local bf2looping = "\n<color=255,150,150>Note</color>: Looping sound effect."
 
@@ -2372,7 +2373,7 @@ L["unlameifier_tuning_nuke_ammo.description"] = "Bullets <color=100,255,100>sẽ
 //////////////// Stats
 L["unlameifier.folder.experimental"] = "Unlameifier/Thử nghiệm"
 
-L["unlameifier_tuning_system.printname"] = "Bật chế độ chỉnh sửa"
+-- L["unlameifier_tuning_system.printname"] = "Tuning System Injector"
 L["unlameifier_tuning_system.compactname"] = "Chỉnh sửa"
 L["unlameifier_tuning_system.description"] = [[Cho phép người dùng <color=255,255,100>chỉnh sửa thống kê hiệu năng của vũ khí</color> bằng cách sử dụng các skill có khả năng biến đổi hiệu năng với thứ tự bất kì. Để tránh tình trạng quá tải logo slot, chúng sẽ <color=255,255,100>KHÔNG</color> hiện trong bảng menu 3D.
 
@@ -2460,6 +2461,18 @@ L["unlameifier_tuning_projectile_plus7.printname"] = "+7 Đạn bắn ra"
 L["unlameifier_tuning_projectile_plus7.compactname"] = "+7 Đạn bắn ra"
 L["unlameifier_tuning_projectile_plus7.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 7) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
+L["unlameifier_tuning_projectile_plus8.printname"] = "+8 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus8.compactname"] = "+8 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus8.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 8) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus9.printname"] = "+9 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus9.compactname"] = "+9 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus9.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 9) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_plus10.printname"] = "+10 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus10.compactname"] = "+10 Đạn bắn ra"
+L["unlameifier_tuning_projectile_plus10.description"] = string.format(statsdesc.plus, "Số viên đạn được bắn ra", 10) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
+
 L["unlameifier_tuning_projectile_minus1.printname"] = "-1 Đạn bắn ra"
 L["unlameifier_tuning_projectile_minus1.compactname"] = "-1 Đạn bắn ra"
 L["unlameifier_tuning_projectile_minus1.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 1) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
@@ -2487,6 +2500,18 @@ L["unlameifier_tuning_projectile_minus6.description"] = string.format(statsdesc.
 L["unlameifier_tuning_projectile_minus7.printname"] = "-7 Đạn bắn ra"
 L["unlameifier_tuning_projectile_minus7.compactname"] = "-7 Đạn bắn ra"
 L["unlameifier_tuning_projectile_minus7.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 7) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus8.printname"] = "-8 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus8.compactname"] = "-8 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus8.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 8) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus9.printname"] = "-9 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus9.compactname"] = "-9 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus9.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 9) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
+
+L["unlameifier_tuning_projectile_minus10.printname"] = "-10 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus10.compactname"] = "-10 Đạn bắn ra"
+L["unlameifier_tuning_projectile_minus10.description"] = string.format(statsdesc.minus, "Số viên đạn được bắn ra", 10) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoolow
 
 L["unlameifier_tuning_projectile_force1.printname"] = "1 Đạn bắn ra"
 L["unlameifier_tuning_projectile_force1.compactname"] = "1 Đạn bắn ra"
@@ -2519,6 +2544,14 @@ L["unlameifier_tuning_projectile_force7.description"] = string.format(statsdesc.
 L["unlameifier_tuning_projectile_force8.printname"] = "8 Đạn bắn ra"
 L["unlameifier_tuning_projectile_force8.compactname"] = "8 Đạn bắn ra"
 L["unlameifier_tuning_projectile_force8.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 8) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force9.printname"] = "9 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force9.compactname"] = "9 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force9.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 9) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
+
+L["unlameifier_tuning_projectile_force10.printname"] = "10 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force10.compactname"] = "10 Đạn bắn ra"
+L["unlameifier_tuning_projectile_force10.description"] = string.format(statsdesc.fixed, "Số viên đạn được bắn ra", 10) .. "Cái này sẽ điều chỉnh số đạn được bắn ra sau mỗi lần bắn." .. statsdesc.warntoohigh
 
 ///////// Ammo Per Shot
 L["unlameifier.folder.ammopershot"] = "Viên đạn từng lần bắn"
@@ -5177,7 +5210,18 @@ L["unlameifier_tuning_ricochet_seeking_enable.description"] = "Buộc làm có h
 
 L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Góc Nảy đạn - Buộc vô hiệu hóa"
 L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-Góc nảy đạn"
-L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>target seeking ricochet</color>.\nĐạn nảy bình thường."
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>đạn nảy</color>.\nĐạn nảy bình thường."
+
+///////// Damage Distribution
+L["unlameifier.folder.projectiles.utility"] = "Đạn bắn ra/Các công dụng"
+
+L["unlameifier_tuning_projectile_damage_dist_enable.printname"] = "Damage Distribution - Buộc có hiệu hóa"
+L["unlameifier_tuning_projectile_damage_dist_enable.compactname"] = "+DMG Distribution"
+L["unlameifier_tuning_projectile_damage_dist_enable.description"] = "Buộc làm có hiệu hóa <color=255,255,100>damage distrubiton</color>.\nThe weapon's total damage is distributed evenly across every projectile.\nFor example, 30 Damage with 3 Projectiles is 10 Damage per projectile."
+
+L["unlameifier_tuning_ricochet_seeking_disable.printname"] = "Damage Distribution - Buộc vô hiệu hóa"
+L["unlameifier_tuning_ricochet_seeking_disable.compactname"] = "-DMG Distribution"
+L["unlameifier_tuning_ricochet_seeking_disable.description"] = "Buộc vô hiệu hóa <color=255,255,100>damage distrubiton</color>.\nThe weapon's total damage is applied to every projectile."
 
 ///////// Ricochet Angles
 L["unlameifier.folder.ricochet.fixed"] = "Nảy đạn/Angle/Đặt giá trị"

@@ -778,3 +778,26 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.ricochet.utility.system")
 ATT.RicochetSeeking = false
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_ricochet_seeking_disable")
+
+////////////////////	Distribute Projectile Number Damage
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Damage Distribution - Force Enable"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.utility")
+
+ATT.DistributeDamage = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_damage_dist_enable")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Damage Distribution - Force Disable"
+ATT.Folder = ARC9:GetPhrase("unlameifier.folder.projectiles.utility")
+
+ATT.DistributeDamage = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_projectile_damage_dist_disable")

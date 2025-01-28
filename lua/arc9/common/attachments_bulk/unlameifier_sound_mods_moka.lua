@@ -7,13 +7,13 @@ sharedcode = {
 
 	MenuCategory = "ARC9 - Unlameifier",
 
-	Category = {"eft_custom_slot"},
+	Category = {"unlameifier_core"},
 	Attachments = {
 		{
 			PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
 			Pos = Vector(50, 50, 50),
 			Ang = Angle(0, 0, 0),
-			Category = {"eft_custom_slot"},
+			Category = {"unlameifier_core"},
 		},
 	},
 	
@@ -3181,7 +3181,7 @@ ATT.Folder = ARC9:GetPhrase("unlameifier.folder.sounds.melee.bf2")
 
 table.Merge(ATT, sharedcode)
 
-ATT.Category = {"eft_custom_slot_melee"}
+ATT.Category = {"unlameifier_core_melee"}
 
 gssf = gsp .. "knife_fire.ogg"
 

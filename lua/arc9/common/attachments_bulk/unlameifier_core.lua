@@ -46,7 +46,7 @@ ATT.Free = true
 ATT.Description = [[Splits this slot into two. Helpful for avoiding excessively long chains of attachments or retaining the original purpose of this slot (when possible).]]
 ATT.SortOrder = 1
 
-ATT.Category = "*"
+ATT.Category = "unlameifier_core"
 ATT.MenuCategory = "ARC9 - Unlameifier"
 
 ATT.Attachments = {

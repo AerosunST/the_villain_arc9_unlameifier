@@ -8766,3 +8766,42 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_10_Z")
+
+///////////////////////////////////////      (ATTACHMENT) Charms (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = [[Charms]]
+ATT.CompactName = [[Charms]]
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_charms_up.png")
+ATT.Description = [[Place a charm on your weapon.
+
+NOTE: If your charm's physics is behaving strangely, go back to your Up/Down/Left/Right attachments and switch it around until it looks correct.]]
+ATT.SortOrder = 10
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Free = true
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.Folder = "Toys/Entities/Fun"
+ATT.IconOffset = Vector(0, 0, -1)
+
+ATT.Attachments = {
+    {
+        PrintName = "Charm",
+        Bone = "j_gun",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+        Category = {"charm"},
+		ForceNoCosmetics = true,
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_attachment_charms")

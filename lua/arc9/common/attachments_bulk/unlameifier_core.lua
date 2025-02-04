@@ -8805,3 +8805,35 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_attachment_charms")
+
+///////////////////////////////////////      (ATTACHMENT) UL-Compatible Sticker Charm (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Unlameifier Compatible Sticker Panel"
+ATT.CompactName = "(UL) STICKER"
+ATT.Icon = Material("entities/arc9_att_charm_gs_sticker.png", "mips smooth")
+ATT.Free = true
+
+ATT.Description = [[Allows a sticker to be applied to the screen. This version works with Unlameifier.]]
+
+ATT.MenuCategory = "ARC9 - Charms"
+
+ATT.Model = "models/items/arc9/att_screenbase.mdl"
+ATT.BoxModel = "models/items/arc9/att_cardboard_box.mdl"
+
+ATT.Category = {"charm", "gunscreen"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("attachment.sticker"),
+        StickerModel = "models/items/arc9/sticker_screenbase.mdl",
+        Category = "stickers",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-2, 0, 0),
+		ForceNoCosmetics = true,
+    }
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_charm_gs_sticker")

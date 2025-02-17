@@ -2338,3 +2338,345 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_patch_eft_ignore_warnings")
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// HOLD TYPES
+
+///////////////////////////////////////      (HOLD TYPE) Magpul AFG (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Magpul AFG-style Hold Type"
+ATT.CompactName = "Magpul AFG"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Magpul AFG.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/afg.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_afg.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_magpul_afg")
+
+///////////////////////////////////////      (HOLD TYPE) ASh-12 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "ASh-12 foregrip-style Hold Type"
+ATT.CompactName = "ASh-12"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the ASh-12's foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/ash12.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_ash12.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_ash12")
+
+///////////////////////////////////////      (HOLD TYPE) BCM Mod 3 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "BCM GUNFIGHTER MOD 3-style Hold Type"
+ATT.CompactName = "MOD3"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the BCM Mod 3's foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/bcm.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bcm3.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_bcmmod3")
+
+///////////////////////////////////////      (HOLD TYPE) Strike Industries Cobra (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Strike Industries Cobra-style Hold Type"
+ATT.CompactName = "Cobra"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Strike Industries Cobra Foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/cobra.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_cobra.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_strike_cobra")
+
+///////////////////////////////////////      (HOLD TYPE) Hera CQR (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Hera Arms CQR-style Hold Type"
+ATT.CompactName = "CQR"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Hera CQR Foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/cqr.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_heracqr.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_hera_cqr")
+
+///////////////////////////////////////      (HOLD TYPE) Fortis Shift (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Fortis Shift-style Hold Type"
+ATT.CompactName = "Shift"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Fortis Shift Foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/fortis.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_fortisshift.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_fortis_shift")
+
+///////////////////////////////////////      (HOLD TYPE) RK-1 Canted (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Zenit RK-1 B25-U Mount-style Hold Type"
+ATT.CompactName = "B-25U RK-1"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Zenit RK-1 Foregrip when mounted to a canted rail.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/b25u.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_b25u.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_rk1_canted")
+
+///////////////////////////////////////      (HOLD TYPE) Fortis Shift (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Zenit RK-6-style Hold Type"
+ATT.CompactName = "RK-6"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Zenit RK-6 Foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/rk6.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk6.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_rk6")
+
+///////////////////////////////////////      (HOLD TYPE) Fortis Shift (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Stark SE-5 Express-style Hold Type"
+ATT.CompactName = "SE-5"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Stark SE-5 Express Foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/se5.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_starkse5.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_stark_se5")
+
+///////////////////////////////////////      (HOLD TYPE) Fortis Shift (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Stark SE-5 Express-style Hold Type"
+ATT.CompactName = "SE-5"
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Stark SE-5 Express Foregrip.
+
+This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/se5.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_starkse5.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_stark_se5")

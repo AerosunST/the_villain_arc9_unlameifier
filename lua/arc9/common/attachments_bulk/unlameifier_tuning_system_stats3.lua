@@ -5939,3 +5939,1073 @@ ATT.SortOrder = 0
 ATT.PhysBulletGravityMult = 0
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_bullet_gravity_0x")
+//////////////////////////////////////// Manual Action
+//////////////////// Utility
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Enable Manual Action"
+ATT.Description = [[Forcibly enables manual action.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Utility"
+ATT.SortOrder = 0
+
+ATT.ManualAction = true
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_manual_action_enable")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "Disable Manual Action"
+ATT.Description = [[Forcibly disables manual action.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Utility"
+ATT.SortOrder = 0
+
+ATT.ManualAction = false
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_manual_action_disable")
+//////////////////// Shots Per Chamber (Fixed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 1 shot.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 1
+
+ATT.ManualActionChamber = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 2 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 2
+
+ATT.ManualActionChamber = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "3 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 3 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 3
+
+ATT.ManualActionChamber = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_3")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "4 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 4 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 4
+
+ATT.ManualActionChamber = 4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_4")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 5 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 5
+
+ATT.ManualActionChamber = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "6 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 6 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 6
+
+ATT.ManualActionChamber = 6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_6")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "7 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 7 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 7
+
+ATT.ManualActionChamber = 7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_7")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "8 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 8 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 8
+
+ATT.ManualActionChamber = 8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_8")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "9 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 9 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 9
+
+ATT.ManualActionChamber = 9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_9")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 10 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 10
+
+ATT.ManualActionChamber = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 15 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 15
+
+ATT.ManualActionChamber = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 20 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 20
+
+ATT.ManualActionChamber = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 25 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 25
+
+ATT.ManualActionChamber = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "30 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 30 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 30
+
+ATT.ManualActionChamber = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 50 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 50
+
+ATT.ManualActionChamber = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 75 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 75
+
+ATT.ManualActionChamber = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 100 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 100
+
+ATT.ManualActionChamber = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "250 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 250 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 250
+
+ATT.ManualActionChamber = 250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 500 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 500
+
+ATT.ManualActionChamber = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "750 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 750 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 750
+
+ATT.ManualActionChamber = 750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 1000 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 1000
+
+ATT.ManualActionChamber = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10000 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 10000 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 10000
+
+ATT.ManualActionChamber = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_10000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "999999 Shots Per Chamber"
+ATT.Description = [[Makes it so your weapon cycles after 999999 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Fixed"
+ATT.SortOrder = 999999
+
+ATT.ManualActionChamber = 999999
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_fixed_999999")
+//////////////////// Shots Per Chamber (Add)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 1 shot.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 1
+
+ATT.ManualActionChamberAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+2 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 2 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 2
+
+ATT.ManualActionChamberAdd = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+3 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 3 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 3
+
+ATT.ManualActionChamberAdd = 3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_3")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+4 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 4 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 4
+
+ATT.ManualActionChamberAdd = 4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_4")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 5 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 5
+
+ATT.ManualActionChamberAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+6 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 6 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 6
+
+ATT.ManualActionChamberAdd = 6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_6")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+7 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 7 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 7
+
+ATT.ManualActionChamberAdd = 7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_7")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+8 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 8 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 8
+
+ATT.ManualActionChamberAdd = 8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_8")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+9 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 9 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 9
+
+ATT.ManualActionChamberAdd = 9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_9")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 10 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 10
+
+ATT.ManualActionChamberAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+15 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 15 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 15
+
+ATT.ManualActionChamberAdd = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+20 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 20 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 20
+
+ATT.ManualActionChamberAdd = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 25 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 25
+
+ATT.ManualActionChamberAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+30 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 30 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 30
+
+ATT.ManualActionChamberAdd = 30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 50 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 50
+
+ATT.ManualActionChamberAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 75 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 75
+
+ATT.ManualActionChamberAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 100 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 100
+
+ATT.ManualActionChamberAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+250 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 250 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 250
+
+ATT.ManualActionChamberAdd = 250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 500 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 500
+
+ATT.ManualActionChamberAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+750 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 750 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 750
+
+ATT.ManualActionChamberAdd = 750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 1000 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 1000
+
+ATT.ManualActionChamberAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10000 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 10000 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 10000
+
+ATT.ManualActionChamberAdd = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_10000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+999999 Shots Per Chamber"
+ATT.Description = [[Adds the amount of shots you can fire between cycles by 999999 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Add"
+ATT.SortOrder = 999999
+
+ATT.ManualActionChamberAdd = 999999
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_add_999999")
+//////////////////// Shots Per Chamber (Subtract)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 1 shot.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 1
+
+ATT.ManualActionChamberAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-2 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 2 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 2
+
+ATT.ManualActionChamberAdd = -2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-3 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 3 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 3
+
+ATT.ManualActionChamberAdd = -3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_3")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-4 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 4 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 4
+
+ATT.ManualActionChamberAdd = -4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_4")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 5 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 5
+
+ATT.ManualActionChamberAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-6 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 6 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 6
+
+ATT.ManualActionChamberAdd = -6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_6")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-7 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 7 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 7
+
+ATT.ManualActionChamberAdd = -7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_7")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-8 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 8 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 8
+
+ATT.ManualActionChamberAdd = -8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_8")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-9 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 9 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 9
+
+ATT.ManualActionChamberAdd = -9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_9")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 10 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 10
+
+ATT.ManualActionChamberAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-15 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 15 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 15
+
+ATT.ManualActionChamberAdd = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-20 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 20 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 20
+
+ATT.ManualActionChamberAdd = -20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 25 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 25
+
+ATT.ManualActionChamberAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-30 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 30 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 30
+
+ATT.ManualActionChamberAdd = -30
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_30")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 50 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 50
+
+ATT.ManualActionChamberAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 75 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 75
+
+ATT.ManualActionChamberAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 100 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 100
+
+ATT.ManualActionChamberAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-250 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 250 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 250
+
+ATT.ManualActionChamberAdd = -250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 500 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 500
+
+ATT.ManualActionChamberAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-750 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 750 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 750
+
+ATT.ManualActionChamberAdd = -750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 1000 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 1000
+
+ATT.ManualActionChamberAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10000 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 10000 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 10000
+
+ATT.ManualActionChamberAdd = -10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_10000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-999999 Shots Per Chamber"
+ATT.Description = [[Subtracts the amount of shots you can fire between cycles by 999999 shots.
+
+NOTE: This does nothing on weapons that don't have cycling/manual action animations.]]
+ATT.Folder = "Manual Action/Shots Per Chamber/Subtract"
+ATT.SortOrder = 999999
+
+ATT.ManualActionChamberAdd = -999999
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_999999")

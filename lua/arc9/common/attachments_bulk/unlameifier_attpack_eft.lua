@@ -1335,6 +1335,43 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_ch_covers")
 
+///////////////////////////////////////      AK CHARGING HANDDLE COVERS (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov AK Dust Covers"
+ATT.CompactName = "EFT AK Dust Covers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Bespoke/AK"
+ATT.Free = true
+ATT.Description = [[Equip AK dust covers from Darsu's Escape from Tarkov weapon packs on this slot.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT AK Dust Covers",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ak74_dustcover", "eft_ak_dustcover", },
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_ak_dust_covers")
+
 ///////////////////////////////////////      AK UBGLS (moka_pls_localize)
 
 
@@ -2680,3 +2717,152 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_stark_se5")
+
+///////////////////////////////////////      (HOLD TYPE) ADAR 2-15 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "ADAR 2-15 Handguard-style Hold Pose"
+ATT.CompactName = "ADAR 2-15 wood"
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_adar_215_wooden_handguard.png", "mips smooth")
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the ADAR 2-15 Handguard.
+
+This requires EFT AR-15 Pack because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_adar_wood_v1.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.ModelOffset = Vector(0, 0, 1)
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_adar_215")
+
+///////////////////////////////////////      (HOLD TYPE) Aeroknox AX-15 (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Aeroknox AX-15-style Hold Type"
+ATT.CompactName = "AX-15 10.5"
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_aeroknox_ax15_105_inch_mlok_handguard.png", "mips smooth")
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the AX-15 Handguard.
+
+This requires EFT AR-15 Pack because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_aeroknox_ax15_10,5_m_lok.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.ModelOffset = Vector(0, 0, 1)
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_ax15")
+
+///////////////////////////////////////      (HOLD TYPE) Colt M4 (moka_pls_localize)
+
+ATT = {}
+ATT.PrintName = "Colt M4 Carbine-style Hold Style"
+ATT.CompactName = "M4 Carbine"
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_colt_m4_carbine_length_lower_handguard.png", "mips smooth")
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the AX-15 Handguard.
+
+This requires EFT AR-15 Pack because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std_bottom.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.ModelOffset = Vector(0, 0, 1)
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_colt_m4")
+
+///////////////////////////////////////      (HOLD TYPE) DD RIS II (moka_pls_localize)
+
+ATT = {}
+ATT.PrintName = "Daniel Defense RIS II-style Hold Type"
+ATT.CompactName = "RIS II 12.25"
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_95_lower_handguard.png", "mips smooth")
+ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the DD RIS-II Handguard.
+
+This requires EFT AR-15 Pack because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5_lower.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.ModelOffset = Vector(0, 0, 1)
+
+ATT.LHIK_Priority = 9999
+ATT.LHIK = true
+
+ATT.Folder = "Toys/Entities/Hold Types/EFT"
+ATT.SortOrder = 0
+ATT.Category = "unlameifier_attachments"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_dd_risii")

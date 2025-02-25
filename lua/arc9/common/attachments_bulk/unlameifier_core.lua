@@ -8837,3 +8837,1453 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_charm_gs_sticker")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0x Shooting Sound Pitch"
+ATT.CompactName = "0x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.1x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.1x Shooting Sound Pitch"
+ATT.CompactName = "0.1x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.1x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.1
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.1x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.2x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.2x Shooting Sound Pitch"
+ATT.CompactName = "0.2x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.2x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.2
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.2x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.3x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.3x Shooting Sound Pitch"
+ATT.CompactName = "0.3x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.3x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.3
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.3x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.4x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.4x Shooting Sound Pitch"
+ATT.CompactName = "0.4x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.4x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.4
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.4
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.4x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.5x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.5x Shooting Sound Pitch"
+ATT.CompactName = "0.5x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.5x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.5
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.5
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.5x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.6x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.6x Shooting Sound Pitch"
+ATT.CompactName = "0.6x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.6x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.6
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.6
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.6x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.7x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.7x Shooting Sound Pitch"
+ATT.CompactName = "0.7x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.7x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.7
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.7
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.7x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.8x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.8x Shooting Sound Pitch"
+ATT.CompactName = "0.8x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.8x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.8
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.8
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.8x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.9x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.9x Shooting Sound Pitch"
+ATT.CompactName = "0.9x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.9x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.9
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.9
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.9x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1x Shooting Sound Pitch"
+ATT.CompactName = "1x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.1x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.1x Shooting Sound Pitch"
+ATT.CompactName = "1.1x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.1x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.1
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.1x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.2x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.2x Shooting Sound Pitch"
+ATT.CompactName = "1.2x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.2x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.2
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.2x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.3x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.3x Shooting Sound Pitch"
+ATT.CompactName = "1.3x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.3x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.3
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.3x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.4x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.4x Shooting Sound Pitch"
+ATT.CompactName = "1.4x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.4x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.4
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.4
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.4x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.5x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.5x Shooting Sound Pitch"
+ATT.CompactName = "1.5x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.5x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.5
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.5
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.5x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.6x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.6x Shooting Sound Pitch"
+ATT.CompactName = "1.6x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.6x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.6
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.6
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.6x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.7x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.7x Shooting Sound Pitch"
+ATT.CompactName = "1.7x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.7x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.7
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.7
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.7x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.8x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.8x Shooting Sound Pitch"
+ATT.CompactName = "1.8x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.8x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.8
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.8
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.8x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 1.9x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.9x Shooting Sound Pitch"
+ATT.CompactName = "1.9x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 1.9x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.9
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 1.9
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_1.9x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 2x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "2x Shooting Sound Pitch"
+ATT.CompactName = "2x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 2x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 2
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_2x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 3x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "3x Shooting Sound Pitch"
+ATT.CompactName = "3x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 3x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 3
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_3x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 4x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "4x Shooting Sound Pitch"
+ATT.CompactName = "4x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 4x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 4
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 4
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_4x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 5x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "5x Shooting Sound Pitch"
+ATT.CompactName = "5x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 5x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 5
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 5
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_5x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 10x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "10x Shooting Sound Pitch"
+ATT.CompactName = "10x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 10x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 10
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 10
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_10x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0x Shooting Sound Pitch"
+ATT.CompactName = "0x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.1x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.1x Shooting Sound Pitch"
+ATT.CompactName = "0.1x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.1x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.1
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.1x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.2x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.2x Shooting Sound Pitch"
+ATT.CompactName = "0.2x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.2x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.2
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.2x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.3x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.3x Shooting Sound Pitch"
+ATT.CompactName = "0.3x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.3x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.3
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.3x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.4x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.4x Shooting Sound Pitch"
+ATT.CompactName = "0.4x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.4x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.4
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.4
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.4x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.5x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.5x Shooting Sound Pitch"
+ATT.CompactName = "0.5x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.5x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.5
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.5
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.5x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.6x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.6x Shooting Sound Pitch"
+ATT.CompactName = "0.6x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.6x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.6
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.6
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.6x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.7x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.7x Shooting Sound Pitch"
+ATT.CompactName = "0.7x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.7x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.7
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.7
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.7x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.8x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.8x Shooting Sound Pitch"
+ATT.CompactName = "0.8x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.8x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.8
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.8
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.8x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.9x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.9x Shooting Sound Pitch"
+ATT.CompactName = "0.9x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.9x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.9
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.9
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.9x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1x Shooting Sound Pitch"
+ATT.CompactName = "1x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.1x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.1x Shooting Sound Pitch"
+ATT.CompactName = "1.1x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.1x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.1
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.1
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.1x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.2x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.2x Shooting Sound Pitch"
+ATT.CompactName = "1.2x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.2x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.2
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.2x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.3x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.3x Shooting Sound Pitch"
+ATT.CompactName = "1.3x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.3x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.3
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.3x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.4x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.4x Shooting Sound Pitch"
+ATT.CompactName = "1.4x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.4x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.4
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.4
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.4x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.5x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.5x Shooting Sound Pitch"
+ATT.CompactName = "1.5x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.5x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.5
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.5
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.5x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.6x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.6x Shooting Sound Pitch"
+ATT.CompactName = "1.6x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.6x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.6
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.6
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.6x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.7x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.7x Shooting Sound Pitch"
+ATT.CompactName = "1.7x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.7x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.7
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.7
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.7x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.8x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.8x Shooting Sound Pitch"
+ATT.CompactName = "1.8x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.8x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.8
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.8
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.8x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 1.9x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "1.9x Shooting Sound Pitch"
+ATT.CompactName = "1.9x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 1.9x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 1.9
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 1.9
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_1.9x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 2x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "2x Shooting Sound Pitch"
+ATT.CompactName = "2x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 2x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 2
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 2
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_2x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 3x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "3x Shooting Sound Pitch"
+ATT.CompactName = "3x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 3x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 3
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 3
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_3x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 4x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "4x Shooting Sound Pitch"
+ATT.CompactName = "4x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 4x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 4
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 4
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_4x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 5x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "5x Shooting Sound Pitch"
+ATT.CompactName = "5x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 5x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 5
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 5
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_5x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 10x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "10x Shooting Sound Pitch"
+ATT.CompactName = "10x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 10x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 10
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 10
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_10x")

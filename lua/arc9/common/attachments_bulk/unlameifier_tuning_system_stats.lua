@@ -1862,6 +1862,340 @@ ATT.RecoilAdd = -1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoil_minus1000")
 
+///////////////////////////////////////     "Recoil Kick" (Recoil Kick)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Recoil Kick"
+ATT.Folder = "Recoil Kick/Divide"
+
+ATT.RecoilKickMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Recoil Kick"
+ATT.Folder = "Recoil Kick/Divide"
+
+ATT.RecoilKickMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Recoil Kick"
+ATT.Folder = "Recoil Kick/Divide"
+
+ATT.RecoilKickMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Recoil Kick"
+ATT.Folder = "Recoil Kick/Divide"
+
+ATT.RecoilKickMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Recoil Kick"
+ATT.Folder = "Recoil Kick/Divide"
+
+ATT.RecoilKickMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+
+ATT.RecoilKickMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+
+ATT.RecoilKickMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+
+ATT.RecoilKickMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+
+ATT.RecoilKickMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+
+ATT.RecoilKickMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+
+ATT.RecoilKickMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Recoil Kick"
+ATT.Folder = "Recoil Kick/Multiply"
+ATT.SortOrder = 10
+ATT.RecoilKickMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+
+ATT.RecoilKickAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 5
+ATT.RecoilKickAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 10
+ATT.RecoilKickAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 25
+ATT.RecoilKickAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 50
+ATT.RecoilKickAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 75
+ATT.RecoilKickAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 100
+ATT.RecoilKickAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 500
+ATT.RecoilKickAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Recoil Kick"
+ATT.Folder = "Recoil Kick/Add"
+ATT.SortOrder = 1000
+ATT.RecoilKickAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+
+ATT.RecoilKickAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 5
+ATT.RecoilKickAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 10
+ATT.RecoilKickAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 25
+ATT.RecoilKickAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 50
+ATT.RecoilKickAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 75
+ATT.RecoilKickAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 100
+ATT.RecoilKickAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 500
+ATT.RecoilKickAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Recoil Kick"
+ATT.Folder = "Recoil Kick/Subtract"
+ATT.SortOrder = 1000
+ATT.RecoilKickAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_recoilkick_minus1000")
+
 ///////////////////////////////////////     "Visual Recoil" (VisualRecoil)
 //////////////////// Multiplied
 ATT = {}
@@ -2195,6 +2529,1342 @@ ATT.SortOrder = 1000
 ATT.VisualRecoilAdd = -1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoil_minus1000")
+
+///////////////////////////////////////     "Visual Recoil (Up)" (VisualRecoilUp)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Divide"
+
+ATT.VisualRecoilUpMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Divide"
+
+ATT.VisualRecoilUpMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Divide"
+
+ATT.VisualRecoilUpMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Divide"
+
+ATT.VisualRecoilUpMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Divide"
+
+ATT.VisualRecoilUpMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+
+ATT.VisualRecoilUpMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+
+ATT.VisualRecoilUpMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+
+ATT.VisualRecoilUpMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+
+ATT.VisualRecoilUpMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+
+ATT.VisualRecoilUpMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+
+ATT.VisualRecoilUpMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Multiply"
+ATT.SortOrder = 10
+ATT.VisualRecoilUpMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+
+ATT.VisualRecoilUpAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 5
+ATT.VisualRecoilUpAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 10
+ATT.VisualRecoilUpAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 25
+ATT.VisualRecoilUpAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 50
+ATT.VisualRecoilUpAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 75
+ATT.VisualRecoilUpAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 100
+ATT.VisualRecoilUpAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 500
+ATT.VisualRecoilUpAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Add"
+ATT.SortOrder = 1000
+ATT.VisualRecoilUpAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+
+ATT.VisualRecoilUpAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 5
+ATT.VisualRecoilUpAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 10
+ATT.VisualRecoilUpAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 25
+ATT.VisualRecoilUpAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 50
+ATT.VisualRecoilUpAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 75
+ATT.VisualRecoilUpAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 100
+ATT.VisualRecoilUpAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 500
+ATT.VisualRecoilUpAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Visual Recoil (Up)"
+ATT.Folder = "VisRec UP/Subtract"
+ATT.SortOrder = 1000
+ATT.VisualRecoilUpAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilup_minus1000")
+
+///////////////////////////////////////     "Visual Recoil (Side)" (VisualRecoilSide)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Divide"
+
+ATT.VisualRecoilSideMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Divide"
+
+ATT.VisualRecoilSideMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Divide"
+
+ATT.VisualRecoilSideMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Divide"
+
+ATT.VisualRecoilSideMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Divide"
+
+ATT.VisualRecoilSideMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+
+ATT.VisualRecoilSideMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+
+ATT.VisualRecoilSideMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+
+ATT.VisualRecoilSideMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+
+ATT.VisualRecoilSideMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+
+ATT.VisualRecoilSideMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+
+ATT.VisualRecoilSideMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Multiply"
+ATT.SortOrder = 10
+ATT.VisualRecoilSideMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+
+ATT.VisualRecoilSideAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 5
+ATT.VisualRecoilSideAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 10
+ATT.VisualRecoilSideAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 25
+ATT.VisualRecoilSideAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 50
+ATT.VisualRecoilSideAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 75
+ATT.VisualRecoilSideAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 100
+ATT.VisualRecoilSideAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 500
+ATT.VisualRecoilSideAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Add"
+ATT.SortOrder = 1000
+ATT.VisualRecoilSideAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+
+ATT.VisualRecoilSideAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 5
+ATT.VisualRecoilSideAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 10
+ATT.VisualRecoilSideAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 25
+ATT.VisualRecoilSideAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 50
+ATT.VisualRecoilSideAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 75
+ATT.VisualRecoilSideAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 100
+ATT.VisualRecoilSideAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 500
+ATT.VisualRecoilSideAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Visual Recoil (Side)"
+ATT.Folder = "VisRec SIDE/Subtract"
+ATT.SortOrder = 1000
+ATT.VisualRecoilSideAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilside_minus1000")
+
+///////////////////////////////////////     "Visual Recoil (Roll)" (VisualRecoilRoll)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Divide"
+
+ATT.VisualRecoilRollMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Divide"
+
+ATT.VisualRecoilRollMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Divide"
+
+ATT.VisualRecoilRollMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Divide"
+
+ATT.VisualRecoilRollMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Divide"
+
+ATT.VisualRecoilRollMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+
+ATT.VisualRecoilRollMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+
+ATT.VisualRecoilRollMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+
+ATT.VisualRecoilRollMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+
+ATT.VisualRecoilRollMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+
+ATT.VisualRecoilRollMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+
+ATT.VisualRecoilRollMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Multiply"
+ATT.SortOrder = 10
+ATT.VisualRecoilRollMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+
+ATT.VisualRecoilRollAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 5
+ATT.VisualRecoilRollAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 10
+ATT.VisualRecoilRollAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 25
+ATT.VisualRecoilRollAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 50
+ATT.VisualRecoilRollAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 75
+ATT.VisualRecoilRollAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 100
+ATT.VisualRecoilRollAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 500
+ATT.VisualRecoilRollAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Add"
+ATT.SortOrder = 1000
+ATT.VisualRecoilRollAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+
+ATT.VisualRecoilRollAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 5
+ATT.VisualRecoilRollAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 10
+ATT.VisualRecoilRollAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 25
+ATT.VisualRecoilRollAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 50
+ATT.VisualRecoilRollAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 75
+ATT.VisualRecoilRollAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 100
+ATT.VisualRecoilRollAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 500
+ATT.VisualRecoilRollAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Visual Recoil (Roll)"
+ATT.Folder = "VisRec ROLL/Subtract"
+ATT.SortOrder = 1000
+ATT.VisualRecoilRollAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilroll_minus1000")
+
+///////////////////////////////////////     "Visual Recoil (Punch)" (VisualRecoilPunch)
+//////////////////// Multiplied
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Divide"
+
+ATT.VisualRecoilPunchMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x010")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Divide"
+
+ATT.VisualRecoilPunchMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x025")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Divide"
+
+ATT.VisualRecoilPunchMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x050")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Divide"
+
+ATT.VisualRecoilPunchMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x075")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Divide"
+
+ATT.VisualRecoilPunchMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x090")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+
+ATT.VisualRecoilPunchMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x110")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.25x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+
+ATT.VisualRecoilPunchMult = 1.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x125")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+
+ATT.VisualRecoilPunchMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.75x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+
+ATT.VisualRecoilPunchMult = 1.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x175")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+
+ATT.VisualRecoilPunchMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x2")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+
+ATT.VisualRecoilPunchMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Multiply"
+ATT.SortOrder = 10
+ATT.VisualRecoilPunchMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_x10")
+
+//////////////////// Plus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+
+ATT.VisualRecoilPunchAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 5
+ATT.VisualRecoilPunchAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 10
+ATT.VisualRecoilPunchAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 25
+ATT.VisualRecoilPunchAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 50
+ATT.VisualRecoilPunchAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 75
+ATT.VisualRecoilPunchAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 100
+ATT.VisualRecoilPunchAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 500
+ATT.VisualRecoilPunchAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Add"
+ATT.SortOrder = 1000
+ATT.VisualRecoilPunchAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_plus1000")
+
+//////////////////// Minus
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+
+ATT.VisualRecoilPunchAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 5
+ATT.VisualRecoilPunchAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 10
+ATT.VisualRecoilPunchAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 25
+ATT.VisualRecoilPunchAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 50
+ATT.VisualRecoilPunchAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 75
+ATT.VisualRecoilPunchAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 100
+ATT.VisualRecoilPunchAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 500
+ATT.VisualRecoilPunchAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Visual Recoil (Punch)"
+ATT.Folder = "VisRec PUNCH/Subtract"
+ATT.SortOrder = 1000
+ATT.VisualRecoilPunchAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_visrecoilpunch_minus1000")
 
 ///////////////////////////////////////     "Reload Time" (ReloadTime)
 //////////////////// Multiplied

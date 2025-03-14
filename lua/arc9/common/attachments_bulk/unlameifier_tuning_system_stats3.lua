@@ -7009,3 +7009,3511 @@ ATT.SortOrder = 999999
 ATT.ManualActionChamberAdd = -999999
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_spchamber_subtract_999999")
+
+//////////////////////////////////////// Speed
+//////////////////// Add (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Speed"
+ATT.Description = [[Adds 1 Point of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 1
+
+ATT.SpeedAdd = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Speed"
+ATT.Description = [[Adds 5 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 5
+
+ATT.SpeedAdd = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Speed"
+ATT.Description = [[Adds 10 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 10
+
+ATT.SpeedAdd = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+15 Speed"
+ATT.Description = [[Adds 15 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 15
+
+ATT.SpeedAdd = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+20 Speed"
+ATT.Description = [[Adds 20 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 20
+
+ATT.SpeedAdd = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Speed"
+ATT.Description = [[Adds 25 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 25
+
+ATT.SpeedAdd = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Speed"
+ATT.Description = [[Adds 50 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 50
+
+ATT.SpeedAdd = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Speed"
+ATT.Description = [[Adds 75 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 75
+
+ATT.SpeedAdd = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Speed"
+ATT.Description = [[Adds 100 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 100
+
+ATT.SpeedAdd = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+150 Speed"
+ATT.Description = [[Adds 150 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 150
+
+ATT.SpeedAdd = 150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+200 Speed"
+ATT.Description = [[Adds 200 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 200
+
+ATT.SpeedAdd = 200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+250 Speed"
+ATT.Description = [[Adds 250 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 250
+
+ATT.SpeedAdd = 250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Speed"
+ATT.Description = [[Adds 500 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 500
+
+ATT.SpeedAdd = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+750 Speed"
+ATT.Description = [[Adds 750 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 750
+
+ATT.SpeedAdd = 750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Speed"
+ATT.Description = [[Adds 1000 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 1000
+
+ATT.SpeedAdd = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5000 Speed"
+ATT.Description = [[Adds 5000 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 5000
+
+ATT.SpeedAdd = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10000 Speed"
+ATT.Description = [[Adds 10000 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Add"
+ATT.SortOrder = 10000
+
+ATT.SpeedAdd = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_+10000")
+//////////////////// Subtract (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Speed"
+ATT.Description = [[Subtracts 1 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 1
+
+ATT.SpeedAdd = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Speed"
+ATT.Description = [[Subtracts 5 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 5
+
+ATT.SpeedAdd = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Speed"
+ATT.Description = [[Subtracts 10 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 10
+
+ATT.SpeedAdd = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-15 Speed"
+ATT.Description = [[Subtracts 15 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 15
+
+ATT.SpeedAdd = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-20 Speed"
+ATT.Description = [[Subtracts 20 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 20
+
+ATT.SpeedAdd = -20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Speed"
+ATT.Description = [[Subtracts 25 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 25
+
+ATT.SpeedAdd = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Speed"
+ATT.Description = [[Subtracts 50 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 50
+
+ATT.SpeedAdd = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Speed"
+ATT.Description = [[Subtracts 75 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 75
+
+ATT.SpeedAdd = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Speed"
+ATT.Description = [[Subtracts 100 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 100
+
+ATT.SpeedAdd = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-150 Speed"
+ATT.Description = [[Subtracts 150 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 150
+
+ATT.SpeedAdd = -150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-200 Speed"
+ATT.Description = [[Subtracts 200 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 200
+
+ATT.SpeedAdd = -200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-250 Speed"
+ATT.Description = [[Subtracts 250 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 250
+
+ATT.SpeedAdd = -250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Speed"
+ATT.Description = [[Subtracts 500 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 500
+
+ATT.SpeedAdd = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-750 Speed"
+ATT.Description = [[Subtracts 750 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 750
+
+ATT.SpeedAdd = -750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Speed"
+ATT.Description = [[Subtracts 1000 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 1000
+
+ATT.SpeedAdd = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5000 Speed"
+ATT.Description = [[Subtracts 5000 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 5000
+
+ATT.SpeedAdd = -5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10000 Speed"
+ATT.Description = [[Subtracts 10000 Hammer Units of Movement Speed (In General).]]
+ATT.Folder = "Speed/General/Subtract"
+ATT.SortOrder = 10000
+
+ATT.SpeedAdd = -10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_-10000")
+//////////////////// Multiply (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.1x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.1
+
+ATT.SpeedMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.1x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.2x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.2x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.2
+
+ATT.SpeedMult = 1.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.3x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.3x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.3
+
+ATT.SpeedMult = 1.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.4x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.4x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.4
+
+ATT.SpeedMult = 1.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.5x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.5
+
+ATT.SpeedMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.6x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.6x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.6
+
+ATT.SpeedMult = 1.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.7x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.7x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.7
+
+ATT.SpeedMult = 1.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.8x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.8x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.8
+
+ATT.SpeedMult = 1.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.9x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1.9x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1.9
+
+ATT.SpeedMult = 1.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 2x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 2
+
+ATT.SpeedMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 5x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 5
+
+ATT.SpeedMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 10x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 10
+
+ATT.SpeedMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_10x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 15x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 15
+
+ATT.SpeedMult = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_15x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 20x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 20
+
+ATT.SpeedMult = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_20x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 25x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 25
+
+ATT.SpeedMult = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 50x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 50
+
+ATT.SpeedMult = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_50x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 75x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 75
+
+ATT.SpeedMult = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 100x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 100
+
+ATT.SpeedMult = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_100x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 500x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 500
+
+ATT.SpeedMult = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_500x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 1000x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 1000
+
+ATT.SpeedMult = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_1000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5000x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 5000x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 5000
+
+ATT.SpeedMult = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_5000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10000x Speed"
+ATT.Description = [[Multiplies Movement Speed (In General) by 10000x.]]
+ATT.Folder = "Speed/General/Multiply"
+ATT.SortOrder = 10000
+
+ATT.SpeedMult = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_10000x")
+//////////////////// Divide (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.9x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.9
+
+ATT.SpeedMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.8x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.8x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.8
+
+ATT.SpeedMult = 0.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.7x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.7x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.7
+
+ATT.SpeedMult = 0.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.75x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.75
+
+ATT.SpeedMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.6x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.6x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.6
+
+ATT.SpeedMult = 0.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.5x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.5
+
+ATT.SpeedMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.4x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.4x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.4
+
+ATT.SpeedMult = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.3x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.3x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.3
+
+ATT.SpeedMult = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.25x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.25
+
+ATT.SpeedMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.2x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.2x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.2
+
+ATT.SpeedMult = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Speed"
+ATT.Description = [[Divides Movement Speed (In General) by 0.1x.]]
+ATT.Folder = "Speed/General/Divide"
+ATT.SortOrder = 0.1
+
+ATT.SpeedMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_general_0.1x")
+
+//////////////////////////////////////// Speed (While Sighted)
+//////////////////// Add (Speed (While Sighted))
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Speed (Sights)"
+ATT.Description = [[Adds 1 Point of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 1
+
+ATT.SpeedAddSights = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Speed (Sights)"
+ATT.Description = [[Adds 5 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 5
+
+ATT.SpeedAddSights = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Speed (Sights)"
+ATT.Description = [[Adds 10 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 10
+
+ATT.SpeedAddSights = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+15 Speed (Sights)"
+ATT.Description = [[Adds 15 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 15
+
+ATT.SpeedAddSights = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+20 Speed (Sights)"
+ATT.Description = [[Adds 20 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 20
+
+ATT.SpeedAddSights = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Speed (Sights)"
+ATT.Description = [[Adds 25 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 25
+
+ATT.SpeedAddSights = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Speed (Sights)"
+ATT.Description = [[Adds 50 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 50
+
+ATT.SpeedAddSights = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Speed (Sights)"
+ATT.Description = [[Adds 75 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 75
+
+ATT.SpeedAddSights = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Speed (Sights)"
+ATT.Description = [[Adds 100 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 100
+
+ATT.SpeedAddSights = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+150 Speed (Sights)"
+ATT.Description = [[Adds 150 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 150
+
+ATT.SpeedAddSights = 150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+200 Speed (Sights)"
+ATT.Description = [[Adds 200 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 200
+
+ATT.SpeedAddSights = 200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+250 Speed (Sights)"
+ATT.Description = [[Adds 250 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 250
+
+ATT.SpeedAddSights = 250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Speed (Sights)"
+ATT.Description = [[Adds 500 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 500
+
+ATT.SpeedAddSights = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+750 Speed (Sights)"
+ATT.Description = [[Adds 750 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 750
+
+ATT.SpeedAddSights = 750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Speed (Sights)"
+ATT.Description = [[Adds 1000 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 1000
+
+ATT.SpeedAddSights = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5000 Speed (Sights)"
+ATT.Description = [[Adds 5000 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 5000
+
+ATT.SpeedAddSights = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10000 Speed (Sights)"
+ATT.Description = [[Adds 10000 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Add"
+ATT.SortOrder = 10000
+
+ATT.SpeedAddSights = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_+10000")
+//////////////////// Subtract (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Speed (Sights)"
+ATT.Description = [[Subtracts 1 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 1
+
+ATT.SpeedAddSights = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Speed (Sights)"
+ATT.Description = [[Subtracts 5 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 5
+
+ATT.SpeedAddSights = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Speed (Sights)"
+ATT.Description = [[Subtracts 10 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 10
+
+ATT.SpeedAddSights = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-15 Speed (Sights)"
+ATT.Description = [[Subtracts 15 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 15
+
+ATT.SpeedAddSights = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-20 Speed (Sights)"
+ATT.Description = [[Subtracts 20 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 20
+
+ATT.SpeedAddSights = -20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Speed (Sights)"
+ATT.Description = [[Subtracts 25 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 25
+
+ATT.SpeedAddSights = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Speed (Sights)"
+ATT.Description = [[Subtracts 50 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 50
+
+ATT.SpeedAddSights = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Speed (Sights)"
+ATT.Description = [[Subtracts 75 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 75
+
+ATT.SpeedAddSights = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Speed (Sights)"
+ATT.Description = [[Subtracts 100 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 100
+
+ATT.SpeedAddSights = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-150 Speed (Sights)"
+ATT.Description = [[Subtracts 150 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 150
+
+ATT.SpeedAddSights = -150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-200 Speed (Sights)"
+ATT.Description = [[Subtracts 200 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 200
+
+ATT.SpeedAddSights = -200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-250 Speed (Sights)"
+ATT.Description = [[Subtracts 250 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 250
+
+ATT.SpeedAddSights = -250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Speed (Sights)"
+ATT.Description = [[Subtracts 500 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 500
+
+ATT.SpeedAddSights = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-750 Speed (Sights)"
+ATT.Description = [[Subtracts 750 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 750
+
+ATT.SpeedAddSights = -750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Speed (Sights)"
+ATT.Description = [[Subtracts 1000 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 1000
+
+ATT.SpeedAddSights = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5000 Speed (Sights)"
+ATT.Description = [[Subtracts 5000 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 5000
+
+ATT.SpeedAddSights = -5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10000 Speed (Sights)"
+ATT.Description = [[Subtracts 10000 Hammer Units of Movement Speed (While Sighted).]]
+ATT.Folder = "Speed/Sights/Subtract"
+ATT.SortOrder = 10000
+
+ATT.SpeedAddSights = -10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_-10000")
+//////////////////// Multiply (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.1x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.1
+
+ATT.SpeedMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.1x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.2x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.2x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.2
+
+ATT.SpeedMult = 1.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.3x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.3x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.3
+
+ATT.SpeedMult = 1.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.4x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.4x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.4
+
+ATT.SpeedMult = 1.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.5x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.5
+
+ATT.SpeedMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.6x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.6x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.6
+
+ATT.SpeedMult = 1.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.7x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.7x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.7
+
+ATT.SpeedMult = 1.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.8x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.8x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.8
+
+ATT.SpeedMult = 1.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.9x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.9x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1.9
+
+ATT.SpeedMult = 1.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 2x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 2
+
+ATT.SpeedMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 5x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 5
+
+ATT.SpeedMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 10x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 10
+
+ATT.SpeedMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_10x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 15x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 15
+
+ATT.SpeedMult = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_15x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 20x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 20
+
+ATT.SpeedMult = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_20x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 25x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 25
+
+ATT.SpeedMult = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 50x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 50
+
+ATT.SpeedMult = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_50x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 75x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 75
+
+ATT.SpeedMult = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 100x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 100
+
+ATT.SpeedMult = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_100x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 500x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 500
+
+ATT.SpeedMult = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_500x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1000x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 1000
+
+ATT.SpeedMult = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5000x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 5000x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 5000
+
+ATT.SpeedMult = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_5000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10000x Speed (Sights)"
+ATT.Description = [[Multiplies Movement Speed (While Sighted) by 10000x.]]
+ATT.Folder = "Speed/Sights/Multiply"
+ATT.SortOrder = 10000
+
+ATT.SpeedMult = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_10000x")
+//////////////////// Divide (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.9x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.9
+
+ATT.SpeedMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.8x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.8x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.8
+
+ATT.SpeedMult = 0.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.7x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.7x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.7
+
+ATT.SpeedMult = 0.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.75x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.75
+
+ATT.SpeedMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.6x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.6x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.6
+
+ATT.SpeedMult = 0.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.5x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.5
+
+ATT.SpeedMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.4x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.4x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.4
+
+ATT.SpeedMult = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.3x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.3x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.3
+
+ATT.SpeedMult = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.25x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.25
+
+ATT.SpeedMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.2x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.2x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.2
+
+ATT.SpeedMult = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Speed (Sights)"
+ATT.Description = [[Divides Movement Speed (While Sighted) by 0.1x.]]
+ATT.Folder = "Speed/Sights/Divide"
+ATT.SortOrder = 0.1
+
+ATT.SpeedMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.1x")
+
+//////////////////////////////////////// Speed (While Shooting)
+//////////////////// Add (Speed (While Shooting))
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Speed (Shooting)"
+ATT.Description = [[Adds 1 Point of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 1
+
+ATT.SpeedAddShooting = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Speed (Shooting)"
+ATT.Description = [[Adds 5 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 5
+
+ATT.SpeedAddShooting = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Speed (Shooting)"
+ATT.Description = [[Adds 10 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 10
+
+ATT.SpeedAddShooting = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+15 Speed (Shooting)"
+ATT.Description = [[Adds 15 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 15
+
+ATT.SpeedAddShooting = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+20 Speed (Shooting)"
+ATT.Description = [[Adds 20 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 20
+
+ATT.SpeedAddShooting = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Speed (Shooting)"
+ATT.Description = [[Adds 25 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 25
+
+ATT.SpeedAddShooting = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Speed (Shooting)"
+ATT.Description = [[Adds 50 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 50
+
+ATT.SpeedAddShooting = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Speed (Shooting)"
+ATT.Description = [[Adds 75 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 75
+
+ATT.SpeedAddShooting = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Speed (Shooting)"
+ATT.Description = [[Adds 100 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 100
+
+ATT.SpeedAddShooting = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+150 Speed (Shooting)"
+ATT.Description = [[Adds 150 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 150
+
+ATT.SpeedAddShooting = 150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+200 Speed (Shooting)"
+ATT.Description = [[Adds 200 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 200
+
+ATT.SpeedAddShooting = 200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+250 Speed (Shooting)"
+ATT.Description = [[Adds 250 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 250
+
+ATT.SpeedAddShooting = 250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Speed (Shooting)"
+ATT.Description = [[Adds 500 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 500
+
+ATT.SpeedAddShooting = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+750 Speed (Shooting)"
+ATT.Description = [[Adds 750 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 750
+
+ATT.SpeedAddShooting = 750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Speed (Shooting)"
+ATT.Description = [[Adds 1000 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 1000
+
+ATT.SpeedAddShooting = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5000 Speed (Shooting)"
+ATT.Description = [[Adds 5000 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 5000
+
+ATT.SpeedAddShooting = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10000 Speed (Shooting)"
+ATT.Description = [[Adds 10000 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Add"
+ATT.SortOrder = 10000
+
+ATT.SpeedAddShooting = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_+10000")
+//////////////////// Subtract (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Speed (Shooting)"
+ATT.Description = [[Subtracts 1 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 1
+
+ATT.SpeedAddShooting = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Speed (Shooting)"
+ATT.Description = [[Subtracts 5 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 5
+
+ATT.SpeedAddShooting = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Speed (Shooting)"
+ATT.Description = [[Subtracts 10 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 10
+
+ATT.SpeedAddShooting = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-15 Speed (Shooting)"
+ATT.Description = [[Subtracts 15 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 15
+
+ATT.SpeedAddShooting = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-20 Speed (Shooting)"
+ATT.Description = [[Subtracts 20 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 20
+
+ATT.SpeedAddShooting = -20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Speed (Shooting)"
+ATT.Description = [[Subtracts 25 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 25
+
+ATT.SpeedAddShooting = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Speed (Shooting)"
+ATT.Description = [[Subtracts 50 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 50
+
+ATT.SpeedAddShooting = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Speed (Shooting)"
+ATT.Description = [[Subtracts 75 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 75
+
+ATT.SpeedAddShooting = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Speed (Shooting)"
+ATT.Description = [[Subtracts 100 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 100
+
+ATT.SpeedAddShooting = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-150 Speed (Shooting)"
+ATT.Description = [[Subtracts 150 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 150
+
+ATT.SpeedAddShooting = -150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-200 Speed (Shooting)"
+ATT.Description = [[Subtracts 200 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 200
+
+ATT.SpeedAddShooting = -200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-250 Speed (Shooting)"
+ATT.Description = [[Subtracts 250 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 250
+
+ATT.SpeedAddShooting = -250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Speed (Shooting)"
+ATT.Description = [[Subtracts 500 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 500
+
+ATT.SpeedAddShooting = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-750 Speed (Shooting)"
+ATT.Description = [[Subtracts 750 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 750
+
+ATT.SpeedAddShooting = -750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Speed (Shooting)"
+ATT.Description = [[Subtracts 1000 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 1000
+
+ATT.SpeedAddShooting = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5000 Speed (Shooting)"
+ATT.Description = [[Subtracts 5000 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 5000
+
+ATT.SpeedAddShooting = -5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10000 Speed (Shooting)"
+ATT.Description = [[Subtracts 10000 Hammer Units of Movement Speed (While Shooting).]]
+ATT.Folder = "Speed/Shooting/Subtract"
+ATT.SortOrder = 10000
+
+ATT.SpeedAddShooting = -10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_-10000")
+//////////////////// Multiply (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.1x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.1
+
+ATT.SpeedMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.1x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.2x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.2x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.2
+
+ATT.SpeedMult = 1.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.3x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.3x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.3
+
+ATT.SpeedMult = 1.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.4x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.4x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.4
+
+ATT.SpeedMult = 1.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.5x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.5
+
+ATT.SpeedMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.6x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.6x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.6
+
+ATT.SpeedMult = 1.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.7x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.7x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.7
+
+ATT.SpeedMult = 1.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.8x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.8x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.8
+
+ATT.SpeedMult = 1.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.9x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.9x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1.9
+
+ATT.SpeedMult = 1.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 2x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 2
+
+ATT.SpeedMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 5x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 5
+
+ATT.SpeedMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 10x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 10
+
+ATT.SpeedMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_10x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 15x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 15
+
+ATT.SpeedMult = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_15x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 20x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 20
+
+ATT.SpeedMult = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_20x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 25x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 25
+
+ATT.SpeedMult = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 50x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 50
+
+ATT.SpeedMult = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_50x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 75x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 75
+
+ATT.SpeedMult = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 100x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 100
+
+ATT.SpeedMult = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_100x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 500x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 500
+
+ATT.SpeedMult = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_500x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1000x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 1000
+
+ATT.SpeedMult = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5000x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 5000x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 5000
+
+ATT.SpeedMult = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_5000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10000x Speed (Shooting)"
+ATT.Description = [[Multiplies Movement Speed (While Shooting) by 10000x.]]
+ATT.Folder = "Speed/Shooting/Multiply"
+ATT.SortOrder = 10000
+
+ATT.SpeedMult = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_10000x")
+//////////////////// Divide (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.9x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.9
+
+ATT.SpeedMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.8x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.8x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.8
+
+ATT.SpeedMult = 0.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.7x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.7x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.7
+
+ATT.SpeedMult = 0.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.75x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.75
+
+ATT.SpeedMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.6x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.6x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.6
+
+ATT.SpeedMult = 0.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.5x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.5
+
+ATT.SpeedMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.4x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.4x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.4
+
+ATT.SpeedMult = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.3x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.3x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.3
+
+ATT.SpeedMult = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.25x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.25
+
+ATT.SpeedMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.2x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.2x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.2
+
+ATT.SpeedMult = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Speed (Shooting)"
+ATT.Description = [[Divides Movement Speed (While Shooting) by 0.1x.]]
+ATT.Folder = "Speed/Shooting/Divide"
+ATT.SortOrder = 0.1
+
+ATT.SpeedMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.1x")
+
+//////////////////////////////////////// Speed (While Crouched)
+//////////////////// Add (Speed (While Crouched))
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1 Speed (Crouch)"
+ATT.Description = [[Adds 1 Point of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 1
+
+ATT.SpeedAddCrouch = 1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5 Speed (Crouch)"
+ATT.Description = [[Adds 5 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 5
+
+ATT.SpeedAddCrouch = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10 Speed (Crouch)"
+ATT.Description = [[Adds 10 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 10
+
+ATT.SpeedAddCrouch = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+15 Speed (Crouch)"
+ATT.Description = [[Adds 15 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 15
+
+ATT.SpeedAddCrouch = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+20 Speed (Crouch)"
+ATT.Description = [[Adds 20 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 20
+
+ATT.SpeedAddCrouch = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+25 Speed (Crouch)"
+ATT.Description = [[Adds 25 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 25
+
+ATT.SpeedAddCrouch = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+50 Speed (Crouch)"
+ATT.Description = [[Adds 50 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 50
+
+ATT.SpeedAddCrouch = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+75 Speed (Crouch)"
+ATT.Description = [[Adds 75 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 75
+
+ATT.SpeedAddCrouch = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+100 Speed (Crouch)"
+ATT.Description = [[Adds 100 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 100
+
+ATT.SpeedAddCrouch = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+150 Speed (Crouch)"
+ATT.Description = [[Adds 150 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 150
+
+ATT.SpeedAddCrouch = 150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+200 Speed (Crouch)"
+ATT.Description = [[Adds 200 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 200
+
+ATT.SpeedAddCrouch = 200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+250 Speed (Crouch)"
+ATT.Description = [[Adds 250 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 250
+
+ATT.SpeedAddCrouch = 250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+500 Speed (Crouch)"
+ATT.Description = [[Adds 500 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 500
+
+ATT.SpeedAddCrouch = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+750 Speed (Crouch)"
+ATT.Description = [[Adds 750 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 750
+
+ATT.SpeedAddCrouch = 750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+1000 Speed (Crouch)"
+ATT.Description = [[Adds 1000 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 1000
+
+ATT.SpeedAddCrouch = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+5000 Speed (Crouch)"
+ATT.Description = [[Adds 5000 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 5000
+
+ATT.SpeedAddCrouch = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "+10000 Speed (Crouch)"
+ATT.Description = [[Adds 10000 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Add"
+ATT.SortOrder = 10000
+
+ATT.SpeedAddCrouch = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_+10000")
+//////////////////// Subtract (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1 Speed (Crouch)"
+ATT.Description = [[Subtracts 1 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 1
+
+ATT.SpeedAddCrouch = -1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-1")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5 Speed (Crouch)"
+ATT.Description = [[Subtracts 5 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 5
+
+ATT.SpeedAddCrouch = -5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-5")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10 Speed (Crouch)"
+ATT.Description = [[Subtracts 10 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 10
+
+ATT.SpeedAddCrouch = -10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-10")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-15 Speed (Crouch)"
+ATT.Description = [[Subtracts 15 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 15
+
+ATT.SpeedAddCrouch = -15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-15")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-20 Speed (Crouch)"
+ATT.Description = [[Subtracts 20 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 20
+
+ATT.SpeedAddCrouch = -20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-20")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-25 Speed (Crouch)"
+ATT.Description = [[Subtracts 25 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 25
+
+ATT.SpeedAddCrouch = -25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-25")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-50 Speed (Crouch)"
+ATT.Description = [[Subtracts 50 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 50
+
+ATT.SpeedAddCrouch = -50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-50")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-75 Speed (Crouch)"
+ATT.Description = [[Subtracts 75 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 75
+
+ATT.SpeedAddCrouch = -75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-75")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-100 Speed (Crouch)"
+ATT.Description = [[Subtracts 100 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 100
+
+ATT.SpeedAddCrouch = -100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-100")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-150 Speed (Crouch)"
+ATT.Description = [[Subtracts 150 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 150
+
+ATT.SpeedAddCrouch = -150
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-150")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-200 Speed (Crouch)"
+ATT.Description = [[Subtracts 200 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 200
+
+ATT.SpeedAddCrouch = -200
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-200")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-250 Speed (Crouch)"
+ATT.Description = [[Subtracts 250 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 250
+
+ATT.SpeedAddCrouch = -250
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-250")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-500 Speed (Crouch)"
+ATT.Description = [[Subtracts 500 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 500
+
+ATT.SpeedAddCrouch = -500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-500")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-750 Speed (Crouch)"
+ATT.Description = [[Subtracts 750 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 750
+
+ATT.SpeedAddCrouch = -750
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-750")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-1000 Speed (Crouch)"
+ATT.Description = [[Subtracts 1000 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 1000
+
+ATT.SpeedAddCrouch = -1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-1000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-5000 Speed (Crouch)"
+ATT.Description = [[Subtracts 5000 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 5000
+
+ATT.SpeedAddCrouch = -5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-5000")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "-10000 Speed (Crouch)"
+ATT.Description = [[Subtracts 10000 Hammer Units of Movement Speed (While Crouched).]]
+ATT.Folder = "Speed/Crouch/Subtract"
+ATT.SortOrder = 10000
+
+ATT.SpeedAddCrouch = -10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_-10000")
+//////////////////// Multiply (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.1x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.1x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.1
+
+ATT.SpeedMult = 1.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.1x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.2x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.2x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.2
+
+ATT.SpeedMult = 1.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.3x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.3x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.3
+
+ATT.SpeedMult = 1.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.4x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.4x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.4
+
+ATT.SpeedMult = 1.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.5x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.5x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.5
+
+ATT.SpeedMult = 1.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.6x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.6x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.6
+
+ATT.SpeedMult = 1.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.7x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.7x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.7
+
+ATT.SpeedMult = 1.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.8x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.8x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.8
+
+ATT.SpeedMult = 1.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1.9x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.9x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1.9
+
+ATT.SpeedMult = 1.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "2x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 2x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 2
+
+ATT.SpeedMult = 2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 5x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 5
+
+ATT.SpeedMult = 5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 10x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 10
+
+ATT.SpeedMult = 10
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_10x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "15x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 15x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 15
+
+ATT.SpeedMult = 15
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_15x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "20x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 20x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 20
+
+ATT.SpeedMult = 20
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_20x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "25x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 25x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 25
+
+ATT.SpeedMult = 25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "50x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 50x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 50
+
+ATT.SpeedMult = 50
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_50x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "75x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 75x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 75
+
+ATT.SpeedMult = 75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "100x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 100x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 100
+
+ATT.SpeedMult = 100
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_100x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "500x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 500x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 500
+
+ATT.SpeedMult = 500
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_500x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "1000x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1000x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 1000
+
+ATT.SpeedMult = 1000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "5000x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 5000x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 5000
+
+ATT.SpeedMult = 5000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_5000x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "10000x Speed (Crouch)"
+ATT.Description = [[Multiplies Movement Speed (While Crouched) by 10000x.]]
+ATT.Folder = "Speed/Crouch/Multiply"
+ATT.SortOrder = 10000
+
+ATT.SpeedMult = 10000
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_10000x")
+//////////////////// Divide (Speed)
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.9x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.9x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.9
+
+ATT.SpeedMult = 0.9
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.9x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.8x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.8x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.8
+
+ATT.SpeedMult = 0.8
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.8x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.7x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.7x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.7
+
+ATT.SpeedMult = 0.7
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.7x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.75x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.75x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.75
+
+ATT.SpeedMult = 0.75
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.75x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.6x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.6x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.6
+
+ATT.SpeedMult = 0.6
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.6x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.5x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.5x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.5
+
+ATT.SpeedMult = 0.5
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.5x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.4x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.4x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.4
+
+ATT.SpeedMult = 0.4
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.4x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.3x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.3x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.3
+
+ATT.SpeedMult = 0.3
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.3x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.25x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.25x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.25
+
+ATT.SpeedMult = 0.25
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.25x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.2x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.2x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.2
+
+ATT.SpeedMult = 0.2
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.2x")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
+ATT.PrintName = "0.1x Speed (Crouch)"
+ATT.Description = [[Divides Movement Speed (While Crouched) by 0.1x.]]
+ATT.Folder = "Speed/Crouch/Divide"
+ATT.SortOrder = 0.1
+
+ATT.SpeedMult = 0.1
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.1x")

@@ -77,6 +77,8 @@ L["unlameifier.folder.eftatts.caliber.ordnance"] = "Attachments/EFT/Caliber/Ordn
 
 L["unlameifier.folder.patches.eft.general"] = "Patches/EFT/General"
 
+L["unlameifier.folder.toys.entities.holdtypes.eft"] = "Toys/Entities/Hold Types/EFT"
+
 L["unlameifier.attname.eftatts.optics"] = "EFT Optics"
 L["unlameifier.attname.eftatts.irons.front"] = "EFT Irons (F)"
 L["unlameifier.attname.eftatts.irons.rear"] = "EFT Irons (R)"
@@ -120,6 +122,7 @@ L["unlameifier.attname.eftatts.barrels.ak"] = "EFT AK Gas Tubes"
 L["unlameifier.attname.eftatts.handguards.ak"] = "EFT AK Handguards"
 L["unlameifier.attname.eftatts.stocks.ak"] = "EFT AK Stocks"
 L["unlameifier.attname.eftatts.chcover.ak"] = "EFT AK C.H. Covers"
+L["unlameifier.attname.eftatts.dcover.ak"] = "EFT AK D. Covers"
 L["unlameifier.attname.eftatts.ubgl.ak"] = "EFT AK UBGL"
 
 L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
@@ -314,6 +317,10 @@ L["unlameifier_atts_eft_ak_ch_covers.printname"] = "Escape from Tarkov - AK Char
 L["unlameifier_atts_eft_ak_ch_covers.compactname"] = "EFT AK C. H. Cover"
 L["unlameifier_atts_eft_ak_ch_covers.description"] = githubwarn .. "Allows the installation of AK charging handle covers from Escape from Tarkov.\nExtremely niche, but your imagination is the only restriction on finding a use for these."
 
+L["unlameifier_atts_eft_ak_dust_covers.printname"] = "Escape from Tarkov - AK Dust Covers"
+L["unlameifier_atts_eft_ak_dust_covers.compactname"] = "EFT AK D. Cover"
+L["unlameifier_atts_eft_ak_dust_covers.description"] = githubwarn .. "Allows the installation of AK dust covers from Escape from Tarkov.\nShould be equipped on slots that use AK dust covers. Expect <color=255,150,150>visual errors</color> otherwise."
+
 L["unlameifier_atts_eft_ak_ubgls.printname"] = "Escape from Tarkov - AK Undermounted Grenade Launchers"
 L["unlameifier_atts_eft_ak_ubgls.compactname"] = "EFT AK UBGLs"
 L["unlameifier_atts_eft_ak_ubgls.description"] = githubwarn .. "Allows the installation of AK undermounted grenade launchers from Escape from Tarkov.\nShould be equipped on underbarrel slots. Expect <color=255,150,150>visual errors</color> otherwise."
@@ -421,6 +428,63 @@ L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Changes the
 L["unlameifier_patch_eft_ignore_warnings.printname"] = "Critical Parts Bypass"
 L["unlameifier_patch_eft_ignore_warnings.compactname"] = "Critical Bypass"
 L["unlameifier_patch_eft_ignore_warnings.description"] = githubwarn .. "Forces all critical parts to be set to true, bypassing the \"<color=255,100,100>Missing Critical Parts!</color>\" warning.\n\n<color=255,255,100>NOTE</color>: Only needs to be equipped once, and can be equipped anywhere."
+
+-- Hold Types
+L["unlameifier_holdtype_eft_magpul_afg.printname"] = "Magpul Angled Foregrip"
+L["unlameifier_holdtype_eft_magpul_afg.compactname"] = "Magpul AFG"
+L["unlameifier_holdtype_eft_magpul_afg.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Magpul Angled Foregrip</color>."
+
+L["unlameifier_holdtype_eft_ash12.printname"] = "ASh-12 Foregrip"
+L["unlameifier_holdtype_eft_ash12.compactname"] = "ASh-12"
+L["unlameifier_holdtype_eft_ash12.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>unique foregrip</color> from the ASh-12."
+
+L["unlameifier_holdtype_eft_bcmmod3.printname"] = "BCM GUNFIGHTER MOD 3"
+L["unlameifier_holdtype_eft_bcmmod3.compactname"] = "MOD 3"
+L["unlameifier_holdtype_eft_bcmmod3.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>BCM GUNFIGHTER MOD 3</color> foregrip."
+
+L["unlameifier_holdtype_eft_strike_cobra.printname"] = "Strike Industries Cobra"
+L["unlameifier_holdtype_eft_strike_cobra.compactname"] = "Cobra"
+L["unlameifier_holdtype_eft_strike_cobra.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Strike Industries Cobra</color> foregrip."
+
+L["unlameifier_holdtype_eft_hera_cqr.printname"] = "Hera Arms CQR"
+L["unlameifier_holdtype_eft_hera_cqr.compactname"] = "CQR"
+L["unlameifier_holdtype_eft_hera_cqr.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Hera Arms CQR</color> foregrip."
+
+L["unlameifier_holdtype_eft_fortis_shift.printname"] = "Fortis Shift"
+L["unlameifier_holdtype_eft_fortis_shift.compactname"] = "Shift"
+L["unlameifier_holdtype_eft_fortis_shift.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Fortis Shift</color> foregrip."
+
+L["unlameifier_holdtype_eft_rk1_canted.printname"] = "Zenit RK-1 B25-U Mount"
+L["unlameifier_holdtype_eft_rk1_canted.compactname"] = "B-25U RK-1"
+L["unlameifier_holdtype_eft_rk1_canted.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Zenit RK-1 B25-U Mount</color> foregrip."
+
+L["unlameifier_holdtype_eft_rk6.printname"] = "Zenit RK-6"
+L["unlameifier_holdtype_eft_rk6.compactname"] = "RK-6"
+L["unlameifier_holdtype_eft_rk6.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Zenit RK-6</color> foregrip."
+
+L["unlameifier_holdtype_eft_stark_se5.printname"] = "Stark SE-5 Express"
+L["unlameifier_holdtype_eft_stark_se5.compactname"] = "SE-5"
+L["unlameifier_holdtype_eft_stark_se5.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Stark SE-5 Express</color> foregrip."
+
+L["unlameifier_holdtype_eft_rk6.printname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_rk6.compactname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_rk6.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>ADAR 2-15's</color> handguard."
+
+L["unlameifier_holdtype_eft_ax15.printname"] = "Aeroknox AX-15"
+L["unlameifier_holdtype_eft_ax15.compactname"] = "AX-15"
+L["unlameifier_holdtype_eft_ax15.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Aeroknox AX-15's</color> handguard."
+
+L["unlameifier_holdtype_eft_colt_m4.printname"] = "Colt M4 Carbine"
+L["unlameifier_holdtype_eft_colt_m4.compactname"] = "Colt M4"
+L["unlameifier_holdtype_eft_colt_m4.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Colt M4 Carbine's</color> handguard."
+
+L["unlameifier_holdtype_eft_ax15.printname"] = "Daniel Defense RIS II"
+L["unlameifier_holdtype_eft_ax15.compactname"] = "RIS II 12.25"
+L["unlameifier_holdtype_eft_ax15.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Daniel Defense RIS II</color> handguard."
+
+L["unlameifier_holdtype_eft_dd_risii.printname"] = "Aeroknox AX-15"
+L["unlameifier_holdtype_eft_dd_risii.compactname"] = "AX-15"
+L["unlameifier_holdtype_eft_dd_risii.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Aeroknox AX-15's</color> handguard."
 
 //////////////////////////////// End of unlameifier_attpack_eft
 

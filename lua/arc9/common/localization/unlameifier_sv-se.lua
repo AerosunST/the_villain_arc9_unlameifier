@@ -49,6 +49,8 @@ L["unlameifier.folder.eftatts.caliber.ordnance"] = "Tillbehör/EFT/Kaliber/Sprä
 
 L["unlameifier.folder.patches.eft.general"] = "Lappar/EFT/Generellt"
 
+L["unlameifier.folder.toys.entities.holdtypes.eft"] = "Leksaker/Föremål/Hålltyper/EFT"
+
 L["unlameifier.attname.eftatts.optics"] = "EFT-Sikten"
 L["unlameifier.attname.eftatts.irons.front"] = "EFT J&K (F)"
 L["unlameifier.attname.eftatts.irons.rear"] = "EFT J&K (B)"
@@ -92,6 +94,7 @@ L["unlameifier.attname.eftatts.barrels.ak"] = "EFT AK Gaspipa"
 L["unlameifier.attname.eftatts.handguards.ak"] = "EFT AK Handskydd"
 L["unlameifier.attname.eftatts.stocks.ak"] = "EFT AK Kolvar"
 L["unlameifier.attname.eftatts.chcover.ak"] = "EFT AK LH. Skydd"
+L["unlameifier.attname.eftatts.dcover.ak"] = "EFT AK Dammskydd"
 L["unlameifier.attname.eftatts.ubgl.ak"] = "EFT AK Granattillsats"
 
 L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
@@ -389,6 +392,63 @@ L["unlameifier_atts_eft_caliber_40x46.description"] = githubwarn .. "Byter vapne
 L["unlameifier_patch_eft_ignore_warnings.printname"] = "Förbigång av Kritiska Delar"
 L["unlameifier_patch_eft_ignore_warnings.compactname"] = "Kritisk Förbigång"
 L["unlameifier_patch_eft_ignore_warnings.description"] = githubwarn .. "Tvingar att alla kritiska delar sätts till 'true' vilket förbigår \"<color=255,100,100>Missing Critical Parts!</color>\" varningen.\n\n<color=255,255,100>NOTIS</color>: Behöver endast utrustas en gång och kan utrustas vart som helst."
+
+-- Hold Types
+L["unlameifier_holdtype_eft_magpul_afg.printname"] = "Magpul Angled Foregrip"
+L["unlameifier_holdtype_eft_magpul_afg.compactname"] = "Magpul AFG"
+L["unlameifier_holdtype_eft_magpul_afg.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Magpul Angled Foregrip</color>."
+
+L["unlameifier_holdtype_eft_ash12.printname"] = "ASh-12 Foregrip"
+L["unlameifier_holdtype_eft_ash12.compactname"] = "ASh-12"
+L["unlameifier_holdtype_eft_ash12.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>det unika framgreppet</color> från ASh-12."
+
+L["unlameifier_holdtype_eft_bcmmod3.printname"] = "BCM GUNFIGHTER MOD 3"
+L["unlameifier_holdtype_eft_bcmmod3.compactname"] = "MOD 3"
+L["unlameifier_holdtype_eft_bcmmod3.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>BCM GUNFIGHTER MOD 3</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_strike_cobra.printname"] = "Strike Industries Cobra"
+L["unlameifier_holdtype_eft_strike_cobra.compactname"] = "Cobra"
+L["unlameifier_holdtype_eft_strike_cobra.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Strike Industries Cobra</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_hera_cqr.printname"] = "Hera Arms CQR"
+L["unlameifier_holdtype_eft_hera_cqr.compactname"] = "CQR"
+L["unlameifier_holdtype_eft_hera_cqr.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Hera Arms CQR</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_fortis_shift.printname"] = "Fortis Shift"
+L["unlameifier_holdtype_eft_fortis_shift.compactname"] = "Shift"
+L["unlameifier_holdtype_eft_fortis_shift.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Fortis Shift</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_rk1_canted.printname"] = "Zenit RK-1 B25-U Mount"
+L["unlameifier_holdtype_eft_rk1_canted.compactname"] = "B-25U RK-1"
+L["unlameifier_holdtype_eft_rk1_canted.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Zenit RK-1 B25-U Mount</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_rk6.printname"] = "Zenit RK-6"
+L["unlameifier_holdtype_eft_rk6.compactname"] = "RK-6"
+L["unlameifier_holdtype_eft_rk6.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Zenit RK-6</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_stark_se5.printname"] = "Stark SE-5 Express"
+L["unlameifier_holdtype_eft_stark_se5.compactname"] = "SE-5"
+L["unlameifier_holdtype_eft_stark_se5.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Stark SE-5 Express</color>-framgreppet."
+
+L["unlameifier_holdtype_eft_rk6.printname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_rk6.compactname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_rk6.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>ADAR 2-15</color>."
+
+L["unlameifier_holdtype_eft_ax15.printname"] = "Aeroknox AX-15"
+L["unlameifier_holdtype_eft_ax15.compactname"] = "AX-15"
+L["unlameifier_holdtype_eft_ax15.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>Aeroknox AX-15's</color>."
+
+L["unlameifier_holdtype_eft_colt_m4.printname"] = "Colt M4 Carbine"
+L["unlameifier_holdtype_eft_colt_m4.compactname"] = "Colt M4"
+L["unlameifier_holdtype_eft_colt_m4.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>Colt M4 Carbine</color>."
+
+L["unlameifier_holdtype_eft_ax15.printname"] = "Daniel Defense RIS II"
+L["unlameifier_holdtype_eft_ax15.compactname"] = "RIS II 12.25"
+L["unlameifier_holdtype_eft_ax15.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>Daniel Defense RIS II</color>."
+
+L["unlameifier_holdtype_eft_dd_risii.printname"] = "Aeroknox AX-15"
+L["unlameifier_holdtype_eft_dd_risii.compactname"] = "AX-15"
+L["unlameifier_holdtype_eft_dd_risii.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>Aeroknox AX-15</color>."
 
 //////////////////////////////// Start of unlameifier_eft_charms
 L["unlameifier_eft_charm_up.printname"] = "Adapter för Smycken (Uppe)"

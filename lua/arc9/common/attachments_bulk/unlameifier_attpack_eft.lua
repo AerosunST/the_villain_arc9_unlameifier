@@ -2684,40 +2684,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_stark_se5")
 
-///////////////////////////////////////      (HOLD TYPE) Fortis Shift (moka_pls_localize)
-
-ATT = {}
-
-ATT.PrintName = "Stark SE-5 Express-style Hold Type"
-ATT.CompactName = "SE-5"
-ATT.Description = [[Changes the way your left hand rests upon your weapon. This one is based off of the Stark SE-5 Express Foregrip.
-
-This requires EFT Shared because it is essentially taking the actual attachment and just applying a transparent texture over it.]]
-ATT.Icon = Material("entities/eft_attachments/foregrips/se5.png", "mips smooth")
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_starkse5.mdl"
-ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
-
-ATT.LHIK_Priority = 9999
-ATT.LHIK = true
-
-ATT.Folder = "Toys/Entities/Hold Types/EFT"
-ATT.SortOrder = 0
-ATT.Category = "unlameifier_attachments"
-ATT.MenuCategory = "ARC9 - Unlameifier"
-
-ATT.Attachments = {
-    {
-        PrintName = "Unlameifier",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Category = {"unlameifier_core"},
-		Icon_Offset = Vector(0, 0, 1),
-    },
-}
-
-ARC9.LoadAttachment(ATT, "unlameifier_holdtype_eft_stark_se5")
-
 ///////////////////////////////////////      (HOLD TYPE) ADAR 2-15 (moka_pls_localize)
 
 ATT = {}

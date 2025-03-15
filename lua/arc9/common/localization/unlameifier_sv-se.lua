@@ -430,9 +430,9 @@ L["unlameifier_holdtype_eft_stark_se5.printname"] = "Stark SE-5 Express"
 L["unlameifier_holdtype_eft_stark_se5.compactname"] = "SE-5"
 L["unlameifier_holdtype_eft_stark_se5.description"] = githubwarn .. eftrequire.shared .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Stark SE-5 Express</color>-framgreppet."
 
-L["unlameifier_holdtype_eft_rk6.printname"] = "ADAR 2-15"
-L["unlameifier_holdtype_eft_rk6.compactname"] = "ADAR 2-15"
-L["unlameifier_holdtype_eft_rk6.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>ADAR 2-15</color>."
+L["unlameifier_holdtype_eft_adar_215.printname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_adar_215.compactname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_adar_215.description"] = githubwarn .. eftrequire.ar15 .. "Växlar vänstra handens placering på vapnet.\nBaserad på handskyddet från <color=255,255,100>ADAR 2-15</color>."
 
 L["unlameifier_holdtype_eft_ax15.printname"] = "Aeroknox AX-15"
 L["unlameifier_holdtype_eft_ax15.compactname"] = "AX-15"

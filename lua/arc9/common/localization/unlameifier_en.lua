@@ -466,9 +466,9 @@ L["unlameifier_holdtype_eft_stark_se5.printname"] = "Stark SE-5 Express"
 L["unlameifier_holdtype_eft_stark_se5.compactname"] = "SE-5"
 L["unlameifier_holdtype_eft_stark_se5.description"] = githubwarn .. eftrequire.shared .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>Stark SE-5 Express</color> foregrip."
 
-L["unlameifier_holdtype_eft_rk6.printname"] = "ADAR 2-15"
-L["unlameifier_holdtype_eft_rk6.compactname"] = "ADAR 2-15"
-L["unlameifier_holdtype_eft_rk6.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>ADAR 2-15's</color> handguard."
+L["unlameifier_holdtype_eft_adar_215.printname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_adar_215.compactname"] = "ADAR 2-15"
+L["unlameifier_holdtype_eft_adar_215.description"] = githubwarn .. eftrequire.ar15 .. "Changes the left hand placement on the weapon.\nBased off of the <color=255,255,100>ADAR 2-15's</color> handguard."
 
 L["unlameifier_holdtype_eft_ax15.printname"] = "Aeroknox AX-15"
 L["unlameifier_holdtype_eft_ax15.compactname"] = "AX-15"

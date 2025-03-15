@@ -1,5 +1,7 @@
 ARC9 Universal Manipulation sideproject. Allows the user to contort ARC9 in ways that are far beyond what was ever intended.
 
+Pre-Release Workshop version for lazy people: https://steamcommunity.com/sharedfiles/filedetails/?id=3444698042
+
 HERE BE DRAGONS: This is a powertool. By using this, you run the risk of instability, broken behavior, and/or poor performance. Unlameifier does not cause any permanent or irreversible damage as it does not directly modify anything. It is completely safe to test and experiment with in its current state and will continue to be so even when it is released on workshop.
 
 UPD: 1/28/2025: We are making necessary preparations for Workshop Release. Please bear in mind that presets using Unlameifier may break during this time.

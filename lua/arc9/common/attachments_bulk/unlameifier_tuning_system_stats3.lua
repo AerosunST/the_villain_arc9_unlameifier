@@ -8343,7 +8343,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.1x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.1
 
-ATT.SpeedMult = 1.1
+ATT.SpeedMultSights = 1.1
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.1x")
 -------------------
@@ -8356,7 +8356,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.2x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.2
 
-ATT.SpeedMult = 1.2
+ATT.SpeedMultSights = 1.2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.2x")
 -------------------
@@ -8369,7 +8369,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.3x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.3
 
-ATT.SpeedMult = 1.3
+ATT.SpeedMultSights = 1.3
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.3x")
 -------------------
@@ -8382,7 +8382,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.4x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.4
 
-ATT.SpeedMult = 1.4
+ATT.SpeedMultSights = 1.4
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.4x")
 -------------------
@@ -8395,7 +8395,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.5x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.5
 
-ATT.SpeedMult = 1.5
+ATT.SpeedMultSights = 1.5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.5x")
 -------------------
@@ -8408,7 +8408,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.6x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.6
 
-ATT.SpeedMult = 1.6
+ATT.SpeedMultSights = 1.6
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.6x")
 -------------------
@@ -8421,7 +8421,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.7x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.7
 
-ATT.SpeedMult = 1.7
+ATT.SpeedMultSights = 1.7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.7x")
 -------------------
@@ -8434,7 +8434,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.8x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.8
 
-ATT.SpeedMult = 1.8
+ATT.SpeedMultSights = 1.8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.8x")
 -------------------
@@ -8447,7 +8447,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1.9x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1.9
 
-ATT.SpeedMult = 1.9
+ATT.SpeedMultSights = 1.9
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1.9x")
 -------------------
@@ -8460,7 +8460,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 2x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 2
 
-ATT.SpeedMult = 2
+ATT.SpeedMultSights = 2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_2x")
 -------------------
@@ -8473,7 +8473,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 5x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 5
 
-ATT.SpeedMult = 5
+ATT.SpeedMultSights = 5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_5x")
 -------------------
@@ -8486,7 +8486,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 10x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 10
 
-ATT.SpeedMult = 10
+ATT.SpeedMultSights = 10
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_10x")
 -------------------
@@ -8499,7 +8499,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 15x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 15
 
-ATT.SpeedMult = 15
+ATT.SpeedMultSights = 15
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_15x")
 -------------------
@@ -8512,7 +8512,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 20x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 20
 
-ATT.SpeedMult = 20
+ATT.SpeedMultSights = 20
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_20x")
 -------------------
@@ -8525,7 +8525,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 25x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 25
 
-ATT.SpeedMult = 25
+ATT.SpeedMultSights = 25
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_25x")
 -------------------
@@ -8538,7 +8538,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 50x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 50
 
-ATT.SpeedMult = 50
+ATT.SpeedMultSights = 50
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_50x")
 -------------------
@@ -8551,7 +8551,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 75x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 75
 
-ATT.SpeedMult = 75
+ATT.SpeedMultSights = 75
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_75x")
 -------------------
@@ -8564,7 +8564,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 100x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 100
 
-ATT.SpeedMult = 100
+ATT.SpeedMultSights = 100
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_100x")
 -------------------
@@ -8577,7 +8577,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 500x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 500
 
-ATT.SpeedMult = 500
+ATT.SpeedMultSights = 500
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_500x")
 -------------------
@@ -8590,7 +8590,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 1000x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 1000
 
-ATT.SpeedMult = 1000
+ATT.SpeedMultSights = 1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_1000x")
 -------------------
@@ -8603,7 +8603,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 5000x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 5000
 
-ATT.SpeedMult = 5000
+ATT.SpeedMultSights = 5000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_5000x")
 -------------------
@@ -8616,7 +8616,7 @@ ATT.Description = [[Multiplies Movement Speed (While Sighted) by 10000x.]]
 ATT.Folder = "Speed/Sights/Multiply"
 ATT.SortOrder = 10000
 
-ATT.SpeedMult = 10000
+ATT.SpeedMultSights = 10000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_10000x")
 //////////////////// Divide (Speed)
@@ -8630,7 +8630,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.9x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.9
 
-ATT.SpeedMult = 0.9
+ATT.SpeedMultSights = 0.9
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.9x")
 -------------------
@@ -8643,7 +8643,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.8x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.8
 
-ATT.SpeedMult = 0.8
+ATT.SpeedMultSights = 0.8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.8x")
 -------------------
@@ -8656,7 +8656,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.7x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.7
 
-ATT.SpeedMult = 0.7
+ATT.SpeedMultSights = 0.7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.7x")
 -------------------
@@ -8669,7 +8669,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.75x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.75
 
-ATT.SpeedMult = 0.75
+ATT.SpeedMultSights = 0.75
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.75x")
 -------------------
@@ -8682,7 +8682,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.6x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.6
 
-ATT.SpeedMult = 0.6
+ATT.SpeedMultSights = 0.6
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.6x")
 -------------------
@@ -8695,7 +8695,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.5x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.5
 
-ATT.SpeedMult = 0.5
+ATT.SpeedMultSights = 0.5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.5x")
 -------------------
@@ -8708,7 +8708,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.4x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.4
 
-ATT.SpeedMult = 0.4
+ATT.SpeedMultSights = 0.4
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.4x")
 -------------------
@@ -8721,7 +8721,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.3x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.3
 
-ATT.SpeedMult = 0.3
+ATT.SpeedMultSights = 0.3
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.3x")
 -------------------
@@ -8734,7 +8734,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.25x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.25
 
-ATT.SpeedMult = 0.25
+ATT.SpeedMultSights = 0.25
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.25x")
 -------------------
@@ -8747,7 +8747,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.2x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.2
 
-ATT.SpeedMult = 0.2
+ATT.SpeedMultSights = 0.2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.2x")
 -------------------
@@ -8760,7 +8760,7 @@ ATT.Description = [[Divides Movement Speed (While Sighted) by 0.1x.]]
 ATT.Folder = "Speed/Sights/Divide"
 ATT.SortOrder = 0.1
 
-ATT.SpeedMult = 0.1
+ATT.SpeedMultSights = 0.1
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_sights_0.1x")
 
@@ -9220,7 +9220,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.1x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.1
 
-ATT.SpeedMult = 1.1
+ATT.SpeedMultShooting = 1.1
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.1x")
 -------------------
@@ -9233,7 +9233,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.2x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.2
 
-ATT.SpeedMult = 1.2
+ATT.SpeedMultShooting = 1.2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.2x")
 -------------------
@@ -9246,7 +9246,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.3x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.3
 
-ATT.SpeedMult = 1.3
+ATT.SpeedMultShooting = 1.3
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.3x")
 -------------------
@@ -9259,7 +9259,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.4x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.4
 
-ATT.SpeedMult = 1.4
+ATT.SpeedMultShooting = 1.4
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.4x")
 -------------------
@@ -9272,7 +9272,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.5x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.5
 
-ATT.SpeedMult = 1.5
+ATT.SpeedMultShooting = 1.5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.5x")
 -------------------
@@ -9285,7 +9285,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.6x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.6
 
-ATT.SpeedMult = 1.6
+ATT.SpeedMultShooting = 1.6
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.6x")
 -------------------
@@ -9298,7 +9298,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.7x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.7
 
-ATT.SpeedMult = 1.7
+ATT.SpeedMultShooting = 1.7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.7x")
 -------------------
@@ -9311,7 +9311,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.8x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.8
 
-ATT.SpeedMult = 1.8
+ATT.SpeedMultShooting = 1.8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.8x")
 -------------------
@@ -9324,7 +9324,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1.9x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1.9
 
-ATT.SpeedMult = 1.9
+ATT.SpeedMultShooting = 1.9
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1.9x")
 -------------------
@@ -9337,7 +9337,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 2x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 2
 
-ATT.SpeedMult = 2
+ATT.SpeedMultShooting = 2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_2x")
 -------------------
@@ -9350,7 +9350,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 5x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 5
 
-ATT.SpeedMult = 5
+ATT.SpeedMultShooting = 5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_5x")
 -------------------
@@ -9363,7 +9363,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 10x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 10
 
-ATT.SpeedMult = 10
+ATT.SpeedMultShooting = 10
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_10x")
 -------------------
@@ -9376,7 +9376,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 15x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 15
 
-ATT.SpeedMult = 15
+ATT.SpeedMultShooting = 15
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_15x")
 -------------------
@@ -9389,7 +9389,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 20x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 20
 
-ATT.SpeedMult = 20
+ATT.SpeedMultShooting = 20
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_20x")
 -------------------
@@ -9402,7 +9402,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 25x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 25
 
-ATT.SpeedMult = 25
+ATT.SpeedMultShooting = 25
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_25x")
 -------------------
@@ -9415,7 +9415,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 50x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 50
 
-ATT.SpeedMult = 50
+ATT.SpeedMultShooting = 50
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_50x")
 -------------------
@@ -9428,7 +9428,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 75x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 75
 
-ATT.SpeedMult = 75
+ATT.SpeedMultShooting = 75
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_75x")
 -------------------
@@ -9441,7 +9441,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 100x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 100
 
-ATT.SpeedMult = 100
+ATT.SpeedMultShooting = 100
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_100x")
 -------------------
@@ -9454,7 +9454,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 500x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 500
 
-ATT.SpeedMult = 500
+ATT.SpeedMultShooting = 500
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_500x")
 -------------------
@@ -9467,7 +9467,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 1000x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 1000
 
-ATT.SpeedMult = 1000
+ATT.SpeedMultShooting = 1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_1000x")
 -------------------
@@ -9480,7 +9480,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 5000x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 5000
 
-ATT.SpeedMult = 5000
+ATT.SpeedMultShooting = 5000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_5000x")
 -------------------
@@ -9493,7 +9493,7 @@ ATT.Description = [[Multiplies Movement Speed (While Shooting) by 10000x.]]
 ATT.Folder = "Speed/Shooting/Multiply"
 ATT.SortOrder = 10000
 
-ATT.SpeedMult = 10000
+ATT.SpeedMultShooting = 10000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_10000x")
 //////////////////// Divide (Speed)
@@ -9507,7 +9507,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.9x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.9
 
-ATT.SpeedMult = 0.9
+ATT.SpeedMultShooting = 0.9
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.9x")
 -------------------
@@ -9520,7 +9520,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.8x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.8
 
-ATT.SpeedMult = 0.8
+ATT.SpeedMultShooting = 0.8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.8x")
 -------------------
@@ -9533,7 +9533,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.7x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.7
 
-ATT.SpeedMult = 0.7
+ATT.SpeedMultShooting = 0.7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.7x")
 -------------------
@@ -9546,7 +9546,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.75x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.75
 
-ATT.SpeedMult = 0.75
+ATT.SpeedMultShooting = 0.75
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.75x")
 -------------------
@@ -9559,7 +9559,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.6x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.6
 
-ATT.SpeedMult = 0.6
+ATT.SpeedMultShooting = 0.6
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.6x")
 -------------------
@@ -9572,7 +9572,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.5x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.5
 
-ATT.SpeedMult = 0.5
+ATT.SpeedMultShooting = 0.5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.5x")
 -------------------
@@ -9585,7 +9585,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.4x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.4
 
-ATT.SpeedMult = 0.4
+ATT.SpeedMultShooting = 0.4
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.4x")
 -------------------
@@ -9598,7 +9598,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.3x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.3
 
-ATT.SpeedMult = 0.3
+ATT.SpeedMultShooting = 0.3
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.3x")
 -------------------
@@ -9611,7 +9611,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.25x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.25
 
-ATT.SpeedMult = 0.25
+ATT.SpeedMultShooting = 0.25
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.25x")
 -------------------
@@ -9624,7 +9624,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.2x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.2
 
-ATT.SpeedMult = 0.2
+ATT.SpeedMultShooting = 0.2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.2x")
 -------------------
@@ -9637,7 +9637,7 @@ ATT.Description = [[Divides Movement Speed (While Shooting) by 0.1x.]]
 ATT.Folder = "Speed/Shooting/Divide"
 ATT.SortOrder = 0.1
 
-ATT.SpeedMult = 0.1
+ATT.SpeedMultShooting = 0.1
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_shooting_0.1x")
 
@@ -10097,7 +10097,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.1x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.1
 
-ATT.SpeedMult = 1.1
+ATT.SpeedMultCrouch = 1.1
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.1x")
 -------------------
@@ -10110,7 +10110,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.2x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.2
 
-ATT.SpeedMult = 1.2
+ATT.SpeedMultCrouch = 1.2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.2x")
 -------------------
@@ -10123,7 +10123,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.3x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.3
 
-ATT.SpeedMult = 1.3
+ATT.SpeedMultCrouch = 1.3
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.3x")
 -------------------
@@ -10136,7 +10136,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.4x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.4
 
-ATT.SpeedMult = 1.4
+ATT.SpeedMultCrouch = 1.4
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.4x")
 -------------------
@@ -10149,7 +10149,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.5x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.5
 
-ATT.SpeedMult = 1.5
+ATT.SpeedMultCrouch = 1.5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.5x")
 -------------------
@@ -10162,7 +10162,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.6x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.6
 
-ATT.SpeedMult = 1.6
+ATT.SpeedMultCrouch = 1.6
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.6x")
 -------------------
@@ -10175,7 +10175,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.7x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.7
 
-ATT.SpeedMult = 1.7
+ATT.SpeedMultCrouch = 1.7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.7x")
 -------------------
@@ -10188,7 +10188,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.8x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.8
 
-ATT.SpeedMult = 1.8
+ATT.SpeedMultCrouch = 1.8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.8x")
 -------------------
@@ -10201,7 +10201,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1.9x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1.9
 
-ATT.SpeedMult = 1.9
+ATT.SpeedMultCrouch = 1.9
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1.9x")
 -------------------
@@ -10214,7 +10214,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 2x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 2
 
-ATT.SpeedMult = 2
+ATT.SpeedMultCrouch = 2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_2x")
 -------------------
@@ -10227,7 +10227,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 5x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 5
 
-ATT.SpeedMult = 5
+ATT.SpeedMultCrouch = 5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_5x")
 -------------------
@@ -10240,7 +10240,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 10x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 10
 
-ATT.SpeedMult = 10
+ATT.SpeedMultCrouch = 10
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_10x")
 -------------------
@@ -10253,7 +10253,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 15x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 15
 
-ATT.SpeedMult = 15
+ATT.SpeedMultCrouch = 15
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_15x")
 -------------------
@@ -10266,7 +10266,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 20x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 20
 
-ATT.SpeedMult = 20
+ATT.SpeedMultCrouch = 20
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_20x")
 -------------------
@@ -10279,7 +10279,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 25x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 25
 
-ATT.SpeedMult = 25
+ATT.SpeedMultCrouch = 25
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_25x")
 -------------------
@@ -10292,7 +10292,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 50x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 50
 
-ATT.SpeedMult = 50
+ATT.SpeedMultCrouch = 50
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_50x")
 -------------------
@@ -10305,7 +10305,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 75x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 75
 
-ATT.SpeedMult = 75
+ATT.SpeedMultCrouch = 75
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_75x")
 -------------------
@@ -10318,7 +10318,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 100x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 100
 
-ATT.SpeedMult = 100
+ATT.SpeedMultCrouch = 100
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_100x")
 -------------------
@@ -10331,7 +10331,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 500x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 500
 
-ATT.SpeedMult = 500
+ATT.SpeedMultCrouch = 500
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_500x")
 -------------------
@@ -10344,7 +10344,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 1000x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 1000
 
-ATT.SpeedMult = 1000
+ATT.SpeedMultCrouch = 1000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_1000x")
 -------------------
@@ -10357,7 +10357,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 5000x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 5000
 
-ATT.SpeedMult = 5000
+ATT.SpeedMultCrouch = 5000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_5000x")
 -------------------
@@ -10370,7 +10370,7 @@ ATT.Description = [[Multiplies Movement Speed (While Crouched) by 10000x.]]
 ATT.Folder = "Speed/Crouch/Multiply"
 ATT.SortOrder = 10000
 
-ATT.SpeedMult = 10000
+ATT.SpeedMultCrouch = 10000
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_10000x")
 //////////////////// Divide (Speed)
@@ -10384,7 +10384,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.9x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.9
 
-ATT.SpeedMult = 0.9
+ATT.SpeedMultCrouch = 0.9
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.9x")
 -------------------
@@ -10397,7 +10397,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.8x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.8
 
-ATT.SpeedMult = 0.8
+ATT.SpeedMultCrouch = 0.8
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.8x")
 -------------------
@@ -10410,7 +10410,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.7x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.7
 
-ATT.SpeedMult = 0.7
+ATT.SpeedMultCrouch = 0.7
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.7x")
 -------------------
@@ -10423,7 +10423,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.75x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.75
 
-ATT.SpeedMult = 0.75
+ATT.SpeedMultCrouch = 0.75
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.75x")
 -------------------
@@ -10436,7 +10436,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.6x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.6
 
-ATT.SpeedMult = 0.6
+ATT.SpeedMultCrouch = 0.6
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.6x")
 -------------------
@@ -10449,7 +10449,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.5x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.5
 
-ATT.SpeedMult = 0.5
+ATT.SpeedMultCrouch = 0.5
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.5x")
 -------------------
@@ -10462,7 +10462,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.4x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.4
 
-ATT.SpeedMult = 0.4
+ATT.SpeedMultCrouch = 0.4
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.4x")
 -------------------
@@ -10475,7 +10475,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.3x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.3
 
-ATT.SpeedMult = 0.3
+ATT.SpeedMultCrouch = 0.3
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.3x")
 -------------------
@@ -10488,7 +10488,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.25x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.25
 
-ATT.SpeedMult = 0.25
+ATT.SpeedMultCrouch = 0.25
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.25x")
 -------------------
@@ -10501,7 +10501,7 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.2x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.2
 
-ATT.SpeedMult = 0.2
+ATT.SpeedMultCrouch = 0.2
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.2x")
 -------------------
@@ -10514,6 +10514,6 @@ ATT.Description = [[Divides Movement Speed (While Crouched) by 0.1x.]]
 ATT.Folder = "Speed/Crouch/Divide"
 ATT.SortOrder = 0.1
 
-ATT.SpeedMult = 0.1
+ATT.SpeedMultCrouch = 0.1
 
 ARC9.LoadAttachment(ATT, "unlameifier_tuning_speed_crouch_0.1x")

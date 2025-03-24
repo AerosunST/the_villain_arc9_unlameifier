@@ -7,7 +7,14 @@ L["ul.f.att"] = "Tillbehör"
 L["ul.f.patch"] = "Patcher"
 L["ul.f.toys"] = "Leksaker"
 L["ul.f.general"] = "Generellt"
-L["ul.f.entities"] = "Föremål"
+L["ul.f.entities"] = "Entities"
+L["ul.f.utility"] = "Användning"
+L["ul.f.misc"] = "Annat"
+L["ul.f.modifier"] = "Modifierare"
+L["ul.f.experimental"] = "Experimentalt"
+L["ul.f.function"] = "Funktion"
+L["ul.f.system"] = "System"
+L["ul.f.core"] = "Kärna"
 
 L["ul.f.bespoke"] = "Skräddarsydd"
 L["ul.f.optics"] = "Sikten"
@@ -25,6 +32,54 @@ L["ul.f.cal.heavy"] = "Tung"
 L["ul.f.cal.shotgun"] = "Hagelskott"
 L["ul.f.cal.ordnance"] = "Spräng"
  
+L["ul.f.impactdecal"] = "Träffdekaler"
+L["ul.f.tracer"] = "Spårljus"
+
+///////////////// Game Folders
+L["ul.f.doom"] = "DOOM"
+L["ul.f.hl1"] = "HL1"
+L["ul.f.hl2"] = "HL2"
+L["ul.f.hls"] = "HL:S"
+L["ul.f.css"] = "CS:S"
+L["ul.f.codmw2"] = "CoD: MW2"
+L["ul.f.roblox"] = "Roblox"
+L["ul.f.dod"] = "DoD"
+L["ul.f.dods"] = "DoD:S"
+L["ul.f.tf2"] = "TF2"
+L["ul.f.fo4"] = "FO4"
+L["ul.f.fo76"] = "FO76"
+L["ul.f.bf2"] = "BF2"
+L["ul.f.bf2142"] = "BF2142"
+L["ul.f.codmw19"] = "CoD: MW19"
+L["ul.f.gmod"] = "GMod"
+
+L["ul.f.wf"] = "Warface"
+L["ul.f.wf.rifleman"] = "Skyttesoldat"
+L["ul.f.wf.engineer"] = "Ingenjör"
+L["ul.f.wf.medic"] = "Sjukvårdare"
+L["ul.f.wf.sniper"] = "Krypskytt"
+L["ul.f.wf.pistol"] = "Pistols"
+
+L["ul.f.jjba"] = "JJBA" -- Jojo's Bizarre Adventures
+L["ul.f.music"] = "Musik"
+
+L["ul.f.neosun"] = "Neosun"
+L["ul.f.kindredflame"] = "KindredFlame"
+L["ul.f.moka"] = "Moka"
+
+///////////////// Sounds
+L["ul.f.snd.gunfire"] = "Vapeneld"
+L["ul.f.snd.melee"] = "Närstrid"
+
+L["ul.f.snd.ricochet"] = "Rikoschett"
+L["ul.f.snd.impact"] = "Träff"
+L["ul.f.snd.swing"] = "Swing"
+
+L["ul.f.snd.loop"] = "Slingande"
+ 
+///////////////// PolyArms
+L["ul.f.polyarms"] = "PolyArms"
+
 ///////////////// EFT
 L["ul.f.eft"] = "EFT"
  
@@ -33,18 +88,57 @@ L["ul.f.eft.ar10"] = "AR-10"
 L["ul.f.eft.ak"] = "AK"
 L["ul.f.eft.mpxmcx"] = "MPX + MCX"
 
-///////////////// PolyArms
-L["ul.f.polyarms"] = "PolyArms"
+///////////////// Tuning
+L["ul.f.add"] = "Lägg till"
+L["ul.f.subtract"] = "Ta bort"
+L["ul.f.multiply"] = "Multiplicera"
+L["ul.f.divide"] = "Dela"
+
+L["ul.f.capacity"] = "Kapacitet"
+L["ul.f.fixed"] = "Fast"
+
+L["ul.f.max"] = "Max"
+L["ul.f.min"] = "Min"
+
+L["ul.f.delay"] = "Fördröjning"
+L["ul.f.pershot"] = "Per Skott"
+L["ul.f.dissipation"] = "Förlust" -- Heat dissipation
+
+L["ul.f.angle"] = "Vinkel"
+L["ul.f.seekangle"] = "Sökvinkel"
+L["ul.f.chance"] = "Chans"
+
+L["ul.f.stat.projectiles"] = "Projectiler"
+L["ul.f.stat.ammopershot"] = "Ammo per Skott"
+L["ul.f.stat.damage"] = "Skada"
+L["ul.f.stat.recoil"] = "Rekyl"
+L["ul.f.stat.visrecoil"] = "Visuell Rekyl"
+L["ul.f.stat.reloadtime"] = "Omladdningstid"
+L["ul.f.stat.deploytime"] = "Ta Fram Tid"
+L["ul.f.stat.adstime"] = "Siktetid"
+L["ul.f.stat.magcap"] = "Magasinkapacitet"
+L["ul.f.stat.chambersize"] = "Eldrör Laddantal"
+L["ul.f.stat.penetration"] = "Penetration"
+L["ul.f.stat.spread"] = "Spridning"
+L["ul.f.stat.impactforce"] = "Träffstyrka"
+L["ul.f.stat.range"] = "Räckvidd"
+L["ul.f.stat.malfunction"] = "Felfunktion"
+L["ul.f.stat.heat"] = "Hetta"
+L["ul.f.stat.triggerdelay"] = "Avtryckare Fördröj."
+L["ul.f.stat.ergonomics"] = "Ergonomi"
+L["ul.f.stat.ammooverride"] = "Ammo Override"
+L["ul.f.stat.ricochet"] = "Rikoschett"
 
 //////////////////////////////// End of Folders
 
 //////////////////////////////// Start of Attachment Categories
 ///////////////// General
-L["ul.ac.grips"] = "Grepp"
-L["ul.ac.tac"] = "Taktisk"
-L["ul.ac.muzzles"] = "Mynning"
 L["ul.ac.ammo"] = "Ammo"
+L["ul.ac.attachment"] = "Tillbehör"
+L["ul.ac.grips"] = "Grepp"
+L["ul.ac.muzzles"] = "Mynning"
 L["ul.ac.optic"] = "Sikte"
+L["ul.ac.tac"] = "Taktisk"
 
 ///////////////// EFT
 L["ul.ac.eft"] = "EFT"
@@ -98,6 +192,48 @@ L["ul.ac.eft.ubgl.ak"] = "Granattillsats - AK"
 L["ul.ac.polyarms"] = "PA"
 
  //////////////////////////////// End of Attachment Categories
+
+//////////////////////////////// Start of core
+///////////////// Main Core
+L["unlameifier_core_injector.printname"] = "Unlameifier Core - Basinmatning"
+L["unlameifier_core_injector.compactname"] = "UL-Bas"
+L["unlameifier_core_injector.description"] = [[
+Välkommen till <color=255,255,100>Unlameifier</color>!
+
+Detta tillbehör tillåter dig att lägga till <color=255,255,100>grunkor</color> & <color=255,255,100>olika tillbehör</color> på ditt vapen. Det tillåter dig också att anpassa <color=255,255,100>existerande tillbehörsplatser</color> på vapnet.
+
+Kom ihåg bara att Unlameifier försöker stödja så många vapentillägg som möjligt, men det det finns alltid en chans att vissa vapen inte kommer bete sig korrekt tack vare hur dem är kodade. Om du upptäcker ett sådant fall, vänligen lämna en anmälan på vår <color=255,255,100>GitHub</color>-sidan eller på <color=255,255,100>Workshop</color>-sidans "Weapon Pack Issues"-tråd. Kolla gärna i "Patcher"-mappen OCH besök "Known Issues"-tråden på Workshop-sidan innan du skriver en anmälan. Tack för er förståelse och ha så roligt när du skapar kaos!
+
+<color=175,175,255>Tillverkare</color> - Om du vill lägga till innehåll till Unlameifier, eller om du vill lägga till stöd till ditt egna vapentillägg, vänligen kolla igen dokumentationen på vår <color=255,255,100>GitHub</color>-sida. Vapnen är simpla; lägg bara till en tom plats!
+]]
+
+///////////////// Tuning Core
+L["unlameifier_tuning_system.printname"] = "Unlameifier Core - Anpassningssystem Inmatning"
+L["unlameifier_tuning_system.compactname"] = "UL-Anpassning"
+L["unlameifier_tuning_system.description"] = [[
+Välkommen till <color=255,255,100>Unlameifier</color>!
+
+Detta tillbehör tillåter dig att finanpassa <color=255,255,100>vapnets statistik</color>. Dem kan utrustas i vilken ordning som helst. För att undvika för mycket skräp i 3D-gränssnittet så kommer underplatser <color=255,100,100>inte visas</color>.
+
+<color=255,100,100>Notera</color> - Detta kan användas för att skapa kraftfulla fusk-liknande vapen. Det finns inga begränsningar på vad detta kan skapa, så om du är ägaren till en server, var säker på att tillbehöret är <color=255,255,100>AVAKTIVERAT</color>, om du inte vill att spelare kan använda den. ARC9 har en funktion som avaktiverar tilllbehör till icke-administratörer, men Unlameifier var inte gjord för användning i Flerspelareläget, så det har inte aktiverats.
+
+Om du använder ARC9 eller Unlameifier på DarkRP, vänligen <color=175,175,255>avinstallera Garry's Mod</color> och <color=150,255,150>rör gräs</color>. Tack!
+]]
+
+///////////////// Core Attachments
+L["unlameifier_core_splitter.printname"] = "Unlameifier Core - Delare"
+L["unlameifier_core_splitter.compactname"] = "UL-Delare"
+L["unlameifier_core_splitter.description"] = "Delar denna plats in i två. Väldigt användbar för att undvika otroligt långa kedjor av tillbehör, eller genom att behålla platsens originella ändamål."
+
+L["unlameifier_patch_general_blank.printname"] = "Blankt Tillbehör"
+L["unlameifier_patch_general_blank.compactname"] = "UL Blank"
+L["unlameifier_patch_general_blank.description"] = [[
+En "bandaid"-lösning som tillåter dig att "mjukt ta bort" tillbehör. Bra för referens, testande och att snabbt fixa problem. Också inte en bra idé att använda dessa slösaktigt, då du kan endast utrusta 100 tillbehör på ett ARC9-vapen som standard.
+
+<color=175,175,255>Tips</color> - Du kan öka högsta antalet tillbehör tillåtet per vapen upp till 200 i ARC9 Inställningsmenyn, eller högre med dess konsolkommando. Men kom ihåg att om du utrustar för många så kan Garry's Mod <color=255,100,100>crasha</color>.
+]]
+
+//////////////////////////////// End of core
 
 //////////////////////////////// Start of attpack_eft
 ///////////////// Tips & Notes
@@ -515,12 +651,6 @@ L["unlameifier_holdtype_uplp_stub.compactname"] = "Kompakt"
 L["unlameifier_holdtype_uplp_stub.description"] = githubwarnpa .. parequire .. "Växlar vänstra handens placering på vapnet.\nBaserad på <color=255,255,100>Kompakta</color> framgreppet."
 
 //////////////////////////////// End of attpack_polyarms
-
-//////////////////////////////// Start of core
-///////////////// Attachments
-
-
-//////////////////////////////// End of core
 
 //////////////////////////////// Start of eft_charms
 ///////////////// Attachments

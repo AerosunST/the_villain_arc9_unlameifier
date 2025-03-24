@@ -8,6 +8,13 @@ L["ul.f.patch"] = "Patches"
 L["ul.f.toys"] = "Toys"
 L["ul.f.general"] = "General"
 L["ul.f.entities"] = "Entities"
+L["ul.f.utility"] = "Utilities"
+L["ul.f.misc"] = "Misc."
+L["ul.f.modifier"] = "Modifiers"
+L["ul.f.experimental"] = "Experimental"
+L["ul.f.function"] = "Function"
+L["ul.f.system"] = "System"
+L["ul.f.core"] = "Core"
 
 L["ul.f.bespoke"] = "Bespoke"
 L["ul.f.optics"] = "Optics"
@@ -24,7 +31,55 @@ L["ul.f.cal.intermediate"] = "Intermediate"
 L["ul.f.cal.heavy"] = "Heavy"
 L["ul.f.cal.shotgun"] = "Shotgun"
 L["ul.f.cal.ordnance"] = "Ordnance"
+
+L["ul.f.impactdecal"] = "Impact Decals"
+L["ul.f.tracer"] = "Tracers"
+
+///////////////// Game Folders
+L["ul.f.doom"] = "DOOM"
+L["ul.f.hl1"] = "HL1"
+L["ul.f.hl2"] = "HL2"
+L["ul.f.hls"] = "HL:S"
+L["ul.f.css"] = "CS:S"
+L["ul.f.codmw2"] = "CoD: MW2"
+L["ul.f.roblox"] = "Roblox"
+L["ul.f.dod"] = "DoD"
+L["ul.f.dods"] = "DoD:S"
+L["ul.f.tf2"] = "TF2"
+L["ul.f.fo4"] = "FO4"
+L["ul.f.fo76"] = "FO76"
+L["ul.f.bf2"] = "BF2"
+L["ul.f.bf2142"] = "BF2142"
+L["ul.f.codmw19"] = "CoD: MW19"
+L["ul.f.gmod"] = "GMod"
+
+L["ul.f.wf"] = "Warface"
+L["ul.f.wf.rifleman"] = "Rifleman"
+L["ul.f.wf.engineer"] = "Engineer"
+L["ul.f.wf.medic"] = "Medic"
+L["ul.f.wf.sniper"] = "Sniper"
+L["ul.f.wf.pistol"] = "Pistols"
+
+L["ul.f.jjba"] = "JJBA" -- Jojo's Bizarre Adventures
+L["ul.f.music"] = "Music"
+
+L["ul.f.neosun"] = "Neosun"
+L["ul.f.kindredflame"] = "KindredFlame"
+L["ul.f.moka"] = "Moka"
+
+///////////////// Sounds
+L["ul.f.snd.gunfire"] = "Gunfire"
+L["ul.f.snd.melee"] = "Melee"
+
+L["ul.f.snd.ricochet"] = "Ricochet"
+L["ul.f.snd.impact"] = "Impact"
+L["ul.f.snd.swing"] = "Swing"
+
+L["ul.f.snd.loop"] = "Looping"
  
+///////////////// PolyArms
+L["ul.f.polyarms"] = "PolyArms"
+
 ///////////////// EFT
 L["ul.f.eft"] = "EFT"
  
@@ -33,18 +88,60 @@ L["ul.f.eft.ar10"] = "AR-10"
 L["ul.f.eft.ak"] = "AK"
 L["ul.f.eft.mpxmcx"] = "MPX + MCX"
 
-///////////////// PolyArms
-L["ul.f.polyarms"] = "PolyArms"
+///////////////// Tuning
+L["ul.f.add"] = "Add"
+L["ul.f.subtract"] = "Subtract"
+L["ul.f.multiply"] = "Multiply"
+L["ul.f.divide"] = "Divide"
+
+L["ul.f.capacity"] = "Capacity"
+L["ul.f.fixed"] = "Fixed"
+
+L["ul.f.max"] = "Max"
+L["ul.f.min"] = "Min"
+
+L["ul.f.delay"] = "Delay"
+L["ul.f.pershot"] = "Per Shot"
+L["ul.f.dissipation"] = "Dissipation" -- Heat dissipation
+
+L["ul.f.angle"] = "Angle"
+L["ul.f.seekangle"] = "Seek Angle"
+L["ul.f.chance"] = "Chance"
+
+L["ul.f.stat.projectiles"] = "Projectiles"
+L["ul.f.stat.ammopershot"] = "Ammo per Shot"
+L["ul.f.stat.damage"] = "Damage"
+L["ul.f.stat.recoil"] = "Recoil"
+L["ul.f.stat.visrecoil"] = "Visual Recoil"
+L["ul.f.stat.reloadtime"] = "Reload Time"
+L["ul.f.stat.deploytime"] = "Deploy Time"
+L["ul.f.stat.adstime"] = "ADS Time"
+L["ul.f.stat.magcap"] = "Mag Capacity"
+L["ul.f.stat.chambersize"] = "Chamber Capacity"
+L["ul.f.stat.penetration"] = "Penetration"
+L["ul.f.stat.spread"] = "Spread"
+L["ul.f.stat.impactforce"] = "Impact Force"
+L["ul.f.stat.range"] = "Range"
+L["ul.f.stat.malfunction"] = "Malfunction"
+L["ul.f.stat.heat"] = "Heat"
+L["ul.f.stat.triggerdelay"] = "Trigger Delay"
+L["ul.f.stat.ergonomics"] = "Ergonomics"
+L["ul.f.stat.ammooverride"] = "Ammo Override"
+L["ul.f.stat.ricochet"] = "Ricochet"
 
 //////////////////////////////// End of Folders
 
 //////////////////////////////// Start of Attachment Categories
 ///////////////// General
-L["ul.ac.grips"] = "Grip"
-L["ul.ac.tac"] = "Tactical"
-L["ul.ac.muzzles"] = "Muzzle"
 L["ul.ac.ammo"] = "Ammo"
+L["ul.ac.attachment"] = "Attachment"
+L["ul.ac.grips"] = "Grip"
+L["ul.ac.muzzles"] = "Muzzle"
 L["ul.ac.optic"] = "Optic"
+L["ul.ac.tac"] = "Tactical"
+
+///////////////// Core
+L["ul.ac.ul"] = "UL"
 
 ///////////////// EFT
 L["ul.ac.eft"] = "EFT"
@@ -98,6 +195,48 @@ L["ul.ac.eft.ubgl.ak"] = "Underbarrel GL - AK"
 L["ul.ac.polyarms"] = "PA"
 
  //////////////////////////////// End of Attachment Categories
+
+//////////////////////////////// Start of core
+///////////////// Main Core
+L["unlameifier_core_injector.printname"] = "Unlameifier Core - Base Injector"
+L["unlameifier_core_injector.compactname"] = "UL Base"
+L["unlameifier_core_injector.description"] = [[
+Welcome to <color=255,255,100>Unlameifier</color>!
+
+This attachment allows you to add <color=255,255,100>gimmicks</color> & <color=255,255,100>custom accessories</color> to your weapon. It also allows you to modify <color=255,255,100>existing attachment slots</color> on weapons.
+
+Please bear in mind that while Unlameifier strives to support as many weapon packs as possible, there is always a possibility that certain weapons won't behave as intended because of how they are coded. If you encounter such a case, please leave a report on the <color=255,255,100>GitHub</color> page, or on the <color=255,255,100>Workshop</color> "Weapon Pack Issues" thread. Also, make sure to check the "Patches" folder AND visit the "Known Issues" thread on the Workshop before filing a report. Thank you for your understanding, and have fun causing havoc!
+
+<color=175,175,255>Developers</color> - If you want to add content to Unlameifier, or want to add more support for your own weapon packs, please check out the documentation on our <color=255,255,100>GitHub</color> page. Weapons are as easy as just making an empty slot!
+]]
+
+///////////////// Tuning Core
+L["unlameifier_tuning_system.printname"] = "Unlameifier Core - Tuning System Injector"
+L["unlameifier_tuning_system.compactname"] = "UL Tuning"
+L["unlameifier_tuning_system.description"] = [[
+Welcome to <color=255,255,100>Unlameifier</color>!
+
+This attachment allows you to  finely tune <color=255,255,100>weapon statistics</color>. They can be equipped in any order. To avoid causing too much clutter in the 3D interface, subslots will <color=255,100,100>not appear</color>.
+
+<color=255,100,100>Note</color> - This can be used to create really powerful cheat-like weapons. There are no restrictions on what this can create, so if you are a server owner, ensure this attachment is <color=255,255,100>DISABLED</color>, unless you want players to utilize this. While ARC9 does have a feature that disables attachments to non-Admins, Unlameifier was never meant for use in Multiplayer, so it does not have this enabled.
+
+If you utilize ARC9 or Unlameifier on DarkRP, please <color=175,175,255>uninstall Garry's Mod</color> and go <color=150,255,150>touch grass</color>. Thanks!
+]]
+
+///////////////// Core Attachments
+L["unlameifier_core_splitter.printname"] = "Unlameifier Core Splitter"
+L["unlameifier_core_splitter.compactname"] = "UL Splitter"
+L["unlameifier_core_splitter.description"] = "Splits this slot into two. Useful in order to avoid excessively long chains of attachments, or retaining the original purpose of this slot."
+
+L["unlameifier_patch_general_blank.printname"] = "Blank Attachment"
+L["unlameifier_patch_general_blank.compactname"] = "UL Blank"
+L["unlameifier_patch_general_blank.description"] = [[
+A bandaid solution to allow you to \"soft-remove\" attachments. Good for reference, testing and quickly fixing issues. Also a good idea to not use these wastefully, as you can only attach 100 attachments on one ARC9 weapon by default.
+
+<color=175,175,255>Tip</color> - You can increase the maximum amount of attachments allowed per weapon up to 200 in the ARC9 Settings Menu, or higher using its console command. But do know that if you equip too many, Garry's Mod may <color=255,100,100>crash</color>.
+]]
+
+//////////////////////////////// End of core
 
 //////////////////////////////// Start of attpack_eft
 ///////////////// Tips & Notes
@@ -516,12 +655,6 @@ L["unlameifier_holdtype_uplp_stub.description"] = githubwarnpa .. parequire .. "
 
 //////////////////////////////// End of attpack_polyarms
 
-//////////////////////////////// Start of core
-///////////////// Attachments
-
-
-//////////////////////////////// End of core
-
 //////////////////////////////// Start of eft_charms
 ///////////////// Attachments
 L["unlameifier_eft_charm_up.printname"] = "Charms Adapter - Top"
@@ -608,3 +741,267 @@ L["unlameifier_eft_charm_right.description"] = "Experiment that allows a univers
 
 
 //////////////////////////////// End of tuning_system_utility
+
+
+
+
+
+//////////////////////////////// Start of LEGACY STUFF
+-- All this will be removed in due time. Ignore.
+
+L["unlameifier_eft_videogame_shotguns_custompro"] = "Better spread"
+L["unlameifier_eft_videogame_shotguns_customcon"] = "Disable when using slugs"
+
+L["unlameifier.attname.eftatts.optics"] = "EFT Optics"
+L["unlameifier.attname.eftatts.irons.front"] = "EFT Irons (F)"
+L["unlameifier.attname.eftatts.irons.rear"] = "EFT Irons (R)"
+L["unlameifier.attname.eftatts.grips"] = "EFT Grips"
+L["unlameifier.attname.eftatts.grips.mlok"] = "EFT MLOK Grips"
+L["unlameifier.attname.eftatts.mounts.mlok"] = "EFT MLOK Mounts"
+L["unlameifier.attname.eftatts.mounts.keymod"] = "EFT KeyMod Mounts"
+L["unlameifier.attname.eftatts.tacticals"] = "EFT Tacticals"
+L["unlameifier.attname.eftatts.muzzles.ar15"] = "EFT AR-15 Muzzles"
+L["unlameifier.attname.eftatts.muzzles.ar10"] = "EFT AR-10 Muzzles"
+L["unlameifier.attname.eftatts.muzzles.akm"] = "EFT AKM Muzzles"
+L["unlameifier.attname.eftatts.muzzles.ak74"] = "EFT AK-74 Muzzles"
+L["unlameifier.attname.eftatts.muzzles.9mm"] = "EFT 9mm Muzzles"
+L["unlameifier.attname.eftatts.muzzles.12g"] = "EFT 12G Muzzles"
+L["unlameifier.attname.eftatts.muzzles.45acp"] = "EFT .45 Muzzles"
+L["unlameifier.attname.eftatts.grips.ar15"] = "EFT AR-15 Grips"
+L["unlameifier.attname.eftatts.chandles.ar15"] = "EFT AR-15 C. Handles"
+L["unlameifier.attname.eftatts.uppers.ar15"] = "EFT AR-15 Uppers"
+L["unlameifier.attname.eftatts.gasblocks.ar15"] = "EFT AR-15 Gas Blocks"
+L["unlameifier.attname.eftatts.barrels.ar15"] = "EFT AR-15 Barrels"
+L["unlameifier.attname.eftatts.handguards.ar15"] = "EFT AR-15 Handguards"
+L["unlameifier.attname.eftatts.buffertubes.ar15"] = "EFT AR-15 Buffer Tubes"
+L["unlameifier.attname.eftatts.stocks.ar15"] = "EFT AR-15 Stocks"
+L["unlameifier.attname.eftatts.handguards.ar10"] = "EFT AR-10 Handguards"
+L["unlameifier.attname.eftatts.barrels.mpx"] = "EFT MPX Barrels"
+L["unlameifier.attname.eftatts.handguards.mpx"] = "EFT MPX Handguards"
+L["unlameifier.attname.eftatts.handguards.mcx"] = "EFT MCX Handguards"
+L["unlameifier.attname.eftatts.stocks.mcx"] = "EFT MCX Stocks"
+L["unlameifier.attname.eftatts.grips.ak"] = "EFT AK Grips"
+L["unlameifier.attname.eftatts.barrels.ak"] = "EFT AK Gas Tubes"
+L["unlameifier.attname.eftatts.handguards.ak"] = "EFT AK Handguards"
+L["unlameifier.attname.eftatts.stocks.ak"] = "EFT AK Stocks"
+L["unlameifier.attname.eftatts.chcover.ak"] = "EFT AK C.H. Covers"
+L["unlameifier.attname.eftatts.dcover.ak"] = "EFT AK D. Covers"
+L["unlameifier.attname.eftatts.ubgl.ak"] = "EFT AK UBGL"
+L["unlameifier.attname.eftatts.ammo"] = "EFT Ammo"
+L["unlameifier.attname.frontsight"] = "Front Sight"
+L["unlameifier.attname.rearsight"] = "Rear Sight"
+L["unlameifier.attname.customslot"] = "Unlameifier"
+L["unlameifier.attname.tuning"] = "Tuning"
+L["unlameifier.attname.g17_slide"] = "Glock 17 Slide"
+L["unlameifier.attname.g17_slide"] = "Glock 17 Barrel"
+L["unlameifier.attname.g17_frontsight"] = "Glock 17 Front Sight"
+L["unlameifier.attname.g17_rearsight"] = "Glock 17 Rear Sight"
+	
+L["unlameifier.folder.eftatts"] = "Attachments/EFT"
+L["unlameifier.folder.eftatts.optics"] = "Attachments/EFT/Optics"
+L["unlameifier.folder.eftatts.optics.irons"] = "Attachments/EFT/Optics/Irons"
+L["unlameifier.folder.eftatts.grips"] = "Attachments/EFT/Grips"
+L["unlameifier.folder.eftatts.mounts"] = "Attachments/EFT/Mounts"
+L["unlameifier.folder.eftatts.muzzles"] = "Attachments/EFT/Muzzles"
+L["unlameifier.folder.eftatts.bespoke.ar15"] = "Attachments/EFT/Bespoke/AR-15"
+L["unlameifier.folder.eftatts.bespoke.ar10"] = "Attachments/EFT/Bespoke/AR-10"
+L["unlameifier.folder.eftatts.bespoke.ak"] = "Attachments/EFT/Bespoke/AK"
+L["unlameifier.folder.eftatts.bespoke.mpxmcx"] = "Attachments/EFT/Bespoke/MPX+MCX"
+L["unlameifier.folder.eftatts.caliber.pistol"] = "Attachments/EFT/Caliber/Pistol"
+L["unlameifier.folder.eftatts.caliber.magnum"] = "Attachments/EFT/Caliber/Magnum"
+L["unlameifier.folder.eftatts.caliber.intermediate"] = "Attachments/EFT/Caliber/Intermediate"
+L["unlameifier.folder.eftatts.caliber.heavy"] = "Attachments/EFT/Caliber/Heavy"
+L["unlameifier.folder.eftatts.caliber.shotgun"] = "Attachments/EFT/Caliber/Shotgun"
+L["unlameifier.folder.eftatts.caliber.ordnance"] = "Attachments/EFT/Caliber/Ordnance"
+L["unlameifier.folder.patches.eft.general"] = "Patches/EFT/General"
+L["unlameifier.folder.toys.entities.holdtypes.eft"] = "Toys/Entities/Hold Types/EFT"
+L["unlameifier.folder.eftatts.gear"] = "Attachments/EFT/Gear"
+L["unlameifier.folder.utilities"] = "Unlameifier/Unlameifier/Utilities"
+L["unlameifier.folder.toys"] = "Unlameifier/Unlameifier/Toys"
+L["unlameifier.folder.toys.impactdecals"] = "Unlameifier/Toys/Impact Decals"
+L["unlameifier.folder.tracers"] = "Unlameifier/Tracers"
+L["unlameifier.folder.tracers.modifiers"] = "Unlameifier/Tracers/Modifiers"
+L["unlameifier.folder.sounds.doom"] = "Toys/Sounds/Gunfire/DOOM"
+L["unlameifier.folder.sounds.hl2"] = "Toys/Sounds/Gunfire/HL2"
+L["unlameifier.folder.sounds.hl1"] = "Toys/Sounds/Gunfire/HL1"
+L["unlameifier.folder.sounds.css"] = "Toys/Sounds/Gunfire/CSS"
+L["unlameifier.folder.sounds.neosun"] = "Toys/Sounds/Gunfire/Neosun"
+L["unlameifier.folder.sounds.misc"] = "Toys/Sounds/Gunfire/Misc."
+L["unlameifier.folder.sounds.mw2"] = "Toys/Sounds/Gunfire/MW2"
+L["unlameifier.folder.sounds.roblox"] = "Toys/Sounds/Gunfire/Roblox"
+L["unlameifier.folder.sounds.music"] = "Toys/Sounds/Gunfire/Music"
+L["unlameifier.folder.sounds.ws"] = "Toys/Sounds/Gunfire/KindredFlame"
+L["unlameifier.folder.sounds.misc.ricochet"] = "Toys/Sounds/Gunfire/Misc./Ricochet"
+L["unlameifier.folder.sounds.misc.impact"] = "Toys/Sounds/Gunfire/Misc./Impact"
+L["unlameifier.folder.sounds.melee.bonk"] = "Toys/Sounds/Melee/Impact/Misc."
+L["unlameifier.folder.sounds.melee.jojo"] = "Toys/Sounds/Melee/Swing/JJBA"
+L["unlameifier.folder.sounds.melee.jojo"] = "Toys/Sounds/Melee/Impact/JJBA"
+L["unlameifier.folder.sounds.dods"] = "Toys/Sounds/Gunfire/DoD:S"
+L["unlameifier.folder.sounds.dod"] = "Toys/Sounds/Gunfire/DoD"
+L["unlameifier.folder.sounds.tf2"] = "Toys/Sounds/Gunfire/TF2"
+L["unlameifier.folder.sounds.tf2.swing"] = "Toys/Sounds/Melee/Swing/TF2"
+L["unlameifier.folder.sounds.tf2.impact"] = "Toys/Sounds/Melee/Impact/TF2"
+L["unlameifier.folder.sounds.fo4"] = "Toys/Sounds/Gunfire/Fallout 4"
+L["unlameifier.folder.sounds.fo76"] = "Toys/Sounds/Gunfire/Fallout 76"
+L["unlameifier.folder.sounds.fo76.auto"] = "Toys/Sounds/Gunfire/Fallout 76/Auto"
+L["unlameifier.folder.sounds.fo76.auto.420"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/420RPM"
+L["unlameifier.folder.sounds.fo76.auto.540"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/540RPM"
+L["unlameifier.folder.sounds.fo76.auto.660"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/660RPM"
+L["unlameifier.folder.sounds.fo76.auto.780"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/780RPM"
+L["unlameifier.folder.sounds.fo76.auto.900"] = "Toys/Sounds/Gunfire/Fallout 76/Auto/900RPM"
+L["unlameifier.folder.sounds.bf2"] = "Toys/Sounds/Gunfire/BF2"
+L["unlameifier.folder.sounds.bf2.vehicle"] = "Toys/Sounds/Gunfire/BF2/Vehicle"
+L["unlameifier.folder.sounds.bf2.stationary"] = "Toys/Sounds/Gunfire/BF2/Stationary"
+L["unlameifier.folder.sounds.melee.bf2"] = "Toys/Sounds/Melee/Swing/BF2"
+L["unlameifier.folder.sounds.bf2142"] = "Toys/Sounds/Gunfire/BF2142"
+L["unlameifier.folder.sounds.mw19.ar"] = "Toys/Sounds/Gunfire/MW19/ARs"
+L["unlameifier.folder.sounds.mw19.smg"] = "Toys/Sounds/Gunfire/MW19/SMGs"
+L["unlameifier.folder.sounds.mw19.shotgun"] = "Toys/Sounds/Gunfire/MW19/SHGs"
+L["unlameifier.folder.sounds.mw19.lmg"] = "Toys/Sounds/Gunfire/MW19/LMGs"
+L["unlameifier.folder.sounds.mw19.marksman"] = "Toys/Sounds/Gunfire/MW19/MMs"
+L["unlameifier.folder.sounds.mw19.sniper"] = "Toys/Sounds/Gunfire/MW19/SRs"
+L["unlameifier.folder.sounds.mw19.handgun"] = "Toys/Sounds/Gunfire/MW19/HGs"
+L["unlameifier.folder.sounds.mw19.launcher"] = "Toys/Sounds/Gunfire/MW19/Launcher"
+L["unlameifier.folder.sounds.warface"] = "Toys/Sounds/Gunfire/Warface"
+L["unlameifier.folder.sounds.warface.rifleman"] = "Toys/Sounds/Gunfire/Warface/Rifleman"
+L["unlameifier.folder.sounds.warface.engineer"] = "Toys/Sounds/Gunfire/Warface/Engineer"
+L["unlameifier.folder.sounds.warface.medic"] = "Toys/Sounds/Gunfire/Warface/Medic"
+L["unlameifier.folder.sounds.warface.sniper"] = "Toys/Sounds/Gunfire/Warface/Sniper"
+L["unlameifier.folder.sounds.warface.pistols"] = "Toys/Sounds/Gunfire/Warface/Pistols"
+L["unlameifier.folder.charms.hl2"] = "Unlameifier/HL2"
+L["unlameifier.folder.charms.dev"] = "Unlameifier/Dev"
+L["unlameifier.folder.charms.css"] = "Unlameifier/CSS"
+L["unlameifier.folder.charms.gmod"] = "Unlameifier/GMod"
+L["unlameifier.folder.charms.tf2"] = "Unlameifier/TF2"
+L["unlameifier.folder.misc"] = "Мisc."
+L["unlameifier.folder.misc.function"] = "Мisc./Function"
+L["unlameifier.folder.misc.effects"] = "Мisc./Effects"
+L["unlameifier.folder.misc.modifiers"] = "Мisc./Modifiers"
+L["unlameifier.folder.experimental"] = "Unlameifier/Experimental"
+L["unlameifier.folder.projectiles"] = "Projectiles"
+L["unlameifier.folder.projectiles.fixed"] = "Projectiles/Fixed"
+L["unlameifier.folder.projectiles.plus"] = "Projectiles/Add"
+L["unlameifier.folder.projectiles.minus"] = "Projectiles/Subtract"
+L["unlameifier.folder.ammopershot"] = "Ammo Per Shot"
+L["unlameifier.folder.ammopershot.fixed"] = "Ammo Per Shot/Fixed"
+L["unlameifier.folder.ammopershot.plus"] = "Ammo Per Shot/Add"
+L["unlameifier.folder.ammopershot.minus"] = "Ammo Per Shot/Subtract"
+L["unlameifier.folder.maxdamage"] = "Damage/Max"
+L["unlameifier.folder.maxdamage.fixed"] = "Damage/Max/Fixed"
+L["unlameifier.folder.maxdamage.plus"] = "Damage/Max/Add"
+L["unlameifier.folder.maxdamage.minus"] = "Damage/Max/Subtract"
+L["unlameifier.folder.maxdamage.multiply"] = "Damage/Max/Multiply"
+L["unlameifier.folder.maxdamage.divide"] = "Damage/Max/Divide"
+L["unlameifier.folder.mindamage"] = "Damage/Min"
+L["unlameifier.folder.mindamage.fixed"] = "Damage/Min/Fixed"
+L["unlameifier.folder.mindamage.plus"] = "Damage/Min/Add"
+L["unlameifier.folder.mindamage.minus"] = "Damage/Min/Subtract"
+L["unlameifier.folder.mindamage.multiply"] = "Damage/Min/Multiply"
+L["unlameifier.folder.mindamage.divide"] = "Damage/Min/Divide"
+L["unlameifier.folder.recoil"] = "Recoil"
+L["unlameifier.folder.recoil.plus"] = "Recoil/Add"
+L["unlameifier.folder.recoil.minus"] = "Recoil/Subtract"
+L["unlameifier.folder.recoil.multiply"] = "Recoil/Multiply"
+L["unlameifier.folder.recoil.divide"] = "Recoil/Divide"
+L["unlameifier.folder.visrecoil"] = "Visual Recoil"
+L["unlameifier.folder.visrecoil.plus"] = "Visual Recoil/Add"
+L["unlameifier.folder.visrecoil.minus"] = "Visual Recoil/Subtract"
+L["unlameifier.folder.visrecoil.multiply"] = "Visual Recoil/Multiply"
+L["unlameifier.folder.visrecoil.divide"] = "Visual Recoil/Divide"
+L["unlameifier.folder.reloadtime"] = "Reload Time"
+L["unlameifier.folder.reloadtime.plus"] = "Reload Time/Add"
+L["unlameifier.folder.reloadtime.minus"] = "Reload Time/Subtract"
+L["unlameifier.folder.reloadtime.multiply"] = "Reload Time/Multiply"
+L["unlameifier.folder.reloadtime.divide"] = "Reload Time/Divide"
+L["unlameifier.folder.deploytime"] = "Deploy Time"
+L["unlameifier.folder.deploytime.plus"] = "Deploy Time/Add"
+L["unlameifier.folder.deploytime.minus"] = "Deploy Time/Subtract"
+L["unlameifier.folder.deploytime.multiply"] = "Deploy Time/Multiply"
+L["unlameifier.folder.deploytime.divide"] = "Deploy Time/Divide"
+L["unlameifier.folder.adstime"] = "ADS Time"
+L["unlameifier.folder.adstime.plus"] = "ADS Time/Add"
+L["unlameifier.folder.adstime.minus"] = "ADS Time/Subtract"
+L["unlameifier.folder.adstime.multiply"] = "ADS Time/Multiply"
+L["unlameifier.folder.adstime.divide"] = "ADS Time/Divide"
+L["unlameifier.folder.magcap"] = "Mag Capacity"
+L["unlameifier.folder.magcap.fixed"] = "Mag Capacity/Fixed"
+L["unlameifier.folder.magcap.plus"] = "Mag Capacity/Add"
+L["unlameifier.folder.magcap.minus"] = "Mag Capacity/Subtract"
+L["unlameifier.folder.magcap.multiply"] = "Mag Capacity/Multiply"
+L["unlameifier.folder.magcap.divide"] = "Mag Capacity/Divide"
+L["unlameifier.folder.chambersize"] = "Chamber Capacity"
+L["unlameifier.folder.chambersize.fixed"] = "Chamber Capacity/Fixed"
+L["unlameifier.folder.chambersize.plus"] = "Chamber Capacity/Add"
+L["unlameifier.folder.chambersize.minus"] = "Chamber Capacity/Subtract"
+L["unlameifier.folder.chambersize.multiply"] = "Chamber Capacity/Multiply"
+L["unlameifier.folder.chambersize.divide"] = "Chamber Capacity/Divide"
+L["unlameifier.folder.penetration"] = "Penetration"
+L["unlameifier.folder.penetration.plus"] = "Penetration/Add"
+L["unlameifier.folder.penetration.minus"] = "Penetration/Subtract"
+L["unlameifier.folder.penetration.multiply"] = "Penetration/Multiply"
+L["unlameifier.folder.penetration.divide"] = "Penetration/Divide"
+L["unlameifier.folder.spread"] = "Spread"
+L["unlameifier.folder.spread.multiply"] = "Spread/Multiply"
+L["unlameifier.folder.spread.divide"] = "Spread/Divide"
+L["unlameifier.folder.impactforce"] = "Impact Force"
+L["unlameifier.folder.impactforce.multiply"] = "Impact Force/Multiply"
+L["unlameifier.folder.impactforce.divide"] = "Impact Force/Divide"
+L["unlameifier.folder.maxrange"] = "Range/Max"
+L["unlameifier.folder.maxrange.multiply"] = "Range/Max/Multiply"
+L["unlameifier.folder.maxrange.divide"] = "Range/Max/Divide"
+L["unlameifier.folder.minrange"] = "Range/Min"
+L["unlameifier.folder.minrange.multiply"] = "Range/Min/Multiply"
+L["unlameifier.folder.minrange.divide"] = "Range/Min/Divide"
+L["unlameifier.folder.malfunction"] = "Malfunction"
+L["unlameifier.folder.malfunction.fixed"] = "Malfunction/Fixed"
+L["unlameifier.folder.malfunction.plus"] = "Malfunction/Add"
+L["unlameifier.folder.malfunction.minus"] = "Malfunction/Subtract"
+L["unlameifier.folder.malfunction.multiply"] = "Malfunction/Multiply"
+L["unlameifier.folder.malfunction.divide"] = "Malfunction/Divide"
+L["unlameifier.folder.malfunction.utility.system"] = "Malfunction/Utility/System"
+L["unlameifier.folder.heat"] = "Heat"
+L["unlameifier.folder.heat.utility.system"] = "Heat/Utility/System"
+L["unlameifier.folder.heat.pershot.plus"] = "Heat/Per Shot/Add"
+L["unlameifier.folder.heat.pershot.minus"] = "Heat/Per Shot/Subtract"
+L["unlameifier.folder.heat.capacity.fixed"] = "Heat/Capacity/Fixed"
+L["unlameifier.folder.heat.capacity.plus"] = "Heat/Capacity/Add"
+L["unlameifier.folder.heat.capacity.minus"] = "Heat/Capacity/Subtract"
+L["unlameifier.folder.heat.capacity.multiply"] = "Heat/Capacity/Multiply"
+L["unlameifier.folder.heat.capacity.divide"] = "Heat/Capacity/Divide"
+L["unlameifier.folder.heat.dissipation.fixed"] = "Heat/Dissipation/Fixed"
+L["unlameifier.folder.heat.dissipation.plus"] = "Heat/Dissipation/Add"
+L["unlameifier.folder.heat.dissipation.minus"] = "Heat/Dissipation/Subtract"
+L["unlameifier.folder.heat.dissipation.multiply"] = "Heat/Dissipation/Multiply"
+L["unlameifier.folder.heat.dissipation.divide"] = "Heat/Dissipation/Divide"
+L["unlameifier.folder.heat.delay.fixed"] = "Heat/Delay/Fixed"
+L["unlameifier.folder.triggerdelay"] = "Trigger Delay"
+L["unlameifier.folder.triggerdelay.utility.system"] = "Trigger Delay/Utility/System"
+L["unlameifier.folder.triggerdelay.fixed"] = "Trigger Delay/Fixed"
+L["unlameifier.folder.ergonomics.fixed"] = "Ergonomics/Fixed"
+L["unlameifier.folder.ergonomics.plus"] = "Ergonomics/Add"
+L["unlameifier.folder.ergonomics.minus"] = "Ergonomics/Subtract"
+L["unlameifier.folder.ergonomics.multiply"] = "Ergonomics/Multiply"
+L["unlameifier.folder.ergonomics.divide"] = "Ergonomics/Divide"
+L["unlameifier.folder.ammooverride"] = "Ammo Override"
+L["unlameifier.folder.ammooverride.hl1"] = "Ammo Override/HL:S"
+L["unlameifier.folder.ammooverride.hl2"] = "Ammo Override/HL2"
+L["unlameifier.folder.ricochet"] = "Ricochet"
+L["unlameifier.folder.ricochet.utility.system"] = "Ricochet/Utility/System"
+L["unlameifier.folder.projectiles.utility"] = "Projectiles/Utility"
+L["unlameifier.folder.ricochet.fixed"] = "Ricochet/Angle/Fixed"
+L["unlameifier.folder.ricochet.plus"] = "Ricochet/Angle/Add"
+L["unlameifier.folder.ricochet.minus"] = "Ricochet/Angle/Subtract"
+L["unlameifier.folder.ricochet.multiply"] = "Ricochet/Angle/Multiply"
+L["unlameifier.folder.ricochet.divide"] = "Ricochet/Angle/Divide"
+L["unlameifier.folder.ricochet.seeking.fixed"] = "Ricochet/Seek Angle/Fixed"
+L["unlameifier.folder.ricochet.seeking.plus"] = "Ricochet/Seek Angle/Add"
+L["unlameifier.folder.ricochet.seeking.minus"] = "Ricochet/Seek Angle/Subtract"
+L["unlameifier.folder.ricochet.seeking.multiply"] = "Ricochet/Seek Angle/Multiply"
+L["unlameifier.folder.ricochet.seeking.divide"] = "Ricochet/Seek Angle/Divide"
+L["unlameifier.folder.ricochet.chance.fixed"] = "Ricochet/Chance/Fixed"
+L["unlameifier.folder.ricochet.chance.plus"] = "Ricochet/Chance/Add"
+L["unlameifier.folder.ricochet.chance.minus"] = "Ricochet/Chance/Subtract"
+L["unlameifier.folder.ricochet.chance.multiply"] = "Ricochet/Chance/Multiply"
+L["unlameifier.folder.ricochet.chance.divide"] = "Ricochet/Chance/Divide"
+
+//////////////////////////////// End of LEGACY STUFF

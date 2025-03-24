@@ -1,36 +1,5 @@
 local ATT = {}
 
-///////////////////////////////////////     BASE ATTACHMENT (This is so then server owners/normal people without brainrot can disable the entire system easily) (ps. please do not use unlameifier in darkrp, it was not made for that).
-
-ATT = {}
-
-ATT.PrintName = "Tuning System Injector"
-ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
-ATT.Description = "This is not localized!\nEnables tuning on weapons."
-ATT.SortOrder = 1
-ATT.AttNotForNPCs = true
-
-ATT.Category = "*"
-ATT.MenuCategory = "ARC9 - Unlameifier"
-ATT.Folder = "Unlameifier/Core"
-
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("unlameifier.attname.customslot"),
-        Pos = Vector(50, 50, 50),
-        Ang = Angle(0, 0, 0),
-        Category = {"unlameifier_core"},
-    },
-	{
-        PrintName = ARC9:GetPhrase("unlameifier.attname.tuning"),
-        Category = "ul_tuning",
-        Pos = Vector(50, 50, 50),
-        Ang = Angle(0, 0, 0),
-    },
-}
-
-ARC9.LoadAttachment(ATT, "unlameifier_tuning_system")
-
 ///////////////////////////////////////     Shared Code
 
 sharedcode = {

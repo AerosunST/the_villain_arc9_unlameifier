@@ -146,7 +146,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_ar15_18i_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 5.56x45 20 inch barrel"
+ATT.PrintName = "AR-15 5.56x45 20 inch barrel (Unlocked)"
 ATT.CompactName = "AR-15 20\""
 ATT.Icon = Material("entities/eft_ar15_attachments/barrel/ar15_556x45_20_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for AR-15 based weapons for 5.56x45 NATO ammo, 20 inches long. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -238,7 +238,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_ar15_406mm_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 16 inch barrel"
+ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 16 inch barrel (Unlocked)"
 ATT.CompactName = "Hanson 16\""
 ATT.Icon = Material("entities/eft_ar15_attachments/barrel/hanson16.png", "mips smooth")
 ATT.Description = [[The Hanson Carbine barrel for AR-15 based weapons for 5.56x45 NATO ammo, 16 inch long. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -285,7 +285,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_ar15_hanson_16_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 13.7 inch barrel"
+ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 13.7 inch barrel (Unlocked)"
 ATT.CompactName = "Hanson 13.7\""
 ATT.Icon = Material("entities/eft_ar15_attachments/barrel/hanson137.png", "mips smooth")
 ATT.Description = [[The Hanson Carbine barrel for AR-15 based weapons for 5.56x45 NATO ammo, 13.7 inch long. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -530,7 +530,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_m203_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "M4A1 front sight with gas block"
+ATT.PrintName = "M4A1 front sight with gas block (Unlocked)"
 ATT.CompactName = "M4 FS"
 ATT.Icon = Material("entities/eft_ar15_attachments/gas/m4a1_front_sight_with_gas_block.png", "mips smooth")
 ATT.Description = [[Standard issued M4A1 front sight. This version removes any Element flags to allow it to be used with any combination of handguards and barrel. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -555,7 +555,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_gas_ar15_m4fs_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 Daniel Defense MK12 Low Profile Gas Block"
+ATT.PrintName = "AR-15 Daniel Defense MK12 Low Profile Gas Block (Unlocked)"
 ATT.CompactName = "MK12"
 ATT.Icon = Material("entities/eft_ar15_attachments/gas/ar15_daniel_defense_mk12_low_profile_gas_block.png", "mips smooth")
 ATT.Description = [[The MK12 Gas Block is only compatible with the RIS II (M4A1 & MK18) family of rail systems manufactured by Daniel Defense. It is not compatible with any other Daniel Defense rail system. This is due to various clearance issues. This only applies to rail system lengths that would completely shroud the gas block. If you are mounting the gas block to the barrel without being shrouded by the rail system, then this does not apply. In that case, it will fit as long as the barrel's diameter is .750. This version removes any Element flags to allow it to be used with any combination of handguards and barrel. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -580,7 +580,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_gas_ar15_mk12_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 JP Enterprises Gas System-5B"
+ATT.PrintName = "AR-15 JP Enterprises Gas System-5B (Unlocked)"
 ATT.CompactName = "GS-5B"
 ATT.Icon = Material("entities/eft_ar15_attachments/gas/ar15_jp_enterprises_gas_system5b.png", "mips smooth")
 ATT.Description = [[Low-profile gas system, which can be installed as regular on AR-15-based weapons.]]
@@ -605,7 +605,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_gas_ar15_jp_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 Windham Weaponry Rail Gas Block"
+ATT.PrintName = "AR-15 Windham Weaponry Rail Gas Block (Unlocked)"
 ATT.CompactName = "RGBlock"
 ATT.Icon = Material("entities/eft_ar15_attachments/gas/ar15_windham_weaponry_rail_gas_block.png", "mips smooth")
 ATT.Description = [[Installed as replacement to standard AR-15-based weapons gas blocks, it adds a Picatinny rail that allows the installation of your own front sight. This version removes any Element flags to allow it to be used with any combination of handguards and barrel. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -635,7 +635,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_gas_ar15_rg_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "AR-15 Ballistic Advantage Lo-Pro Gas Block"
+ATT.PrintName = "AR-15 Ballistic Advantage Lo-Pro Gas Block (Unlocked)"
 ATT.CompactName = "Lo-Pro"
 ATT.Icon = Material("entities/eft_ar15_attachments/gas/lopro.png", "mips smooth")
 ATT.Description = [[A Low-profile gas block for AR-15 system barrels. Manufactured by Ballistic Advantage. This version removes any Element flags to allow it to be used with any combination of handguards and barrel. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -745,7 +745,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_hk416_106i_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "HK 416A5 5.56x45 11 inch barrel"
+ATT.PrintName = "HK 416A5 5.56x45 11 inch barrel (Unlocked)"
 ATT.CompactName = "11\" 416A5"
 ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_11_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 279mm long. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -791,7 +791,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_hk416_11i_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "HK 416A5 5.56x45 14.5 inch barrel"
+ATT.PrintName = "HK 416A5 5.56x45 14.5 inch barrel (Unlocked)"
 ATT.CompactName = "14.5\" 416A5"
 ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_145_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 368mm long with a flip up front sight. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -837,7 +837,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_hk416_145i_unlocked")
 
 ATT = {}
 
-ATT.PrintName = "HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight"
+ATT.PrintName = "HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight (Unlocked)"
 ATT.CompactName = "16.5\" 416A5"
 ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_165_inch_barrel_with_flipup_front_sight.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 419mm long with a flip up front sight. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -883,7 +883,7 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_hk416_165i_unlameifier")
 
 ATT = {}
 
-ATT.PrintName = "HK 416A5 5.56x45 20 inch barrel"
+ATT.PrintName = "HK 416A5 5.56x45 20 inch barrel (Unlocked)"
 ATT.CompactName = "20\" 416A5"
 ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_20_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 505mm long with a flip up front sight. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
@@ -926,51 +926,553 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_barrel_hk416_20i_unlocked")
 
-//////////////////////////////////////////////////////////////////////////////      MK47 Mutant Parts (moka_pls_localize)
+//////////////////////////////////////////////////////////////////////////////      AR-10 Parts (moka_pls_localize)
 
-///////////////////////////////////////      eft_mk47_barrel_254
+///////////////////////////////////////      eft_ar10_hg_lch7
 
 
 ATT = {}
 
-ATT.PrintName = "Mk47 254mm barrel (Unlocked)"
-ATT.CompactName = "Mk47 254mm"
-ATT.Icon = Material("entities/eft_ar10_attachments/47sh.png", "mips smooth")
-ATT.Description = [[A 254mm long barrel for the CMMG Mk47 Mutant assault rifle, chambered in 7.62x39mm. This version removes any Element flags to allow it to be used with any combination of handguards and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
-
-ATT.HasBarrel = true 
-
-ATT.EFTErgoAdd = -7
-ATT.CustomCons = { Ergonomics = "-7" }
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
-ATT.PhysBulletMuzzleVelocityMult = 0.839
-ATT.HeatCapacityMult = 1.02
-ATT.Spread = 2.61 * ARC9.MOAToAcc
-
-ATT.Folder = "UL Extras"
+ATT.PrintName = "AR-10 Lancer LCH7 12.5 inch M-LOK handguard (Unlocked)"
+ATT.CompactName = "LCH7 12.5\""
+ATT.Icon = Material("entities/eft_ar10_attachments/hglancer.png", "mips smooth")
+ATT.Description = [[The Lancer LCH7 12.5 inch M-LOK handguard for AR-10 systems equipped with an M-LOK interface for installation of additional devices and accessories. This version removes any Element flags to allow it to be used with any combination of barrels and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment receives changes.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
-ATT.Category = {"eft_mk47_barrel"}
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_lancer_lch7_12_5_inch_carbon.mdl"
+ATT.LHIK = true 
+
+ATT.Folder = "UL Extras"
+
+
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.HeatCapacityMult = 1.018
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.Category = {"eft_ar10_hg"}
+
 ATT.Attachments = {
     {
-        PrintName = "Gas block",
-        Category = "eft_mk47_gas",
-        Pos = Vector(-7.36, 0, 0.12),
-        Ang = Angle(0, 0, 0),
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(1.07, 10.8, 0.12),
+        Ang = Angle(180, 90, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Muzzle",
-        Category = "eft_ar10_muzzle",
-        Pos = Vector(-9.45, 0, 0.15),
-        Ang = Angle(0, 0, 0),
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-1.07, 10.8, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 5.5, 1.17),
+        Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
 
-ARC9.LoadAttachment(ATT, "unlameifier_eft_mk47_barrel_254_unlocked")
+ATT.AdvancedCamoSupport = "eft_ar10_hg_lch7"
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_lch7_unlocked")
+
+///////////////////////////////////////      eft_ar10_hg_rml9
+
+
+ATT = {}
+
+ATT.PrintName = "AR-10 CMMG MK3 RML9 9 inch M-LOK handguard (Unlocked)"
+ATT.CompactName = "MK3 RML9"
+ATT.Icon = Material("entities/eft_ar10_attachments/hgrml9.png", "mips smooth")
+ATT.Description = [[A 9 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG. This version is completely identical to its original version, but is included here for the sake of convenience. If the stats of this attachment are changed on its base version, this version will be removed.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+ATT.Folder = "UL Extras"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_cmmg_mk3_rml9.mdl"
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.HeatCapacityMult = 0.975
+
+ATT.Category = {"eft_ar10_hg"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.5, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 5.5, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 9.15, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.91, 8, 0.12),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.91, 8, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4.5, 1.12),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.AdvancedCamoSupport = "eft_ar10_hg_rml9"
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_rml9_unlocked")
+
+///////////////////////////////////////      eft_ar10_hg_rml15
+
+
+ATT = {}
+
+ATT.PrintName = "AR-10 CMMG MK3 RML15 15 inch M-LOK handguard (Unlocked)"
+ATT.CompactName = "MK3 RML15"
+ATT.Icon = Material("entities/eft_ar10_attachments/hgrml15.png", "mips smooth")
+ATT.Description = [[A 15 inch handguard for AR-10 weapon systems, equipped with an M-LOK interface for attaching additional equipment. Manufactured by CMMG. This version removes any Element flags to allow it to be used with any combination of barrels and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment receives changes.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_cmmg_mk3_rml15.mdl"
+
+ATT.EFTErgoAdd = 5.5
+ATT.CustomPros = { Ergonomics = "+5.5" }
+ATT.HeatCapacityMult = 1.038
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.Category = {"eft_ar10_hg"}
+ATT.Folder = "UL Extras"
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 2.5, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 11, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 15, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.91, 14.05, 0.12),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.91, 14.05, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4.5, 1.12),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
+        Pos = Vector(0, 10.7, 1.12),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.AdvancedCamoSupport = "eft_ar10_hg_rml15"
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_rml15_unlocked")
+
+///////////////////////////////////////      eft_ar10_hg_rsass
+
+ATT = {}
+
+ATT.PrintName = "R11 RSASS handguard (Unlocked)"
+ATT.CompactName = "RSASS"
+ATT.Icon = Material("entities/eft_ar10_attachments/hgrsass.png", "mips smooth")
+ATT.Description = [[A standard handguard manufactured by JP Enterprises for the Remington R11 RSASS marksman rifle. Can also be mounted on any AR-10/AR-15 base receivers. This version removes any Element flags to allow it to be used with any combination of barrels and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment receives changes.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_jp_rsass.mdl"
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.HeatCapacityMult = 1.025
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+ATT.Category = {"eft_ar10_hg"}
+ATT.Folder = "UL Extras"
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 2.1, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 7.5, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "RAHG R",
+        Category = {"eft_mount_rahg"},
+        -- Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(1.07, 7.2, 0.12),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "RAHG L",
+        Category = {"eft_mount_rahg"},
+        -- Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-1.07, 7.2, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "RAHG R2",
+        Category = {"eft_mount_rahg"},
+        -- Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.75, 10.2, 0.85),
+        Ang = Angle(180, 90, 45),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "RAHG L2",
+        Category = {"eft_mount_rahg"},
+        -- Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.75, 10.2, 0.85),
+        Ang = Angle(0, -90, -45),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "RAHG B",
+        Category = {"eft_mount_rahg4", "eft_foregrip_mlok"},
+        -- Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.5, 1.19),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "RAHG B Tac",
+        Category = {"eft_mount_rahg"},
+        -- Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 11.25, 1.19),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_rsass_unlocked")
+
+///////////////////////////////////////      eft_ar10_hg_sws105
+
+ATT = {}
+
+ATT.PrintName = "AR-10 Noveske SWS N6 10.5 inch handguard (Unlocked)"
+ATT.CompactName = "SWS N6 10.5\""
+ATT.Icon = Material("entities/eft_ar10_attachments/hgnovesken6.png", "mips smooth")
+ATT.Description = [[The Noveske SWS N6 10.5 inch handguard is made with light but durable aircraft aluminum alloy. It comes equipped with 4 mounts for the installation of additional devices and accessories. This version removes any Element flags to allow it to be used with any combination of barrels and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment receives changes.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_noveske_sws_n6_quadrail_105_inch.mdl"
+ATT.LHIK = true
+
+
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.HeatCapacityMult = 1.045
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.Category = {"eft_ar10_hg"}
+ATT.Folder = "UL Extras"
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 10.3, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.1, 12-3.4, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.1, 12-3.4, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 4.2, 1.25),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    }, 
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
+        Pos = Vector(0, 10, 1.25),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_sws105_unlocked")
+
+///////////////////////////////////////      eft_ar10_hg_swssplit
+
+ATT = {}
+
+ATT.PrintName = "AR-10 Noveske SWS N6 Split handguard (Unlocked)"
+ATT.CompactName = "SWS N6 Split"
+ATT.Icon = Material("entities/eft_ar10_attachments/hgnoveskesplit.png", "mips smooth")
+ATT.Description = [[The Noveske SWS N6 Split handguard is made with light but durable aircraft aluminum alloy. It comes equipped with 4 mounts for the installation of additional devices and accessories. Fits AR-10 compatible weapon systems. This version removes any Element flags to allow it to be used with any combination of barrels and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment receives changes.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_noveske_sws_n6_quadrail_split.mdl"
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.HeatCapacityMult = 1.06
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.Category = {"eft_ar10_hg"}
+ATT.Folder = "UL Extras"
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 7.7, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 12.7, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.1, 12-3.4, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.1, 12-3.4, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },    
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
+        Pos = Vector(0, 11.75, 1.25),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 4.2, 1.25),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    }, 
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_swssplit_unlocked")
+
+
+///////////////////////////////////////      eft_ar10_hg_urx
+
+ATT = {}
+
+ATT.PrintName = "AR-10 KAC URX 4 14.5 inch handguard (Unlocked)"
+ATT.CompactName = "URX4 14.5\""
+ATT.Icon = Material("entities/eft_ar10_attachments/hgurx.png", "mips smooth")
+ATT.Description = [[URX 4 is a 14.5 inch long lightweight M-LOK-compatible handguard for AR-10 system rifles. Manufactured by Knight's Armament Company. This version removes any Element flags to allow it to be used with any combination of barrels and gas blocks. Also, please ping Neosun or Moka in Diamond Doves when this attachment receives changes.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_kac_urx4_14_5_inch.mdl"
+-- ATT.LHIK = true
+
+
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+ATT.HeatCapacityMult = 1.035
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.SpreadMult = 0.99
+
+ATT.Category = {"eft_ar10_hg"}
+ATT.Folder = "UL Extras"
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 2.1, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 9, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 15, -1.22),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.87, 10.7, 0.12),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.87, 10.7, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4, 0.95),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
+        Pos = Vector(0, 13.1, 0.95),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.AdvancedCamoSupport = "eft_ar10_hg_urx"
+ARC9.LoadAttachment(ATT, "unlameifier_eft_ar10_hg_urx_unlocked")
 
 //////////////////////////////////////////////////////////////////////////////      MPX Parts (moka_pls_localize)
 

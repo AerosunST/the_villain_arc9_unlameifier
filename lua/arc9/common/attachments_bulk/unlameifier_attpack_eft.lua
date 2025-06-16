@@ -2360,6 +2360,7 @@ ATT.HasChassis = true
 ATT.HasHammer = true
 ATT.HasLock = true
 ATT.HasTrigger = true
+ATT.HasCharge = true
 
 ATT.Category = "unlameifier_core"
 ATT.MenuCategory = "ARC9 - Unlameifier"

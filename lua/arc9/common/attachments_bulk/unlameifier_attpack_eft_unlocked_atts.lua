@@ -942,6 +942,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_lancer_lch7_12_5_inch_carbon.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
+ATT.ModelOffset = Vector(0, 0, 0)
 ATT.LHIK = true 
 
 ATT.Folder = "UL Extras"
@@ -998,6 +1000,7 @@ ATT.HasHG = true
 ATT.Folder = "UL Extras"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_cmmg_mk3_rml9.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
 
 ATT.EFTErgoAdd = 6
 ATT.CustomPros = { Ergonomics = "+6" }
@@ -1069,6 +1072,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_cmmg_mk3_rml15.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
 
 ATT.EFTErgoAdd = 5.5
 ATT.CustomPros = { Ergonomics = "+5.5" }
@@ -1149,6 +1153,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_jp_rsass.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
 ATT.LHIK = true
 
 ATT.EFTErgoAdd = 5
@@ -1242,6 +1247,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_noveske_sws_n6_quadrail_105_inch.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
 ATT.LHIK = true
 
 
@@ -1323,6 +1329,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_noveske_sws_n6_quadrail_split.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
 ATT.LHIK = true
 
 ATT.EFTErgoAdd = 8
@@ -1404,6 +1411,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar10_kac_urx4_14_5_inch.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.085)
 -- ATT.LHIK = true
 
 

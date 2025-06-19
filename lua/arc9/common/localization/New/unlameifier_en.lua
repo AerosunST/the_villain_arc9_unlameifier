@@ -236,7 +236,16 @@ A bandaid solution to allow you to \"soft-remove\" attachments. Good for referen
 <color=175,175,255>Tip</color> - You can increase the maximum amount of attachments allowed per weapon up to 200 in the ARC9 Settings Menu, or higher using its console command. But do know that if you equip too many, Garry's Mod may <color=255,100,100>crash</color>.
 ]]
 
+L["unlameifier_core_splitter.printname"] = "Unlameifier Core Splitter"
+L["unlameifier_core_splitter.compactname"] = "UL Splitter"
+L["unlameifier_core_splitter.description"] = "Splits this slot into two. Useful in order to avoid excessively long chains of attachments, or retaining the original purpose of this slot."
+
 //////////////////////////////// End of core
+
+//////////////////////////////// Start of core_utility
+///////////////// Attachments
+
+//////////////////////////////// End of core_utility
 
 //////////////////////////////// Start of attpack_eft
 ///////////////// Tips & Notes
@@ -745,6 +754,19 @@ L["unlameifier_eft_charm_right.description"] = "Experiment that allows a univers
 
 
 
+
+//////////////////////////////// Start of GetPhrase
+//////////////// Info
+--[[
+"GetPhrase" is used to allow attachments to use previously translated strings as its translations. If this file is a non-English file, i.e. Spanish or German, this can be removed to save on the very slight file size.
+--]]
+
+//////////////// Attachments
+L["unlameifier_patch_general_blank_core.printname"] = ARC9:GetPhrase("unlameifier_patch_general_blank.printname") or "Blank Attachment"
+L["unlameifier_patch_general_blank_core.compactname"] = ARC9:GetPhrase("unlameifier_patch_general_blank.compactname") or "UL Blank"
+L["unlameifier_patch_general_blank_core.description"] = ARC9:GetPhrase("unlameifier_patch_general_blank.description") or "Loc. Error!"
+
+//////////////////////////////// End of tuning_system_utility
 
 //////////////////////////////// Start of LEGACY STUFF
 -- All this will be removed in due time. Ignore.

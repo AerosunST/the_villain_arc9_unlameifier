@@ -172,7 +172,7 @@ ATT.Attachments = {
         PrintName = "EFT Pic. Rear Sights",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_rearsight", "eft_ar_rearsight"},
+        Category = {"eft_rearsight", "eft_ar_rearsight", "eft_rearsight_hk416"},
 		Icon_Offset = Vector(0, 0, 3),
     },
     {

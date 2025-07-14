@@ -1178,6 +1178,7 @@ APS/APB
 MP-443 Grach
 PL-15
 Sako TRG M10
+AK-50
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -2750,10 +2751,8 @@ ATT.Folder = "Patches/EFT/Magazines/PP-91 Kedr"
 ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_kedr_mag_20" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
-NOTE: Use 30rnd patch for STANAG mag animations.
-
 This patch is for use on the following (scroll down to see):
-G36
+PP-91 Kedr
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -2783,10 +2782,8 @@ ATT.Folder = "Patches/EFT/Magazines/PP-91 Kedr"
 ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_kedr_mag_30" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
-NOTE: Use 30rnd patch for STANAG mag animations.
-
 This patch is for use on the following (scroll down to see):
-G36
+PP-91 Kedr
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -2821,7 +2818,7 @@ ATT.Description = [[Forces any weapon that supports ActivateElement "eft_ppsh41_
 KNOWN BUG: This will make the magazine this animation pairs with appear on the weapon. I *may* have a solution to it but I'm not sure how to implement it just yet. Shoot me a message @neosunpersonal on Discord if you have a good idea as to how to implement ATT.Hook_TranslateAnimation. Thanks.
 
 This patch is for use on the following (scroll down to see):
-G36
+PPSh-41
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -3339,7 +3336,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_sr2m_mag_20" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+SR-2M
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -3370,7 +3367,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_sr2m_mag_30" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+SR-2M
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4234,7 +4231,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m1a_mag_20" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M1A
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4265,7 +4262,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m1a_mag_30" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M1A
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4296,7 +4293,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m1a_mag_50" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M1A
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4327,7 +4324,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m1a_mag_10" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M1A
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4360,7 +4357,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m700_mag_w5" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M700
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4391,7 +4388,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m700_mag_w10" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M700
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4422,7 +4419,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m700_mag_pro20" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M700
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4453,7 +4450,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m700_mag_pro10" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M700
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4484,7 +4481,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m700_mag_a10" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M700
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4515,7 +4512,7 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "eft_m700_mag_p5" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-G36
+M700
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -4789,7 +4786,7 @@ ATT.Description = [[Forces any weapon that supports ActivateElement "eft_vpo215_
 KNOWN BUG: This will make the magazine this animation pairs with appear on the weapon. I *may* have a solution to it but I'm not sure how to implement it just yet. Shoot me a message @neosunpersonal on Discord if you have a good idea as to how to implement ATT.Hook_TranslateAnimation. Thanks.
 
 This patch is for use on the following (scroll down to see):
-G36
+VPO-215
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -5014,3 +5011,36 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_patch_eft_magelement_eft_mag_toz106_5")
+
+///////////////////////////////////////      PATCHES (AK-50) (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mp7_mag_20)"
+ATT.CompactName = "eft_mp7_mag_20"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/MP7"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mp7_mag_20" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+MP7 A1/A2
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mp7_mag_20"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_patch_eft_magelement_eft_mp7_mag_20")

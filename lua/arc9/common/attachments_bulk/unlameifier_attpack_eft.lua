@@ -1,3 +1,30 @@
+///////////////////////////////////////      BLANK ATTACHMENT (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Blank Attachment"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "UL Extras"
+ATT.Free = true
+ATT.Description = [[This attachment acts as a bandaid solution to let you soft-remove an attachment without removing the attachments that are connected to this slot. Good for reference, testing, and quickly fixing issues but it is good practice to not use these wastefully as you can only attach up to 100 attachments on one weapon in ARC9 by default.
+
+Tip: The maximum number of attachments you can have equipped on a weapon can be raised up to 200 in the settings menu. It can be raised further via its associated console command, but beware that there is a point where the Source Engine will crash if you equip too many.]]
+ATT.SortOrder = 1
+
+ATT.Category = "eft_custom_slot"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_custom_slot_blank")
+
 local ATT = {}
 
 ///////////////////////////////////////      OPTICS (GENERAL) (moka_pls_localize)
@@ -2168,6 +2195,46 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_338lapua")
+
+///////////////////////////////////////      CALIBERS (.50 BMG) (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = ".50 BMG"
+ATT.CompactName = ".50 BMG"
+ATT.Icon = Material("entities/eft_ak50_attachments/hp.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Calibers/Heavy"
+ATT.Free = true
+ATT.Description = [[Changes the ammo your weapon fires to .50 BMG rounds from Darsu's Escape from Tarkov weapon packs. If you have the Sound Mods module installed, you can change the sound of your weapon to make it sound more appropriate for what you are shooting out of it.
+
+Used by the AK-50.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience. You also have the Sound Mods module pre-installed with the Github version.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+ATT.Ammo = "357"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT .50 BMG",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_ammo_50bmg"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_caliber_50bmg")
 
 ///////////////////////////////////////      CALIBERS (12/70) (moka_pls_localize)
 

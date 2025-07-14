@@ -2191,3 +2191,502 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_mpx_hg_gen2_8_unlocked")
+
+local ATT = {}
+
+
+///////////////////////////////////////      eft_mount_pistol_roni_myt_unlocked
+
+
+ATT = {}
+
+ATT.PrintName = "Micro Roni CAA Universal (Unlocked)"
+ATT.CompactName = "Roni CAAU (Unlocked)"
+ATT.Icon = Material("entities/eft_roni_attachments/tac_roniu.png", "mips smooth")
+ATT.Description = [[A carbine length conversion kit for *most* pistol family, fitted with full rails. Not guarateed to have your barrel actually pointed out of the bridge. This version removes any ExcludeElements flags so it can be used with any combination of sights (and also making it less finnicky to work with)
+
+<color=255,100,100>Requires EFT Roni Kit for Glock by mytton</color>]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "UL Extras"
+
+ATT.EFTErgoAdd = -5
+ATT.CustomCons = { Ergonomics = "-5" }
+ATT.HeatCapacityMult = 1.5
+
+ATT.VisualRecoilMult = 0.8
+
+ATT.ActivateElements = {"eft_mount_um3"}
+ATT.Category = {"eft_um3" }
+-- "eft_sr1mp_tac"
+-- "eft_tt33_tac"
+-- "eft_1911_tac"
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(0,1)
+	model:SetBodygroup(1,1)
+	model:SetBodygroup(5,1)
+	model:SetBodygroup(6,1)
+	if swep:GetElements()["eft_muzzle_roni_myt"] then
+        model:SetBodygroup(3,0)
+	else
+        model:SetBodygroup(3,1)
+    end
+	model:SetBodygroup(2,1)
+	if swep:GetElements()["eft_roni_grip_thumb_myt"] then
+        model:SetBodygroup(2,0)
+	else
+        model:SetBodygroup(2,1)
+    end
+	-- this is like AttachmentElements but worse
+	model:SetBodygroup(4,2)
+	if swep:GetElements()["g17_roni_myt"] then
+        model:SetBodygroup(4,0)
+	elseif swep:GetElements()["g17_roni_folded"] then
+        model:SetBodygroup(4,1)
+	elseif swep:GetElements()["eft_stock_g17_ronitom4_myt"] then
+        model:SetBodygroup(4,3)
+	else
+        model:SetBodygroup(4,2)
+    end
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_tactical_top", "eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        --Bone = "weapon",
+        Pos = Vector(4, 0, 2.3),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 1
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
+        Pos = Vector(8.5, 0, 2.3),
+        Ang = Angle(0, 0, 180),
+        ExtraSightDistance = 2
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(-1.6, 0, 2.3),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 2
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(-0.5, 1.35, 1),
+        Ang = Angle(0, 0, 90),
+        Icon_Offset = Vector(1, 0, 0),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-0.5, -1.4, 1),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(-1, 0, 0),
+    }, 
+
+	{
+        PrintName = "Stock",
+        Category = {"eft_g17_stock_roni"},
+        Pos = Vector(11.8, 0, 0.9),
+        Ang = Angle(-1, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{
+        PrintName = "Flash Guard",
+        Category = {"eft_g17_muzzle_roni"},
+        Pos = Vector(-3, 0, 1),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.Model = "models/weapons/arc9/myt_eft/c_glock_roni_bm.mdl"
+ATT.LHIK = false
+
+ATT.ModelOffset = Vector(-23.8,-4.25, 3.8)
+ATT.ModelAngleOffset = Angle(0,0,180)
+ATT.BoneMerge = false
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-2, 0, 0)
+end
+
+ATT.ActivePosHook = function(wep, vec)
+    return vec + Vector(0, 1, 0)
+end
+
+ATT.SprintPos = Vector(0, -5, -1)
+ATT.SprintAng = Angle(30, -5, -40)
+
+ARC9.LoadAttachment(ATT, "eft_mount_pistol_roni_myt_unlocked)")
+
+
+///////////////////////////////////////      eft_mount_g17_roni_myt_unlocked
+
+
+ATT = {}
+
+ATT.PrintName = "Micro Roni CAA (Unlocked)"
+ATT.CompactName = "Roni CAA (Unlocked)"
+ATT.Icon = Material("entities/eft_roni_attachments/tac_roni.png", "mips smooth")
+ATT.Description = [[A carbine length conversion kit for the Glock family, fitted with full rails. This version removes any ExcludeElements flags so it can be used with any combination of sights (and also making it less finnicky to work with)
+
+<color=255,100,100>Requires EFT Roni Kit for Glock by mytton</color>]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -6
+ATT.CustomCons = { Ergonomics = "-6" }
+ATT.HeatCapacityMult = 1.5
+
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.6
+
+ATT.ActivateElements = {"eft_mount_um3"}
+ATT.Category = {"eft_g17_tac" }
+ATT.Folder = "UL Extras"
+--ATT.Category = {"eft_g17_tac", "eft_um3", "eft_usp_tac", }
+-- "eft_sr1mp_tac"
+-- "eft_tt33_tac"
+-- "eft_1911_tac"
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,1)
+	model:SetBodygroup(6,1)
+	if swep:GetElements()["eft_muzzle_roni_myt"] then
+        model:SetBodygroup(3,0)
+	else
+        model:SetBodygroup(3,1)
+    end
+	model:SetBodygroup(2,1)
+	if swep:GetElements()["eft_roni_grip_thumb_myt"] then
+        model:SetBodygroup(2,0)
+	else
+        model:SetBodygroup(2,1)
+    end
+	-- this is like AttachmentElements but worse
+	model:SetBodygroup(4,2)
+	if swep:GetElements()["g17_roni_myt"] then
+        model:SetBodygroup(4,0)
+	elseif swep:GetElements()["g17_roni_folded"] then
+        model:SetBodygroup(4,1)
+	elseif swep:GetElements()["eft_stock_g17_ronitom4_myt"] then
+        model:SetBodygroup(4,3)
+	else
+        model:SetBodygroup(4,2)
+    end
+end
+
+ATT.IronSights = {
+    Pos = Vector(-4.28, -5, 0.5),
+    Ang = Angle(0, 0.01, 0),
+    Midpoint = { -- Where the gun should be at the middle of it's irons
+        Pos = Vector(-1, 0, 8),
+        Ang = Angle(0, 0, -145),
+    },
+    Magnification = 1.1,
+    ViewModelFOV = 54
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_tactical_top", "eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        --Bone = "weapon",
+        Pos = Vector(4, 0, 2.4),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 1
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
+        Pos = Vector(8.5, 0, 2.4),
+        Ang = Angle(0, 0, 180),
+        ExtraSightDistance = 2
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(-1.6, 0, 2.4),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 2
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big", "eft_tactical_roni"},
+        Pos = Vector(0, 1.35, 0.9),
+        Ang = Angle(0, 0, 90),
+        Icon_Offset = Vector(1, 0, 0),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(0, -1.35, 0.9),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(-1, 0, 0),
+    }, 
+
+	{
+        PrintName = "Stock",
+        Category = {"eft_g17_stock_roni"},
+        Pos = Vector(12, 0, 1),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{	-- ik bodge
+        PrintName = "Magwell",
+		Hidden = true,
+        Integral = true,
+        Installed = "eft_roni_grip_myt",
+        Category = {"eft_roni_grip"},
+        Pos = Vector(1, 0, -2),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{
+        PrintName = "Flash Guard",
+        Category = {"eft_g17_muzzle_roni"},
+        Pos = Vector(-3, 0, 1),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.Model = "models/weapons/arc9/myt_eft/c_glock_roni_bm.mdl"
+ATT.LHIK = false
+
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-2, 0, 0)
+end
+
+ATT.ActivePosHook = function(wep, vec)
+    return vec + Vector(0, 1, 0)
+end
+
+ATT.SprintPos = Vector(0, -5, -1)
+ATT.SprintAng = Angle(30, -5, -40)
+
+ARC9.LoadAttachment(ATT, "eft_mount_g17_roni_myt_unlocked")
+
+
+///////////////////////////////////////      eft_mount_usp_roni_myt_unlocked
+
+
+ATT = {}
+
+ATT.PrintName = "Micro Roni CAA (Unlocked)"
+ATT.CompactName = "Roni CAA (Unlocked)"
+ATT.Icon = Material("entities/eft_roni_attachments/tac_roni.png", "mips smooth")
+ATT.Description = [[A carbine length conversion kit adapted for the USP, fitted with full rails. This version removes any ExcludeElements flags so it can be used with any combination of sights (and also making it less finnicky to work with)
+
+<color=255,100,100>Requires EFT Roni Kit for Glock by mytton</color>]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -6
+ATT.CustomCons = { Ergonomics = "-6" }
+ATT.HeatCapacityMult = 1.5
+
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.6
+
+ATT.ActivateElements = {"eft_mount_um3"}
+ATT.Category = {"eft_usp_tac" }
+ATT.Folder = "UL Extras"
+--ATT.Category = {"eft_g17_tac", "eft_um3"}
+-- "eft_sr1mp_tac"
+-- "eft_tt33_tac"
+-- "eft_1911_tac"
+
+ATT.DrawFunc = function(swep, model, wm) 
+	model:SetBodygroup(5,1)
+	model:SetBodygroup(6,1)
+	if swep:GetElements()["eft_muzzle_roni_myt"] then
+        model:SetBodygroup(3,0)
+	else
+        model:SetBodygroup(3,1)
+    end
+	model:SetBodygroup(2,1)
+	if swep:GetElements()["eft_roni_grip_thumb_myt"] then
+        model:SetBodygroup(2,0)
+	else
+        model:SetBodygroup(2,1)
+    end
+	-- this is like AttachmentElements but worse
+	model:SetBodygroup(4,2)
+	if swep:GetElements()["g17_roni_myt"] then
+        model:SetBodygroup(4,0)
+	elseif swep:GetElements()["g17_roni_folded"] then
+        model:SetBodygroup(4,1)
+	elseif swep:GetElements()["eft_stock_g17_ronitom4_myt"] then
+        model:SetBodygroup(4,3)
+	else
+        model:SetBodygroup(4,2)
+    end
+end
+
+ATT.IronSights = {
+    Pos = Vector(-4.28, -5, 0.5),
+    Ang = Angle(0, 0.01, 0),
+    Midpoint = { -- Where the gun should be at the middle of it's irons
+        Pos = Vector(-1, 0, 8),
+        Ang = Angle(0, 0, -145),
+    },
+    Magnification = 1.1,
+    ViewModelFOV = 54
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_tactical_top", "eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        --Bone = "weapon",
+        Pos = Vector(4, 0, 2.45),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 1
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
+        Pos = Vector(7.75, 0, 2.45),
+        Ang = Angle(0, 0, 180),
+        ExtraSightDistance = 2
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(-2.25, 0, 2.45),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 2
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big", "eft_tactical_roni"},
+        Pos = Vector(-0.5, 1.35, 0.9),
+        Ang = Angle(0, 0, 90),
+        Icon_Offset = Vector(1, 0, 0),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-0.5, -1.35, 0.9),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(-1, 0, 0),
+    }, 
+
+	{
+        PrintName = "Stock",
+        Category = {"eft_g17_stock_roni"},
+        Pos = Vector(11.35, 0, 1),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{
+        PrintName = "Magwell",
+		Hidden = true,
+        Integral = true,
+        Installed = "eft_roni_grip_myt",
+        Category = {"eft_roni_grip"},
+        Pos = Vector(1, 0, -2),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{
+        PrintName = "Flash Guard",
+        Category = {"eft_g17_muzzle_roni"},
+        Pos = Vector(-3, 0, 1),
+        Ang = Angle(0, 0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.Model = "models/weapons/arc9/myt_eft/c_usp_roni_bm.mdl"
+ATT.LHIK = false
+
+ATT.ModelOffset = Vector(0,0,0)
+ATT.ModelAngleOffset = Angle(0,0,0)
+ATT.BoneMerge = true
+
+ATT.CustomizePosHook = function(wep, vec)
+    return vec + Vector(-2, 0, 0)
+end
+
+ATT.ActivePosHook = function(wep, vec)
+    return vec + Vector(0, 1, 0)
+end
+
+ATT.SprintPos = Vector(0, -5, -1)
+ATT.SprintAng = Angle(30, -5, -40)
+
+ARC9.LoadAttachment(ATT, "eft_mount_usp_roni_myt_unlocked")
+
+
+///////////////////////////////////////      eft_stock_g17_roni_myt_unlocked
+
+
+ATT = {}
+
+ATT.PrintName = "Roni folding stock (Unlocked)"
+ATT.CompactName = "Stock (Unlocked)"
+ATT.Icon = Material("entities/eft_roni_attachments/stock_roni.png", "mips smooth")
+ATT.Description = [[A folding stock designed to fit the Micro Conversion Kit. This version removes any ExcludeElements flags so it can be used with any combination of sights (and also making it less finnicky to work with)
+
+<color=255,100,100>Requires EFT Roni Kit for Glock by mytton</color>]]
+
+ATT.RecoilMult = 0.7
+ATT.VisualRecoilMult = 0.7
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ToggleStats = {
+    {
+        PrintName = "Unfolded",
+		ActivateElements = {"g17_roni_myt"},
+        RecoilMult = 0.7,
+        VisualRecoilMult = 0.7
+    },
+    {
+        PrintName = "Folded",
+		ActivateElements = {"g17_roni_folded"}
+    },
+}
+
+ATT.Category = {"eft_g17_stock_roni"}
+ATT.Folder = "UL Extras"
+
+--[[ATT.CustomizePosHook = function(wep, vec)
+	if wep:GetElements()["g17_roni_folded"] then
+		return vec + Vector(0, 0, 0)
+	else
+		return vec + Vector(-1, 0, 0)
+    end
+end]]
+
+ATT.ActivePosHook = function(wep, vec)
+	if wep:GetElements()["g17_roni_folded"] then
+		return vec + Vector(0, 0, 0)
+	else
+		return vec + Vector(0, -1, 0)
+    end
+end
+
+
+ARC9.LoadAttachment(ATT, "eft_stock_g17_roni_myt_unlocked")

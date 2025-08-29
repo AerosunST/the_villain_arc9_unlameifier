@@ -41,75 +41,6 @@ ARC9.LoadAttachment(ATT, "unlameifier_eft_camo")
 
 ATT = {}
 
-ATT.PrintName = "Glock Mag 9mm Conversion"
-ATT.CompactName = "Glock Mags"
-ATT.Icon = Material("entities/eft_glock_attachments/mag.png", "mips smooth")
-ATT.Folder = "Unlameifier"
-ATT.Description = [[Super magical converion kit that makes your AR-15 mag compatible weapons able to use Glock Mags. Forgive me Father, for I have sinned.
-
-Make sure to equip Glock Mags attachment for extra realism.]]
-ATT.SortOrder = 0
-
-ATT.MenuCategory = "ARC9 - Unlameifier"
-ATT.Ammo = "pistol"
-
-ATT.Category = {"eft_ar15_mag"}
-ATT.Attachments = {
-    {
-        PrintName = "Glock Mags",
-        Bone = "j_gun",
-        Pos = Vector(0.5, 0, 1.5),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(-0.5, 0, -0.5),
-        Category = {"eft_g17_mag"},
-    },
-	}
-	
-ATT.ActivateElements = {"hasmag"}
-ATT.ActivateElements = {"30rnd"}
-ATT.ShootSound = { "weapons/darsu_eft/glock/glock18_outdoor_close_1.ogg", "weapons/darsu_eft/glock/glock18_outdoor_close_2.ogg"}
-ATT.ShootSoundIndoor = { "weapons/darsu_eft/glock/glock18_indoor_close_1.ogg", "weapons/darsu_eft/glock/glock18_indoor_close_2.ogg"}
-
-ARC9.LoadAttachment(ATT, "unlameifier_eft_ar15_glock_conversion")
-
-// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
-
-ATT = {}
-
-ATT.PrintName = "AK-74 Mag Conversion"
-ATT.CompactName = "AK-74 Mags"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/5456l20.png", "mips smooth")
-ATT.Folder = "Unlameifier"
-ATT.Description = [[Super magical converion kit that makes your AR-15 mag compatible weapons able to use AK-74 Mags. Forgive me Father, for I have sinned.
-
-BE SURE TO EQUIP THE 5.45x39MM AMMO ATTACHMENT IN ITS RESPECTIVE SLOT!!! You don't need to but your immersion will be ruined if you don't!!!!!
-
-doesn't alter sound because an argument could be made that they sound more or less the damn same.]]
-ATT.SortOrder = 0
-
-ATT.MenuCategory = "ARC9 - Unlameifier"
-
-ATT.Category = {"eft_ar15_mag"}
-ATT.Attachments = {
-    {
-        PrintName = "AK-74 Mags",
-        Bone = "j_gun",
-        Pos = Vector(0.1, 0, 2),
-        Ang = Angle(0, 90, 0),
-        Icon_Offset = Vector(-0.5, 0, -0.5),
-        Category = {"eft_ak_545_mag"},
-    },
-	}
-	
-ATT.ActivateElements = {"hasmag"}
-ATT.ActivateElements = {"30rnd"}
-
-ARC9.LoadAttachment(ATT, "unlameifier_eft_ar15_ak74_conversion")
-
-// WARNING! TEMPORARY FILE! DELETE AS SOON AS POSSIBLE.
-
-ATT = {}
-
 ATT.PrintName = "AKM Mag Conversion"
 ATT.CompactName = "AKM Mags"
 ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
@@ -383,3 +314,3055 @@ ATT.ToggleStats = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_magic_laser")
+
+// POSSIBLE IMPLEMENTATION. IF RESULTS ARE DESIREABLE, MOVE TO unlameifer_attpack_eft.lua AND EXPAND FROM THERE.
+
+ATT = {}
+
+ATT.PrintName = "AN/PEQ-15 Custom Laser (Base)"
+ATT.CompactName = "AN/PEQ-15 Custom"
+ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL) produced by L3 Technologies is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator.
+
+This version acts as a foundation to be used for customization. This attachment alone is just a model for visual display (which has the added benefit of now being able to use Advanced Camo), the real laser attachment needs to be selected in the next subslot (it is made invisible to avoid Z-Fighting).]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.Category = {"eft_tactical", "eft_tactical_top"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "UL Extras"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/arc9/pp4/atts/gear/tactical_all_insight_anpeq15_BLK_camo"
+ATT.AdvancedCamoSupport = true
+
+ATT.Attachments = {
+    {
+        PrintName = "AN/PEQ-15 Laser",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"pp_anpeq15_laser"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "pp_tactical_all_insight_anpeq15")
+
+//////////////////////////////////////// SHARED
+
+local flaremat = Material("effects/arc9_eft/laserdot", "mips smooth")
+
+local function drawlight(swep, model, mode, offset, color)
+    if swep:GetValue("EFTMode" .. mode) then
+        render.SetMaterial(flaremat)
+        render.DrawSprite(model:LocalToWorld(offset), 0.3, 0.3, color)
+    end
+end
+
+//////////////////////////////////////// LASER OPTIONS FOR AN/PEQ-15
+
+///////////////// White
+
+ATT = {}
+
+ATT.PrintName = "White Laser"
+ATT.CompactName = "White Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser White.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 255, 255),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_white")
+
+///////////////// ARC9 Orange
+
+ATT = {}
+
+ATT.PrintName = "ARC9 Orange Laser"
+ATT.CompactName = "ARC9 Orange Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser ARC9 Orange, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(235, 113, 0),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_arc9orange")
+
+///////////////// Blue
+
+ATT = {}
+
+ATT.PrintName = "Blue Laser"
+ATT.CompactName = "Blue Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Blue.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 0, 255),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_blue")
+
+///////////////// Cream
+
+ATT = {}
+
+ATT.PrintName = "Cream Laser"
+ATT.CompactName = "Cream Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Cream, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 243, 220),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_cream")
+
+///////////////// Desert Tan
+
+ATT = {}
+
+ATT.PrintName = "Desert Tan Laser"
+ATT.CompactName = "Desert Tan Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Desert Tan, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(206, 184, 135),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_deserttan")
+
+///////////////// Error
+
+ATT = {}
+
+ATT.PrintName = "Error Laser"
+ATT.CompactName = "Error Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Error, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 0, 220),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_error")
+
+///////////////// FDE
+
+ATT = {}
+
+ATT.PrintName = "FDE Laser"
+ATT.CompactName = "FDE Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser FDE, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(147, 127, 100),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_fde")
+
+///////////////// Mulberry
+
+ATT = {}
+
+ATT.PrintName = "Mulberry Laser"
+ATT.CompactName = "Mulberry Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Mulberry, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(122, 21, 45),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_mulberry")
+
+///////////////// Forest Green
+
+ATT = {}
+
+ATT.PrintName = "Forest Green Laser"
+ATT.CompactName = "Forest Green Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Forest Green, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(105, 121, 62),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_forestgreen")
+
+///////////////// Green
+
+ATT = {}
+
+ATT.PrintName = "Green Laser"
+ATT.CompactName = "Green Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Green.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 255, 0),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_green")
+
+///////////////// Halloween A
+
+ATT = {}
+
+ATT.PrintName = "Halloween A Laser"
+ATT.CompactName = "Halloween A Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Halloween A, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(235, 113, 0),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_halloweena")
+
+///////////////// Halloween B
+
+ATT = {}
+
+ATT.PrintName = "Halloween B Laser"
+ATT.CompactName = "Halloween B Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Halloween B, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(138, 89, 232),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_halloweenb")
+
+///////////////// Hot Pink
+
+ATT = {}
+
+ATT.PrintName = "Hot Pink Laser"
+ATT.CompactName = "Hot Pink Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Hot Pink, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(223, 0, 126),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_hotpink")
+
+///////////////// Light Blue
+
+ATT = {}
+
+ATT.PrintName = "Light Blue Laser"
+ATT.CompactName = "Light Blue Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Light Blue, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 115, 222),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_lightblue")
+
+///////////////// Cyan
+
+ATT = {}
+
+ATT.PrintName = "Cyan Laser"
+ATT.CompactName = "Cyan Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Cyan.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 255, 255),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_cyan")
+
+///////////////// Mountbatten Pink
+
+ATT = {}
+
+ATT.PrintName = "Mountbatten Pink Laser"
+ATT.CompactName = "Mountbatten Pink Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Mountbatten Pink, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(230, 173, 211),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_mbpink")
+
+///////////////// Navy A
+
+ATT = {}
+
+ATT.PrintName = "Navy A Laser"
+ATT.CompactName = "Navy A Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Navy A, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(61, 64, 116),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_navya")
+
+///////////////// Navy B
+
+ATT = {}
+
+ATT.PrintName = "Navy B Laser"
+ATT.CompactName = "Navy B Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Navy B, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(100, 119, 143),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_navyb")
+
+///////////////// Neosun A
+
+ATT = {}
+
+ATT.PrintName = "Neosun A Laser"
+ATT.CompactName = "Neosun A Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Neosun A, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(244, 173, 0),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_neosuna")
+
+///////////////// Neosun B
+
+ATT = {}
+
+ATT.PrintName = "Neosun B Laser"
+ATT.CompactName = "Neosun B Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Neosun B, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 43, 243),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_neosunb")
+
+///////////////// OD
+
+ATT = {}
+
+ATT.PrintName = "OD Laser"
+ATT.CompactName = "OD Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser OD, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(169, 176, 86),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_od")
+
+///////////////// Orange
+
+ATT = {}
+
+ATT.PrintName = "Orange Laser"
+ATT.CompactName = "Orange Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Orange, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(235, 113, 1),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_orange")
+
+///////////////// Pink
+
+ATT = {}
+
+ATT.PrintName = "Pink Laser"
+ATT.CompactName = "Pink Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Pink, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 83, 244),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_pink")
+
+///////////////// Purple
+
+ATT = {}
+
+ATT.PrintName = "Purple Laser"
+ATT.CompactName = "Purple Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Purple, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(89, 0, 223),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_purple")
+
+///////////////// Green
+
+ATT = {}
+
+ATT.PrintName = "Red Laser"
+ATT.CompactName = "Red Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Red.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 0, 0),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_red")
+
+///////////////// Teal
+
+ATT = {}
+
+ATT.PrintName = "Teal Laser"
+ATT.CompactName = "Teal Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Teal, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(0, 249, 147),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_teal")
+
+///////////////// Synthetic Purple
+
+ATT = {}
+
+ATT.PrintName = "Synthetic Purple Laser"
+ATT.CompactName = "Synthetic Purple Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Synthetic Purple, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(112, 0, 207),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_synthpurple")
+
+///////////////// Vampire
+
+ATT = {}
+
+ATT.PrintName = "Vampire Laser"
+ATT.CompactName = "Vampire Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Vampire, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(255, 0, 61),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_vampire")
+
+///////////////// Vampire Hunter A
+
+ATT = {}
+
+ATT.PrintName = "Vampire Hunter A Laser"
+ATT.CompactName = "Vampire Hunter A Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Vampire Hunter A, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(96, 45, 190),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_vampirehuntera")
+
+///////////////// Vampire Hunter B
+
+ATT = {}
+
+ATT.PrintName = "Vampire Hunter B Laser"
+ATT.CompactName = "Vampire Hunter B Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Vampire Hunter B, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(155, 68, 221),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_vampirehunterb")
+
+///////////////// Xipil
+
+ATT = {}
+
+ATT.PrintName = "Xipil Laser"
+ATT.CompactName = "Xipil Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Xipil, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(254, 232, 168),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_xipil")
+
+///////////////// Yellow
+
+ATT = {}
+
+ATT.PrintName = "Yellow Laser"
+ATT.CompactName = "Yellow Laser"
+ATT.Description = [[Makes the AN/PEQ-15's laser Yellow, using colors from A Variety of Virtual Vanities camo pack by Neosun.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"pp_anpeq15_laser"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/saa/shared/unlit_transparent"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 1.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(224, 162, 1),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, Color(255, 255, 255))
+end
+
+ARC9.LoadAttachment(ATT, "pp_laser_anpeq15_yellow")

@@ -324,6 +324,80 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mounts_mlok")
 
+///////////////////////////////////////      MOUNTS (Precision Reflex) (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov Rail Mounts (Precision Reflex)"
+ATT.CompactName = "EFT Mounts (Precision Reflex)"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Mounts"
+ATT.Free = true
+ATT.Description = [[Equip Precision Reflex mounts from Darsu's Escape from Tarkov weapon packs on this slot. These mounts are used on the Delta Carbon AR-15 handguard.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT PR Mounts",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_mount_precis_t", "eft_mount_precis_s", "eft_mount_precis_b"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mounts_pr")
+
+///////////////////////////////////////      MOUNTS (Precision Reflex) (moka_pls_localize)
+
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov Rail Mounts (Alexander Arms)"
+ATT.CompactName = "EFT Mounts (Alexander Arms)"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Mounts"
+ATT.Free = true
+ATT.Description = [[Equip Alexander Arms mounts from Darsu's Escape from Tarkov weapon packs on this slot. These mounts are used on the MK10 AR-15 handguard.
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT PR Mounts",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_mount_alexander_10", "eft_mount_alexander_3",},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_mounts_aa")
+
 ///////////////////////////////////////      MOUNTS (KeyMod) (moka_pls_localize)
 
 
@@ -384,7 +458,7 @@ ATT.Attachments = {
         PrintName = "EFT Tacticals",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Category = {"eft_tactical", "eft_tactical_pistol", "eft_tactical_top", "eft_tactical_top_big"},
+        Category = {"eft_tactical", "eft_tactical_pistol", "eft_tactical_top", "eft_tactical_top_big", "eft_bipod"},
 		Icon_Offset = Vector(0, 0, 3),
     },
     {

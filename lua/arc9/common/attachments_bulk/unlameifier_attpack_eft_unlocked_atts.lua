@@ -654,6 +654,32 @@ ATT.Folder = "UL Extras"
 
 ARC9.LoadAttachment(ATT, "unlameifier_eft_gas_ar15_lopro_unlocked")
 
+///////////////////////////////////////      eft_gas_ar15_mk12g1
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Precision Reflex Mk12 Gen.1 Flip-Up Front Sight Gas Block"
+ATT.CompactName = "Mk12 Gen.1"
+ATT.Icon = Material("entities/eft_ar15_attachments/68caac02269e10396503acfa.png", "mips smooth")
+ATT.Description = [[A gas block with an integrated foldable front sight for the AR-15 platform. Manufactured by Precision Reflex. This version removes any Element flags to allow it to be used with any combination of handguards and barrel. Also, please ping Neosun or Moka in Diamond Doves when this attachment gains Camo Support or receives changes.]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasGas = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_precision_reflex_mk12_gen_1_folding_gas_block.mdl"
+ATT.EFTErgoAdd = 0.5
+ATT.CustomPros = { Ergonomics = "+0.5" }
+ATT.RecoilMult = 0.985
+ATT.VisualRecoilMult = 0.985
+ATT.Category = {"eft_ar15_gasblock_mk12", "eft_ar15_gasblock"}
+ATT.Folder = "UL Extras"
+
+ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, (swep:GetValue("FoldSights") or swep:HasElement("eft_frontsight")) and 1 or 0) end
+
+ARC9.LoadAttachment(ATT, "unlameifier_eft_gas_ar15_mk12g1_unlocked")
+
 //////////////////////////////////////////////////////////////////////////////      HK416 Parts (moka_pls_localize)
 
 ///////////////////////////////////////      eft_ar_buffertube_hkenh

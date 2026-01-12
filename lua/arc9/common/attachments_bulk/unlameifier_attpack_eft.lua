@@ -472,6 +472,49 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_tacticals")
 
+///////////////////////////////////////      EFT CUSTOM PARTS RAIL COVERS (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Escape from Tarkov Rail Covers"
+ATT.CompactName = "EFT Rail Covers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Attachments/EFT/Mounts"
+ATT.Free = true
+ATT.Description = [[Equip rail covers from Stan Jacobs' EFT Custom Parts attachment pack on this slot. Beware that this comes in two slots to easily align two rail covers back to back. The intended orientation of a rail cover in this situation is for the clamp to be on the right. This requires EFT Custom Parts https://steamcommunity.com/sharedfiles/filedetails/?id=3368944270
+
+<color=255,0,0>NOTE TO GITHUB USERS: This will be a separate addon on workshop release. It is included here for your convenience.</color>]]  -- (anyone_pls_remove_ws_release)
+ATT.SortOrder = 1000
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "EFT Rail Covers",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_cst_railcovers_end", "eft_cst_railcovers"},
+		Icon_Offset = Vector(0, 0, 3),
+    },
+    {
+        PrintName = ("EFT Rail Covers End"),
+        Category = {"eft_cst_railcovers_end", "eft_cst_railcovers"},
+        Pos = Vector(-11.45, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-5.5, 0, 0.5),
+    },
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 4),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_atts_eft_railcovers")
+
 ///////////////////////////////////////      AR-15 MUZZLES (moka_pls_localize)
 
 

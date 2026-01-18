@@ -700,6 +700,62 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.1_horizontal")
 
+///////////////////////////////////////      (UTILITY) +0.05 HORIZONTAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment +0.05 Degrees Horizontally"
+ATT.CompactName = "+0.05H"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Horizontal"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments +0.05 Degrees Horizontally.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.01H] Attachments",
+        Pos = Vector(0.05, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.05_horizontal")
+
+///////////////////////////////////////      (UTILITY) +0.01 HORIZONTAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment +0.01 Degrees Horizontally"
+ATT.CompactName = "+0.01H"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Horizontal"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments +0.01 Degrees Horizontally.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.01H] Attachments",
+        Pos = Vector(0.01, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.01_horizontal")
+
 ///////////////////////////////////////      (UTILITY) 0 HORIZONTAL POSITION (moka_pls_localize)
 ATT = {}
 
@@ -727,6 +783,62 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_0_horizontal")
+
+///////////////////////////////////////      (UTILITY) -0.01 HORIZONTAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment -0.01 Degrees Horizontally"
+ATT.CompactName = "-0.01H"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Horizontal"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments -0.01 Degrees Horizontally.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
+ATT.SortOrder = -0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.01H] Attachments",
+        Pos = Vector(-0.01, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus0.01_horizontal")
+
+///////////////////////////////////////      (UTILITY) -0.05 HORIZONTAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment -0.05 Degrees Horizontally"
+ATT.CompactName = "-0.05H"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Horizontal"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments -0.05 Degrees Horizontally.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Vertical instead.]]
+ATT.SortOrder = -0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.05H] Attachments",
+        Pos = Vector(-0.05, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus0.05_horizontal")
 
 ///////////////////////////////////////      (UTILITY) -0.1 HORIZONTAL POSITION (moka_pls_localize)
 ATT = {}
@@ -1512,6 +1624,62 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.1_vertical")
 
+///////////////////////////////////////      (UTILITY) +0.05 VERTICAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment +0.05 Degrees Vertically"
+ATT.CompactName = "+0.05V"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Vertical"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments +0.05 Degrees Vertically.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.05V] Attachments",
+        Pos = Vector(0, 0, 0.05),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.05_vertical")
+
+///////////////////////////////////////      (UTILITY) +0.01 VERTICAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment +0.01 Degrees Vertically"
+ATT.CompactName = "+0.01V"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Vertical"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments +0.01 Degrees Vertically.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.01V] Attachments",
+        Pos = Vector(0, 0, 0.01),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.01_vertical")
+
 ///////////////////////////////////////      (UTILITY) 0 VERTICAL POSITION (moka_pls_localize)
 ATT = {}
 
@@ -1539,6 +1707,62 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_0_vertical")
+
+///////////////////////////////////////      (UTILITY) -0.01 VERTICAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment -0.01 Degrees Vertically"
+ATT.CompactName = "-0.01V"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Vertical"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments -0.01 Degrees Vertically.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = -0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.01V] Attachments",
+        Pos = Vector(0, 0, -0.01),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus0.01_vertical")
+
+///////////////////////////////////////      (UTILITY) -0.05 VERTICAL POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment -0.05 Degrees Vertically"
+ATT.CompactName = "-0.05V"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Vertical"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments -0.05 Degrees Vertically.
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = -0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.01V] Attachments",
+        Pos = Vector(0, 0, -0.05),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus0.05_vertical")
 
 ///////////////////////////////////////      (UTILITY) -0.1 VERTICAL POSITION (moka_pls_localize)
 ATT = {}
@@ -2324,6 +2548,62 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.1_sideways")
 
+///////////////////////////////////////      (UTILITY) +0.05 SIDEWAYS POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment +0.05 Degrees Sideways"
+ATT.CompactName = "+0.05S"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Sideways"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments +0.05 Degrees Sideways (Relative to Darsu's EFT AR-15).
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.05S] Attachments",
+        Pos = Vector(0, 0.05, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.05_sideways")
+
+///////////////////////////////////////      (UTILITY) +0.01 SIDEWAYS POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment +0.01 Degrees Sideways"
+ATT.CompactName = "+0.01S"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Sideways"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments +0.01 Degrees Sideways (Relative to Darsu's EFT AR-15).
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.01S] Attachments",
+        Pos = Vector(0, 0.01, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_plus0.01_sideways")
+
 ///////////////////////////////////////      (UTILITY) 0 SIDEWAYS POSITION (moka_pls_localize)
 ATT = {}
 
@@ -2351,6 +2631,62 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_0_sideways")
+
+///////////////////////////////////////      (UTILITY) -0.01 SIDEWAYS POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment -0.01 Degrees Sideways"
+ATT.CompactName = "-0.01S"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Sideways"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments -0.01 Degrees Sideways (Relative to Darsu's EFT AR-15).
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = -0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.01S] Attachments",
+        Pos = Vector(0, -0.01, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus0.01_sideways")
+
+///////////////////////////////////////      (UTILITY) -0.05 SIDEWAYS POSITION (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "Move Attachment -0.05 Degrees Sideways"
+ATT.CompactName = "-0.05S"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Sideways"
+ATT.Free = true
+ATT.Description = [[Moves any physical attachments -0.05 Degrees Sideways (Relative to Darsu's EFT AR-15).
+
+NOTE: This may not always be the correct axis. If you notice your attachment is floating or going in a direction you do not desire, try switching to Horizontal instead.]]
+ATT.SortOrder = -0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.05S] Attachments",
+        Pos = Vector(0, -0.05, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_minus0.05_sideways")
 
 ///////////////////////////////////////      (UTILITY) -0.1 SIDEWAYS POSITION (moka_pls_localize)
 ATT = {}
@@ -4147,6 +4483,62 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_twist_plus0.1")
 
+///////////////////////////////////////      (UTILITY) +0.05 TWIST (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "+0.05 Twist"
+ATT.CompactName = "+0.05T"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Twist"
+ATT.Free = true
+ATT.Description = [[Twists any physical attachments +0.05 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is twisted incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.05T] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0.05, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_twist_plus0.05")
+
+///////////////////////////////////////      (UTILITY) +0.01 TWIST (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "+0.01 Twist"
+ATT.CompactName = "+0.01T"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Twist"
+ATT.Free = true
+ATT.Description = [[Twists any physical attachments +0.01 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is twisted incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-P0.01T] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0.01, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_twist_plus0.01")
+
 ///////////////////////////////////////      (UTILITY) 0 TWIST (moka_pls_localize)
 ATT = {}
 
@@ -4174,6 +4566,62 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_twist_0")
+
+///////////////////////////////////////      (UTILITY) -0.01 TWIST (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "-0.01 Twist"
+ATT.CompactName = "-0.01T"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Twist"
+ATT.Free = true
+ATT.Description = [[Twists any physical attachments -0.01 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is twisted incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = -0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.01T] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0.01, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_twist_minus0.01")
+
+///////////////////////////////////////      (UTILITY) -0.05 TWIST (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "-0.05 Twist"
+ATT.CompactName = "-0.05T"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Position/Twist"
+ATT.Free = true
+ATT.Description = [[Twists any physical attachments -0.05 Degrees (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: This may not always be the correct direction. If you notice your attachment is twisted incorrectly, try going back to this attachment and selecting a different direction. Beware that attaching anything here after discovering something is facing the wrong direction will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = -0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-M0.05T] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0.05, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_twist_minus0.05")
 
 ///////////////////////////////////////      (UTILITY) -0.1 TWIST (moka_pls_localize)
 ATT = {}
@@ -4735,6 +5183,64 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0_XYZ")
+
+///////////////////////////////////////      (UTILITY) 0.01 SCALE (XYZ) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.01 Scale (XYZ)"
+ATT.CompactName = "0.01XYZ"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/XYZ"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.01 on the XYZ axis (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.01XYZ] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(0.01, 0.01, 0.01),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.01_XYZ")
+
+///////////////////////////////////////      (UTILITY) 0.05 SCALE (XYZ) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.05 Scale (XYZ)"
+ATT.CompactName = "0.05XYZ"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/XYZ"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.05 on the XYZ axis (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.05XYZ] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(0.05, 0.05, 0.05),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.05_XYZ")
 
 ///////////////////////////////////////      (UTILITY) 0.1 SCALE (XYZ) (moka_pls_localize)
 ATT = {}
@@ -5577,6 +6083,65 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0_X")
 
+
+///////////////////////////////////////      (UTILITY) 0.01 SCALE (X) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.01 Scale (X)"
+ATT.CompactName = "0.01X"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/X"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.01 on the X axis (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.01X] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(0.01, 1, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.01_X")
+
+///////////////////////////////////////      (UTILITY) 0.05 SCALE (X) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.05 Scale (X)"
+ATT.CompactName = "0.05X"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/X"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.05 on the X axis (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.05X] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(0.05, 1, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.05_X")
+
 ///////////////////////////////////////      (UTILITY) 0.1 SCALE (X) (moka_pls_localize)
 ATT = {}
 
@@ -6418,6 +6983,64 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0_Y")
 
+///////////////////////////////////////      (UTILITY) 0.01 SCALE (Y) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.01 Scale (Y)"
+ATT.CompactName = "0.01Y"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/Y"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.01 (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.01Y] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(1, 0.01, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.01_Y")
+
+///////////////////////////////////////      (UTILITY) 0.05 SCALE (Y) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.05 Scale (Y)"
+ATT.CompactName = "0.05Y"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/Y"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.05 (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.05Y] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(1, 0.05, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.05_Y")
+
 ///////////////////////////////////////      (UTILITY) 0.1 SCALE (Y) (moka_pls_localize)
 ATT = {}
 
@@ -7258,6 +7881,64 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0_Z")
+
+///////////////////////////////////////      (UTILITY) 0.01 SCALE (Z) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.01 Scale (Z)"
+ATT.CompactName = "0.01Z"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/Z"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.01 (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.01Z] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(1, 1, 0.01),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.01_Z")
+
+///////////////////////////////////////      (UTILITY) 0.05 SCALE (Z) (moka_pls_localize)
+ATT = {}
+
+ATT.PrintName = "0.05 Scale (Z)"
+ATT.CompactName = "0.05Z"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Utilities/Scale/Z"
+ATT.Free = true
+ATT.Description = [[Scales any physical attachments by 0.05 (using Darsu's Escape from Tarkov weapons as a point of reference).
+
+NOTE: While this is here mostly for fun, there ARE cases where some attachments can be incorrectly scaled between different weapon packs. If you notice your attachment is scaled incorrectly, try going back to this attachment and selecting a different size. Beware that attaching anything here after discovering something is incorrectly scaled will unattach that attachment. Once this is attached, however, you may freely change it to your heart's content.]]
+ATT.SortOrder = 0.05
+
+ATT.Category = {"unlameifier_attachments"}
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "[UL-S0.05Z] Attachments",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_attachments"},
+		Icon_Offset = Vector(0, 0, 2),
+		Scale = Vector(1, 1, 0.05),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_core_utility_att_scale_0.05_Z")
 
 ///////////////////////////////////////      (UTILITY) 0.1 SCALE (Z) (moka_pls_localize)
 ATT = {}
@@ -8171,7 +8852,65 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0x")
 
-///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.1x (moka_pls_localize)
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.01x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.01x Shooting Sound Pitch"
+ATT.CompactName = "0.01x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.01x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.01
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.01x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.01x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.05x Shooting Sound Pitch"
+ATT.CompactName = "0.05x Shooting Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Gunfire"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your gunfire sound by 0.05x. Can be used to make your weapon sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShootPitchMult = 0.01
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_gunfire_pitch_0.05x")
+
+///////////////////////////////////////      GUNFIRE PITCH MULTIPLIER 0.01x (moka_pls_localize)
 
 ATT = {}
 
@@ -8895,6 +9634,64 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.01x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.01x Shooting Sound Pitch"
+ATT.CompactName = "0.01x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.01x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.01
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.01x")
+
+///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.01x (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "0.05x Shooting Sound Pitch"
+ATT.CompactName = "0.05x Shell Pitch"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Toys/Sounds/Utility/Pitch/Shell"
+ATT.Free = true
+ATT.Description = [[Multiplies the pitch of your shell drop sound by 0.05x. Can be used to make your weapon's shells sound heavier, lighter, or just plain silly.]]
+ATT.SortOrder = 0.01
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.ShellPitchMult = 0.01
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_utility_shell_pitch_0.05x")
 
 ///////////////////////////////////////      SHELL PITCH MULTIPLIER 0.1x (moka_pls_localize)
 

@@ -77,6 +77,18 @@ ATT = {}
 
 table.Merge(ATT, sharedcode)
 
+ATT.PrintName = "600 RPM"
+ATT.Folder = "RPM/Fixed"
+ATT.Description = [[Changes your weapon's rate of fire to 600]]
+ATT.SortOrder = 500
+ATT.RPM = 600
+
+ARC9.LoadAttachment(ATT, "unlameifier_tuning_rpm_fixed_600")
+-------------------
+ATT = {}
+
+table.Merge(ATT, sharedcode)
+
 ATT.PrintName = "750 RPM"
 ATT.Folder = "RPM/Fixed"
 ATT.Description = [[Changes your weapon's rate of fire to 750]]

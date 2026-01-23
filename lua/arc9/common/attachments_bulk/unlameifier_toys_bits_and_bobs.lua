@@ -11,7 +11,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(222, 31, 31)
 
@@ -37,7 +47,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(31, 222, 73)
 
@@ -63,7 +83,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(31, 57, 222)
 
@@ -89,7 +119,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(222, 217, 31)
 
@@ -115,7 +155,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(222, 136, 31)
 
@@ -141,7 +191,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(124, 31, 222)
 
@@ -167,7 +227,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(222, 31, 213)
 
@@ -193,7 +263,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(255, 255, 255)
 
@@ -219,7 +299,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(31, 180, 222)
 
@@ -245,7 +335,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(31, 222, 188)
 
@@ -273,7 +373,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 ATT.TracerColor = Color(0, 255, 132)
 
@@ -301,7 +411,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 
 local colors = {
@@ -338,7 +458,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 
 ATT.TracerColorHook = function(swep, col)
@@ -379,7 +509,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 
 ATT.TracerColorHook = function(swep, col)
@@ -420,7 +560,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 
 local colors = {
@@ -464,7 +614,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 
 local colors = {
@@ -506,7 +666,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"unlameifier_core", }
 ATT.Folder = "Toys/Tracers"
 
-ATT.TracerNum = 1
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+    {
+        PrintName = "On Every Shot",
+        TracerNum = 1,
+	},
+    {
+        PrintName = "4-to-1",
+        TracerNum = 5,
+    },
+}
 ATT.TracerSize = 8
 
 ATT.FancyBullets = true

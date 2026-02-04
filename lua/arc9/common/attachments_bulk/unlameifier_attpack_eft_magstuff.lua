@@ -1135,10 +1135,8 @@ ATT.Free = true
 ATT.Description = [[Forces any weapon that supports ActivateElement "hasmag" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
 
 This patch is for use on the following (scroll down to see):
-Glock 17/18C/19X
 USP .45
 Desert Eagle L5/L6/XIX
-STM-9
 And any other weapons that utilize the magazines from the above mentioned.]]
 ATT.SortOrder = 1
 
@@ -1864,6 +1862,296 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "unlameifier_patch_eft_magelement_9mmmag")
+
+///////////////////////////////////////      PATCHES (GLOCK) (moka_pls_localize)
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_g17_std_17)"
+ATT.CompactName = "eft_mag_g17_std_17"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_g17_std_17" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_g17_std_17"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_g17_std_17")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_g19x_std_21)"
+ATT.CompactName = "eft_mag_g19x_std_21"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_g19x_std_21" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_g19x_std_21"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_g19x_std_21")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_slickers)"
+ATT.CompactName = "eft_mag_slickers"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_slickers" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_slickers"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_slickers")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_g17_gl9_21)"
+ATT.CompactName = "eft_mag_g17_gl9_21"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_g17_gl9_21" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_g17_gl9_21"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_g17_gl9_21")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_g19x)"
+ATT.CompactName = "eft_mag_g19x"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_g19x" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_g19x"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_g19x")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_g17_bigstick_33)"
+ATT.CompactName = "eft_mag_g17_bigstick_33"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_g17_bigstick_33" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_g17_bigstick_33"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_g17_bigstick_33")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_bigstick24)"
+ATT.CompactName = "eft_mag_bigstick24"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_bigstick24" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_bigstick24"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_bigstick24")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_bigstick31)"
+ATT.CompactName = "eft_mag_bigstick31"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_bigstick31" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_bigstick31"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_bigstick31")
+
+ATT = {}
+
+ATT.PrintName = "Magazine Animations (eft_mag_g17_sgmt_50)"
+ATT.CompactName = "eft_mag_g17_sgmt_50"
+ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png", "mips smooth")
+ATT.Folder = "Patches/EFT/Magazines/Glock"
+ATT.Free = true
+ATT.Description = [[Forces any weapon that supports ActivateElement "eft_mag_g17_sgmt_50" to use that animation flag. This is REQUIRED when using magazines that cause you to load a round via the chamber. An example situation of when to use this patch would be equipping Glock Magazines on an AR-15. Glock magazines do not have the flag that triggers the reload animation for AR-15, so this provides said flag.
+
+This patch is for use on the following (scroll down to see):
+Glock 17/18C/19X
+STM-9
+And any other weapons that utilize the magazines from the above mentioned.]]
+ATT.SortOrder = 1
+
+ATT.ActivateElements = {"eft_mag_g17_sgmt_50"}
+
+ATT.Category = "unlameifier_core"
+ATT.MenuCategory = "ARC9 - Unlameifier"
+
+ATT.Attachments = {
+    {
+        PrintName = "Unlameifier",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"unlameifier_core"},
+		Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "unlameifier_magpatch_eft_mag_g17_sgmt_50")
 
 ///////////////////////////////////////      PATCHES (AR-10) (moka_pls_localize)
 

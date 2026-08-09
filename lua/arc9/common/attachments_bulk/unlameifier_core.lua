@@ -15,6 +15,7 @@ ATT.Icon = Material("entities/arc9/unlameifier/arc9_unlameifier_unfinished.png",
 ATT.Folder = "Unlameifier/Core"
 ATT.Free = true
 ATT.SortOrder = -1
+ATT.AttNotForNPCs = true
 
 ATT.Category = "*"
 ATT.MenuCategory = "ARC9 - Unlameifier"
